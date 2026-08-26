@@ -197,7 +197,9 @@ def main():
 
     meta = {
         'source': 'https://github.com/aoe4world/data',
-        'patch': 'Season 13 / 16.1.9737',
+        'patch': ('Season 13 / 16.1.9737（構造）+ ゲーム本体 2026-07-05 版'
+                  '（HP・攻撃力・防御）' if os.path.exists(os.path.join(ROOT, 'data', 'attrib-live.json'))
+                  else 'Season 13 / 16.1.9737'),
         'langs': langs,
         'civs': {c: {'flag': f'assets/flags/{c}.png',
                      'en': (civs_idx.get(c) or {}).get('name', c)} for c in civs},

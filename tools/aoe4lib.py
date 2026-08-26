@@ -8,6 +8,33 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data', 'units-all.json')
 
 RAW = json.load(open(DATA))['data']
+
+# ゲーム本体から抜いた数値があれば、HP・防御・攻撃力だけ上書きする。
+# （コスト・生産時間・攻撃間隔は upstream 側が文明ボーナスを織り込んでいることがあり、
+#   こちらの生値と食い違うので触らない）
+LIVE_PATH = os.path.join(ROOT, 'data', 'attrib-live.json')
+LIVE_PATCHED = 0
+if os.path.exists(LIVE_PATH):
+    _live = json.load(open(LIVE_PATH, encoding='utf-8'))
+    for _u in RAW:
+        _lv = _live['units'].get(_u.get('attribName'))
+        if _lv:
+            if _lv.get('hp'):
+                if round(_lv['hp']) != _u.get('hitpoints'):
+                    LIVE_PATCHED += 1
+                _u['hitpoints'] = round(_lv['hp'])
+            for _a in (_u.get('armor') or []):
+                _v = (_lv.get('armor') or {}).get(_a['type'])
+                if _v is not None:
+                    if round(_v) != _a.get('value'):
+                        LIVE_PATCHED += 1
+                    _a['value'] = round(_v)
+        for _w in (_u.get('weapons') or []):
+            _lw = _live['weapons'].get(_w.get('attribName'))
+            if _lw and _lw.get('damage') is not None:
+                if round(_lw['damage'], 2) != _w.get('damage'):
+                    LIVE_PATCHED += 1
+                _w['damage'] = round(_lw['damage'], 2)
 IMG = 'https://data.aoe4world.com/images/units/'   # 元データ側のURL（接頭辞の除去に使う）
 IMG_BASE = 'assets/units/'                          # 表示はリポジトリ内のミラーを使う
 

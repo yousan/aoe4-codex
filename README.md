@@ -53,8 +53,12 @@ data/meta.json      文明名・施設名・アイコンのラベル
   （ゲームファイルから自動抽出されたもの）。`data/units-all.json` としてリポジトリに含めている
 - ユニットアイコンも同じ出典から `assets/units/` にミラーしている（396枚）。
   外部サイトへのホットリンクはしていないので、クローンすればオフラインでも完全に表示できる
-- 対応パッチ: **Season 13 / patch 16.1.9737**（元データの最終更新 2026-05-04）。
-  それ以降のバランス調整は反映されていない
+- 構造（どの文明・時代・生産施設か）は upstream の **Season 13 / 16.1.9737**（2026-05-04）
+- **HP・攻撃力・防御はゲーム本体の `Attrib.sga` から読み直している**ので、
+  手元のインストールと同じ値になる（`tools/extract_attrib.py`）。
+  差分は [docs/attrib-diff.md](docs/attrib-diff.md)
+- コスト・生産時間・攻撃間隔は upstream のまま。upstream 側が文明ボーナスを織り込んだ値を
+  持っていることがあり、生値と食い違うため
 - 数値はすべて **基礎値**。技術アップグレード・文明ボーナス・オーラの類は含まない
 - 再取得は `./tools/fetch.sh`（データとアイコンをまとめて更新する）
 
@@ -113,8 +117,10 @@ python3 tools/build_data.py                # data/i18n/<lang>.json を生成
 ## ビルド
 
 ```bash
-./tools/fetch.sh               # 元データとアイコンを取得
-python3 tools/build_data.py    # data/units.json と data/meta.json を生成（アプリはこれを読む）
+./tools/fetch.sh                          # 元データとアイコンを取得
+python3 tools/extract_locale.py           # 各言語の公式表記（要: ゲーム本体）
+python3 tools/extract_attrib.py --diff --md  # 現パッチの数値（要: ゲーム本体）
+python3 tools/build_data.py               # data/units.json と data/i18n/*.json を生成
 
 # 静的版（旧）を作り直すとき
 python3 tools/build_cards.py
