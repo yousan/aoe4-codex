@@ -1,0 +1,52 @@
+{
+ "name": "Jin Dynasty",
+ "description": "The Jin Dynasty emerges as a formidable military power in northern China. Mounted Villagers move swiftly to claim new resources and land. Seize opportunities and rally hosts of cavalry at a moment's notice to rout enemies and crush opposition. Bribe weak-willed enemies into desertion and establish profitable Tributary States.",
+ "classes": "Cavalry, Mounted Villagers, Tributaries",
+ "overview": [
+  {
+   "title": "Civilization Bonuses",
+   "list": [
+    "Train up to 20 Mounted Villagers, which gather and move significantly faster than a standard villager.",
+    "Select from three locations upon age up to build a Grassland.",
+    "Build War Stables near Grasslands to quickly produce Cavalry with Horses.",
+    "Emissaries can Establish Tributaries and Bribe enemy soldiers.",
+    "Tributaries generate Food, improve Trader income by +15%, and increase Mounted Villager build limit by +3.",
+    "Meng'an Mouke emplacements call upon defenders to protect nearby land.",
+    "Bed Crossbows are available in Feudal Age, replacing Springalds."
+   ]
+  },
+  {
+   "title": "Grasslands",
+   "description": "Select from 3 locations upon completing a Landmark to build Grasslands, which gradually spawn up to 5 Horses in their field. Horses increase the health of all Melee Cavalry units by +2 and all Ranged Cavalry by +1, or can be used by Stables within the Influence of the Grasslands to quickly train any mounted unit. Grasslands produce a new Horse every 90/60/45 seconds in the Feudal/Castle/Imperial Ages."
+  },
+  {
+   "title": "Jurchen Legacy",
+   "description": "Nomadic ancestry allows up to 20 Mounted Villagers which gather, construct, and move significantly faster but cost more. Establish Tributary States with Trade Posts to increase the maximum build limit by +3."
+  },
+  {
+   "title": "Meng'an Mouke",
+   "description": "Upgrade defensive structures with the Meng'an Mouke Emplacements, which send out defenders to protect nearby lands. Emplacements also slowly produce defenders to replenish losses."
+  },
+  {
+   "title": "Emissaries",
+   "description": "Train up to 2 Emissaries which come equipped with two powerful abilities.\nEstablish Tributaries on Neutral Trade Settlements to gain a loyal ally, which will gather food on your behalf, increases Mounted Villager build limit by +3, and increases your traders income by +15%.\nCast Bribe on groups of enemy units, turning foes into neutral fighters who will combat anything in their way."
+  },
+  {
+   "title": "Siege Expertise",
+   "description": "Build the Machine Workshop in Feudal Age granting early access to Bed Crossbows, a springald replacement which fires two projectiles into enemy formations. Bed Crossbow Emplacements replace Springald Emplacements at all defensive structures."
+  },
+  {
+   "title": "Unique Units",
+   "list": [
+    "Mounted Villager - Unique villager that gathers, builds, and moves significantly faster than a standard villager.",
+    "Emissary - Support unit which can bribe enemy soldiers and establish Tributary States.",
+    "Iron Pagoda - Heavy Cavalry encased from head to toe in armor, deals area damage on every attack.",
+    "Bed Crossbow - Springald replacement that fires a volley of projectiles at once, available in the Feudal Age.",
+    "Eruptor - Expensive Handcannon replacement that deals high single target damage.",
+    "Mohe Tribesman - Mounted archer replacement. Exceptional at hit and run tactics against light melee infantry.",
+    "Zhanma Swordsman - Armored Infantry available only in Imperial Age, deals impressive melee damage with bonus against cavalry.",
+    "Meng'an Mouke Defenders - Meng'an Mouke & Mounted Grenadiers spawn from unique emplacements to automatically defend Jin territory."
+   ]
+  }
+ ]
+}

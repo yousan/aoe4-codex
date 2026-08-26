@@ -1,0 +1,71 @@
+{
+ "name": "Japanese",
+ "description": "Ruling over the Japanese land, the Daimyo enhances agriculture and employs Samurai to defend their territory. The unique Forge works tirelessly to sharpen their blades to give an edge in battle. Fierce Samurai Bannermen lead their diverse army of infantry and cavalry to victory.",
+ "classes": "Agriculture, Bannermen, Infantry",
+ "overview": [
+  {
+   "title": "Civilization Bonuses",
+   "list": [
+    "Town Centers can be upgraded to improve defenses, harvest rates of nearby Farms, and the production cap of Samurai Bannermen.",
+    "Samurai Bannermen provide bonuses to nearby infantry and cavalry.",
+    "Samurai have Deflective Armor that can block ranged or melee attacks.",
+    "Barracks are cheaper to build.",
+    "Farmhouses are Food drop-off sites in addition to providing Population.",
+    "Forges are Gold and Stone drop-off sites in addition to containing military upgrades.",
+    "Gold deposited by Villagers generates bonus Stone and vice versa.",
+    "Extra melee damage upgrade accessible in the Dark Age (I).",
+    "Choose between Buddhist Monks or Shinto Priests with your choice of Castle Age (III) Landmark.",
+    "Keeps come equipped with Rocket Emplacements and increased health in the Imperial Age (IV).",
+    "Fishing Boats are cheaper to produce."
+   ]
+  },
+  {
+   "title": "Daimyo",
+   "description": "Town Centers can be upgraded into special buildings called the Daimyo Manor, Daimyo Palace, and Shogunate Castle. These buildings provide bonuses to nearby Villagers working Farms by 20%, 40%, 60%, increases the capacity of Samurai Bannerman by +1, +2, +3, and improves its defenses."
+  },
+  {
+   "title": "Hatamoto Samurai",
+   "description": "Field elite Samurai Bannermen that increase the damage of nearby infantry by +15% and cavalry by +10%. Bannermen Samurai drop their banners when killed, providing the same effect for a duration."
+  },
+  {
+   "title": "Calm of Mind",
+   "description": "Produce Samurai in the Dark Age (I). Samurai have the Deflective Armor ability which can periodically block melee or ranged attacks."
+  },
+  {
+   "title": "Farmhouse & Forge",
+   "description": "The Forge is a Gold and Stone drop-off and replaces the Mining Camp and Blacksmith. Additionally, it provides extra melee damage technology in the Dark Age (I). The Farmhouse both provides population and replaces the Mill as a Food drop-off."
+  },
+  {
+   "title": "Oda's Fortress",
+   "description": "Access a more powerful Keep in the Imperial Age (IV) that comes with increased health and Rocket Emplacements for a higher cost. Rockets attack quickly and deal massive damage to single targets."
+  },
+  {
+   "title": "Silver Mining",
+   "description": "When Villagers deposit Gold, 20% extra Stone is also produced and vice versa."
+  },
+  {
+   "title": "Religious Choice",
+   "description": "Select between Shinto and Buddhism with your choice of Age III Landmark. If choosing Shinto, you unlock the Shinto Priest. If choosing Buddhism, you unlock the Buddhist Monk. These religious units offer unique bonuses."
+  },
+  {
+   "title": "Samurai Districts",
+   "description": "Barracks are 50% cheaper to construct."
+  },
+  {
+   "title": "Fishing Village",
+   "description": "Fishing Boats are produced 25% cheaper."
+  },
+  {
+   "title": "Unique Units",
+   "list": [
+    "Samurai: Man-at-Arms replacement. Heavy melee infantry that have Deflective Armor which can block melee and ranged attacks.",
+    "Mounted Samurai: Lancer replacement. Heavy melee cavalry with Deflective Armor.",
+    "Yumi Ashigaru: Archer with improved move speed for reduced cost and health.",
+    "Onna-Bugeisha: Light melee infantry that can use their fast move speed and long weapon range to keep their opponent on alert.",
+    "Onna-Musha: Crossbowman replacement. Cavalry Archer that can use increased mobility to harass heavy targets.",
+    "Shinobi: Espionage unit that can act as a spy, sabotage buildings, or assassinate targets. Produced from the Koka Township Landmark.",
+    "Ozutsu: Heavy ranged gunpowder infantry that has a huge handheld cannon with high siege and splash damage. Produced from the Tanegashima Gunsmith Landmark."
+   ]
+  }
+ ]
+}

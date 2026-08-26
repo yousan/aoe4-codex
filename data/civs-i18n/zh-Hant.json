@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "阿拔斯王朝追求的是一個繁榮鼎盛的黃金時代，故將其建築的重點圍繞在智慧宮上，因而可解除重大經濟優勢的鎖定。智慧宮亦推動著進入下一個時代的發展，讓玩家可取得先進科技。阿拔斯駱駝單位是對抗敵方騎兵的專家。",
+  "ay": "在大陸匯聚之處，貿易與科學相遇，帝國衝突的地方，阿育布人利用尋求知識來取得優勢。智慧宮是城市化和科學結合的焦點，解鎖強大的黃金時代加成並推動著進入下一個時代的發展。阿育布人著重於多元化單位，以在戰場上取得戰術優勢。",
+  "by": "拜占庭人建造廣闊且不可或缺的水渠和蓄水池網絡。利用強大的獨特能力和用優質橄欖油雇傭的傭兵。農民不辭勞苦地生產橄欖油為帝國服務。",
+  "ch": "中國人可以在多個時代間轉移重心，部署各種特殊的單位並迅速進行建設。敵人如果想要跟上其發展的速度，就必須要不斷適應。",
+  "de": "德里蘇丹國憑藉其龐大的學者人脈網將敵人遠遠甩在身後。他們充分認識到，可以利用令人生畏的戰象將擋路的敵人統統踩在腳下。",
+  "en": "優秀的早期步兵為英格蘭提供了強大的作戰力量，農田的食物生產為其提供可靠的後盾。",
+  "fr": "法蘭西人可部署強大的騎兵單位，在堅固的陣地上可提高生產量。敵人必須做好抵禦強大的皇家騎士和其他裝甲單位衝鋒的準備。",
+  "gol": "拔都汗率領金帳汗國西征，將蒙古帝國的疆域擴張至東歐心臟地帶。可汗的巨大金帳是其控制網路的中心，並透過哨站來維持廣大的領土。儘管金帳汗國仍是強大的劫掠者，但他們犧牲了營地的機動性，以部署控制附庸國所需的更龐大兵力。",
+  "hl": "蘭卡斯特家族是英國皇室中的強大分支。莊園透過提供可持續的經濟實務，成為經濟的支柱。蘭卡斯特的軍事力量在戰場上擁有技術優勢和卓越的戰術。先用強大突擊部隊瓦解敵方陣型，然後用優越的遠程步兵將其擊潰。",
+  "hr": "教長可提升神聖羅馬帝國的經濟，其軍隊的核心由強大的步兵單位構成。他們在受到襲擊後能夠迅速恢復並發動強力反擊，令敵人難以招架。",
+  "ja": "大名統治著日本土地，加強農業並雇用日本武士來保衛領土。獨特的鍛造工坊不辭辛勞地磨利刀刃，以在戰鬥中取得優勢。兇猛的日本武士旗手帶領著他們多樣的步兵和騎兵部隊取得勝利。",
+  "je": "聖女貞德是法國人民的希望之火，她走上戰場，激發了她追隨者的勇氣。從卑微的村民開始，貞德在黑暗時代開始英雄之旅。歷經磨練，讓她成為一位強大的領袖，獲得值得信賴的夥伴和強大的能力，塑造了她註定要創造的帝國。",
+  "jin": "金朝崛起於中國北方，已成強大軍事勢力。鄉騎迅速移動奪取新資源與土地。把握良機，隨時集結騎兵大軍擊潰敵人並粉碎反抗。賄賂意志薄弱的敵人使其叛逃，並建立有利可圖的藩屬國。",
+  "kt": "為了保護溫順和疲憊的人們，聖殿騎士團在整個歐洲建立了封地，以號召他們的盟友。聖殿騎士團擁有一支由重裝部隊組成的壯觀隊伍，他們以紀律和勇氣帶領衝鋒陷陣。精心耕種的土地上點綴著堡壘，為他們保護的朝聖者提供了重要的防禦陣地和安全的避風港。",
+  "ma": "馬利人可以藉由強大的黃金和食物生產能力發展經濟。他們可以佔領金礦以建造露天礦區，並利用這種發展上的優勢生產特殊的步兵單位。這些步兵單位可以從隱密狀態下發起攻擊，並向敵人投擲標槍。",
+  "mac": "皇帝巴西爾二世僱用瓦蘭吉人來抵禦由拜占庭貴族煽動的叛亂。這些從北方乘船而來的異國戰士不受拜占庭政治與文化的影響，從而建立了一支精銳的突擊部隊，在往後數個世紀裡保護著歷任皇帝。馬其頓王朝鑄造白銀作為獨特資源，用於在瓦蘭吉兵工廠中花費，以在他們保護皇帝的同時，磨利其刀刃並精進其技能。",
+  "mo": "蒙古人擁有高機動性，擅長使用騎兵作戰，他們可以快速遷移營地，在石料露頭附近建立據點，對敵方建築發動突襲，從而獲得經濟利益。在戰鬥開始時，敵人就將面對他們的騎兵突擊。",
+  "od": "龍騎士團是從精心挑選的富人精英建立的，目的在粉碎敵對帝國。騎士團投入大量資源，但只訓練出少數傑出的戰士，成功培養出一支與眾不同的精銳軍隊。",
+  "ot": "鄂圖曼軍隊能夠快速擴張並稱霸戰場，而且在軍事學校的支援下能夠不斷生產單位，壯大軍陣的兵力。鄂圖曼軍樂隊的戰鼓還可以為這些軍陣提供支援，他們可以用鼓聲向這些訓練有素的部隊發出信號，幫助他們取得戰局的優勢。",
+  "ru": "羅斯人可從鄉村獲得巨大利益，更容易從狩獵和林業活動中採集資源，並能集結強大的作戰單位。他們在遊戲早期階段可發展出強大的防禦工事和多樣化的經濟體系，敵人很難將其擊垮。",
+  "sen": "戰國時代是結盟關係多變、戰火連綿的年代。您可以支援三個敵對氏族，為您的遠程步兵、近戰步兵或騎兵取得強大優勢。即使在戰爭期間，也有慶祝的時刻，祭典是商業與貿易的核心，能為經濟提供強大的加成。",
+  "tug": "蘇丹吉亞斯丁·圖格魯克為圖格魯克王朝在藝術、建築和擴張等領域的進步奠定了基礎。在他下令建造圖格魯卡巴德堡壘後，後繼的蘇丹、親王和總督透過武力和權力展示擴大了他們的軍事存在。圖格魯克王朝需在總督監督辛勤工作的大象和村民同時，快速建造額外堡壘。",
+  "zx": "哲學家朱熹的學說重塑了中華文明。憑藉朱熹的遺產，中國人有優秀的帝國官員和先進技術來進行縝密的行政管理。充盈的國庫有助於建立強大王朝及研究各種獨特科技。還能在早期招募皇宮衛兵、諸葛弩兵和擲彈兵來保衛帝國。"
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "貞德選擇成為弓兵，裝備弓箭來遠距離攻擊敵人。\n獲得神聖之箭技能，可對單一目標造成大量傷害。",
+   "n": "弓兵之路"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "貞德的號召技能現在可以召喚 7 她選擇的夥伴上戰場。\n她獲得了「天堂之力」的終極技能，可以大幅增強單一單位的力量。",
+   "n": "戰場指揮官"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "現在可以在馬廄中訓練貞德的騎士了。\n她獲得了「騎兵就位！」的技能，可以號召 3 名騎手到她身邊。",
+   "n": "騎兵同伴"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "貞德的號召現在會召喚她選擇的 3 夥伴和及一門強大的加農砲到戰場上。\n獲得英勇的鼓舞終極技能，可大幅提升附近盟友的攻擊速度。",
+   "n": "火藥君主"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "現在可以在軍營中訓練貞德的劍兵勇士了。\n她獲得了「挺身而戰！」的技能，可以號召 3 名劍兵勇士到她身邊。",
+   "n": "劍兵勇士同伴"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "貞德選擇成為戰士，裝備雙手劍來進行近戰攻擊。\n獲得神聖之怒技能，在貞德周圍造成範圍傷害。",
+   "n": "戰士之路"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "解鎖怯薛、古拉姆和箭塔象雇傭兵的生產。\n怯薛：封建時代\n古拉姆：老練合約\n箭塔象：精銳合約",
+   "n": "東方傭兵契約"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "解鎖長弓兵、國土傭僕和射手衛隊傭兵的生產。\n長弓兵：封建時代\n國土傭僕：老練合約\n射手衛隊：精銳合約",
+   "n": "西方傭兵契約"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "解鎖標槍投擲者、駱駝騎兵和擲彈兵的生產。\n標槍投擲者：封建時代\n駱駝騎兵：老練合約\n擲彈兵：精銳合約",
+   "n": "絲綢之路傭兵契約"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "可使用以下文化技術：\n• 知識保存 (第二時代) \n• 醫療中心 (第三時代) \n• 公共圖書館 (第四時代)",
+   "n": "文化偏殿"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "可使用以下文化技術：\n• 知識保存 (第二時代) \n• 醫療中心 (第三時代) \n• 公共圖書館 (第四時代)",
+   "n": "文化偏殿"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "建造文化偏殿。\n建造這偏殿，可減少進入下一個時代所需 20% 的時間及 1350 的成本。",
+   "n": "文化偏殿：發展"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "建造文化偏殿。\n完成後，獲得 4 名苦行僧，提升該單位的治療 +50% 且永久持續。",
+   "n": "文化偏殿：後勤學"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "建造文化偏殿。\n建造這偏殿，可減少進入下一個時代所需 20% 的時間及 250 的成本。",
+   "n": "文化偏殿：發展"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "建造文化偏殿。\n完成後，獲得 2 名苦行僧，並將他們的治療光環的持續時間切換成永恆。",
+   "n": "文化偏殿：後勤學"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "可使用以下文化技術：\n• 知識保存 (第二時代) \n• 醫療中心 (第三時代) \n• 公共圖書館 (第四時代)",
+   "n": "文化偏殿"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "建造文化偏殿。\n建造這偏殿，可減少進入下一個時代所需 20% 的時間及 400 的成本。",
+   "n": "文化偏殿：發展"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "建造文化偏殿。\n完成後，獲得 3 名苦行僧，提升該單位的治療 +25% 且永久持續。",
+   "n": "文化偏殿：後勤學"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "可使用以下文化技術：\n• 知識保存 (第二時代) \n• 醫療中心 (第三時代) \n• 公共圖書館 (第四時代)",
+   "n": "文化偏殿"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "建造文化偏殿。\n建造這偏殿，可減少進入下一個時代所需 20% 的時間及 1300 的成本。",
+   "n": "文化偏殿：發展"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "建造文化偏殿。\n完成後，獲得 4 名苦行僧，提升該單位的治療 +50% 且永久持續。",
+   "n": "文化偏殿：後勤學"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "建造經濟偏殿。\n 可使用以下經濟技術：\n• 新月沃土 (第二時代) \n• 農業 (第三時代) \n• 強化加工 (第四時代)",
+   "n": "經濟偏殿"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "建造經濟偏殿。\n 可使用以下經濟技術：\n• 新月沃土 (第二時代) \n• 農業 (第三時代) \n• 強化加工 (第四時代)",
+   "n": "經濟偏殿"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完成後，獲得 10 村民，所有村民工作速度提高 +10%。",
+   "n": "經濟偏殿：發展"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完工後獎勵 2000 木材與 1000 石料。村民建造建築速度 + 50%。",
+   "n": "經濟偏殿：工業"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完成後，獲得 3 村民。果園獲得 50 額外的食物。",
+   "n": "經濟偏殿：發展"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完工後獎勵 400 木材。村民建造建築速度 +30%。",
+   "n": "經濟偏殿：工業"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "建造經濟偏殿。\n 可使用以下經濟技術：\n• 新月沃土 (第二時代) \n• 農業 (第三時代) \n• 強化加工 (第四時代)",
+   "n": "經濟偏殿"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完成後，獲得 7 村民。果園獲得 100 額外的食物。",
+   "n": "經濟偏殿：發展"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完工後獎勵 900 木材與 400 石料。村民建造建築速度 + 40%。",
+   "n": "經濟偏殿：工業"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "建造經濟偏殿。\n 可使用以下經濟技術：\n• 新月沃土 (第二時代) \n• 農業 (第三時代) \n• 強化加工 (第四時代)",
+   "n": "經濟偏殿"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完成後，獲得 10 村民，所有村民工作速度提高 +10%。",
+   "n": "經濟偏殿：發展"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "建造經濟偏殿。\n完工後獎勵 2800 木材與 900 石料。村民建造建築速度 + 50%。",
+   "n": "經濟偏殿：工業"
+  },
+  "upgrade_add_military_wing": {
+   "d": "建造軍事偏殿。完成後獲得2長槍兵和2弓兵 (第二時代)、2駱駝騎兵 (第三時代)或3火槍兵 (第四時代)。\n解鎖：\n•新兵訓練營 (第二時代) \n•複合弓 (第三時代) \n•駱駝支援 (第四時代)",
+   "n": "軍事偏殿"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "建造軍事偏殿。完成後獲得2長槍兵和2弓兵 (第二時代)、2駱駝騎兵 (第三時代)或3火槍兵 (第四時代)。\n解鎖：\n•新兵訓練營 (第二時代) \n•複合弓 (第三時代) \n•駱駝支援 (第四時代)",
+   "n": "軍事偏殿"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "建造軍事偏殿。\n完成後，騎兵單位獲得建造攻城武器的能力。\n智慧宮立即生產 7 沙漠掠奪者，而後在遊戲剩餘時間內每 2 分鐘亦如此。",
+   "n": "軍事偏殿：援軍"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "建造軍事偏殿。\n軍事學院和兵工廠的傷害和盔甲技術在進入新時代後變成免費且自動完成 (其他時代的相關技術仍須如常進行研究)。",
+   "n": "軍事偏殿：鐵匠大師"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "建造軍事偏殿。\n完成後，騎兵單位獲得建造攻城武器的能力。\n智慧宮在 15 秒後會生產 1 的沙漠掠奪者，而之後的遊戲剩餘時間內每 2 分鐘生產一次。",
+   "n": "軍事偏殿：援軍"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "建造軍事偏殿。\n軍事學院和兵工廠的傷害和盔甲技術在進入新時代後變成免費且自動完成 (其他時代的相關技術仍須如常進行研究)。",
+   "n": "軍事偏殿：鐵匠大師"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "建造軍事偏殿。完成後獲得2長槍兵和2弓兵 (第二時代)、2駱駝騎兵 (第三時代)或3火槍兵 (第四時代)。\n解鎖：\n•新兵訓練營 (第二時代) \n•複合弓 (第三時代) \n•駱駝支援 (第四時代)",
+   "n": "軍事偏殿"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "建造軍事偏殿。\n完成後，騎兵單位獲得建造攻城武器的能力。\n智慧宮立即生產 3 沙漠掠奪者，而後在遊戲剩餘時間內每 2 分鐘亦如此。",
+   "n": "軍事偏殿：援軍"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "建造軍事偏殿。\n軍事學院和兵工廠的傷害和盔甲技術在進入新時代後變成免費且自動完成 (其他時代的相關技術仍須如常進行研究)。",
+   "n": "軍事偏殿：鐵匠大師"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "建造軍事偏殿。完成後獲得2長槍兵和2弓兵 (第二時代)、2駱駝騎兵 (第三時代)或3火槍兵 (第四時代)。\n解鎖：\n•新兵訓練營 (第二時代) \n•複合弓 (第三時代) \n•駱駝支援 (第四時代)",
+   "n": "軍事偏殿"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "建造軍事偏殿。\n完成後，騎兵單位獲得建造攻城武器的能力。\n智慧宮立即生產 7 沙漠掠奪者，而後在遊戲剩餘時間內每 2 分鐘亦如此。",
+   "n": "軍事偏殿：援軍"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "建造軍事偏殿。\n軍事學院和兵工廠的傷害和盔甲技術在進入新時代後變成免費且自動完成 (其他時代的相關技術仍須如常進行研究)。",
+   "n": "軍事偏殿：鐵匠大師"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "建造行政偏殿。被動提升所有黃金時代加成效果 +50%。\n解鎖：\n•城市規劃 (第二時代)\n•攻城指令 (第三時代)\n•大巴扎 (第四時代)",
+   "n": "行政偏殿"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "建造行政偏殿。被動提升所有黃金時代加成效果 +50%。\n解鎖：\n•城市規劃 (第二時代)\n•攻城指令 (第三時代)\n•大巴扎 (第四時代)",
+   "n": "行政偏殿"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "建造貿易偏殿。\n每三分鐘就有一支貿易商隊抵達，隨機選擇四種有利可圖的資源和單位以進行交換。\n這些交易的品質永久取決於貿易偏殿的建造時代。透過貿易偏殿進入較晚的時代，進行獲利更豐厚的交易。",
+   "n": "貿易偏殿：集市"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "建造貿易偏殿。\n完成後，獲得 7 阿塔貝格，可以駐守在任何軍事生產建築 (碼頭除外)，為新訓練的單位增加 20% 的生命值。",
+   "n": "貿易偏殿：顧問"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "建造貿易偏殿。\n每三分鐘就有一支貿易商隊抵達，隨機選擇四種有利可圖的資源和單位以進行交換。\n這些交易的品質永久取決於貿易偏殿的建造時代。透過貿易偏殿進入較晚的時代，進行獲利更豐厚的交易。",
+   "n": "貿易偏殿：集市"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "建造貿易偏殿。\n完成後，獲得 3 阿塔貝格，可以駐守在任何軍事生產建築 (碼頭除外)，為新訓練的單位增加 20% 的生命值。",
+   "n": "貿易偏殿：顧問"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "建造行政偏殿。被動提升所有黃金時代加成效果 +50%。\n解鎖：\n•城市規劃 (第二時代)\n•攻城指令 (第三時代)\n•大巴扎 (第四時代)",
+   "n": "行政偏殿"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "建造貿易偏殿。\n每三分鐘就有一支貿易商隊抵達，隨機選擇四種有利可圖的資源和單位以進行交換。\n這些交易的品質永久取決於貿易偏殿的建造時代。透過貿易偏殿進入較晚的時代，進行獲利更豐厚的交易。",
+   "n": "貿易偏殿：集市"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "建造貿易偏殿。\n完成後，獲得 5 阿塔貝格，可以駐守在任何軍事生產建築 (碼頭除外)，為新訓練的單位增加 20% 的生命值。",
+   "n": "貿易偏殿：顧問"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "建造行政偏殿。被動提升所有黃金時代加成效果 +50%。\n解鎖：\n•城市規劃 (第二時代)\n•攻城指令 (第三時代)\n•大巴扎 (第四時代)",
+   "n": "行政偏殿"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "建造貿易偏殿。\n每三分鐘就有一支貿易商隊抵達，隨機選擇四種有利可圖的資源和單位以進行交換。\n這些交易的品質永久取決於貿易偏殿的建造時代。透過貿易偏殿進入較晚的時代，進行獲利更豐厚的交易。",
+   "n": "貿易偏殿：集市"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "建造貿易偏殿。\n完成後，獲得 7 阿塔貝格，可以駐守在任何軍事生產建築 (碼頭除外)，為新訓練的單位增加 20% 的生命值。",
+   "n": "貿易偏殿：顧問"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "大型箭塔具備城鎮中心功能，包括單位生產、人口容量及科技。",
+   "n": "村莊要塞"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "允許學者駐紮在軍事建築中，提高生產速度 100%。",
+   "n": "高效生產"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "戰象生命值 +20%，遠程護甲 +4。",
+   "n": "裝甲野獸"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "戰象生命值 +20%，遠程護甲 +4。",
+   "n": "裝甲野獸"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "-所有騎兵的生命值提高 +10%，衝鋒傷害提高 +50%。",
+   "n": "波蘭王國"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "-所有黃金單位的近戰護甲提高 +2。",
+   "n": "條頓騎士團"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- 在市集交易資源時，將基礎買入或賣出價格的變化減少 75%。",
+   "n": "威尼斯共和國"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- 提升平民單位生命值 +30% 及移動速度 +10%。提升所有來源的治療效果 +30%。",
+   "n": "醫院騎士團"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- 陸地軍事單位生產速度提升 +15% 且黃金成本降低 -5%。",
+   "n": "法蘭西王國"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "-近戰單位的傷害提高 +15%。",
+   "n": "安條克公國"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- 要塞和碼頭的生命值提高 +30%。",
+   "n": "安茹帝國"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "-朝聖者產生的黃金提高 +20%。",
+   "n": "熱那亞共和國"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "-聖地附近的單位傷害提高 +20% 並且可以恢復生命值。",
+   "n": "卡斯提爾王國"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "各藩屬國提供商人額外 +10% 收入。",
+   "n": "海上結盟"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "在地標城鎮中心產生 12 隻綿羊，並提升村民採礦速度 +15%。",
+   "n": "安納托力亞山丘"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "鍍金弓兵的遠程盔甲增加 +3。",
+   "n": "鱗甲"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "弓兵弓箭可造成額外 3 傷害，持續 6 秒。",
+   "n": "毒箭"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "裝甲步兵的遠程和近戰護甲 +2。",
+   "n": "重裝甲"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "使所有建築的生命值提高 10%。",
+   "n": "防禦工事"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "使所有建築的生命值提高 10%。",
+   "n": "防禦工事"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "使所有建築的生命值提高 10%。",
+   "n": "防禦工事"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "所有騎兵的傷害增加 1。",
+   "n": "刀刃鑲嵌"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "所有騎兵的傷害增加 1。",
+   "n": "刀刃鑲嵌"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "所有騎兵的傷害增加 1。",
+   "n": "刀刃鑲嵌"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "使所有騎兵的護甲提高 1，生命值提高 5%。",
+   "n": "鱗甲馬鎧"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "使所有騎兵的護甲提高 1，生命值提高 5%。",
+   "n": "鱗甲馬鎧"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "使所有騎兵的護甲提高 1，生命值提高 5%。",
+   "n": "鱗甲馬鎧"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "所有近戰步兵的傷害增加 1。",
+   "n": "花紋焊接"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "所有近戰步兵的傷害增加 1。",
+   "n": "花紋焊接"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "所有近戰步兵的傷害增加 1。",
+   "n": "花紋焊接"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "使所有近戰步兵的護甲提高 1，生命值提高 5%。",
+   "n": "對接鏈甲"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "使所有近戰步兵的護甲提高 1，生命值提高 5%。",
+   "n": "對接鏈甲"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "使所有近戰步兵的護甲提高 1，生命值提高 5%。",
+   "n": "對接鏈甲"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "增加所有箭矢單位及弩箭單位的遠程傷害 +1。",
+   "n": "磨刀石"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "增加所有箭矢單位及弩箭單位的遠程傷害 +1。",
+   "n": "磨刀石"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "增加所有箭矢單位及弩箭單位的遠程傷害 +1。",
+   "n": "磨刀石"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "使所有遠程單位的護甲提高 1，生命值提高 5%。",
+   "n": "札甲"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "使所有遠程單位的護甲提高 1，生命值提高 5%。",
+   "n": "札甲"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "使所有遠程單位的護甲提高 1，生命值提高 5%。",
+   "n": "札甲"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "使所有攻城單位的生命值提高 5%。",
+   "n": "鐵配件"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "使所有攻城單位的生命值提高 5%。",
+   "n": "鐵配件"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "使所有攻城單位的生命值提高 5%。",
+   "n": "鐵配件"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "建築修復速度 +50%。",
+   "n": "堤岸修復"
+  },
+  "upgrade_benediction_hre": {
+   "d": "修道院變得自給自足，透過世俗兄弟耕種他們的土地。\n村民可以在修道院存放資源。\n教長可以駐守在修道院中，鼓舞附近所有村民，提高他們的採集速度。",
+   "n": "熙篤會修道院"
+  },
+  "upgrade_billmen_lan": {
+   "d": "長槍兵裝備了回火長柄斧，攻擊時可降低敵人 -1 的護甲。",
+   "n": "長柄斧兵"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "將土爾扈特部和騎手的遠程與近戰護甲提高 +1，生命值提高 +20。",
+   "n": "襯墊護甲"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "普通士兵配備了更耐用的護甲。輕騎兵獲得 +2 護甲。",
+   "n": "布面甲"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "所有建築的火焰護甲 +5。",
+   "n": "石板和石造建築"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "進口勃艮第手銃，讓火槍兵能在城堡時代訓練，並將火槍兵的成本降低 -25%。",
+   "n": "勃艮第進口"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "長槍兵的攻擊範圍 +100%。",
+   "n": "方陣"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "駱駝騎兵的護甲 +2。",
+   "n": "駱駝騎兵皮甲"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "提升駱駝軍事單位移動速度 +15%。",
+   "n": "駱駝操縱"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "增加旗手武士生產上限 +1，並提供一名免費村民。\n增加城鎮中心生命值 +1000，額外增加一個箭狹槽，並增加一個可讓村民農田採集速率增加 +20% 的光環。",
+   "n": "大名莊園"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "增加旗手武士生產上限 +2，並提供一名免費村民。\n增加城鎮中心生命值 +2000，增加火焰護甲 +2，額外增加一個箭狹槽，並增加一個可讓村民農田採集速率增加 +40% 的光環。",
+   "n": "大名宮殿"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "增加旗手武士生產上限 +3，並提供一名免費村民。\n增加城鎮中心生命值 +3000，增加火焰護甲 +3，增加一個可讓村民農田採集速率提升 +60% 的光環，並配備一個火箭據點。",
+   "n": "幕府將軍城堡"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "用最好的良馬填滿馬廄，將所有騎兵的生命值提高 +35%。",
+   "n": "皇室血統"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "皇家騎士在衝鋒後的額外傷害從 +3 提升為 +10。",
+   "n": "高鞍尾馬鞍"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "皇家騎士在脫離戰鬥後每 1 秒可恢復 1 生命值。",
+   "n": "騎士精神"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "羅斯騎兵的生命值 +25。",
+   "n": "貴族鐵騎的堅毅"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "騎士裝備一把戰斧，近戰傷害增加 +4。",
+   "n": "戰斧騎士"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "你的騎士和准槍騎兵用蘭卡斯特家族家徽裝飾其護甲，對敵方重型單位造成 +5 的額外傷害。",
+   "n": "艾塞斯的頸章"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "當地部落進貢馴鹿。於城鎮中心下方生成 4 頭馴鹿。",
+   "n": "群獵"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "封建土地分配實務的進步使莊園的建造上限提高了 +4，生命值提高了 +100。",
+   "n": "集約式土地利用"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "封建土地分配實務的進步使莊園的建造上限提高了 +4，生命值提高了 +200。",
+   "n": "敞田制"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "將船艦的火力和遠程護甲提升 +2。",
+   "n": "鍍銅"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "弩可以裝載更強大的弩箭，射程增加 +0.5，傷害增加 +2。",
+   "n": "絞盤式上弦器"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "鍍金弩兵對攻城單位造成 +20 傷害。",
+   "n": "錐狀弩箭"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "所有科技及時代升級的成本降低 -20%。",
+   "n": "知識保存"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "伊瑪目不需持有聖物便可招降單位，但只能以一個單位為目標。",
+   "n": "傳教"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "城鎮中心和大型箭塔每 1 秒治療附近單位 +2 的生命值。",
+   "n": "醫療中心"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "每次經濟升級，村民和商人都會獲得 +2 生命值。",
+   "n": "公共圖書館"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "騎兵單位攻擊速度 +20%。",
+   "n": "達利馬"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "將防禦哨站和木牆火焰護甲提高 +3，生命值提高 +300。",
+   "n": "土芯牆"
+  },
+  "upgrade_desert_citadels": {
+   "d": "提升要塞上的沙漠前哨光環，還可以使附近單位的護甲提高 +1/+1。",
+   "n": "沙漠城堡"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "受到鼓舞的村民收集資源的速度 +5%，建造建築及防禦工事的速度 +25%。",
+   "n": "虔誠"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "增加當佐兵 +6、弓兵 +2、標槍投擲者 +3 的遠程傷害。",
+   "n": "精準訓練"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "使村民木材採集率 +15%，木材運載量 +10。",
+   "n": "挽馬"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "鍍金長槍兵火炬會造成效果範圍傷害。",
+   "n": "重型火炬"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "每達成一個王朝時，村民的收集速率 +5%。",
+   "n": "古代技術"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "村民在農田的收集速率 +15%。",
+   "n": "農業"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "經濟建築和房屋的成本減少 30%。",
+   "n": "新月沃土"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "生產村民成本 -40%。",
+   "n": "新鮮食品"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "村民存放的資源額外 +8%。",
+   "n": "強化加工"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "提升敖包石料採集率 20%。",
+   "n": "敖包獻祭"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "提升敖包石料採集率 20%。",
+   "n": "敖包儀式"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "牲畜圍欄的食物採集率增加 10%。不適用於圈養的綿羊。",
+   "n": "輪替放牧"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "牲畜圍欄的食物採集率增加 10%。不適用於圈養的綿羊。",
+   "n": "過度放牧"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "村民的食物收集速率提升 30%。不適用於獵殺肉類。\n如果已完成園藝學研究，則提升 20%。",
+   "n": "園藝學 (強化)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "村民的黃金收集速率提升 35%。\n如果已完成特製礦鋤研究，則提升 20%。",
+   "n": "特製礦鋤 (強化)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "村民只需一斧即可伐倒樹木。\n木材運載量提高 +2。",
+   "n": "林業 (強化)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "村民的木材收集速率提升 35%。\n如果已完成雙寬斧研究，則提升 20%。",
+   "n": "雙闊斧 (已強化)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "村民獵取肉品收集速率 +25%。\n如果已完成生存技術研究，則村民獵取肉品收集速率 +10%。",
+   "n": "生存技術 (強化)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "人盾戰術敕令生效時，金帳與強化哨站影響範圍內的軍事建築會在招募任何單位時額外生產一項人盾戰術。",
+   "n": "解鎖人盾戰術敕令"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "牲畜圍欄敕令生效時，強化哨站影響範圍內的牲畜圍欄會在運作時產生黃金。",
+   "n": "解鎖牲畜圍欄敕令"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "大象造成的額外傷害提高 30%。",
+   "n": "附帶損壞"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "戰象在脫離戰鬥時，每 2 秒恢復 +2 生命值。",
+   "n": "戰象看護員"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "強大大名的戰術可以提升近戰步兵，使其傷害 +15%，火炬傷害 +15%，生命值 +15%。",
+   "n": "織田戰術"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "提高法蘭西人的影響力，使單位的成本額外 -5%。",
+   "n": "募兵獎勵"
+  },
+  "upgrade_fanaticism": {
+   "d": "聖殿弟兄和封地單位的生命值低於 50% 時，傷害提高 +10%，生命值低於 25% 時，傷害提高 +30%。",
+   "n": "盲信主義"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "每一塊有村民耕種的農田圈地每 6 秒會產生 +1 黃金。",
+   "n": "圈地"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "燃燒船對其爆炸半徑內的所有敵人造成完整傷害。",
+   "n": "液體炸藥"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "扭力弩砲獲得 15% 攻擊速度，並使其投射物被火焰包覆，在撞擊後製造一片希臘之火。",
+   "n": "羅馬之火"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "圖格魯卡巴德堡壘可使附近碼頭的生產速度提高 30%、箭狹槽傷害提高 2、武器射程提高 1 格。",
+   "n": "圖格魯卡巴德堡壘監控"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "生命值低於 20% 的鍍金裝甲步兵受到的傷害減少 -20%。",
+   "n": "金色胸甲"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "配重式巨型投石機造成的傷害 +30%，並用希臘之火吞噬目標，造成範圍傷害。希臘之火不會與其他燃燒的效果疊加。",
+   "n": "希臘之火砲彈"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "火蜂窩獲得 3 額外的火箭箭矢。",
+   "n": "額外的桶"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "手銃的攻擊範圍 +1.5。",
+   "n": "煙火技術"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "敵方單位遭手榴彈擊中時，受到的遠程與近戰傷害增加 +15%，持續 5 秒。",
+   "n": "硬殼炸彈"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "飛火槍兵與風雷火槍發出的雷鳴般聲響會嚇阻敵方騎兵，使附近的騎兵傷害 -20% ，持續 5 秒。",
+   "n": "震天雷"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "增加德羅蒙戰艦射程 0.5 並提升傷害 1。\n升級所有德羅蒙戰艦，使其攻擊時在水面或地面留下希臘之火。",
+   "n": "重型德羅蒙戰艦"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "在崎嶇的地形中訓練，讓輕裝騎兵的衝鋒傷害提高 +125%，生產速度提高 +100%。",
+   "n": "山丘訓練"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "被踐踏的敵方單位變得更脆弱，在 12 秒內受到的傷害會增加 +15%。",
+   "n": "羅馬士兵"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "騎手對工人的傷害 +2，你的騎手殺死工人獎勵 +30黃金。",
+   "n": "掠奪者"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "斥候附近單位的火炬傷害 +25%。",
+   "n": "拜占庭突襲騎兵"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "增加騎馬弓兵的武器射程 +1，並解鎖疾馳技能。\n 疾馳：啟動後以最大速度移動，武器射程增加 +2 格，持續 8 秒。",
+   "n": "騎射訓練"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "居住房舍的視野增加 7 格，且建造速度提升 500%。",
+   "n": "邊境聚落"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "將帝國官員的最大黃金攜帶數量從 +40 提升至 +70。",
+   "n": "科舉制"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "每一座地標城鎮中心及軍事學校，可在地標城鎮中心產生 2 個蘇丹親兵。",
+   "n": "蘇丹親兵連隊"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "讓步兵可以駐守在攻城器械中。駐守期間，攻擊和架設速度提升 +25%。",
+   "n": "攻城人員"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "於地標城鎮中心產生 2 個鄂圖曼軍樂隊。鄂圖曼軍樂隊能為相同陣型的單位提供額外 +15% 的移動速度。",
+   "n": "鄂圖曼軍樂隊戰鼓"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "提升軍事學校的建築上限 +1。",
+   "n": "軍事校園"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "將軍事生產速度提高 +25%，並讓軍事學校具備訓練長矛騎兵和蘇丹親兵的能力。",
+   "n": "進階學院"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "在地標城鎮中心生成 2 個伊瑪目。伊瑪目會每秒恢復附近範圍的單位 1 生命值。到城堡時代會提升至 2 生命值，帝王時代會提升至 3 生命值。",
+   "n": "外勤任務"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "商人從從蘇丹哈尼貿易網路收入及收集的黃金數量 +40%。",
+   "n": "交易袋"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "坎達雙刃劍訓練可使裝甲步兵的衝鋒持續時間增加 3 秒，並使其衝鋒攻擊的傷害增加 100%。",
+   "n": "坎達雙刃劍訓練"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "金朝鞏固勢力並強化猛安謀克制度以面對來襲威脅。防禦者現由擲彈騎兵支援，且防禦者可用數量 +10。",
+   "n": "飛火營"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "近戰和遠程步兵可在戰場上建造攻城塔和輕型衝撞車。強化攻城工程還能讓這些單位建造輕型投石車、扭力弩砲和巨型投石機。",
+   "n": "攻城工程 (強化)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "長槍兵對騎兵的傷害增加 35%，生產速度增加 50%。",
+   "n": "長柄武器訓練"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "裝甲步兵和長矛騎兵裝備土耳其彎刀，使其傷害 +3。",
+   "n": "珩磨劍刃"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "步兵在擊敗單位後獲得 +25% 傷害和 +20% 移動速度，持續 30 秒。",
+   "n": "蘇丹的馬木路克"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "軍營步兵的遠程護甲 +2。",
+   "n": "交疊摺疊甲"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "提升教長移動速度 10%，且能激勵群體軍事單位，使其護甲提升 +1、傷害提升 +15%。",
+   "n": "受鼓舞的戰士"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "加固城牆的鐵箍可將火藥對石牆和要塞造成的傷害降低 20%。",
+   "n": "鐵箍"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "女武者在看到敵人時會發射哨箭，提高移動速度 10 秒。",
+   "n": "鏑矢哨箭"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "為此建築新增防禦性床弩陣位。",
+   "n": "床弩陣位"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "此圖格魯卡巴德堡壘的攻擊者會被恐懼所震懾，在鎖定該堡壘時攻擊速度降低 30%。",
+   "n": "奧里亞的詛咒"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "為此建築新增一門大型防禦火砲。",
+   "n": "重型火砲砲臺"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "為此建築新增輕型投石車防禦砲臺。",
+   "n": "輕型投石車砲臺"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "為此建築新增猛安謀克屯寨，當敵人接近時集結 5 防禦者。防禦者無法控制，將攻擊接近此屯寨的威脅。\n每 60 秒生產 1 全域猛安謀克防禦者。",
+   "n": "猛安謀克屯寨"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "為此建築增建防禦性巨型投石機據點。",
+   "n": "巨型投石機據點"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "可汗可發射一支信號箭，可揭示 10 格的範圍，並使目標區域內的敵人承受的傷害 +10%，持續 10 秒。",
+   "n": "可汗減益箭矢"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "可汗信號箭持續時間 +7 秒，並攻擊範圍 +3 格。\n如果已完成哨箭研究，則可汗信號箭持續時間 +2 秒，並攻擊範圍 +1 格。",
+   "n": "哨箭 (強化)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "可汗信號箭持續時間 +5 秒，並攻擊範圍 +2 格。",
+   "n": "哨箭"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "人盾戰術若裝備盾牌，可獲得 +2 遠程護甲、+2 近戰護甲，且生命值 +25。",
+   "n": "戰場回收"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "賦予騎士和黑騎兵 +2 近戰和 +2 遠程護甲。",
+   "n": "鋼製馬甲"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "鍍金騎士在衝鋒時受到的傷害減少 -25%。",
+   "n": "戰馬"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "精益求精的鍛造工藝為軍隊生產更堅固的札甲，使所有騎兵與近戰步兵生命值 +25%。",
+   "n": "布面甲"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "增加怯薛的治療效果，每次攻擊回復 +2 的生命值，攻擊速度提升 +20%，\n如果已經研究了草原槍騎兵，則增加怯薛的治療效果，每次攻擊回復 +1 的生命值，攻擊速度提升 +10%。",
+   "n": "草原槍騎兵 (強化)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "每次攻擊回復 +1 生命值和攻擊速度提升 +10%。",
+   "n": "草原槍騎兵"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "將怯薛每次攻擊的治療量提升 +1 生命值，並提升攻擊速度 +10%。土爾扈特部獲得與怯薛相同的攻擊治療效果。",
+   "n": "薩萊長矛騎兵"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "用最好的良馬填滿馬廄，將所有騎兵的生命值提高 +35%。",
+   "n": "皇室血統"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "皇家騎士在脫離戰鬥後每 1 秒可恢復 1 生命值。",
+   "n": "騎士精神"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "提高法蘭西人的影響力，使單位的成本額外 -5%。",
+   "n": "募兵獎勵"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "祝聖的建築還能將單位的木材和黃金成本降低 25%。",
+   "n": "軍械連隊"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "步兵單位獲得強行軍技能。\n啟動後，步兵移動速度 +100%，持續 10 秒，但在造成傷害時會中斷。",
+   "n": "強行軍"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "村民的運載量 +10。",
+   "n": "豐衣足食"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "村民和步兵可以駐守在房屋內進行保護。房屋獲得駐軍弓箭和 +50% 生命值。",
+   "n": "加強地基"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "使聖女貞德的生命值和傷害增加 25% 並獲得 +1 護甲。貞德夥伴的生命值和傷害增加 20%。",
+   "n": "夥伴裝備"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "石牆塔、大型箭塔和哨站的火焰護甲 +10。",
+   "n": "緩燃防禦"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "石牆塔、大型箭塔和哨站的火焰護甲 +10。",
+   "n": "緩燃防禦"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "大象移動速度 +10%。",
+   "n": "象伕"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "大象移動速度 +10%。",
+   "n": "象伕"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "清真寺可讓脫離戰鬥的單位每秒恢復 4 生命值。",
+   "n": "寧靜之地"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "弓兵和弩兵獲得射程 +0.5 的效果。",
+   "n": "派"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "弓弩兵的攻擊速度 +25%。",
+   "n": "弩兵馬鐙"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "學者的視野範圍 +100%。",
+   "n": "全視之眼"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "學者移動速度 +50%。",
+   "n": "迅捷"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "升級箭塔象，將騎乘者從弓兵替換為精銳弩兵。箭塔象獲得 +25% 生命值和 +4 遠程護甲。",
+   "n": "象車"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "解鎖朝聖者貸款技能，這些技能會借出大量食物，並隨著時間推移以黃金的形式返還。",
+   "n": "匯票"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "諸葛弩兵和弩兵能發射額外的弩箭。弩兵的額外弩箭效果為之前弩箭的 40%。",
+   "n": "一萬支弩矢"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "長槍兵和騎手在衝鋒時獲得火長矛。",
+   "n": "龍之咆哮"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "帝國官員獲得 150 生命值，最大攜帶黃金數量增加 +80。帝國官員上限增加+2。",
+   "n": "進階管理"
+  },
+  "upgrade_library_siege_works": {
+   "d": "增加火砲的範圍傷害。",
+   "n": "恐懼之雲"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "允許生產特殊騎兵單位：帝國衛隊和元朝掠奪者。",
+   "n": "王朝守護者"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "長槍兵裝備強化長槍，武器射程增加 +20%，對騎兵的傷害增加 +15%。",
+   "n": "長槍"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "弓兵的攻擊速度 +33%。",
+   "n": "複合弓"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "裝甲步兵手持錘子，使其對裝甲目標造成的額外傷害 +6。",
+   "n": "重錘"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "裝甲步兵手持雙手武器，使其傷害 +2。",
+   "n": "雙手武器"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "皇宮衛兵的生命值 +30。",
+   "n": "身經百戰"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "訓練精銳步兵可以提高戰鬥能力。近戰步兵獲得 +20% 傷害和 +20% 生命值。\n若已完成精銳軍隊戰術研究，則傷害增加 +5%，生命值增加 +5%。",
+   "n": "精銳軍隊戰術 (強化)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "欽察弓騎兵會發射 2 支額外箭矢，每支箭矢造成的傷害少 70%。",
+   "n": "三連射"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "蒙古突騎和可汗的遠程傷害 +2。\n如果已完成西哈弓臂研究，則蒙古突騎和汗的遠程傷害 +1。",
+   "n": "西哈弓臂 (強化)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "蒙古突騎和可汗的遠程傷害 +1。",
+   "n": "西哈弓臂"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "蘭卡斯特領主對所有封臣徵稅以資助戰爭。莊園每分鐘產生 30 黃金。",
+   "n": "兵役免除稅"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "活躍商人每 6 秒產生 1 黃金。",
+   "n": "商人公會"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "偏斜護甲啟動時，增加騎馬日本武士的移動速度 +10%。",
+   "n": "胴丸盔甲"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "所有非攻城單位的近戰傷害 +1。",
+   "n": "吹踏鞴"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "所有非攻城單位的近戰傷害 +1。",
+   "n": "火造"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "所有非攻城單位的近戰傷害 +1。",
+   "n": "甲伏鍛"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "所有非攻城單位的近戰傷害 +1。",
+   "n": "焠火"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "所有步兵的生命值 +15%。",
+   "n": "新兵訓練營"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "駱駝可提升附近步兵的護甲 +2。",
+   "n": "駱駝支援"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "步兵可提升附近駱駝的護甲 3。",
+   "n": "步兵支援"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "提供駱駝騎兵護盾，使其近戰護甲 +3。",
+   "n": "駱駝騎兵護盾"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "軍事建築的生產速度 +50%。",
+   "n": "增加補給"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "進階軍事戰術提高部隊在戰鬥中的整體效率，將其額外傷害提升 +20%。",
+   "n": "軍事戰術訓練"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "村民獵取肉品收集速率 +20%。",
+   "n": "靺鞨世系"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "村民獵取肉品收集速率 +20%。",
+   "n": "狩獵傳統"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "為騎馬武士裝備大太刀，這是一種對步兵有 +4 加成傷害的長劍。",
+   "n": "騎馬武士大太刀"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "羅德亞船型之間的轉變速率提高了 50%，並且不再有成本懲罰。",
+   "n": "適應性強的船身"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "將扭力弩砲船武器替換為連發床弩，發射 2 支穿甲弩箭。",
+   "n": "海軍弩"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "軍艦發射火蜂窩攻擊。",
+   "n": "霹靂彈"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "軍事船隻在脫離戰鬥後每 2 秒可恢復 +1 生命值。",
+   "n": "消防站"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "火藥船的生產速度提高 25%，移動速度提高 25%。",
+   "n": "帝國艦隊"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "弓兵船發射額外的 2 標槍武器。",
+   "n": "獨木舟戰術"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "海軍加農砲傷害 +15%。",
+   "n": "長管大砲"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "巴格拉帆船在殺死敵方單位時恢復 30 生命值。",
+   "n": "回收的材料"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "擊沉一艘敵方船隻時可獲得 +25 木材和 +25 黃金。",
+   "n": "海盜行為"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "戰鬥船的攻擊範圍 +1。",
+   "n": "海事法"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "為此海港新增一座防禦性海軍扭力弩砲。",
+   "n": "海軍扭力弩砲據點"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "軍艦生命值 +10%。",
+   "n": "柚木桅杆"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "使用尖銳火槍強化一窩蜂火箭，對近戰攻擊者回敬 10 傷害。",
+   "n": "豪豬防禦"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "將城堡網路的攻擊速度加成從 +20% 提高至 +30%。",
+   "n": "城堡網路"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "為日本武士裝備大太刀，這是能對步兵增加 +4 額外傷害的長劍。",
+   "n": "大太刀"
+  },
+  "upgrade_official_limit": {
+   "d": "帝國官員上限增加 +2。完成後會獲得一位帝國官員。",
+   "n": "帝國紅章"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "帝國官員移動速度加快 50%。",
+   "n": "單鞭改革"
+  },
+  "upgrade_official_supervise": {
+   "d": "帝國官員的管理效率從 150%提高到 300%。",
+   "n": "地區視察"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "官員現在可以管理大型箭塔和哨站，使其所受傷害降低 35%。",
+   "n": "軍事局"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "驛站速度光環適用於所有單位，而非只有商人和騎兵單位。不適用於攻城器械。\n改良後的驛站網路能讓商人在驛站的光環下每 2 秒恢復 1 生命值。",
+   "n": "驛站網路 (強化)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "所有單位都可獲得驛站速度光環效果，而非只有商人和騎兵單位。此效果不適用於攻城器械。",
+   "n": "驛站網路"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "為哨站增加光榮衝鋒能力，啟用後會啟動 10 秒的計時器，向所有玩家顯示該哨站及其附近區域，計時結束後，所有附近的盟軍單位將獲得 +50% 移動速度並在 30 秒內受到的傷害減少 -15%。",
+   "n": "光榮衝鋒"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "在此建築中新增防禦標槍，並讓駐守單位的弓箭射程增加 +1。標槍能對遠程單位造成額外傷害。只能新增一個武器據點。",
+   "n": "標槍據點"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "所有哨站的生命值 +300，火焰護甲 +3。",
+   "n": "蒙古和平"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "敖包每分鐘提供 +60 食物、+60 木材與 +10 黃金的收入。",
+   "n": "敖包什一稅"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "解鎖第三時代起可使用的早期大筒單位。",
+   "n": "解鎖大筒"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "為自耕農和長槍兵裝備護甲衣，將其近戰護甲提高 +3。",
+   "n": "護甲衣"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "每有一名瓦蘭吉人單位在場摧毀地標或城鎮中心，玩家就會獲得白銀恩賜。",
+   "n": "波洛茨克的寶藏"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "伯爵衛隊在丟擲時會獲得額外的匕首，而這些匕首也會造成一點區域傷害。\n伯爵衛隊現在投擲 2 個匕首，但準確度較低。",
+   "n": "丟擲匕首訓練"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "靺鞨族人利用當地獵人工藝配備新護甲，以使受到的加成傷害 -50%。",
+   "n": "繸甲"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "點燃建築帶來的突襲收入 +75 食物和黃金。\n如果已完成突襲賞金研究，則點燃建築帶來的突襲收入 +25 食物和黃金。",
+   "n": "突襲賞金 (強化)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "點燃建築帶來的突襲收入 +50 食物和黃金。",
+   "n": "突襲賞金"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "點燃建築帶來的突襲收入 +75 石料。\n如果已完成石料賞金研究，則點燃建築帶來的突襲收入 +25 石料。",
+   "n": "石料賞金 (強化)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "點燃建築帶來的突襲收入 +50 石料。",
+   "n": "石料賞金"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "輕型衝撞車攻擊速度 +30%，戰場工程時間 -75%。\n如果已經研究過輕型光束，改為攻擊速度 +10%，戰場工程時間 -25%。",
+   "n": "輕型橫樑 (已強化)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "弓弩兵的近戰護甲 +5。",
+   "n": "軟甲"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "弓弩兵的攻擊速度 +25%。",
+   "n": "弩兵馬鐙"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "蘇丹親兵火槍傷害 +4。",
+   "n": "蘇丹親兵火槍"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "長弓兵獲得主動技能萬箭齊發，可將攻擊時間降低 +1 秒，持續 6 秒。",
+   "n": "萬箭齊發"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "城牆、箭塔和城門的生命值 +25%。",
+   "n": "加強防禦"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "射箭場批次生產射程 +1，不會增加資源成本或招募時間。",
+   "n": "射箭場增援"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "軍營批次生產量 +1，不會增加資源成本或招募時間。",
+   "n": "軍營增援"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "馬廄批次生產量 +1，不會增加資源成本或招募時間。土爾扈特部批次生產量也 +1。",
+   "n": "馬廄增援"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "祈禱帳篷即使沒有敖包也能在影響範圍內提供強化生產效果。",
+   "n": "僧侶祭壇"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "火砲的攻擊速度 +33%。",
+   "n": "裝填訓練"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "更先進的彈匣讓諸葛弩兵能夠射出穿刺箭矢，增加 +0.5 射程，對輕型近戰步兵造成 +1 傷害。",
+   "n": "箭矢彈匣"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "瓦蘭吉衛隊與瑞塔利裝備強大的長柄逆刃刀，使衛隊的輕型步兵傷害提高 3，瑞塔利的傷害提高 3。",
+   "n": "長柄逆刃刀"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "每有一名正在衝鋒的重裝騎兵，就會獲得 +2 的衝鋒傷害。",
+   "n": "聖殿騎士團的統治"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "啟動朝聖者。\n朝聖者每 60 秒生成一次。開始時有 1 個朝聖者，每座要塞可獲得 1 個朝聖者 (最多 10 個)。",
+   "n": "安全通道"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "聖者的祝福提供的攻擊範圍 +5 格，以及聖者的祝福提供的傷害 +1。",
+   "n": "狂熱"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "聖者的祝福持續時間 +10 秒。",
+   "n": "神聖之光"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "僧侶戰士的生命值 +100。",
+   "n": "聖者的崇拜"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "薙刀武士規律地從遠處發射日本長弓。",
+   "n": "武士弓"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "避難所的保證使朝聖獲得 1 額外的朝聖者。",
+   "n": "避難所"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "投資更大更好的船體，使克拉克帆船的傷害提高 20%，生命值提高 15%，射程提高 10%。",
+   "n": "皇家艦隊"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "徵召 5 個准槍騎兵。",
+   "n": "召集貴族"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "徵召 12 個自耕農。",
+   "n": "郡徵召兵"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "徵召 10 個准槍騎兵、10 個伯爵衛隊和 10 個自耕農。",
+   "n": "徵召民兵計畫"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "依代的最大數量增加 +2。浮動閘門可立即產生 2 個依代。",
+   "n": "分靈"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "使所有建築的視野增加 +2 格。每 3 分鐘，所有經濟單位都會恢復 100% 的生命值，持續 3 秒。",
+   "n": "祗園祭"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "神職僧侶生命值增加 +40，治療速率增加 +60%，移動速度增加 +15%。",
+   "n": "神道儀式"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "完成後，攻城單位可獲得結構加固能力。\n攻城單位獲得 +20 近戰護甲和 +5 火焰護甲，持續 10 秒。",
+   "n": "攻城木工"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "投石車、巨型投石機和火砲能即時完成架設及拆解。",
+   "n": "攻城人員訓練"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "火砲傷害 +20%。火砲對步兵的傷害 +50。",
+   "n": "精密槍械"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "衝撞車傷害增加 +25%。衝撞車每 1 秒恢復 2 生命值。",
+   "n": "漂泊城鎮"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "巨型投石機的傷害 +30%。\n如果已完成幾何學的研究，則傷害 +10%。",
+   "n": "幾何學 (強化)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "使扭力弩砲的攻擊速度 +35%，遠程抗性 +10%、生命值 +10。\n若已研究捲簾式觸發器，則改為攻擊速度提高 10%、生命值 +10。",
+   "n": "捲簾式觸發器 (強化)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "攻城單位架設後，每 10 秒會造成 10% 額外傷害 - 最高可達 50%。",
+   "n": "持久攻城"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "攻城器械的移動速度 +10%。",
+   "n": "輕型框架"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "使攻城器械移動速度再增加 +10%。",
+   "n": "強化輪軸"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "攻城器械的移動速度 +25%。\n如果已完成潤滑輪軸研究，則 +10%。",
+   "n": "潤滑輪軸 (強化)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "新的木工科技讓攻城器械的生命值 +30%。\n若已完成攻城器研究，則生命值 +10%。",
+   "n": "攻城器 (強化)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "索法騎手的護甲 +2。",
+   "n": "進口護甲"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "索法騎手增加附近步兵的移動速度 +15%。",
+   "n": "法里瑪領導制"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "長槍兵和騎手的傷害 +2。",
+   "n": "錐子長矛"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "使長槍兵移動速度 +10%、對工人的傷害 +5。",
+   "n": "輕量化刀刃"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "扭力弩砲的攻擊範圍 +1 格。",
+   "n": "鋼帶臂"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "穆索法迪戰士和穆索法迪火槍兵從匿蹤狀態現身後的 5 秒內，每次攻擊可獲得 +5 的治療效果。",
+   "n": "本地知識"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "長矛兵裝備風雷火槍，獲得具冷卻時間的爆炸性遠程攻擊。",
+   "n": "風雷火槍"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "解鎖自耕農的同步射擊技能。",
+   "n": "同步射擊"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "火繩槍足輕如果不移動，會自動部署豎立的盾牌，使武器射程增加 +2 格，遠程護甲增加 +2。",
+   "n": "火繩槍盾"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "拜占庭聖騎兵的護甲 +1。邊防軍移動速度 +15%。瓦蘭吉衛隊攻擊速度 +15%。",
+   "n": "淚型盾"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "可將軍事建築和運輸單位的生產速度提高 53%。\n 該效果不會影響宗教或其他支援單位。\n 如果軍事學院已研究完成，生產速度便可提高 20%。",
+   "n": "軍事學院 (強化)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "大型箭塔與石牆塔可以實施投擲手雷攻擊，會對鄰近單位造成爆炸傷害。敵人要當心了。",
+   "n": "火焰之雨"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "為所有瓦蘭吉堡壘升級預設的箭狹槽據點，可在 6 格的武器範圍內造成 10 傷害。",
+   "n": "堡壘防禦箭狹槽"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "投資自然科學能讓讓所有騎兵的生命值增加 +35%。\n若生物學已研究完畢，則增加 +10%。",
+   "n": "生物學 (強化)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "佛教寺廟每 6 秒對附近的敵人施放僧兵契經。",
+   "n": "五山部"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "一向一揆僧兵的攻擊光環治療效果提高 +1。",
+   "n": "漢方醫學"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "使一向一揆僧兵的生命值 +60、近戰傷害 +2。",
+   "n": "念佛"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "一向一揆僧侶移動速度 +33%。",
+   "n": "山頂訓練"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "將佛教招降升級為涅槃招降後，冷卻時間會縮短 25%，且施展時使附近友軍單位的移動速度會額外增加 +25%。",
+   "n": "涅槃"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "佛教僧侶每 60 秒產生 25 黃金。",
+   "n": "禪宗"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "金帳能以折扣的石材成本快速生產獨特單位，土爾扈特部石材成本與生產速度減少 20%，且羅斯貢品會升級，獲得更高的護甲與一把長柄斧。",
+   "n": "石料大軍"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "金帳會為每座強化哨站，每 10 秒產生 10 黃金，最多可達 6 座強化哨站。",
+   "n": "驛站網路貿易"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "使可汗與土爾扈特部的成本 -20%，並使其生命值 +30。",
+   "n": "可汗與土爾扈特部"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "生產 2 建築馬車，可部署為軍事建築。\n晉升至後續時代時，會額外生產一輛建築馬車。",
+   "n": "建築馬車"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "被征服的羅斯領土將為重裝步兵與重裝騎兵提供更大的盾牌，使其遠程防禦 +2。\n每分鐘也會產生 200 木材，但每有一個單位裝備羅斯盾牌，產量就會減少 2 木材。",
+   "n": "莫斯科實物稅"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "薩滿可將持有的聖物獻出以建造一座敖包，此熬包能超過建造上限。使敖包的石料採集率提高 20%。",
+   "n": "聖物敖包"
+  },
+  "upgrade_towershields_jin": {
+   "d": "裝備大型塔盾，使裝甲步兵獲得 +3 遠程護甲。",
+   "n": "塔盾"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "商人和貿易船也可帶回輔助資源。此資源的數值是基本黃金數值的 25%，並為市集定價。",
+   "n": "大集市"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "來自商人貿易船和的黃金收入 +30%。",
+   "n": "香料之路"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "商人和貿易船護甲 +3。",
+   "n": "裝甲商隊"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "商人貿易時供應的石料 +20%。\n 如果已完成石料商業研究，則供應的石料 +10%。",
+   "n": "石料商業 (強化)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "商人交易時供應的石料 +10%。",
+   "n": "石料商業"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "衝撞車獲得一項能力，可讓自身無法移動，以獲得強大的防禦加成並能發射多支箭矢。",
+   "n": "灘頭堡"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "在要塞的光環範圍內，將修道院、聖地和朝聖者的黃金產量提高 20%。",
+   "n": "寶藏塔"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "巨型投石機的砲彈在擊中時會碎裂，藉此增加其效果範圍。",
+   "n": "散射砲彈"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "巨型投石機與一窩蜂火箭投擲的爆炸彈會驅趕敵方守軍，使受攻擊建築的傷害 -20% ，持續 8 秒。巨型投石機與一窩蜂火箭獲得 +1 射程。",
+   "n": "霹靂砲"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "所有巨型投石機武器都會獲得 +1 個額外彈丸。",
+   "n": "配重防禦"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "將治療者大象升級為精銳治療者大象",
+   "n": "升級為精銳"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "將堅韌傭兵為老練傭兵。",
+   "n": "老練契約"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "將老練傭兵升級為精銳傭兵。",
+   "n": "精銳契約"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "宗教單位的治療速率 +90%。\n如果已完成草藥治療研究，則 +30%。",
+   "n": "草藥治療 (強化)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "所有薩滿的生命值 +60。\n如果已完成虔誠研究，則 +20。",
+   "n": "虔誠 (強化)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "可讓學者在城堡時代 (第三時代) 之前佔領聖地。聖地會額外產生 +25% 黃金。",
+   "n": "神聖思想"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "放置在祈禱帳篷的聖物每分鐘都會提供 +60 食物、+60 木材和 +15 石料收入。\n如果已完成什一稅倉房研究，食物、木材 +20、石料收入則 +5 。",
+   "n": "什一稅倉房 (強化)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "受到學者治療的單位攻擊速度 +50%，持續 3 秒。",
+   "n": "熱忱"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "已收起的建築移動速度提升 +70%，收起/展開速度提升 +50%。\n如果已經研究了「卓越機動性」，則速度改為提升 +20%。",
+   "n": "卓越機動性 (已改良)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "組裝建築的移動和組裝/拆裝速度加快 50%。",
+   "n": "卓越機動性"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "使村民的攜帶能力 +3，移動速度 +7%，及從漿果灌木叢的採集效率 +25%。",
+   "n": "田原"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "使村民的攜帶能力 +3，移動速度 +7%，及從漿果灌木叢的採集效率 +25%。",
+   "n": "竹細工"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "使村民的攜帶能力 +3，移動速度 +7%，及從漿果灌木叢的採集效率 +25%。",
+   "n": "札差"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "將弩砲象升級為精銳弩砲象",
+   "n": "強化武裝弩砲"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "村民的資源運載量 +9，移動速度 +15%。\n如果已完成獨輪推車研究，則資源運載量 +4。",
+   "n": "獨輪推車 (強化)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "瓦蘭吉衛隊在啟動「狂戰士」時移動速度 +30%。",
+   "n": "兇猛速度"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "瓦蘭吉兵工廠打造更致命的箭矢，被波莫擊中的單位造成的傷害 -20%，持續 5 秒。",
+   "n": "毀滅性致盲"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "村民生命值 +50%。\n若已完成紡織品研究，則生命值 +100%。",
+   "n": "紡織品 (強化)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "塔和大型箭塔會修復鄰近的城牆和城門，每秒修復 +25 生命值。",
+   "n": "額外材質"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "建造更大的巨型投石機所獲得的經驗，使其射程增加 +2，生命值增加 +50%。",
+   "n": "戰狼號巨型投石機"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "所有步兵和騎兵的火炬傷害 +5。\n如果已完成額外火炬研究，則所有步兵和騎兵的火炬傷害 +2。",
+   "n": "額外火炬 (強化)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "所有步兵和騎兵的火炬傷害 +3。",
+   "n": "額外火炬"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "此木造要塞發射的箭矢傷害 +2。",
+   "n": "城堡砲塔"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "將這座木造要塞的視野範圍提升 6 格。",
+   "n": "城堡瞭望"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "騎兵移動速度提升 10%。",
+   "n": "馬匹訓練"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "使日本長槍騎兵的反騎兵傷害 +2。",
+   "n": "改良型日本長槍"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "屋台可從附近的農田收集食物，每座農田提供 +4 食物 / 分鐘。使最大速率增加至 80 食物/分。",
+   "n": "屋台農田採集"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "為日本長弓足輕提供 +1 傷害。",
+   "n": "肥後弓"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "鍍金國土傭僕裝備了一把能傷害敵人的長戟。被這種武器擊中時，單位每秒會造成 2出血傷害。持續 10秒。\n任何治療效果都會移除出血。",
+   "n": "怒擊"
+  }
+ },
+ "terms": {
+  "i-food": "食物",
+  "i-gold": "黃金",
+  "i-silver": "銀牌",
+  "i-stone": "石料",
+  "i-vizier": "維齊爾點數",
+  "i-wood": "木材"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "透過研究特殊科技，滿足阿拔斯人對於知識的追求，這些科技可為駱駝、軍事、宗教、經濟和貿易帶來加成。\n透過升級智慧宮的 4 個偏殿來發展到下一個時代。",
+   "t": "追尋知識"
+  },
+  "ab-2": {
+   "d": "駱駝一出現就會對敵方騎兵的馬匹造成驚嚇，並使對方的傷害 -20%。",
+   "t": "駱駝戰士"
+  },
+  "ab-3": {
+   "d": "步兵不需要攻城工程科技就可以建造衝撞車、攻城塔、扭力弩砲和輕型投石車。",
+   "t": "攻城專家"
+  },
+  "ab-4": {
+   "d": "在漿果灌木叢附近建造磨坊，便可將其培育成櫻桃園，並使其食物產能 +100。\n村民採集漿果灌木叢的速度提升 25%，但無法從野豬身上收集食物。\n村民從漿果灌木叢採集的食物攜帶量 +3。",
+   "t": "大果園"
+  },
+  "ab-5": {
+   "d": "陸上商人便宜 33%。",
+   "t": "貿易經濟"
+  },
+  "ab-6": {
+   "d": "碼頭的建造成本 -50% 木材。",
+   "t": "造船廠"
+  },
+  "ab-7": {
+   "d": "藉由建造建築邁向黃金時代，以改進經濟和科技。\n在智慧宮影響範圍內的建築 +5 火焰護甲，並且可增加進入黃金時代的點數一點。黃金時代解除鎖定的門檻分別為 10、30 和 60 座建築。\n• 階層 1：村民收集速率 +15%\n• 階層 2：研究速度 +20%\n• 階層 3：村民收集所有資源的速率 +20%、研究速度 +20%、生產速度 +20%。",
+   "t": "黃金時代"
+  },
+  "ab-8": {
+   "d": "駱駝弓兵：輕遠程騎兵，可對輕近戰步兵造成額外傷害。\n駱駝騎兵：輕近戰騎兵，可對騎兵造成額外傷害。\n古拉姆：強悍步兵，攻擊時可進行雙重打擊。",
+   "t": "特殊單位"
+  },
+  "ay-1": {
+   "d": "透過選擇智慧宮的 8 個偏殿來發展到下一個時代。\n立即獲得經濟、科技和軍事的各種加成，無需任何升級即可讓文明更能應付戰鬥需求。\n每個偏殿在較晚時代建造時都會提供更強大的獎勵。",
+   "t": "因地制宜的指揮官"
+  },
+  "ay-2": {
+   "d": "駱駝一出現就會對敵方騎兵的馬匹造成驚嚇，並使對方的傷害 -20%。",
+   "t": "駱駝戰士"
+  },
+  "ay-3": {
+   "d": "步兵不需要攻城工程科技就能在戰場上建造攻城器械。\n獲得兩種特殊的攻城武器和一種特殊的攻城升級。",
+   "t": "攻城術大師"
+  },
+  "ay-4": {
+   "d": "在漿果灌木叢附近建造磨坊，便可將其培育成櫻桃園，並使其食物產能 +100。\n村民採集漿果灌木叢的速度提升 25%，但無法從野豬身上收集食物。\n村民從漿果灌木叢採集的食物攜帶量 +3。",
+   "t": "大果園"
+  },
+  "ay-5": {
+   "d": "陸上商人便宜 33%。",
+   "t": "貿易經濟"
+  },
+  "ay-6": {
+   "d": "碼頭的建造成本 -50% 木材。",
+   "t": "造船廠"
+  },
+  "ay-7": {
+   "d": "藉由建造建築邁向黃金時代，提升經濟、科技和軍事。\n在智慧宮影響範圍內的建築獲得 +5 火焰護甲，並且可增加進入黃金時代的點數一點。黃金時代解除鎖定的門檻分別為 10、20、30、50 和 75 座建築。\n• 階層 1：村民收集速率+10% \n• 階層 2：研究速度 +25%\n• 階層 3：生產速度 +20%\n• 階層 4：攻城單位生產成本減少 20%\n• 階層 5：駱駝單位攻擊速度提高 20%。",
+   "t": "黃金時代"
+  },
+  "ay-8": {
+   "d": "沙漠掠奪者：多功能的駱駝騎兵，可以在遠程和近戰模式之間切換。\n駱駝長矛騎兵：具備強大衝鋒攻擊能力的重型駱駝。\n苦行僧：具有強大治療能力的騎馬宗教單位。\n重力投石機：特殊的輕型投石車，可以使用燃燒彈模式，大幅增加造成傷害的範圍。\n蘇丹箭塔：由弓兵駕駛的攻城武器巨獸，並配備輕型衝撞車，能對建築造成毀滅性傷害。",
+   "t": "特殊單位"
+  },
+  "by-1": {
+   "d": "收集用於僱用傭兵單位的獨特資源。村民收集的橄欖油相當於從漿果灌木叢中收集食物的 50%，橄欖林中收集的 20%，以及岸邊捕魚中收集的 10%。\n漁船產生的橄欖油相當於從捕魚所得食物的 20% ，且貿易商根據交易量提供 20% 橄欖油。",
+   "t": "橄欖油"
+  },
+  "by-2": {
+   "d": "購買合約或完成對貿易站的控制，即可在傭兵之家招募來自其他文明的特殊單位。",
+   "t": "傭兵"
+  },
+  "by-3": {
+   "d": "蓄水池能給予附近的村民更高的收集率和影響力，可增強附近的建築、提高單位生產速度、研究速度或建築防禦\n建造水渠網路並連接到蓄水池可增加產出加成。",
+   "t": "蓄水池和水渠"
+  },
+  "by-4": {
+   "d": "從每個建築中收集石料。建築大小決定收集的石料數量。",
+   "t": "野石"
+  },
+  "by-5": {
+   "d": "攜帶式希臘之火、升級的快速大帆船和巨型投石機在攻城攻擊中能投擲希臘之火，將該地區吞噬在火焰之中，造成持續性的傷害。",
+   "t": "希臘之火"
+  },
+  "by-6": {
+   "d": "哨站和大型箭塔可用「輕型投石車砲台」升級。石牆塔會配備輕型投石車砲台來取代扭力弩砲。",
+   "t": "輕型投石車砲臺"
+  },
+  "by-7": {
+   "d": "邊防軍：取代長槍兵。擁有盾牆技能的輕型近戰步兵，能以犧牲移動速度為代價提升遠程護甲。\n瓦蘭吉衛隊：取代裝甲步兵。可使用狂戰士技能以犧牲護甲為代價提升傷害。可以建造運輸船並在駐守時提升運輸船護甲。從運輸船卸載時獲得移動速度加成。\n拜占庭聖騎兵：取代騎士。重型騎兵，擁有踐踏技能，這是強大的指向性技能，能衝過路徑上的敵人並對其造成傷害。\n希臘之火噴射車：裝備短程希臘火攻擊的衝撞車。\n德羅蒙戰艦：取代扭力弩砲船。裝備希臘火。",
+   "t": "特殊單位"
+  },
+  "ch-1": {
+   "d": "在唐朝開始你的旅程，斥候的視野提升 +30% 並允許進入村莊。\n在一個時代建造兩個地標，以讓王朝在開始時就有特殊獎勵、獨特的建築和單位。\n•宋朝：生產村民的速度提升 +33%，解鎖穀倉和諸葛弩。\n•元朝：村民、官員和軍事單位移動速度提升 +15%，解鎖寶塔和火長矛騎兵。\n• 明朝：軍事單位生命值提升 +15%，解鎖擲彈兵。",
+   "t": "盛世王朝"
+  },
+  "ch-2": {
+   "d": "村民建造防禦建築的速度提高 +50%，建造其他所有建築的速度則提高 +100%。碼頭運作速度提高 +10%。",
+   "t": "快速建造"
+  },
+  "ch-3": {
+   "d": "遊戲開始時免費獲得化學科技：防禦型建築使用手銃狹槽取代防禦型箭狹槽。",
+   "t": "火藥大師"
+  },
+  "ch-4": {
+   "d": "訓練單位、研究科技和存放資源時都會產生稅金 (黃金)，稅金可由帝國官員收集。",
+   "t": "稅金"
+  },
+  "ch-5": {
+   "d": "在帝國學院地標影響範圍內建造的軍事和經濟建築產生的稅金 +100%。",
+   "t": "影響力"
+  },
+  "ch-6": {
+   "d": "帝國官員：可使用監督能力讓研究和軍事建築的生產速度 +150%，監督經濟建築可讓村民的資源存放量 +20%。\n諸葛弩兵：可快速使出爆擊的輕遠程步兵，擅長對付輕型單位。\n皇宮衛兵：裝甲步兵的替代單位。透過犧牲移動速度提高護甲的重裝近戰步兵。\n一窩蜂火箭：輕型投石車的替代單位。可發射一片火箭並造成範圍傷害的攻城器械。\n火長矛騎兵：輕騎兵，擅長對付攻城器械和建築。自帶廣闊的視野範圍，可並進行強大的衝鋒攻擊。\n擲彈兵：輕遠程火藥步兵，可以擲出手榴彈，造成範圍傷害。",
+   "t": "特殊單位"
+  },
+  "de-1": {
+   "d": "在黑暗時代 (第一時代) 從清真寺訓練學者。可比其他文明提早研究並解除宗教科技的鎖定。",
+   "t": "學者文化"
+  },
+  "de-2": {
+   "d": "節省科技成本，並免費研究所有科技，但研究速率會大幅減慢，研究科技的進度可暫停和繼續。",
+   "t": "學術成就"
+  },
+  "de-3": {
+   "d": "使用可建造木牆的步兵單位來打造防禦堅實的聚落。建造守護者大院地標可以將此能力升級為建造石牆。",
+   "t": "邊界防禦工事"
+  },
+  "de-4": {
+   "d": "捕魚艇可進行遠程攻擊以自衛，且擁有 50% 額外生命值。",
+   "t": "防禦水手"
+  },
+  "de-5": {
+   "d": "在漿果灌木叢附近建造磨坊，便可將其培育成櫻桃園，並使其食物產能 +100。\n村民採集漿果灌木叢的速度提升 25%，但無法從野豬身上收集食物。\n村民從漿果灌木叢採集的食物攜帶量 +3。",
+   "t": "果園賞金"
+  },
+  "de-6": {
+   "d": "駐守在清真寺、穆斯林學塾或碼頭的學者可提高其影響範圍內建築的研究速度，提高程度取決於駐守學者的總人數。學者駐守時碼頭的工作速度加快。",
+   "t": "影響力"
+  },
+  "de-7": {
+   "d": "學者：在黑暗時代 (第一時代) 能夠進行治療的宗教單位。\n戰象：背上有一名長槍兵的重裝近戰騎兵，擁有高生命值、高傷害以及強大的攻城攻擊力。\n箭塔象：背上有兩名弓兵的遠程騎兵，移動時也可進行射擊。\n加齊掠奪者：揮舞著重錘的快速騎手。",
+   "t": "特殊單位"
+  },
+  "en-1": {
+   "d": "敵人進入射程時，城鎮中心、哨站、石牆塔和大型箭塔能讓附近單位攻擊速度 +20%，以守衛邊境。\n從大型箭塔研究城堡網路技術還可以進一步使攻擊速度 +30%。",
+   "t": "城堡網路"
+  },
+  "en-2": {
+   "d": "大型箭塔具備特殊能力，可生產所有軍事單位。",
+   "t": "大型箭塔生產"
+  },
+  "en-3": {
+   "d": "在黑暗時代 (第一時代) 可生產先鋒裝甲步兵，英國裝甲步兵生產速度 +40%。",
+   "t": "戰鬥號令"
+  },
+  "en-4": {
+   "d": "首都城鎮中心可射出額外的弓箭，村民也會使用短弓攻擊敵方單位。",
+   "t": "防禦城鎮"
+  },
+  "en-5": {
+   "d": "農田的建造成本 -50%。\n在帝王時代 (第四時代) 研究圈地科技可讓村民在農田工作時，每 6 秒產生 +1 黃金。",
+   "t": "農業島嶼"
+  },
+  "en-6": {
+   "d": "海軍訓練可提升碼頭工作效率，船隻建造成本 -10%。",
+   "t": "造船工匠"
+  },
+  "en-7": {
+   "d": "每次進入新時代後，磨坊影響範圍內的農田採集速率提升 +20/25/30/30%。",
+   "t": "影響力"
+  },
+  "en-8": {
+   "d": "斥候與裝甲步兵可建立營火，能使附近單位的視野範圍 +30%、附近獵人的採集率 +10%。",
+   "t": "王家之森"
+  },
+  "en-9": {
+   "d": "長弓兵：擁有 +2 射程和 +1 傷害的弓兵，自帶防禦性拒馬能力，可暈眩並傷害敵方騎兵。",
+   "t": "特殊單位"
+  },
+  "fr-1": {
+   "d": "在封建時代 (第二時代) 可部署皇家騎士，並可研究強大的騎兵特殊科技。",
+   "t": "皇家種馬"
+  },
+  "fr-2": {
+   "d": "用更便宜的 -50% 資源掉落和 -35% 經濟技術獲得優越的經濟。\n城鎮中心生產速度每個年代增加 +15%、+15%、+20%、+25%。",
+   "t": "大陸經濟"
+  },
+  "fr-3": {
+   "d": "選擇用商人和貿易船將食物、木材或黃金帶回市集。\n貿易船帶回來的資源 +20%。\n貿易站會在遊戲一開始顯示在小地圖上。\n碼頭會提供人口空間。",
+   "t": "貿易經濟"
+  },
+  "fr-4": {
+   "d": "鐵匠鋪在每次進入新時代後能免費獲得近戰傷害科技。",
+   "t": "鐵匠舖的恩惠"
+  },
+  "fr-5": {
+   "d": "用大型箭塔維持攻勢，其花費 -10%，且影響範圍內的射箭場和馬廄生產單位成本 -20%。",
+   "t": "影響力"
+  },
+  "fr-6": {
+   "d": "皇家騎士：重裝騎兵，完成衝鋒後會獲得 +3 額外傷害，效果持續 5 秒。\n 弓弩兵：弩兵，擁有 +1 近戰護甲，可放置一面防禦用巨盾，提供 +5 遠程護甲和 +1 武器射程，效果持續 30 秒。\n 加農砲：火砲的替代單位，傷害更高，機動性更強，無需架設時間。\n 三桅戰船：大型戰艦，有前置遠程火砲。\n 柯克船：獨特的扭力弩砲戰艦，建造成本較低，且提升遠程護甲。",
+   "t": "特殊單位"
+  },
+  "gol-1": {
+   "d": "金帳是金帳汗國唯一的時代地標，可以升級以進入下一個時代並增加建築的生命值。可以在金帳上選擇一項敕令，這會改變強化哨站提供的影響力或光環加成。\n可以從金帳招募金帳汗國可汗和土爾扈特部。",
+   "t": "金帳"
+  },
+  "gol-2": {
+   "d": "單位以兩名為一批次生產。可以研究科技以改善批次生產。",
+   "t": "部落"
+  },
+  "gol-3": {
+   "d": "建造牲畜圍欄而非農田或牧場來獲得食物。牲畜圍欄有羊屍，可以直接在牲畜圍欄採集和卸貨。",
+   "t": "牲畜圍欄"
+  },
+  "gol-4": {
+   "d": "強化哨站擁有更多生命值，並根據在金帳選擇的詔令提供影響力或光環加成。",
+   "t": "強化哨站"
+  },
+  "gol-5": {
+   "d": "運輸船登陸速度提高並更耐久，生命值 +50%，移動速度 +15%。",
+   "t": "強化運輸工具"
+  },
+  "gol-6": {
+   "d": "使用商人探索絲綢之路可透過貿易獲得額外資源，加成幅度取決於您的活躍商人總數。\n• 商人總數超過 5 位：食物 +10% \n• 商人總數超過 10 位：食物、木材 +10% \n• 商人總數超過 15 位：食物、木材、黃金 +10%",
+   "t": "絲綢之路"
+  },
+  "gol-7": {
+   "d": "在石料露頭上建造敖包，無須村民即可採集石材。可建造的敖包數量上限每次進入新時代時 +1。",
+   "t": "石料科技與敖包"
+  },
+  "gol-8": {
+   "d": "斥候可部署獵隼偵察術能力，以監視週遭區域。",
+   "t": "獵隼偵察術"
+  },
+  "gol-9": {
+   "d": "金帳汗國可汗：重裝騎兵，強度隨時代升級而提升。可發射箭矢，增加區域內敵人受到的傷害。可汗在戰鬥中停留時間越長，提供的攻擊傷害光環也越強。\n土爾扈特部：重裝騎兵，可保護可汗，將可汗受到的任何傷害轉移至土爾扈特部身上。\n人盾戰術：以較弱的輕近戰步兵單位當作附近盟友的護甲。\n欽察：馬弓騎兵，可發射箭矢使被擊中的目標流血。\n牽引式巨型投石機：移動速度、架設時間與攻擊速度更快。\n怯薛：封建時代即可生產的重裝騎兵，每次攻擊後都會恢復生命值。",
+   "t": "特殊單位"
+  },
+  "hl-1": {
+   "d": "在封建時代建造莊園以產生被動收入。莊園可作為所有資源類型的放置建築，並提供 +10 人口空間。每座莊園每分鐘產生 30 食物與 10 木材，且每有一名附近的村民，便額外產生 4 食物與 2 木材。\n透過獨特科技提高莊園的建造上限。",
+   "t": "封建制度"
+  },
+  "hl-2": {
+   "d": "每個城鎮中心在建造完成後會生成 4 隻綿羊。村民從綿羊身上採集的速度提高 +20%。",
+   "t": "羊毛產業"
+  },
+  "hl-3": {
+   "d": "首都城鎮中心可射出額外的弓箭，村民也會使用短弓攻擊敵方單位。",
+   "t": "防禦城鎮"
+  },
+  "hl-4": {
+   "d": "城堡建造時會免費贈送 3 名伯爵衛隊。每座啟用中的大型箭塔都會讓伯爵衛隊和重裝騎兵的傷害提高 +1，最多提高 +4。",
+   "t": "家族凝聚"
+  },
+  "hl-5": {
+   "d": "海軍訓練可提升碼頭工作效率，船隻建造成本 -10%。",
+   "t": "造船工匠"
+  },
+  "hr-1": {
+   "d": "將聖物放在哨站、箭塔和大型箭塔可展現帝國的力量，使其護甲增加 +25%，傷害增加 +25%，射程增加 +25%，視野增加 +20%。\n將聖物放在碼頭可提升船隻攻擊速度，每放置一個聖物 +5% (最高 +25%)。\n聖物放在建築內可每分鐘產生 +80 黃金。",
+   "t": "宗教狂熱"
+  },
+  "hr-2": {
+   "d": "步兵的移動速度在黑暗時代 (第一時代) 增加 5%，在封建時代 (第二時代) 則增加 10%。使用有效的科技升級步兵，並可以在封建時代 (第二時代) 訓練早期裝甲步兵。",
+   "t": "帝國軍隊"
+  },
+  "hr-3": {
+   "d": "所有砲台科技成本 -20%。哨站視線範圍 +20%。",
+   "t": "砲臺建築學"
+  },
+  "hr-4": {
+   "d": "村民的資源運載量比其他文明多 40%。",
+   "t": "手推車"
+  },
+  "hr-5": {
+   "d": "在城鎮中心影響範圍內建造的建築可獲得緊急修復能力，啟動後可修復建築，建築生命值每秒 +150，持續 20 秒。",
+   "t": "影響力"
+  },
+  "hr-6": {
+   "d": "教長：對村民使用聖靈鼓舞技能，使其採集速率提升 +35%，持續 30 秒。\n國土傭僕：輕型近戰步兵，手持大型雙手劍，能造成可觀的範圍傷害。\n黑騎兵：強大的裝甲騎乘射手。生產數量受限於已建造的大型箭塔數量。",
+   "t": "特殊單位"
+  },
+  "ja-1": {
+   "d": "城鎮中心可升級成稱為大名莊園、大名宮殿和幕府城的特殊建築。這些建築能為附近的村民在農場工作時提供 20%、40%、60% 的額外收益，增加日本武士旗手的上限 +1、+2、+3，並提升其防禦能力。",
+   "t": "大名"
+  },
+  "ja-2": {
+   "d": "戰場精銳日本武士旗手，對附近的步兵和騎兵分別增加 +15% 和 +10% 的傷害。旗手日本武士在遇害時旗幟會掉落，在一段時間內提供相同的效果。",
+   "t": "旗本武士"
+  },
+  "ja-3": {
+   "d": "在黑暗時代 (第一時代) 即可生產日本武士。日本武士具備偏斜護甲能力，可定時格擋近戰或遠程攻擊。",
+   "t": "心如止水"
+  },
+  "ja-4": {
+   "d": "鍛造場是黃金與石料的存放點，可取代採礦營地與兵工廠。此外，它還能在黑暗時代 (I) 提供額外的近戰傷害科技。農舍可提供人口，並取代磨坊作為食物存放點。",
+   "t": "農舍與鍛造廠"
+  },
+  "ja-5": {
+   "d": "在帝國時代 (第四時代) 可以建造更強大的大型箭塔，它擁有更高的生命值和火箭砲塔，但成本也更高。火箭能快速攻擊並對單一目標造成巨大傷害。",
+   "t": "織田要塞"
+  },
+  "ja-6": {
+   "d": "村民存放黃金時會額外產生 20% 石料，反之亦然。",
+   "t": "銀礦開採"
+  },
+  "ja-7": {
+   "d": "透過選擇的第三時代地標選擇神道教或佛教。若選擇神道教，你將解鎖神職僧侶。若選擇佛教，你將解鎖佛教和尚。這些宗教單位會提供特殊加成。",
+   "t": "宗教選擇"
+  },
+  "ja-8": {
+   "d": "軍營建造成本降低 50%。",
+   "t": "日本武士區域"
+  },
+  "ja-9": {
+   "d": "捕魚艇的生產成本降低 25%。",
+   "t": "漁村"
+  },
+  "je-1": {
+   "d": "聖女貞德出現在戰場。英雄單位能透過完成任務獲得經驗值，包括收集資源、建造建築和參與戰鬥。\n累積足夠經驗值後，貞德就能升級獲得強大的經濟和戰鬥能力。",
+   "t": "英雄之旅"
+  },
+  "je-2": {
+   "d": "在封建時代 (第二時代) 可部署皇家騎士，並可研究強大的騎兵特殊科技。",
+   "t": "皇家種馬"
+  },
+  "je-3": {
+   "d": "人們在聖女貞德的領導下更加努力地工作。經濟升級便宜 35%。",
+   "t": "刺激經濟"
+  },
+  "je-4": {
+   "d": "選擇用商人和貿易船將食物、木材或黃金帶回市集。\n貿易船帶回來的資源 +20%。\n貿易站會在遊戲一開始顯示在小地圖上。\n碼頭會提供人口空間。",
+   "t": "貿易經濟"
+  },
+  "je-5": {
+   "d": "聖女貞德：出身於村民的英雄單位，貞德必須開啟英雄之旅並獲得強大能力。\n貞德的騎士：快速騎兵，擅長突襲、側翼攻擊和克制弩兵，在貞德達到等級 3 時可以使用。\n貞德的劍兵勇士：擅長對抗長槍兵的強悍步兵，在貞德達到等級 3 時可以使用。\n皇家騎士：重裝騎兵，完成衝鋒後會獲得 +3 額外傷害，效果持續 5 秒。\n弓弩兵：弩兵，擁有 +1 近戰護甲，可放置一面防禦巨盾，提供 +5 遠程護甲和 +1 武器射程，效果持續 30 秒。\n加農砲：火砲的替代單位，傷害更高，機動性更強，無需架設時間。\n三桅戰船：大型戰艦，有前置遠程火砲。\n柯克船：獨特的扭力弩砲戰艦，建造成本較低，刺穿護甲較高。",
+   "t": "特殊單位"
+  },
+  "jin-1": {
+   "d": "完成地標後從 3 處地點中選擇以建造草原，草原將逐漸於場上生成最多 5 匹馬匹。馬匹將使所有近戰騎兵單位生命值 +2 及所有遠距騎兵單位生命值 +1，或可供草原影響範圍內的馬廄使用以快速訓練任何騎乘單位。封建/城堡/帝王時代草原每 90/60/45 秒生產一匹新馬匹。",
+   "t": "草原"
+  },
+  "jin-2": {
+   "d": "游牧血統可允許生產最多 20 的鄉騎，採集、建造與移動速度皆大幅提升，但造價較高。透過貿易站建立朝貢國，可將建造上限提高 +3。",
+   "t": "女真遺產"
+  },
+  "jin-3": {
+   "d": "使用猛安謀克屯寨升級防禦建築，派出防禦者保護附近土地。據點亦會緩慢生產防禦者以補充損失。",
+   "t": "猛安謀克"
+  },
+  "jin-4": {
+   "d": "訓練最多 2 名配備兩種強大能力的使者。\n在中立貿易聚落建立朝貢關係以獲得忠誠盟友，他們將代為採集食物、使鄉騎建造上限 +3 名，並使您的商人收入 +15%。\n對一群敵方單位施放賄賂，將其轉變為中立戰士以攻擊任何擋路者。",
+   "t": "使者"
+  },
+  "jin-5": {
+   "d": "在封建時代建造機工場，可提早使用床弩。床弩取代扭力弩砲，可對敵方陣型發射兩枚投射物。床弩據點將取代所有防禦建築的扭力弩砲據點。",
+   "t": "攻城專業"
+  },
+  "kt-1": {
+   "d": "透過透過建立三個獨特封地之一來在城鎮中心進入新時代。每個封地都會永久解鎖一個特殊單位和加成。",
+   "t": "建立封地"
+  },
+  "kt-2": {
+   "d": "要塞取代大型箭塔，並且在封建時代即可興建。\n位於要塞附近之遠程單位的攻擊射程增加 +15%，位於要塞或聖殿騎士司令部影響範圍內之石牆的生命值增加 +25% 並獲得預設的箭。\n要塞充當地標，但可以被完全摧毀。",
+   "t": "法蘭克防禦計畫"
+  },
+  "kt-3": {
+   "d": "聖殿騎士團無法訓練商人，但會藉由成功的朝聖之旅產生黃金。到達封建時代後，聖殿騎士團可以為前往聖地的朝聖者提供安全通道。\n每 60 秒，一群朝聖者將從聖殿騎士團總部前往所選的聖地，根據旅行的距離在抵達後產生黃金。每座啟用中的要塞都會讓隊伍規模增加 1，最多增加 10。\n聖地和聖物會在遊戲開始時顯示。",
+   "t": "朝聖"
+  },
+  "kt-4": {
+   "d": "建造海港而非碼頭，海港更昂貴但擁有更高的生命值、更強的據點、更多可供漁船駐守的空間，並能提高附近船艦的生命值。",
+   "t": "沿海海港"
+  },
+  "kt-5": {
+   "d": "村民會自動存放木材，而無需伐木場。\n每個時代的木材採集速度提高 +20%，並且採集到的木材中有 20% 會作為額外食物產生。",
+   "t": "景觀保護"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "攻城專家"
+  },
+  "kt-7": {
+   "d": "聖殿弟兄：騎士的替代品。比普通騎士更貴，但擁有額外生命值和傷害。\n封建時代\n醫院騎士封地 - 醫院騎士：可以治療附近友方單位的重裝近戰步兵。\n法蘭西王國封地 - 伴行騎士：比正規騎士更便宜的重裝騎兵。附近每有一名伴行騎士，就會獲得額外生命值。\n安條克公國封地 - 軍士：擁有高近戰護甲的重裝步兵。可投擲斧頭，造成遠程近戰傷害。\n城堡時代\n安茹帝國封地 - 重裝長槍兵：在要塞周圍更強大的裝甲長槍兵。\n熱那亞共和國封地 - 熱那亞弩兵：昂貴的弩兵，可對近戰步兵造成額外傷害。\n卡斯提爾王國封地 - 標槍騎兵：擅長對抗遠程單位的騎馬標槍兵。\n帝王時代\n波蘭王國封地 - 貴族騎兵：擁有超強遠程護甲的精銳騎兵。減緩其造成傷害之敵人的攻擊速度，並對輕型步兵造成額外傷害。\n條頓騎士團封地 - 條頓騎士：極為強大的重裝步兵，每在戰鬥中擊倒一個敵人就會獲得力量。降低附近敵人的護甲。\n威尼斯共和國封地 - 傭兵：只消耗黃金的快速步兵。擅長對抗火藥單位。\n威尼斯戰船：配備遠距船首巨型投石機的大型槳帆船。\n威尼斯商人：昂貴但移動速度快的商人。最大建造上限為 5名。",
+   "t": "特殊單位"
+  },
+  "ma-1": {
+   "d": "自黑暗時代 (I) 便擁有優越的黃金經濟，能於黃金礦脈之上建造露天礦區，在不消耗礦脈的情況下產生黃金。村民也能在露天礦區啟用的同時採集黃金。\n即使黃金礦脈完全耗盡，露天礦區也能繼續從礦脈中產生黃金。",
+   "t": "露天礦區"
+  },
+  "ma-2": {
+   "d": "在礦坑影響範圍內建造的每個房屋和採礦營地都會增加其黃金產生量。\n城鎮中心的建造需要黃金而非石料。",
+   "t": "影響力 - 礦業社區"
+  },
+  "ma-3": {
+   "d": "在黑暗時代 (I) 從磨坊中生產牛隻。馬利人村民可以比其他文明更快速地採集牛隻生產食物，或者駐紮在牧場中，每隔一段時間生產食物。",
+   "t": "牛隻和牧場"
+  },
+  "ma-4": {
+   "d": "獨特的穆索法迪戰士和穆索法迪火槍兵單位可以使用啟動隱身能力潛行並藉機伏擊。",
+   "t": "穆索法迪探路者"
+  },
+  "ma-5": {
+   "d": "在城堡時代 (第三時代) 解鎖的資深單位技術的研究所需時間與成本減半。",
+   "t": "法拉利的知識"
+  },
+  "ma-6": {
+   "d": "經過收費哨站的商人和貿易船，會根據目前交易目標立即提供獎勵資源。如果收費哨站建在另一個收費哨站的範圍內，則不會產生任何獎勵稅。",
+   "t": "收費哨站"
+  },
+  "ma-7": {
+   "d": "完成貿易路線收集黃金時也會降低未來科技的研究時間。",
+   "t": "手稿交易"
+  },
+  "ma-8": {
+   "d": "漁船卸下其 10% 的食物作為黃金。",
+   "t": "魚類加工"
+  },
+  "ma-9": {
+   "d": "所有船隻在靠近碼頭時，移動速度都會增加。\n運輸船用標槍攻擊每個駐守單位。",
+   "t": "登陸派對"
+  },
+  "mac-1": {
+   "d": "村民在黃金礦脈和石料露頭中發現了豐富的方鉛礦床，並在開採時提取白銀作為獨特資源。\n村民提取的白銀量，等同於所開採黃金或石料的 40%。",
+   "t": "方鉛礦採集"
+  },
+  "mac-2": {
+   "d": "瓦蘭吉兵工廠會產生影響力，讓採礦營地和城鎮中心能隨時間開始處理白銀。處理的白銀數量取決於村民存放的白銀總量。",
+   "t": "影響力 - 白銀鑄造"
+  },
+  "mac-3": {
+   "d": "在瓦蘭吉兵工廠花費白銀來研發獨特的軍事科技，此建築取代了兵工廠與學院。馬其頓王朝每個類別的軍事升級可超過三個等級。",
+   "t": "瓦蘭吉鍛造"
+  },
+  "mac-4": {
+   "d": "使用可生產所有瓦蘭吉單位並以箭矢防禦的瓦蘭吉堡壘來鞏固帝國。",
+   "t": "要塞"
+  },
+  "mac-5": {
+   "d": "在瓦蘭吉營地選擇增援部隊。一旦在戰鬥中有足夠的戰士陣亡，免費的瓦蘭吉戰士就會抵達營地，以補充損失的兵力。\n若鄰近水域，也可選擇船隻作為援軍。",
+   "t": "戰爭營地"
+  },
+  "mac-6": {
+   "d": "刻寫盧恩石以紀念過往的戰鬥勝利。瓦蘭吉人擊敗足夠數量的敵人後，就能立起盧恩石，為範圍內的友方瓦蘭吉人提供激勵人心的戰鬥加成。",
+   "t": "瓦蘭吉盧恩石"
+  },
+  "mac-7": {
+   "d": "希臘之火噴射車與升級後的德羅蒙戰艦、扭力弩砲和巨型投石機可投擲希臘之火發動攻擊，使該區域被火焰吞噬，造成持續性傷害。",
+   "t": "希臘之火"
+  },
+  "mac-8": {
+   "d": "哨站和大型箭塔可用「輕型投石車砲台」升級。石牆塔會配備輕型投石車砲台來取代扭力弩砲。",
+   "t": "輕型投石車砲臺"
+  },
+  "mac-9": {
+   "d": "阿特蓋爾：長槍兵替代單位。輕型近戰步兵，當附近有瓦蘭吉單位時，其被動技能會提高攻擊速度。\n波莫：弓兵替代單位。輕型遠程步兵，擁有能以移動速度為代價來穿透護甲的技能。\n早期瓦蘭吉衛隊：裝甲步兵替代單位。使用狂暴技能以護甲為代價來提高傷害。可建造運輸船，並在駐守時提高運輸船的護甲。\n瑞塔利：騎士替代單位。重裝騎兵，擁有能在一段時間內從遠處投擲斧頭的技能。\n希臘之火噴射車：一種配備短程希臘之火攻擊的衝撞車。\n德羅蒙戰艦：扭力弩砲船替代單位。配備希臘之火。",
+   "t": "特殊單位"
+  },
+  "mo-1": {
+   "d": "所有建築都可以拆裝並移至新的位置重新部署。\n摒棄建造房屋的需求，以擁有最大人口容量的情況開始遊戲。\n可利用哨站網路快速回應敵人的舉動，哨站可提供附近的騎兵和商人 +15% 移動速度。",
+   "t": "偉大統治"
+  },
+  "mo-2": {
+   "d": "在黑暗時代 (第一時代) 派出強大的可汗，可利用信號箭為附近的所有軍事單位提供強力加成。\n可汗和斥候可使用獵隼偵察術能力，持續監視周圍的區域。",
+   "t": "汗國"
+  },
+  "mo-3": {
+   "d": "黑暗時代即可建造馬廄，部署騎手速度 +25%。",
+   "t": "專家騎手"
+  },
+  "mo-4": {
+   "d": "建造牧場取代農田，以此飼養綿羊來獲得食物。牧場在敖包的影響範圍內時生產綿羊的速度會提高。",
+   "t": "游牧採集者"
+  },
+  "mo-5": {
+   "d": "點燃敵方建築或摧毁建造中的敵方建築可掠奪 25 食物和黃金。",
+   "t": "突襲賞金"
+  },
+  "mo-6": {
+   "d": "運輸船登陸速度提高並更耐久，生命值 +50%，移動速度 +15%。",
+   "t": "強化運輸工具"
+  },
+  "mo-7": {
+   "d": "使用商人探索絲綢之路可透過貿易獲得額外資源，加成幅度取決於您的活躍商人總數。\n• 商人總數超過 5 位：食物 +10% \n• 商人總數超過 10 位：食物、木材 +10% \n• 商人總數超過 15 位：食物、木材、黃金 +10%",
+   "t": "絲綢之路"
+  },
+  "mo-8": {
+   "d": "在石料露頭上建造敖包以產生影響力並採集石料，無須村民。每次時代升級後，敖包每分鐘採集石料 +70、100、130、160。\n位於敖包影響力範圍內的建築，可使用石料雙倍生產單位或研究改良版科技。",
+   "t": "影響力"
+  },
+  "mo-9": {
+   "d": "可汗：騎馬弓兵，在每次進入新時代後可提升力量並解鎖信號箭能力。\n• 機動箭：移動速度 +33%。\n• 攻速箭：攻擊速度 +50%。\n• 護甲箭：護甲 +2。\n蒙古突騎：騎馬弓兵，可往所有方向邊移動邊射擊。\n牽引式巨型投石機：移動速度、架設時間和攻擊速度較快。\n怯薛：封建時代的重裝騎兵，每次攻擊後都會恢復生命值。",
+   "t": "特殊單位"
+  },
+  "od-1": {
+   "d": "村民採集的速度提升 28%，建造和維修建築的速度提升 20%，但生產村民需要額外增加 20% 的食物成本。",
+   "t": "有效率的村民"
+  },
+  "od-2": {
+   "d": "將聖物放在哨站、箭塔和大型箭塔可展現帝國的力量，使其護甲增加 +25%，傷害增加 +25%，射程增加 +25%，視野增加 +20%。\n將聖物放在碼頭可提升船隻攻擊速度，每放置一個聖物 +5% (最高 +25%)。\n聖物放在建築內可每分鐘產生 +80 黃金。",
+   "t": "宗教狂熱"
+  },
+  "od-3": {
+   "d": "研究像重型火炬、鱗甲和戰馬等科技，進一步強化騎士團的力量。",
+   "t": "精銳裝備"
+  },
+  "od-4": {
+   "d": "所有砲台科技成本 -20%。哨站視線範圍 +20%。",
+   "t": "砲臺建築學"
+  },
+  "od-5": {
+   "d": "村民的資源運載量比其他文明多 40%。",
+   "t": "手推車"
+  },
+  "od-6": {
+   "d": "在城鎮中心影響範圍內建造的建築可獲得緊急修復能力，啟動後可修復建築，建築生命值每秒 +150，持續 20 秒。",
+   "t": "影響力"
+  },
+  "od-7": {
+   "d": "騎士團的精銳步兵和騎兵單位 (例如鍍金裝甲步兵、鍍金騎士等) 的生命值幾乎是正規軍單位的兩倍，造成的傷害也明顯更高。然而，他們的訓練成本也高得多，並且佔用了兩倍的人口空間。",
+   "t": "特殊單位"
+  },
+  "ot-1": {
+   "d": "建造軍事學校，在不消耗任何資源的情況下連續生產特定類型的單位，不過生產的速度較慢。",
+   "t": "軍事學校訓練"
+  },
+  "ot-2": {
+   "d": "訓練單位和進入新時代能獲得維齊爾點數的經驗，行動成本越高，獲得的經驗就越多。最多可獲得 5 點維齊爾點數，花費點數便能解鎖強大的獨特鄂圖曼加成。",
+   "t": "帝國議會"
+  },
+  "ot-3": {
+   "d": "用更便宜的軍事和技術建築訓練、升級和組建一支軍隊。",
+   "t": "軍事誘導"
+  },
+  "ot-4": {
+   "d": "貿易船、捕魚艇和運輸船的移動速度增加。",
+   "t": "運輸路線"
+  },
+  "ot-5": {
+   "d": "每次進入新時代後，提升在鐵匠鋪或大學影響範圍內建造的軍事生產建築的生產速度 。",
+   "t": "影響力"
+  },
+  "ot-6": {
+   "d": "采邑騎兵：替代騎手單位。能啟動剛毅技能來加快攻擊速度，但受到的近戰攻擊傷害增加。\n 鄂圖曼軍樂隊：騎馬戰鼓手，能切換不同的戰鼓能力，為附近單位提供軍事增強。\n• 攻擊戰鼓：提高攻擊速度。\n• 近戰防禦戰鼓：增加近戰護甲。\n• 遠程防禦戰鼓：增加遠程護甲。\n 蘇丹親兵：強大的火槍兵，可以修理攻城引擎並對騎兵造成額外傷害。\n 大型槳帆船：可以改造成海上軍事學校的大型戰船。\n 重型火砲：體積最大的部署式火藥攻城器械，能造成遠距離的範圍傷害。\n阿金基輕騎兵：遠程騎兵，可快速地連續發射兩支箭。必須透過帝國議會來解鎖。",
+   "t": "特殊單位"
+  },
+  "ru-1": {
+   "d": "用木製要塞取代哨站來加強鄉村的防禦，木製要塞自帶 +100% 生命值和 +3 駐軍欄位。\n建造垛木牆，垛木牆自帶 +100% 生命值且建造時間更少。",
+   "t": "林地聯邦"
+  },
+  "ru-2": {
+   "d": "與狩獵小屋訓練的斥候一起生存下去。狩獵小屋可提供標準磨坊擁有的所有利益，同時能夠調查隱密森林並根據附近樹木的數量產生黃金。",
+   "t": "獵人王子"
+  },
+  "ru-3": {
+   "d": "可在封建時代 (第二時代) 派出早期騎士。",
+   "t": "隨行王家侍從"
+  },
+  "ru-4": {
+   "d": "羅德亞船隻可以消耗一定資源轉換為任何類型的船隻。\n羅德亞捕魚艇可直接在船上處理食物，不需返回碼頭便可存放食物。",
+   "t": "羅德亞改編"
+  },
+  "ru-5": {
+   "d": "從動物身上採集可以獲得金幣賞金，達到賞金總額的特定門檻時還能提供村民和狩獵小屋經濟獎勵。\n100賞金\n• 食物採集率 +5% \n• 狩獵小屋會額外產生 10% 的黃金\n400賞金\n• 食物採集率 +10% \n• 狩獵小屋會額外產生 25% 的黃金\n1000 賞金\n• 食物採集率 +15% \n• 狩獵小屋額外生產 40% 的黃金",
+   "t": "賞金獎勵"
+  },
+  "ru-6": {
+   "d": "監管皆伐措施：當伐木場和城鎮中心在木造要塞影響範圍內時，村民存放木材量額外 +20%。",
+   "t": "影響力"
+  },
+  "ru-7": {
+   "d": "僧侶戰士：宗教輕騎兵單位，在戰鬥中可以鼓舞附近的單位，提供 +1 護甲和 +2 傷害加成。\n騎馬弓兵：輕遠程騎兵，擁有極高的機動性和傷害。\n射手衛隊：火槍兵，在靜止不動時能力會增強，並擁有極高的近戰攻擊力。\n羅德亞船隻：可以轉換為任何船型。",
+   "t": "特殊單位"
+  },
+  "sen-1": {
+   "d": "大名宅邸是可奉獻給三個氏族之一的獨特建築。北條氏族可改良近戰步兵，織田氏族可改良遠程步兵，或武田氏族可改良騎兵。大名宅邸也擁有可提高軍事建築生產速度的影響力。",
+   "t": "大名宅邸"
+  },
+  "sen-2": {
+   "d": "祭典是獨特的早期市集，可以生產屋台。屋台是獨特的工人單位，會緩慢地從 2 格內的食物來源產生食物，而不會將其殺死或消耗食物來源。如果屋台收集到足夠的食物，它會派一名食物商人返回祭典以改善提高附近村民採集速率的光環。",
+   "t": "屋台與祭典"
+  },
+  "sen-3": {
+   "d": "鍛造場是黃金與石料的存放點，可取代採礦營地與兵工廠。此外，它還能在黑暗時代 (I) 提供額外的近戰傷害科技。農舍可提供人口，並取代磨坊作為食物存放點。",
+   "t": "農舍與鍛造廠"
+  },
+  "sen-4": {
+   "d": "在帝國時代 (第四時代) 可以建造更強大的大型箭塔，它擁有更高的生命值和火箭砲塔，但成本也更高。火箭能快速攻擊並對單一目標造成巨大傷害。",
+   "t": "織田要塞"
+  },
+  "sen-5": {
+   "d": "村民存放黃金時會額外產生 20% 石料，反之亦然。",
+   "t": "銀礦開採"
+  },
+  "sen-6": {
+   "d": "捕魚艇的生產成本降低 25%。",
+   "t": "漁村"
+  },
+  "sen-7": {
+   "d": "會在地圖上揭示所有鹿與野豬的位置。",
+   "t": "揭示鹿與野豬"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "工作夥伴"
+  },
+  "tug-2": {
+   "d": "為了尋求知識與智慧，圖格魯克王朝投入更多資源資助科技研究，以換取近乎即時的研究時間。",
+   "t": "博學"
+  },
+  "tug-3": {
+   "d": "利用圖格魯卡巴德堡壘讓您的敵人陷入恐懼。此防禦建築從封建時代 (II) 開始即可使用，並可升級以提高其傷害輸出與生命值，同時解鎖您所選的總督。",
+   "t": "傳奇堡壘"
+  },
+  "tug-4": {
+   "d": "在圖格魯卡巴德堡壘從六位總督中擇一，協助圖格魯克王朝達到新的高峰。總督的實力會隨著圖格魯卡巴德堡壘的每次改良升級而增強。總督可提供經濟、節奏、軍事、研究與宗教加成。\n每座堡壘只能有一位總督處於生效狀態。",
+   "t": "總督支援"
+  },
+  "tug-5": {
+   "d": "村民採集漿果灌木叢的速度提高 30%，但無法從野豬身上採集食物。\n村民從漿果灌木叢攜帶的食物 +3。",
+   "t": "編籃技術"
+  },
+  "tug-6": {
+   "d": "利用能建造木牆的步兵單位，建立防禦鞏固的聚落。",
+   "t": "邊界防禦工事"
+  },
+  "tug-7": {
+   "d": "捕魚艇可進行遠程攻擊以自衛，且擁有 50% 額外生命值。",
+   "t": "防禦水手"
+  },
+  "tug-8": {
+   "d": "突襲大象：行動快速的大象，擅長突襲、側攻和反擊遠程單位。可以踐踏繞過任何單位，在一片區域內造成傷害。\n治療者大象：高生命值的裝甲近戰大象，配備兩名可單獨治療單位的伊瑪目。對附近的每個近戰步兵造成更多傷害。\n戰象：重型近戰騎兵，上面騎乘一名長槍兵，擁有很高的生命值和傷害，具有強大的攻城攻擊力。\n弩砲大象：裝備弩砲的遠程大象，對近戰單位很有效，可穿透多個目標。",
+   "t": "特殊單位"
+  },
+  "zx-1": {
+   "d": "在唐朝開始你的旅程：地標花費降低-15%，村莊已解鎖。\n建造一個時代的兩個地標，以特殊獎勵、建築和單位開始王朝。\n• 宋朝：經濟與人口建築的木材花費減少 -30%，解鎖穀倉可供建造。\n• 元朝：所有單位便宜 10%，解鎖寶塔可供建造。\n• 明朝：獨特單位造成 +20% 傷害。",
+   "t": "盛世王朝"
+  },
+  "zx-2": {
+   "d": "訓練單位、研究科技以及存放資源會產生可由帝國官員收集的稅金(黃金)。盧山書院和朱熹圖書館的獨特行政科技可大幅提升帝國官員的能力。",
+   "t": "稅金"
+  },
+  "zx-3": {
+   "d": "無需進入王朝時代即可使用諸葛弩兵和擲彈兵。地標可以解鎖強大的少林僧侶、元朝掠奪者和帝國衛隊。可在封建時代訓練早期皇宮衛兵。",
+   "t": "王朝單位"
+  },
+  "zx-4": {
+   "d": "遊戲開始時免費獲得化學科技：防禦型建築使用手銃狹槽取代防禦型箭狹槽。",
+   "t": "火藥大師"
+  },
+  "zx-5": {
+   "d": "村民建造防禦建築的速度提高 +50%，建造其他所有建築的速度則提高 +100%。碼頭運作速度提高 +10%。",
+   "t": "快速建造"
+  },
+  "zx-6": {
+   "d": "在封建時代 (第二時代) 訓練早期皇宮衛兵，以保護皇帝。",
+   "t": "保護宮殿"
+  },
+  "zx-7": {
+   "d": "帝國官員：可使用監督能力讓研究和軍事建築的生產速度 +150%，監督經濟建築可讓村民的資源存放量 +20%。\n諸葛弩兵：弓兵的替代單位。可使出連射攻擊的遠程輕步兵，擅長對付輕型單位。\n皇宮衛兵：裝甲步兵的替代單位。透過犧牲移動速度提高護甲的重裝近戰步兵。\n一窩蜂火箭：輕型投石車的替代單位。可發射一片火箭並造成範圍傷害的攻城器械。\n擲彈兵：輕遠程火藥步兵，可以擲出手榴彈，造成範圍傷害。",
+   "t": "特殊單位"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}

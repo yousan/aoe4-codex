@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "Dynastia Abbasydów dąży do rozkwitu Złotego Wieku, wznosząc budowle wokół swojego Domu Mądrości, co pozwala im na odblokowanie znaczących korzyści ekonomicznych. Dom Mądrości przyśpiesza także wkraczanie w kolejne ery i zapewnia dostęp do zaawansowanych technologii. Jednostki na wielbłądach Abbasydów są ekspertami w zwalczaniu wrogiej kawalerii.",
+  "ay": "Na styku kontynentów, gdzie spotykają się handel i nauka i gdzie walczą ze sobą imperia, Ajjubidzi wykorzystują swoje poszukiwania wiedzy, aby zdobyć przewagę. Dom Mądrości to główny punkt tego połączenia urbanizacji i nauki. Odblokowuje potężne premie Złotego Wieku i przechodzenia przez ery. Ajjubidzi skupiają się na wszechstronnych jednostkach, aby zdobyć taktyczną przewagę na polu bitwy.",
+  "by": "Bizantyjczycy budują rozległe sieci życiodajnych akweduktów i cystern. Wykorzystaj potężne unikalne umiejętności i zatrudniaj najemników za pomocą znakomitej oliwy z oliwek. Chłopi pracują niestrudzenie, aby produkować oliwę z oliwek dla imperium.",
+  "ch": "Chińczycy w każdej epoce mogą skupiać się na czymś innym, przez co mają wiele unikalnych jednostek i szybko budują. Wrogowie muszą stale się przystosowywać, jeśli chcą za nimi nadążyć.",
+  "de": "Dzięki zastępom uczonych Sułtanat Delhijski jest zawsze o kilka kroków przed przeciwnikami. Dokonania naukowców pozwoliły sułtanatowi wyszkolić przerażającego słonia bojowego, który stratuje wszystko, co stanie mu na drodze.",
+  "en": "Wyjątkowa wczesna kawaleria Anglików była potężną siłą wyrosłą na stabilnej produkcji żywności z pól uprawnych.",
+  "fr": "Francuzi wystawiają potężną kawalerię i mogą zwiększyć produkcję na ufortyfikowanych stanowiskach. Wrogowie muszą być gotowi na szarże potężnych królewskich rycerzy i innych opancerzonych jednostek.",
+  "gol": "Prowadząc Złotą Ordę na zachód, Batu-chan rozszerzył Imperium Mongolskie aż do serca Europy Wschodniej. Wielki Złoty Namiot chana był centrum sieci kontroli, z posterunkami, które pozwalały Mongołom utrzymywać rozległe terytoria. Złota Orda, choć wciąż budziła strach jako potężni najeźdźcy, poświęciła mobilność swoich obozów, aby wystawić większe siły potrzebne do kontrolowania swoich wasali.",
+  "hl": "Ród Lancasterów wyłania się jako potężna gałąź angielskiej rodziny królewskiej. Manoiry są podstawą ich gospodarki, zapewniając zrównoważone praktyki gospodarcze. Potęga militarna Lancasterów to przewaga technologiczna i doskonała taktyka na polu bitwy. Rozbij formacje wroga za pomocą potężnych oddziałów szturmowych, a następnie dobij je za pomocą świetnej piechoty dystansowej.",
+  "hr": "Prałaci wzmacniają gospodarkę Świętego Cesarstwa Rzymskiego, a potężne jednostki piechoty stanowią rdzeń jego armii. Wrogowie będą mierzyć się z przeciwnikiem, który potrafi szybko odbudować siły po ataku i przeprowadzić silny kontratak.",
+  "ja": "Władający japońskimi ziemiami Daimyo wzmacniają rolnictwo i zatrudniają samurajów, aby bronić swoich terytoriów. Prace w unikalnej kuźni trwają dzień i noc, by naostrzyć oręż i dać ich wojownikom przewagę w bitwie. Zaprawieni samurajowie-chorąży prowadzą zróżnicowaną armię piechoty i kawalerii do zwycięstwa.",
+  "je": "Dając promyk nadziei Francuzom, Joanna d'Arc wkracza na pole bitwy i inspiruje odwagę wśród swoich zwolenników. Zaczynając jako skromny mieszkaniec, Joanna rozpoczyna Ścieżkę bohatera w Erze Mroku. Doświadczenie przekuwa Joannę w potężnego przywódcę, dzięki czemu zyskuje ona dostęp do zaufanych towarzyszy i potężnych umiejętności kształtujących imperium, którego stworzenie jest jej przeznaczeniem.",
+  "jin": "Dynastia Jin wyłania się jako potęga militarna w północnych Chinach. Mieszkańcy na koniach poruszają się szybko, aby zdobywać nowe zasoby i tereny. Wykorzystuj okazje i mobilizuj armie kawalerii w mgnieniu oka, aby rozbijać wrogów i tłumić opór. Przekupuj wrogów o słabej woli do dezercji i ustanawiaj dochodowe państwa trybutarne.",
+  "kt": "Zakon templariuszy, utworzony w celu ochrony słabych i strudzonych, zakłada komturie w całej Europie, aby wzywać swoich sojuszników. Wystawiając spektakularną armię ciężkich żołnierzy, Templariusze ruszają do bitwy z dyscypliną i zapałem. Fortece umiejscowione w starannie wybranych lokalizacjach stanowią kluczowe pozycje obronne i bezpieczne schronienie dla pielgrzymów.",
+  "ma": "Prężnie rozwijająca się malijska gospodarka skupia się na wydobyciu złota i produkcji żywności. Zajmowanie złóż złota i budowa kopalni odkrywkowych pozwala wykorzystać urobek do produkcji unikalnych jednostek piechoty uderzających z ukrycia i miotających w przeciwników oszczepami.",
+  "mac": "Cesarz Bazyli II zatrudnił Waregów do obrony przed buntami wywołanymi przez bizantyjską szlachtę. Przybywszy na statkach z północy, ci urodzeni za granicą wojownicy nie ulegali wpływom bizantyjskiej polityki i kultury, tworząc elitarną dywizję szturmową, która przez kolejne stulecia chroniła cesarzy. Dynastia macedońska bije srebro jako unikalny surowiec, który można wydać w arsenałach Waregów, aby ostrzyć ich miecze i doskonalić umiejętności, podczas gdy oni chronią cesarza.",
+  "mo": "Mongołowie to mistrzowie mobilności i walki konnej, którzy mogą łatwo przenosić swoje obozy. Zyskują korzyści gospodarcze dzięki rozstawianiu się w pobliżu skał i najazdów na budynki przeciwnika. Wrogowie będą musieli radzić sobie z atakami kawalerii od początku gry.",
+  "od": "Zakon Smoka został założony przez wybranych członków elity w celu pokonania wrogich imperiów. Inwestując ogromne pokłady zasobów w szkolenie niewielkiej liczby wybitnych wojowników, Zakon jest w stanie stworzyć naprawdę wyjątkową armię.",
+  "ot": "Armia osmańska może szybko urosnąć w siłę i zdominować pole bitwy za sprawą szkół wojskowych, nieustannie uzupełniających armie nowymi jednostkami. Wspierający te formacje bębniarze mehter pozwalają dobrze wyszkolonym wojskom zdobyć dodatkową przewagę.",
+  "ru": "Rusini czerpią ogromne korzyści ze wsi. Szybciej pozyskują surowce związane z myślistwem i gospodarką leśną i mogą wystawić do walki silne jednostki. Wrogowie muszą zmierzyć się z potężnymi fortyfikacjami we wczesnej grze i zróżnicowaną gospodarką, którą nie jest łatwo osłabić.",
+  "sen": "Sengoku to okres zmiennych sojuszy i nieustannych wojen. Możesz wesprzeć trzy rywalizujące między sobą klany, aby zyskać potężną przewagę dla swojej piechoty dystansowej, piechoty walczącej w zwarciu lub kawalerii. Nawet w trakcie wojny znajdowano czas na świętowanie – matsuri to serce handlu i wymiany towarowej, zapewniające potężne korzyści gospodarce.",
+  "tug": "Ghijas ad-Din Tughlak był sułtanem, którego panowanie położyło podwaliny pod postęp w sztuce, architekturze i ekspansję dynastii Tughlaków. Zarządził on budowę twierdzy Tughluqabad, a przyszli sułtani, amirowie i gubernatorzy rozszerzyli obecność wojskową dynastii dzięki armii i pokazowi siły. Dynastia Tughlaków wzywa do szybkiej budowy dodatkowych fortów, podczas gdy gubernatorzy nadzorują ciężko pracujące słonie i mieszkańców.",
+  "zx": "Nauki filozofa Zhu Xi ukształtowały chińską cywilizację. Dzięki dziedzictwu Zhu Xi Chińczycy mogą poszczycić się wyrafinowaną administracją z najwyższej klasy urzędnikami cesarskimi i zaawansowanymi technologiami. Przepełniony skarbiec pomaga zakładać potężne dynastie i prowadzić badania nad wieloma unikalnymi technologiami. Rekrutuj gwardie pałacowe, chu-ko-nu i grenadierów na wczesnym etapie, aby chronić imperium."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Joanna wybiera ścieżkę łuczniczki i zdobywa łuk, którym może atakować wrogów z daleka. \nZyskuje umiejętność „Boska strzała”, która zadaje duże obrażenia jednemu celowi.",
+   "n": "Ścieżka łucznika"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "Umiejętność Wezwania Joanny będzie teraz przyzywać 7 jej wybranych towarzyszy na pole bitwy.\nZdobywa umiejętność ostateczną „Siła niebios”, która znacznie wzmacnia pojedynczą jednostkę.",
+   "n": "Dowódca polowy"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Szkolenie jeźdźców Joanny staje się możliwe w stajniach.\nZyskuje umiejętność „Jeźdźcy, gotowi!”, która przywołuje do niej 3 jeźdźców.",
+   "n": "Towarzysze jeźdźcy"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "Umiejętność Wezwania Joanny będzie teraz przyzywać 3 jej wybranych towarzyszy i potężną armatę na pole bitwy.\nZdobywa umiejętność ostateczną „Waleczna inspiracja”, która znacznie zwiększa szybkość ataku pobliskich sojuszników.",
+   "n": "Monarcha prochu"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Szkolenie czempionów Joanny staje się możliwe w koszarach.\nZyskuje umiejętność „Do broni!”, która przywołuje do niej 3 czempionów.",
+   "n": "Towarzysze czempioni"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Joanna wybiera ścieżkę wojowniczki i zdobywa dwuręczny miecz, którym może atakować wrogów w zwarciu.\nZyskuje umiejętność „Święty gniew”, która zadaje obrażenia obszarowe wokół Joanny.",
+   "n": "Ścieżka wojownika"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Odblokowuje najemników keszików, ghulamów i słoni z wieżami.\nKeszik: Era Feudalna\nGulam: kontrakt weterański\nSłoń z wieżą: kontrakt elitarny",
+   "n": "Kontrakt wschodnich najemników"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Odblokowuje produkcję najemników: wojowników z długimi łukami, landsknechtów i strzelców moskiewskich.\nWojownik z długim łukiem: Era Feudalna\nLandsknecht: kontrakt weterański\nStrzelcy moskiewscy: kontrakt elitarny",
+   "n": "Kontrakt zachodnich najemników"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Odblokowuje produkcję najemników: oszczepników, jeźdźców na wielbłądach i grenadierów.\nOszczepnik: Era Feudalna\nJeździec na wielbłądzie: kontrakt weterański\nGrenadier: kontrakt elitarny",
+   "n": "Kontrakt najemnika jedwabnego szlaku"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "Zapewnia dostęp do następujących technologii kulturowych:\n• Pielęgnacja wiedzy (Era II)\n• Ośrodki medyczne (Era III)\n• Publiczne biblioteki (Era IV)",
+   "n": "Skrzydło kulturowe"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "Zapewnia dostęp do następujących technologii kulturowych:\n• Pielęgnacja wiedzy (Era II)\n• Ośrodki medyczne (Era III)\n• Publiczne biblioteki (Era IV)",
+   "n": "Skrzydło kulturowe"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nZbuduj to skrzydło, aby przejść do następnej ery 20% szybciej i z mniejszym o 1350 kosztem.",
+   "n": "Skrzydło kulturowe: Postęp"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nPo ukończeniu przyznaje 4 derwiszów, zwiększa leczenie jednostki o +50% i włącza je na stałe.",
+   "n": "Skrzydło kulturowe: Logistyka"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nZbuduj to skrzydło, aby przejść do następnej ery 20% szybciej i z mniejszym o 250 kosztem.",
+   "n": "Skrzydło kulturowe: Postęp"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nPo ukończeniu przyznaje 2 derwiszów i na stałe włącza ich aurę leczenia.",
+   "n": "Skrzydło kulturowe: Logistyka"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "Zapewnia dostęp do następujących technologii kulturowych:\n• Pielęgnacja wiedzy (Era II)\n• Ośrodki medyczne (Era III)\n• Publiczne biblioteki (Era IV)",
+   "n": "Skrzydło kulturowe"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nZbuduj to skrzydło, aby przejść do następnej ery 20% szybciej i z mniejszym o 400 kosztem.",
+   "n": "Skrzydło kulturowe: Postęp"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nPo ukończeniu przyznaje 3 derwiszów, zwiększa leczenie jednostki o +25% i włącza je na stałe.",
+   "n": "Skrzydło kulturowe: Logistyka"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "Zapewnia dostęp do następujących technologii kulturowych:\n• Pielęgnacja wiedzy (Era II)\n• Ośrodki medyczne (Era III)\n• Publiczne biblioteki (Era IV)",
+   "n": "Skrzydło kulturowe"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nZbuduj to skrzydło, aby przejść do następnej ery 20% szybciej i z mniejszym o 1300 kosztem.",
+   "n": "Skrzydło kulturowe: Postęp"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Tworzy skrzydło kulturowe.\nPo ukończeniu przyznaje 4 derwiszów, zwiększa leczenie jednostki o +50% i włącza je na stałe.",
+   "n": "Skrzydło kulturowe: Logistyka"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Buduje skrzydło gospodarcze.\nZapewnia dostęp do następujących technologii gospodarczych:\n• Żyzny półksiężyc (Era II)\n• Rolnictwo (Era III)\n• Ulepszone przetwórstwo (Era IV)",
+   "n": "Skrzydło gospodarcze"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Buduje skrzydło gospodarcze.\nZapewnia dostęp do następujących technologii gospodarczych:\n• Żyzny półksiężyc (Era II)\n• Rolnictwo (Era III)\n• Ulepszone przetwórstwo (Era IV)",
+   "n": "Skrzydło gospodarcze"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 10 mieszkańców i wszyscy mieszkańcy pracują o +10% szybciej.",
+   "n": "Skrzydło gospodarcze: Wzrost"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 2000 drewna i 1000 kamienia. Mieszkańcy budują o 50% szybciej.",
+   "n": "Skrzydło gospodarcze: Przemysł"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 3 mieszkańców. Sady zyskują 50 szt. dodatkowej żywności.",
+   "n": "Skrzydło gospodarcze: Wzrost"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 400 szt. drewna. Mieszkańcy budują o 30% szybciej.",
+   "n": "Skrzydło gospodarcze: Przemysł"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Buduje skrzydło gospodarcze.\nZapewnia dostęp do następujących technologii gospodarczych:\n• Żyzny półksiężyc (Era II)\n• Rolnictwo (Era III)\n• Ulepszone przetwórstwo (Era IV)",
+   "n": "Skrzydło gospodarcze"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 7 mieszkańców. Sady zyskują 100 szt. dodatkowej żywności.",
+   "n": "Skrzydło gospodarcze: Wzrost"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 900 drewna i 400 kamienia. Mieszkańcy budują o 40% szybciej.",
+   "n": "Skrzydło gospodarcze: Przemysł"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Buduje skrzydło gospodarcze.\nZapewnia dostęp do następujących technologii gospodarczych:\n• Żyzny półksiężyc (Era II)\n• Rolnictwo (Era III)\n• Ulepszone przetwórstwo (Era IV)",
+   "n": "Skrzydło gospodarcze"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 10 mieszkańców i wszyscy mieszkańcy pracują o +10% szybciej.",
+   "n": "Skrzydło gospodarcze: Wzrost"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Buduje skrzydło gospodarcze.\nPo ukończeniu przyznaje 2800 drewna i 900 kamienia. Mieszkańcy budują o 50% szybciej.",
+   "n": "Skrzydło gospodarcze: Przemysł"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Buduje skrzydło wojskowe. Po ukończeniu przyznaje włóczników (2) i łuczników (2) (Era II), jeźdźców na wielbłądach (2) (Era III) lub kanonierów (3) (Era IV).\nOdblokowuje:\n• Obóz szkoleniowy (Era II)\n• Łuki kompozytowe (Era III)\n• Wsparcie wielbłądów (Era IV)",
+   "n": "Skrzydło wojskowe"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Buduje skrzydło wojskowe. Po ukończeniu przyznaje włóczników (2) i łuczników (2) (Era II), jeźdźców na wielbłądach (2) (Era III) lub kanonierów (3) (Era IV).\nOdblokowuje:\n• Obóz szkoleniowy (Era II)\n• Łuki kompozytowe (Era III)\n• Wsparcie wielbłądów (Era IV)",
+   "n": "Skrzydło wojskowe"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Buduje skrzydło wojskowe.\nPo ukończeniu jednostki kawalerii uzyskują możliwość budowania machin oblężniczych.\nDom Mądrości szkoli 7 pustynnych jeźdźców natychmiast, a następnie co 2 min przez resztę gry.",
+   "n": "Skrzydło wojskowe: Wzmocnienie"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Konstruuje skrzydło wojskowe.\n Akademia wojskowa oraz technologie obrażeń i pancerza kowala stają się darmowe i automatycznie ukończone przy wkraczaniu w Erę. (Technologie innych er nadal muszą być badane w zwykły sposób).",
+   "n": "Skrzydło wojskowe: Mistrzowie kowalscy"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Buduje skrzydło wojskowe.\nPo ukończeniu jednostki kawalerii zyskują możliwość budowania machin wojennych.\nDom Mądrości szkoli 1 pustynnego jeźdźca po 15 sek., a następnie co 2 min przez resztę gry.",
+   "n": "Skrzydło wojskowe: Wzmocnienie"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Konstruuje skrzydło wojskowe.\n Akademia wojskowa oraz technologie obrażeń i pancerza kowala stają się darmowe i automatycznie ukończone przy wkraczaniu w Erę. (Technologie innych er nadal muszą być badane w zwykły sposób).",
+   "n": "Skrzydło wojskowe: Mistrzowie kowalscy"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Buduje skrzydło wojskowe. Po ukończeniu przyznaje włóczników (2) i łuczników (2) (Era II), jeźdźców na wielbłądach (2) (Era III) lub kanonierów (3) (Era IV).\nOdblokowuje:\n• Obóz szkoleniowy (Era II)\n• Łuki kompozytowe (Era III)\n• Wsparcie wielbłądów (Era IV)",
+   "n": "Skrzydło wojskowe"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Buduje skrzydło wojskowe.\nPo ukończeniu jednostki kawalerii uzyskują możliwość budowania machin oblężniczych.\nDom Mądrości szkoli 3 pustynnych jeźdźców natychmiast, a następnie co 2 min przez resztę gry.",
+   "n": "Skrzydło wojskowe: Wzmocnienie"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Konstruuje skrzydło wojskowe.\n Akademia wojskowa oraz technologie obrażeń i pancerza kowala stają się darmowe i automatycznie ukończone przy wkraczaniu w Erę. (Technologie innych er nadal muszą być badane w zwykły sposób).",
+   "n": "Skrzydło wojskowe: Mistrzowie kowalscy"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Buduje skrzydło wojskowe. Po ukończeniu przyznaje włóczników (2) i łuczników (2) (Era II), jeźdźców na wielbłądach (2) (Era III) lub kanonierów (3) (Era IV).\nOdblokowuje:\n• Obóz szkoleniowy (Era II)\n• Łuki kompozytowe (Era III)\n• Wsparcie wielbłądów (Era IV)",
+   "n": "Skrzydło wojskowe"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Buduje skrzydło wojskowe.\nPo ukończeniu jednostki kawalerii uzyskują możliwość budowania machin oblężniczych.\nDom Mądrości szkoli 7 pustynnych jeźdźców natychmiast, a następnie co 2 min przez resztę gry.",
+   "n": "Skrzydło wojskowe: Wzmocnienie"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Konstruuje skrzydło wojskowe.\n Akademia wojskowa oraz technologie obrażeń i pancerza kowala stają się darmowe i automatycznie ukończone przy wkraczaniu w Erę. (Technologie innych er nadal muszą być badane w zwykły sposób).",
+   "n": "Skrzydło wojskowe: Mistrzowie kowalscy"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Buduje skrzydło administracyjne. Pasywnie zapewnia efekt +50% wszystkich bonusów Złotego Wieku.\nOdblokowuje: \n•Planowanie Miasta (Era II)\n•Dyrektywa Oblężnicza (Era III)\n•Wielki Bazar (Era IV)",
+   "n": "Skrzydło administracyjne"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Buduje skrzydło administracyjne. Pasywnie zapewnia efekt +50% wszystkich bonusów Złotego Wieku.\nOdblokowuje: \n•Planowanie Miasta (Era II)\n•Dyrektywa Oblężnicza (Era III)\n•Wielki Bazar (Era IV)",
+   "n": "Skrzydło administracyjne"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Konstruuje skrzydło handlowe.\nCo trzy minuty przybywa karawana handlowa z losowo wybranymi czterema korzystnymi wymianami zasobów i jednostek.\nJakość tych transakcji jest ustalana na stałe w zależności od ery, w której zbudowano skrzydło handlowe. Użycie skrzydła handlowego do wejścia w późniejszą erę zapewnia bardziej lukratywne transakcje.",
+   "n": "Skrzydło handlowe: Bazar"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Buduje skrzydło handlowe.\nPo ukończeniu otrzymujesz 7 atabegów, których można obsadzić w dowolnym budynku do rekrutacji wojska (z wyjątkiem portu), aby zwiększyć wytrzymałość nowo szkolonych jednostek o 20%.",
+   "n": "Skrzydło handlowe: Doradcy"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Konstruuje skrzydło handlowe.\nCo trzy minuty przybywa karawana handlowa z losowo wybranymi czterema korzystnymi wymianami zasobów i jednostek.\nJakość tych transakcji jest ustalana na stałe w zależności od ery, w której zbudowano skrzydło handlowe. Użycie skrzydła handlowego do wejścia w późniejszą erę zapewnia bardziej lukratywne transakcje.",
+   "n": "Skrzydło handlowe: Bazar"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Buduje skrzydło handlowe.\nPo ukończeniu otrzymujesz 3 atabegów, których można obsadzić w dowolnym budynku do rekrutacji wojska (z wyjątkiem portu), aby zwiększyć wytrzymałość nowo szkolonych jednostek o 20%.",
+   "n": "Skrzydło handlowe: Doradcy"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Buduje skrzydło administracyjne. Pasywnie zapewnia efekt +50% wszystkich bonusów Złotego Wieku.\nOdblokowuje: \n•Planowanie Miasta (Era II)\n•Dyrektywa Oblężnicza (Era III)\n•Wielki Bazar (Era IV)",
+   "n": "Skrzydło administracyjne"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Konstruuje skrzydło handlowe.\nCo trzy minuty przybywa karawana handlowa z losowo wybranymi czterema korzystnymi wymianami zasobów i jednostek.\nJakość tych transakcji jest ustalana na stałe w zależności od ery, w której zbudowano skrzydło handlowe. Użycie skrzydła handlowego do wejścia w późniejszą erę zapewnia bardziej lukratywne transakcje.",
+   "n": "Skrzydło handlowe: Bazar"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Buduje skrzydło handlowe.\nPo ukończeniu otrzymujesz 5 atabegów, których można obsadzić w dowolnym budynku do rekrutacji wojska (z wyjątkiem portu), aby zwiększyć wytrzymałość nowo szkolonych jednostek o 20%.",
+   "n": "Skrzydło handlowe: Doradcy"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Buduje skrzydło administracyjne. Pasywnie zapewnia efekt +50% wszystkich bonusów Złotego Wieku.\nOdblokowuje: \n•Planowanie Miasta (Era II)\n•Dyrektywa Oblężnicza (Era III)\n•Wielki Bazar (Era IV)",
+   "n": "Skrzydło administracyjne"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Konstruuje skrzydło handlowe.\nCo trzy minuty przybywa karawana handlowa z losowo wybranymi czterema korzystnymi wymianami zasobów i jednostek.\nJakość tych transakcji jest ustalana na stałe w zależności od ery, w której zbudowano skrzydło handlowe. Użycie skrzydła handlowego do wejścia w późniejszą erę zapewnia bardziej lukratywne transakcje.",
+   "n": "Skrzydło handlowe: Bazar"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Buduje skrzydło handlowe.\nPo ukończeniu otrzymujesz 7 atabegów, których można obsadzić w dowolnym budynku do rekrutacji wojska (z wyjątkiem portu), aby zwiększyć wytrzymałość nowo szkolonych jednostek o 20%.",
+   "n": "Skrzydło handlowe: Doradcy"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "Twierdze przejmują funkcje centrów miast, łącznie ze szkoleniem jednostek, limitem populacji i technologiami.",
+   "n": "Wiejska forteca"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Umożliwia obsadzanie uczonych w budynkach wojskowych, co zwiększa tempo produkcji o 100%.",
+   "n": "Wydajne tworzenie"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Daje +20% wytrzymałości i +4 pancerza słoniom bojowym przeciwko atakom dystansowym.",
+   "n": "Opancerzone bestie"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Daje +20% wytrzymałości i +4 pancerza słoniom bojowym przeciwko atakom dystansowym.",
+   "n": "Opancerzone bestie"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "– Wszyscy kawalerzyści zyskują 10% wytrzymałości i 50% obrażeń od szarży.",
+   "n": "Królestwo Polski"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "– Wszystkie jednostki produkowane ze złota zyskują +2 pancerza do walki w zwarciu.",
+   "n": "Zakon krzyżacki"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "– Zmniejsza zmianę podstawowej ceny kupna lub sprzedaży o 75% podczas handlu zasobami na rynku.",
+   "n": "Republika Wenecji"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "– Zwiększa wytrzymałość jednostek cywilnych o 30% i szybkość ruchu o 10%. Zwiększa leczenie ze wszystkich źródeł o 30%.",
+   "n": "Szpitalnicy"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "– Lądowe jednostki wojskowe są szkolone o 15% szybciej i kosztują o 5% mniej złota.",
+   "n": "Królestwo Francji"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "– Jednostki walczące w zwarciu zadają +15% obrażeń.",
+   "n": "Księstwo Antiochii"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "– Fortece i porty zyskują 30% wytrzymałości.",
+   "n": "Imperium Andegawenów"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "– Pielgrzymi generują +20% złota.",
+   "n": "Republika Genui"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "– Jednostki w pobliżu miejsc świętych zyskują +20% obrażeń i regenerują wytrzymałość.",
+   "n": "Królestwo Kastylii"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Każdy poddany trybutarny zapewnia dodatkowe +10% dochodu kupcom.",
+   "n": "Sojusz zawiązany na morzu"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Tworzy 12 owiec w centrum miasta i zwiększa szybkość wydobycia mieszkańców o +15%.",
+   "n": "Wzgórza Anatolii"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Zwiększ pancerz przeciwko atakom dystansowym pozłacanych łuczników o +3.",
+   "n": "Zbroja łuskowa"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "Strzały łuczników zadają dodatkowe 3 obrażeń przez 6 s.",
+   "n": "Zatrute strzały"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Zwiększa zbrojnym pancerz do walki w zwarciu i na dystans o 2 pkt.",
+   "n": "Pancerny"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Zwiększ punkty wytrzymałości wszystkich budynków o 10%.",
+   "n": "Fortyfikacje"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Zwiększ punkty wytrzymałości wszystkich budynków o 10%.",
+   "n": "Fortyfikacje"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Zwiększ punkty wytrzymałości wszystkich budynków o 10%.",
+   "n": "Fortyfikacje"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą kawalerię o 1.",
+   "n": "Inkrustacja ostrza"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą kawalerię o 1.",
+   "n": "Inkrustacja ostrza"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą kawalerię o 1.",
+   "n": "Inkrustacja ostrza"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej kawalerii o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Końska zbroja łuskowa"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej kawalerii o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Końska zbroja łuskowa"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej kawalerii o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Końska zbroja łuskowa"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą piechotę walczącą w zwarciu o 1.",
+   "n": "Dziwer"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą piechotę walczącą w zwarciu o 1.",
+   "n": "Dziwer"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane przez całą piechotę walczącą w zwarciu o 1.",
+   "n": "Dziwer"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej piechoty walczącej w zwarciu o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Cieniowana kolczuga"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej piechoty walczącej w zwarciu o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Cieniowana kolczuga"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Zwiększ pancerz całej piechoty walczącej w zwarciu o 1 pkt. i jej wytrzymałość o 5%.",
+   "n": "Cieniowana kolczuga"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane z dystansu przez wszystkie strzały i bełty o +1 pkt.",
+   "n": "Osełki"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane z dystansu przez wszystkie strzały i bełty o +1 pkt.",
+   "n": "Osełki"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Zwiększ obrażenia zadawane z dystansu przez wszystkie strzały i bełty o +1 pkt.",
+   "n": "Osełki"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Zwiększ pancerz wszystkich jednostek dystansowych o 1 pkt. i ich wytrzymałość o 5%.",
+   "n": "Zbroja lamelkowa"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Zwiększ pancerz wszystkich jednostek dystansowych o 1 pkt. i ich wytrzymałość o 5%.",
+   "n": "Zbroja lamelkowa"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Zwiększ pancerz wszystkich jednostek dystansowych o 1 pkt. i ich wytrzymałość o 5%.",
+   "n": "Zbroja lamelkowa"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Zwiększ wytrzymałość wszystkich machin oblężniczych o 5%.",
+   "n": "Żelazne okucia"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Zwiększ wytrzymałość wszystkich machin oblężniczych o 5%.",
+   "n": "Żelazne okucia"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Zwiększ wytrzymałość wszystkich machin oblężniczych o 5%.",
+   "n": "Żelazne okucia"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "Naprawa budynków odbywa się o 50% szybciej.",
+   "n": "Banco – naprawy"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Klasztory stają się samowystarczalne i uprawiają ziemię za pośrednictwem Świeckich Braci.\nMieszkańcy mogą składować surowce w klasztorach.\nPrałaci mogą stacjonować w klasztorach, aby inspirować wszystkich pobliskich mieszkańców, zwiększając ich szybkość pozyskiwania.",
+   "n": "Opactwa cysterskie"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Włócznicy wyposażają się w zahartowane halabardy, które zmniejszają pancerz wrogów o -1 podczas ataku.",
+   "n": "Halabardnicy"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Zwiększa pancerz do walki dystansowej i w zwarciu torgutów i jeźdźców o +1 i ich wytrzymałość o +20.",
+   "n": "Podbita zbroja"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Pospolici żołnierze są wyposażeni w bardziej odporne zbroje. Lekka kawaleria zyskuje +2 pancerza.",
+   "n": "Brygandyna"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "Wszystkie budynki zyskują 5 pkt. pancerza przeciwko obrażeniom od ognia.",
+   "n": "Budowa z płyt łupkowych i kamieni"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "Import burgundzkich rusznic umożliwia szkolenie kanonierów w Erze Zamków i zmniejsza koszt kanonierów -25%.",
+   "n": "Burgundzki import"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Zwiększa zasięg ataku włóczników o 100%.",
+   "n": "Falanga"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Zwiększ punkty pancerza jeźdźców na wielbłądach o 2.",
+   "n": "Zbroja wielbłądzia"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Zwiększ szybkość ruchu wielbłądzich jednostek wojskowych o 15%.",
+   "n": "Prowadzenie wielbłąda"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Zwiększa limit produkcji samurajów-chorążych o +1 i zapewnia darmowego mieszkańca.\nZwiększa wytrzymałość centrum miasta o +1000, dodaje dodatkowy otwór strzelniczy i zapewnia aurę, która zwiększa tempo zbiorów mieszkańców na farmach o +20%.",
+   "n": "Dwór Daimyo"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Zwiększa limit produkcji samurajów-chorążych o +2 i zapewnia darmowego mieszkańca.\nZwiększa wytrzymałość centrum miasta o +2000, zwiększa odporność na ogień o + 2, dodaje dodatkowy otwór strzelniczy i zapewnia aurę, która zwiększa tempo zbiorów na farmach o +40%.",
+   "n": "Pałac Daimyo"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Zwiększa limit produkcji samurajów-chorążych o +3 i zapewnia darmowego mieszkańca.\nZwiększa wytrzymałość centrum miasta o +3000, zwiększa odporność na ogień o + 3, dodaje aurę, która zwiększa tempo zbiorów mieszkańców na farmach o +60% i dodaje otwór na strzały rakietowe.",
+   "n": "Zamek siogunatu"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Zapełnij stajnie najlepszymi ogierami, zwiększając wytrzymałość całej kawalerii o +35%.",
+   "n": "Królewskie linie krwi"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Zwiększa dodatkowe obrażenia rycerzy królewskich po szarży z +3 do +10.",
+   "n": "Siodła z łękiem tylnym"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Królewscy rycerze regenerują +1 pkt. wytrzymałości co 1 sek. po zaprzestaniu walki.",
+   "n": "Rycerskość"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Zwiększ wytrzymałość ruskiej kawalerii o 25 pkt.",
+   "n": "Męstwo bojara"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Rycerze wyposażają się w topór, zwiększając obrażenia w walce wręcz o +4.",
+   "n": "Rycerskie topory"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Twoi rycerze i demilansjerzy ozdabiają swoje zbroje liberiami Lancasterów, zyskując dodatkowe 5 pkt. obrażeń przeciwko jednostkom ciężkim.",
+   "n": "Łańcuch z Esses"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Lokalne plemiona oferują kilka reniferów jako daniny. Renifery (4) pojawiają się pod twoim centrum miasta.",
+   "n": "Zbiorowe polowanie"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Postęp w dziedzinie feudalnego podziału ziemi zwiększa limit budowy manoirów o +4, a ich wytrzymałość o +100.",
+   "n": "Praktyki zwartego zagospodarowania gruntów"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Postęp w dziedzinie feudalnego podziału ziemi zwiększa limit budowy manoirów o +4, a ich wytrzymałość o +200.",
+   "n": "System otwartego pola"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Poprawia pancerz ogniowy i dystansowy statków o +2.",
+   "n": "Pokrycie miedzią"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "Kusze można załadować silniejszymi bełtami, które mają +0.5 zasięgu i +2 obrażeń.",
+   "n": "Lewary kołowe do kuszy"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Pozłacani kusznicy zadają o +20 pkt. obrażeń jednostkom oblężniczym.",
+   "n": "Bełty typu bodkin"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Zmniejsz koszt opracowania wszystkich technologii i er o -20%.",
+   "n": "Pielęgnacja wiedzy"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "Imamowie mogą przejmować jednostki, nie posiadając relikwii, ale ich celem może być tylko pojedyncza jednostka.",
+   "n": "Prozelityzm"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Centra miast i twierdze przywracają +2 pkt. wytrzymałości pobliskim jednostkom co 1 s.",
+   "n": "Ośrodki medyczne"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Mieszkańcy i kupcy zyskują +2 wytrzymałości z każdym ulepszeniem gospodarczym.",
+   "n": "Biblioteki publiczne"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Zwiększ szybkość ataku jednostek kawalerii o +20%.",
+   "n": "Konie Dali"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Zwiększ odporność na ogień ufortyfikowanych strażnic i palisad o +3 oraz ich wytrzymałość o +300.",
+   "n": "Wypełnione gliną mury"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Ulepsza aurę pustynnych posterunków na fortecach, aby zwiększała też pancerz pobliskich jednostek o +1/+1.",
+   "n": "Pustynne cytadele"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Natchnieni wieśniacy zbierają zasoby o +5% szybciej i wznoszą budowle oraz struktury obronne o +25% szybciej.",
+   "n": "Gorliwość"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Zwiększone obrażenia donso w walce dystansowej o +6, łuczników o +2 i miotaczy oszczepów o +3.",
+   "n": "Precyzyjne szkolenie"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Zwiększa tempo zbierania drewna przez mieszkańców o 15% i ilość przenoszonego przez nich drewna o 10.",
+   "n": "Konie pociągowe"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "Pochodnie pozłacanych włóczników zadają obrażenia obszarowe.",
+   "n": "Ciężkie pochodnie"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Zwiększ prędkość pozyskiwania mieszkańców o 5% za każdą osiągniętą dynastię.",
+   "n": "Starożytne techniki"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Zwiększa tempo pozyskiwania przez mieszkańców żywności z farm o 15%.",
+   "n": "Rolnictwo"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Obniż koszt budynków gospodarczych i domów o 30%.",
+   "n": "Żyzny półksiężyc"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Obniża koszt werbunku mieszkańców o 40%.",
+   "n": "Świeże artykuły spożywcze"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Mieszkańcy składują o 8% surowców więcej.",
+   "n": "Ulepszone przetwórstwo"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Zwiększa tempo zbierania kamieni przez owoo o 20%.",
+   "n": "Ofiara owoo"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Zwiększa tempo zbierania kamieni przez owoo o 20%.",
+   "n": "Ceremonia owoo"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Zwiększ szybkość pozyskiwania żywności z zagród o 10%. Nie dotyczy zagonionych owiec.",
+   "n": "Wypasanie rotacyjne"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Zwiększ szybkość pozyskiwania żywności z zagród o 10%. Nie dotyczy zagonionych owiec.",
+   "n": "Nadmierne wypasanie"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Zwiększ prędkość pozyskiwania żywności przez mieszkańców o 30%. Nie dotyczy mięsa z upolowanej zwierzyny.\nJeśli zbadano już Ogrodnictwo, zwiększ ją o 20%.",
+   "n": "Ogrodnictwo (ulepszone)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Zwiększ prędkość wydobywania złota przez mieszkańców o 35%.\nJeśli zbadano już Specjalistyczny kilof, zwiększ ją o 20%.",
+   "n": "Specjalistyczny kilof (ulepszony)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Mieszkańcy ścinają drzewa jednym uderzeniem.\nZwiększono ilość przenoszonego drewna o +2.",
+   "n": "Leśnictwo (ulepszone)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Zwiększ prędkość pozyskiwania drewna przez mieszkańców o 35%.\nJeśli zbadano już Podwójną szeroką siekierę, zwiększ ją o 20%.",
+   "n": "Podwójna szeroka siekiera (ulepszona)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Zwiększ szybkość pozyskiwania mięsa przez mieszkańców o 25%.\nJeżeli zbadano już Techniki przetrwania, zwiększ szybkość pozyskiwania mięsa przez mieszkańców o 10%.",
+   "n": "Techniki przetrwania (ulepszone)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "Gdy edykt dot. kharashów jest aktywny, złoty namiot i budynki wojskowe znajdujące się w zasięgu ufortyfikowanej strażnicy produkują dodatkowego karasha za każdą dowolną wyszkoloną jednostkę.",
+   "n": "Odblokuj Edykt dot. kharash"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "Gdy edykt dot. zagród jest aktywny, zagrody znajdujące się w zasięgu ufortyfikowanej strażnicy generują złoto, gdy pracują w nich mieszkańcy.",
+   "n": "Odblokuj Edykt dot. zagród"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "Dodatkowe obrażenia zadawane przez słonie zwiększone o 30%.",
+   "n": "Zniszczenia uboczne"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Słonie regenerują +2 pkt. wytrzymałości co 2 s poza walką.",
+   "n": "Opiekunowie słoni"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "Taktyka potężnego daimyo ulepsza piechotę walczącą w zwarciu, zwiększając zadawane przez nią obrażenia o +15%, obrażenia od pochodni o +15% i wytrzymałość o +15%.",
+   "n": "Taktyki Oda"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Zwiększa wpływy Francji poprzez obniżenie kosztów jednostek o kolejne 5%.",
+   "n": "Zachęty do zaciągu"
+  },
+  "upgrade_fanaticism": {
+   "d": "Bracia templariusze i jednostki z komturii zyskują +10% obrażeń, gdy mają mniej niż 50% wytrzymałości, oraz +30%, gdy mają mniej niż 25% wytrzymałości.",
+   "n": "fanatyzm"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Każda zagroda, na której pracuje mieszkaniec, generuje +1 szt. złota co 6 sek.",
+   "n": "Ogrodzenie"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Brandery zadają pełne obrażenia wszystkim wrogom w zasięgu eksplozji.",
+   "n": "Ciekłe materiały wybuchowe"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Spingardy zyskują 15% szybkości ataku i pokrywają pociski ogniem, przez co tworzą grecki ogień przy trafieniu.",
+   "n": "Rzymski ogień"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Twierdze Tughluqabad zwiększają szybkość produkcji w pobliskich portach o 30%, obrażenia z otworów strzelniczych o 2 i zasięg broni o 1.",
+   "n": "Nadzór twierdzy Tughluqabad"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Pozłacani zbrojni, którzy mają poniżej 20% pkt. wytrzymałości, otrzymują -20% obrażeń.",
+   "n": "Złoty kirys"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Trebusze z przeciwwagą zadają o +30% więcej obrażeń i oblewają cel greckim ogniem, zadając obrażenia obszarowe. Grecki ogień nie kumuluje się z innymi plamami ognia.",
+   "n": "Greckie pociski ogniowe"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Gniazdo Pszczół otrzymuje 3 dodatkowych Strzał rakietowych.",
+   "n": "Dodatkowe beczki"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Zwiększ zasięg rusznic o 1.5.",
+   "n": "Pirotechnika"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "Wrogie jednostki otrzymują +15% obrażeń dystansowych i w zwarciu przez 5 s po trafieniu przez granat.",
+   "n": "Bomby w twardej obudowie"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "Grzmiące dźwięki Eruptora i Burzowej lancy sieją grozę wśród oddziałów kawalerii wroga, zmniejszając obrażenia pobliskiej kawalerii o 20% na 5 sek.",
+   "n": "Grzmot trzęsący niebiosami"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Zwiększa zasięg dromonów o 0.5, a zadawane przez nie obrażenia o 1.\nUlepsza wszystkie dromony, dzięki czemu pozostawiają one grecki ogień na atakowanej powierzchni.",
+   "n": "Ciężki dromon"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "Szkolenie w nierównym terenie zwiększa obrażenia od szarży hobilarów o +125% i szybkość produkcji o +100%.",
+   "n": "Trening na wzgórzu"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Jednostki wroga trafione przez tratowanie stają się podatne na ataki i otrzymują +15% więcej obrażeń przez 12 sek.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Zwiększono obrażenia zadawane przez jeźdźców robotnikom o +2, a twoi jeźdźcy otrzymują +30 złota za wyeliminowanie robotnika.",
+   "n": "Łupieżcy"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Zwiadowcy zwiększają obrażenia od pochodni pobliskich jednostek o +25%.",
+   "n": "Trapezyci"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Zwiększ zasięg broni konnych łuczników o +1 i odblokuj zdolność Galop.\nGalop: aktywuj, aby poruszać się z maksymalną prędkością z +2 polami zasięgu broni przez 8 sek.",
+   "n": "Szkolenie konne"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Zwiększ pole widzenia domów o następująca liczbę pól: 7 i popraw szybkość ich budowy o 500%.",
+   "n": "Osiedla pograniczne"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "Zwiększ maksymalną ilość złota przenoszonego przez cesarskich urzędników z +40 do +70.",
+   "n": "Egzaminy urzędnicze"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Stwórz w centrum miasta będącym obiektem historycznym 2 janczarów za każde centrum miasta będące obiektem historycznym oraz każdą szkołę wojskową.",
+   "n": "Kompania janczarów"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Umożliwia piechocie obsadzanie wszystkich machin wojennych. Po obsadzeniu szybkość ataku i rozstawiania rosną o 25%.",
+   "n": "Załogi oblężnicze"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Tworzy 2 mehterów w centrum miasta obiektu historycznego. Mehterzy zwiększają szybkość ruchu jednostek w tej samej formacji o +15%.",
+   "n": "Bębny mehterów"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "Zwiększa liczbę możliwych do wybudowania szkół wojskowych o +1.",
+   "n": "Kampus wojskowy"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Zwiększa tempo produkcji wojskowej o +25%, a szkoły wojskowe mogą szkolić lansjerów i janczarów.",
+   "n": "Zaawansowana akademia"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Stwórz 2 imamów w centrum miasta będącym obiektem historycznym. Imamowie leczą jednostki na pobliskim obszarze, przywracając im 1 pkt. wytrzymałości co sekundę; w Erze Zamków ta wartość wzrasta do 2 pkt., a w Erze Imperiów do 3 pkt.",
+   "n": "Praca w polu"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Zwiększ ilość złota zbieranego przez kupców i dochód z Karawanseraj w Sultanhani o +40%.",
+   "n": "Sakwy towarowe"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "Szkolenie Khanda zwiększa czas trwania szarży zbrojnych o 3 s. i zwiększa obrażenia szarży o 100%.",
+   "n": "Ćwiczenia khanda"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "Dynastia Jin konsoliduje swoją władzę i wzmacnia system Meng'an Mouke, aby stawić czoła nadchodzącym zagrożeniom. Obrońców wspierają teraz konni grenadierzy, a dostępna liczba obrońców zwiększa się o +10.",
+   "n": "Bataliony szybującego ognia"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "Piechota walcząca w zwarciu na dystans może konstruować w terenie wieże oblężnicze i tarany. Ulepszona Inżynieria oblężnicza pozwala również na budowę mangoneli, spingard i trebuszy.",
+   "n": "Inżynieria oblężnicza (ulepszona)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Włócznicy zadają kawalerii obrażenia zwiększone o 35%, a prędkość ich tworzenia jest zwiększona o 50%.",
+   "n": "Szkolenie Neza"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Zbrojni i lansjerzy otrzymują kilije, które zwiększają zadawane przez nich obrażenia o 3.",
+   "n": "Szlifowane ostrza"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "Piechota zyskuje +25% obrażeń i zwiększa szybkość ruchu o +20% na 30 s po pokonaniu jednostki.",
+   "n": "Sułtańscy mamelucy"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Zwiększ skuteczność pancerza dystansowego piechoty z koszar o +2 pkt.",
+   "n": "Zbroja krzyżowa"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Prałaci poruszają się o 10% szybciej i mogą inspirować grupy jednostek wojskowych, co zwiększa ich pancerz o 1 i zadawane obrażenia o 15%.",
+   "n": "Natchnieni wojownicy"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Żelazne zaciski wzmacniające mury zmniejszają otrzymywane przez nie obrażenia od prochu o 20% dla murów kamiennych i twierdzy.",
+   "n": "Żelazne zaciski"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "Onna-musha wystrzeliwują świszczącą strzałę, gdy zauważą wroga, zwiększając szybkość ruchu na 10 sek.",
+   "n": "Świszcząca strzała kabura-ya"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Dodaj do tego budynku otwór kuszy oblężniczej.",
+   "n": "Otwór kuszy oblężniczej"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Atakujący tę twierdzę Tughluqabad zostają ogarnięci strachem, co zmniejsza ich szybkość ataku o 30% wtedy, gdy ich celem jest twierdza.",
+   "n": "Klątwa Auliya"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Dodaj do tej budowli obronny otwór na wielką bombardę.",
+   "n": "Otwór na wielką bombardę"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Dodaj do tej budowli obronny otwór na mangonelę.",
+   "n": "Otwór na mangonelę"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Dodaj do tej struktury stanowisko Meng'an Mouke, w którym zbiera się 5 obrońców, gdy wróg jest w pobliżu. Obrońcami nie można sterować i będą oni atakować zagrożenia w pobliżu stanowiska.\nCo 60 sek. szkoli 1 globalnego obrońcę Meng'an Mouke.",
+   "n": "Stanowisko Meng'an Mouke"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Dodaj do tej budowli obronny otwór na trebusz.",
+   "n": "Otwór na trebusz"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "Chan może wystrzelić strzałę sygnałową, która ujawnia obszar o promieniu 10 pól i sprawia, że wrogowie otrzymują +10% obrażeń na tym obszarze przez 10 s.",
+   "n": "Osłabiająca strzała chana"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Wydłuż czas trwania strzały sygnałowej chana o 7 sek. i zwiększ jej zasięg o taką liczbę pól: 3.\nJeśli zbadano już Gwiżdżące strzały, wydłuż czas trwania strzały sygnałowej chana o 2 sek. i zwiększ jej zasięg o taką liczbę pól: 1",
+   "n": "Gwiżdżące strzały (ulepszone)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Wydłuż czas trwania strzały sygnałowej chana o 5 sek. i zwiększ jej zasięg o taką liczbę pól: 2.",
+   "n": "Gwiżdżące strzały"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Kharashe są wyposażeni w tarcze, zyskując +2 pkt. pancerza dystansowego, +2 pkt. pancerza do walki w zwarciu, a także wytrzymałość zwiększoną o +25.",
+   "n": "Odzysk z pola bitwy"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Przyznaje rycerzom i czarnym jeźdźcom +2 pancerza do walki w zwarciu i +2 pancerza do walki dystansowej.",
+   "n": "Stalowa zbroja końska"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Pozłacani rycerze otrzymują -25% obrażeń podczas szarży.",
+   "n": "Konie bojowe"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "Pracowite kowalstwo daje armii silniejszą zbroję lamelkową. Wytrzymałość całej kawalerii i piechoty walczącej w zwarciu są zwiększone o +25%.",
+   "n": "Wyściełana zbroja lamelkowa"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Zwiększ leczenie się keszików o +2 wytrzymałości co atak i ich szybkość ataku o +20%.\nJeśli zbadano już technologię lansjerzy stepowi, zwiększ leczenie się keszików o +1 wytrzymałości co atak i ch szybkość ataku o +10%.",
+   "n": "Lansjerzy stepowi (ulepszeni)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Zwiększ leczenie się keszików o +1 wytrzymałości co atak i ich szybkość ataku o +10%.",
+   "n": "Lansjerzy stepowi"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Zwiększ leczenie się keszików o +1 pkt. wytrzymałości co atak i ich szybkość ataku o +10%. Torguci zyskują takie same ataki leczące jak keszikowie.",
+   "n": "Lansjerzy z Saraj"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Zapełnij stajnie najlepszymi ogierami, zwiększając wytrzymałość całej kawalerii o +35%.",
+   "n": "Królewskie linie krwi"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Królewscy rycerze regenerują +1 pkt. wytrzymałości co 1 sek. po zaprzestaniu walki.",
+   "n": "Rycerskość"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Zwiększa wpływy Francji poprzez obniżenie kosztów jednostek o kolejne 5%.",
+   "n": "Zachęty do zaciągu"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Poświęcone budynki zmniejszają również koszt drewna i złota jednostek o 25%.",
+   "n": "Kompania stanowiona"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "Jednostki piechoty otrzymują umiejętność Forsowny marsz.\nGdy umiejętność jest aktywna, jednostki poruszają się +100% szybciej przez 10 se, jednak zadawanie obrażeń anuluje ją.",
+   "n": "Forsowny marsz"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Zwiększa ilość surowców, jaką mogą przenosić mieszkańcy o 10 pkt.",
+   "n": "Pożywne racje"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Mieszkańcy i piechota mogą obsadzać domy w celu ochrony. Domy zyskują strzały garnizonu i 50% wytrzymałości.",
+   "n": "Wzmocnione fundamenty"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Zwiększ wytrzymałość Joanny d'Arc i zadawane przez nią obrażenia o 25% i zyskaj +1 pancerza. Zwiększ wytrzymałość towarzyszy Joanny i zadawane przez nich obrażenia o 20%.",
+   "n": "Sprzęt towarzysza"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Zwiększa odporność wież na kamiennych murach, twierdz i strażnic na obrażenia od ognia o 10.",
+   "n": "Wolno palące się fortyfikacje"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Zwiększa odporność wież na kamiennych murach, twierdz i strażnic na obrażenia od ognia o 10.",
+   "n": "Wolno palące się fortyfikacje"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Słonie poruszają się o +10% szybciej.",
+   "n": "Kornacy"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Słonie poruszają się o +10% szybciej.",
+   "n": "Kornacy"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Meczety przywracają co sekundę 4 wytrzymałości jednostkom nie biorącym udziału w walce.",
+   "n": "Przybytek pokoju"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Łucznicy i kusznicy zyskują +0.5 zasięgu.",
+   "n": "Paika"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Zwiększ szybkość ataku arbaletrierów o +25%.",
+   "n": "Strzemiona kuszy"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Zwiększa pole widzenia uczonych o 100%.",
+   "n": "Wszechwidzące oko"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Zwiększa szybkość ruchu uczonych o 50%.",
+   "n": "Zwinność"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Ulepsz słonie z wieżą, by przewoziły elitarnych kuszników zamiast łuczników. Słonie z wieżą zyskują +25% wytrzymałości i +4 pancerza przeciwko atakom dystansowym.",
+   "n": "Howdah"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Odblokowuje umiejętności Pożyczki pielgrzymów, umożliwiając pożyczenie dużej ilości żywności w zamian za spłatę w złocie rozłożoną w czasie.",
+   "n": "Weksel"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Kusznicy z chu-ko-nu wypuszczają dodatkowy bełt. Dodatkowy bełt dla kuszników jest w 40% tak skuteczny jak poprzedni bełt.",
+   "n": "10 000 bełtów"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Włócznicy i jeźdźcy zyskują ognistą lancę podczas szarży.",
+   "n": "Ryk smoka"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "Urzędnicy cesarscy zyskują 150 pkt. zdrowia, a maksymalna ilość przenoszonego przez nich złota zwiększa się o +80. Limit urzędnika cesarskiego zwiększony o +2.",
+   "n": "Zaawansowana administracja"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Dodaje obrażenia obszarowe do bombard.",
+   "n": "Chmura terroru"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Umożliwia produkcję unikatowych jednostek kawalerii, gwardii cesarskiej i najeźdźców Yuan.",
+   "n": "Obrońcy dynastii"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Włócznicy zostają wyposażeni w groźniejszą włócznię, która zwiększa zasięg broni o +20% oraz obrażenia zadawane kawalerii o +15%",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Zwiększ szybkość ataku łuczników o +33%.",
+   "n": "Łuki kompozytowe"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Zbrojni dzierżą buławy, zwiększające ich dodatkowe obrażenia zadawane celom opancerzonym o 6 pkt.",
+   "n": "Ciężkie buławy"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Zbrojni dzierżą broń dwuręczną, zwiększając zadawane obrażenia o 2 pkt.",
+   "n": "Broń dwuręczna"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Zwiększ wytrzymałość gwardii pałacowej o 30 pkt.",
+   "n": "Zaprawiony w boju"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "Szkolenie elitarnej piechoty prowadzi do poprawy sprawności w bitwie. Piechota walcząca w zwarciu zyskuje +20% obrażeń i +20% wytrzymałości.\nJeśli Elitarna taktyka armii została już zbadana, zamiast tego zwiększa obrażenia o +5%, a wytrzymałość o +5%.",
+   "n": "Elitarna taktyka armii (ulepszona)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Łucznicy Kipczaków wystrzeliwują dodatkowe strzały (2), z których każda zadaje o 70% mniej obrażeń.",
+   "n": "Potrójny strzał"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Zwiększ obrażenia dystansowe mangudai i chana o 2 pkt.\nJeśli Mongolskie łuki kompozytowe zostały już zbadane, zwiększ obrażenia dystansowe mangudai i chana o 1 pkt.",
+   "n": "Mongolskie łuki kompozytowe (ulepszone)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Zwiększ obrażenia dystansowe mangudai i chana o 1.",
+   "n": "Mongolskie łuki kompozytowe"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "Lord Lancaster nakłada podatek na wszystkich wasali, aby sfinansować działania wojenne. Manoiry generują 30 szt. złota na minutę.",
+   "n": "Scutage"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Aktywni kupcy generują 1 złota co 6 sekund.",
+   "n": "Gildie kupieckie"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Zwiększ szybkość ruchu samurajów na koniach o +10%, gdy pancerz odbijający jest aktywny.",
+   "n": "Pancerz Do-maru"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Zwiększ obrażenia zadawane w zwarciu przez wszystkie jednostki nieoblężnicze o 1 pkt.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Zwiększ obrażenia zadawane w zwarciu przez wszystkie jednostki nieoblężnicze o 1 pkt.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Zwiększ obrażenia zadawane w zwarciu przez wszystkie jednostki nieoblężnicze o 1 pkt.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Zwiększ obrażenia zadawane w zwarciu przez wszystkie jednostki nieoblężnicze o 1 pkt.",
+   "n": "Yaki-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Zwiększ punkty wytrzymałości piechoty o 15%.",
+   "n": "Obóz szkoleniowy"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Wielbłądy zwiększają pancerz pobliskiej piechoty o 2 pkt.",
+   "n": "Wsparcie wielbłądów"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "Piechota zwiększa pancerz pobliskich wielbłądów o 3.",
+   "n": "Wsparcie piechoty"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Daje jeźdźcom na wielbłądach tarcze, zwiększające ich pkt. pancerza o 3 pkt.",
+   "n": "Tarcze jeźdźców na wielbłądach"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Zwiększa prędkość tworzenia budynków wojskowych o +50%.",
+   "n": "Zwiększone zaopatrzenie"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Zaawansowana taktyka wojskowa poprawia ogólną skuteczność twoich żołnierzy w bitwie, zwiększając ich dodatkowe obrażenia o +20%.",
+   "n": "Szkolenie z taktyki wojskowej"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Zwiększ szybkość pozyskiwania mięsa przez mieszkańców o 20%.",
+   "n": "Pochodzenie moheskie"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Zwiększ szybkość pozyskiwania mięsa przez mieszkańców o 20%.",
+   "n": "Tradycja łowiecka"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Wyposaż konnych samurajów w odachi – długi miecz, który zadaje +4 pkt. dodatkowych obrażeń piechocie.",
+   "n": "Konny samuraj z odachi"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "Konwersja między wariantami łodzi typu lodja jest o 50% szybsza i nie wiąże się już z karą pieniężną.",
+   "n": "Dostosowujące się kadłuby"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Zastępuje broń okrętu ze spingardami powtarzalnymi kuszami oblężniczymi, które strzelają seriami po 2 przebijających bełtów.",
+   "n": "Kusze morskie"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Okręty wojenne korzystają z ataku gniazdo pszczół.",
+   "n": "Bomby grzmotu"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Królewscy rycerze regenerują +1 pkt. wytrzymałości co 2 s. po zaprzestaniu walki.",
+   "n": "Straż pożarna"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Zwiększ szybkość produkcji okrętów korzystających z prochu o 25% i ich szybkość ruchu o 25%.",
+   "n": "Flota cesarska"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Okręty łucznicze wystrzeliwują dodatkowe oszczepy (2).",
+   "n": "Taktyka kajakowa"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Zwiększ obrażenia zadawane przez armaty okrętowe o 15%.",
+   "n": "Długie działa"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Baggale odzyskują 30 wytrzymałości, gdy zabijają wrogą jednostkę.",
+   "n": "Odzyskane materiały"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Zyskujesz +25 szt. drewna i +25 szt. złota, gdy zatopisz wrogi okręt.",
+   "n": "Piractwo"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Zwiększ zasięg okrętów bojowych o 1.",
+   "n": "Admiralicja"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Dodaje do tej przystani defensywną spingardę morską.",
+   "n": "Otwór na spingardę morską"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Zwiększ wytrzymałość okrętów wojskowych o +10%.",
+   "n": "Maszty tekowe"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Wzmocnij gniazdo pszczół ostrymi lancami ognistymi, które odbijają 10 obrażeń atakującym w zwarciu.",
+   "n": "Obrona kolczatki"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Zwiększ premię do szybkości ataku dzięki sieci zamków z +20% do +30%.",
+   "n": "Sieć cytadeli"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Wyposaż samurajów w Odachi – długi miecz, który zadaje +4 pkt. dodatkowych obrażeń piechocie.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "Limit urzędnika cesarskiego zwiększony o +2. Zapewnia urzędnika cesarskiego po ukończeniu.",
+   "n": "Cesarskie czerwone pieczęcie"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "Urzędnicy cesarscy poruszają się o 50% szybciej.",
+   "n": "Reforma pojedynczego bata"
+  },
+  "upgrade_official_supervise": {
+   "d": "Efekty nadzoru przez urzędników cesarskich poprawione z 150% na 300%.",
+   "n": "Kontrola regionalna"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "Urzędnicy mogą teraz nadzorować twierdze i strażnice, aby zmniejszyć otrzymywane przez nie obrażenia o 35%.",
+   "n": "Biuro ds. wojskowych"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "Aura szybkości Jam wpływa na wszystkie jednostki, nie tylko na kupców i kawalerię. Nie dotyczy machin oblężniczych.\nUlepszona sieć Jam sprawia, że kupcy odzyskują 1 pkt. wytrzymałości co 2 s, gdy są po jej wpływem.",
+   "n": "Sieć jeźdźców Jam (ulepszona)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "Aura szybkości jamu wpływa na wszystkie jednostki, a nie tylko na kupców i kawalerię. Nie dotyczy jednak machin wojennych.",
+   "n": "Sieć jeźdźców jam"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Strażnice zyskują umiejętność „Chwalebna szarża”. Jej aktywowanie rozpoczyna odliczanie trwające 10 s oraz ujawnia strażnicę i pobliski obszar wszystkim graczom. Po upływie tego czasu wszystkie pobliskie sojusznicze jednostki zyskają +50% do prędkości ruchu i będą otrzymywać o 15% mniej obrażeń przez 30 s.",
+   "n": "Chwalebna szarża"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Dodaj do tej budowli otwory na oszczepy i zwiększ zasięg strzał obsadzających ją jednostek o +1. Oszczepy zadają dodatkowe obrażenia jednostkom dystansowym. Można dodać tylko jeden typ otworów na broń.",
+   "n": "Otwór na oszczepy"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Dodaj +300 pkt. wytrzymałości i +3 pkt. odporności na ogień wszystkim strażnicom.",
+   "n": "Pax Mongolica"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Owoo zapewniają przychód w wysokości +60 szt. żywności, +60 szt. drewna i +10 szt. złota na minutę.",
+   "n": "Dziesięcina owoo"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "Odblokuj jednostkę wczesnych ozutsu, która jest dostępna od Ery III.",
+   "n": "Odblokowanie ozutsu"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Wyposaż swoich yeomanów i włóczników w usztywnione przeszywnice, by zwiększyć ich pancerz do walki w zwarciu o +3.",
+   "n": "Usztywniona przeszywanica"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Każda wareska jednostka, która jest obecna przy zniszczenia obiektu historycznego lub centrum miasta, nagrodzi gracza darem srebra.",
+   "n": "Polutasvarf"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Gwardziści hrabiego otrzymują dodatkowe sztylety do rzucania, a rzucane sztylety zadają także niewielkie obrażenia obszarowe.\nGwardziści hrabiego rzucają teraz sztyletami (2), ale mają mniejszą celność.",
+   "n": "Sztylet do rzucania – ćwiczenia"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "Dzięki rzemiosłu lokalnych myśliwych moheski jeździec zostaje wyposażony w nowy pancerz, który zmniejsza otrzymywanie dodatkowych obrażeń o -50%.",
+   "n": "Zbroja pikowana"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Zwiększ przychód z najazdu za podpalenie budynku o 75 szt. żywności i złota.\nJeśli zbadano już Łupy z najazdu, zwiększ przychód z najazdu za podpalenie budynku o 25 szt. żywności i złota.",
+   "n": "Łupy (ulepszone)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Zwiększ przychód z najazdu za podpalenie budynku o 50 szt. żywności i złota.",
+   "n": "Łupy"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Dodaje 75 szt. kamienia do przychodu z najazdu za podpalenie budynku.\nJeśli zbadano już Kamienne łupy, dodaje 25 szt. kamienia do przychodu z rajdu za podpalenie budynku.",
+   "n": "Kamienne łupy (ulepszone)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Dodaje 50 szt. kamienia do przychodu z najazdu za podpalenie budynku.",
+   "n": "Kamienne łupy"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Zwiększ szybkość ataku taranu o 30% i skróć czas ich konstrukcji polowej o 75%.\nJeśli Lekkie belki zostały już zbadane, zwiększ szybkość ataku o 10% i skróć czas konstrukcji polowej o 25%.",
+   "n": "Lekkie belki (ulepszone)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Zwiększ pancerz w walce w zwarciu arbaletrierów o 5 pkt.",
+   "n": "Przeszywanice"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Zwiększ szybkość ataku arbaletrierów o +25%.",
+   "n": "Strzemiona kuszy"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Podnosi obrażenia janczarów od broni palnej o 4.",
+   "n": "Broń palna janczarów"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Łucznicy otrzymują umiejętność Grad strzał, której aktywowanie skraca czas przerwy między ich atakami o +1 s na 6 s.",
+   "n": "Grad strzał"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Zwiększ wytrzymałość murów, wież i bram o 25%.",
+   "n": "Wzmocniona obrona"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "Produkcja partiami strzelnicy zwiększona o +1; nie zwiększa kosztu w zasobach ani czasu rekrutacji.",
+   "n": "Posiłki ze strzelnicy"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "Produkcja partiami koszar zwiększona o +1; nie zwiększa kosztu w zasobach ani czasu rekrutacji.",
+   "n": "Posiłki z koszar"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "Produkcja partiami stajni zwiększona o +1; nie zwiększa kosztu w zasobach ani czasu rekrutacji. Produkcja partiami Torgutów jest również zwiększona o +1.",
+   "n": "Posiłki ze stajni"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "Namioty modlitewne pozwalają na ulepszoną produkcję pod ich wpływem, nawet bez Owoo.",
+   "n": "Klasztorne kapliczki"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Zwiększ szybkość ataku bombard o +33%.",
+   "n": "Ćwiczenia z przeładowywania"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "Bardziej zaawansowane magazynki pozwalają chu-ko-nu strzelać bełtami przebijającymi o zasięgu +0.5, które zadają +1 obrażeń lekkiej piechocie walczącej w zwarciu.",
+   "n": "Magazynek na bełty"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Riddari i gwardziści warescy otrzymują potężny miecz rhomphaia, który zwiększa obrażenia lekkiej piechoty gwardzistów o 3 i obrażenia riddari o 3.",
+   "n": "Rhomphaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Zyskaj +2 obrażeń od szarży za każda pobliską szarżującą ciężką kawalerię.",
+   "n": "Władza templariuszy"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Aktywuje pielgrzymów.\nPielgrzymi pojawiają się co 60 sek. Zaczynasz od 1 pielgrzyma i zyskujesz 1 pielgrzyma za każdą fortecę (maks. 10).",
+   "n": "Bezpieczne przejście"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Zwiększ zasięg Błogosławieństwa świętego o tyle pól: 5 i obrażenia zapewnione przez Błogosławieństwo świętego o 1.",
+   "n": "Zapał"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Wydłuż czas trwania Błogosławieństwa świętego o 10 sek.",
+   "n": "Boskie światło"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Zwiększ wytrzymałość wojowniczych mnichów o 100.",
+   "n": "Kult świętego"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Samuraj z naginatą może od czasu do czasu wystrzelić z yumi, rażąc wrogów z dystansu.",
+   "n": "Łuk samuraja"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "Gwarancje sanktuarium sprawiają, że Pielgrzymka generuje 1 dodatkowego pielgrzyma.",
+   "n": "Sanktuarium"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Inwestowanie w większe i lepsze kadłuby statków zwiększa siłę rażenia karak o 20%, ich wytrzymałość o 15% i ich zasięg o 10%.",
+   "n": "Statki Korony"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "Powołaj 5 półlansjerów.",
+   "n": "Zgromadź arystokrację"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "Powołaj 12 yeomanów.",
+   "n": "Pobór hrabstwa"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "Powołaj 10 półlansjerów, 10 gwardzistów hrabiego i 10 yeomanów.",
+   "n": "Wprowadź program straży obywatelskiej"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Zwiększa maksymalną liczbę Yorishiro o +2. Natychmiast produkuje 2 Yorisho w Pływającej Bramie.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Zwiększ pole widzenia wszystkich budynków o 2 pól. Co 3 min. wszystkie jednostki gospodarcze odzyskują 100% swojego zdrowia w ciągu 3 sek.",
+   "n": "Festiwal Gion"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Zwiększa wytrzymałość kapłana shinto o +40, szybkość leczenia o +60% i szybkość ruchu o +15%.",
+   "n": "Rytuały Shinto"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Po ukończeniu jednostki oblężnicze uzyskują dostęp do zdolności „Wzmocniona struktura”.\nJednostki oblężnicze zyskują +20 pancerza do walki wręcz i +5 odporności na ogień na 10 sek.",
+   "n": "Stolarstwo oblężnicze"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "Trebusze, mangonele i bombardy są błyskawicznie montowane i demontowane.",
+   "n": "Szkolenie załogi oblężniczej"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Zwiększ obrażenia zadawane bombardami o +20%. Bombardy zyskują +50 obrażeń przeciwko piechocie.",
+   "n": "Precyzyjna broń palna"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Obrażenia zadawane przez tarany zwiększone o 25%. Tarany odzyskują 2 wytrzymałości co 1 sek.",
+   "n": "Wędrowne miasto"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Zwiększ obrażenia zadawane przez trebusze o 30%.\nJeśli zbadano Geometrię, zwiększ ich obrażenia o 10%.",
+   "n": "Geometria (ulepszona)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Zwiększa szybkość ataku spingardy o +35%, zapewnia +10% odporności dystansowej i zwiększa wytrzymałość o +10.\nJeśli zbadano już Wyzwalacze rolet, szybkość ataku wzrasta o 10%, a wytrzymałość o +10.",
+   "n": "Zwalniacze rolek (ulepszone)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "Jednostki oblężnicze będą zadawać dodatkowe 10% obrażeń za każde 10 s, przez które są rozstawione – maksymalnie do 50%.",
+   "n": "Długotrwałe oblężenie"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Zwiększ szybkość ruchu machin wojennych o 10%.",
+   "n": "Lekkie ramy"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Jeszcze bardziej zwiększ szybkość ruchu machin wojennych o kolejne +10%.",
+   "n": "Wzmocnione osie"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Zwiększ szybkość ruchu machin wojennych o 25%.\nJeżeli zbadano już Nasmarowane osie, wartość zwiększa się o 10%.",
+   "n": "Nasmarowane osie (ulepszone)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "Nowe techniki ciesielskie zwiększają wytrzymałość machin oblężniczych o +30%.\nJeśli warsztat wojenny został już zbadany, zamiast tego zwiększa ich wytrzymałość o +10%.",
+   "n": "Warsztaty wojenne (ulepszone)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Zwiększa pancerz jeźdźców sofa o +2.",
+   "n": "Importowane pancerze"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Jeźdźcy sofa zwiększają prędkość ruchu pobliskiej piechoty o +15%.",
+   "n": "Przywództwo Farimby"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Zwiększ obrażenia włóczników i jeźdźców o +2.",
+   "n": "Szydła"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Zwiększa prędkość ruchu włóczników o +10% i obrażenia przeciwko robotnikom o +5.",
+   "n": "Lekkie ostrza"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Zwiększ zasięg spingard o 1.",
+   "n": "Ramiona wzmocnione pasami"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Wojownicy musofadi i strzelcy musofadi zyskują +5 leczenia przy każdym ataku przez 5 s po zaprzestaniu skradania.",
+   "n": "Miejscowa wiedza"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Włócznicy zostają wyposażeni w lance burzowe, dzięki którym zyskują wybuchowy atak dystansowy z czasem odnowienia.",
+   "n": "Lance burzowe"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Odblokowuje umiejętność zsynchronizowanego strzału yeomanów.",
+   "n": "Zsynchronizowany strzał"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Tanegashima Ashigaru automatycznie rozstawia stojącą tarczę, która zwiększa zasięg o +2 i pancerz dystansowy o +2 w bezruchu.",
+   "n": "Tanegashima Tate"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Zwiększa pancerz dystansowy i do walki wręcz katafraktów o +1. Zwiększa szybkość ruchu limitanei o +15%. Zwiększa szybkość ataku gwardii wareskiej o +15%.",
+   "n": "Tarcze w kształcie łzy"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Zwiększa szybkość produkcji piechoty, kawalerii, jednostek oblężniczych i transportowych w budynkach o 53%.\nNie wpływa na jednostki religijne ani inne jednostki wsparcia.\nJeśli zbadano już technologię Akademia wojskowa, zamiast tego szybkość produkcji zwiększa się o 20%.",
+   "n": "Akademia wojskowa (ulepszona)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "Twierdze i wieże na kamiennym murze zyskują atak granatem, który razi pobliskie jednostki i zadaje obrażenia wybuchowe. Wrogowie, strzeżcie się.",
+   "n": "Deszcz ognia"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Ulepsza wszystkie fortece wareskie domyślnymi otworami strzelniczymi, które zadają 10 pkt. obrażeń w zasięgu broni wynoszącym 6 pól.",
+   "n": "Defensywne otwory strzelnicze fortecy"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Inwestowanie w nauki przyrodnicze zwiększa wytrzymałość wszystkich jednostek kawalerii o +35%.\nJeśli zbadano już Biologię, wartość ta zwiększa się o +10%.",
+   "n": "Biologia (ulepszona)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Świątynie buddyjskie rzucają Sohei Sutrę na pobliskiego wroga co 6 sek.",
+   "n": "Pięciu górskich duchownych"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "Leczenie z aury do ataku mnicha Ikko Ikki zwiększone o +1.",
+   "n": "Medycyna Kampo"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Zwiększa wytrzymałość mnicha Ikko Ikki o +60 i jego obrażenia w walce wręcz o +2.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Zwiększ szybkość ruchu mnichów Ikko ikki o +33%.",
+   "n": "Trening na szczycie góry"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Ulepsza przejęcie buddyjskie do przejęcia Nehan, które odnawia się o 25% szybciej, a dodatkowo po rzuceniu zwiększa szybkość ruchu pobliskich jednostek sojuszniczych o +25%.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Mnisi buddyjscy generują 25 złota co 60 sek.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "Złoty namiot może szybko wyprodukować unikalne jednostki po obniżonym koszcie w kamieniu. Koszt rekrutacji trogutów płacony w kamieniu i ich szybkość rekrutacji są o 20% mniejsze, a trybuci Rusów otrzymują lepszy pancerz oraz berdysz.",
+   "n": "Kamienne armie"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "Złoty namiot będzie generował 10 szt. złota co 10 sek. za każdą ufortyfikowaną strażnicę do maksymalnie 6 ufortyfikowanych strażnic.",
+   "n": "Handel w sieci Jam"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Zmniejsza koszt chana i torgutów o -20% i zwiększa ich wytrzymałość o +30 pkt.",
+   "n": "Chan i torguci"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Produkuje wózki budowlane (2), które można rozpakować, by utworzyć budynek wojskowy.\nDodatkowy wózek budowlany zostanie wyprodukowany podczas przechodzenia do kolejnych er.",
+   "n": "Wózki budowlane"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "Podbite terytoria Rusi zapewnią większe tarcze ciężkiej piechocie i ciężkiej kawalerii, zwiększając ich pancerz dystansowy o +2. \nDrewno również będzie generowane w tempie 200 na minutę, ale wartość ta będzie zmniejszona o 2 drewna za każdą jednostkę wyposażoną w tarczę z Rusi.",
+   "n": "Moskiewski jasak"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Szamani mogą zużyć trzymaną relikwię, by stworzyć owoo, które może przekroczyć limit budowy. Zwiększa tempo zbierania kamieni przez owoo o 20%.",
+   "n": "Owoo z relikwii"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Wyposażanie wysokich tarcz zapewnia zbrojnym +3 pancerza do walki dystansowej.",
+   "n": "Wysokie tarcze"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Kupcy i statki handlowe wracają z dodatkowym surowcem. Ma on 25% podstawowej wartości złota i jest wybierany na rynku.",
+   "n": "Wielki Bazar"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Zwiększ przychód w złocie od kupców i statków handlowych o 30%.",
+   "n": "Szlaki korzenne"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Daje +3 pkt. pancerza kupcom i statkom handlowym.",
+   "n": "Opancerzone karawany"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Kupcy dostarczają +20% szt. kamienia w ramach handlu.\nJeśli zbadano już Handel kamieniami, zamiast tego dostarczają +10% szt. kamienia.",
+   "n": "Handel kamieniami (ulepszony)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Kupcy dostarczają +10% kamieni poprzez handel.",
+   "n": "Handel kamieniami"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Tarany zyskują umiejętność, która unieruchamia je, ale w zamian zyskują silne premie defensywne i mogą wystrzelić wiele strzał.",
+   "n": "Przyczółek"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Zwiększa ilość złota generowanego w klasztorach, miejscach świętych i przez pielgrzymów w zasięgu aury fortecy o 20%.",
+   "n": "Wieże ze skarbami"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Pociski trebusza rozbijają się po uderzeniu i zwiększają pole rażenia.",
+   "n": "Pociski rozpryskowe"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Granaty wybuchowe wystrzeliwane przez trebusze i gniazdo pszczół wypędzają obrońców przeciwnika, zmniejszając obrażenia zadawane przez atakowane budynki o 20% na 8 sek. Trebusze i gniazdo pszczół zyskują zasięg większy o 1.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "Każda machina w typie trebusza zyskuje dodatkowe pociski (+1).",
+   "n": "Obrona z przeciwwagą"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Ulepsz słonie leczące do elitarnych słoni leczących",
+   "n": "Ulepsz do elitarnej jednostki"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Ulepsz zaprawionych najemników do doświadczonych najemników.",
+   "n": "Doświadczony kontrakt"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Ulepsz doświadczonych najemników do elitarnych najemników.",
+   "n": "Elitarny kontrakt"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Zwiększ szybkość leczenia jednostek religijnych o 90%.\nJeśli zbadano już Ziołolecznictwo, zwiększ zamiast tego o 30%.",
+   "n": "Ziołolecznictwo (ulepszone)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Zwiększ wytrzymałość wszystkich szamanów o 60 pkt.\nJeśli zbadano już Pobożność, zwiększ ją zamiast tego o 20 pkt.",
+   "n": "Pobożność (ulepszona)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Pozwól uczonym na przejmowanie miejsc świętych przed Erą Zamków (III). Miejsca święte generują o 25% więcej złota.",
+   "n": "Świętość"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "Relikwie umieszczone w namiocie modlitewnym zapewniają dochód +60 żywności, +60 drewna i +15 kamienia co minutę.\nJeśli zbadano już Magazyn dziesięcin, zwiększa dochód żywności i drewna o 20 oraz kamienia o 5.",
+   "n": "Magazyny dziesięcin (ulepszone)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Jednostki uzdrowione przez uczonych zyskują +50% do szybkości ataku przez 3 sek.",
+   "n": "Zapał"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Złożone budynki poruszają się o +70% szybciej i składają/rozkładają się o +50% szybciej.\nJeśli zbadano już Doskonałą mobilność, szybkość jest zwiększona o +20%.",
+   "n": "Doskonała mobilność (ulepszona)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Złożone budynki poruszają się i składają/rozkładają 50% szybciej.",
+   "n": "Doskonała mobilność"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Zwiększ o +3 ilość surowców, jaką mogą przenosić mieszkańcy, szybkość ruchu mieszkańców o +7% i ich szybkość zbierania owoców z krzewów o +25%.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Zwiększ o +3 ilość surowców, jaką mogą przenosić mieszkańcy, szybkość ruchu mieszkańców o +7% i ich szybkość zbierania owoców z krzewów o +25%.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Zwiększ o +3 ilość surowców, jaką mogą przenosić mieszkańcy, szybkość ruchu mieszkańców o +7% i ich szybkość zbierania owoców z krzewów o +25%.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Ulepsz słonie z balistami do elitarnych słoni z balistami.",
+   "n": "Wzmocniona ręczna balista"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Zwiększ ilość mięsa, jaką mogą przenosić mieszkańcy o 9 pkt. i szybkość ruchu o 15%.\n Jeśli zbadano już Taczki, zwiększ udźwig o 4 pkt.",
+   "n": "Taczka (ulepszona)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Gwardia wareska zwiększa swoją prędkość ruchu o +30% podczas aktywacji berserkera.",
+   "n": "Zaciekła szybkość"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Arsenały Waregów wytwarzają bardziej śmiercionośne strzały, dzięki czemu jednostki trafione przez bogmaðrów otrzymują obrażenia zmniejszone o 20% przez 5 s.",
+   "n": "Wyniszczające oślepienie"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Zwiększ wytrzymałość wszystkich mieszkańców o +50%.\nJeśli zbadano już Tekstylia, zwiększ ją o +100%.",
+   "n": "Tekstylia (ulepszone)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Wieże i twierdze naprawiają pobliskie mury i bramy o +25 wytrzymałości na sekundę.",
+   "n": "Dodatkowe materiały"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "Doświadczenie zdobyte przy budowie większych trebuszów zwiększa ich zasięg o +2 i wytrzymałość o +50%.",
+   "n": "Trebusz Warwolf"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Zwiększ obrażenia od podpalenia wobec piechoty i kawalerii o 5 pkt.\nJeśli zbadano już Dodatkowe pochodnie, zwiększ obrażenia od podpalenia wobec piechoty i kawalerii o 2 pkt.",
+   "n": "Dodatkowe pochodnie (ulepszone)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Zwiększ obrażenia od podpalenia wobec piechoty i kawalerii o 3 pkt.",
+   "n": "Dodatkowe pochodnie"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Zwiększa obrażenia zadawane przez strzały wystrzelone z tej drewnianej twierdzy o 2 pkt.",
+   "n": "Wieża zamkowa"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Zwiększ zasięg widzenia tej drewnianej twierdzy o tyle pól: 6.",
+   "n": "Straż zamkowa"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "Prędkość ruchu kawalerii jest zwiększona o 10%.",
+   "n": "Trening koni"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Zwiększ obrażenia kawalerii z yari zadawane wrogiej kawalerii o +2.",
+   "n": "Ulepszone yari"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Yatai może zbierać żywność z pobliskich farm, przy czym każda farma zapewnia +4 żywności/min. Zwiększa maksymalne tempo do 80 żywności/min.",
+   "n": "Zbieranie yatai z farm"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Zapewnia +1 pkt. obrażeń Yumi Ashigaru.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Pozłacany landsknecht otrzymuje halabardę i nakłada efekt krwawienia na jednostki, które zrani. Krwawienie zadaje 2 pkt. obrażeń co sekundę i trwa 10 sek.\nDowolny efekt leczenia usuwa krwawienie.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Żywność",
+  "i-gold": "Złoto",
+  "i-silver": "Srebro",
+  "i-stone": "Kamienie",
+  "i-vizier": "Punkty wezyra",
+  "i-wood": "Drewno"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Doceń dążenie Abbasydów do pogłębiania wiedzy, badając unikalne technologie, które przyniosą korzyści wielbłądom, wojsku, religii, gospodarce i handlowi.\nWkrocz w nową erę, ulepszając do czterech skrzydeł w Domu Mądrości.",
+   "t": "Pogoń za wiedzą"
+  },
+  "ab-2": {
+   "d": "Wielbłądy płoszą konną kawalerię samą swoją obecnością, zmniejszając zadawane przez nią obrażenia o 20%.",
+   "t": "Wojownicy na wielbłądach"
+  },
+  "ab-3": {
+   "d": "Jednostki piechoty mogą budować tarany, wieże oblężnicze, spingardy i mangonele bez konieczności wynalezienia inżynierii oblężniczej.",
+   "t": "Znawcy oblężeń"
+  },
+  "ab-4": {
+   "d": "Zmień krzewy jagodowe w sady, budując w ich pobliżu młyny, aby zwiększyć w ten sposób dostępną w nich żywności o +100 szt.\nMieszkańcy zbierają żywność z krzewów jagodowych o 25% szybciej, ale nie mogą pozyskiwać żywności z dzików.\nMieszkańcy mogą nieść o +3 szt. żywności więcej z krzewów jagodowych.",
+   "t": "Wielkie Sady"
+  },
+  "ab-5": {
+   "d": "Kupcy poruszający się po lądzie są 33% tańsi.",
+   "t": "Gospodarka handlowa"
+  },
+  "ab-6": {
+   "d": "Do budowy portu potrzeba o 50% mniej drewna.",
+   "t": "Stocznie"
+  },
+  "ab-7": {
+   "d": "Rozwijaj się w kierunku Złotego Wieku, usprawniając gospodarkę i technologię.\nBudynki w zasięgu Domu Mądrości zyskują +5 pkt. pancerza przeciwko obrażeniom od ognia i dodają 1 pkt postępu do Złotego Wieku. Progi do odblokowania kolejnych poziomów to odpowiednio 10, 30 i 60 budynków.\n• Poziom I: mieszkańcy zbierają o +15% szybciej\n• Poziom II: o +20% szybsze badania\n• Poziom III: mieszkańcy zbierają wszystkie surowce o +20% szybciej, o +20% szybsze badania, o +20% szybsza produkcja.",
+   "t": "Złoty Wiek"
+  },
+  "ab-8": {
+   "d": "Łucznicy na wielbłądach: lekka kawaleria walcząca na dystans, zadająca dodatkowe obrażenia lekkiej piechocie walczącej w zwarciu.\nJeźdźcy na wielbłądach: lekka kawaleria walcząca w zwarciu, zadająca dodatkowe obrażenia kawalerii.\nGhulam: wytrzymała piechota z podwójnym atakiem.",
+   "t": "Unikalne jednostki"
+  },
+  "ay-1": {
+   "d": "Przechodź do kolejnych epok, wybierając z 8 unikalnych skrzydeł Domu Mądrości.\nZyskujesz natychmiastowy dostęp do premii ekonomicznych, technologicznych i wojskowych bez konieczności opracowywania ulepszeń, dostosowując w ten sposób swoją cywilizację do potrzeb sytuacji na polu bitwy.\nKażde skrzydło wzniesione w późniejszej erze zapewnia potężniejsze premie.",
+   "t": "Elastyczny dowódca"
+  },
+  "ay-2": {
+   "d": "Wielbłądy płoszą konną kawalerię samą swoją obecnością, zmniejszając zadawane przez nią obrażenia o 20%.",
+   "t": "Wojownicy na wielbłądach"
+  },
+  "ay-3": {
+   "d": "Piechota może budować machiny wojenne na polu bitwy bez konieczności posiadania technologii Inżynierii oblężniczej.\nDostęp do dwóch unikalnych machin wojennych i jednego unikalnego ulepszenia oblężniczego.",
+   "t": "Mistrzowie inżynierii wojskowej"
+  },
+  "ay-4": {
+   "d": "Zmień krzewy jagodowe w sady, budując w ich pobliżu młyny, aby zwiększyć w ten sposób dostępną w nich żywności o +100 szt.\nMieszkańcy zbierają żywność z krzewów jagodowych o 25% szybciej, ale nie mogą pozyskiwać żywności z dzików.\nMieszkańcy mogą nieść o +3 szt. żywności więcej z krzewów jagodowych.",
+   "t": "Wielkie Sady"
+  },
+  "ay-5": {
+   "d": "Kupcy poruszający się po lądzie są 33% tańsi.",
+   "t": "Gospodarka handlowa"
+  },
+  "ay-6": {
+   "d": "Do budowy portu potrzeba o 50% mniej drewna.",
+   "t": "Stocznie"
+  },
+  "ay-7": {
+   "d": "Rozwijaj się w kierunku Złotego Wieku, poprawiając gospodarkę, technologię i wojsko.\nBudynki w zasięgu Domu Mądrości zyskują +5 pkt. pancerza przeciwko obrażeniom od ognia i dodają 1 pkt. postępu w kierunku Złotego Wieku. Progi odblokowywanych poziomów to odpowiednio 10, 20, 30, 50 i 75 budynków.\n• Poziom I: tempo pozyskiwania surowców przez mieszkańców +10%\n• Poziom 2: tempo badań +25%\n• Poziom 3: tempo produkcji +20%\n• Poziom 4: jednostki oblężnicze kosztują o 20% mniej surowców\n• Poziom 5: jednostki na wielbłądach atakują o 20% szybciej.",
+   "t": "Złoty Wiek"
+  },
+  "ay-8": {
+   "d": "Pustynny jeździec: wszechstronny jeździec na wielbłądzie, potrafiący walczyć zarówno w zwarciu, jak i na odległość.\nLansjer na wielbłądzie: ciężki jeździec na wielbłądzie z potężną szarżą.\nDerwisz: religijny jeździec z potężną umiejętnością leczenia.\nManjaniq: unikalna mangonela z trybem zapalającym, pozwalającym zadawać obrażenia na znacznie większym obszarze.\nWieża Sułtana: masywna broń oblężnicza obsadzona przez łuczników i wyposażona w taran zadający niszczycielskie obrażenia budynkom.",
+   "t": "Unikalne jednostki"
+  },
+  "by-1": {
+   "d": "Zbieraj unikalny surowiec używany do zatrudniania jednostek najemników. Mieszkańcy generują oliwę z oliwek równą 50% żywności pozyskanej z krzewów jagodowych, 20% z gajów oliwnych i 10% z ryb przybrzeżnych.\nŁodzie rybackie generują oliwę z oliwek równą 20% żywności pozyskanej z ryb, a kupcy zapewniają 20% oliwy z oliwek w oparciu o sprzedaną jej ilość.",
+   "t": "Oliwa z oliwek"
+  },
+  "by-2": {
+   "d": "Kupuj kontrakty lub przejmuj kontrolę nad placówkami handlowymi, aby rekrutować unikalne jednostki z innych cywilizacji w zamian za oliwę z oliwek w Domu Najemników.",
+   "t": "Najemnicy"
+  },
+  "by-3": {
+   "d": "Cysterny zapewniają pobliskim mieszkańcom premię do szybkości zbierania i wpływ, który wzmacnia pobliskie budynki, poprawia szybkość szkolenia jednostek, szybkość badań lub obronę budynku.\nZbuduj sieć akweduktów i łącz je z cysternami, aby zwiększyć ich premie.",
+   "t": "Cysterny i akwedukty"
+  },
+  "by-4": {
+   "d": "Zbierz kamień z każdego wzniesionego budynku. Wielkość budynku określa ilość zebranego kamienia.",
+   "t": "Kamienie polowe"
+  },
+  "by-5": {
+   "d": "Cheirosyfony oraz ulepszone dromony i trebusze miotają ogniem greckim, spowijając obszar płomieniami i zadając obrażenia w miarę upływu czasu.",
+   "t": "Grecki ogień"
+  },
+  "by-6": {
+   "d": "Strażnice i twierdze można ulepszać za pomocą otworów na mangonele. Wieże na kamiennych murach są wyposażone w otwory na mangonele zamiast otworów na spingardy.",
+   "t": "Otwory na mangonelę"
+  },
+  "by-7": {
+   "d": "Limitanei: zastępuje włócznika. Lekka piechota walcząca w zwarciu z umiejętnością Ściany tarcz, która zwiększa pancerz dystansowy kosztem prędkości ruchu.\nGwardia wareska: zastępuje zbrojnego. Użyj umiejętności Berserkera, aby zwiększyć obrażenia kosztem pancerza. Może budować statki transportowe i zwiększyć pancerz transportowców, gdy jest w środku. Zyskuje szybkość ruchu przy opuszczaniu statków transportowych.\nKatafrakt: zastępuje rycerza. Ciężka kawaleria z Tratowaniem – potężną umiejętnością, która powoduje, że jednostka przebija się przez wrogów na swojej drodze i zadaje im obrażenia.\nKirosyfon: taran o ataku dystansowym – miota ogniem greckim na niewielką odległość.\nDromom: zastępuje springardę. Miota w ogniem greckim.",
+   "t": "Unikalne jednostki"
+  },
+  "ch-1": {
+   "d": "Rozpocznij swą podróż jako dynastia Tang – zwiększa pole widzenia zwiadowcy o +30% i daje dostęp do wioski.\nZbuduj oba obiekty historyczne w danej erze, by założyć dynastie zapewniające specjalne premie, unikalne budynki i jednostki.\n• Dynastia Song: szkolenie mieszkańców szybsze o +33% – odblokowuje spichlerz i chu-ko-nu.\n• Dynastia Yuan: prędkość ruchu mieszkańców, urzędników i jednostek wojskowych zwiększona o +15% – odblokowuje pagodę i lansjera ognistego.\n• Dynastia Ming: wytrzymałość jednostek wojskowych zwiększona o +15% – odblokowuje grenadiera.",
+   "t": "Wielkie dynastie"
+  },
+  "ch-2": {
+   "d": "Mieszkańcy konstruują budynki obronne o +50% szybciej i wszystkie inne budowle o +100% szybciej. Porty pracują o +10% szybciej.",
+   "t": "Błyskawiczne fabrykacje"
+  },
+  "ch-3": {
+   "d": "Rozpocznij grę z technologią Chemia, otrzymaną za darmo – z budynków obronnych zamiast łuków strzelają rusznice.",
+   "t": "Mistrzowie prochu"
+  },
+  "ch-4": {
+   "d": "Wyszkolone jednostki, zbadane technologie i zebrane surowce generują podatek (złoto), który zbierają urzędnicy cesarscy.",
+   "t": "Podatki"
+  },
+  "ch-5": {
+   "d": "Skonstruuj budynki wojskowe i gospodarcze w zasięgu Akademii Cesarskiej, a będą generować o 100% podatku w złocie więcej.",
+   "t": "Wpływ"
+  },
+  "ch-6": {
+   "d": "Urzędnik cesarski: użyj umiejętności nadzorowania, by zwiększyć prędkość tworzenia w budynkach badawczych i wojskowych o 150% – nadzorowanie budynków gospodarczych zwiększa ilość surowców wyładowywanych w składach przez mieszkańców o 20%.\nZhuge Nu: lekka piechota do walki dystansowej wykonująca szybkie ataki seryjne skuteczne przeciw lekkim jednostkom.\nGwardia pałacowa: zastępuje zbrojnego. Ciężka piechota walcząca w zwarciu, poświęcająca część pancerza na rzecz szybkości ruchu.\nGniazdo pszczół: zastępuje mangonelę. Machina wojenna wystrzeliwująca salwę rakiet zadających obrażenia obszarowe.\nLansjer ognisty: lekka kawaleria skuteczna przeciw machinom wojennym i budynkom. Charakteryzuje się dużym polem widzenia i wybuchową szarżą.\nGrenadier: lekka piechota dystansowa korzystająca z prochu i rzucająca granaty zadające obrażenia obszarowe.",
+   "t": "Unikalne jednostki"
+  },
+  "de-1": {
+   "d": "Rekrutuj uczonych w meczetach w Erze Mroku (I). Zbadaj i odblokuj religijne technologie wcześniej od innych cywilizacji.",
+   "t": "Kultura naukowa"
+  },
+  "de-2": {
+   "d": "Zaoszczędzisz na kosztach technologii i badań, ponieważ wszystkie technologie są darmowe, jednak postępy badawcze są znacznie wolniejsze – badania technologii można wstrzymać i kontynuować później.",
+   "t": "Osiągnięcia naukowe"
+  },
+  "de-3": {
+   "d": "Zakładaj ufortyfikowane osady, używając jednostek piechoty mogących budować palisady. Zbuduj Obóz Obrońcy, aby jednostki mogły też budować kamienne mury.",
+   "t": "Fortyfikacje graniczne"
+  },
+  "de-4": {
+   "d": "Statki rybackie mogą bronić się atakiem dystansowym i mają 50% dodatkowego zdrowia.",
+   "t": "Obrona pokładowa"
+  },
+  "de-5": {
+   "d": "Zmień krzewy jagodowe w sady, budując w ich pobliżu młyny, aby zwiększyć w ten sposób dostępną w nich żywności o +100 szt.\nMieszkańcy zbierają żywność z krzewów jagodowych o 25% szybciej, ale nie mogą pozyskiwać żywności z dzików.\nMieszkańcy mogą nieść o +3 szt. żywności więcej z krzewów jagodowych.",
+   "t": "Obfitość ogrodów"
+  },
+  "de-6": {
+   "d": "Uczeni obsadzeni w meczecie, medresie lub porcie zwiększają szybkość badań w budynkach w swoim zasięgu, w zależności od łącznej liczby obsadzonych uczonych. Porty pracują szybciej, gdy są obsadzone przez uczonych.",
+   "t": "Wpływ"
+  },
+  "de-7": {
+   "d": "Uczony: jednostka religijna posiadająca zdolność leczenia w Erze Mroku (I).\nSłoń bojowy: ciężka kawaleria walcząca w zwarciu, z włócznikiem na grzbiecie, charakteryzująca się dużą wytrzymałością, wysokimi obrażeniami i silnym atakiem oblężniczym.\nSłoń z wieżą: kawaleria walcząca na dystans, z dwoma łucznikami na grzbiecie mogącymi strzelać w ruchu.\nNajeźdźca ghazi: szybki jeździec wyposażony w ciężką buławę.",
+   "t": "Unikalne jednostki"
+  },
+  "en-1": {
+   "d": "Chroń granicę za pomocą centrów miast, strażnic, wież na kamiennym murze i twierdz, które zwiększają szybkość ataku pobliskich jednostek o +20%, gdy wrogowie są w zasięgu.\nZbadaj w twierdzy technologię Sieć cytadeli, aby zwiększyć szybkość ataku o dodatkowe +30%.",
+   "t": "Sieć zamków"
+  },
+  "en-2": {
+   "d": "Donżony mają unikalną zdolność do produkcji wszystkich jednostek wojskowych.",
+   "t": "Budowa twierdz"
+  },
+  "en-3": {
+   "d": "Zbrojny straży przedniej dostępny w Erze Mroku (I) – angielski zbrojny jest szkolony o +40% szybciej.",
+   "t": "Wezwanie do broni"
+  },
+  "en-4": {
+   "d": "Centrum miasta stołecznego wystrzeliwuje dodatkową strzałę, a mieszkańcy posługują się krótkimi łukami, atakując wrogie jednostki.",
+   "t": "Byrig obronny"
+  },
+  "en-5": {
+   "d": "Budowa farm jest o -50% tańsza.\nZbadaj technologię Ogrodzenie w Erze Imperiów (IV), aby umożliwić mieszkańcom generowanie +1 szt. złota co 6 sekund podczas pracy na farmach.",
+   "t": "Wyspa rolnictwa"
+  },
+  "en-6": {
+   "d": "Morskie uwarunkowanie zwiększa produktywność portu, zmniejszając koszt budowy statków o 10%.",
+   "t": "Szkutnicy"
+  },
+  "en-7": {
+   "d": "Z każdą kolejną erą szybkość zbiorów na farmach w zasięgu młyna zwiększa się odpowiednio o 20/25/30/30%.",
+   "t": "Wpływ"
+  },
+  "en-8": {
+   "d": "Zwiadowcy i zbrojni mogą rozpalić ognisko, które zwiększa zasięg widzenia pobliskich jednostek o +30% i prędkość pozyskiwania żywności przez pobliskich myśliwych o +10%.",
+   "t": "Królewski las"
+  },
+  "en-9": {
+   "d": "Wojownik z długim łukiem: łucznik mający +2 pkt. zasięgu i +1 pkt. obrażeń, mogący ustawić zaostrzone paliki ogłuszające wrogą kawalerię i zadające jej obrażenia.",
+   "t": "Unikalne jednostki"
+  },
+  "fr-1": {
+   "d": "Stwórz królewskiego rycerza w Erze Feudalnej (II) i zbadaj unikalne, potężne technologie dla kawalerii.",
+   "t": "Królewskie rumaki"
+  },
+  "fr-2": {
+   "d": "Korzystaj z lepszej gospodarki dzięki -50% tańszym składom surowców i -35% tańszym technologiom gospodarczym.\nSzybkość produkcji w centrum miasta wzrasta w zależności od Ery: +15%, +15%, +20%, +25%.",
+   "t": "Gospodarka kontynentalna"
+  },
+  "fr-3": {
+   "d": "Wybierz zwrot żywności, drewna lub złota na rynki z pomocą kupców i statków handlowych.\nStatki handlowe zwracają o +20% więcej zasobów.\nPlacówki handlowe są ujawniane na minimapie na początku gry.\nPorty zapewniają przestrzeń dla populacji.",
+   "t": "Gospodarka handlowa"
+  },
+  "fr-4": {
+   "d": "Z każdą kolejną erą u kowala pojawiają się darmowe technologie zwiększające obrażenia w zwarciu.",
+   "t": "Łaska kowala"
+  },
+  "fr-5": {
+   "d": "Popraw swoją obronność dzięki tańszym o 10% twierdzom, które zmniejszają koszt jednostek produkowanych na strzelnicach i w stajniach znajdujących się w ich zasięgu o 20%.",
+   "t": "Wpływ"
+  },
+  "fr-6": {
+   "d": "Królewski rycerz: jednostka ciężkiej kawalerii, która przez 5 sek. po szarży zadaje dodatkowo +3 pkt. obrażeń.\nArbaletrier: kusznik posiadający +1 pkt. pancerza do walki wręcz, który może rozstawić obronny pawęż dający +5 pkt. pancerza dystansowego i +1 do zasięgu broni na 30 sek.\nArmata: zamiennik bombardy, który zadaje więcej obrażeń, szybciej się porusza i nie wymaga rozstawienia.\nGaleas: masywna wojenna galera z bombardą dalekiego zasięgu zamontowaną na dziobie.\nWojenna koga: wyjątkowy okręt ze spingardami o zmniejszonym koszcie i zwiększonym pancerzu dystansowym.",
+   "t": "Unikalne jednostki"
+  },
+  "gol-1": {
+   "d": "Złoty namiot to jedyny obiekt historyczny Złotej Ordy. Można go ulepszyć, aby przechodzić do następnych er i zwiększyć wytrzymałość budynku. W złotym namiocie można wybrać edykt, który zmienia wpływ lub premię aury zapewnianą przez ufortyfikowane strażnice.\nW złotym namiocie można wyszkolić torgutów i Batu-chana.",
+   "t": "Złoty namiot"
+  },
+  "gol-2": {
+   "d": "Jednostki produkowane są w partiach po dwie. Można badać technologie, które usprawniają produkcję partiami.",
+   "t": "Ordy"
+  },
+  "gol-3": {
+   "d": "W celu zbierania żywności buduj zagrody zamiast farm lub pastwisk. W zagrodach znajdują się tusze owiec, z których można zbierać żywność i składować ją bezpośrednio w zagrodzie.",
+   "t": "Zagroda"
+  },
+  "gol-4": {
+   "d": "Ufortyfikowane strażnice mają więcej wytrzymałości i zapewniają premie do wpływów lub aury w zależności od edyktu wybranego w złotym namiocie.",
+   "t": "Umocnione strażnice"
+  },
+  "gol-5": {
+   "d": "Statki transportowe są szybsze i wytrzymalsze, mają o 50% więcej wytrzymałości i o 15% większą szybkość ruchu.",
+   "t": "Wzmocnione transporty"
+  },
+  "gol-6": {
+   "d": "Wykorzystaj bonus „Jedwabny szlak”, który sprawia, że handel generuje więcej surowców w zależności od liczby posiadanych aktywnych kupców.\n• 5+ kupców: +10% żywności\n• 10+ kupców: +10% żywności i drewna\n• 15+ kupców: +10% żywności, drewna i złota",
+   "t": "Jedwabny szlak"
+  },
+  "gol-7": {
+   "d": "Zbuduj owoo na skałach, by zbierać kamień bez udziału mieszkańców. Maksymalna liczba owoo, które można wybudować, zwiększa się o +1 z każdym awansem do następnej ery.",
+   "t": "Technologia kamienia i owoo"
+  },
+  "gol-8": {
+   "d": "Zwiadowcy mogą użyć umiejętności sokoła zwiadowczego, by obserwować najbliższą okolicę.",
+   "t": "Sokół zwiadowczy"
+  },
+  "gol-9": {
+   "d": "Chan Złotej Ordy: ciężki kawalerzysta, który rozwija się wraz z przechodzeniem do kolejnych er. Może wystrzelić strzałę, która zwiększa obrażenia otrzymywane przez wrogów na danym obszarze. Chan będzie również zapewniał aurę tym bardziej zwiększającą obrażenia, im dłużej będzie w walce.\nTorgut: ciężka kawaleria, która chroni chana, przekierowując obrażenia otrzymywane przez niego na siebie.\nKharash: słabe jednostki lekkiej piechoty walczące w zwarciu, które zapewniają pancerz pobliskim sojusznikom.\nKipczak: konny łucznik, który wystrzeliwuje strzały wywołujące krwawienie.\nTrebusz ciągniony: ma większą prędkość ruchu i szybkość ataku oraz krótszy czas rozstawiania.\nKeszik: ciężka kawaleria dostępna w Erze Feudalnej; regeneruje wytrzymałość po każdym ataku.",
+   "t": "Unikalne jednostki"
+  },
+  "hl-1": {
+   "d": "Buduj manoiry, aby generować pasywny dochód w Erze Feudalnej. Manoir służy jako budynek składujący wszystkie rodzaje surowców i zwiększa miejsce populacji o 10. Każdy manoir generuje 30 szt. żywności i 10 szt. drewna na minutę oraz dodatkowe 4 szt. żywności i 2 szt. drewna za każdego pobliskiego mieszkańca.\nZwiększ limit budowy manoirów za pomocą unikalnych technologii.",
+   "t": "Feudalizm"
+  },
+  "hl-2": {
+   "d": "Każde centrum miasta tworzy owce (4) po ukończeniu. Mieszkańcy pozyskują żywność z owiec o +20% szybciej.",
+   "t": "Przemysł wełniany"
+  },
+  "hl-3": {
+   "d": "Centrum miasta stołecznego wystrzeliwuje dodatkową strzałę, a mieszkańcy posługują się krótkimi łukami, atakując wrogie jednostki.",
+   "t": "Byrig obronny"
+  },
+  "hl-4": {
+   "d": "Po wybudowaniu twierdze zapewniają 3 darmowych gwardzistów hrabiego. Każda aktywna twierdza zapewnia gwardzistom hrabiego i demilansjerom +1 obrażeń do maksymalnie +4.",
+   "t": "Zjednoczenie rodu"
+  },
+  "hl-5": {
+   "d": "Morskie uwarunkowanie zwiększa produktywność portu, zmniejszając koszt budowy statków o 10%.",
+   "t": "Szkutnicy"
+  },
+  "hr-1": {
+   "d": "Zademonstruj potęgę imperium poprzez umieszczenie reliktów w strażnicach, wieżach i twierdzach, wzmacniając pancerz o +25%, obrażenia o +25%, zasięg o +25% i pole widzenia o +20%. \nRelikwie umieszczone w portach zwiększają szybkość ataku statku o +5% na relikwię (maks. +25%). \nRelikwie umieszczone w budynkach generują +80 złota na minutę.",
+   "t": "Religijna gorliwość"
+  },
+  "hr-2": {
+   "d": "Piechota porusza się o 5% szybciej w Erze Mroku (I) i o 10% szybciej od Ery Feudalnej (II). Ulepsz swoją piechotę przy pomocy kluczowych technologii i wystaw do walki wczesnych zbrojnych w Erze Feudalnej (II).",
+   "t": "Armia Cesarstwa"
+  },
+  "hr-3": {
+   "d": "Wszystkie technologie otworów na broń są o -20% tańsze. Zwiększono zasięg widzenia posterunku o +20%.",
+   "t": "Architektura strzelnicza"
+  },
+  "hr-4": {
+   "d": "Mieszkańcy przenoszą o 40% więcej surowców niż w innych cywilizacjach.",
+   "t": "Wózki"
+  },
+  "hr-5": {
+   "d": "Budynki zbudowane w zasięgu centrum miasta zyskują umiejętność napraw awaryjnych, którą można aktywować, aby przywrócić budynkowi 150 pkt. wytrzymałości co sekundę przez 20 sek.",
+   "t": "Wpływ"
+  },
+  "hr-6": {
+   "d": "Prałat: użyj umiejętności Święta inspiracja na mieszkańcach, by zwiększyć ich szybkość zbierania surowców o 35% na 30 sek.\nLandsknecht: lekka piechota walcząca w zwarciu wyposażona w miecz dwuręczny, zadająca poważne obrażenia obszarowe.\nCzarny jeździec: potężnie opancerzony strzelec na koniu. Szkolenie jest ograniczone przez liczbę zbudowanych twierdzy.",
+   "t": "Unikalne jednostki"
+  },
+  "ja-1": {
+   "d": "Centra miast można ulepszać do specjalnych budynków nazywanych dworem Daimyo, pałacem Daimyo i zamkiem Shogunatu. Budynki te zapewniają premie pobliskim mieszkańcom pracującym na farmach (20%, 40%, 60%), zwiększają limit samuraja-chorążego o +1, +2, +3 i udoskonalają jego obronę.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Wystaw na pole bitwy elitarnych samurajów-chorążych, którzy zapewniają +15% premii do obrażeń pobliskiej piechocie i +10% pobliskiej kawalerii. Po swojej śmierci samurajowie-chorąży upuszczają sztandary, które jeszcze przez jakiś czas zapewniają ten sam efekt.",
+   "t": "Samuraj Hatamoto"
+  },
+  "ja-3": {
+   "d": "Wyszkol samuraja w Erze Mroku (I). Samuraj posiada pancerz odbijający, który może okresowo blokować ataki podczas walki wręcz lub dystansowej.",
+   "t": "Spokój umysłu"
+  },
+  "ja-4": {
+   "d": "Kuźnia jest miejscem składowania złota i kamieni oraz zastępuje kopalnię i kowala. Zapewnia także dodatkową technologię obrażeń w zwarciu w Erze Mroku (I). Gospodarstwo zapewnia populację oraz zastępuje młyn jako miejsce składowania żywności.",
+   "t": "Gospodarstwo i kuźnia"
+  },
+  "ja-5": {
+   "d": "Uzyskaj dostęp do potężniejszej twierdzy w Erze Imperiów (IV), która ma zwiększoną wytrzymałość i otwory na rakiety za wyższy koszt. Rakiety atakują szybko i zadają ogromne obrażenia pojedynczym celom.",
+   "t": "Forteca Ody"
+  },
+  "ja-6": {
+   "d": "Gdy mieszkańcy zanoszą złoto, produkowane jest 20% dodatkowych kamieni i odwrotnie.",
+   "t": "Wydobywanie srebra"
+  },
+  "ja-7": {
+   "d": "Zdecyduj się na shinto lub buddyzm, wybierając obiekt historyczny z III ery. Jeśli wybierzesz shinto, odblokujesz kapłana shinto. Jeśli wybierzesz buddyzm, odblokujesz mnicha buddyjskiego. Te jednostki religijne oferują unikalne premie.",
+   "t": "Wybór religijny"
+  },
+  "ja-8": {
+   "d": "Koszary są o 50% tańsze w budowie.",
+   "t": "Dzielnice samurajów"
+  },
+  "ja-9": {
+   "d": "Łodzie rybackie są produkowane 25% taniej.",
+   "t": "Wioska rybacka"
+  },
+  "je-1": {
+   "d": "Joanna d'Arc udaje się na pole bitwy. Bohaterska jednostka, która zyskuje doświadczenie za wykonywanie zadań, takich jak zbieranie surowców, budowanie budynków i udział w walce.\nPo zdobyciu dostatecznej ilości doświadczenia Joanna może osiągnąć kolejny poziom, uzyskując potężne umiejętności gospodarcze i bojowe.",
+   "t": "Podróż bohatera"
+  },
+  "je-2": {
+   "d": "Stwórz królewskiego rycerza w Erze Feudalnej (II) i zbadaj unikalne, potężne technologie dla kawalerii.",
+   "t": "Królewskie rumaki"
+  },
+  "je-3": {
+   "d": "Ludzie pracują ciężej pod przywództwem Joanny d'Arc. Ulepszenia gospodarcze są tańsze o 35%.",
+   "t": "Pobudzona gospodarka"
+  },
+  "je-4": {
+   "d": "Wybierz zwrot żywności, drewna lub złota na rynki z pomocą kupców i statków handlowych.\nStatki handlowe zwracają o +20% więcej zasobów.\nPlacówki handlowe są ujawniane na minimapie na początku gry.\nPorty zapewniają przestrzeń dla populacji.",
+   "t": "Gospodarka handlowa"
+  },
+  "je-5": {
+   "d": "Joanna d'Arc: jednostka-bohater, która rozpoczyna jako mieszkaniec. Musi przejść Ścieżkę bohatera, aby uzyskać potężne umiejętności.\nJeździec Joanny: szybka kawaleria skuteczna w najazdach, atakach z flanki i kontrowaniu kuszników. Staje się dostępna, gdy Joanna osiągnie poziom 3.\nCzempion Joanny: wytrzymała piechota, która kontruje włóczników. Staje się dostępna, gdy Joanna osiągnie poziom 3.\nKrólewski rycerz: ciężka kawaleria, która zyskuje +3 pkt. dodatkowych obrażeń na 5 sek. po wykonaniu szarży.\nArbalétrier: kusznik posiadający +1 pkt. pancerza w zwarciu, który może rozłożyć obronną pawęż, aby uzyskać +5 pancerza dystansowego i +1 zasięgu broni na 30 sek.\nArmata: zastępuje bombardę, zadaje więcej obrażeń, ma lepszą mobilność i nie potrzebuje czasu na rozstawienie.\nGaleas: potężna galera wojenna wyposażona w zamontowaną na dziobie bombardę o dalekim zasięgu.\nWojenna koga: unikalny okręt ze spingardą, który ma obniżony koszt i zwiększony pancerz dystansowy.",
+   "t": "Unikalne jednostki"
+  },
+  "jin-1": {
+   "d": "Wybierz spośród 3 miejsc po ukończeniu obiektu historycznego, aby zbudować łąki, które stopniowo generują konie aż do maksymalnego limitu 5. Konie zwiększają wytrzymałość wszystkich jednostek kawalerii walczącej w zwarciu o +2 i kawalerii walczącej na dystans o +1 lub mogą być używane przez stajnie w zasięgu łąk, aby szybko wyszkolić dowolną jednostkę jazdy. Nowe konie pojawiają się na łące co 90/60/45 sek. odpowiednio w erze Feudalnej/Zamków/Imperiów.",
+   "t": "Łąki"
+  },
+  "jin-2": {
+   "d": "Pochodzenie koczownicze daje ci maksymalnie 20 mieszkańców konnych, którzy pozyskują zasoby, budują i poruszają się znacznie szybciej, ale kosztują więcej. Ustanów lenna w placówkach handlowych, aby zwiększyć maksymalną liczbę o 3.",
+   "t": "Dziedzictwo Dżurdżenów"
+  },
+  "jin-3": {
+   "d": "Ulepsz budowle obronne o stanowiska Meng'an Mouke, które wysyłają obrońców do ochrony pobliskich terenów. Stanowiska dodatkowo powoli generują obrońców, którzy uzupełniają straty.",
+   "t": "Meng'an Mouke"
+  },
+  "jin-4": {
+   "d": "Wyszkol maksymalnie 2 emisariuszy, którzy dysponują dwiema potężnymi zdolnościami.\nUstanawiaj trybutariuszy na neutralnych osadach handlowych, by zdobyć lojalnego sojusznika, który będzie pozyskiwał żywność w twoim imieniu, zwiększy limit budowy mieszkańców konnych o 3 i zwiększy dochody twoich kupców o 15%.\nUżywaj łapówek na grupach wrogich jednostek, zamieniając przeciwników w neutralnych wojowników, którzy będą walczyć ze wszystkim, co stanie im na drodze.",
+   "t": "Emisariusze"
+  },
+  "jin-5": {
+   "d": "Zbuduj warsztat machin w Erze Feudalnej, zyskując wcześniejszy dostęp do kusz oblężniczych zastępujących spingardy i wystrzeliwujących dwa pociski w formacje wroga. Stanowiska kusz oblężniczych zastępują stanowiska spingard we wszystkich budowlach obronnych.",
+   "t": "Doświadczenie oblężnicze"
+  },
+  "kt-1": {
+   "d": "Przejdź do następnej ery w centrum miasta, zakładając jedną z trzech unikalnych komturii. Każda komturia na stałe odblokowuje unikalną jednostkę i premię.",
+   "t": "Załóż komturie"
+  },
+  "kt-2": {
+   "d": "Forteca zastępuje twierdze i jest dostępna w Erze Feudalnej.\nJednostki dystansowe znajdujące się w pobliżu fortecy mają o +15% większy zasięg ataku, a mury kamienne umieszczone w zasięgu fortecy lub siedziby templariuszy mają o +25% więcej wytrzymałości i zyskują domyślną strzałę.\nFortece zachowują się jak obiekty historyczne, ale można je całkowicie zniszczyć.",
+   "t": "Plany obronne Franków"
+  },
+  "kt-3": {
+   "d": "Templariusze nie mogą szkolić kupców. Zamiast tego generują złoto dzięki udanym pielgrzymkom. Po osiągnięciu Ery Feudalnej templariusze mogą oferować pielgrzymom bezpieczne przejście do miejsca świętego.\nCo 60 sek. grupa pielgrzymów będzie podróżować z siedziby templariuszy do wybranego miejsca świętego, po przybyciu generując złoto w ilości zależnej od przebytej odległości. Liczebność grupy wzrasta o 1 za każdą aktywną fortecę, maksymalnie do 10.\nMiejsca święte i relikwie są ujawniane na początku gry.",
+   "t": "Pielgrzymka"
+  },
+  "kt-4": {
+   "d": "Buduj przystanie zamiast portów, które są droższe, ale mają zwiększoną wytrzymałość, otwory na lepszą broń, więcej miejsca na łodzie rybackie i zwiększają wytrzymałości pobliskich statków.",
+   "t": "Przybrzeżne przystanie"
+  },
+  "kt-5": {
+   "d": "Mieszkańcy automatycznie składują drewno bez konieczności posiadania składu drewna.\nW każdej Erze drewno jest zbierane o +20% szybciej, a 20% zebranego drewna jest produkowane jako dodatkowa żywność.",
+   "t": "Ochrona krajobrazu"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Znawcy oblężeń"
+  },
+  "kt-7": {
+   "d": "Brat templariusz: odpowiednik rycerza. Jest droższy od regularnego rycerza, ale ma większą wytrzymałość i obrażenia.\nEra Feudalna\nKomturia rycerzy szpitalników – rycerz szpitalnik: ciężka piechota walcząca w zwarciu, która może leczyć pobliskie sojusznicze jednostki.\nKomturia Królestwa Francji – rycerz towarzysz: ciężka kawaleria, która jest tańsza od regularnego rycerza. Zyskuje dodatkową wytrzymałość za każdą jednostkę ciężkiej kawalerii w pobliżu.\nKomturia Księstwa Antiochii – sierżant: ciężka piechota o mocnym pancerzu do walki w zwarciu. Rzuca toporami, które z dystansu zadają obrażenia od walki wręcz.\nEra Zamków\nKomturia imperium Andegawenów – ciężki włócznik: opancerzony włócznik, który jest silniejszy w pobliżu fortec.\nKomturia Republiki Genui – kusznik genueński: drogi kusznik, który zadaje dodatkowe obrażenia piechocie walczącej w zwarciu.\nKomturia Królestwa Kastylii – jinete: konny oszczepnik, który doskonale radzi sobie z jednostkami dystansowymi.\nEra Imperiów\nKomturia Królestwa Polskiego – kawaleria szlachty: elitarna kawaleria o bardzo mocnym pancerzu dystansowym. Spowalnia ataki wrogów, którym zadaje obrażenia, oraz zadaje dodatkowe obrażenia lekkiej piechocie.\nKomturia zakonu krzyżackiego – rycerz krzyżacki: niewyobrażalnie potężna ciężka piechota, która zyskuje siłę za każdego powalonego w walce wroga. Zmniejsza pancerz pobliskich wrogów.\nKomturia Republiki Weneckiej – kondotier: szybka piechota, której produkcja kosztuje tylko złoto. Silna przeciwko jednostkom używającym prochu.\nWenecka galera: duży okręt wiosłowy z zamontowanym z przodu trebuszem o dużym zasięgu.\nWenecki kupiec: drogi, ale szybko poruszający się kupiec. Można mieć ich maksymalnie 5.",
+   "t": "Unikalne jednostki"
+  },
+  "ma-1": {
+   "d": "Ciesz się doskonałą gospodarką złota i zbuduj kopalnię odkrywkową na żyle złota w Erze Mroku (I), aby wydobywać złoto, nie wyczerpując jego pokładów. Mieszkańcy mogą wydobywać złoto, gdy kopalnia odkrywkowa jest aktywna.\nKiedy żyła złota zostanie całkowicie wyczerpana, kopalnia odkrywkowa nadal będzie wydobywać złoto ze złoża.",
+   "t": "Kopalnie odkrywkowe"
+  },
+  "ma-2": {
+   "d": "Każdy dom i każda kopalnia zbudowane pod wpływem kopalni odkrywkowych zwiększają wydobycie złota.\nBudowanie centrów miasta kosztuje złoto zamiast kamienia.",
+   "t": "Wpływ – społeczności górnicze"
+  },
+  "ma-3": {
+   "d": "Hoduj bydło w młynach w Erze Mroku (I). Malijscy mieszkańcy pozyskują żywność z bydła szybciej niż inne cywilizacje. Mogą też obsadzać bydło na ranczu, by pozyskiwać żywność z biegiem czasu.",
+   "t": "Bydło i rancza"
+  },
+  "ma-4": {
+   "d": "Unikalne jednostki wojowniczek musofadi i strzelczyń musofadi mogą aktywować ukrywanie, aby po cichu zastawiać zasadzki.",
+   "t": "Pionierka Musofadi"
+  },
+  "ma-5": {
+   "d": "Technologie jednostek-weteranów odblokowane w Erze Zamków (III) są badane o połowę taniej i szybciej.",
+   "t": "Wiedza farari"
+  },
+  "ma-6": {
+   "d": "Kupcy i statki handlowe, które mijają rogatki, natychmiast dają dodatkowe zasoby w zależności od aktualnych celów handlowych. Jeśli rogatka znajduje się w zasięgu innej, nie generuje to żadnych dodatkowych podatków.",
+   "t": "Rogatki"
+  },
+  "ma-7": {
+   "d": "Złoto zbierane z ukończonych szlaków handlowych skraca czas badania przyszłych technologii.",
+   "t": "Handel manuskryptami"
+  },
+  "ma-8": {
+   "d": "Łodzie rybackie zrzucają 10% żywności w złocie.",
+   "t": "Przetwórstwo rybne"
+  },
+  "ma-9": {
+   "d": "Prędkość ruchu wszystkich statków wzrasta w pobliżu własnych portów.\nStatki transportowe atakują oszczepami dla każdej obsadzonej jednostki.",
+   "t": "Załogi desantowe"
+  },
+  "mac-1": {
+   "d": "Mieszkańcy odkrywają obfite złoża galeny wśród żył złota i skał i pozyskują srebro jako unikalny zasób podczas wydobywania.\nMieszkańcy pozyskują srebro równe 40% wydobytego złota lub kamienia.",
+   "t": "Zbieranie galeny"
+  },
+  "mac-2": {
+   "d": "Arsenały Waregów generują wpływy dla kopalni i centrów miast, które rozpoczynają przetwarzanie srebra w miarę upływu czasu. Ilość przetworzonego srebra zależy od całkowitej ilości zdeponowanego przez mieszkańców srebra.",
+   "t": "Wpływ – Wybijanie srebra"
+  },
+  "mac-3": {
+   "d": "Badaj unikalne technologie wojskowe w arsenale Waregów, wydając srebro. Zastępuje kowala i uniwersytet. Dynastia macedońska może przekroczyć trzy poziomy ulepszeń wojskowych w każdej kategorii.",
+   "t": "Kowalstwo Waregów"
+  },
+  "mac-4": {
+   "d": "Wzmocnij imperium dzięki fortecom Waregów, które mogą produkować wszystkie jednostki Waregów i bronić się za pomocą strzał.",
+   "t": "Twierdze"
+  },
+  "mac-5": {
+   "d": "Wybierz posiłki w obozie wojennym Waregów. Gdy wystarczająco dużo wojowników polegnie w walce, darmowi warescy wojownicy pojawią się w obozie wojennym, aby uzupełnić przerzedzone szeregi.\nJeśli budynek sąsiaduje z wodą, w ramach posiłków można wybrać łodzie.",
+   "t": "Obóz wojenny"
+  },
+  "mac-6": {
+   "d": "Rzeźb kamienie runiczne, aby uczcić dawne zwycięstwa w walce. Gdy w ręce Waregów wpadnie wystarczająca liczba wrogów, można utworzyć kamień runiczny, który zainspiruje pobliskich Waregów premiami bojowymi na danym obszarze.",
+   "t": "Wareskie kamienie runiczne"
+  },
+  "mac-7": {
+   "d": "Kirosyfony oraz ulepszone dromony, springardy i trebusze miotają ogniem greckim, spowijając obszar płomieniami i zadając obrażenia w miarę upływu czasu.",
+   "t": "Grecki ogień"
+  },
+  "mac-8": {
+   "d": "Strażnice i twierdze można ulepszać za pomocą otworów na mangonele. Wieże na kamiennych murach są wyposażone w otwory na mangonele zamiast otworów na spingardy.",
+   "t": "Otwory na mangonelę"
+  },
+  "mac-9": {
+   "d": "Atgeirmaðr: odpowiednik włócznika. Lekka piechota walcząca wręcz z pasywną umiejętnością zwiększającą szybkość ataku, gdy w pobliżu znajdują się jednostki Waregów.\nBogmaðr: odpowiednik łucznika. Lekka piechota dystansowa z umiejętnością omijania pancerza kosztem szybkości ruchu. \nWczesny gwardzista wareski: odpowiednik zbrojnego. Użyj zdolności berserkera, aby zwiększyć obrażenia kosztem pancerza. Może budować statki transportowe i zwiększać pancerz transportów, gdy w nich stacjonuje.\nRiddari: odpowiednik rycerza. Ciężka kawaleria posiadająca zdolność rzucania toporami z dystansu przez określony czas.\nKirosyfon: taran plujący ogniem greckim na niewielką odległość.\nDromon: odpowiednik okrętu ze springardą. Miota ogniem greckim.",
+   "t": "Unikalne jednostki"
+  },
+  "mo-1": {
+   "d": "Wszystkie budynki można złożyć i przenieść w inne miejsce.\nBudowa domów jest zbędna, rozpoczynasz grę z maksymalną liczbą ludności.\nMożesz szybko odpowiedzieć na wrogie manewry dzięki sieci posterunków zapewniających o 15% większą szybkość ruchu pobliskim jednostkom kawalerii i kupcom.",
+   "t": "Wielkie dominium"
+  },
+  "mo-2": {
+   "d": "Wystaw do walki potężnego chana w Erze Mroku (I), by zapewnić wysokie premie pobliskim jednostkom wojskowym przy pomocy strzał sygnałowych.\nChanowie i zwiadowcy mogą użyć umiejętności sokoła zwiadowczego, by obserwować najbliższą okolicę.",
+   "t": "Chanat"
+  },
+  "mo-3": {
+   "d": "Buduj stajnie już w Erze Mroku i szkol jeźdźców o +25% szybciej.",
+   "t": "Eksperccy jeźdźcy"
+  },
+  "mo-4": {
+   "d": "Zbuduj pastwiska zamiast farm, by hodować owce na mięso – owce pojawiają się szybciej na pastwiskach w zasięgu owoo.",
+   "t": "Koczowniczy zbieracze"
+  },
+  "mo-5": {
+   "d": "Plądruj budynki wroga za +25 żywności i złota, gdy zostaną podpalone lub zniszczone podczas budowy.",
+   "t": "Łupy"
+  },
+  "mo-6": {
+   "d": "Statki transportowe są szybsze i wytrzymalsze, mają o 50% więcej wytrzymałości i o 15% większą szybkość ruchu.",
+   "t": "Wzmocnione transporty"
+  },
+  "mo-7": {
+   "d": "Wykorzystaj bonus „Jedwabny szlak”, który sprawia, że handel generuje więcej surowców w zależności od liczby posiadanych aktywnych kupców.\n• 5+ kupców: +10% żywności\n• 10+ kupców: +10% żywności i drewna\n• 15+ kupców: +10% żywności, drewna i złota",
+   "t": "Jedwabny szlak"
+  },
+  "mo-8": {
+   "d": "Zbuduj owoo na skałach, by stworzyć strefę wpływu i zbierać kamienie bez udziału mieszkańców. W każdej kolejnej erze owoo zbierają odpowiednio o 70, 100, 130, 160 kamieni więcej.\nBudynki znajdujące się w zasięgu owoo mogą podwoić liczbę szkolonych jednostek lub badać ulepszone wersje technologii przy pomocy kamieni.",
+   "t": "Wpływ"
+  },
+  "mo-9": {
+   "d": "Chan: konny łucznik o skalowanej sile, który w każdej kolejnej erze odblokowuje umiejętności strzał sygnałowych.\n• Strzała manewrowa: szybkość ruchu zwiększona o +33%.\n• Strzała szybkości ataku: szybkość ataku zwiększona o +50%.\n• Strzała pancerza: pancerz zwiększony o +2 pkt.\nMangudai: konny łucznik, który może strzelać w ruchu we wszystkich kierunkach.\nTrebusz ciągniony: większa szybkość ruchu, szybkość rozstawienia i szybkość ataku.\nKeszik: ciężka kawaleria dostępna w Erze Feudalnej, która leczy się po każdym ataku.",
+   "t": "Unikalne jednostki"
+  },
+  "od-1": {
+   "d": "Mieszkańcy zbierają zasoby o 28% szybciej, budują i naprawiają budynki o 20% szybciej, ale ich wyszkolenie kosztuje o 20% więcej żywności.",
+   "t": "Wydajni mieszkańcy"
+  },
+  "od-2": {
+   "d": "Zademonstruj potęgę imperium poprzez umieszczenie reliktów w strażnicach, wieżach i twierdzach, wzmacniając pancerz o +25%, obrażenia o +25%, zasięg o +25% i pole widzenia o +20%. \nRelikwie umieszczone w portach zwiększają szybkość ataku statku o +5% na relikwię (maks. +25%). \nRelikwie umieszczone w budynkach generują +80 złota na minutę.",
+   "t": "Religijna gorliwość"
+  },
+  "od-3": {
+   "d": "Zbadaj technologie takie jak ciężkie pochodnie, pancerz łuskowy i konie bojowe, aby jeszcze bardziej wzmocnić potęgę Zakonu.",
+   "t": "Elitarny sprzęt"
+  },
+  "od-4": {
+   "d": "Wszystkie technologie otworów na broń są o -20% tańsze. Zwiększono zasięg widzenia posterunku o +20%.",
+   "t": "Architektura strzelnicza"
+  },
+  "od-5": {
+   "d": "Mieszkańcy przenoszą o 40% więcej surowców niż w innych cywilizacjach.",
+   "t": "Wózki"
+  },
+  "od-6": {
+   "d": "Budynki zbudowane w zasięgu centrum miasta zyskują umiejętność napraw awaryjnych, którą można aktywować, aby przywrócić budynkowi 150 pkt. wytrzymałości co sekundę przez 20 sek.",
+   "t": "Wpływ"
+  },
+  "od-7": {
+   "d": "Elitarne jednostki piechoty i kawalerii Zakonu – takie jak pozłacany zbrojny, pozłacany rycerz i inne – mają niemal dwa razy więcej punktów zdrowia niż zwykłe jednostki i zadają od nich znacznie więcej obrażeń. Jednak wyszkolenie ich jest znacznie droższe i zajmują one dwa razy więcej limitu populacji.",
+   "t": "Unikalne jednostki"
+  },
+  "ot-1": {
+   "d": "Tworzy budynek szkoły wojskowej, która może nieprzerwanie szkolić określony rodzaj jednostek za darmo, aczkolwiek wolniej.",
+   "t": "Szkolenie w szkole wojskowej"
+  },
+  "ot-2": {
+   "d": "Trenowanie jednostek i postępy na przestrzeni wieków dają doświadczenie pozwalające na zdobycie punktów wezyra. Im wyższy koszt akcji, tym więcej zdobytego doświadczenia. Zdobądź do pięciu punktów wezyra i wydaj je, aby odblokować potężne unikalne bonusy osmańskie.",
+   "t": "Rada cesarska"
+  },
+  "ot-3": {
+   "d": "Wyszkol, ulepsz i zbierz armię z tańszymi budynkami wojskowymi i technologicznymi.",
+   "t": "Wprowadzenie wojskowe"
+  },
+  "ot-4": {
+   "d": "Zwiększono prędkość ruchu statków handlowych, transportowych i łodzi rybackich.",
+   "t": "Trasy wysyłki"
+  },
+  "ot-5": {
+   "d": "Wojskowe budynki produkcyjne zbudowane w zasięgu uniwersytetu lub kowala otrzymują zwiększoną prędkość tworzenia w każdej kolejnej erze.",
+   "t": "Wpływ"
+  },
+  "ot-6": {
+   "d": "Spahisi: Zastępują jeźdźców. Umiejętność Męstwo pozwala im atakować szybciej, ale otrzymują wtedy więcej obrażeń w walce wręcz.\nMehter: Konny bębniarz wojenny dający wzmocnienia pobliskim jednostkom za pomocą umiejętności Bębny wojenne.\n• Bębny szturmowe: zwiększona prędkość ataku.\n• Bębny obrony w zwarciu: lepszy pancerz przeciw atakom wręcz.\n• Bębny obrony dystansowej: lepszy pancerz dystansowy.\nJanczar: potężny kanonier potrafiący naprawiać machiny oblężnicze i zadający dodatkowe obrażenia kawalerii.\nWielka galera: potężna galera wojenna, która może przekształcić się w pływającą szkołę wojskową.\nWielka bombarda: największa machina oblężnicza na proch, którą można wystawić na polu bitwy. Ma duży zasięg i zadaje obrażenia obszarowe.\nAkindżajowie: kawaleria walcząca na dystans, która wystrzeliwuje po dwie strzały w krótkim odstępie czasu. Musi być odblokowana przez radę cesarską.",
+   "t": "Unikalne jednostki"
+  },
+  "ru-1": {
+   "d": "Ufortyfikuj prowincję dzięki drewnianym fortecom zastępującym strażnice – mają o 100% więcej wytrzymałości i 3 dodatkowe miejsca do obsadzenia.\nSkonstruuj ufortyfikowaną palisadę – ma o 100% więcej wytrzymałości i jest budowana szybciej.",
+   "t": "Leśna federacja"
+  },
+  "ru-2": {
+   "d": "Żyj z płodów ziemi dzięki zwiadowcom szkolonym w chatach myśliwskich. Chaty myśliwskie zapewniają wszelkie korzyści standardowego młyna, ale mają też możliwość zajrzenia w głąb lasów skrywających i generowania złota w oparciu o liczbę pobliskich drzew.",
+   "t": "Książęta-łowcy"
+  },
+  "ru-3": {
+   "d": "Szkól wczesnych rycerzy w Erze Feudalnej (II).",
+   "t": "Drużyna książęca"
+  },
+  "ru-4": {
+   "d": "Lodję za opłatą można zmienić w dowolny inny typ statku.\nŁodzie rybackie typu lodja przetwarzają żywność na pokładzie, nie muszą wracać do portu, by ją składować.",
+   "t": "Zamiana lodji"
+  },
+  "ru-5": {
+   "d": "Zbieranie ze zwierząt przynosi łupy w postaci złota, a osiągnięcie określonych progów łupów zapewnia premie gospodarcze mieszkańcom wioski i chatom myśliwskim.\n100 szt. łupów\n• +5% tempo zbierania żywności\n• Domki myśliwskie generują 10% więcej złota\n400 szt. łupów\n• +10% tempo zbierania żywności\n• Domki myśliwskie generują 25% więcej złota\n1000 szt. łupów\n• +15% tempo zbierania żywności\n• Domki myśliwskie generują 40% więcej złota",
+   "t": "Nagrody za zwierza"
+  },
+  "ru-6": {
+   "d": "Nadzoruj wycinkę – mieszkańcy wyładowują o 20% więcej drewna, jeśli składy drewna i centra miast znajdują się w zasięgu drewnianej fortecy.",
+   "t": "Wpływ"
+  },
+  "ru-7": {
+   "d": "Wojowniczy mnich: religijna jednostka lekkiej kawalerii inspirująca pobliskie jednostki w trakcie walki, zapewniająca +1 pkt. pancerza i +2 pkt. obrażeń.\nŁucznik konny: lekka kawaleria walcząca na dystans charakteryzująca się mobilnością i dużymi obrażeniami.\nStrzelcy moskiewscy: Kanonierzy, którzy zyskują większą moc, gdy stoją, i posługujący się silnym atakiem w walce w zwarciu.\nStatki typu lodja: mogą być przekształcone w dowolny inny typ statku.",
+   "t": "Unikalne jednostki"
+  },
+  "sen-1": {
+   "d": "Posiadłości daimyo to unikalne budynki, które mogą być powierzone jednemu z trzech klanów: Hojo, który ulepsza piechotę walczącą w zwarciu, Oda, który ulepsza piechotę walczącą na dystans, lub Takeda, który ulepsza kawalerię. Posiadłość daimyo ma również obszar wpływu, który zwiększa prędkość tworzenia w budynkach wojskowych.",
+   "t": "Posiadłość Daimyo"
+  },
+  "sen-2": {
+   "d": "Matsuri to wyjątkowy wczesny rynek, który produkuje yatai. Yatai jest unikalną jednostką robotniczą, która powoli generuje żywność ze źródeł w zasięgu 2 pól bez ich zabijania czy ich zużywania. Jeśli yatai zbierze wystarczającą ilość żywności, wyśle kupca z powrotem do matsuri, co ulepszy aurę zwiększającą szybkość zbierania przez pobliskich mieszkańców.",
+   "t": "Yatai i matsuri"
+  },
+  "sen-3": {
+   "d": "Kuźnia jest miejscem składowania złota i kamieni oraz zastępuje kopalnię i kowala. Zapewnia także dodatkową technologię obrażeń w zwarciu w Erze Mroku (I). Gospodarstwo zapewnia populację oraz zastępuje młyn jako miejsce składowania żywności.",
+   "t": "Gospodarstwo i kuźnia"
+  },
+  "sen-4": {
+   "d": "Uzyskaj dostęp do potężniejszej twierdzy w Erze Imperiów (IV), która ma zwiększoną wytrzymałość i otwory na rakiety za wyższy koszt. Rakiety atakują szybko i zadają ogromne obrażenia pojedynczym celom.",
+   "t": "Forteca Ody"
+  },
+  "sen-5": {
+   "d": "Gdy mieszkańcy zanoszą złoto, produkowane jest 20% dodatkowych kamieni i odwrotnie.",
+   "t": "Wydobywanie srebra"
+  },
+  "sen-6": {
+   "d": "Łodzie rybackie są produkowane 25% taniej.",
+   "t": "Wioska rybacka"
+  },
+  "sen-7": {
+   "d": "Lokalizacja wszystkich jeleni i dzików zostaje ujawniona na mapie.",
+   "t": "Ujawnienie jeleni i dzików"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "Towarzysze pracy"
+  },
+  "tug-2": {
+   "d": "Szukając wiedzy i mądrości, Dynastia Tughlaków przeznacza na badanie technologii znacznie więcej zasobów, ale skraca czas tych badań do niemal natychmiastowego.",
+   "t": "Erudycja"
+  },
+  "tug-3": {
+   "d": "Zasiej przerażenie w szeregach wrogów dzięki twierdzy Tughluqabad. Ten budynek obronny, dostępny w Erze Feudalnej (II), można ulepszyć, aby zwiększyć zadawane przez niego obrażenia oraz jego wytrzymałość i odblokować wybór gubernatora.",
+   "t": "Legendarne twierdze"
+  },
+  "tug-4": {
+   "d": "Wybierz jednego z sześciu gubernatorów w twierdzy Tughluqabad, aby pomóc dynastii Tughlaków jeszcze bardziej rozwinąć skrzydła. Siła gubernatora rośnie wraz z każdym ulepszeniem twierdzy Tughluqabad. Gubernatorzy zapewniają premie do gospodarki, tempa rozwoju, wojska, badań i religii. \nW każdej twierdzy urzędować może tylko jeden gubernator.",
+   "t": "Wsparcie gubernatora"
+  },
+  "tug-5": {
+   "d": "Mieszkańcy zbierają żywność z krzewów jagodowych o 30% szybciej, ale nie mogą zbierać żywności z dzików.\nMieszkańcy przenoszą +3 szt. żywności z krzewów jagodowych.",
+   "t": "Koszykarstwo"
+  },
+  "tug-6": {
+   "d": "Zakładaj ufortyfikowane osady, używając jednostek piechoty mogących budować palisady.",
+   "t": "Fortyfikacje graniczne"
+  },
+  "tug-7": {
+   "d": "Statki rybackie mogą bronić się atakiem dystansowym i mają 50% dodatkowego zdrowia.",
+   "t": "Obrona pokładowa"
+  },
+  "tug-8": {
+   "d": "Słoń szturmowy: szybki i skuteczny w szturmowaniu, flankowaniu i kontrowaniu jednostek dystansowych. Potrafi tratować, zadając obrażenia obszarowe.\nSłoń leczący: słoń o dużej wytrzymałości i pancerzu, na którym zasiadają dwaj imamowie leczący pojedyncze jednostki. Zadaje zwiększone obrażenia za każdą pobliską jednostkę piechoty walczącej w zwarciu.\nSłoń bojowy: ciężka jednostka kawalerii walczącej w zwarciu, na której zasiada włócznik. Ma wysoką wytrzymałość i obrażenia. Potrafi wyprowadzać potężny atak oblężniczy.\nSłoń z balistą: słoń, na którym umieszczono balistę efektywną wobec jednostek walczących w zwarciu; pocisk może przebić się przez kilka celów.",
+   "t": "Unikalne jednostki"
+  },
+  "zx-1": {
+   "d": "Rozpocznij swą podróż jako dynastia Tang – koszty obiektów historycznych są zmniejszone o 15%, a wioska jest teraz odblokowana.\nZbuduj oba obiekty historyczne w danej erze, aby założyć dynastie ze specjalnymi premiami, unikalnymi budynkami i jednostkami.\n• Dynastia Song: koszt drewna dla budynków gospodarczych i dla populacji jest obniżony o 30% – odblokowuje budowę spichlerza.\n• Dynastia Yuan: 10% zniżki na wszystkie jednostki – odblokowuje budowę pagody.\n• Dynastia Ming: chińskie jednostki unikalne zadają +20% obrażeń.",
+   "t": "Wielkie dynastie"
+  },
+  "zx-2": {
+   "d": "Szkolone jednostki, badane technologie i składowane surowce generują podatek (złoto), który można zbierać urzędnikami cesarskimi. Unikatowe technologie wojskowe z Akademii na Górze Lu i Biblioteki Zhu Xi znacznie ulepszają urzędników cesarskich.",
+   "t": "Podatki"
+  },
+  "zx-3": {
+   "d": "Dostęp do chu-ko-nu i grenadierów bez konieczności wkraczania w dynastie. Obiekty historyczne mogą odblokować potężnych mnichów Shaolin, jeźdźców Yuan i gwardię cesarską. W Erze Feudalnej można szkolić wczesną gwardię pałacową.",
+   "t": "Jednostki dynastii"
+  },
+  "zx-4": {
+   "d": "Rozpocznij grę z technologią Chemia, otrzymaną za darmo – z budynków obronnych zamiast łuków strzelają rusznice.",
+   "t": "Mistrzowie prochu"
+  },
+  "zx-5": {
+   "d": "Mieszkańcy konstruują budynki obronne o +50% szybciej i wszystkie inne budowle o +100% szybciej. Porty pracują o +10% szybciej.",
+   "t": "Błyskawiczne fabrykacje"
+  },
+  "zx-6": {
+   "d": "Wyszkol wczesną gwardię pałacową w Erze Feudalnej (II), aby chronić cesarza.",
+   "t": "Chroń pałac"
+  },
+  "zx-7": {
+   "d": "Urzędnik cesarski: użyj umiejętności nadzorowania, by zwiększyć szybkość produkcji w budynkach badawczych i wojskowych o +150% – nadzorowanie budynków gospodarczych zwiększa ilość wyładowywanych w nich surowców o +20%.\nChu-ko-nu: odpowiednik łucznika. Lekka piechota walcząca na dystans i wykonująca szybkie ataki seryjne, skuteczne przeciw lekkim jednostkom.\nGwardia pałacowa: odpowiednik zbrojnego. Ciężka piechota walcząca w zwarciu, poświęcająca część pancerza na rzecz szybkości ruchu.\nGniazdo pszczół: odpowiednik mangoneli. Machina wojenna wystrzeliwująca salwę rakiet zadających obrażenia obszarowe.\nGrenadier: lekka piechota dystansowa korzystająca z prochu i rzucająca granaty zadające obrażenia obszarowe.",
+   "t": "Unikalne jednostki"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}

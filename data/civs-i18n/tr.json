@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "Abbasi Hanedanı, yapılarını Beyt'ül Hikmet'in etrafında toplayarak, gelişen bir Altın Çağ'ı takip etmektedir, bu da onlara önemli ekonomik avantajların kilidini açmalarına olanak sağlar. Ayrıca Beyt'ül Hikmet, çağlar boyunca çeşitli ilerlemeler yaşayarak gelişmiş teknolojilere erişim sunar. Abbasi deve birimleri, düşman süvarilerini karşılık vermede uzmandır.",
+  "ay": "Kıtaların birleştiği, ticaretin bilimle buluştuğu ve imparatorluklar çarpıştığı noktada Eyyûbîler, avantajı kazanmak için bilgiye yatırım yapıyor. Şehirleşme ve bilimin temelinde yatan Beyt'ül Hikmet, Altın Çağ bonuslarının ve ileri çağlara geçmenin kilidini açar. Eyyûbîler, savaş meydanında taktik avantajlar kazanmak için çok yönlü birimlere odaklanır.",
+  "by": "Bizanslılar, dört bir yana yayılan ve hayat veren Su Kemeri ve Sarnıç kanalları inşa eder. Benzersiz yeteneklerden faydalan ve seçkin Zeytinyağı ile Paralı Asker tut. Köylüler, imparatorluk için durmak bilmeden Zeytinyağı üretir.",
+  "ch": "Çinliler odaklarını çağlar içinde değiştirerek hızlıca birçok özgün birim ve bina mevzilendirebilir. Düşmanlar yetişmek istiyorlarsa sürekli olarak uyum sağlamalıdır.",
+  "de": "Delhi Sultanlığı, geniş alim ağlarıyla düşmanlarından çokça adım önde kalır. Tamamen aydınlandıklarında korkutucu Savaş Filini konuşlandırarak yollarına çıkanı ezerler.",
+  "en": "Olağanüstü erken piyadeler, İngilizlere tarlalardan güvenilir bir Yiyecek üretimiyle desteklenmiş güçlü bir kuvvet sağlar.",
+  "fr": "Fransızlar güçlü süvari birimleri mevzilendirip tahkimli konumlarda üretimi artırabilir. Düşmanlar, güçlü Kraliyet Şövalyelerinin ve diğer zırhlı birimlerin hücumlarına karşı koymaya hazır olmalıdır.",
+  "gol": "Altın Ordu'ya liderlik eden Batu Han, Moğol İmparatorluğu'nu Doğu Avrupa'nın kalbine kadar genişletmişti. Han'ın büyük Altın Yurdu, bu kontrol ağının merkezinde durmaktaydı. Karakolları sayesinde de uçsuz bucaksız sınırları idare edebiliyordu. Altın Ordu, güçlü akıncılara sahip olmasına karşın mandası altındaki devletleri kontrol edebilmek uğruna kamplarının hareket kabiliyetinden feragat etmek zorunda kalmıştı.",
+  "hl": "Lancaster Hanedanı, İngiliz kraliyetinin güçlü bir kolu olarak ortaya çıkmıştır. Malikâneler, sürdürülebilir ekonomi çözümleriyle ekonominin belkemiğini oluşturur. Lancasterların askerî alandaki kudreti savaş meydanındaki teknolojik avantajlarından ve üstün taktiklerinden gelir. Düşman hatlarını güçlü hücum kıtalarıyla dağıtır ve ardından, dağılan askerleri üstün menzilli piyadeleriyle avlarlar.",
+  "hr": "Başrahipler, Kutsal Roma İmparatorluğu'nun ekonomisini güçlendirirken güçlü piyade birimleri de ordusunun çekirdeğini oluşturur. Düşmanlar, saldırılardan hızlıca toparlanabilen bir rakiple yüzleşmeli ve güçlü karşı saldırılar gerçekleştirmelidir.",
+  "ja": "Japon topraklarına hükmeden Daimyo, tarımı geliştirir ve topraklarını korumak için Samuray tutar. Benzersiz Demirhanesi, savaşta öne çıkmak için durmak bilmeden kılıçlarını bilemeye devam eder. Azılı Samuray Sancaktarları, kapsamlı piyade ve süvari ordusunu savaşta zafere götürür.",
+  "je": "Fransız halkı için bir umut ışığı olan Jeanne d'Arc, savaş meydanına iniyor ve takipçilerini yüreklendiriyor. Mütevazı bir köylü olarak başlayan Jeanne, Karanlık Çağ'da Kahramanın Yolculuğuna başlar. Jeanne tecrübe kazandıkça güçlü bir önder hâline gelir. Yaratmak istediği imparatorluğu şekillendirmek için güvenilir yoldaşlara ve güçlü yeteneklere erişim kazanır.",
+  "jin": "Jin Hanedanı, Çin'in kuzeyinden kudretli bir askerî güç olarak savaşa giriyor. Atlı Köylüler daha hızlı hareket ederek eline yeni kaynaklar ve topraklar geçirebilir. Fırsatları kullan, süvarilerinle ansızın düşmanlara saldırıp sana karşı duranları ezip geç. İradesi zayıf düşmanları rüşvetle savaştan uzaklaştır ve kârı yüksek Haraçgüzar Devletler kur.",
+  "kt": "Güçsüzleri ve bitkinleri korumak için kurulan Tapınak Şövalyeleri, müttefiklerini çağırmak için Avrupa'nın dört bir yanında Kumandanlıklar kurdu. Muhteşem bir dizi ağır birlikten oluşan Tapınakçılar, savaşa büyük bir cesaret ve disiplinle gider. Özenle bakılan arazilerde Hisarlar bulunur. Bunlar korudukları hacılar için önemli savunma noktaları oluşturur ve sığınak sağlar.",
+  "ma": "Mali ekonomisi, altın ve yiyecek üretimi seçenekleriyle büyür. Açık Ocak Madenleri için altın yatakları talep ederek gizlice vuran ve düşmanlara cirit fırlatan özgün piyade birimleri üretmek için bu büyümeden yararlanırlar.",
+  "mac": "İmparator II. Basileios, Bizans asilzadelerinin kışkırttığı isyanlarla mücadele etmek için Varegleri kullanmaya karar verir. Kuzeyden gemilerle gelen bu yabancı savaşçılar, Bizans politikasından ve kültüründen etkilenmeden yüzyıllar boyunca seçkin bir ani saldırı birliği olarak imparatorları korur. Makedonya Hanedanlığı, özel bir kaynak olarak darphanelerinde Gümüş işler ve bunları Vareg Cephaneliklerinde harcayarak imparatoru koruyan askerlerin kılıçlarını ve becerilerini keskin tutar.",
+  "mo": "Hareketliliğin ve atlı savaşın uzmanları olan Moğollar kolaylıkla kamplarının yerini değiştirebilir. Taş Çıkıntılarının yanına kurularak ve düşman binalarını yağmalayarak ekonomik avantajlar kazanabilirler. Düşmanlar oyunun başladığı dakikalardan itibaren süvari saldırılarıyla mücadele etmelidir.",
+  "od": "Ejder Tarikatı, saldırgan imparatorlukları yerle bir etmek için özenle seçilmiş varlıklı elitler tarafından oluşturulmuştur. Yalnızca küçük bir sayıda eşsiz savaşçı yetiştirmek için büyük miktarda kaynak harcayan Tarikat, eşsiz bir elit ordu kurmuştur.",
+  "ot": "Osmanlı Ordusu, dizilişlerinin saflarını şişirmek için sürekli olarak birimler üretebilen Askeri Okullarla desteklenip savaş alanına hükmedecek şekilde genişleyebilir. Bu dizilişleri destekleyen Mehter savaş davulları, iyi eğitimli birlikleri durumsal avantaj elde etmek üzere uyarır.",
+  "ru": "Ruslar kırsal kesimden büyük faydalar elde eder. Avlanma ve ormancılıktan rahatlıkla daha fazla kaynak toplayıp güçlü çarpışma birimleri mevzilendirebilirler. Düşmanlar güçlü erken oyun tahkimleri ve kolay kolay bozulamayan çok çeşitli bir ekonomiyle yüzleşir.",
+  "sen": "Sengoku Jidai; ittifakların değiştiği, savaşların durmak bilmeden devam ettiği bir dönemdi. Birbirine düşman bu üç klanı destekleyerek menzilli piyadelerine, yakın dövüş piyadelerine veya süvarilerine güçlü avantajlar kazandırabilirsin. Savaşın ortasında bile kutlamalar devam ediyordu. Alışveriş ve ticaretin kalbi Matsuri festivali de ekonomiye güçlü bonuslar kazandırıyordu.",
+  "tug": "Gıyaseddin Tuğluk'un Sultan olarak hüküm sürmesi; Tuğluk Hanedanlığında sanat, mimari ve toprak genişletme gibi alanlarda ilerlemelerin temelini atmıştır. Tuğlukabad Kalesi'nin inşa edilmesini emrettikten sonra geleceğin Sultanları, Emirleri ve valileri bu sayede hanedanlığın askerî varlığını kuvvetlendirmiş ve güç gösterisi yapmıştır. Tuğluk Hanedanlığı, ek kalelerin hızlı bir şekilde inşa edilmesini emretmiş; valiler de var gücüyle çalışan filleri ve köylüleri denetim altında tutmuştur.",
+  "zx": "Filozof Zhu Xi'nin öğretileri Çin medeniyetini yeniden şekillendirir. Zhu Xi'nin Mirası ile Çinliler üstün İmparatorluk Memurlarının yanı sıra gelişmiş teknolojiler sayesinde karmaşık bir yönetime sahiptir. Git gide zenginleşen hazineyle güçlü hanedanlar kurulur ve özgün teknolojiler araştırılır. Saray Muhafızlarını, Zhuge Nu'ları ve El Bombacılarını orduna katarak İmparatorluğu koru."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Jeanne, Okçunun Yolu'nu seçerek düşmanlarıyla uzaktan çarpışmak için bir yay alır.\nTek bir hedefe yüksek hasar vermesini sağlayan İlahi Ok yeteneğini kazanır.",
+   "n": "Okçu Yolu"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "Jeanne'in Toplanma Çağrısı yeteneği artık seçtiği 7 arkadaşını savaş alanına çağırabilir.\nTek bir birime yüksek güç veren Cennetin Gücü nihai yeteneğini kazanır.",
+   "n": "Saha Komutanı"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Jeanne Binicileri, Ahırlarda eğitilebilir.\nYanına 3 Binici toplamasını sağlayan \"Hazırlanın Biniciler!\" yeteneğini kazanır.",
+   "n": "Binici Silah Arkadaşları"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "Jeanne'in Toplanma Çağrısı yeteneği artık seçtiği 3 yoldaşını ve güçlü bir Topu savaş alanına çağırabilir.\nYakınındaki müttefiklerin saldırı hızını büyük ölçüde artıran Yüreklendirici İlham nihai yeteneğini kazanır.",
+   "n": "Barut Hükümdarı"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Jeanne Şampiyonları, Kışlalarda eğitilebilir.\nYanına 3 Şampiyon toplamasını sağlayan \"Askerler, Savaşa!\" yeteneğini kazanır.",
+   "n": "Şampiyon Silah Arkadaşları"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Jeanne, Savaşçının yolunu seçerek düşmanlarıyla yakın dövüşte çarpışmak için bir iki elli kılıç alır.\nJeanne'in çevresine etki alanı hasarı veren Kutsal Gazap yeteneğini kazanır.",
+   "n": "Savaşçının Yolu"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Keşik, Ghulam ve Kule Fili paralı askerlerinin üretiminin kilidini açar.\nKeşik: Feodal Çağ\nGhulam: Kıdemli sözleşmesi\nKule Fili: Elit sözleşmesi",
+   "n": "Paralı Asker Sözleşmesi (Doğu)"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Uzun Yay Okçusu, Landsknecht ve Streltsıy paralı askerlerinin üretiminin kilidini açar.\nUzun Yay Okçusu: Feodal Çağ\nLandsknecht: Kıdemli sözleşmesi\nStreltsıy: Elit sözleşmesi",
+   "n": "Paralı Asker Sözleşmesi (Batı)"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Cirit Atıcısı, Deve Binicisi ve El Bombacısı paralı asker üretiminin kilidini açar.\nCirit Atıcısı: Feodal Çağ\nDeve Binicisi: Kıdemli sözleşmesi\nEl Bombacısı: Elit sözleşmesi",
+   "n": "Paralı Asker Sözleşmesi (İpek Yolu)"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "Şu kültürel teknolojiler açılır:\n• Bilginin Korunması (II. Çağ)\n• Tıp Merkezleri (III. Çağ)\n• Halk Kütüphaneleri (IV. Çağ)",
+   "n": "Kültür Kanadı"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "Şu kültürel teknolojiler açılır:\n• Bilginin Korunması (II. Çağ)\n• Tıp Merkezleri (III. Çağ)\n• Halk Kütüphaneleri (IV. Çağ)",
+   "n": "Kültür Kanadı"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nSonraki Çağa %20 daha az zaman ve 1350 daha az kaynak harcayarak geçmek için bu kanadı inşa et.",
+   "n": "Kültür Kanadı: İlerleme"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nTamamlandığında 4 Derviş verir, birimin iyileştirmesini +%50 artırır ve kalıcı olarak açar.",
+   "n": "Kültür Kanadı: Lojistik"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nSonraki Çağa %20 daha az zaman ve 250 daha az kaynak harcayarak geçmek için bu kanadı inşa et.",
+   "n": "Kültür Kanadı: İlerleme"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nTamamlandığında 2 Derviş verir ve iyileştirme havasını kalıcı olarak açar.",
+   "n": "Kültür Kanadı: Lojistik"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "Şu kültürel teknolojiler açılır:\n• Bilginin Korunması (II. Çağ)\n• Tıp Merkezleri (III. Çağ)\n• Halk Kütüphaneleri (IV. Çağ)",
+   "n": "Kültür Kanadı"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nSonraki Çağa %20 daha az zaman ve 400 daha az kaynak harcayarak geçmek için bu kanadı inşa et.",
+   "n": "Kültür Kanadı: İlerleme"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nTamamlandığında 3 Derviş verir, birimin iyileştirmesini +%25 artırır ve kalıcı olarak açar.",
+   "n": "Kültür Kanadı: Lojistik"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "Şu kültürel teknolojiler açılır:\n• Bilginin Korunması (II. Çağ)\n• Tıp Merkezleri (III. Çağ)\n• Halk Kütüphaneleri (IV. Çağ)",
+   "n": "Kültür Kanadı"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nSonraki Çağa %20 daha az zaman ve 1300 daha az kaynak harcayarak geçmek için bu kanadı inşa et.",
+   "n": "Kültür Kanadı: İlerleme"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Kültür Kanadını inşa eder.\nTamamlandığında 4 Derviş verir, birimin iyileştirmesini +%50 artırır ve kalıcı olarak açar.",
+   "n": "Kültür Kanadı: Lojistik"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Ekonomi Kanadını inşa eder.\nŞu ekonomi teknolojileri kullanılabilir olur:\n• Bereketli Hilâl (II. Çağ)\n• Tarım (III. Çağ)\n• Gelişmiş İşleme (IV. Çağ)",
+   "n": "Ekonomi Kanadı"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Ekonomi Kanadını inşa eder.\nŞu ekonomi teknolojileri kullanılabilir olur:\n• Bereketli Hilâl (II. Çağ)\n• Tarım (III. Çağ)\n• Gelişmiş İşleme (IV. Çağ)",
+   "n": "Ekonomi Kanadı"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 10 Köylü verir ve Köylüler +%10 daha hızlı çalışır.",
+   "n": "Ekonomi Kanadı: Büyüme"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 2000 Odun ve 1000 Taş kazandırır. Köylüler +%50 daha hızlı bina inşa eder.",
+   "n": "Ekonomi Kanadı: Sanayi"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 3 Köylü verir. Bağlar fazladan 50 yiyecek kazanır.",
+   "n": "Ekonomi Kanadı: Büyüme"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 400 Odun kazandırır. Köylüler +%30 daha hızlı bina inşa eder.",
+   "n": "Ekonomi Kanadı: Sanayi"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Ekonomi Kanadını inşa eder.\nŞu ekonomi teknolojileri kullanılabilir olur:\n• Bereketli Hilâl (II. Çağ)\n• Tarım (III. Çağ)\n• Gelişmiş İşleme (IV. Çağ)",
+   "n": "Ekonomi Kanadı"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 7 Köylü verir. Bağlar fazladan 100 yiyecek kazanır.",
+   "n": "Ekonomi Kanadı: Büyüme"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 900 Odun ve 400 Taş kazandırır. Köylüler +%40 daha hızlı bina inşa eder.",
+   "n": "Ekonomi Kanadı: Sanayi"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Ekonomi Kanadını inşa eder.\nŞu ekonomi teknolojileri kullanılabilir olur:\n• Bereketli Hilâl (II. Çağ)\n• Tarım (III. Çağ)\n• Gelişmiş İşleme (IV. Çağ)",
+   "n": "Ekonomi Kanadı"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 10 Köylü verir ve Köylüler +%10 daha hızlı çalışır.",
+   "n": "Ekonomi Kanadı: Büyüme"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Ekonomi Kanadını inşa eder.\nTamamlandığında 2800 Odun ve 900 Taş kazandırır. Köylüler +%50 daha hızlı bina inşa eder.",
+   "n": "Ekonomi Kanadı: Sanayi"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Askerî Kanat inşa eder. Tamamlandığında 2 Mızraklı Asker ve 2 Okçu (II. Çağ), 2 Deve Binici (III. Çağ) ve 3 Tüfekçi (IV. Çağ) birimlerini sağlar.\nŞunların kilidini açar:\n•Eğitim Kampı (II. Çağ)\n•Kompozit Yaylar (III. Çağ)\n•Deve Desteği (IV. Çağ)",
+   "n": "Askeri Kanat"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Askerî Kanat inşa eder. Tamamlandığında 2 Mızraklı Asker ve 2 Okçu (II. Çağ), 2 Deve Binici (III. Çağ) ve 3 Tüfekçi (IV. Çağ) birimlerini sağlar.\nŞunların kilidini açar:\n•Eğitim Kampı (II. Çağ)\n•Kompozit Yaylar (III. Çağ)\n•Deve Desteği (IV. Çağ)",
+   "n": "Askeri Kanat"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nTamamlandığında Süvari birimleri, kuşatma silahı inşa edebilme yeteneği kazanır.\nBeyt'ül Hikmet, anında ve ardından oyunun geri kalanında 2 dakikada bir 7 Çöl Akıncısı üretir.",
+   "n": "Askeri Kanat: Takviye Birlik"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nGirdiğin Çağın Askerî Akademideki ve Demircideki hasar ve zırh teknolojileri ücretsiz olur ve yeni bir Çağa girildiğinde otomatik olarak tamamlanır (diğer Çağların teknolojilerini normal şekilde araştırman gerekir).",
+   "n": "Askeri Kanat: Üstat Demirciler"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nTamamlandığında Süvari birimleri, kuşatma silahı inşa edebilme yeteneği kazanır.\nBeyt'ül Hikmet, 15 saniye sonra ve ardından oyunun geri kalanında 2 dakikada bir 1 Çöl Akıncısı üretir.",
+   "n": "Askeri Kanat: Takviye Birlik"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nGirdiğin Çağın Askerî Akademideki ve Demircideki hasar ve zırh teknolojileri ücretsiz olur ve yeni bir Çağa girildiğinde otomatik olarak tamamlanır (diğer Çağların teknolojilerini normal şekilde araştırman gerekir).",
+   "n": "Askeri Kanat: Üstat Demirciler"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Askerî Kanat inşa eder. Tamamlandığında 2 Mızraklı Asker ve 2 Okçu (II. Çağ), 2 Deve Binici (III. Çağ) ve 3 Tüfekçi (IV. Çağ) birimlerini sağlar.\nŞunların kilidini açar:\n•Eğitim Kampı (II. Çağ)\n•Kompozit Yaylar (III. Çağ)\n•Deve Desteği (IV. Çağ)",
+   "n": "Askeri Kanat"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nTamamlandığında Süvari birimleri, kuşatma silahı inşa edebilme yeteneği kazanır.\nBeyt'ül Hikmet, anında ve ardından oyunun geri kalanında 2 dakikada bir 3 Çöl Akıncısı üretir.",
+   "n": "Askeri Kanat: Takviye Birlik"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nGirdiğin Çağın Askerî Akademideki ve Demircideki hasar ve zırh teknolojileri ücretsiz olur ve yeni bir Çağa girildiğinde otomatik olarak tamamlanır (diğer Çağların teknolojilerini normal şekilde araştırman gerekir).",
+   "n": "Askeri Kanat: Üstat Demirciler"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Askerî Kanat inşa eder. Tamamlandığında 2 Mızraklı Asker ve 2 Okçu (II. Çağ), 2 Deve Binici (III. Çağ) ve 3 Tüfekçi (IV. Çağ) birimlerini sağlar.\nŞunların kilidini açar:\n•Eğitim Kampı (II. Çağ)\n•Kompozit Yaylar (III. Çağ)\n•Deve Desteği (IV. Çağ)",
+   "n": "Askeri Kanat"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nTamamlandığında Süvari birimleri, kuşatma silahı inşa edebilme yeteneği kazanır.\nBeyt'ül Hikmet, anında ve ardından oyunun geri kalanında 2 dakikada bir 7 Çöl Akıncısı üretir.",
+   "n": "Askeri Kanat: Takviye Birlik"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Askerî Kanadı inşa eder.\nGirdiğin Çağın Askerî Akademideki ve Demircideki hasar ve zırh teknolojileri ücretsiz olur ve yeni bir Çağa girildiğinde otomatik olarak tamamlanır (diğer Çağların teknolojilerini normal şekilde araştırman gerekir).",
+   "n": "Askeri Kanat: Üstat Demirciler"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Yönetim Kanadını inşa eder. Pasif olarak bütün Altın Çağ bonuslarının +%50 etkisini sağlar.\n Sırasıyla kilitleri açar:\n•Şehir Planlaması (II. Çağ)\n•Kuşatma Yönergesi (III. Çağ)\n•Büyük Pazar (IV. Çağ)",
+   "n": "Yönetim Kanadı"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Yönetim Kanadını inşa eder. Pasif olarak bütün Altın Çağ bonuslarının +%50 etkisini sağlar.\n Sırasıyla kilitleri açar:\n•Şehir Planlaması (II. Çağ)\n•Kuşatma Yönergesi (III. Çağ)\n•Büyük Pazar (IV. Çağ)",
+   "n": "Yönetim Kanadı"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nBir ticaret kervanı, rastgele belirlenen dört uygun kaynağın ve birimin ticaretini yapmak için üç dakikada bir uğrar.\\r\nBu ticaretlerin kalitesi, Ticaret Kanadının inşa edildiği Çağa göre kalıcı olarak belirlenir. Çağ atlamak için Ticaret Kanadını kullanırsan yaptığın ticaretlerden daha kazançlı çıkarsın.",
+   "n": "Ticaret Kanadı: Çarşı"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nTamamlandığında 7 Atabey kazandırır. Atabey, yeni eğitilen birimlerin sağlığını %20 artırmak için herhangi bir askerî üretim binasında (Rıhtımlar hariç) konuşlanabilir.",
+   "n": "Ticaret Kanadı: Danışmanlar"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nBir ticaret kervanı, rastgele belirlenen dört uygun kaynağın ve birimin ticaretini yapmak için üç dakikada bir uğrar.\\r\nBu ticaretlerin kalitesi, Ticaret Kanadının inşa edildiği Çağa göre kalıcı olarak belirlenir. Çağ atlamak için Ticaret Kanadını kullanırsan yaptığın ticaretlerden daha kazançlı çıkarsın.",
+   "n": "Ticaret Kanadı: Çarşı"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nTamamlandığında 3 Atabey kazandırır. Atabey, yeni eğitilen birimlerin sağlığını %20 artırmak için herhangi bir askerî üretim binasında (Rıhtımlar hariç) konuşlanabilir.",
+   "n": "Ticaret Kanadı: Danışmanlar"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Yönetim Kanadını inşa eder. Pasif olarak bütün Altın Çağ bonuslarının +%50 etkisini sağlar.\n Sırasıyla kilitleri açar:\n•Şehir Planlaması (II. Çağ)\n•Kuşatma Yönergesi (III. Çağ)\n•Büyük Pazar (IV. Çağ)",
+   "n": "Yönetim Kanadı"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nBir ticaret kervanı, rastgele belirlenen dört uygun kaynağın ve birimin ticaretini yapmak için üç dakikada bir uğrar.\\r\nBu ticaretlerin kalitesi, Ticaret Kanadının inşa edildiği Çağa göre kalıcı olarak belirlenir. Çağ atlamak için Ticaret Kanadını kullanırsan yaptığın ticaretlerden daha kazançlı çıkarsın.",
+   "n": "Ticaret Kanadı: Çarşı"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nTamamlandığında 5 Atabey kazandırır. Atabey, yeni eğitilen birimlerin sağlığını %20 artırmak için herhangi bir askerî üretim binasında (Rıhtımlar hariç) konuşlanabilir.",
+   "n": "Ticaret Kanadı: Danışmanlar"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Yönetim Kanadını inşa eder. Pasif olarak bütün Altın Çağ bonuslarının +%50 etkisini sağlar.\n Sırasıyla kilitleri açar:\n•Şehir Planlaması (II. Çağ)\n•Kuşatma Yönergesi (III. Çağ)\n•Büyük Pazar (IV. Çağ)",
+   "n": "Yönetim Kanadı"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nBir ticaret kervanı, rastgele belirlenen dört uygun kaynağın ve birimin ticaretini yapmak için üç dakikada bir uğrar.\\r\nBu ticaretlerin kalitesi, Ticaret Kanadının inşa edildiği Çağa göre kalıcı olarak belirlenir. Çağ atlamak için Ticaret Kanadını kullanırsan yaptığın ticaretlerden daha kazançlı çıkarsın.",
+   "n": "Ticaret Kanadı: Çarşı"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Ticaret Kanadını inşa eder.\nTamamlandığında 7 Atabey kazandırır. Atabey, yeni eğitilen birimlerin sağlığını %20 artırmak için herhangi bir askerî üretim binasında (Rıhtımlar hariç) konuşlanabilir.",
+   "n": "Ticaret Kanadı: Danışmanlar"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "İç Kaleler birim üretimi, nüfus kapasitesi ve teknolojileriyle Şehir Merkezi görevi görür.",
+   "n": "Köy Hisarları"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Üretim hızını %100 arttırmak için Alimlerin askeri binalara konuşlanmasını sağla.",
+   "n": "Verimli Üretim"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Savaş Fillerine +%20 sağlık ve +4 menzilli zırh uygula.",
+   "n": "Zırhlı Canavarlar"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Savaş Fillerine +%20 sağlık ve +4 menzilli zırh uygula.",
+   "n": "Zırhlı Canavarlar"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "- Tüm Süvariler %10 can ve %50 hücum hasarı kazanır.",
+   "n": "Polonya Krallığı"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "- Tüm altın birimleri 2 yakın dövüş zırhı kazanır.",
+   "n": "Töton Şövalyeleri"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- Pazarda kaynak ticareti yaparken taban alım veya satım fiyatındaki değişimi %75 azaltır.",
+   "n": "Venedik Cumhuriyeti"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- Sivil birim sağlığını +%30 ve hareket hızını +%10 artırır. Tüm kaynaklardan alınan iyileşmeyi +%30 artırır.",
+   "n": "Hospitalier Şövalyeleri"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- Kara askerî birimleri +%15 daha hızlı üretilir ve -%5 daha az altın gerektirir.",
+   "n": "Fransa Krallığı"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "- Yakın dövüş birimleri %15 hasar kazanır.",
+   "n": "Antakya Prensliği"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- Hisarlar ve Rıhtımlar %30 Can kazanır.",
+   "n": "Angevin İmparatorluğu"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "- Hacılar %20 altın kazandırır.",
+   "n": "Cenova Cumhuriyeti"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "- Kutsal Mekânların çevresindeki birimler %20 hasar kazanır ve can yeniler.",
+   "n": "Kastilya Krallığı"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Her Haraçgüzar Yönetim, tüccarlara fazladan %10 gelir kazandırır.",
+   "n": "Deniz Anlaşması"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Simge Şehir Merkezi'nde 12 koyun çıkar ve Köylülerin madencilik hızı +%15 artar.",
+   "n": "Anadolu Tepeleri"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Yaldızlı Okçuların menzilli zırhını +3 artırır.",
+   "n": "Pullu Zırh"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "Okçular 6 saniyede ilave 3 hasar verir.",
+   "n": "Zehirli Oklar"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Silahşorların yakın dövüş ve menzilli zırhını +2 artır.",
+   "n": "Zırh Kaplı"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Tüm binaların canını %10 artırır.",
+   "n": "Tahkimatlar"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Tüm binaların canını %10 artırır.",
+   "n": "Tahkimatlar"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Tüm binaların canını %10 artırır.",
+   "n": "Tahkimatlar"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Tüm Süvarilerin hasarını 1 artırır.",
+   "n": "Bıçak Kakma"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Tüm Süvarilerin hasarını 1 artırır.",
+   "n": "Bıçak Kakma"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Tüm Süvarilerin hasarını 1 artırır.",
+   "n": "Bıçak Kakma"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Tüm Süvarilerin zırhını 1, canını %5 artırır.",
+   "n": "Pullu Donatma"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Tüm Süvarilerin zırhını 1, canını %5 artırır.",
+   "n": "Pullu Donatma"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Tüm Süvarilerin zırhını 1, canını %5 artırır.",
+   "n": "Pullu Donatma"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin hasarını 1 artırır.",
+   "n": "Desen Kaynakçılığı"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin hasarını 1 artırır.",
+   "n": "Desen Kaynakçılığı"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin hasarını 1 artırır.",
+   "n": "Desen Kaynakçılığı"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin zırhını 1, canını %5 artırır.",
+   "n": "Sıkı Örülmüş Zincir Zırh"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin zırhını 1, canını %5 artırır.",
+   "n": "Sıkı Örülmüş Zincir Zırh"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Tüm Yakın Dövüş Piyadelerinin zırhını 1, canını %5 artırır.",
+   "n": "Sıkı Örülmüş Zincir Zırh"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Tüm ok ve mızrakların menzilli hasarını +1 artırır.",
+   "n": "Bileme Taşları"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Tüm ok ve mızrakların menzilli hasarını +1 artırır.",
+   "n": "Bileme Taşları"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Tüm ok ve mızrakların menzilli hasarını +1 artırır.",
+   "n": "Bileme Taşları"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Tüm Menzilli birimlerin zırhını 1, canını %5 artırır.",
+   "n": "Lamel Zırh"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Tüm Menzilli birimlerin zırhını 1, canını %5 artırır.",
+   "n": "Lamel Zırh"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Tüm Menzilli birimlerin zırhını 1, canını %5 artırır.",
+   "n": "Lamel Zırh"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Tüm kuşatma birimlerinin canını %5 artırır.",
+   "n": "Demir Kuşantılar"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Tüm kuşatma birimlerinin canını %5 artırır.",
+   "n": "Demir Kuşantılar"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Tüm kuşatma birimlerinin canını %5 artırır.",
+   "n": "Demir Kuşantılar"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "Binalar +%50 daha hızlı onarılır.",
+   "n": "Banco Onarımları"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Manastırlar, Gönüllü Keşişlerle topraklarını işleyerek kendi kendilerine yetebilir.\nKöylüler Manastırlara kaynak bırakabilir.\nManastırlara yerleştirilen Başrahipler yerleştirmek, yakındaki tüm Köylülere ilham vererek toplama hızlarını artırır.",
+   "n": "Sistersiyenler Manastırları"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Mızraklı askerler, tavlanmış Bill'ler kuşanarak saldırı sırasında düşmanların zırhını 1 azaltır.",
+   "n": "Bill Kuşanmış Askerler"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Turgutların ve Atlıların menzilli ve yakın dövüş zırhlarını +1, canını +20 artırır.",
+   "n": "Dolgu Takviyeli Zırh"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Sıradan askerler daha dayanıklı zırhlarla donatılır. Hafif süvari 2 zırh kazanır.",
+   "n": "Levhalı Zırh"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "Tüm binalar +5 ateş zırhı kazanır.",
+   "n": "Arduvaz ve Taş İnşaatı"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "Burgonya Tüfeklerini ithal etmek, Kale Çağı'nda Tüfekçilerin eğitilebilmesini sağlar ve Tüfekçi maliyetini %25 azaltır.",
+   "n": "Burgonya İthalatları"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Mızraklı Askerlerin saldırı menzilini +%100 artır.",
+   "n": "Falanks"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Tüm Deve Binicilerinin zırhını +2 artırır.",
+   "n": "Deve Binicisi Donatma"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Develi askerî birimlerin hareket hızını +%15 artırır.",
+   "n": "Deve Kullanımı"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Samuray Sancaktarının üretim sınırını +1 artırır ve bedelsiz bir Köylü sağlar.\nŞehir Merkezi sağlığını +1000 artırır, ilave bir ok yarığı ve Köylülerin Tarlalardaki toplama hızını +%20 artıran bir hava ekler.",
+   "n": "Daimyo Köşkü"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Samuray Sancaktarının üretim sınırını +2 artırır ve bedelsiz bir Köylü sağlar.\nŞehir Merkezi sağlığını +2000 ve ateş zırhını +2 artırır, ilave bir ok yarığı ve Köylülerin Tarlalardaki toplama hızını +%40 artıran bir hava ekler.",
+   "n": "Daimyo Sarayı"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Samuray Sancaktarının üretim sınırını +3 artırır ve bedelsiz bir Köylü sağlar.\nŞehir Merkezi sağlığını +3000 ve ateş zırhını +3 artırır, Köylülerin Tarlalardaki toplama hızını +%60 artıran bir hava ve Roket Mevzi ekler.",
+   "n": "Şogun Kalesi"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Ahırları en iyi aygırlarla doldurmak tüm süvari canını +%35 artırır.",
+   "n": "Kraliyet Nesli"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Bir hücumdan sonra Kraliyet Şövalyelerinin bonus hasarı artarak +3 iken +10 olur.",
+   "n": "Bölmeli Eyerler"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Kraliyet Şövalyeleri, çarpışma dışındayken her 1 saniyede +1 sağlık yeniler.",
+   "n": "Şövalyelik"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Rus süvarilerinin sağlığını +25 artır.",
+   "n": "Boyar Metaneti"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Şövalyeler baltalı mızraklarını kuşanarak yakın dövüş hasarlarını +4 artırır.",
+   "n": "Baltalı Mızraklı Şövalye"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Şövalyelerin ve Yarım Mızraklıların zırhını bir Lancaster simgesiyle süsle. Ağır düşman birimlerine karşı +5 hasar bonusu sağlar.",
+   "n": "Esses Zinciri"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Yerel kabileler, Ren Geyiklerinin bir kısmını haraç olarak sunar. Şehir merkezinde 4 Ren Geyiği oluşturur.",
+   "n": "Avcı Topluluğu"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Feodal toprak dağıtımı uygulamalarındaki gelişmeler Malikâne inşa etme sınırını 4, Malikânelerin canını 100 artırır.",
+   "n": "Yoğun Kara İcraatleri"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Feodal toprak dağıtımı uygulamalarındaki gelişmeler Malikâne inşa etme sınırını 4, Malikânelerin canını 200 artırır.",
+   "n": "Açık Arazi Sistemi"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Askeri gemilerin ateş hızını, menzilini ve kuşatma zırhını +2 artırır.",
+   "n": "Bakır Kaplama"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "Arbaletler +0.5 menzile ve +2 hasara sahip daha güçlü oklar atabilir.",
+   "n": "Bocurgatlar"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Yaldızlı Arbaletçiler, Kuşatma birimlerine karşı +20 hasar verir.",
+   "n": "Keskin Uçlu Oklar"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Tüm teknolojilerin ve Çağ ilerlemelerinin maliyetini -%20 düşürür.",
+   "n": "Bilginin Korunması"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "İmamlar, bir Kadim Eser tutmaksızın birimleri dönüştürebilir ancak yalnızca tek bir birimi hedefleyebilir.",
+   "n": "Din Değiştirme"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Şehir Merkezleri ve İç Kaleler, yakındaki birimleri 1 saniyede bir +2 iyileştirir.",
+   "n": "Tıp Merkezleri"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Köylüler ve Tüccarlar ekonomik yükseltme başına +2 sağlık kazanır.",
+   "n": "Halk Kütüphaneleri"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Süvari birimlerinin saldırı hızını +%20 artırır.",
+   "n": "Dali Atları"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Müstahkem Karakol ve Çit ateş zırhını +3 ve canı +300 oranında artırır.",
+   "n": "Toprak Temelli Surlar"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Hisarlardaki Çöl Karakolu aurasını iyileştirerek çevredeki birimlerin zırhını 1/1 artırır.",
+   "n": "Çöl Kaleleri"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Cesaretlenen Köylüler +%5 daha hızlı kaynak toplar, binaları ve savunmaları +%25 daha hızlı inşa eder.",
+   "n": "Sofuluk"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Donso'nun menzilli hasarını +6, Okçularınkini +2 ve Cirit Atıcılarınkini +3 artır.",
+   "n": "Hassas Eğitim"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Köylülerin Odun toplama hızını %15, Odun taşıma kapasitesini 10 artırır.",
+   "n": "At Kullanımı"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "Yaldızlı Mızraklı Asker meşaleleri etki alanı hasarı verir.",
+   "n": "Ağır Meşaleler"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Kazanılan her hanedan için Köylülerin toplama oranını +%5 artırır.",
+   "n": "Antik Teknikler"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Köylülerin Tarlalardan toplama oranını +%15 geliştir.",
+   "n": "Tarım"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Ekonomi binalarının ve Evlerin maliyetini %30 azaltır.",
+   "n": "Bereketli Hilâl"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Köylü üretme maliyetini -%40 azalt.",
+   "n": "Taze Gıdalar"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Köylüler +%8 daha fazla kaynak bırakır.",
+   "n": "Gelişmiş İşleme"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Ovoo Taş toplama hızı %20 artar.",
+   "n": "Ovoo Adağı"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Ovoo Taş toplama hızı %20 artar.",
+   "n": "Ovoo Töreni"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Yiyecek için Ağıl toplama hızını %10 artırır. Güdülen Koyunlar için geçerli değildir.",
+   "n": "Değişimli Otlatma"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Yiyecek için Ağıl toplama hızını %10 artırır. Güdülen Koyunlar için geçerli değildir.",
+   "n": "Aşırı Otlatma"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Köylülerin Yiyecek toplama oranını %30 artır. Avlanan et için geçerli değildir.\nBahçıvanlık daha önce araştırılmışsa %20 artır.",
+   "n": "Bahçıvanlık (Gelişmiş)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Köylülerin Altın toplama oranını %35 artır.\nÖzel Kazı daha önce araştırılmışsa %20 artır.",
+   "n": "Özel Kazı (Gelişmiş)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Köylüler ağaçları tek vuruşta keser.\nOdun taşıma kapasitesi 2 artar.",
+   "n": "Ormancılık (Gelişmiş)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Köylülerin Odun toplama oranını %35 artır.\nÇift Dülger Baltası daha önce araştırılmışsa %20 artır.",
+   "n": "Çift Dülger Baltası (Gelişmiş)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Köylülerin av eti toplama hızını +%25 artırır.\nHayatta Kalma Teknikleri daha önce araştırılmışsa bunun yerine Köylülerin av eti toplama hızını +%10 artırır.",
+   "n": "Hayatta Kalma Teknikleri (Gelişmiş)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "Kharash Fermanı etkinleştirildiğinde Müstahkem Karakol nüfuzu altındaki Askerî Binalar ve Altın Yurt, bir birim vazifelendirildiğinde fazladan Kharash üretir.",
+   "n": "Kharash Fermanının Kilidini Aç"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "Ağıl Fermanı etkinleştirildiğinde Müstahkem Karakol nüfuzu altındaki Ağıllar, işlediği sırada Altın üretir.",
+   "n": "Ağıl Fermanının Kilidini Aç"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "Fillerin verdiği bonus hasar %30 artar.",
+   "n": "Yan Hasar"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Filler, çarpışma dışındayken her 2 saniyede +2 sağlık yeniler.",
+   "n": "Fil Bakıcıları"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "Güçlü daimyodan alınan taktikler yakın dövüş piyadelerini geliştirir, hasarlarını +%15, meşale hasarını +%15 ve yakın dövüş zırhını +%15 artırır.",
+   "n": "Oda Taktikleri"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Birim ücretlerini -%5 daha azaltarak Fransızların etkisini artırır.",
+   "n": "Askerlik Teşvikleri"
+  },
+  "upgrade_fanaticism": {
+   "d": "Tapınak Şövalyeleri ve Kumandanlık birimleri %50 canın altına düştüğünde %10 hasar kazanır ve %25 canın altındayken bu değer %30 olur.",
+   "n": "Fanatizm"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Bir Köylü tarafından işlenen her bir Tarla Çiti her 6 saniyede +1 Altın oluşturur.",
+   "n": "Çitler"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Yanıcı Gemiler, patlamanın gerçekleştiği alandaki tüm düşmanlara tam hasar verir.",
+   "n": "Sıvı Patlayıcı"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Springaldlar %15 saldırı hızı kazanır ve menzilli atışları alev alır, darbenin ardından Yunan Ateşi oluşur.",
+   "n": "Roma Ateşi"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Tuğlukabad Kaleleri, yakındaki Rıhtımların üretim hızını %30, ok yarığı hasarını 2 ve silah menzilini 1 kutucuk artırır.",
+   "n": "Tuğlukabad Kalesi Koruması"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Sağlığı %20 altında olan Yaldızlı Silahşorlar -%20 hasar alır.",
+   "n": "Altın Zırh"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Karşı Ağırlık Katapultları +%30 artırılmış hasar verir ve hedeflerini Yunan Ateşi ile sararak alan hasarı verir. Yunan Ateşi diğer parçalarla üst üste kullanılamaz.",
+   "n": "Yunan Ateşi Topları"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Arı Kovanları 3 ek Roket Oku alır.",
+   "n": "Ek Fıçılar"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Tüfeklerin menzilini +1.5 artırır.",
+   "n": "Piroteknik"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "Düşman birimleri, El Bombasından hasar aldıktan sonra 5 saniye boyunca %15 Menzilli ve Yakın Dövüş hasarı kazanır.",
+   "n": "Güçlendirilmiş Bombalar"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "Ateş Saçanların ve Fırtına Mızraklarının şimşeklerle yarışan sesleri düşman süvarilerini korkutarak yakındaki süvarilerin verdiği hasarı 5 saniyeliğine %20 azaltır.",
+   "n": "Gökleri Sarsan Tufan"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Dromonların menzilini 0.5 ve hasarını 1 artırır.\nTüm Dromonları saldırdıkları yüzey veya konumda Yunan Ateşi çıkartacak şekilde yükseltir.",
+   "n": "Ağır Dromon"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "Engebeli arazilerde eğitim yapmak Hobelar'ların hücum hasarını %125 ve üretim hızını %100 artırır.",
+   "n": "Tepe Eğitimi"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Ezilen düşman birimleri savunmasız hale gelir ve 12 saniye boyunca +%15 daha fazla hasar alır.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Atlıların İşçilere verdiği hasar +2 artar. Atlılarının öldürdüğü İşçiler +30 Altın kazandırır.",
+   "n": "Ekspilatörler"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Öncüler, yakındaki birimlerin meşale hasarını +%25 artırır.",
+   "n": "Trapezitler"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Atlı Okçuların silah menzilini +1 artır ve dörtnala koşma yeteneğinin kilidini aç.\nDörtnala koşma: Etkinleştirdiğinde 8 saniyeliğine maksimum hızda hareket edersin ve +2 kare silah menzili kazanırsın.",
+   "n": "Binekli Eğitimi"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Evlerin görüş hattını 7 karo artırır ve inşaat hızlarını %500 iyileştirir.",
+   "n": "Sınır Yerleşim Yerleri"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "İmparatorluk Memurlarının taşıdığı maksimum Altın miktarını +40 değerinden +70 değerine çıkarır.",
+   "n": "İmparatorluk Teftişleri"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Simge Şehir Merkezi'ndeki Askerî Okulların ve Simge Şehir Merkezlerinin her biri için 2 Yeniçeri ortaya çıkar.",
+   "n": "Yeniçeri Birliği"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Tüm kuşatma makinelerine piyade konuşlanmasına izin verir. Konuşlanma sırasında her birim saldırı ve kurulum hızını +%25 oranında artırır.",
+   "n": "Kuşatma Mürettebatları"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Simge Şehir Merkezi'nde 2 Mehter çıkar. Mehterler aynı formasyondaki birimlerin hareket hızını +%15 artırır.",
+   "n": "Mehter Davulları"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "İnşa edilebilen Askeri Okullar +1 artar.",
+   "n": "Askeri Kampüs"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Askerî üretim hızını +%25 artırır ve Askerî Okullara Mızraklı ve Yeniçeri eğitme yeteneği verir.",
+   "n": "Gelişmiş Akademi"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Simge Şehir Merkezi'nde 2 İmam çıkar. İmamlar belirli bir alanda bulunan yakındaki birimleri saniyede 1 iyileştirir. Bu iyileştirme Kale Çağı'nda 2, İmparatorluk Çağı'nda 3 olur.",
+   "n": "Saha Çalışması"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Tüccarların topladığı Altın miktarını ve Sultanhanı Ticaret Ağı Gelirini +%40 artırır.",
+   "n": "Ticaret Çuvalları"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "Khanda eğitimi Silahşorların hücum süresini 3 artırır ve hücum saldırılarının hasarını %100 artırır.",
+   "n": "Khanda Tatbikatları"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "Jin Hanedanı yaklaşan tehditlere karşı Meng'an Mouke sistemini geliştirerek gücünü pekiştirir. Artık Savunmacılar Atlı El Bombacılarıyla desteklenir ve kullanılabilir Savunmacı sayısı 10 artar.",
+   "n": "Şimşek Taburu"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "Yakın dövüş ve menzilli piyadeler, savaş alanında Kuşatma Kuleleri ve Koçbaşları inşa edebilirler. Gelişmiş Kuşatma Mühendisliği; Mangonel, Springald ve Katapult inşa etmeye de olanak sağlar.",
+   "n": "Kuşatma Mühendisliği (Gelişmiş)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Mızraklı Askerlerin süvarilere karşı hasarı %35 ve üretim hızı %50 artar.",
+   "n": "Neza Eğitimi"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Silahşorlar ve Mızraklı Süvariler bir Türk Kılıcı kuşanarak hasarlarını +3 artırır.",
+   "n": "Bilenmiş Kılıçlar"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "Piyadeler bir birimi öldürdükten sonra 30 saniye boyunca %25 hasar ve %20 hareket hızı kazanır.",
+   "n": "Sultanın Memlûkları"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Kışa piyadesi menzilli zırhını +2 artırır.",
+   "n": "Çapraz Katlanmış Zırh"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Başrahipler kendi hareket hızlarını %10 artırabilir ve askeri birim gruplarına ilham vererek zırhlarını +1 ve hasarlarını +%15 oranında geliştirir.",
+   "n": "Cesaretlenen Savaşçılar"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Taş Surları ve Hisarları, Demir Kenetler ile güçlendirmek barut tarafından alınan hasarı %20 azaltır.",
+   "n": "Demir Kenetler"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "Onna-Musha düşmanla karşılaştığında bir uğultulu ok fırlatır ve hareket hızı 10 saniyeliğine artar.",
+   "n": "Kabura-ya Islıklı Ok"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Bu binaya savunma amaçlı bir Sabit Arbalet Mevzisi ekle.",
+   "n": "Sabit Arbalet Mevzisi"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Bu Tuğlukabad Kalesine saldıran düşmanlar korku içinde titrer ve Kaleyi hedeflerken saldırı hızları %30 azalır.",
+   "n": "Auliya'nın Laneti"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Bu yapıya savunma için bir büyük gülle topu mevzisi ekle.",
+   "n": "Büyük Gülle Topu Mevzisi"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Bu yapıya savunma için bir Mangonel mevzisi ekle.",
+   "n": "Mangonel Mevzilendirme"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Bu yapıya, yakınlarda düşman varken 5 otomatik savunmacı oluşturan bir Meng'an Mouke Mevzisi ekle. Savunmacılar kontrol edilemez ve bu mevkiye yakın tehditlere saldırır.\nHer 60 saniyede bir 1 genel Meng'an Mouke Savunmacısı oluşturur.",
+   "n": "Meng'an Mouke Mevzisi"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Bu yapıya savunma amaçlı bir katapult mevzisi ekle.",
+   "n": "Katapult Mevzisi"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "Han, 10 saniyeliğine 10 Kutucuk menzili açığa çıkaran ve hedef bölgedeki düşmanların %10 hasar almasını sağlayan bir işaret oku fırlatır.",
+   "n": "Hanın Zayıflatma Oku"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Han'ın İşaret Oku süresini +7 saniye ve menzilini +3 karo artırır.\nUğultulu Oklar araştırması yapılmışsa Han'ın İşaret Oku süresini +2 saniye ve menzilini +1 karo artırır.",
+   "n": "Uğultulu Oklar (Gelişmiş)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Han'ın İşaret Oku süresini +5 saniye ve menzilini +2 karo artırır.",
+   "n": "Uğultulu Oklar"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Kharashlar kalkan kuşanarak +2 menzilli zırh, +2 yakın dövüş zırhı ve +25 can kazanır.",
+   "n": "Savaş Meydanı Yağması"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Şövalyelere ve Kara Atlılara +2 yakın dövüş zırhı ve +2 menzilli zırh verir.",
+   "n": "Çelik Donatma"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Yaldızlı Şövalyeler, hücum ederken -%25 hasar alır.",
+   "n": "Savaş Atları"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "Orduya daha güçlü katmanlı zırh sağlayan çalışkan demirciler. Tüm Süvariler ve Yakın Dövüş Piyadeleri fazladan %25 sağlık kazanır.",
+   "n": "Korumalı Lame Zırh"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Keşik saldırı hızı +%20, Keşik iyileşmesi ise her saldırı başına +2 artar.\nMızraklı Bozkır Süvarileri zaten araştırılmışsa Keşik saldırı hızı +%10, Keşik iyileşmesi ise saldırı başına +1 artar.",
+   "n": "Mızraklı Bozkır Süvarileri (Gelişmiş)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Keşik saldırı hızı +%10, Keşik iyileşmesi ise saldırı başına +1 artar.",
+   "n": "Mızraklı Bozkır Süvarileri"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Keşiklerin saldırı hızı %10 ve saldırı başına iyileştirme miktarı 1 artar. Turgutlar da Keşiklerle aynı iyileştirme saldırısına sahip olur.",
+   "n": "Sarai Mızraklı Süvarileri"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Ahırları en iyi aygırlarla doldurmak tüm süvari canını +%35 artırır.",
+   "n": "Kraliyet Nesli"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Kraliyet Şövalyeleri, çarpışma dışındayken her 1 saniyede +1 sağlık yeniler.",
+   "n": "Şövalyelik"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Birim ücretlerini -%5 daha azaltarak Fransızların etkisini artırır.",
+   "n": "Askerlik Teşvikleri"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Kutsanmış binalar ayrıca birimlerin Odun ve Altın maliyetini de %25 azaltır.",
+   "n": "Nizam Birliği"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "Piyade birimleri Cebri Yürüyüş yeteneğini kazanır.\nEtkinleştirildiğinde, piyadeler 10 saniye boyunca +%100 daha hızlı hareket eder, ancak hasar verince yetenek bozulur.",
+   "n": "Cebri Yürüyüş"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Köylülerin taşıma kapasitesini +10 artır.",
+   "n": "Doyurucu Erzaklar"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Köylüler ve Piyadeler, korunmak için Evlerin içine konuşlanabilir. Evler garnizon okları ve +%50 Sağlık kazanır.",
+   "n": "Takviyeli Temeller"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Jeanne d'Arc'ın sağlığını ve hasar gücünü %25 artırıp +1 zırh kazandırır. Jeanne'ın Yoldaşlarının sağlığını ve hasar gücünü %20 artırır.",
+   "n": "Yoldaş Ekipmanı"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Taş Sur Kulelerinin, İç Kalelerin ve Karakolların ateş hasarını +10 artır.",
+   "n": "Yavaş Yanan Savunmalar"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Taş Sur Kulelerinin, İç Kalelerin ve Karakolların ateş hasarını +10 artır.",
+   "n": "Yavaş Yanan Savunmalar"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Filler +%10 daha hızlı hareket eder.",
+   "n": "Fil Seyisleri"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Filler +%10 daha hızlı hareket eder.",
+   "n": "Fil Seyisleri"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Camiler, çarpışma dışındaki birimlere her saniye +4 sağlık yeniler.",
+   "n": "Huzurlu Yer"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Okçular ve Arbaletçiler +0.5 menzil kazanır.",
+   "n": "Paik Sistemi"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Fransız Arbaletçilerinin saldırı hızını +%25 artırır.",
+   "n": "Arbalet Üzengileri"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Alimlerin görüş menzilini +%100 artır.",
+   "n": "Her Şeyi Gören Göz"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Alimlerin hareket hızını +%50 artırır.",
+   "n": "Sürat"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Üzerlerinde binici olarak Okçular yerine Elit Arbaletçiler olması için Kule Fillerini yükselt. Kule Filleri +%25 sağlık ve +4 menzilli zırh kazanır.",
+   "n": "Mahfeler"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Büyük miktarda yiyecek vererek zamanla altın kazandıran Hacı Kredisi yeteneklerinin kilidini açar.",
+   "n": "Bono"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Zhuge Nu ve Arbaletçiler ekstra bir ok atar. Arbaletçinin attığı ilave ok, önceki oktan %40 daha etkilidir.",
+   "n": "10.000 Ok"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Mızraklı Askerler ve Atlılar hücum ederken Alev Mızrağı kazanır.",
+   "n": "Ejderhanın Kükreyişi"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "İmparatorluk Memurları 150 sağlık kazanır ve taşıyabilecekleri Altın miktarı +80 artar. İmparatorluk Memuru sınırı +2 artar.",
+   "n": "Gelişmiş Yönetim"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Gülle Toplarına etki alanı hasarı ekler.",
+   "n": "Terör Bulutu"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Özgün süvari birimlerinin, İmparatorluk Muhafızlarının ve Yuan Akıncılarının üretimine olanak sağlar.",
+   "n": "Hanedan Koruyucuları"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Mızraklı Askerler, silah menzilini +%20 ve süvarilere karşı hasarı +%15 artıran daha güçlü bir mızrakla donatılır.",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Okçuların saldırı hızını +%33 artırır.",
+   "n": "Bileşik Yaylar"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Silahşorlar gürzler kuşanarak ağır hedeflere karşı bonus hasarlarını +6 artırır.",
+   "n": "Ağır Gürzler"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Silahşorlar, çift el silahları kuşanarak hasarlarını +2 artırır.",
+   "n": "Çift El Silahları"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Saray Muhafızlarının sağlığını +30 artırır.",
+   "n": "Savaştan Katılaşmış"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "Elit piyadeleri eğiterek savaştaki hünerlerini geliştirebilirsin. Yakın Dövüş Piyadeleri %20 hasar ve %20 can kazanır.\nElit Ordu Taktikleri zaten araştırılmışsa hasarı %5 ve canı %5 artırır.",
+   "n": "Elit Ordu Taktikleri (Gelişmiş)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Kıpçak Okçuları her biri %70 daha az hasar veren fazladan 2 ok atar.",
+   "n": "Üçlü Atış"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Manguday ve Han'ın menzilli hasarını +2 artır.\nSiha Yay Kanatları araştırması yapılmışsa, Manguday ve Han'ın menzilli hasarı +1 artar.",
+   "n": "Siha Yay Kanatları (Gelişmiş)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Manguday ve Han'ın menzilli hasarını +1 artır.",
+   "n": "Siha Yay Kanatları"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "Lancaster Lordu, savaş bütçesi toplamak için tüm tebaalarına vergi uyguladı. Malikâneler dakikada 30 altın üretecek.",
+   "n": "Scutage"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Etkin Tüccarlar her 6 saniyede bir 1 altın üretir.",
+   "n": "Tüccar Loncaları"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Saptırıcı Zırh etkinken Binekli Samurayın hareket hızını + %10 artırır.",
+   "n": "Don-maru Zırhı"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Kuşatma olmayan tüm birimlerin yakın dövüş hasarını +1 artır.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Kuşatma olmayan tüm birimlerin yakın dövüş hasarını +1 artır.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Kuşatma olmayan tüm birimlerin yakın dövüş hasarını +1 artır.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Kuşatma olmayan tüm birimlerin yakın dövüş hasarını +1 artır.",
+   "n": "Yaki-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Tüm piyadelerin sağlığını +%15 artır.",
+   "n": "Eğitim Kampı"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Develer, yakındaki piyadelerin zırhını +2 artırır.",
+   "n": "Deve Desteği"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "Piyadeler yakındaki develerin zırhını 3 artırır.",
+   "n": "Piyade Desteği"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Deve Binicilerine kalkan vererek yakın dövüş zırhlarını +3 artır.",
+   "n": "Deve Binicisi Kalkanları"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Askerî Binaların üretim hızını +%50 artırır.",
+   "n": "Artırılmış İkmaller"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Gelişmiş Askerî Taktikler birliklerinin savaştaki genel verimliliğini artırarak bonus hasarı %20 artırır.",
+   "n": "Askerî Taktik Eğitimi"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Köylülerin av eti toplama hızını %20 artırır.",
+   "n": "Mohe Soyu"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Köylülerin av eti toplama hızını %20 artırır.",
+   "n": "Av Geleneği"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Atlı Samurayları, piyadelere karşı +4 bonus hasar veren uzun bir kılıç olan Odachi ile donat.",
+   "n": "Atlı Samuray Odachi"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "Lodya Gemisi türleri arasında dönüşüm %50 daha hızlıdır ve artık bir maliyet cezası yoktur.",
+   "n": "Uyarlanabilir Gövdeler"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Springald Gemisi silahlarını, 2 delici ok ateşleyen Sabit Arbaletler ile değiştirir.",
+   "n": "Deniz Arbaletleri"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Savaş gemileri bir Arı Kovanı saldırısı düzenler.",
+   "n": "Gök Gürültüsü Bombaları"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Askeri gemiler, çatışma dışındayken her 2 saniyede +1 sağlık yeniler.",
+   "n": "Yangın İstasyonları"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Barut Gemilerinin üretim hızını %25 ve hareket hızını %25 arttırır.",
+   "n": "İmparatorluk Filosu"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Okçu Gemileri ek 2 Cirit silahı ateşler.",
+   "n": "Kano Taktikleri"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Deniz Toplarının hasarını +%15 artırır.",
+   "n": "Uzun Silahlar"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Baghlah bir düşman birimini öldürdükten sonra 30 can kazanır.",
+   "n": "Kurtarılan Malzemeler"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Bir düşman gemisini batırırken +25 Odun ve +25 Altın elde eder.",
+   "n": "Korsanlık"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Çarpışma gemilerinin menzilini +1 artırır.",
+   "n": "Amirallik"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Bu Limana savunma için bir Springald ekler.",
+   "n": "Deniz Springald Mevzisi"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Tüm askeri gemilerin sağlığını +%10 artırır.",
+   "n": "Tik Direkler"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Arı Kovanlarını yakın dövüşçülere 10 hasar veren sivri uçlu Ateş Mızraklarıyla güçlendirir.",
+   "n": "İğneli Savunma"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Kale Ağı saldırı hızı bonusunu +%20 değerinden +%30 değerine yükseltir.",
+   "n": "Sığınak Ağı"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Samurayları, piyadelere karşı +4 bonus hasar veren uzun bir kılıç olan Odachi ile donat.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "İmparatorluk Memuru sınırı +2 artar. Tamamlandığında bir İmparatorluk Memuru verir.",
+   "n": "İmparatorluk Kızıl Mühürleri"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "İmparatorluk Memurları %50 daha hızlı hareket eder.",
+   "n": "Tek Kamçı Reformu"
+  },
+  "upgrade_official_supervise": {
+   "d": "İmparatorluk Memurlarının denetimi %150 oranından %300 oranına yükselir.",
+   "n": "Bölgesel Denetim"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "İmparatorluk Memurları artık İç Kaleleri ve Karakolları denetleyerek alınan hasarı %35 azaltabilir.",
+   "n": "Harbiye Divanı"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "Yam hız aurası sadece Tüccarlar ve süvari birimleri yerine tüm birimler için geçerli olur ancak kuşatma silahları için geçerli olmaz.\nGelişmiş Yam Ağı sayesinde Tüccarlar, Yam'ın aurası etkisindeyken her 2 saniyede bir 1 sağlık yeniler.",
+   "n": "Yam Ağı (Gelişmiş)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "Yam hız havası yalnızca Tüccarlar ve süvari birimleri yerine tüm birimler için geçerli olur. Kuşatma makineleri için geçerli değildir.",
+   "n": "Yam Ağı"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Karakollara Şanlı Hücum kabiliyetini ekler. Etkinleştirildiğinde Karakolu ve çevresindeki bölgeyi tüm oyuncular için açığa çıkaran 10 saniyelik bir zamanlayıcı başlatır ve zamanlayıcı sona erdiğinde çevredeki tüm müttefik birimler 30 saniyeliğine +%50 hareket hızı kazanır ve -%15 daha az hasar alır.",
+   "n": "Şanlı Hücum"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Bu yapıya savunma için cirit ekler ve garnizon ok menzilini +1 artırır. Ciritler, menzilli birimlere fazladan hasar verir. Sadece bir silah mevzisi eklenebilir.",
+   "n": "Cirit Mevzilendirmesi"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Tüm Karakollara +300 sağlık ve +3 ateş zırhı ekle.",
+   "n": "Moğol Barışı"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Ovoo her dakika +60 Yiyecek, +60 Odun ve +10 Altın geliri sağlar.",
+   "n": "Ovo Vergisi"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "III. Çağdan itibaren kullanılabilen Erken Ozutsu biriminin kilidini aç.",
+   "n": "Ozutsu Kilidini Açma"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Yeoman ve Mızrakları Askerlerini Dolgu Takviyeli Ceketle donatarak yakın dövüş zırhlarını 3 artır.",
+   "n": "Dolgu Takviyeli Ceket"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Bir Simgenin veya Şehir Merkezinin yıkımında yer alan her Vareg birimi oyuncuya bir Gümüş lütfu kazandırır.",
+   "n": "Saray Yağması"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Kontun Muhafızlarına fırlatırken ek Hançerler tedarik edilir ve bu Hançerler aynı zamanda ufak bir miktar alan hasarı verir.\nKontun Muhafızları artık 2 Hançer fırlatır ancak isabetliliği azalır.",
+   "n": "Fırlatma Bıçağı Tatbikatı"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "Yerel avcıların ustalığından yararlanan Mohe Kabile Üyeleri, aldıkları bonus hasarı %50 azaltan yeni bir zırh kuşanır.",
+   "n": "Okçu Zırhı"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Bir bina yakıldığında elde edilen baskın gelirini +75 Yiyecek ve Altına yükseltir.\nBaskın Ödülü araştırması yapılmışsa bir bina yakıldığında elde edilen baskın gelirini +25 Yiyecek ve Altına yükseltir.",
+   "n": "Baskın Ödülü (Gelişmiş)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Bir bina yakıldığında elde edilen baskın gelirini +50 Yiyecek ve Altına yükseltir.",
+   "n": "Baskın Ödülü"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Bir bina yakıldığında elde edilen baskın gelirine +75 Taş ekler.\nTaş Ödülü araştırması yapılmışsa bir bina yakıldığında elde edilen baskın gelirine +25 Taş ekler.",
+   "n": "Taş Ödülü (Gelişmiş)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Bir bina yakıldığında elde edilen baskın gelirine +50 Taş ekler.",
+   "n": "Taş Ödülü"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Koçbaşı saldırı hızını +%30 artırır ve sahadaki inşaat süresini -%75 azaltır.\nHafif Kirişler zaten araştırılmışsa saldırı hızını +%10 artırır ve sahadaki inşaat süresini -%25 azaltır.",
+   "n": "Hafif Kirişler (Gelişmiş)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Fransız Arbaletçilerin yakın dövüş zırhını +5 artır.",
+   "n": "Gambesonlar"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Fransız Arbaletçilerinin saldırı hızını +%25 artırır.",
+   "n": "Arbalet Üzengileri"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Yeniçeri silah hasarını +4 artırır.",
+   "n": "Yeniçeri Silahları"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Uzun Yaylılar, Ok Yağmuru yeteneği kazanır. Bu yetenek, etkinleştirildiğinde 6 saniye boyunca Uzun Yaylının saldırı süresini 1 saniye azaltır.",
+   "n": "Ok Yağmuru"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Surların, kulelerin ve kapıların sağlığını +%25 artırır.",
+   "n": "Takviyeli Savunmalar"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "Okçuluk Binası toplu üretimi +1 artar, kaynak maliyetini veya vazifelendirme süresini artırmaz.",
+   "n": "Okçuluk Binası Takviyeleri"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "Kışla toplu üretimi +1 artar, kaynak maliyetini veya vazifelendirme süresini artırmaz.",
+   "n": "Kışla Takviyeleri"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "Ahır toplu üretimi +1 artar, kaynak maliyetini veya vazifelendirme süresini artırmaz. Aynı zamanda Turgutlar toplu üretimi +1 artar.",
+   "n": "Ahır Takviyeleri"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "İbadet Çadırları, bir Ovo olmadan bile etkileri dahilinde Gelişmiş Üretime izin verir.",
+   "n": "Manastır Mabetleri"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Gülle Toplarının saldırı hızını +%33 artırır.",
+   "n": "Yeniden Doldurma Tatbikatları"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "Daha gelişmiş cephaneler, Zhuge Nu'nun Hafif Yakın Dövüş Piyadelerine +1 hasar veren +0.5 menzilli delip geçen oklar atmasını sağlar.",
+   "n": "Ok Cephaneleri"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Vareg Muhafızları ve Riddari, güçlü bir Rhomphaia kılıcı kuşanır. Muhafızların hafif piyade hasarı 3 ve Riddari hasarı 3 artar.",
+   "n": "Rhomphaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Çevrede hücum hâlindeki her bir Ağır Süvari başına 2 hücum hasarı kazanır.",
+   "n": "Tapınakçı İdaresi"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Hacıları etkinleştirir.\nHer 60 saniyede bir hacılar ortaya çıkar. 1 hacı ile başlarsın ve her Hisar başına 1 hacı kazanırsın (Maks. 10).",
+   "n": "Güvenli Geçit"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Azizin Kutsamasının menzilini +5 karo ve Azizin Kutsaması tarafından verilen hasarı +1 artırır.",
+   "n": "Gayret"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Aziz Kutsaması'nın süresini +10 saniye uzat.",
+   "n": "İlahi Işık"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Savaşçı Keşişlerin sağlığını +100 artırır.",
+   "n": "Azizin Hürmeti"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Naginata Samurayları, belirli bir menzilden düzenli olarak Yumi fırlatabilir.",
+   "n": "Samuray Yayı"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "Mabedin Hac sağlamasını garanti eder, 1 ek Hacı sağlar.",
+   "n": "Mabet"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Daha iyi ve büyük gemi iskeletlerine yatırım yapmak Karak hasarını %20, canını %15 ve menzilini %10 artırır.",
+   "n": "Kraliyet Gemileri"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "5 Yarım Mızraklıyı silaha çağır.",
+   "n": "Asilleri Topla"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "12 Yeoman'ı silaha çağır.",
+   "n": "İlçe Seferberleri"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "10 Yarım Mızraklıyı, 10 Kont Muhafızını ve 10 Yeoman'ı silaha çağır.",
+   "n": "Tam Milis Programı"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Maksimum Yorishiro sayısını 2 artırır. Yüzer Kapı'da anında 2 Yorishiro üretir.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Tüm binaların Görüş Hattını 2 karo artırır. Tüm ekonomik birimler 3 dakikada bir, 3 saniye boyunca sağlıklarının %100 oranı kadar iyileşir.",
+   "n": "Gion Festivali"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Şinto Rahibi sağlığını 40, iyileştirme oranını %60 ve hareket hızını %15 artırır.",
+   "n": "Şinto Dinî Törenleri"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Tamamlandığında kuşatma birimleri Yapısal Takviye yeteneğine erişim kazanır.\nKuşatma Birimleri 10 saniyeliğine +20 yakın dövüş zırhı ve +5 ateş zırhı kazanır.",
+   "n": "Kuşatma Marangozluğu"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "Mangoneller, Katapultlar, Gülle Topları anında kurulur ve toplanır.",
+   "n": "Kuşatma Ekibi Eğitimi"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Gülle Toplarının hasarını +%20 artırır. Gülle Topları Piyadelere kıyasla +50 hasar kazanır.",
+   "n": "İnce Ayarlı Silahlar"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Koçbaşı hasarı +%25 artar. Koçbaşlarının sağlığı her 1 saniyede bir 2 iyileşir.",
+   "n": "Gezen Şehir"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Katapultların hasarını +%30 artırır.\nGeometri zaten araştırılmışsa hasarlarını +%10 artır.",
+   "n": "Geometri (Gelişmiş)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Springaldların saldırı hızını %35 artırır, %10 Menzilli Direnci verir ve canını 10 artırır.\nKepenk Tetikleyiciler zaten araştırılmışsa bunun yerine Springaldların saldırı hızını %10 ve canlarını 10 artırır.",
+   "n": "Kepenk Tetikleyiciler (Gelişmiş)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "Kuşatma birimleri kuruldukları 10 saniye başına fazladan %10 hasar verir. Bu en fazla %50 olabilir.",
+   "n": "Uzun Kuşatma"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Kuşatma makinelerinin hareket hızını +%10 artırır.",
+   "n": "Hafif Yapılar"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Kuşatma makinelerinin hareket hızını %10 artırarak daha da hızlandırır.",
+   "n": "Güçlü Dingiller"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Kuşatma makinelerinin hareket hızını +%25 artırır.\nYağlanmış Akslar daha önce araştırılmışsa onun yerine +%10 artırır.",
+   "n": "Yağlanmış Akslar (Gelişmiş)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "Yeni marangozluk teknikleri kuşatma birimlerinin canını +%30 artırır.\nKuşatma İşleri zaten araştırılmışsa canları +%10 artar.",
+   "n": "Kuşatma İşleri (Gelişmiş)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Sofa'nın zırhını +2 artırır.",
+   "n": "İthal Zırh"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Sofa, yakındaki piyadelerin hareket hızını +%15 artırır.",
+   "n": "Farima Liderliği"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Mızraklı Askerlerin ve Atlıların hasarını +2 artır.",
+   "n": "Ahlspiess"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Mızraklı Askerlerin hareket hızını %10, İşçilere verdiği hasarı 5 artırır.",
+   "n": "Hafif Bıçaklar"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Springaldların menzilini +1 karo artır.",
+   "n": "Birleşik Silahlar"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Musofadi Savaşçıları ve Musofadi Topçuları gizlenme durumundan çıktıktan sonra 5 saniye boyunca her saldırıda +5 iyileştirme kazanır.",
+   "n": "Yerel Bilgi"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Fırtına Mızrakları kuşanan Mızraklı Askerler, bekleme süresinin ardından patlayıcı bir menzilli saldırı gerçekleştirir.",
+   "n": "Fırtına Mızrakları"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Yeomanlar için Senkronize Atış becerisinin kilidini açar.",
+   "n": "Senkronize Atış"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Tanegashima Ashigaru, hareket hâlinde değilse otomatikman menzilli hasarı +2 kutucuk ve menzilli zırhı +2 artıran bir dik kalkan konuşlandırır.",
+   "n": "Tanegashima Tate"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Katafraktların zırhını +1, Limitanei hareket hızını +%15 ve Vareg Muhafızı saldırı hızını +%15 artırır.",
+   "n": "Gözyaşı Kalkanları"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Binalarda askerî ve nakliye birimlerin üretim hızını %53 artırır.\nDinî birimleri veya diğer destek birimlerini etkilemez.\nAskerî Akademi araştırılmışsa bunun yerine üretim hızını %20 artırır.",
+   "n": "Askeri Akademi (Gelişmiş)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "İç Kaleler ve Taş Sur Kuleler, yakındaki birimlere patlama hasar veren bir el bombası saldırısı kazanır. Düşmanların dikkatine.",
+   "n": "Ateş Yağmuru"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Tüm Vareg Sığınaklarını 6 kutucuk silah menzilinde 10 hasar veren varsayılan ok yarığı mevzileriyle yükseltir.",
+   "n": "Sığınak Savunma Ok Yarıkları"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Doğa bilimlerine yatırım yapmak tüm süvarilerin sağlığını +%35 artırır.\nBiyoloji daha önce araştırılmışsa +%10 artırır.",
+   "n": "Biyoloji (Gelişmiş)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Budist Tapınaklar, 6 saniyede bir yakındaki düşmanlara Sohei Sutra uygular.",
+   "n": "Beş Dağ Bakanlığı"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "Ikko-Ikki Keşişinin saldırı aurası iyileştirmesi +1 artar.",
+   "n": "Kampo Tıbbı"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Ikko-Ikki Keşişi canını +60 ve yakın dövüş hasarını +2 artırır.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Ikko-Ikki Keşişi hareket hızını +%33 artırır.",
+   "n": "Dağ Tepesi Eğitimi"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Budist Dönüştürme'yi, bekleme süresini %25 azaltan ve kullanıldığı zaman yakındaki müttefik birimlerin hareket hızını %25 artıran Nehan Dönüştürme'ye yükseltir.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Budist Keşişler her 60 saniyede bir 25 altın üretir.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "Altın Yurt; indirimli Taş maliyeti, Turgutlar için indirimli Taş maliyeti ve %20 daha yüksek üretim hızı ile süratli bir şekilde benzersiz birimler üretebilir ve Rus Paralı Askerleri artırılmış zırh ve aybaltalarla güçlendirilir.",
+   "n": "Taş Ordular"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "Altın Yurt, her Müstahkem Karakol başına her 10 saniyede bir 10 Altın üretir. En fazla 6 Müstahkem Karakoldan faydalanabilir.",
+   "n": "Yam Ağı Ticareti"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Han ve Turgutların maliyetini -%20 azaltır ve canını +30 artırır.",
+   "n": "Han ve Turgutlar"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Askerî Binaya dönüştürülebilen 2 adet İnşaat Arabası üretir.\nSonraki çağlara geçerken ek inşaat arabası üretilir.",
+   "n": "İnşaat Arabaları"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "Fethedilen Rus bölgeleri Ağır Piyade ve Ağır Süvariye daha büyük kalkanlar sağlayarak menzilli zırhlarını +2 artırır. \nAynı zamanda dakikada 200 olacak şekilde Odun üretilir ancak Rus kalkanıyla kuşanmış her birim için 2 azalır.",
+   "n": "Moskova Yasağı"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Şamanlar, sahip olunan bir Kadim Eseri inşaat sınırını aşarak Ovoya inşaatına dönüştürebilir. Ovo Taş çıkarma oranını %20 artırır.",
+   "n": "Kadim Eser Ovoları"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Uzun siperler kuşanmak Silahşorlara +3 menzilli zırh kazandırır.",
+   "n": "Kule Kalkanları"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Tüccarlar ve Ticaret Gemileri ayrıca ikincil bir kaynakla dönerler. Bu kaynak, temel Altın değerinin %25 kadarıdır ve markette belirlenmektedir.",
+   "n": "Kapalı Çarşı"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Tüccarlardan ve Ticaret Gemilerinden elde edilen Altın gelirini +%30 artırır.",
+   "n": "Baharat Yolları"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Tüccarlar ve Ticaret Gemilerine +3 zırh uygula.",
+   "n": "Zırhlı Kervanlar"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Tüccarlar alışverişlerinde +%20 Taş tedarik eder.\nTaş Ticareti zaten araştırılmışsa tüccarlar +%10 Taş tedarik eder.",
+   "n": "Taş Ticareti (Gelişmiş)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Tüccarlar alışverişlerinde +%10 Taş tedarik eder.",
+   "n": "Taş Ticareti"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Koçbaşları kendini hareketsiz bırakarak önemli savunma bonusları kazanır ve birden fazla ok fırlatabilir.",
+   "n": "Kıyı Savunması"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Bir Hisarın aurası içinde bulunan Manastırların, Kutsal Mekânların ve Hacıların altın üretimini %20 artırır.",
+   "n": "Hazine Kuleleri"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Katapult ile fırlatılan cisimler çarptığında parçalanarak alan etkisini arttırır.",
+   "n": "Parçalanan Cisimler"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Katapultlar ve Arı Kovanları tarafından atılan Patlayıcı El Bombaları düşman savunmacıları dumana boğarak saldırıya uğrayan binanın hasarını 8 saniyeliğine %20 azaltır. Katapultlar ve Arı Kovanları +1 menzil kazanır.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "Tüm Katapult silahları fazladan 1 atış kazanır.",
+   "n": "Karşı Ağırlıklı Savunmalar"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Şifacı Filleri Elit Şifacı Fillere yükselt",
+   "n": "Elit Yükseltmesi yap"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Tahkimli Paralı Askerleri Kıdemli Paralı Askerlere yükselt.",
+   "n": "Kıdemli Sözleşmesi"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Kıdemli Paralı Askerleri Elit Paralı Askerlere yükselt.",
+   "n": "Elit Sözleşmesi"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Dini birimlerin iyileştirme oranını +%90 artır.\nBitkisel İlaçlar daha önce araştırılmışsa +%30 artır.",
+   "n": "Bitkisel İlaçlar (Gelişmiş)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Tüm Şamanların sağlığını +60 artır.\nDiyanet daha önce araştırılmışsa +20 artır.",
+   "n": "Diyanet (Gelişmiş)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Alimlerin Kale Çağı'ndan (III.) önce Kutsal Mekanları ele geçirmesine olanak sağla. Kutsal Mekanlar +%25 daha fazla Altın üretir.",
+   "n": "Kutsallık"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "İbadet Çadırı'na bırakılmış Kadim Eserler, her dakika +60 Yiyecek, +60 Odun ve +15 Taş geliri sağlar.\nVergi Ambarları hâlihazırda araştırılmışsa bunun yerine Yiyecek ve Odun geliri +20, Taş geliri ise +5 artar.",
+   "n": "Vergi Ambarları (Gelişmiş)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Alimler tarafından iyileştirilen birimler, 3 saniyeliğine +%50 saldırı hızı elde eder.",
+   "n": "Şevk"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Toplanmış binalar +%70 daha hızlı hareket eder ve +%50 daha hızlı toplanır/kurulur.\nÜstün Hareketlilik zaten araştırılmışsa hızını +%20 artırır.",
+   "n": "Üstün Hareketlilik (Gelişmiş)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Toplanmış binalar %50 daha hızlı hareket ederek toplanır/kurulur.",
+   "n": "Üstün Hareketlilik"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Köylülerin taşıma kapasitesini +3, hareket hızlarını +%7 ve Böğürtlen toplama oranını +%25 artırır.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Köylülerin taşıma kapasitesini +3, hareket hızlarını +%7 ve Böğürtlen toplama oranını +%25 artırır.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Köylülerin taşıma kapasitesini +3, hareket hızlarını +%7 ve Böğürtlen toplama oranını +%25 artırır.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Balistalı Filleri Elit Balistalı Fillere yükselt",
+   "n": "Güçlendirilmiş El Balistası"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Köylülerin kaynak taşıma kapasitesini +9 ve hareket hızlarını +%15 artır.\nEl Arabası daha önce araştırılmışsa taşıma kapasitesini +4 artır.",
+   "n": "El Arabası (Gelişmiş)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Berserk etkisi etkinleştirildiğinde Vareg Muhafızının hareket hızı +%30 artar.",
+   "n": "Vahşi Hız"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Vareg Cephanelikleri daha ölümcül oklar üreterek Bogmaðr tarafından isabet alan birimlerin hasarının 5 saniyeliğine %20 azalmasını sağlar.",
+   "n": "Kör Bırakan"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Köylülerin sağlığını +%50 artırır.\nTekstil daha önce araştırılmışsa sağlığı +%100 artırır.",
+   "n": "Tekstil (Gelişmiş)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Kuleler ve İç Kaleler, yakındaki surların ve kapıların sağlığını saniye başına +25 onarır.",
+   "n": "Ekstra Malzemeler"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "Daha büyük katapultlar inşa etme deneyimi, menzillerini 2 ve canlarını %50 artırır.",
+   "n": "Savaş Kurdu Katapultu"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Tüm piyade ve süvarilerin meşale hasarını +5 artırır.\nİlave Meşaleler araştırması yapılmışsa tüm piyade ve süvarilerin meşale hasarları +2 artar.",
+   "n": "İlave Meşaleler (Gelişmiş)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Tüm piyade ve süvarilerin meşale hasarını +3 artırır.",
+   "n": "İlave Meşaleler"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Bu Ahşap Hisar'dan atılan okların hasarını +2 artır.",
+   "n": "Kale Tareti"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Bu Ahşap Hisar'ın görüş menzilini 6 karo artırır.",
+   "n": "Kale Nöbeti"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "Süvari hareket hızı %10 artırıldı.",
+   "n": "At Eğitimi"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Yari Süvarisi süvari karşıtı hasarını +2 artırır.",
+   "n": "Geliştirilmiş Yari"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Yatai birimleri, yakındaki Çiftlik Arazilerinden Yiyecek toplayabilir. Her Çiftlik Arazisi +4 Yiyecek/dk sağlar. Maksimum hızı 80 Yiyecek/dk olarak artırır.",
+   "n": "Yatai Çiftlik Toplama"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Yumi Ashigaru'ya +1 hasar kazandırır.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Yaldızlı Landsknecht, düşmanları yaralayan bir baltalı kargı kuşanır. Bu silahla saldırılan birimler, kanamaya başlayarak her saniye 2 hasar alır. Bu etki 10 saniye sürer.\nKanama, herhangi bir iyileştirme etkisiyle ortadan kaldırılabilir.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Yiyecek",
+  "i-gold": "Altın",
+  "i-silver": "Gümüş",
+  "i-stone": "Taş",
+  "i-vizier": "Vezir Puanları",
+  "i-wood": "Odun"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Develere, Askeriyeye, Dine, Ekonomiye ve Ticarete fayda sağlayan özgün teknolojileri araştırarak Abbasilerin bilgi arayışını sergile.\nBeyt'ül Hikmet’te en fazla 4 Kanat yükselterek çağları ilerlet.",
+   "t": "Bilgi Arayışı"
+  },
+  "ab-2": {
+   "d": "Develer, düşman atlı süvarilerini varlıklarıyla korkutup verdikleri hasarı -%20 azaltır.",
+   "t": "Deve Dövüşçüleri"
+  },
+  "ab-3": {
+   "d": "Piyadeler, Kuşatma Mühendisliği teknolojisine ihtiyaç duymadan Koçbaşı, Kuşatma Kulesi, Springald ve Mangonel inşa edebilir.",
+   "t": "Kuşatma Uzmanları"
+  },
+  "ab-4": {
+   "d": "Yakınlarına Değirmenler inşa edip Böğürtlen Çalılarını Bahçeye dönüştürerek Yiyecek kapasitesini +100 artır.\nKöylüler, Böğürtlen Çalılarını %25 daha hızlı toplar ancak Yaban Domuzundan Yiyecek toplayamaz.\nKöylüler, Böğürtlen Çalılarından +3 Yiyecek taşır.",
+   "t": "Büyük Bağlar"
+  },
+  "ab-5": {
+   "d": "Arazi Tüccarları %33 daha ucuzdur.",
+   "t": "Ticaret Ekonomisi"
+  },
+  "ab-6": {
+   "d": "Rıhtımlar -%50 Odun karşılığında inşa edilebilir.",
+   "t": "Tersaneler"
+  },
+  "ab-7": {
+   "d": "Altın Çağı'na doğru ilerleyerek ekonomini ve teknolojini iyileştir.\nBeyt'ül Hikmet'in nüfuz alanındaki binalar +5 ateş zırhı kazanır ve Altın Çağ'a doğru bir puan kazandırır. Kilit açma eşikleri sırasıyla 10, 30 ve 60 binadır.\n• 1. Kademe: Köylü toplama hızı +%15\n• 2. Kademe: Araştırma hızı +%20\n• 3. Kademe: Tüm kaynaklar için Köylü toplama hızı +%20. Araştırma hızları +%20. Üretim hızları +%20.",
+   "t": "Altın Çağ"
+  },
+  "ab-8": {
+   "d": "Develi Okçular: Hafif yakın dövüş piyadesine bonus hasar veren hafif menzilli süvari.\nDeve Binicileri: Süvarilere bonus hasar veren hafif yakın dövüş süvarisi.\nGulam: Saldırı sırasında çift vuruş yapan çetin piyadeler.",
+   "t": "Özgün Birimler"
+  },
+  "ay-1": {
+   "d": "Beyt'ül Hikmet'in 8 benzersiz Kanatlarından seçim yaparak çağ atla.\nMedeniyeti savaş gereksinimlerine hazır hâle getirmek için herhangi bir yükseltmeye ihtiyaç duymadan anında Ekonomi, Teknoloji ve Askerî bonuslar kazan.\nHer Kanat, sonraki çağlarda inşa edildiğinde daha güçlü bonuslar sağlar.",
+   "t": "Uyum Sağlayan Komutan"
+  },
+  "ay-2": {
+   "d": "Develer, düşman atlı süvarilerini varlıklarıyla korkutup verdikleri hasarı -%20 azaltır.",
+   "t": "Deve Dövüşçüleri"
+  },
+  "ay-3": {
+   "d": "Piyadeler, Kuşatma Mühendisliği teknolojisine ihtiyaç duymadan Kuşatma Makinesi inşa edebilir.\nBenzersiz kuşatma silahlarına ve bir benzersiz kuşatma yükseltmesine erişim sağlayın.",
+   "t": "Kuşatma İşçiliği Ustaları"
+  },
+  "ay-4": {
+   "d": "Yakınlarına Değirmenler inşa edip Böğürtlen Çalılarını Bahçeye dönüştürerek Yiyecek kapasitesini +100 artır.\nKöylüler, Böğürtlen Çalılarını %25 daha hızlı toplar ancak Yaban Domuzundan Yiyecek toplayamaz.\nKöylüler, Böğürtlen Çalılarından +3 Yiyecek taşır.",
+   "t": "Büyük Bağlar"
+  },
+  "ay-5": {
+   "d": "Arazi Tüccarları %33 daha ucuzdur.",
+   "t": "Ticaret Ekonomisi"
+  },
+  "ay-6": {
+   "d": "Rıhtımlar -%50 Odun karşılığında inşa edilebilir.",
+   "t": "Tersaneler"
+  },
+  "ay-7": {
+   "d": "Altın Çağa ulaşmak için ilerleyerek ekonomiyi, teknolojiyi ve askeriyeyi iyileştirir.\nBeyt'ül Hikmet'in etki alanındaki binalar +5 ateş zırhı alır ve Altın Çağa bir puan katkıda bulunur. Kilit açma eşikleri sırasıyla 10, 20, 30, 50 ve 75 binadır.\n• 1. Kademe: Köylülerin toplama hızı +%10\n• 2. Kademe: Araştırma hızı +%25\n• 3. Kademe: Üretim hızı +%20\n• 4. Kademe: Kuşatma birimi üretmek %20 daha az maliyet gerektirir\n• 5. Kademe: Deve birimleri %20 daha hızlı saldırır.",
+   "t": "Altın Çağ"
+  },
+  "ay-8": {
+   "d": "Çöl Akıncısı: Menzilli ve Yakın Dövüş modları arasında geçiş yapabilen, çok amaçlı bir deve binicisi.\nDeveli Mızraklı Süvari: Güçlü hücum saldırıları yapabilen ağır deve.\nDerviş: Güçlü bir iyileştirme becerisine sahip binekli dinî birim.\nAteşli Mangonel: Genişletilmiş bir alana hasar vermek için Yanıcı modunu kullanabilen benzersiz bir Mangonel.\nSultan Kulesi: Binalara yıkıcı hasar veren bir koçbaşına sahip ve okçularla dolu devasa bir kuşatma silahı.",
+   "t": "Özgün Birimler"
+  },
+  "by-1": {
+   "d": "Paralı Asker birimleri tutmak için kullanılan benzersiz bir kaynak topla. Köylüler, Böğürtlen Çalılarından toplanan Yiyeceğin %50, Zeytinliklerden toplananların %20 ve Kıyı Balıklarından toplananların %10 kadarına denk Zeytinyağı toplar.\nBalıkçı Tekneleri, Balıktan elde edilen Yiyeceğin %20 kadarına denk Zeytinyağı üretirken Tüccarlar ise ticareti yapılan miktara bağlı olarak %20 Zeytinyağı sağlar.",
+   "t": "Zeytinyağı"
+  },
+  "by-2": {
+   "d": "Paralı Asker Binasına Zeytinyağı ile diğer medeniyetlerden eşsiz birimler almak için sözleşmeler satın al veya Ticaret Merkezlerinin kontrolünü sağla.",
+   "t": "Paralı Askerler"
+  },
+  "by-3": {
+   "d": "Sarnıçlar, yakındaki Köylülere toplama oranlarında artış ve yakındaki binaları geliştiren, birim üretim hızını, araştırma hızını veya bina savunmasını artıran bir etki sağlar.\nBir Su Kemeri ağı inşa et ve bonus verimini artırmak için bunu Sarnıçlara bağla.",
+   "t": "Sarnıçlar ve Su Kemerleri"
+  },
+  "by-4": {
+   "d": "İnşa edilen her binadan Taş toplar. Bina boyutu, toplanan Taş miktarını belirler.",
+   "t": "Meydan Taşları"
+  },
+  "by-5": {
+   "d": "Chierosiphonlar, yükseltilmiş Kadırgalar ve Katapultlar, saldırıları sırasında Yunan Ateşi ile alana zaman içinde hasar veren alev parçaları fırlatır.",
+   "t": "Yunan Ateşi"
+  },
+  "by-6": {
+   "d": "Karakollar ve İç Kaleler, Mangonel Mevzileriyle yükseltilebilir. Taş Sur Kuleleri, Springaldlar yerine Mangonel Mevzileriyle donatılmıştır.",
+   "t": "Mangonel Mevzileri"
+  },
+  "by-7": {
+   "d": "Limitanei: Mızraklı Asker yerine geçer. Hareket hızı pahasına menzilli zırhı artıran Kalkan Duvarı yeteneğine sahip hafif yakın muharebe piyadesi.\nVareg Muhafızı: Silahşor yerine geçer. Zırh pahasına hasarı artırmak için Berserk yeteneğini kullan. Taşıma Gemileri inşa edebilir ve konuşlandırıldığında taşıtların zırhını artırabilir. Taşıma Gemilerinden inerken yüksek hareket hızı kazanır.\nKatafrakt: Şövalye yerine geçer. Yoluna çıkan düşmanları ezip geçen ve onlara hasar veren güçlü bir hedef yeteneği olan Ezme özelliğine sahip ağır süvari.\nCheirosiphon: Kısa menzilli Yunan Ateşi saldırısı ile donatılmış bir koçbaşı.\nKadırga: Springald Gemisinin yerine geçer. Yunan Ateşi ile donatılmıştır.",
+   "t": "Özgün Birimler"
+  },
+  "ch-1": {
+   "d": "Yolculuğuna Tang Hanedanı’nda başla. Öncü görüş hattını +%30 artırır ve Köye erişim sağlar.\nÖzel bonuslara, özgün binalara ve birimlere sahip Hanedanlıklar başlatmak için bir Çağda her iki Simgeyi da inşa et.\n• Song Hanedanı: Köylüleri +%33 daha hızlı üretir. Ambarın ve Zhuge Nu'nun kilidini açar.\n• Yuan Hanedanı: Köylülerin, Memurların ve askerî birimlerin hareket hızı +%15 artar. Pagoda ve Alev Mızraklı Süvarinin kilidini açar.\n• Ming Hanedanı: Askeri birimlerin sağlığı +%15 artar. El Bombacısının kilidini açar.",
+   "t": "Büyük Hanedanlar"
+  },
+  "ch-2": {
+   "d": "Köylüler savunmaları +%50 daha hızlı ve diğer tüm binaları +%100 daha hızlı inşa eder. Rıhtımlar +%10 daha hızlı çalışır.",
+   "t": "Seri Üretimler"
+  },
+  "ch-3": {
+   "d": "Oyuna ücretsiz verilen Kimya teknolojisi ile başla; savunma binalarında Savunma Ok Yarıkları yerine Tüfek Yarıkları kullanılır.",
+   "t": "Barut Üstatları"
+  },
+  "ch-4": {
+   "d": "Eğitilen birimler, araştırılan teknolojiler ve bırakılan kaynaklar, İmparatorluk Memurları tarafından toplanabilen Vergi (Altın) üretir.",
+   "t": "Vergiler"
+  },
+  "ch-5": {
+   "d": "+%100 vergi Altını üretmek için İmparatorluk Akademisi Simgesi’nin nüfuz alanında askeri binalar ve ekonomi binaları inşa et.",
+   "t": "Nüfuz"
+  },
+  "ch-6": {
+   "d": "İmparatorluk Memuru: Denetleme yeteneğini kullanarak araştırma ve askeriye binalarının üretim hızını +150% artır — Ekonomi binalarını denetlemek, Köylülerin bıraktığı kaynak miktarını +20% artırır.\nZhuge Nu: Hafif birimlere karşı etkili hızlı seri saldırıya sahip hafif menzilli piyade.\nSaray Muhafızı: Silahşor alternatifi. Hareket hızı yerine zırha sahip ağır yakın dövüş piyadesi.\nArı Kovanları: Mangonel alternatifi. Bir roket yağmuru ateşleyen ve alan etkisi hasarı veren kuşatma makinesi.\nAlev Mızraklı Süvari: Kuşatma makinelerine ve binalara karşı etkili hafif süvari. Geniş bir görüş menziline ve patlayıcı saldırı hücum saldırısına sahiptir.\nEl Bombacısı: Etki alanı hasarı veren el bombaları atan hafif menzilli barutlu piyade.",
+   "t": "Özgün Birimler"
+  },
+  "de-1": {
+   "d": "Karanlık Çağ’da (I) Camilerden Alim eğit. Dini teknolojileri diğer medeniyetlerden daha önce araştır ve onların kilidini aç.",
+   "t": "İlmi Kültür"
+  },
+  "de-2": {
+   "d": "Teknolojilerin maliyetinden tasarruf ederek tüm teknolojileri ücretsiz ancak çok daha yavaş araştır — Teknolojiler duraklatılabilir ve devam ettirilebilir.",
+   "t": "Skolastik Başarımlar"
+  },
+  "de-3": {
+   "d": "Çit Sur inşa edebilen piyade birimleri kullanarak tahkimli yerleşimler kur. Bu yeteneği Taş Surlara genişletmek için Savunmacı Kampı Simge’sini inşa et.",
+   "t": "Hudut Tahkimleri"
+  },
+  "de-4": {
+   "d": "Balıkçı Gemileri menzilli bir saldırıyla kendini savunabilir ve fazladan %50 sağlığa sahiptir.",
+   "t": "Savunma Güverte Tayfası"
+  },
+  "de-5": {
+   "d": "Yakınlarına Değirmenler inşa edip Böğürtlen Çalılarını Bahçeye dönüştürerek Yiyecek kapasitesini +100 artır.\nKöylüler, Böğürtlen Çalılarını %25 daha hızlı toplar ancak Yaban Domuzundan Yiyecek toplayamaz.\nKöylüler, Böğürtlen Çalılarından +3 Yiyecek taşır.",
+   "t": "Bahçe Ödülü"
+  },
+  "de-6": {
+   "d": "Cami, Medrese veya Rıhtımda konuşlandırılmış Âlimler nüfuzları dâhilindeki binaların araştırma hızını genelde kaç Âlimin konuşlandırıldığına göre artırır. Âlimlerin konuşlandırıldığı Rıhtımlar daha hızlı çalışır.",
+   "t": "Nüfuz"
+  },
+  "de-7": {
+   "d": "Alim: Karanlık Çağ’da (I) iyileştirebilen dinî birim.\nSavaş Fili: Güçlü bir kuşatma saldırısı ile yüksek sağlığa ve hasara sahip bir Mızraklı Asker taşıyan ağır yakın dövüş süvarisi.\nKule Fili: Hareket ederken ateş edebilen iki Okçu taşıyan menzilli süvari.\nCihat Akıncısı: Ağır gürz kullanan hızlı bir Süvari.",
+   "t": "Özgün Birimler"
+  },
+  "en-1": {
+   "d": "Düşmanlar menzile girdiğinde yakındaki birimlerin saldırı hızını +%20 artıran Şehir Merkezleri, Karakollar, Taş Sur Kuleleri ve İç Kalelerle hududu koru.\nSaldırı hızını +%30 artırmak için İç Kaleler üzerinden Sığınak Ağı teknolojisini araştır.",
+   "t": "Kale Ağı"
+  },
+  "en-2": {
+   "d": "İç Kalelerin tüm askeri birimleri üretme yeteneği vardır.",
+   "t": "İç Kale Üretimi"
+  },
+  "en-3": {
+   "d": "Keşif Kolu Silahşorları Karanlık Çağ'da (I) kullanılabilir. İngiliz Silahşorları +%40 daha hızlı üretir.",
+   "t": "Askere Çağrı"
+  },
+  "en-4": {
+   "d": "Başkent Şehir Merkezi fazladan bir ok atar ve Köylüler düşman birimlerine saldırırken kısa yay kullanır.",
+   "t": "Savunmacı Byrig"
+  },
+  "en-5": {
+   "d": "Tarlalar, %50 daha ucuza inşa edilir.\nKöylülerin Tarlalarda çalışırken her 6 saniyede bir +1 Altın üretmesi için İmparatorluk Çağı’nda (IV) Çitler teknolojisini araştır.",
+   "t": "Tarım Adası"
+  },
+  "en-6": {
+   "d": "Deniz şartlandırması, Rıhtım verimliliğini artırarak gemi inşası maliyetlerini -%10 azaltır.",
+   "t": "Tersane İşçileri"
+  },
+  "en-7": {
+   "d": "Bir Değirmen'in nüfuz alanındayken Tarla toplama hızı her çağ atlandığında +%20/25/30/30 artar",
+   "t": "Nüfuz"
+  },
+  "en-8": {
+   "d": "Gözcüler ve Silahşorlar, yakındaki birimlerin görüş menzilini %30, yakındaki avcıların toplama hızını %10 artıran bir Kamp Ateşi yakar.",
+   "t": "Kral Odunu"
+  },
+  "en-9": {
+   "d": "Uzun Yaylı: Düşman süvarilerini sersemletip onlara hasar veren Savunma Kazığı yeteneğiyle birlikte gelen +2 menzilli ve +1 hasarlı okçu.",
+   "t": "Özgün Birimler"
+  },
+  "fr-1": {
+   "d": "Feodal Çağ'da (II) Kraliyet Şövalyesi mevzilendir ve süvari için güçlü özgün teknolojileri araştır.",
+   "t": "Kraliyet Aygırları"
+  },
+  "fr-2": {
+   "d": "-%50 daha ucuz kaynak teslimi ve -%35 daha ucuz ekonomi teknolojileriyle üstün bir ekonomiye sahip ol.\nŞehir Merkezi üretim hızı her çağda sırasıyla +%15, +%15, +%20 ve +%25 artar.",
+   "t": "Ana Kara Ekonomisi"
+  },
+  "fr-3": {
+   "d": "Yiyecek, Odun veya Altını; Tüccarlar ve Ticaret Gemileri ile Marketlere getirmeyi seç.\nTicaret Gemileri +%20 daha fazla kaynak geri getirir.\nTicaret Merkezleri oyunun başında mini haritada gösterilir.\nRıhtımlar, nüfus alanı sağlar.",
+   "t": "Ticaret Ekonomisi"
+  },
+  "fr-4": {
+   "d": "Demirciler, her çağ atlandığında ücretsiz olarak yakın dövüş hasarı teknolojisi verir.",
+   "t": "Smithy'nin Lütfu"
+  },
+  "fr-5": {
+   "d": "Etki alanlarındaki Okçuluk Binalarından ve Ahırlardan üretilen birimlerin ücretini %20 düşüren ve %10 daha ucuza mal olan İç Kalelerle hücum gücünü koru.",
+   "t": "Nüfuz"
+  },
+  "fr-6": {
+   "d": "Kraliyet Şövalyesi: Bir hücumu tamamladıktan sonra 5 saniye boyunca +3 ilave hasar kazanan Ağır Süvari.\nFransız Arbaletçi: 30 saniye boyunca +5 menzilli zırh ve +1 silah menzili sağlayan bir savunma Pavisesi yerleştirebilen +1 yakın dövüş zırhına sahip arbaletçi.\nTop: Daha fazla hasara ve hareketliliğe sahip, kurulum süresi gerektirmeyen bir Gülle Topu alternatifi.\nGalleass: Önüne monte edilmiş uzun menzilli bir gülle topu olan büyük savaş kadırgası.\nSavaş Teknesi: Düşük maliyetli ve artırılmış menzilli zırhı bulunan özel bir Springald Gemisi.",
+   "t": "Özgün Birimler"
+  },
+  "gol-1": {
+   "d": "Altın Yurt, Altın Ordu'nun tek simgesidir ve yükseltildiğinde sonraki çağa geçilmesini sağlar ve binanın canını artırır. Altın Yurt'ta nüfuzu veya Müstahkem Karakollar tarafından sağlanan aura bonusunu değiştirebilen bir ferman seçilebilir.\nBatu Han ve Turgutlar Altın Yurt'tan vazifelendirilebilir.",
+   "t": "Altın Yurt"
+  },
+  "gol-2": {
+   "d": "Birimler ikili gruplar hâlinde üretilir. Grup üretimini iyileştirmek için teknoloji araştırması yapılabilir.",
+   "t": "Ordular"
+  },
+  "gol-3": {
+   "d": "Yiyecek için Çiftlik veya Mera inşa etmek yerine Ağıl inşa et. Ağıllarda, toplanıp doğrudan Ağıla bırakılabilen Koyun etleri bulunur.",
+   "t": "Ağıl"
+  },
+  "gol-4": {
+   "d": "Müstahkem Karakollar daha fazla cana sahiptir ve Altın Yurt'ta seçilen Fermana bağlı olarak nüfuz veya aura bonusları sağlar.",
+   "t": "Müstahkem Karakollar"
+  },
+  "gol-5": {
+   "d": "Taşıma Gemisi inişleri, +%50 sağlık ve +%15 hareket hızı ile daha hızlı ve daha dayanıklıdır.",
+   "t": "Gelişmiş Taşıma"
+  },
+  "gol-6": {
+   "d": "Toplam etkin Tüccar sayına göre işlemlerden ekstra kaynak elde eden Tüccarlarla İpek Yolu'nu keşfet.\n• Tüccar sayısı 5'in üzerindeyse: +%10 Yiyecek\n• Tüccar sayısı 10'un üzerindeyse: +%10 Yiyecek, Odun\n• Tüccar sayısı 15'in üzerindeyse: +%10 Yiyecek, Odun, Altın",
+   "t": "İpek Yolu"
+  },
+  "gol-7": {
+   "d": "Köylüye ihtiyaç duymadan Taş toplamak için Taş çıkıntılarına Ovoo inşa et. İnşa edilebilen maksimum Ovoo sayısı çağ başına +1 artar.",
+   "t": "Taş Teknolojisi ve Ovolar"
+  },
+  "gol-8": {
+   "d": "Öncüler, çevredeki alanı gözetlemek için Öncü Doğan yeteneğini kullanabilirler.",
+   "t": "Öncü Doğan"
+  },
+  "gol-9": {
+   "d": "Altın Ordu Hanı: Çağ atlandığında güçlenen Ağır Süvaridir. Belli bir alana attığı okuyla o alandaki düşmanların aldığı hasarı artırır. Han aynı zamanda savaşta kaldığı süre boyunca giderek daha fazla saldırı hasarı aurası sağlar.\nTurgutlar: Han'ı koruyabilen Ağır Süvaridir. Han'ın aldığı hasarlar Turgutlara yöneltilir.\nKharash: Çevredeki müttefiklere zırh sağlayan Zayıf Hafif Yakın Dövüşçü Piyade birimleridir.\nKıpçak: Vurduğu hedefin kanamasına yol açan oklar atabilen atlı okçulardır.\nÇekişli Katapult: Daha hızlı hareket hızı, kurma süresi ve saldırı hızı.\nKeşik: Feodal Çağ'da kullanılabilen Ağır Süvaridir. Her saldırıda Can yeniler.",
+   "t": "Özgün Birimler"
+  },
+  "hl-1": {
+   "d": "Feodal Çağ'da pasif gelir elde etmek için Malikâne inşa et. Malikâneler tüm kaynak türleri için bir bırakma binası görevi görür ve +10 nüfus alanı sağlar. Her bir Malikâne dakikada 30 yiyecek ve 10 odun üretir. Yakındaki her köylü için ilave 4 yiyecek ve 2 odun üretir.\nEşsiz teknolojilerle Malikânelerin inşaat sınırını artır.",
+   "t": "Feodalizm"
+  },
+  "hl-2": {
+   "d": "Her Şehir Merkezi, tamamlandığında 4 koyun ortaya çıkarır. Köylüler koyunlardan %20 daha hızlı toplama yapar.",
+   "t": "Yün Sanayisi"
+  },
+  "hl-3": {
+   "d": "Başkent Şehir Merkezi fazladan bir ok atar ve Köylüler düşman birimlerine saldırırken kısa yay kullanır.",
+   "t": "Savunmacı Byrig"
+  },
+  "hl-4": {
+   "d": "İç Kaleler inşa edildikten sonra maliyetsiz 3 Kontun Muhafızı kazandırır. Etkin her İç Kale, Kontun Muhafızlarına 1 ve Yarım Mızraklılara maksimum 4 olacak şekilde hasar kazandırır.",
+   "t": "Birleşen Hanedanlık"
+  },
+  "hl-5": {
+   "d": "Deniz şartlandırması, Rıhtım verimliliğini artırarak gemi inşası maliyetlerini -%10 azaltır.",
+   "t": "Tersane İşçileri"
+  },
+  "hr-1": {
+   "d": "Karakollara, Kulelere ve İç Kalelere Kadim Eserler yerleştirerek bu binaların zırhını +%25, hasarını +%25, menzilini +%25 ve görüş hattını +%20 artır ve imparatorluğunun gücünü göster.\nRıhtımlara yerleştirilen Kadim Eserler, Kadim Eser başına gemi saldırı hızını +%5 artırır (Maksimum +%25)\n\\rBinalara yerleştirilen Kadim Eserler dakikada +80 Altın getirir.",
+   "t": "Dini Şevk"
+  },
+  "hr-2": {
+   "d": "Piyadeler Karanlık Çağ'da (I) %5, Feodal Çağ'da (II) %10 daha hızlı hareket eder. Piyadeleri etkili teknolojilerle yükselt ve İlkel Silahşor'u Feodal Çağ'da (II) sahaya çıkar.",
+   "t": "İmparatorluk Ordusu"
+  },
+  "hr-3": {
+   "d": "Tüm mevzi teknolojileri -%20 daha ucuzdur. Karakol görüş menzili +%20 artar.",
+   "t": "Mevzi Mimarlığı"
+  },
+  "hr-4": {
+   "d": "Köylüler, diğer medeniyetlerden +40% daha fazla kaynak taşır.",
+   "t": "Çekçekler"
+  },
+  "hr-5": {
+   "d": "Şehir Merkezi etki alanında inşa edilmiş binalar Acil Onarımlar yeteneğini kazanır ve bu da binanın 20 saniye boyunca her saniye +150 sağlıkla onarılması için etkinleştirilebilir.",
+   "t": "Nüfuz"
+  },
+  "hr-6": {
+   "d": "Başrahip: Köylülerin toplama hızını 30 saniye boyunca +%35 artıran Kutsal Cesaretlendirme yeteneğini kullan.\nLandsknecht: Önemli ölçüde alan hasarı verebilen iki elli büyük bir kılıca sahip hafif yakın dövüş piyadesi.\nKara Atlı: Güçlü bir zırhlı atlı atış birimidir. Üretim miktarı inşa edilen İç Kale sayısıyla sınırlıdır.",
+   "t": "Özgün Birimler"
+  },
+  "ja-1": {
+   "d": "Şehir Merkezleri; Daimyo Köşkü, Daimyo Sarayı ve Şogun Köşkü adı verilen özel binalara yükseltilebilir. Bu binalar yakındaki Köylülerin üretime devam eden Tarlalarına %20, %40, %60 oranında bonus sağlar; Samuray Sancaktarlarının kapasitesini +1, +2, +3 artırır ve savunmalarını geliştirir.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Yakınındaki piyadelerin hasarını +%15, süvarilerin hasarını +%10 artıran elit Samuray Sancaktarları sahaya sür. Samuray Sancaktarlar öldürüldüklerinde sancaklarını düşürerek bir süreliğine aynı etkiyi sağlarlar.",
+   "t": "Hatamoto Samurayı"
+  },
+  "ja-3": {
+   "d": "Karanlık Çağ'da (I) Samuray üret. Samuraylar, yakın dövüş veya menzilli saldırıları düzenli olarak engelleyebilen Saptırıcı Zırh yeteneğine sahiptir.",
+   "t": "Sakin Zihin"
+  },
+  "ja-4": {
+   "d": "Demirhane, Altın ve Taş bırakma yeridir. Madencilik Kampı ve Demircinin yerini alır. Ek olarak Karanlık Çağ'da (I) fazladan yakın dövüş hasarı teknolojisi sağlar. Çiftlik Evi hem nüfus sağlar hem de yiyecek bırakma yeri olarak Değirmenin yerini alır.",
+   "t": "Çiftlik Evi ve Demirhane"
+  },
+  "ja-5": {
+   "d": "İmparatorluk Çağı'nda (IV) daha yüksek maliyet karşılığında artırılmış cana ve Roket Mevzilerine sahip daha güçlü İç Kaleye erişim sağlar. Roketler hızlı saldırılar yapar ve tekli hedeflere büyük hasarlar verir.",
+   "t": "Oda'nın Hisarı"
+  },
+  "ja-6": {
+   "d": "Köylüler Altın biriktirdikçe %20 ilave Taş üretilir. Bu durumun tersi de geçerlidir.",
+   "t": "Gümüş Madenciliği"
+  },
+  "ja-7": {
+   "d": "Seçtiğin III. Çağ Simgesi ile Şinto ve Budizm arasında seçim yap. Şinto'yu seçersen Şinto Rahibinin kilidini açarsın. Budizm'i seçersen Budist Keşişin kilidini açarsın. Bu dinî birimler benzersiz bonuslar sunar.",
+   "t": "Dinî Seçim"
+  },
+  "ja-8": {
+   "d": "Kışlaları inşa etmek %50 daha ucuzdur.",
+   "t": "Samuray Bölgeleri"
+  },
+  "ja-9": {
+   "d": "Balıkçı Tekneleri %25 daha ucuza üretilir.",
+   "t": "Balıkçı Köyü"
+  },
+  "je-1": {
+   "d": "Jeanne d'Arc savaş alanında. Kaynak toplama, bina inşa etme ve savaşa katılma gibi görevleri tamamlayarak tecrübe puanı kazanan bir kahraman birimidir.\nJeanne yeterince tecrübe puanı topladıktan sonra seviye atlayarak güçlü ekonomi ve savaş yetenekleri kazanabilir.",
+   "t": "Kahramanın Yolculuğu"
+  },
+  "je-2": {
+   "d": "Feodal Çağ'da (II) Kraliyet Şövalyesi mevzilendir ve süvari için güçlü özgün teknolojileri araştır.",
+   "t": "Kraliyet Aygırları"
+  },
+  "je-3": {
+   "d": "Halk Jeanne d'Arc'ın liderliğinde daha sıkı çalışır. Ekonomik yükseltmeler %35 daha ucuz olur.",
+   "t": "Şahlanan Ekonomi"
+  },
+  "je-4": {
+   "d": "Yiyecek, Odun veya Altını; Tüccarlar ve Ticaret Gemileri ile Marketlere getirmeyi seç.\nTicaret Gemileri +%20 daha fazla kaynak geri getirir.\nTicaret Merkezleri oyunun başında mini haritada gösterilir.\nRıhtımlar, nüfus alanı sağlar.",
+   "t": "Ticaret Ekonomisi"
+  },
+  "je-5": {
+   "d": "Jeanne d'Arc: Köylü olarak başlayıp güçlü yetenekler kazanmak için Kahramanın Yolculuğuna başlayan bir kahraman birimidir.\nJeanne'ın Süvarisi: Baskın, kanatlardan saldırı ve Arbaletçilere karşı savaşma konusunda etkili olan ve Jeanne 3. seviyeye ulaştığında kullanılabilir olan Hızlı Süvari.\nJeanne'ın Şampiyonu: Mızraklı Askerlere karşı savaşma konusunda etkili olan ve Jeanne 3. seviyeye ulaştığında kullanılabilen sağlam piyade.\nKraliyet Şövalyesi: Bir hücumu tamamladıktan sonraki 5 saniye boyunca +3 bonus hasar kazanan Ağır Süvari.\nFransız Arbaletçi: 30 saniyeliğine +1 silah menzili ve +5 menzilli zırh sağlamak için bir savunma Pavisesi konuşlandırabilen +1 yakın dövüş zırhına sahip Arbaletçi.\nTop: Kurma süresi yoktur ve daha çok hasara ve hareketliliğe sahiptir, gülle topunun yerini alır.\nSavaş Gemisi: Ön kısımda uzun menzilli bir topa sahip büyük savaş gemisi.\nSavaş Teknesi: Düşük maliyetli ve delinmeye karşı zırhı geliştirilmiş özel bir Springald Gemisi.",
+   "t": "Özgün Birimler"
+  },
+  "jin-1": {
+   "d": "Çayır inşa etmek için bir Simgeyi tamamladıktan sonra 3 konum arasından seçim yap. Çayırlarda zaman içinde 5 adede kadar At oluşturulur. Atlar tüm Yakın Dövüş Süvari birimlerinin canını 2, tüm Menzilli Süvarilerin canını 1 artırır veya herhangi bir atlı birimi hızlı bir şekilde eğitmek için Çayırların Nüfuzu içindeki Ahırlar tarafından kullanılabilir. Çayırlarda Feodal Çağ'da her 90, Kale Çağı'nnda her 60 ve İmparatorluk Çağı'nda her 45 saniyede bir yeni bir At oluşturulur.",
+   "t": "Çayır"
+  },
+  "jin-2": {
+   "d": "Göçebe soyu kaynak toplayabilen, inşaat yapabilen ve daha hızlı hareket eden ancak daha maliyetli olan Atlı Köylü sağlar. 20 adetle sınırlıdır. Ticaret Merkezleri olan Haraçgüzar Devletler oluşturarak maksimum inşaat sınırını +3 artır.",
+   "t": "Jurchen Mirası"
+  },
+  "jin-3": {
+   "d": "Savunma yapılarını, savunmacı göndererek yakındaki toprakları koruyan Meng'an Mouke Mevzileriyle yükselt. Mevziler ayrıca kayıpları telafi etmek için zamanla savunmacı üretir.",
+   "t": "Meng'an Mouke"
+  },
+  "jin-4": {
+   "d": "İki güçlü yetenekle donatılmış en fazla 2 Elçi üretir.\nTarafsız Ticaret Yerleşimlerinde senin yerine yiyecek toplayabilen, Atlı Köylü inşa sınırını +3 artıran ve tüccar gelirini +%15 artıran sadık bir müttefik kazanmak için Haraçgüzarlar oluştur.\nDüşman gruplarına Rüşvet vererek onları karşılarına çıkan her şeye saldıran tarafsız savaşçılara dönüştür.",
+   "t": "Elçiler"
+  },
+  "jin-5": {
+   "d": "Feodal Çağ'da Silah Atölyesi inşa etmeni ve springald yerine geçerek düşman hattına iki vuruşta bulunan Sabit Arbaletlere erkenden erişmeni sağlar. Sabit Arbalet Mevzileri, tüm savunma yapılarında Springald Mevzilerinin yerini alır.",
+   "t": "Kuşatma Uzmanlığı"
+  },
+  "kt-1": {
+   "d": "Üç benzersiz Kumandanlıktan birini kurarak Şehir Merkezinde Çağ Atla. Her Kumandanlık kalıcı olarak benzersiz bir birimin ve bonusun kilidini açar.",
+   "t": "Kumandanlık kur"
+  },
+  "kt-2": {
+   "d": "Hisarlar, İç Kalelerin yerini alır ve Feodal Çağ'da kullanılabilir.\nBir Hisarın yakınında konumlandırılmış menzilli birimler %15 saldırı menziline, bir Hisarın etkisi veya Tapınakçı Karargâhının içerisine yerleştirilmiş Taş Surlar ise %25 cana ve varsayılan oka sahip olur.\nHisarlar birer Simge görevi görür ancak tamamen yok edilebilirler.",
+   "t": "Frank Savunma Planları"
+  },
+  "kt-3": {
+   "d": "Tapınak Şövalyeleri Tüccar eğitemez. Onun yerine, başarılı geçen dinî yolculuklardan altın üretirler. Feodal Çağ'a ulaştığında Tapınak Şövalyeleri, Hacıların Kutsal Mekânlara seyahat edebilmesi için Güvenlik sağlayabilir.\nHer 60 saniyede bir grup Hacı, Tapınakçı Karargâhlarından seçili Kutsal Mekâna doğru seyahat eder ve katettiği mesafeye bağlı olarak vardığında altın kazandırır. Maksimum 10 olacak şekilde grubun büyüklüğü her etkin Hisar başına 1 artar.\nKutsal Mekânlar ve Kadim Eserlerin konumu oyunun başında ortaya çıkar.",
+   "t": "Hac"
+  },
+  "kt-4": {
+   "d": "Rıhtımlar yerine Limanlar inşa et. Daha maliyetlidir ancak daha yüksek cana, daha güçlü mevziye ve balıkçı gemileri için daha fazla garnizon alanına sahiptir. Yakınlardaki gemilerin canını artırır.",
+   "t": "Kıyı Limanları"
+  },
+  "kt-5": {
+   "d": "Köylüler bir Kereste Kampı olmadan otomatik olarak odun depolar.\nOdun her çağda %20 daha hızlı toplanır ve toplanan odunun %20 kadarı ek yiyecek olarak geri döner.",
+   "t": "Çevre Korumacılığı"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Kuşatma Uzmanları"
+  },
+  "kt-7": {
+   "d": "Tapınak Şövalyesi: Şövalye yerine geçer. Normal Şövalyeden daha pahalıdır fakat fazladan cana ve hasara sahiptir.\nFeodal Çağ\nHospitalier Şövalyeleri Kumandanlığı - Hospitalier Şövalyesi: Çevredeki dost birimleri iyileştirebilen Ağır Yakın Dövüş Piyadeleridir.\nFransa Krallığı Kumandanlığı - Yoldaş Şövalye: Normal Şövalyeden daha ucuz olan Ağır Süvarilerdir. Çevredeki her bir Ağır Süvari birimi başına ek can kazanırlar.\nAntakya Prensliği Kumandanlığı - Çavuş: Yüksek yakın dövüş zırhına sahip Ağır Piyadelerdir. Belirli bir menzilden yakın dövüş hasarı veren baltalar fırlatırlar.\nKale Çağı\nAngevin İmparatorluğu Kumandanlığı - Norman Ağır Mızraklı Askeri: Hisarların yanında daha güçlü olan Zırhlı Mızraklı Askerlerdir.\nCenova Cumhuriyeti Kumandanlığı - Cenovalı Arbaletçi: Yakın dövüş piyadelerine fazladan hasar veren pahalı Arbaletçilerdir.\nKastilya Krallığı Kumandanlığı - Genitour: Menzilli birimlere karşı etkili olan Atlı Cirit Atıcılardır.\nİmparatorluk Çağı\nPolonya Krallığı Kumandanlığı - Szlachta Süvarisi: Olağanüstü bir menzilli zırha sahip Elit Süvarilerdir. Hasar verdiği düşmanların saldırılarını yavaşlatır ve hafif piyadelere fazladan hasar verir.\nTöton Şövalyeleri Kumandanlığı - Töton Şövalyesi: Muharebe sırasında ölen her bir düşman başına güç kazanan çok güçlü Ağır Piyadelerdir. Çevredeki düşmanların zırhını azaltırlar.\nVenedik Cumhuriyeti Kumandanlığı - Condottiero: Yalnızca altın maliyeti bulunan hızlı piyadelerdir. Barutlu birimlere karşı güçlüdür.\nVenedik Kadırgası: Ön tarafa monte edilmiş bir Katapultu bulunan büyük kürekli gemilerdir.\nVenedik Tüccarı: Pahalı ancak hızlı hareket eden bir tüccardır. Maksimum 5 adet bulunabilir.",
+   "t": "Özgün Birimler"
+  },
+  "ma-1": {
+   "d": "Üstün bir Altın ekonomisine sahip ol ve Karanlık Çağ'da (I) Altın Damarlarının üzerine Açık Ocak Madeni inşa ederek yatağı tüketmeden Altın üret. Köylüler, Açık Ocak Madeni aktifken Altın kazabilir.\nAltın Damarı tamamen tükenirse, Açık Ocak Madeni yataktan Altın çıkarmaya devam edecektir.",
+   "t": "Açık Ocak Madenleri"
+  },
+  "ma-2": {
+   "d": "Ocak Madenlerinin etki alanında inşa edilen her Ev ve Maden Kampı, Altın üretimini artırır.\nŞehir Merkezi inşa etmek için taş yerine altın gerekir.",
+   "t": "Nüfuz - Madencilik Toplulukları"
+  },
+  "ma-3": {
+   "d": "Karanlık Çağda (I) Değirmenlerden Sığır üret. Malili Köylüler, diğer medeniyetlere göre Sığırlardan daha hızlı yiyecek toplar ya da Sığırlar, zamanla Yiyecek miktarlarının artması için Sığır Çiftliğine de konuşlandırılabilir.",
+   "t": "Sığır ve Çiftlikler"
+  },
+  "ma-4": {
+   "d": "Musofadi Savaşçısı ve Musofadi Tüfekçisi özgün birimleri, Gizlenme yeteneğini aktifleştirerek etrafta gizlice dolaşıp pusu fırsatları yaratabilir.",
+   "t": "Musofadi Yol Bulucu"
+  },
+  "ma-5": {
+   "d": "Kale Çağı'nda (III) kilidi açılan kıdemli birim teknolojilerinin araştırma maliyeti ve süresi yarıya iner.",
+   "t": "Farari'nin Bilgeliği"
+  },
+  "ma-6": {
+   "d": "Ücretli Karakollardan geçen Tüccarlar ve Ticaret Gemileri, mevcut ticaret hedefine göre anında ek kaynak sağlar. Bir Ücretli Karakolun menziline başka bir tane daha inşa edilirse fazladan vergi üretmez.",
+   "t": "Ücretli Karakollar"
+  },
+  "ma-7": {
+   "d": "Tamamlanan Tüccar yollarından toplanan altın, gelecekteki teknolojilerin araştırma süresini azaltır.",
+   "t": "El Yazması Ticareti"
+  },
+  "ma-8": {
+   "d": "Balıkçı Tekneleri, Yiyeceklerinin %10 kadarını Altın olarak bırakır.",
+   "t": "Balık İşleme"
+  },
+  "ma-9": {
+   "d": "Tüm gemilerin hareket hızı, Rıhtımlarının yakınındayken arttı.\nKonuşlandırılan her birim için Nakliye Gemileri ciritlerle saldırır.",
+   "t": "Çıkarma Birlikleri"
+  },
+  "mac-1": {
+   "d": "Köylüler; Altın Damarları ve Taş Çıkıntıları arasında bol miktarda galenit yatağı bulur ve buralarda madencilik yaparken özel kaynak olarak Gümüş çıkarır.\nKöylüler, çıkarılan Altın veya Taş miktarının %40 kadarına denk Gümüş çıkarır.",
+   "t": "Galenit Toplama"
+  },
+  "mac-2": {
+   "d": "Vareg Cephanelikleri, nüfuzu altındaki Maden Kamplarının ve Şehir Merkezlerinin zaman içinde Gümüş işlemesini sağlar. İşlenen Gümüş miktarı, Köylülerin biriktirdiği toplam Gümüş miktarına bağlı olarak değişir.",
+   "t": "Nüfuz - Gümüş Darphanesi"
+  },
+  "mac-3": {
+   "d": "Vareg Cephaneliğinde Gümüş karşılığında eşsiz askerî teknolojiler araştırabilirsin. Demircinin ve Üniversitenin yerine geçer. Makedonya Hanedanlığı, kategori başına üç kademeden fazla askerî geliştirme yapabilir.",
+   "t": "Vareg Demirciliği"
+  },
+  "mac-4": {
+   "d": "İmparatorluğu tüm Vareg birimlerini üretebilen ve oklarla savunma yapabilen Vareg Sığınaklarıyla güçlendir.",
+   "t": "Kaleler"
+  },
+  "mac-5": {
+   "d": "Vareg Savaş Kampında takviyeleri seç. Savaşta yeteri kadar savaşçı öldüğünde savaş kampında safları doldurmak için ücretsiz yeni Vareg savaşçıları belirir.\nBitişiğinde su varsa takviye olarak tekne de seçilebilir.",
+   "t": "Savaş Kampı"
+  },
+  "mac-6": {
+   "d": "Geçmiş muharebelerde kazanılan zaferleri onurlandırmak için Rün Taşları oy. Vareg yeteri kadar düşman öldürürse belirli bir alanda çevredeki Vareglere muharebe bonusları kazandıran bir Rün Taşı oluşturulabilir.",
+   "t": "Vareg Rün Taşları"
+  },
+  "mac-7": {
+   "d": "Cheirosiphonlar, yükseltilmiş Dromonlar, Springaldlar ve Katapultlar; saldırı sırasında Yunan Ateşi ile alana zaman içinde hasar veren alev parçaları fırlatır.",
+   "t": "Yunan Ateşi"
+  },
+  "mac-8": {
+   "d": "Karakollar ve İç Kaleler, Mangonel Mevzileriyle yükseltilebilir. Taş Sur Kuleleri, Springaldlar yerine Mangonel Mevzileriyle donatılmıştır.",
+   "t": "Mangonel Mevzileri"
+  },
+  "mac-9": {
+   "d": "Atgeir: Mızraklı Asker yerine geçer. Yakınlarda Vareg birimleri varken saldırı hızını artıran pasif bir yeteneğe sahip hafif yakın dövüş piyadesi.\nBogmaðr: Okçu yerine geçer. Hareket hızından feragat ederek zırh delebilmesini sağlayan bir yeteneğe sahip hafif menzilli piyade. \nİlkel Vareg Muhafızı: Silahşor yerine geçer. Zırh pahasına hasarı artırmak adına Berserk yeteneği kullanılabilir. Taşıma Gemisi inşa edebilir ve konuşlandırıldığında taşıtların zırhını artırır.\nRiddari: Şövalye yerine geçer. Belirli bir süre boyunca uzak mesafeden balta atma yeteneğine sahip olan ağır süvari.\nCheirosiphon: Kısa menzilli Yunan Ateşi saldırısına sahip bir koçbaşı.\nDromon: Springald Gemisi yerine geçer. Yunan Ateşiyle donatılmıştır.",
+   "t": "Özgün Birimler"
+  },
+  "mo-1": {
+   "d": "Tüm binalar toplanıp başka bir yere konuşlandırılabilir.\nEv inşa etmene gerek kalmasına ve oyuna maksimum Nüfusla başla.\nYakındaki süvarilere ve Tüccarlara +15% hareket hızı sağlayan bir Karakol ağı ile düşman hareketlerini hızla yanıtla.",
+   "t": "Büyük Hakimiyet"
+  },
+  "mo-2": {
+   "d": "Yakındaki tüm askeri birimlere İşaret Okları ile güçlü bonuslar sağlamak için Karanlık Çağ’da (I) kudretli Han’ı sahaya çıkar.\nHanlar ve Öncüler, çevredeki alanı gözetlemek için Öncü Doğan yeteneğini kullanabilirler.",
+   "t": "Hanlık"
+  },
+  "mo-3": {
+   "d": "Karanlık Çağ'dan itibaren Ahırlar inşa et ve Atlılarını +%25 daha hızlı sahaya sür.",
+   "t": "Uzman Atlılar"
+  },
+  "mo-4": {
+   "d": "Yiyecek sağlayan Koyun yetiştirmek için Tarla yerine Mera inşa et — Meralar, bir Ovo'nun nüfuz alanındayken daha hızlı Koyun üretir.",
+   "t": "Göçebe Toplayıcılar"
+  },
+  "mo-5": {
+   "d": "İnşaat sırasında ateşe verildiğinde veya yok edildiğinde düşman binalarını yağmalayarak +25 Yiyecek ve Altın kazan.",
+   "t": "Baskın Ödülü"
+  },
+  "mo-6": {
+   "d": "Taşıma Gemisi inişleri, +%50 sağlık ve +%15 hareket hızı ile daha hızlı ve daha dayanıklıdır.",
+   "t": "Gelişmiş Taşıma"
+  },
+  "mo-7": {
+   "d": "Toplam etkin Tüccar sayına göre işlemlerden ekstra kaynak elde eden Tüccarlarla İpek Yolu'nu keşfet.\n• Tüccar sayısı 5'in üzerindeyse: +%10 Yiyecek\n• Tüccar sayısı 10'un üzerindeyse: +%10 Yiyecek, Odun\n• Tüccar sayısı 15'in üzerindeyse: +%10 Yiyecek, Odun, Altın",
+   "t": "İpek Yolu"
+  },
+  "mo-8": {
+   "d": "Nüfuz oluşturmak ve Köylülere ihtiyaç duymadan Taş toplamak için Taş çıkıntıları üzerinde Ovo inşa et. Ovolar, her çağ atlandığında dakikada +70, 100, 130, 160 Taş toplar.\nOvoların etki alanına inşa edilmiş binalar iki kat daha fazla birim üretebilir veya Taş kullanarak teknolojilerin gelişmiş versiyonlarını araştırabilir.",
+   "t": "Nüfuz"
+  },
+  "mo-9": {
+   "d": "Han: Her çağ atladığında gücü artan ve İşaret Oku yeteneklerinin kilidi açılan atlı okçu.\n• Manevra Oku: Hareket hızı, +%33 artar.\n• Saldırı Hızı Oku: Saldırı hızı +%50 artar.\n• Zırh Oku: Zırh +2 artar.\nManguday: Her yöne hareket ederken ateş edebilen atlı okçu.\nÇekiş Katapultu: Daha kısa kurulum süresinin yanı sıra daha fazla hareket hızı ve saldırı hızı.\nKeşik: Feodal Çağ'da kullanılabilen, her saldırıdan sonra Sağlık yenileyen Ağır Süvari.",
+   "t": "Özgün Birimler"
+  },
+  "od-1": {
+   "d": "Köylüler %28 daha hızlı toplar, binaları %20 daha hızlı inşa eder ve onarır ancak üretmek için fazladan %20 Yiyecek gerektirir.",
+   "t": "Verimli Köylüler"
+  },
+  "od-2": {
+   "d": "Karakollara, Kulelere ve İç Kalelere Kadim Eserler yerleştirerek bu binaların zırhını +%25, hasarını +%25, menzilini +%25 ve görüş hattını +%20 artır ve imparatorluğunun gücünü göster.\nRıhtımlara yerleştirilen Kadim Eserler, Kadim Eser başına gemi saldırı hızını +%5 artırır (Maksimum +%25)\n\\rBinalara yerleştirilen Kadim Eserler dakikada +80 Altın getirir.",
+   "t": "Dini Şevk"
+  },
+  "od-3": {
+   "d": "Ağır Meşaleler, Pullu Zırh ve Savaş Atları gibi teknolojileri araştırarak Tarikatın gücüne güç kat.",
+   "t": "Elit Ekipman"
+  },
+  "od-4": {
+   "d": "Tüm mevzi teknolojileri -%20 daha ucuzdur. Karakol görüş menzili +%20 artar.",
+   "t": "Mevzi Mimarlığı"
+  },
+  "od-5": {
+   "d": "Köylüler, diğer medeniyetlerden +40% daha fazla kaynak taşır.",
+   "t": "Çekçekler"
+  },
+  "od-6": {
+   "d": "Şehir Merkezi etki alanında inşa edilmiş binalar Acil Onarımlar yeteneğini kazanır ve bu da binanın 20 saniye boyunca her saniye +150 sağlıkla onarılması için etkinleştirilebilir.",
+   "t": "Nüfuz"
+  },
+  "od-7": {
+   "d": "Yaldızlı Silahşor ve Yaldızlı Şövalye gibi Tarikatın elit piyade ve süvari birimlerinin sağlığı normal birimlere kıyasla neredeyse iki kat daha fazladır ve çok daha fazla hasar verir. Bununla birlikte bu birimleri eğitmek daha pahalıdır ve iki kat nüfus alanı gerektirir.",
+   "t": "Özgün Birimler"
+  },
+  "ot-1": {
+   "d": "Belirli türde bir birimi sürekli olarak ücretsiz üretebilecek Askeri Okul inşa et, ancak üretim hızı daha yavaş olacak.",
+   "t": "Askeri Okul Eğitimi"
+  },
+  "ot-2": {
+   "d": "Birim eğitmek ve çağ atlamak Vezir Puanı için deneyim sağlar, eylemin maliyeti ne kadar yüksek olursa, o kadar fazla deneyim kazanılır. Beş adede kadar Vezir Puanı kazan ve bunları güçlü özgün Osmanlı bonuslarının kilidini açmak için harca.",
+   "t": "Divan-ı Hümayun"
+  },
+  "ot-3": {
+   "d": "Daha ucuz askeri ve teknolojik binalarla bir orduyu eğit, yükselt ve topla.",
+   "t": "Askeri Teşvik"
+  },
+  "ot-4": {
+   "d": "Ticaret Gemilerinin, Balıkçı Gemilerinin ve Nakliye Gemilerinin hareket hızı artar.",
+   "t": "Nakliye Rotaları"
+  },
+  "ot-5": {
+   "d": "Bir Demirci veya Üniversite nüfuzu altında inşa edilen askeri üretim binaları, her çağ atlamayla artan üretim hızı kazanır.",
+   "t": "Nüfuz"
+  },
+  "ot-6": {
+   "d": "Sipahi: Atlı yerine geçer. Metanet yeteneğini etkinleştirerek daha hızlı saldırır ancak yakın dövüş silahlarından aldığı hasar artar.\nMehter: Savaş Davulları yeteneğini açtığında yakındaki birimlere askerî iyileştirmeler sağlayan atlı savaş davulcusu.\n• Saldırı Davulları: Artırılmış saldırı hızı.\n• Yakın Dövüş Savunma Davulları: Artırılmış yakın dövüş zırhı.\n• Menzilli Savunma Davulları: Artırılmış menzilli zırh.\nYeniçeri: Kuşatma makinelerini tamir edebilen ve süvarilere bonus hasar verebilen güçlü tüfekçi.\nBüyük Kadırga: Yüzen bir Harbiye Mektebine dönüşebilen büyük savaş kadırgası.\nBüyük Gülle Topu: Sahaya sürülebilecek en büyük barutlu kuşatma makinesi. Uzun menzile ve alan hasarlı saldırıya sahiptir.\nAkıncı: Peş peşe hızlı bir şekilde iki ok atan uzun menzilli süvari. İmparatorluk Meclisinden kilidinin açılması gerekir.",
+   "t": "Özgün Birimler"
+  },
+  "ru-1": {
+   "d": "Karakolların yerini alan Ahşap Hisarlar ile kırsalı güçlendir — +100% sağlık ve +3 garnizon yuvası ile birlikte gelir.\nGüçlendirilmiş Çit Sur’u inşa et +100% sağlık ve daha hızlı inşa süresi ile birlikte gelir.",
+   "t": "Ormanlık Federasyonu"
+  },
+  "ru-2": {
+   "d": "Topraklarını Av Kulübelerinde eğitilmiş Öncülerle geçindir. Av Kulübeleri, standart bir Değirmen’in faydalarını sağlamasının yanı sıra Gizlilik Ormanlarını görme ve yakındaki ağaçların sayısına göre Altın üretme yeteneğine sahiptir.",
+   "t": "Avcı Prensler"
+  },
+  "ru-3": {
+   "d": "Feodal Çağ’da (II) İlk Şövalye sahaya çıkar.",
+   "t": "Drujina Maiyeti"
+  },
+  "ru-4": {
+   "d": "Lodya gemisi, bir maliyet karşılığında her türlü gemiye dönüştürülebilir.\nLodya Balıkçı Gemileri, Yiyecekleri doğrudan gemide işler - Yiyecek bırakmak için Rıhtıma dönmesine gerek yoktur.",
+   "t": "Lodya Yeniden Yapılandırması"
+  },
+  "ru-5": {
+   "d": "Hayvanlardan toplama yapmak bir miktar Altın kazandırır. Ayrıca belirli toplam ödül eşiklerine ulaşmak, Köylülere ve Av Kulübelerine ekonomi bonusu sağlar.\n100 Ödül\n• +%5 Yiyecek toplama hızı\n• Av Kulübeleri %10 daha fazla Altın üretir.\n400 Ödül\n• +%10 Yiyecek toplama hızı\n• Av Kabinleri %25 daha fazla Altın üretir.\n1000 Ödül\n• +%15 Yiyecek toplama hızı\n• Av Kabinleri %40 daha fazla Altın üretir.",
+   "t": "Ödül Getirileri"
+  },
+  "ru-6": {
+   "d": "Kesintisiz girişimleri denetle — Köylüler, Kereste Kampları ve Şehir Merkezleri bir Ahşap Hisar’ın nüfuz alanındayken +%20 daha fazla Odun bırakır.",
+   "t": "Nüfuz"
+  },
+  "ru-7": {
+   "d": "Savaşçı Keşiş: Savaştayken yakındaki birimleri cesaretlendirip +1 zırh ve +2 hasar sağlayan dini hafif süvari birimi.\nAtlı Okçu: Yüksek hareketliliğe ve hasara sahip hafif menzilli süvari.\nStreltsıy: Hareketsiz kaldığında güçlenen ve yüksek hasarlı yakın dövüş saldırısına sahip bir Tüfekçi.\nLodya gemileri: Herhangi bir gemi türüne dönüştürülebilir.",
+   "t": "Özgün Birimler"
+  },
+  "sen-1": {
+   "d": "Daimyo Konakları eşsiz binalardır ve üç klandan birine tayin edilebilirler. Hojo klanı yakın dövüşçü piyadeleri geliştirir, Oda klanı menzilli piyadeleri geliştirir ve Takeda klanı süvarileri geliştirir. Daimyo Konağı aynı zamanda askerî binaların üretim hızını artıran bir nüfuza sahiptir.",
+   "t": "Daimyo Konağı"
+  },
+  "sen-2": {
+   "d": "Matsuri, Yatai üretebilen eşsiz bir erken dönem Pazarıdır. Yatai'ler, 2 kutucuk içerisindeki Yiyecek kaynaklarından onları öldürmeden veya tüketmeden pasif bir şekilde yavaşça yiyecek üreten eşsiz işçi birimidir. Yatai yeterli miktarda Yiyecek toplarsa Matsuri'ye Yiyecek Tüccarı yollar ve bu da çevredeki Köylülerin toplama hızını artıran aurayı iyileştirir.",
+   "t": "Yatai ve Matsuri"
+  },
+  "sen-3": {
+   "d": "Demirhane, Altın ve Taş bırakma yeridir. Madencilik Kampı ve Demircinin yerini alır. Ek olarak Karanlık Çağ'da (I) fazladan yakın dövüş hasarı teknolojisi sağlar. Çiftlik Evi hem nüfus sağlar hem de yiyecek bırakma yeri olarak Değirmenin yerini alır.",
+   "t": "Çiftlik Evi ve Demirhane"
+  },
+  "sen-4": {
+   "d": "İmparatorluk Çağı'nda (IV) daha yüksek maliyet karşılığında artırılmış cana ve Roket Mevzilerine sahip daha güçlü İç Kaleye erişim sağlar. Roketler hızlı saldırılar yapar ve tekli hedeflere büyük hasarlar verir.",
+   "t": "Oda'nın Hisarı"
+  },
+  "sen-5": {
+   "d": "Köylüler Altın biriktirdikçe %20 ilave Taş üretilir. Bu durumun tersi de geçerlidir.",
+   "t": "Gümüş Madenciliği"
+  },
+  "sen-6": {
+   "d": "Balıkçı Tekneleri %25 daha ucuza üretilir.",
+   "t": "Balıkçı Köyü"
+  },
+  "sen-7": {
+   "d": "Haritadaki tüm Geyiklerin ve Yaban Domuzlarının konumu ortaya çıkarılır.",
+   "t": "Geyik ve Yaban Domuzu Bulma"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "İş Yoldaşları"
+  },
+  "tug-2": {
+   "d": "İlim ve irfan arayışındaki Tuğluk Hanedanı, araştırma teknolojilerine daha fazla kaynak sunar ve araştırmaların neredeyse anında tamamlanmasını sağlar.",
+   "t": "Bilginlik"
+  },
+  "tug-3": {
+   "d": "Tuğlukabad Kalesiyle düşmanlarına korku saç. Feodal Çağ'dan (II) itibaren inşa edilebilen bu savunma binası geliştirildiğinde canı ve verdiği hasar miktarı artar, ayrıca sana Vali seçimi yapma hakkı sunar.",
+   "t": "Efsanevi Hisarlar"
+  },
+  "tug-4": {
+   "d": "Tuğluk Hanedanı'nın gücüne güç katmak için Tuğlukabad Kalesindeki altı Validen birini seç. Valinin gücü her Tuğlukabad Kalesi geliştirmesiyle artar. Valiler ekonomi, tempo, askeriye, araştırma ve din alanlarında çeşitli bonuslar verir.\nKale başına yalnızca bir Vali etkin olabilir.",
+   "t": "Vali Desteği"
+  },
+  "tug-5": {
+   "d": "Köylüler, Böğürtlenleri %30 daha hızlı toplar fakat Yaban Domuzlarından Yiyecek elde edemez.\nKöylüler, Böğürtlen Çalılarından +3 daha fazla Yiyecek alıp taşır",
+   "t": "Sepetçilik"
+  },
+  "tug-6": {
+   "d": "Çit Sur inşa edebilen piyade birimlerini kullanarak güçlendirilmiş yerleşim yerleri kur.",
+   "t": "Hudut Tahkimleri"
+  },
+  "tug-7": {
+   "d": "Balıkçı Gemileri menzilli bir saldırıyla kendini savunabilir ve fazladan %50 sağlığa sahiptir.",
+   "t": "Savunma Güverte Tayfası"
+  },
+  "tug-8": {
+   "d": "Akıncı Fil: Akınlarda, kanatlardan saldırmada ve menzilli birimlere karşı yapılan saldırılarda etkili olan hızlı filler. Bölgedeki tüm birimleri ezip geçerek alana hasar verebilir.\nŞifacı Fil: Yüksek cana ve zırha sahip, üzerinde taşıdığı iki İmamla birimleri bireysel olarak iyileştirebilen yakın muharebe birimi.\nSavaş Fili: Yüksek cana, hasara ve güçlü bir kuşatma saldırısına sahip; üzerinde bir Mızraklı Asker taşıyan ağır yakın dövüş süvari birimi.\nBalista Fili: Taşıdığı balistayla yakın dövüş birimlerine karşı etkili, birden fazla hedefi delip geçebilen saldırılar gerçekleştiren menzilli fil.",
+   "t": "Özgün Birimler"
+  },
+  "zx-1": {
+   "d": "Yolculuğuna Tang Hanedanlığında başla - Simge maliyetleri -%15 azalır ve Köyün kilidi açılır.\nÖzel bonuslar, özgün binalar ve birimlerle Hanedanlıklara başlamak için bir Çağda her iki Simgeyi da inşa et.\n• Song: Ekonomi ve Nüfus binalarının odun maliyetinde -%30 indirim - Ambarın inşasının kilidini açar.\n• Yuan: Tüm birimlerde %10 indirim - Pagoda'nın inşasının kilidini açar.\n• Ming: Özgün Birimler +%20 hasar verir.",
+   "t": "Büyük Hanedanlar"
+  },
+  "zx-2": {
+   "d": "Eğitilen birimler, araştırılan teknolojiler ve bırakılan kaynaklar, İmparatorluk Memurları tarafından toplanabilecek vergiler (Altın) oluşturur. Lu Dağı Akademisi ve Zhu Xi'nin Kütüphanesinden gelen benzersiz idari teknolojiler, İmparatorluk Memurlarını büyük ölçüde geliştirir.",
+   "t": "Vergiler"
+  },
+  "zx-3": {
+   "d": "Hanedan kurmadan Zhuge Nu ve El Bombacısına eriş. Simgeler güçlü Shaolin Keşişlerinin, Yuan Akıncılarının ve İmparatorluk Muhafızlarının kilidini açabilir. İlkel Saray Muhafızları Feodal Çağ'da eğitilebilir.",
+   "t": "Hanedan Birimleri"
+  },
+  "zx-4": {
+   "d": "Oyuna ücretsiz verilen Kimya teknolojisi ile başla; savunma binalarında Savunma Ok Yarıkları yerine Tüfek Yarıkları kullanılır.",
+   "t": "Barut Üstatları"
+  },
+  "zx-5": {
+   "d": "Köylüler savunmaları +%50 daha hızlı ve diğer tüm binaları +%100 daha hızlı inşa eder. Rıhtımlar +%10 daha hızlı çalışır.",
+   "t": "Seri Üretimler"
+  },
+  "zx-6": {
+   "d": "İmparatoru korumak için Feodal Çağ'da İlkel Saray Muhafızı eğit.",
+   "t": "Sarayı Koru"
+  },
+  "zx-7": {
+   "d": "İmparatorluk Memuru: Denetleme yeteneğini kullanarak araştırma ve askeriye binalarının üretim hızını +%150tır. Ekonomi binalarını denetlemek, Köylülerin bıraktığı kaynak miktarını +%20artırır.\nZhuge Nu: Okçuların yerini alır. Hafif birimlere karşı etkili hızlı seri saldırıya sahip hafif menzilli piyade.\nSaray Muhafızı: Silahşor alternatifi. Hareket hızı yerine zırha sahip ağır yakın dövüş piyadesi.\nArı Kovanları: Mangonel alternatifi. Bir roket yağmuru ateşleyen ve alan etkisi hasarı veren kuşatma makinesi.\nEl Bombacısı: Etki alanı hasarı veren el bombaları atan hafif menzilli barutlu piyade.",
+   "t": "Özgün Birimler"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}
