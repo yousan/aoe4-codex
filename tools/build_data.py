@@ -94,6 +94,17 @@ UI = {
         'tip.charge': '突進（チャージ）攻撃の威力', 'tip.prov': '仮訳 — 公式の日本語名は未確認',
         'tip.cost': '合計 {n}', 'tip.vs': '対 {c} +{v}', 'builtByUnits': '歩兵ユニットが建設',
         'legend': 'アイコン凡例', 'note': '数値は基礎値。アップグレード・文明ボーナスは含まない。',
+        'report': '間違いを報告', 'reportTip': 'この文明のデータの誤りを GitHub の Issue で知らせる',
+        'report.title': '[データ] {civ}: ',
+        'report.body': ('## 何が違っていたか\n\n'
+                        '（ユニット名 / 項目 / このサイトの値 → ゲーム内の値 の順で書いてもらえると助かります）\n\n'
+                        '例: 竜軍兵（第III時代）/ 攻撃力 / 18 → 17\n\n\n'
+                        '## スクリーンショット（あれば）\n\n\n'
+                        '## 環境\n\n'
+                        '- 文明: {civ} (`{code}`)\n'
+                        '- 見ていたページ: {url}\n'
+                        '- 対応パッチ: {patch}\n'
+                        '- 表示言語: {lang}\n'),
     },
     'en': {
         'title': 'AoE4 Units', 'pickCiv': 'Choose a civilization', 'units': 'units',
@@ -107,6 +118,17 @@ UI = {
         'tip.charge': 'Charge attack damage', 'tip.prov': 'Unofficial translation',
         'tip.cost': 'Total {n}', 'tip.vs': 'vs {c} +{v}', 'builtByUnits': 'Built by infantry',
         'legend': 'Icons', 'note': 'Base values. Upgrades and civ bonuses are not included.',
+        'report': 'Report an error', 'reportTip': 'Open a GitHub issue about this civilization\'s data',
+        'report.title': '[data] {civ}: ',
+        'report.body': ('## What is wrong\n\n'
+                        '(Unit / stat / value on this site -> value in game)\n\n'
+                        'Example: Gilded Man-at-Arms (Age III) / attack / 18 -> 17\n\n\n'
+                        '## Screenshot (optional)\n\n\n'
+                        '## Context\n\n'
+                        '- Civilization: {civ} (`{code}`)\n'
+                        '- Page: {url}\n'
+                        '- Game patch of the data: {patch}\n'
+                        '- Language: {lang}\n'),
     },
 }
 DISCLAIMER_I18N = {
@@ -177,6 +199,7 @@ def main():
         'atkIcon': L.ATK_ICON,
         'roman': L.ROMAN,
         'ui': UI,
+        'repo': 'https://github.com/yousan/aoe4units',
         'disclaimer': DISCLAIMER_I18N,
     }
 

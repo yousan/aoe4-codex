@@ -75,6 +75,11 @@ function render() {
   $('#disc').innerHTML = L(META.disclaimer);
   $('#print').textContent = `🖨 ${t('print')}`;
   $('#home').textContent = t('home');
+  for (const el of document.querySelectorAll('.report')) {
+    el.href = reportURL();
+    el.textContent = `⚑ ${t('report')}`;
+    el.title = t('reportTip');
+  }
 
   if (!state.civ || !META.civs[state.civ]) {
     document.title = t('title');
@@ -117,6 +122,19 @@ function go(patch, push = true) {
   writeURL(push);
   render();
   window.scrollTo({ top: 0 });
+}
+
+/* ---------------- 誤りの報告（GitHub Issue） ---------------- */
+function reportURL() {
+  const code = state.civ;
+  const civ = code ? civName(code) : '-';
+  const vars = { civ, code: code || '-', url: location.href, patch: META.patch, lang: lang() };
+  const q = new URLSearchParams({
+    labels: 'data',
+    title: t('report.title', vars),
+    body: t('report.body', vars),
+  });
+  return `${META.repo}/issues/new?${q}`;
 }
 
 /* ---------------- 印刷 ---------------- */
