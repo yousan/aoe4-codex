@@ -79,6 +79,7 @@ letter-spacing:.1em;margin:6px 0 2px}}
 {"".join(secs)}
 <div class="sec"><h2>属性アイコン</h2><div class="lgwrap">{legend_attrs}</div></div>
 <div class="sec"><h2>ステータスアイコン</h2><div class="lgwrap">{legend_stats}</div></div>
+<footer class="disc">{L.DISCLAIMER}</footer>
 </body></html>'''
 
 out = os.path.join(ROOT, f'aoe4-{CIV}.html')

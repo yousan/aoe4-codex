@@ -8,7 +8,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data', 'units-all.json')
 
 RAW = json.load(open(DATA))['data']
-IMG = 'https://data.aoe4world.com/images/units/'
+IMG = 'https://data.aoe4world.com/images/units/'   # 元データ側のURL（接頭辞の除去に使う）
+IMG_BASE = 'assets/units/'                          # 表示はリポジトリ内のミラーを使う
 
 # ---------------------------------------------------------------- 日本語名
 # 出典: AoE4攻略Wiki(AoE Haul) の日本語ユニット名 + ゲーム内表記
@@ -209,6 +210,14 @@ STAT_JP = {'i-hp': 'HP', 'i-melee': '近接攻撃', 'i-ranged': '遠隔攻撃', 
            'i-gold': '金', 'i-stone': '石'}
 ROMAN = ['', 'I', 'II', 'III', 'IV']
 
+DISCLAIMER = ('Age Of Empires 4 © Microsoft Corporation. — '
+              'aoe4units は Microsoft の <a href="https://www.xbox.com/en-US/developers/rules" '
+              'target="_blank" rel="noopener">Game Content Usage Rules</a> に基づき '
+              'Age of Empires IV のアセットを利用して作成された非公式のファンツールで、'
+              'Microsoft によって承認・提携されたものではありません。 '
+              'データ: <a href="https://github.com/aoe4world/data" target="_blank" rel="noopener">aoe4world/data</a>')
+
+
 
 def ico(name, cls=''):
     return f'<svg class="ic {cls}"><use href="#{name}"/></svg>'
@@ -276,7 +285,7 @@ def card(u, mode='kanji', big=False):
     cost_html = (''.join(f'<span class="c r-{k}">{ico(c)}{u[k]}</span>' for k, c, _ in costs)
                  if costs else f'<span class="c r-g">{ico("i-gold")}{u["tot"]}</span>')
     return f'''<div class="card a{u['a']}{' big' if big else ''}">
-  <div class="hd"><img src="{IMG}{u['ic']}" alt=""><div class="nm">{name}{sub}</div>
+  <div class="hd"><img src="{IMG_BASE}{u['ic']}" alt=""><div class="nm">{name}{sub}</div>
     <div class="age">{ROMAN[u['a']]}</div></div>
   {attr_row(u, mode)}
   <div class="body"><div class="col">{''.join(left)}</div><div class="col">{''.join(right)}</div></div>
@@ -388,5 +397,8 @@ background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12
  .lgwrap{border-color:#b5a68e;break-inside:avoid}
  h1,h2{color:#4a3609}
 }
+.disc{margin-top:26px;padding-top:12px;border-top:1px solid var(--line);
+color:var(--dim);font-size:10.5px;line-height:1.7}
+.disc a{color:var(--gold)}
 .note{color:var(--dim);font-size:11.5px;line-height:1.7;margin-top:8px;max-width:900px}
 '''

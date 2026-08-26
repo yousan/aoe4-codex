@@ -179,6 +179,7 @@ table.mx tbody tr:nth-child(odd) td{{background:#171411}}
 <div class="printonly">{psecs}</div>
 <div class="sec lgsec"><h2>属性アイコン</h2><div class="lgwrap">{legend_attrs}</div></div>
 <div class="sec"><h2>ステータスアイコン</h2><div class="lgwrap">{legend_stats}</div></div>
+<footer class="disc">{L.DISCLAIMER}</footer>
 </body></html>'''
 
 out = os.path.join(ROOT, f'aoe4-{CIV}-matrix.html')

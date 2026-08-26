@@ -23,10 +23,13 @@ Age of Empires IV のユニットデータを、時代・生産施設ごとに�
 ## データについて
 
 - 出典: [aoe4world/data](https://github.com/aoe4world/data) の `units/all.json`
-  （ゲームファイルから自動抽出されたもの）
+  （ゲームファイルから自動抽出されたもの）。`data/units-all.json` としてリポジトリに含めている
+- ユニットアイコンも同じ出典から `assets/units/` にミラーしている（396枚）。
+  外部サイトへのホットリンクはしていないので、クローンすればオフラインでも完全に表示できる
 - 対応パッチ: **Season 13 / patch 16.1.9737**（元データの最終更新 2026-05-04）。
   それ以降のバランス調整は反映されていない
 - 数値はすべて **基礎値**。技術アップグレード・文明ボーナス・オーラの類は含まない
+- 再取得は `./tools/fetch.sh`（データとアイコンをまとめて更新する）
 
 ### 数値の扱いで気をつけていること
 
@@ -64,6 +67,16 @@ python3 tools/build_matrix.py od  # aoe4-od-matrix.html
   （現状は各 HTML にデータが埋め込まれていて、ページを増やすたびに重複する）
 - 他の文明にも対応する（データ側は全23文明ぶん入っている）
 
-## 注記
+## データの出典と権利
 
-ゲームの数値は Relic Entertainment / Microsoft のものです。このリポジトリは非公式のファンツールです。
+元データの [aoe4world/data](https://github.com/aoe4world/data) は README で
+「All of this data is open source, you may use it in your projects, websites, and apps.」
+と再利用を認めており、同時に Microsoft の
+[Game Content Usage Rules](https://www.xbox.com/en-US/developers/rules) の遵守（＝非商用であること）を
+条件としている。このリポジトリはその条件に従って、データとアイコンを同梱している。
+
+> Age Of Empires 4 © Microsoft Corporation.
+> aoe4units は Microsoft の "Game Content Usage Rules" に基づき Age of Empires IV のアセットを
+> 利用して作成された非公式のファンツールで、Microsoft によって承認・提携されたものではありません。
+
+日本語名の出典は [AoE4 攻略wiki](https://aoe4.upgame.jp/) と AoE Haul wiki。

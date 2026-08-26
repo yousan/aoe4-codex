@@ -212,7 +212,7 @@ function render(){
     if(byAge&&u.a!==age){age=u.a;out+=`<tr class="sec"><td colspan="19">第 ${['','I','II','III','IV'][age]} 時代</td></tr>`;i=0;}
     const cls=(i++%2)?'even':'odd';
     out+=`<tr class="${cls}" data-i="${VIEW.indexOf(u)}">
-<td class="sk"><img class="ic" loading="lazy" src="https://data.aoe4world.com/images/units/${u.ic}" onerror="this.style.visibility='hidden'"></td>
+<td class="sk"><img class="ic" loading="lazy" src="assets/units/${u.ic}" onerror="this.style.visibility='hidden'"></td>
 <td class="l sk2"><span class="nm">${u.n}</span>${u.uq?'<span class="uq">◆</span>':''}</td>
 <td><span class="age v${u.a}">${u.a}</span></td>
 <td class="l"><span class="cat">${u.cat}</span></td>
