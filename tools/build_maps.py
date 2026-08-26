@@ -38,6 +38,8 @@ GAMES = 'https://aoe4world.com/api/v0/games'
 
 # 鹿の群れサイズ（頭数）。ゲーム内の生成タグに対応する
 HERD = {'micro': 2, 'small': 3, 'medium': 5, 'large': 7, 'extra large': 10}
+# 果実の茂みのパッチサイズ（茂みの数）。small / straggler は2個
+BUSH = {'straggler': 2, 'small': 2, 'medium': 6, 'large': 8}
 SIZES = ['1v1', '2v2', '3v3', '4v4']
 PLAYERS = {'1v1': 2, '2v2': 4, '3v3': 6, '4v4': 8}
 
@@ -172,26 +174,38 @@ def parse_relics(s, size):
     return count_for(s, size)
 
 
-def parse_deer(s, size):
-    """'Large: 2 per player' / '2 large per player' / 'Medium: 3 per player Small: 2 per player'
-    → [{size, herds, head}]。頭数まで出す"""
+def parse_groups(s, size, table):
+    """'Large: 1 per player / Medium: 2 per player' のような内訳を
+    [{size, groups, count}] に開く。count は頭数（鹿）／茂みの数（果実）。
+
+    「/」で区切られた節ごとに見て、その節に 'per player' があれば節内の全部を人数倍する。
+    'Large: 1 per player / Small: 4/6/12/24' のように節ごとに書式が違うことがあるため。
+    """
     if not s:
         return []
+    names = '|'.join(sorted(table, key=len, reverse=True))
     out = []
-    pat = (r'(micro|small|medium|large|extra large)\s*:?\s*(\d+)\s*(per player)?'
-           r'|(\d+)\s*(micro|small|medium|large|extra large)\s*(per player)?')
-    for m in re.finditer(pat, s, re.I):
-        if m.group(1):
-            sz, n, pp = m.group(1).lower(), int(m.group(2)), bool(m.group(3))
-        else:
-            sz, n, pp = m.group(5).lower(), int(m.group(4)), bool(m.group(6))
-        herds = n * PLAYERS[size] if pp else n
-        out.append({'size': sz, 'herds': herds, 'head': herds * HERD[sz]})
-    if not out:
-        four = slash4(s)
-        if four:
-            out.append({'size': 'large', 'herds': four[size], 'head': four[size] * HERD['large']})
+    for clause in re.split(r'\s*/\s*(?=[A-Za-z])', s):
+        pp = bool(re.search(r'per player', clause, re.I))
+        four = slash4(clause)
+        for m in re.finditer(rf'({names})\s*:?\s*(\d+)|(\d+)\s*({names})', clause, re.I):
+            sz = (m.group(1) or m.group(4)).lower()
+            n = int(m.group(2) or m.group(3))
+            groups = four[size] if four else (n * PLAYERS[size] if pp else n)
+            out.append({'size': sz, 'groups': groups, 'count': groups * table[sz]})
+            if four:
+                break
     return out
+
+
+def parse_deer(s, size):
+    return [{'size': g['size'], 'herds': g['groups'], 'head': g['count']}
+            for g in parse_groups(s, size, HERD)]
+
+
+def parse_berries(s, size):
+    return [{'size': g['size'], 'patches': g['groups'], 'bushes': g['count']}
+            for g in parse_groups(s, size, BUSH)]
 
 
 # ---------------------------------------------------------------- 3. 画像
@@ -284,6 +298,7 @@ def main():
         }
         for size in SIZES:
             deer = parse_deer(raw['deer'], size)
+            berries = parse_berries(raw['berries'], size)
             rec['bySize'][size] = {
                 'sacredSites': count_for(raw['sacredSites'], size),
                 'tradePosts': count_for(raw['tradePosts'], size),
@@ -292,6 +307,8 @@ def main():
                 'boar': count_for(raw['boar'], size),
                 'deer': deer,
                 'deerHead': sum(d['head'] for d in deer) or None,
+                'berries': berries,
+                'berryBushes': sum(b['bushes'] for b in berries) or None,
             }
         img = os.path.join(imgdir, f'{s}-1v1.jpg')
         if os.path.exists(img):
@@ -306,6 +323,7 @@ def main():
         print(f'  {n:18} 聖地{rec["bySize"]["1v1"]["sacredSites"]} '
               f'聖遺物{rec["bySize"]["1v1"]["relics"]} 羊{rec["bySize"]["1v1"]["sheep"]} '
               f'鹿{rec["bySize"]["1v1"]["deerHead"]}頭 '
+              f'果実{rec["bySize"]["1v1"]["berryBushes"]}個 '
               f'{"画像あり" if rec["img"] else "画像なし"}{flag}')
         maps[s] = rec
         time.sleep(0.3)
@@ -320,11 +338,13 @@ def main():
     notes = json.load(open(os.path.join(ROOT, 'tools', 'maps-notes.ja.json'), encoding='utf-8'))
     for s, rec in maps.items():
         rec['notes'] = notes['notes'].get(s, [])
+        rec['startDeer'] = notes['startDeer'].get(s)
 
     out = {
         'generated': time.strftime('%Y-%m-%d'),
         'rotation': time.strftime('%Y-%m'),
         'herdSizes': HERD,
+        'bushSizes': BUSH,
         'pools': {'rm_solo': list(pool['rm_solo']), 'rm_team': list(pool['rm_team'])},
         'samples': pool,
         'sources': {

@@ -26,15 +26,19 @@ const AMT_JA = [
 const feat = f => FEAT_JA[f] || f;
 const amt = s => AMT_JA.reduce((a, [re, to]) => a.replace(re, to), s || '');
 
-// 群れサイズの日本語。頭数は data 側の herdSizes に入っている
-const HERD_JA = { micro: '極小', small: '小', medium: '中', large: '大', 'extra large': '特大' };
+// 群れ／パッチのサイズの日本語。実数は data 側の herdSizes / bushSizes に入っている
+const SIZE_JA = { micro: '極小', small: '小', straggler: '小', medium: '中', large: '大', 'extra large': '特大' };
 
+// 上段の2列グリッドに出す行
 const ROWS = [
   ['sacredSites', '聖地', 'raw.sacredSites'],
   ['tradePosts', '集落交易所', 'raw.tradePosts'],
   ['relics', '聖遺物', 'raw.relics'],
   ['sheep', '羊', 'raw.sheep'],
 ];
+
+// 初期鹿の距離。data 側は 近い / やや近い / 遠い / null（＝wikiに記述なし）
+const NEAR_CLS = { '近い': 'near', 'やや近い': 'mid', '遠い': 'far' };
 
 let DATA = null;
 let pool = 'rm_solo';
@@ -43,14 +47,19 @@ function dig(o, path) {
   return path.split('.').reduce((a, k) => (a == null ? a : a[k]), o);
 }
 
-function deerText(deer, herdSizes) {
-  if (!deer || !deer.length) return null;
-  const parts = deer.map(d => {
-    const head = herdSizes[d.size];
-    return `${HERD_JA[d.size] || d.size}(${head}頭) × ${d.herds}群`;
-  });
-  const total = deer.reduce((a, d) => a + d.head, 0);
-  return { parts, total };
+// 鹿と果実の茂みは「サイズ × 群れ数」で持っているので、内訳と総数の両方を出す
+function groupRow(label, groups, sizes, unit, groupUnit, rawText) {
+  const r = el('div', 'mrow wide');
+  if (!groups || !groups.length) {
+    r.append(el('span', 'k', label), el('span', 'v', amt(rawText) || '—'));
+    return r;
+  }
+  const total = groups.reduce((a, g) => a + (g.head ?? g.bushes), 0);
+  const parts = groups.map(g =>
+    `${SIZE_JA[g.size] || g.size}(${sizes[g.size]}${unit}) × ${g.herds ?? g.patches}${groupUnit}`);
+  r.append(el('span', 'k', label), el('span', 'v', `${total}${unit}`),
+    el('span', 'sub', parts.join(' ＋ ')));
+  return r;
 }
 
 function card(m, size, withImg) {
@@ -93,20 +102,24 @@ function card(m, size, withImg) {
     st.append(r);
   }
 
-  const d = deerText(b.deer, DATA.herdSizes);
-  const dr = el('div', 'mrow deer');
-  dr.append(el('span', 'k', '鹿'),
-    el('span', 'v', d ? `${d.total}頭` : (amt(m.raw.deer) || '—')));
-  if (d) dr.append(el('span', 'sub', d.parts.join(' ＋ ')));
-  st.append(dr);
+  st.append(groupRow('鹿', b.deer, DATA.herdSizes, '頭', '群', m.raw.deer));
+  st.append(groupRow('果実の茂み', b.berries, DATA.bushSizes, '個', 'か所', m.raw.berries));
 
-  const br = el('div', 'mrow');
+  const br = el('div', 'mrow wide');
   br.append(el('span', 'k', 'イノシシ'), el('span', 'v', b.boar != null ? String(b.boar) : (amt(m.raw.boar) || '—')));
   st.append(br);
+
+  if (m.startDeer) {
+    const sd = el('div', 'mrow wide');
+    const cls = NEAR_CLS[m.startDeer.near] || 'unk';
+    sd.append(el('span', 'k', '初期の鹿'),
+      el('span', `nb ${cls}`, m.startDeer.near || '記述なし'),
+      el('span', 'sub', m.startDeer.text));
+    st.append(sd);
+  }
   c.append(st);
 
-  const extra = [['果実の茂み', m.raw.berries], ['黄金', m.raw.gold], ['石材', m.raw.stone]]
-    .filter(([, v]) => v);
+  const extra = [['黄金', m.raw.gold], ['石材', m.raw.stone]].filter(([, v]) => v);
   if (extra.length) {
     const ex = el('div', 'mextra');
     extra.forEach(([k, v]) => ex.append(el('div', null, `<b>${k}</b> ${amt(v)}`)));
@@ -139,7 +152,12 @@ function render() {
   lead.innerHTML = `<p><b>${DATA.rotation} のローテーション / ${names.length}マップ</b>
     　聖遺物は「基本3 + プレイヤー数」で決まるので、${p.label === '1v1' ? '1v1は基本5個' : 'サイズごとに増える'}。
     鹿の群れは 小=${DATA.herdSizes.small}頭 / 中=${DATA.herdSizes.medium}頭 / 大=${DATA.herdSizes.large}頭 /
-    特大=${DATA.herdSizes['extra large']}頭。1頭あたり食料350、採集レート0.825/秒。</p>`;
+    特大=${DATA.herdSizes['extra large']}頭で、1頭あたり食料350・採集0.825/秒。
+    果実の茂みは 小=${DATA.bushSizes.small}個 / 中=${DATA.bushSizes.medium}個 / 大=${DATA.bushSizes.large}個で、
+    1個あたり食料250・採集0.69/秒。</p>
+    <p>「初期の鹿」は自陣の近くに鹿が湧くかどうか。<b class="nb near">近い</b> は初期資源として付いてくるもの、
+    <b class="nb mid">やや近い</b> は自陣側だが射程外、<b class="nb far">遠い</b> は争点エリアにしか湧かないもの。
+    wiki に記述が無いマップは<b class="nb unk">記述なし</b>とし、憶測では埋めていない。</p>`;
   if (!p.img) lead.innerHTML += `<p class="warn">チーム戦は ${p.size} の数値で表示している。
     資源配置画像は1v1の生成例しか用意していないので、ここでは出していない。</p>`;
   main.append(lead);

@@ -304,3 +304,16 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
  .mft{background:#f7f2e9;border-color:#cdc0a8}
  .noimg{background:#f4efe6}
 }
+.mrow.wide{grid-column:1/-1;border-right:none}
+.nb{border-radius:4px;padding:1px 7px;font-size:11px;font-weight:700;white-space:nowrap}
+.nb.near{background:var(--a1);color:#12201b}
+.nb.mid{background:var(--a4);color:#201a0e}
+.nb.far{background:#4a4238;color:#cbbfa9}
+.nb.unk{background:none;border:1px solid var(--line);color:var(--dim);font-weight:400}
+.mlead .nb{margin:0 1px}
+@media print{
+ .nb.near{background:#cfe3d8;color:#173a2c}
+ .nb.mid{background:#f0dfb6;color:#4a3609}
+ .nb.far{background:#e6e0d4;color:#3d372c}
+ .nb.unk{border-color:#a99b84;color:#5b5344}
+}
