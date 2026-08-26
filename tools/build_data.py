@@ -84,7 +84,7 @@ STAT_I18N = {
 UI = {
     'ja': {
         'title': 'AoE4 ユニット', 'pickCiv': '文明を選ぶ', 'units': 'ユニット',
-        'view.matrix': '生産施設 × 時代', 'view.list': '時代別一覧', 'view.table': '表',
+        'view.matrix': '生産施設 × 時代', 'view.table': '表', 'unitsFilter': 'ユニット',
         'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
         'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計',
@@ -108,7 +108,7 @@ UI = {
     },
     'en': {
         'title': 'AoE4 Units', 'pickCiv': 'Choose a civilization', 'units': 'units',
-        'view.matrix': 'Building × Age', 'view.list': 'By age', 'view.table': 'Table',
+        'view.matrix': 'Building × Age', 'view.table': 'Table', 'unitsFilter': 'Units',
         'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
         'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total',

@@ -1,12 +1,12 @@
 // 画面の組み立て: 文明選択、ビュー切り替え、生産施設フィルタ、言語、URL同期
 import { SPRITE } from './icons.js';
-import { renderMatrix, renderList, renderTable, renderPrintMatrix,
-         availableBuildings, MAIN_COLS } from './views.js';
+import { renderMatrix, renderTable, renderPrintMatrix,
+         availableBuildings, availableLines, MAIN_COLS } from './views.js';
 import { setLang, t, L, lang } from './i18n.js';
 
 const $ = (s) => document.querySelector(s);
-const VIEWS = ['matrix', 'list', 'table'];
-const state = { civ: null, view: 'matrix', blds: null, sort: 'age', asc: true };
+const VIEWS = ['matrix', 'table'];
+const state = { civ: null, view: 'matrix', blds: null, bases: null, sort: 'age', asc: true };
 let DB = null;
 let META = null;
 
@@ -19,6 +19,7 @@ function readURL() {
   state.civ = p.get('civ');
   if (VIEWS.includes(p.get('view'))) state.view = p.get('view');
   state.blds = p.get('b') ? p.get('b').split(',').filter(Boolean) : null;
+  state.bases = p.get('u') ? p.get('u').split(',').filter(Boolean) : null;
   const l = p.get('lang') || localStorage.getItem('aoe4units.lang')
     || (navigator.language || '').slice(0, 2);
   setLang(META && META.langs.includes(l) ? l : 'ja', META && META.ui);
@@ -29,6 +30,7 @@ function writeURL(push = false) {
   if (state.civ) p.set('civ', state.civ);
   if (state.civ) p.set('view', state.view);
   if (state.blds) p.set('b', state.blds.join(','));
+  if (state.bases) p.set('u', state.bases.join(','));
   if (lang() !== 'ja') p.set('lang', lang());
   const url = p.toString() ? `${location.pathname}?${p}` : location.pathname;
   if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
@@ -52,20 +54,34 @@ function renderPicker() {
 }
 
 /* ---------------- 生産施設フィルタ ---------------- */
-function buildingFilter(units) {
+function filterUI(units) {
   const avail = availableBuildings(units, META);
-  const on = new Set(state.blds || avail.filter((b) => MAIN_COLS.includes(b)));
-  const chips = avail.map((b) => `<label class="bchip${on.has(b) ? ' on' : ''}">
-    <input type="checkbox" value="${b}"${on.has(b) ? ' checked' : ''}>${esc(L(META.buildings[b]))}</label>`).join('');
-  return `<div class="bfilter"><span class="blab">${esc(t('buildings'))}</span>${chips}
-    <button class="mini" data-all="1">${esc(t('all'))}</button>
-    <button class="mini" data-all="0">${esc(t('none'))}</button></div>`;
+  const bon = new Set(activeBlds(units));
+  const bchips = avail.map((b) => `<label class="bchip${bon.has(b) ? ' on' : ''}">
+    <input type="checkbox" name="b" value="${b}"${bon.has(b) ? ' checked' : ''}>${esc(L(META.buildings[b]))}</label>`).join('');
+
+  const lines = availableLines(units, META, activeBlds(units));
+  const uon = new Set(activeBases(units));
+  const uchips = lines.map((l) => `<label class="bchip u${uon.has(l.base) ? ' on' : ''}">
+    <input type="checkbox" name="u" value="${l.base}"${uon.has(l.base) ? ' checked' : ''}>${esc(l.label)}</label>`).join('');
+
+  return `<div class="bfilter"><span class="blab">${esc(t('buildings'))}</span>${bchips}
+      <button class="mini" data-all="1" data-kind="b">${esc(t('all'))}</button>
+      <button class="mini" data-all="0" data-kind="b">${esc(t('none'))}</button></div>
+    <div class="bfilter"><span class="blab">${esc(t('unitsFilter'))}</span>${uchips}
+      <button class="mini" data-all="1" data-kind="u">${esc(t('all'))}</button>
+      <button class="mini" data-all="0" data-kind="u">${esc(t('none'))}</button></div>`;
 }
 
 function activeBlds(units) {
   const avail = availableBuildings(units, META);
   const on = state.blds || avail.filter((b) => MAIN_COLS.includes(b));
   return avail.filter((b) => on.includes(b));
+}
+
+function activeBases(units) {
+  const lines = availableLines(units, META, activeBlds(units)).map((l) => l.base);
+  return state.bases ? lines.filter((b) => state.bases.includes(b)) : lines;
 }
 
 /* ---------------- 描画 ---------------- */
@@ -97,12 +113,15 @@ function render() {
   $('#count').textContent = `${units.length} ${t('units')}`;
   $('#views').innerHTML = VIEWS.map((v) =>
     `<button class="vtab${v === state.view ? ' on' : ''}" data-view="${v}">${esc(t('view.' + v))}</button>`).join('');
-  $('#filter').innerHTML = state.view === 'matrix' ? buildingFilter(units) : '';
+  $('#filter').innerHTML = filterUI(units);
 
   let html;
-  if (state.view === 'matrix') html = renderMatrix(units, META, { blds: activeBlds(units) });
-  else if (state.view === 'list') html = renderList(units, META);
-  else html = renderTable(units, META, { sort: state.sort, asc: state.asc });
+  if (state.view === 'matrix') {
+    html = renderMatrix(units, META, { blds: activeBlds(units), bases: activeBases(units) });
+  } else {
+    html = renderTable(units, META,
+      { sort: state.sort, asc: state.asc, bases: activeBases(units) });
+  }
   $('#main').innerHTML = html;
 
   if (state.view === 'table') {
@@ -142,7 +161,7 @@ function preparePrint() {
   if (state.civ && state.view === 'matrix') {
     const units = unitsOfCiv();
     $('#print-area').innerHTML = renderPrintMatrix(units, META, civName(state.civ),
-      { blds: activeBlds(units) }) + legendHTML();
+      { blds: activeBlds(units), bases: activeBases(units) }) + legendHTML();
     document.body.classList.add('pm');
   } else {
     $('#print-area').innerHTML = '';
@@ -167,7 +186,7 @@ function wire() {
   $('#civ').innerHTML = Object.keys(META.civs)
     .sort((a, b) => civName(a).localeCompare(civName(b), lang()))
     .map((c) => `<option value="${c}">${esc(civName(c))}</option>`).join('');
-  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null });
+  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null, bases: null });
 
   $('#views').onclick = (e) => {
     const b = e.target.closest('.vtab');
@@ -177,14 +196,21 @@ function wire() {
 
   $('#filter').onchange = (e) => {
     if (e.target.type !== 'checkbox') return;
-    const on = [...$('#filter').querySelectorAll('input:checked')].map((i) => i.value);
-    go({ blds: on }, false);
+    const pick = (n) => [...$('#filter').querySelectorAll(`input[name=${n}]:checked`)].map((i) => i.value);
+    // 施設を変えると系統の候補も変わるので、系統の選択は入れ直す
+    if (e.target.name === 'b') go({ blds: pick('b'), bases: null }, false);
+    else go({ bases: pick('u') }, false);
   };
   $('#filter').onclick = (e) => {
     const b = e.target.closest('button[data-all]');
     if (!b) return;
-    const avail = availableBuildings(unitsOfCiv(), META);
-    go({ blds: b.dataset.all === '1' ? avail : [] }, false);
+    const units = unitsOfCiv();
+    const on = b.dataset.all === '1';
+    if (b.dataset.kind === 'b') {
+      go({ blds: on ? availableBuildings(units, META) : [], bases: null }, false);
+    } else {
+      go({ bases: on ? availableLines(units, META, activeBlds(units)).map((l) => l.base) : [] }, false);
+    }
   };
 
   $('#langs').onclick = (e) => {
@@ -200,7 +226,7 @@ function wire() {
     const a = e.target.closest('a.civtile');
     if (!a) return;
     e.preventDefault();
-    go({ civ: a.dataset.civ, blds: null });
+    go({ civ: a.dataset.civ, blds: null, bases: null });
   });
 
   $('#print').onclick = () => { preparePrint(); window.print(); };
