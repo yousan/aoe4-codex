@@ -1,4 +1,6 @@
 // ユニットカードの描画。全ビューで共通して使う。
+import { t, L, lang } from './i18n.js';
+
 export const IMG_BASE = 'assets/units/';
 
 export function ico(name, cls = '') {
@@ -22,9 +24,9 @@ function attrRow(u, meta) {
   const out = u.at.map((a) => {
     if (a === 'a-heavy' || a === 'a-light') {
       const heavy = a === 'a-heavy';
-      return `<span class="kj ${heavy ? 'hv' : 'lt'}" data-tip="${esc(meta.attrs[a])}">${heavy ? '重' : '軽'}</span>`;
+      return `<span class="kj ${heavy ? 'hv' : 'lt'}" data-tip="${esc(L(meta.attrs[a]))}">${heavy ? '重' : '軽'}</span>`;
     }
-    return `<span class="at" data-tip="${esc(meta.attrs[a] || a)}">${ico(a)}</span>`;
+    return `<span class="at" data-tip="${esc(L(meta.attrs[a]) || a)}">${ico(a)}</span>`;
   }).join('');
   return `<div class="attrs">${out}</div>`;
 }
@@ -39,14 +41,13 @@ function bonusRow(u, meta) {
       }
       return ico(meta.classIcon[c] || 'a-inf');
     }).join('');
-    const names = b.c.map((c) => meta.attrs[meta.classIcon[c]] || c).join('・');
-    return `<span class="bo up" data-tip="対 ${esc(names)} +${b.v}">+${b.v}${icons}</span>`;
+    const names = b.c.map((c) => L(meta.attrs[meta.classIcon[c]]) || c).join(lang() === 'ja' ? '・' : ', ');
+    return `<span class="bo up" data-tip="${esc(t('tip.vs', { c: names, v: b.v }))}">+${b.v}${icons}</span>`;
   }).join('');
   return `<div class="bonus">${items}</div>`;
 }
 
-const RES = [['f', 'i-food', '食料'], ['w', 'i-wood', '木材'],
-             ['g', 'i-gold', '金'], ['s', 'i-stone', '石']];
+const RES = [['f', 'i-food'], ['w', 'i-wood'], ['g', 'i-gold'], ['s', 'i-stone']];
 
 export function renderCard(u, meta) {
   const w = u.w || {};
@@ -55,34 +56,35 @@ export function renderCard(u, meta) {
   const row = (icon, val, tip) =>
     `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
 
+  const st = (k) => L(meta.stats[k]);
   const left = [
-    row('i-hp', u.hp || '–', 'HP'),
-    row(atk, w.d ?? '–', `攻撃力（${meta.stats[atk] || ''}）`),
-    row('i-dps', w.dps ?? '–', 'DPS（自爆ユニットは出さない）'),
-    row('i-int', w.s || '–', '攻撃間隔（秒）'),
+    row('i-hp', u.hp || '–', st('i-hp')),
+    row(atk, w.d ?? '–', t('tip.atk', { t: st(atk) })),
+    row('i-dps', w.dps ?? '–', t('tip.dps')),
+    row('i-int', w.s || '–', t('tip.int')),
   ];
-  if (u.ch) left.push(row('a-spear', u.ch.d, '突進（チャージ）攻撃の威力'));
+  if (u.ch) left.push(row('a-spear', u.ch.d, t('tip.charge')));
 
   const right = [
-    row('i-range', rng ?? '–', '射程（–は近接）'),
-    row('i-armm', u.am, '近接防御'),
-    row('i-armr', u.ar, '遠隔防御'),
-    row('i-speed', u.mv ?? '–', '移動速度'),
+    row('i-range', rng ?? '–', t('tip.range')),
+    row('i-armm', u.am, st('i-armm')),
+    row('i-armr', u.ar, st('i-armr')),
+    row('i-speed', u.mv ?? '–', st('i-speed')),
   ];
 
   const paid = RES.filter(([k]) => u.cost[k]);
-  const tip = (paid.length ? paid.map(([k, , lbl]) => `${lbl} ${u.cost[k]}`).join(' / ') : '資源内訳なし')
-    + ` / 合計 ${u.cost.tot}`;
+  const tip = (paid.length ? paid.map(([k, icn]) => `${L(meta.stats[icn])} ${u.cost[k]}`).join(' / ') + ' / ' : '')
+    + t('tip.cost', { n: u.cost.tot });
   const cost = paid.length
     ? paid.map(([k, icn]) => `<span class="c r-${k}">${ico(icn)}${u.cost[k]}</span>`).join('')
     : `<span class="c r-g">${ico('i-gold')}${u.cost.tot}</span>`;
 
-  const name = u.jp
-    ? (u.prov
-        ? `<span class="prov" data-tip="仮訳 — 公式の日本語名は未確認">${esc(u.jp)}</span>`
-        : esc(u.jp))
-    : esc(u.n);
-  const sub = u.jp ? `<span class="en">${esc(u.n)}</span>` : '';
+  const ja = lang() === 'ja';
+  const shown = (ja && u.jp) ? u.jp : u.n;
+  const name = (ja && u.jp && u.prov)
+    ? `<span class="prov" data-tip="${esc(t('tip.prov'))}">${esc(shown)}</span>`
+    : esc(shown);
+  const sub = (ja && u.jp) ? `<span class="en">${esc(u.n)}</span>` : '';
 
   return `<div class="card a${u.age}">
   <div class="hd"><img src="${IMG_BASE}${u.ic}" alt="" loading="lazy"><div class="nm">${name}${sub}</div>

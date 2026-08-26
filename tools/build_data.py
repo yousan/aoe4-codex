@@ -56,6 +56,72 @@ BUILDING_ORDER = ['barracks', 'archery-range', 'stable', 'siege-workshop',
                   'dock', 'monastery', 'mosque', 'market', 'military-school',
                   'town-center']
 
+
+# ---- 表示ラベル（ゲーム内表記に合わせる。UI文言だけは自前）
+# en: ゲーム内の英語表記（unit名・建物名は upstream のデータから取る）
+# ja: ゲーム内の日本語表記（AoE4攻略wiki / AoE Haul wiki で確認したもの）
+ATTR_I18N = {
+    'a-heavy': ('重装', 'Heavy'), 'a-light': ('軽装', 'Light'),
+    'a-melee': ('近接', 'Melee'), 'a-ranged': ('遠隔', 'Ranged'),
+    'a-inf': ('歩兵', 'Infantry'), 'a-cav': ('騎兵', 'Cavalry'),
+    'a-camel': ('ラクダ', 'Camel'), 'a-eleph': ('象', 'Elephant'),
+    'a-siege': ('攻城兵器', 'Siege'), 'a-ship': ('艦船', 'Ship'),
+    'a-relig': ('宗教', 'Religious'), 'a-worker': ('労働者', 'Worker'),
+    'a-gun': ('火薬', 'Gunpowder'), 'a-massive': ('巨大', 'Massive'),
+    'a-scout': ('斥候', 'Scout'), 'a-spear': ('槍兵', 'Spearman'),
+    'a-xbow': ('弩兵', 'Crossbowman'), 'a-bow': ('弓兵', 'Archer'),
+}
+STAT_I18N = {
+    'i-hp': ('HP', 'Hitpoints'), 'i-melee': ('近接攻撃', 'Melee Attack'),
+    'i-ranged': ('遠隔攻撃', 'Ranged Attack'), 'i-siege': ('攻城攻撃', 'Siege Attack'),
+    'i-fire': ('焼夷攻撃', 'Fire Attack'), 'i-dps': ('DPS', 'DPS'),
+    'i-int': ('攻撃間隔', 'Rate of Fire'), 'i-range': ('射程', 'Range'),
+    'i-armm': ('近接防御', 'Melee Armor'), 'i-armr': ('遠隔防御', 'Ranged Armor'),
+    'i-speed': ('移動速度', 'Movement Speed'), 'i-pop': ('人口', 'Population'),
+    'i-time': ('生産時間', 'Build Time'), 'i-food': ('食料', 'Food'),
+    'i-wood': ('木材', 'Wood'), 'i-gold': ('金', 'Gold'), 'i-stone': ('石', 'Stone'),
+}
+UI = {
+    'ja': {
+        'title': 'AoE4 ユニット', 'pickCiv': '文明を選ぶ', 'units': 'ユニット',
+        'view.matrix': '生産施設 × 時代', 'view.list': '時代別一覧', 'view.table': '表',
+        'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
+        'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
+        'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計',
+        'noUnits': '該当するユニットがありません。',
+        'tip.dps': 'DPS（自爆ユニットは出さない）', 'tip.atk': '攻撃力（{t}）',
+        'tip.int': '攻撃間隔（秒）', 'tip.range': '射程（–は近接）',
+        'tip.charge': '突進（チャージ）攻撃の威力', 'tip.prov': '仮訳 — 公式の日本語名は未確認',
+        'tip.cost': '合計 {n}', 'tip.vs': '対 {c} +{v}', 'builtByUnits': '歩兵ユニットが建設',
+        'legend': 'アイコン凡例', 'note': '数値は基礎値。アップグレード・文明ボーナスは含まない。',
+    },
+    'en': {
+        'title': 'AoE4 Units', 'pickCiv': 'Choose a civilization', 'units': 'units',
+        'view.matrix': 'Building × Age', 'view.list': 'By age', 'view.table': 'Table',
+        'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
+        'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
+        'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total',
+        'noUnits': 'No units match.',
+        'tip.dps': 'DPS (not shown for self-destructing units)', 'tip.atk': 'Attack ({t})',
+        'tip.int': 'Rate of fire (seconds)', 'tip.range': 'Range (– means melee)',
+        'tip.charge': 'Charge attack damage', 'tip.prov': 'Unofficial translation',
+        'tip.cost': 'Total {n}', 'tip.vs': 'vs {c} +{v}', 'builtByUnits': 'Built by infantry',
+        'legend': 'Icons', 'note': 'Base values. Upgrades and civ bonuses are not included.',
+    },
+}
+DISCLAIMER_I18N = {
+    'ja': ('Age Of Empires 4 © Microsoft Corporation. — aoe4units は Microsoft の '
+           '<a href="https://www.xbox.com/en-US/developers/rules" target="_blank" rel="noopener">'
+           'Game Content Usage Rules</a> に基づき Age of Empires IV のアセットを利用して作成された'
+           '非公式のファンツールで、Microsoft によって承認・提携されたものではありません。 '
+           'データ: <a href="https://github.com/aoe4world/data" target="_blank" rel="noopener">aoe4world/data</a>'),
+    'en': ('Age Of Empires 4 © Microsoft Corporation. — aoe4units was created under Microsoft\'s '
+           '<a href="https://www.xbox.com/en-US/developers/rules" target="_blank" rel="noopener">'
+           'Game Content Usage Rules</a> using assets from Age of Empires IV, and it is not endorsed by '
+           'or affiliated with Microsoft. Data: '
+           '<a href="https://github.com/aoe4world/data" target="_blank" rel="noopener">aoe4world/data</a>'),
+}
+
 UNIT_BUILT = {'gilded-archer', 'gilded-crossbowman', 'gilded-handcannoneer',
               'gilded-landsknecht', 'gilded-man-at-arms', 'gilded-spearman'}
 
@@ -83,20 +149,35 @@ def main():
     civs = sorted({c for u in units for c in u['civs']})
     buildings = sorted({b for u in units for b in u['pb']})
 
+    bl = json.load(open(os.path.join(ROOT, 'data', 'buildings-all.json')))['data']
+    bname = {}
+    for b in bl:
+        bname.setdefault(b.get('baseId'), b.get('name'))
+        bname[b.get('id')] = b.get('name')
+    civs_idx = json.load(open(os.path.join(ROOT, 'data', 'civs-index.json')))
+
+    def blabel(slug):
+        return {'ja': slug_label(slug), 'en': bname.get(slug) or
+                ' '.join(w.capitalize() for w in slug.split('-'))}
+
     meta = {
         'source': 'https://github.com/aoe4world/data',
         'patch': 'Season 13 / 16.1.9737',
-        'civs': {c: {'jp': CIV_JP.get(c, (c, c))[0], 'sh': CIV_JP.get(c, (c, c))[1]} for c in civs},
-        'buildings': {b: slug_label(b) for b in buildings},
+        'langs': ['ja', 'en'],
+        'civs': {c: {'ja': CIV_JP.get(c, (c, c))[0], 'sh': CIV_JP.get(c, (c, c))[1],
+                     'en': (civs_idx.get(c) or {}).get('name', c),
+                     'flag': f'assets/flags/{c}.png'} for c in civs},
+        'buildings': {b: blabel(b) for b in buildings},
         'buildingOrder': BUILDING_ORDER,
-        'landmarks': {b: slug_label(b) for b in buildings if b not in BUILDING_ORDER},
+        'landmarks': {b: blabel(b) for b in buildings if b not in BUILDING_ORDER},
         'unitBuilt': sorted(UNIT_BUILT),
-        'attrs': L.ATTR_JP,
-        'stats': L.STAT_JP,
+        'attrs': {k: {'ja': v[0], 'en': v[1]} for k, v in ATTR_I18N.items()},
+        'stats': {k: {'ja': v[0], 'en': v[1]} for k, v in STAT_I18N.items()},
         'classIcon': L.CLASS_ICON,
         'atkIcon': L.ATK_ICON,
         'roman': L.ROMAN,
-        'disclaimer': L.DISCLAIMER,
+        'ui': UI,
+        'disclaimer': DISCLAIMER_I18N,
     }
 
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)

@@ -1,196 +1,531 @@
 {
  "source": "https://github.com/aoe4world/data",
  "patch": "Season 13 / 16.1.9737",
+ "langs": [
+  "ja",
+  "en"
+ ],
  "civs": {
   "ab": {
-   "jp": "アッバース朝",
-   "sh": "アッバース"
+   "ja": "アッバース朝",
+   "sh": "アッバース",
+   "en": "Abbasid Dynasty",
+   "flag": "assets/flags/ab.png"
   },
   "ay": {
-   "jp": "アイユーブ朝",
-   "sh": "アイユーブ"
+   "ja": "アイユーブ朝",
+   "sh": "アイユーブ",
+   "en": "Ayyubids",
+   "flag": "assets/flags/ay.png"
   },
   "by": {
-   "jp": "ビザンツ",
-   "sh": "ビザンツ"
+   "ja": "ビザンツ",
+   "sh": "ビザンツ",
+   "en": "Byzantines",
+   "flag": "assets/flags/by.png"
   },
   "ch": {
-   "jp": "中国",
-   "sh": "中国"
+   "ja": "中国",
+   "sh": "中国",
+   "en": "Chinese",
+   "flag": "assets/flags/ch.png"
   },
   "de": {
-   "jp": "デリー・スルタン朝",
-   "sh": "デリー"
+   "ja": "デリー・スルタン朝",
+   "sh": "デリー",
+   "en": "Delhi Sultanate",
+   "flag": "assets/flags/de.png"
   },
   "en": {
-   "jp": "イングランド",
-   "sh": "イングランド"
+   "ja": "イングランド",
+   "sh": "イングランド",
+   "en": "English",
+   "flag": "assets/flags/en.png"
   },
   "fr": {
-   "jp": "フランス",
-   "sh": "フランス"
+   "ja": "フランス",
+   "sh": "フランス",
+   "en": "French",
+   "flag": "assets/flags/fr.png"
   },
   "gol": {
-   "jp": "ジョチ・ウルス",
-   "sh": "ジョチ"
+   "ja": "ジョチ・ウルス",
+   "sh": "ジョチ",
+   "en": "Golden Horde",
+   "flag": "assets/flags/gol.png"
   },
   "hl": {
-   "jp": "ランカスター家",
-   "sh": "ランカスター"
+   "ja": "ランカスター家",
+   "sh": "ランカスター",
+   "en": "House of Lancaster",
+   "flag": "assets/flags/hl.png"
   },
   "hr": {
-   "jp": "神聖ローマ帝国",
-   "sh": "神聖ローマ"
+   "ja": "神聖ローマ帝国",
+   "sh": "神聖ローマ",
+   "en": "Holy Roman Empire",
+   "flag": "assets/flags/hr.png"
   },
   "ja": {
-   "jp": "日本",
-   "sh": "日本"
+   "ja": "日本",
+   "sh": "日本",
+   "en": "Japanese",
+   "flag": "assets/flags/ja.png"
   },
   "je": {
-   "jp": "ジャンヌ・ダルク",
-   "sh": "ジャンヌ"
+   "ja": "ジャンヌ・ダルク",
+   "sh": "ジャンヌ",
+   "en": "Jeanne d'Arc",
+   "flag": "assets/flags/je.png"
   },
   "jin": {
-   "jp": "金朝",
-   "sh": "金"
+   "ja": "金朝",
+   "sh": "金",
+   "en": "Jin Dynasty",
+   "flag": "assets/flags/jin.png"
   },
   "kt": {
-   "jp": "テンプル騎士団",
-   "sh": "テンプル"
+   "ja": "テンプル騎士団",
+   "sh": "テンプル",
+   "en": "Knights Templar",
+   "flag": "assets/flags/kt.png"
   },
   "ma": {
-   "jp": "マリ",
-   "sh": "マリ"
+   "ja": "マリ",
+   "sh": "マリ",
+   "en": "Malians",
+   "flag": "assets/flags/ma.png"
   },
   "mac": {
-   "jp": "マケドニア朝",
-   "sh": "マケドニア"
+   "ja": "マケドニア朝",
+   "sh": "マケドニア",
+   "en": "Macedonian Dynasty",
+   "flag": "assets/flags/mac.png"
   },
   "mo": {
-   "jp": "モンゴル",
-   "sh": "モンゴル"
+   "ja": "モンゴル",
+   "sh": "モンゴル",
+   "en": "Mongols",
+   "flag": "assets/flags/mo.png"
   },
   "od": {
-   "jp": "ドラゴン騎士団",
-   "sh": "竜騎士団"
+   "ja": "ドラゴン騎士団",
+   "sh": "竜騎士団",
+   "en": "Order of the Dragon",
+   "flag": "assets/flags/od.png"
   },
   "ot": {
-   "jp": "オスマン",
-   "sh": "オスマン"
+   "ja": "オスマン",
+   "sh": "オスマン",
+   "en": "Ottomans",
+   "flag": "assets/flags/ot.png"
   },
   "ru": {
-   "jp": "ルーシ",
-   "sh": "ルーシ"
+   "ja": "ルーシ",
+   "sh": "ルーシ",
+   "en": "Rus",
+   "flag": "assets/flags/ru.png"
   },
   "sen": {
-   "jp": "戦国日本",
-   "sh": "戦国"
+   "ja": "戦国日本",
+   "sh": "戦国",
+   "en": "Sengoku Daimyo",
+   "flag": "assets/flags/sen.png"
   },
   "tug": {
-   "jp": "トゥグルク朝",
-   "sh": "トゥグルク"
+   "ja": "トゥグルク朝",
+   "sh": "トゥグルク",
+   "en": "Tughlaq Dynasty",
+   "flag": "assets/flags/tug.png"
   },
   "zx": {
-   "jp": "朱熹の遺産",
-   "sh": "朱熹"
+   "ja": "朱熹の遺産",
+   "sh": "朱熹",
+   "en": "Zhu Xi's Legacy",
+   "flag": "assets/flags/zx.png"
   }
  },
  "buildings": {
-  "abbey-of-kings": "Abbey Of Kings",
-  "abbey-of-the-trinity": "Abbey Of The Trinity",
-  "arbaletrier": "Arbaletrier",
-  "archer": "Archer",
-  "archery-range": "弓兵育成所",
-  "astronomical-clocktower": "Astronomical Clocktower",
-  "atgeirmadr": "Atgeirmadr",
-  "barracks": "戦士育成所",
-  "bedouin-skirmisher": "Bedouin Skirmisher",
-  "bedouin-swordsman": "Bedouin Swordsman",
-  "berkshire-palace": "バークシャー宮殿",
-  "bogmadr": "Bogmadr",
-  "buddhist-temple": "Buddhist Temple",
-  "burgrave-palace": "城伯の宮殿",
-  "camel-lancer": "Camel Lancer",
-  "capital-town-center": "町の中心（首都）",
-  "college-of-artillery": "College Of Artillery",
-  "council-hall": "参事議事堂",
-  "crossbowman": "Crossbowman",
-  "desert-raider": "Desert Raider",
-  "dock": "港",
-  "dome-of-the-faith": "Dome Of The Faith",
-  "dragon-pavilion": "Dragon Pavilion",
-  "farimba-garrison": "Farimba Garrison",
-  "foreign-engineering-company": "Foreign Engineering Company",
-  "ghulam": "Ghulam",
-  "gilded-archer": "Gilded Archer",
-  "gilded-crossbowman": "Gilded Crossbowman",
-  "gilded-handcannoneer": "Gilded Handcannoneer",
-  "gilded-landsknecht": "Gilded Landsknecht",
-  "gilded-man-at-arms": "Gilded Man At Arms",
-  "gilded-spearman": "Gilded Spearman",
-  "golden-horn-tower": "Golden Horn Tower",
-  "golden-tent": "Golden Tent",
-  "grand-winery": "Grand Winery",
-  "great-pasture": "Great Pasture",
-  "grenadier": "Grenadier",
-  "handcannoneer": "Handcannoneer",
-  "harbor": "Harbor",
-  "hojo-clan-daimyo-estate": "Hojo Clan Daimyo Estate",
-  "horseman": "Horseman",
-  "house-of-wisdom": "知恵の館",
-  "imperial-academy": "Imperial Academy",
-  "imperial-hippodrome": "Imperial Hippodrome",
-  "janissary": "Janissary",
-  "javelin-thrower": "Javelin Thrower",
-  "jiangnan-tower": "Jiangnan Tower",
-  "keep": "要塞",
-  "khaganate-palace": "Khaganate Palace",
-  "kings-palace": "Kings Palace",
-  "koka-township": "Koka Township",
-  "lancaster-castle": "Lancaster Castle",
-  "landsknecht": "Landsknecht",
-  "limitanei": "Limitanei",
-  "longbowman": "Longbowman",
-  "machine-workshop": "Machine Workshop",
-  "man-at-arms": "Man At Arms",
-  "market": "市場",
-  "matsuri": "Matsuri",
-  "mehmed-imperial-armory": "Mehmed Imperial Armory",
-  "mercenary-house": "Mercenary House",
-  "military-school": "軍事学校",
-  "monastery": "修道所",
-  "mosque": "モスク",
-  "musofadi-warrior": "Musofadi Warrior",
-  "oda-clan-daimyo-estate": "Oda Clan Daimyo Estate",
-  "pagoda": "Pagoda",
-  "palace-guard": "Palace Guard",
-  "palace-of-swabia": "シュヴァーベン宮殿",
-  "palace-of-the-sultan": "Palace Of The Sultan",
-  "palatine-school": "Palatine School",
-  "prayer-tent": "祈祷テント",
-  "regnitz-cathedral": "レグニッツ大聖堂",
-  "school-of-cavalry": "騎兵学校",
-  "scout": "Scout",
-  "shaolin-monastery": "Shaolin Monastery",
-  "shinto-shrine": "Shinto Shrine",
-  "siege-workshop": "攻囲兵器工房",
-  "spearman": "Spearman",
-  "stable": "騎兵育成所",
-  "streltsy": "Streltsy",
-  "sultanhani-trade-network": "Sultanhani Trade Network",
-  "takeda-clan-daimyo-estate": "Takeda Clan Daimyo Estate",
-  "tanegashima-gunsmith": "Tanegashima Gunsmith",
-  "temple-of-equality": "Temple Of Equality",
-  "the-silver-tree": "The Silver Tree",
-  "the-white-tower": "ホワイトタワー",
-  "town-center": "町の中心",
-  "tughlaqabad-fort": "Tughlaqabad Fort",
-  "varangian-guard": "Varangian Guard",
-  "varangian-stronghold": "Varangian Stronghold",
-  "varangian-warcamp": "Varangian Warcamp",
-  "war-stable": "War Stable",
-  "wynguard-palace": "Wynguard Palace",
-  "zhuge-nu": "Zhuge Nu"
+  "abbey-of-kings": {
+   "ja": "Abbey Of Kings",
+   "en": "Abbey of Kings"
+  },
+  "abbey-of-the-trinity": {
+   "ja": "Abbey Of The Trinity",
+   "en": "Abbey of the Trinity"
+  },
+  "arbaletrier": {
+   "ja": "Arbaletrier",
+   "en": "Arbaletrier"
+  },
+  "archer": {
+   "ja": "Archer",
+   "en": "Archer"
+  },
+  "archery-range": {
+   "ja": "弓兵育成所",
+   "en": "Archery Range"
+  },
+  "astronomical-clocktower": {
+   "ja": "Astronomical Clocktower",
+   "en": "Astronomical Clocktower"
+  },
+  "atgeirmadr": {
+   "ja": "Atgeirmadr",
+   "en": "Atgeirmadr"
+  },
+  "barracks": {
+   "ja": "戦士育成所",
+   "en": "Barracks"
+  },
+  "bedouin-skirmisher": {
+   "ja": "Bedouin Skirmisher",
+   "en": "Bedouin Skirmisher"
+  },
+  "bedouin-swordsman": {
+   "ja": "Bedouin Swordsman",
+   "en": "Bedouin Swordsman"
+  },
+  "berkshire-palace": {
+   "ja": "バークシャー宮殿",
+   "en": "Berkshire Palace"
+  },
+  "bogmadr": {
+   "ja": "Bogmadr",
+   "en": "Bogmadr"
+  },
+  "buddhist-temple": {
+   "ja": "Buddhist Temple",
+   "en": "Buddhist Temple"
+  },
+  "burgrave-palace": {
+   "ja": "城伯の宮殿",
+   "en": "Burgrave Palace"
+  },
+  "camel-lancer": {
+   "ja": "Camel Lancer",
+   "en": "Camel Lancer"
+  },
+  "capital-town-center": {
+   "ja": "町の中心（首都）",
+   "en": "Capital Town Center"
+  },
+  "college-of-artillery": {
+   "ja": "College Of Artillery",
+   "en": "College of Artillery"
+  },
+  "council-hall": {
+   "ja": "参事議事堂",
+   "en": "Council Hall"
+  },
+  "crossbowman": {
+   "ja": "Crossbowman",
+   "en": "Crossbowman"
+  },
+  "desert-raider": {
+   "ja": "Desert Raider",
+   "en": "Desert Raider"
+  },
+  "dock": {
+   "ja": "港",
+   "en": "Dock"
+  },
+  "dome-of-the-faith": {
+   "ja": "Dome Of The Faith",
+   "en": "Dome of the Faith"
+  },
+  "dragon-pavilion": {
+   "ja": "Dragon Pavilion",
+   "en": "Dragon Pavilion"
+  },
+  "farimba-garrison": {
+   "ja": "Farimba Garrison",
+   "en": "Farimba Garrison"
+  },
+  "foreign-engineering-company": {
+   "ja": "Foreign Engineering Company",
+   "en": "Foreign Engineering Company"
+  },
+  "ghulam": {
+   "ja": "Ghulam",
+   "en": "Ghulam"
+  },
+  "gilded-archer": {
+   "ja": "Gilded Archer",
+   "en": "Gilded Archer"
+  },
+  "gilded-crossbowman": {
+   "ja": "Gilded Crossbowman",
+   "en": "Gilded Crossbowman"
+  },
+  "gilded-handcannoneer": {
+   "ja": "Gilded Handcannoneer",
+   "en": "Gilded Handcannoneer"
+  },
+  "gilded-landsknecht": {
+   "ja": "Gilded Landsknecht",
+   "en": "Gilded Landsknecht"
+  },
+  "gilded-man-at-arms": {
+   "ja": "Gilded Man At Arms",
+   "en": "Gilded Man At Arms"
+  },
+  "gilded-spearman": {
+   "ja": "Gilded Spearman",
+   "en": "Gilded Spearman"
+  },
+  "golden-horn-tower": {
+   "ja": "Golden Horn Tower",
+   "en": "Golden Horn Tower"
+  },
+  "golden-tent": {
+   "ja": "Golden Tent",
+   "en": "Golden Tent"
+  },
+  "grand-winery": {
+   "ja": "Grand Winery",
+   "en": "Grand Winery"
+  },
+  "great-pasture": {
+   "ja": "Great Pasture",
+   "en": "Great Pasture"
+  },
+  "grenadier": {
+   "ja": "Grenadier",
+   "en": "Grenadier"
+  },
+  "handcannoneer": {
+   "ja": "Handcannoneer",
+   "en": "Handcannoneer"
+  },
+  "harbor": {
+   "ja": "Harbor",
+   "en": "Harbor"
+  },
+  "hojo-clan-daimyo-estate": {
+   "ja": "Hojo Clan Daimyo Estate",
+   "en": "Hojo Clan Daimyo Estate"
+  },
+  "horseman": {
+   "ja": "Horseman",
+   "en": "Horseman"
+  },
+  "house-of-wisdom": {
+   "ja": "知恵の館",
+   "en": "House of Wisdom"
+  },
+  "imperial-academy": {
+   "ja": "Imperial Academy",
+   "en": "Imperial Academy"
+  },
+  "imperial-hippodrome": {
+   "ja": "Imperial Hippodrome",
+   "en": "Imperial Hippodrome"
+  },
+  "janissary": {
+   "ja": "Janissary",
+   "en": "Janissary"
+  },
+  "javelin-thrower": {
+   "ja": "Javelin Thrower",
+   "en": "Javelin Thrower"
+  },
+  "jiangnan-tower": {
+   "ja": "Jiangnan Tower",
+   "en": "Jiangnan Tower"
+  },
+  "keep": {
+   "ja": "要塞",
+   "en": "Keep"
+  },
+  "khaganate-palace": {
+   "ja": "Khaganate Palace",
+   "en": "Khaganate Palace"
+  },
+  "kings-palace": {
+   "ja": "Kings Palace",
+   "en": "King's Palace"
+  },
+  "koka-township": {
+   "ja": "Koka Township",
+   "en": "Koka Township"
+  },
+  "lancaster-castle": {
+   "ja": "Lancaster Castle",
+   "en": "Lancaster Castle"
+  },
+  "landsknecht": {
+   "ja": "Landsknecht",
+   "en": "Landsknecht"
+  },
+  "limitanei": {
+   "ja": "Limitanei",
+   "en": "Limitanei"
+  },
+  "longbowman": {
+   "ja": "Longbowman",
+   "en": "Longbowman"
+  },
+  "machine-workshop": {
+   "ja": "Machine Workshop",
+   "en": "Machine Workshop"
+  },
+  "man-at-arms": {
+   "ja": "Man At Arms",
+   "en": "Man At Arms"
+  },
+  "market": {
+   "ja": "市場",
+   "en": "Market"
+  },
+  "matsuri": {
+   "ja": "Matsuri",
+   "en": "Matsuri"
+  },
+  "mehmed-imperial-armory": {
+   "ja": "Mehmed Imperial Armory",
+   "en": "Mehmed Imperial Armory"
+  },
+  "mercenary-house": {
+   "ja": "Mercenary House",
+   "en": "Mercenary House"
+  },
+  "military-school": {
+   "ja": "軍事学校",
+   "en": "Military School"
+  },
+  "monastery": {
+   "ja": "修道所",
+   "en": "Monastery"
+  },
+  "mosque": {
+   "ja": "モスク",
+   "en": "Mosque"
+  },
+  "musofadi-warrior": {
+   "ja": "Musofadi Warrior",
+   "en": "Musofadi Warrior"
+  },
+  "oda-clan-daimyo-estate": {
+   "ja": "Oda Clan Daimyo Estate",
+   "en": "Oda Clan Daimyo Estate"
+  },
+  "pagoda": {
+   "ja": "Pagoda",
+   "en": "Pagoda"
+  },
+  "palace-guard": {
+   "ja": "Palace Guard",
+   "en": "Palace Guard"
+  },
+  "palace-of-swabia": {
+   "ja": "シュヴァーベン宮殿",
+   "en": "Palace of Swabia"
+  },
+  "palace-of-the-sultan": {
+   "ja": "Palace Of The Sultan",
+   "en": "Palace of the Sultan"
+  },
+  "palatine-school": {
+   "ja": "Palatine School",
+   "en": "Palatine School"
+  },
+  "prayer-tent": {
+   "ja": "祈祷テント",
+   "en": "Prayer Tent"
+  },
+  "regnitz-cathedral": {
+   "ja": "レグニッツ大聖堂",
+   "en": "Regnitz Cathedral"
+  },
+  "school-of-cavalry": {
+   "ja": "騎兵学校",
+   "en": "School of Cavalry"
+  },
+  "scout": {
+   "ja": "Scout",
+   "en": "Scout"
+  },
+  "shaolin-monastery": {
+   "ja": "Shaolin Monastery",
+   "en": "Shaolin Monastery"
+  },
+  "shinto-shrine": {
+   "ja": "Shinto Shrine",
+   "en": "Shinto Shrine"
+  },
+  "siege-workshop": {
+   "ja": "攻囲兵器工房",
+   "en": "Siege Workshop"
+  },
+  "spearman": {
+   "ja": "Spearman",
+   "en": "Spearman"
+  },
+  "stable": {
+   "ja": "騎兵育成所",
+   "en": "Stable"
+  },
+  "streltsy": {
+   "ja": "Streltsy",
+   "en": "Streltsy"
+  },
+  "sultanhani-trade-network": {
+   "ja": "Sultanhani Trade Network",
+   "en": "Sultanhani Trade Network"
+  },
+  "takeda-clan-daimyo-estate": {
+   "ja": "Takeda Clan Daimyo Estate",
+   "en": "Takeda Clan Daimyo Estate"
+  },
+  "tanegashima-gunsmith": {
+   "ja": "Tanegashima Gunsmith",
+   "en": "Tanegashima Gunsmith"
+  },
+  "temple-of-equality": {
+   "ja": "Temple Of Equality",
+   "en": "Temple of Equality"
+  },
+  "the-silver-tree": {
+   "ja": "The Silver Tree",
+   "en": "The Silver Tree"
+  },
+  "the-white-tower": {
+   "ja": "ホワイトタワー",
+   "en": "The White Tower"
+  },
+  "town-center": {
+   "ja": "町の中心",
+   "en": "Town Center"
+  },
+  "tughlaqabad-fort": {
+   "ja": "Tughlaqabad Fort",
+   "en": "Tughlaqabad Fort"
+  },
+  "varangian-guard": {
+   "ja": "Varangian Guard",
+   "en": "Varangian Guard"
+  },
+  "varangian-stronghold": {
+   "ja": "Varangian Stronghold",
+   "en": "Varangian Stronghold"
+  },
+  "varangian-warcamp": {
+   "ja": "Varangian Warcamp",
+   "en": "Varangian Warcamp"
+  },
+  "war-stable": {
+   "ja": "War Stable",
+   "en": "War Stable"
+  },
+  "wynguard-palace": {
+   "ja": "Wynguard Palace",
+   "en": "Wynguard Palace"
+  },
+  "zhuge-nu": {
+   "ja": "Zhuge Nu",
+   "en": "Zhuge Nu"
+  }
  },
  "buildingOrder": [
   "barracks",
@@ -205,91 +540,346 @@
   "town-center"
  ],
  "landmarks": {
-  "abbey-of-kings": "Abbey Of Kings",
-  "abbey-of-the-trinity": "Abbey Of The Trinity",
-  "arbaletrier": "Arbaletrier",
-  "archer": "Archer",
-  "astronomical-clocktower": "Astronomical Clocktower",
-  "atgeirmadr": "Atgeirmadr",
-  "bedouin-skirmisher": "Bedouin Skirmisher",
-  "bedouin-swordsman": "Bedouin Swordsman",
-  "berkshire-palace": "バークシャー宮殿",
-  "bogmadr": "Bogmadr",
-  "buddhist-temple": "Buddhist Temple",
-  "burgrave-palace": "城伯の宮殿",
-  "camel-lancer": "Camel Lancer",
-  "capital-town-center": "町の中心（首都）",
-  "college-of-artillery": "College Of Artillery",
-  "council-hall": "参事議事堂",
-  "crossbowman": "Crossbowman",
-  "desert-raider": "Desert Raider",
-  "dome-of-the-faith": "Dome Of The Faith",
-  "dragon-pavilion": "Dragon Pavilion",
-  "farimba-garrison": "Farimba Garrison",
-  "foreign-engineering-company": "Foreign Engineering Company",
-  "ghulam": "Ghulam",
-  "gilded-archer": "Gilded Archer",
-  "gilded-crossbowman": "Gilded Crossbowman",
-  "gilded-handcannoneer": "Gilded Handcannoneer",
-  "gilded-landsknecht": "Gilded Landsknecht",
-  "gilded-man-at-arms": "Gilded Man At Arms",
-  "gilded-spearman": "Gilded Spearman",
-  "golden-horn-tower": "Golden Horn Tower",
-  "golden-tent": "Golden Tent",
-  "grand-winery": "Grand Winery",
-  "great-pasture": "Great Pasture",
-  "grenadier": "Grenadier",
-  "handcannoneer": "Handcannoneer",
-  "harbor": "Harbor",
-  "hojo-clan-daimyo-estate": "Hojo Clan Daimyo Estate",
-  "horseman": "Horseman",
-  "house-of-wisdom": "知恵の館",
-  "imperial-academy": "Imperial Academy",
-  "imperial-hippodrome": "Imperial Hippodrome",
-  "janissary": "Janissary",
-  "javelin-thrower": "Javelin Thrower",
-  "jiangnan-tower": "Jiangnan Tower",
-  "keep": "要塞",
-  "khaganate-palace": "Khaganate Palace",
-  "kings-palace": "Kings Palace",
-  "koka-township": "Koka Township",
-  "lancaster-castle": "Lancaster Castle",
-  "landsknecht": "Landsknecht",
-  "limitanei": "Limitanei",
-  "longbowman": "Longbowman",
-  "machine-workshop": "Machine Workshop",
-  "man-at-arms": "Man At Arms",
-  "matsuri": "Matsuri",
-  "mehmed-imperial-armory": "Mehmed Imperial Armory",
-  "mercenary-house": "Mercenary House",
-  "musofadi-warrior": "Musofadi Warrior",
-  "oda-clan-daimyo-estate": "Oda Clan Daimyo Estate",
-  "pagoda": "Pagoda",
-  "palace-guard": "Palace Guard",
-  "palace-of-swabia": "シュヴァーベン宮殿",
-  "palace-of-the-sultan": "Palace Of The Sultan",
-  "palatine-school": "Palatine School",
-  "prayer-tent": "祈祷テント",
-  "regnitz-cathedral": "レグニッツ大聖堂",
-  "school-of-cavalry": "騎兵学校",
-  "scout": "Scout",
-  "shaolin-monastery": "Shaolin Monastery",
-  "shinto-shrine": "Shinto Shrine",
-  "spearman": "Spearman",
-  "streltsy": "Streltsy",
-  "sultanhani-trade-network": "Sultanhani Trade Network",
-  "takeda-clan-daimyo-estate": "Takeda Clan Daimyo Estate",
-  "tanegashima-gunsmith": "Tanegashima Gunsmith",
-  "temple-of-equality": "Temple Of Equality",
-  "the-silver-tree": "The Silver Tree",
-  "the-white-tower": "ホワイトタワー",
-  "tughlaqabad-fort": "Tughlaqabad Fort",
-  "varangian-guard": "Varangian Guard",
-  "varangian-stronghold": "Varangian Stronghold",
-  "varangian-warcamp": "Varangian Warcamp",
-  "war-stable": "War Stable",
-  "wynguard-palace": "Wynguard Palace",
-  "zhuge-nu": "Zhuge Nu"
+  "abbey-of-kings": {
+   "ja": "Abbey Of Kings",
+   "en": "Abbey of Kings"
+  },
+  "abbey-of-the-trinity": {
+   "ja": "Abbey Of The Trinity",
+   "en": "Abbey of the Trinity"
+  },
+  "arbaletrier": {
+   "ja": "Arbaletrier",
+   "en": "Arbaletrier"
+  },
+  "archer": {
+   "ja": "Archer",
+   "en": "Archer"
+  },
+  "astronomical-clocktower": {
+   "ja": "Astronomical Clocktower",
+   "en": "Astronomical Clocktower"
+  },
+  "atgeirmadr": {
+   "ja": "Atgeirmadr",
+   "en": "Atgeirmadr"
+  },
+  "bedouin-skirmisher": {
+   "ja": "Bedouin Skirmisher",
+   "en": "Bedouin Skirmisher"
+  },
+  "bedouin-swordsman": {
+   "ja": "Bedouin Swordsman",
+   "en": "Bedouin Swordsman"
+  },
+  "berkshire-palace": {
+   "ja": "バークシャー宮殿",
+   "en": "Berkshire Palace"
+  },
+  "bogmadr": {
+   "ja": "Bogmadr",
+   "en": "Bogmadr"
+  },
+  "buddhist-temple": {
+   "ja": "Buddhist Temple",
+   "en": "Buddhist Temple"
+  },
+  "burgrave-palace": {
+   "ja": "城伯の宮殿",
+   "en": "Burgrave Palace"
+  },
+  "camel-lancer": {
+   "ja": "Camel Lancer",
+   "en": "Camel Lancer"
+  },
+  "capital-town-center": {
+   "ja": "町の中心（首都）",
+   "en": "Capital Town Center"
+  },
+  "college-of-artillery": {
+   "ja": "College Of Artillery",
+   "en": "College of Artillery"
+  },
+  "council-hall": {
+   "ja": "参事議事堂",
+   "en": "Council Hall"
+  },
+  "crossbowman": {
+   "ja": "Crossbowman",
+   "en": "Crossbowman"
+  },
+  "desert-raider": {
+   "ja": "Desert Raider",
+   "en": "Desert Raider"
+  },
+  "dome-of-the-faith": {
+   "ja": "Dome Of The Faith",
+   "en": "Dome of the Faith"
+  },
+  "dragon-pavilion": {
+   "ja": "Dragon Pavilion",
+   "en": "Dragon Pavilion"
+  },
+  "farimba-garrison": {
+   "ja": "Farimba Garrison",
+   "en": "Farimba Garrison"
+  },
+  "foreign-engineering-company": {
+   "ja": "Foreign Engineering Company",
+   "en": "Foreign Engineering Company"
+  },
+  "ghulam": {
+   "ja": "Ghulam",
+   "en": "Ghulam"
+  },
+  "gilded-archer": {
+   "ja": "Gilded Archer",
+   "en": "Gilded Archer"
+  },
+  "gilded-crossbowman": {
+   "ja": "Gilded Crossbowman",
+   "en": "Gilded Crossbowman"
+  },
+  "gilded-handcannoneer": {
+   "ja": "Gilded Handcannoneer",
+   "en": "Gilded Handcannoneer"
+  },
+  "gilded-landsknecht": {
+   "ja": "Gilded Landsknecht",
+   "en": "Gilded Landsknecht"
+  },
+  "gilded-man-at-arms": {
+   "ja": "Gilded Man At Arms",
+   "en": "Gilded Man At Arms"
+  },
+  "gilded-spearman": {
+   "ja": "Gilded Spearman",
+   "en": "Gilded Spearman"
+  },
+  "golden-horn-tower": {
+   "ja": "Golden Horn Tower",
+   "en": "Golden Horn Tower"
+  },
+  "golden-tent": {
+   "ja": "Golden Tent",
+   "en": "Golden Tent"
+  },
+  "grand-winery": {
+   "ja": "Grand Winery",
+   "en": "Grand Winery"
+  },
+  "great-pasture": {
+   "ja": "Great Pasture",
+   "en": "Great Pasture"
+  },
+  "grenadier": {
+   "ja": "Grenadier",
+   "en": "Grenadier"
+  },
+  "handcannoneer": {
+   "ja": "Handcannoneer",
+   "en": "Handcannoneer"
+  },
+  "harbor": {
+   "ja": "Harbor",
+   "en": "Harbor"
+  },
+  "hojo-clan-daimyo-estate": {
+   "ja": "Hojo Clan Daimyo Estate",
+   "en": "Hojo Clan Daimyo Estate"
+  },
+  "horseman": {
+   "ja": "Horseman",
+   "en": "Horseman"
+  },
+  "house-of-wisdom": {
+   "ja": "知恵の館",
+   "en": "House of Wisdom"
+  },
+  "imperial-academy": {
+   "ja": "Imperial Academy",
+   "en": "Imperial Academy"
+  },
+  "imperial-hippodrome": {
+   "ja": "Imperial Hippodrome",
+   "en": "Imperial Hippodrome"
+  },
+  "janissary": {
+   "ja": "Janissary",
+   "en": "Janissary"
+  },
+  "javelin-thrower": {
+   "ja": "Javelin Thrower",
+   "en": "Javelin Thrower"
+  },
+  "jiangnan-tower": {
+   "ja": "Jiangnan Tower",
+   "en": "Jiangnan Tower"
+  },
+  "keep": {
+   "ja": "要塞",
+   "en": "Keep"
+  },
+  "khaganate-palace": {
+   "ja": "Khaganate Palace",
+   "en": "Khaganate Palace"
+  },
+  "kings-palace": {
+   "ja": "Kings Palace",
+   "en": "King's Palace"
+  },
+  "koka-township": {
+   "ja": "Koka Township",
+   "en": "Koka Township"
+  },
+  "lancaster-castle": {
+   "ja": "Lancaster Castle",
+   "en": "Lancaster Castle"
+  },
+  "landsknecht": {
+   "ja": "Landsknecht",
+   "en": "Landsknecht"
+  },
+  "limitanei": {
+   "ja": "Limitanei",
+   "en": "Limitanei"
+  },
+  "longbowman": {
+   "ja": "Longbowman",
+   "en": "Longbowman"
+  },
+  "machine-workshop": {
+   "ja": "Machine Workshop",
+   "en": "Machine Workshop"
+  },
+  "man-at-arms": {
+   "ja": "Man At Arms",
+   "en": "Man At Arms"
+  },
+  "matsuri": {
+   "ja": "Matsuri",
+   "en": "Matsuri"
+  },
+  "mehmed-imperial-armory": {
+   "ja": "Mehmed Imperial Armory",
+   "en": "Mehmed Imperial Armory"
+  },
+  "mercenary-house": {
+   "ja": "Mercenary House",
+   "en": "Mercenary House"
+  },
+  "musofadi-warrior": {
+   "ja": "Musofadi Warrior",
+   "en": "Musofadi Warrior"
+  },
+  "oda-clan-daimyo-estate": {
+   "ja": "Oda Clan Daimyo Estate",
+   "en": "Oda Clan Daimyo Estate"
+  },
+  "pagoda": {
+   "ja": "Pagoda",
+   "en": "Pagoda"
+  },
+  "palace-guard": {
+   "ja": "Palace Guard",
+   "en": "Palace Guard"
+  },
+  "palace-of-swabia": {
+   "ja": "シュヴァーベン宮殿",
+   "en": "Palace of Swabia"
+  },
+  "palace-of-the-sultan": {
+   "ja": "Palace Of The Sultan",
+   "en": "Palace of the Sultan"
+  },
+  "palatine-school": {
+   "ja": "Palatine School",
+   "en": "Palatine School"
+  },
+  "prayer-tent": {
+   "ja": "祈祷テント",
+   "en": "Prayer Tent"
+  },
+  "regnitz-cathedral": {
+   "ja": "レグニッツ大聖堂",
+   "en": "Regnitz Cathedral"
+  },
+  "school-of-cavalry": {
+   "ja": "騎兵学校",
+   "en": "School of Cavalry"
+  },
+  "scout": {
+   "ja": "Scout",
+   "en": "Scout"
+  },
+  "shaolin-monastery": {
+   "ja": "Shaolin Monastery",
+   "en": "Shaolin Monastery"
+  },
+  "shinto-shrine": {
+   "ja": "Shinto Shrine",
+   "en": "Shinto Shrine"
+  },
+  "spearman": {
+   "ja": "Spearman",
+   "en": "Spearman"
+  },
+  "streltsy": {
+   "ja": "Streltsy",
+   "en": "Streltsy"
+  },
+  "sultanhani-trade-network": {
+   "ja": "Sultanhani Trade Network",
+   "en": "Sultanhani Trade Network"
+  },
+  "takeda-clan-daimyo-estate": {
+   "ja": "Takeda Clan Daimyo Estate",
+   "en": "Takeda Clan Daimyo Estate"
+  },
+  "tanegashima-gunsmith": {
+   "ja": "Tanegashima Gunsmith",
+   "en": "Tanegashima Gunsmith"
+  },
+  "temple-of-equality": {
+   "ja": "Temple Of Equality",
+   "en": "Temple of Equality"
+  },
+  "the-silver-tree": {
+   "ja": "The Silver Tree",
+   "en": "The Silver Tree"
+  },
+  "the-white-tower": {
+   "ja": "ホワイトタワー",
+   "en": "The White Tower"
+  },
+  "tughlaqabad-fort": {
+   "ja": "Tughlaqabad Fort",
+   "en": "Tughlaqabad Fort"
+  },
+  "varangian-guard": {
+   "ja": "Varangian Guard",
+   "en": "Varangian Guard"
+  },
+  "varangian-stronghold": {
+   "ja": "Varangian Stronghold",
+   "en": "Varangian Stronghold"
+  },
+  "varangian-warcamp": {
+   "ja": "Varangian Warcamp",
+   "en": "Varangian Warcamp"
+  },
+  "war-stable": {
+   "ja": "War Stable",
+   "en": "War Stable"
+  },
+  "wynguard-palace": {
+   "ja": "Wynguard Palace",
+   "en": "Wynguard Palace"
+  },
+  "zhuge-nu": {
+   "ja": "Zhuge Nu",
+   "en": "Zhuge Nu"
+  }
  },
  "unitBuilt": [
   "gilded-archer",
@@ -300,43 +890,148 @@
   "gilded-spearman"
  ],
  "attrs": {
-  "a-heavy": "重装",
-  "a-light": "軽装",
-  "a-melee": "近接",
-  "a-ranged": "遠隔",
-  "a-inf": "歩兵",
-  "a-cav": "騎兵",
-  "a-camel": "ラクダ",
-  "a-eleph": "象",
-  "a-siege": "攻城兵器",
-  "a-ship": "艦船",
-  "a-worker": "労働者",
-  "a-relig": "宗教",
-  "a-gun": "火薬",
-  "a-massive": "巨大",
-  "a-scout": "斥候",
-  "a-spear": "槍兵",
-  "a-xbow": "弩兵",
-  "a-bow": "弓兵"
+  "a-heavy": {
+   "ja": "重装",
+   "en": "Heavy"
+  },
+  "a-light": {
+   "ja": "軽装",
+   "en": "Light"
+  },
+  "a-melee": {
+   "ja": "近接",
+   "en": "Melee"
+  },
+  "a-ranged": {
+   "ja": "遠隔",
+   "en": "Ranged"
+  },
+  "a-inf": {
+   "ja": "歩兵",
+   "en": "Infantry"
+  },
+  "a-cav": {
+   "ja": "騎兵",
+   "en": "Cavalry"
+  },
+  "a-camel": {
+   "ja": "ラクダ",
+   "en": "Camel"
+  },
+  "a-eleph": {
+   "ja": "象",
+   "en": "Elephant"
+  },
+  "a-siege": {
+   "ja": "攻城兵器",
+   "en": "Siege"
+  },
+  "a-ship": {
+   "ja": "艦船",
+   "en": "Ship"
+  },
+  "a-relig": {
+   "ja": "宗教",
+   "en": "Religious"
+  },
+  "a-worker": {
+   "ja": "労働者",
+   "en": "Worker"
+  },
+  "a-gun": {
+   "ja": "火薬",
+   "en": "Gunpowder"
+  },
+  "a-massive": {
+   "ja": "巨大",
+   "en": "Massive"
+  },
+  "a-scout": {
+   "ja": "斥候",
+   "en": "Scout"
+  },
+  "a-spear": {
+   "ja": "槍兵",
+   "en": "Spearman"
+  },
+  "a-xbow": {
+   "ja": "弩兵",
+   "en": "Crossbowman"
+  },
+  "a-bow": {
+   "ja": "弓兵",
+   "en": "Archer"
+  }
  },
  "stats": {
-  "i-hp": "HP",
-  "i-melee": "近接攻撃",
-  "i-ranged": "遠隔攻撃",
-  "i-siege": "攻城攻撃",
-  "i-fire": "焼夷攻撃",
-  "i-dps": "DPS",
-  "i-int": "攻撃間隔",
-  "i-range": "射程",
-  "i-armm": "近接防御",
-  "i-armr": "遠隔防御",
-  "i-speed": "移動速度",
-  "i-pop": "人口",
-  "i-time": "生産時間",
-  "i-food": "食料",
-  "i-wood": "木材",
-  "i-gold": "金",
-  "i-stone": "石"
+  "i-hp": {
+   "ja": "HP",
+   "en": "Hitpoints"
+  },
+  "i-melee": {
+   "ja": "近接攻撃",
+   "en": "Melee Attack"
+  },
+  "i-ranged": {
+   "ja": "遠隔攻撃",
+   "en": "Ranged Attack"
+  },
+  "i-siege": {
+   "ja": "攻城攻撃",
+   "en": "Siege Attack"
+  },
+  "i-fire": {
+   "ja": "焼夷攻撃",
+   "en": "Fire Attack"
+  },
+  "i-dps": {
+   "ja": "DPS",
+   "en": "DPS"
+  },
+  "i-int": {
+   "ja": "攻撃間隔",
+   "en": "Rate of Fire"
+  },
+  "i-range": {
+   "ja": "射程",
+   "en": "Range"
+  },
+  "i-armm": {
+   "ja": "近接防御",
+   "en": "Melee Armor"
+  },
+  "i-armr": {
+   "ja": "遠隔防御",
+   "en": "Ranged Armor"
+  },
+  "i-speed": {
+   "ja": "移動速度",
+   "en": "Movement Speed"
+  },
+  "i-pop": {
+   "ja": "人口",
+   "en": "Population"
+  },
+  "i-time": {
+   "ja": "生産時間",
+   "en": "Build Time"
+  },
+  "i-food": {
+   "ja": "食料",
+   "en": "Food"
+  },
+  "i-wood": {
+   "ja": "木材",
+   "en": "Wood"
+  },
+  "i-gold": {
+   "ja": "金",
+   "en": "Gold"
+  },
+  "i-stone": {
+   "ja": "石",
+   "en": "Stone"
+  }
  },
  "classIcon": {
   "heavy": "a-heavy",
@@ -373,5 +1068,70 @@
   "III",
   "IV"
  ],
- "disclaimer": "Age Of Empires 4 © Microsoft Corporation. — aoe4units は Microsoft の <a href=\"https://www.xbox.com/en-US/developers/rules\" target=\"_blank\" rel=\"noopener\">Game Content Usage Rules</a> に基づき Age of Empires IV のアセットを利用して作成された非公式のファンツールで、Microsoft によって承認・提携されたものではありません。 データ: <a href=\"https://github.com/aoe4world/data\" target=\"_blank\" rel=\"noopener\">aoe4world/data</a>"
+ "ui": {
+  "ja": {
+   "title": "AoE4 ユニット",
+   "pickCiv": "文明を選ぶ",
+   "units": "ユニット",
+   "view.matrix": "生産施設 × 時代",
+   "view.list": "時代別一覧",
+   "view.table": "表",
+   "print": "印刷（A4横）",
+   "buildings": "生産施設",
+   "all": "すべて",
+   "none": "なし",
+   "age": "時代",
+   "ageN": "第 {n} 時代",
+   "home": "文明一覧へ",
+   "colUnit": "ユニット",
+   "colAge": "時代",
+   "colTot": "資源計",
+   "noUnits": "該当するユニットがありません。",
+   "tip.dps": "DPS（自爆ユニットは出さない）",
+   "tip.atk": "攻撃力（{t}）",
+   "tip.int": "攻撃間隔（秒）",
+   "tip.range": "射程（–は近接）",
+   "tip.charge": "突進（チャージ）攻撃の威力",
+   "tip.prov": "仮訳 — 公式の日本語名は未確認",
+   "tip.cost": "合計 {n}",
+   "tip.vs": "対 {c} +{v}",
+   "builtByUnits": "歩兵ユニットが建設",
+   "legend": "アイコン凡例",
+   "note": "数値は基礎値。アップグレード・文明ボーナスは含まない。"
+  },
+  "en": {
+   "title": "AoE4 Units",
+   "pickCiv": "Choose a civilization",
+   "units": "units",
+   "view.matrix": "Building × Age",
+   "view.list": "By age",
+   "view.table": "Table",
+   "print": "Print (A4 landscape)",
+   "buildings": "Buildings",
+   "all": "All",
+   "none": "None",
+   "age": "Age",
+   "ageN": "Age {n}",
+   "home": "All civilizations",
+   "colUnit": "Unit",
+   "colAge": "Age",
+   "colTot": "Total",
+   "noUnits": "No units match.",
+   "tip.dps": "DPS (not shown for self-destructing units)",
+   "tip.atk": "Attack ({t})",
+   "tip.int": "Rate of fire (seconds)",
+   "tip.range": "Range (– means melee)",
+   "tip.charge": "Charge attack damage",
+   "tip.prov": "Unofficial translation",
+   "tip.cost": "Total {n}",
+   "tip.vs": "vs {c} +{v}",
+   "builtByUnits": "Built by infantry",
+   "legend": "Icons",
+   "note": "Base values. Upgrades and civ bonuses are not included."
+  }
+ },
+ "disclaimer": {
+  "ja": "Age Of Empires 4 © Microsoft Corporation. — aoe4units は Microsoft の <a href=\"https://www.xbox.com/en-US/developers/rules\" target=\"_blank\" rel=\"noopener\">Game Content Usage Rules</a> に基づき Age of Empires IV のアセットを利用して作成された非公式のファンツールで、Microsoft によって承認・提携されたものではありません。 データ: <a href=\"https://github.com/aoe4world/data\" target=\"_blank\" rel=\"noopener\">aoe4world/data</a>",
+  "en": "Age Of Empires 4 © Microsoft Corporation. — aoe4units was created under Microsoft's <a href=\"https://www.xbox.com/en-US/developers/rules\" target=\"_blank\" rel=\"noopener\">Game Content Usage Rules</a> using assets from Age of Empires IV, and it is not endorsed by or affiliated with Microsoft. Data: <a href=\"https://github.com/aoe4world/data\" target=\"_blank\" rel=\"noopener\">aoe4world/data</a>"
+ }
 }
