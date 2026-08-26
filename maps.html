@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AoE4 ランクマップ（1v1）</title>
+<meta name="description" content="Age of Empires IV の現行ランクマップ（1v1）の資源配置。聖地・集落交易所・聖遺物の数、羊・鹿・イノシシの数と、資源配置のサンプル画像。">
+<link rel="icon" href="assets/flags/od.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="bar noprint">
+  <a href="index.html" class="home">ユニット一覧へ</a>
+  <h1>ランクマップ <small id="rot"></small></h1>
+  <span class="chrome">
+    <span class="tabs" id="views"></span>
+    <span class="cnt" id="count"></span>
+    <a class="report" href="https://github.com/yousan/aoe4units/issues/new?labels=data&title=%5Bmaps%5D%20" target="_blank" rel="noopener">⚑ 間違いを報告</a>
+    <button class="pbtn" id="print">印刷</button>
+  </span>
+</header>
+
+<div id="main-wrap"><div id="main"><p class="empty">読み込み中…</p></div></div>
+
+<footer class="disc">
+マッププールは <b>毎月1日に自動でローテーション</b>する（2026-07-02 の変更）。告知が出ないため、
+このページのプールは <a href="https://aoe4world.com/">aoe4world</a> の対戦APIから直近の
+ランク戦をサンプリングして数えたもの。<br>
+資源の数値と配置画像は <a href="https://ageofempires.fandom.com/wiki/Age_of_Empires_IV">Age of Empires Series Wiki</a>（CC BY-SA 3.0）より。
+マップ名の日本語表記はゲーム本体のロケールファイルから抽出したもの。<br>
+<a href="https://github.com/yousan/aoe4units">github.com/yousan/aoe4units</a>
+</footer>
+
+<script type="module" src="js/maps.js"></script>
+</body>
+</html>

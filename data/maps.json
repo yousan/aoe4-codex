@@ -1,0 +1,2256 @@
+{
+ "generated": "2026-08-26",
+ "rotation": "2026-08",
+ "herdSizes": {
+  "micro": 2,
+  "small": 3,
+  "medium": 5,
+  "large": 7,
+  "extra large": 10
+ },
+ "bushSizes": {
+  "straggler": 2,
+  "small": 2,
+  "medium": 6,
+  "large": 8
+ },
+ "pools": {
+  "rm_solo": [
+   "Gorge",
+   "Dry Arabia",
+   "Relic River",
+   "West Lake",
+   "Golden Heights",
+   "Flankwoods",
+   "Hidden Valley",
+   "Ancient Spires",
+   "Ocean Gateway"
+  ],
+  "rm_team": [
+   "The Pit",
+   "High View",
+   "Cliffside",
+   "Dry Arabia",
+   "Highwoods",
+   "Flankwoods",
+   "Prairie",
+   "Nagari",
+   "Boulder Bay"
+  ]
+ },
+ "samples": {
+  "rm_solo": {
+   "Gorge": 36,
+   "Dry Arabia": 35,
+   "Relic River": 28,
+   "West Lake": 27,
+   "Golden Heights": 26,
+   "Flankwoods": 24,
+   "Hidden Valley": 23,
+   "Ancient Spires": 13,
+   "Ocean Gateway": 13
+  },
+  "rm_team": {
+   "The Pit": 32,
+   "High View": 30,
+   "Cliffside": 28,
+   "Dry Arabia": 24,
+   "Highwoods": 19,
+   "Flankwoods": 14,
+   "Prairie": 12,
+   "Nagari": 9,
+   "Boulder Bay": 8
+  }
+ },
+ "sources": {
+  "pool": "https://aoe4world.com/api/v0/games",
+  "stats": "https://ageofempires.fandom.com/ (Age of Empires Series Wiki, CC BY-SA)",
+  "names": "ゲーム本体 cardinal/archives/Locale*.sga"
+ },
+ "maps": {
+  "gorge": {
+   "name": "Gorge",
+   "slug": "gorge",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "24/46/68/90",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 2/7/10/13 / Small: 6/6/8/10",
+    "stone": "Large: 2/4/6/8 / Small: 8/10/15/20",
+    "features": "Open / Elevation / Stealth Forest"
+   },
+   "features": [
+    "Open",
+    "Elevation",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Gorge",
+   "stub": false,
+   "prose": {
+    "features": "While the relatively open terrain and balanced resource spawns invites a reasonable comparison to Dry Arabia, Gorge is most unique in the way players spawn in Team Games. In 1 vs 1, players start in the back of the gorge near the edge, but each added player spawns directly in front of their team mates, resulting in teams forming a straight line down the center of the gorge and two unlucky opponents spawning right next to each other in 4 vs 4, separated by only a Sacred Site. In the center, a small section of impassable terrain on each side of the gorge forms a chokepoint that is easier to wall off or defend, close to which spawn the other two Sacred Sites, one on each elevated side of the map. One Trade Post spawns on each of the northwest and southeast edges, relatively close to the midpoint of the edge, making trade routes more challenging. Relics will spawn in their standard number mostly on the elevated portion of the map, but can also spawn in the gorge, usually next to the Sacred Site.",
+    "resources": "Other than the starting ones, most resources on Gorge spawn on the elevated portions of the map. And in terms of starting resources, Gorge features a unique distribution as well. Regardless of team size, one large circular woodline will always spawn directly behind each team along the map edge as one player's starting woodline, while each other player will start with one small woodline, sometimes two. In team games, players start with shared Large Gold Veins, with one in between each Capital Town Center (in 1 vs 1, each player just starts with the standard Small Gold Vein). Players also start with nine nearby Sheep instead of the standard four or seven. The number of neutral Sheep matches the reduced distribution that was updated in patch 16.2.10604 for several maps. Like other resources, most of these Sheep spawn along the sides, but a few can also sometimes be found near the center of the gorge. The standard starting Berry Bush patch and Small Stone Outcropping spawn for each player. Berry Bush patches are the most likely neutral resource to spawn in the gorge, along with one of each player's large Deer packs. Boars, small circular woodlines, and the rest of the gold and stone will always spawn outside the gorge. Large Stone Outcroppings and the other Large Gold Veins seem to especially favor spawning very close to edges of the gorge in 3 vs 3 and 4 vs 4."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 24,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 46,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 68,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 90,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/gorge-1v1.jpg",
+   "ja": "峡谷",
+   "notes": [
+    "1v1は渓谷の奥、マップ端寄りにスタート。中央に通行不可地形のチョークポイントがあり、壁で締めやすい。",
+    "聖地は渓谷の中に1つ、高台の両側に1つずつ。集落交易所は北西と南東の辺の中央付近で、交易ルートが組みにくい。",
+    "聖遺物は主に高台側。渓谷内にも湧くが、その場合はたいてい聖地の隣。",
+    "初期資源の湧き方が独特。人数にかかわらず各チームの真後ろ、マップ端に大森林が1つ必ず湧く。",
+    "渓谷の中に湧くのは果実の茂みと鹿1群くらい。イノシシ・小森林・残りの金と石は全部高台側。",
+    "1v1では初期金鉱は通常どおり小金鉱1つ（チーム戦だと味方と共有する大金鉱になる）。"
+   ],
+   "startDeer": {
+    "near": "やや近い",
+    "text": "大群2つのうち1つが渓谷の中に湧く。スタート地点と同じ渓谷内だが中央寄りで、争点になりやすい。"
+   }
+  },
+  "dry-arabia": {
+   "name": "Dry Arabia",
+   "slug": "dry-arabia",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/38/56/74",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 2/3/4/5 / Small: 8/14/20/27",
+    "stone": "Large: 2/4/6/8 / Small: 8/14/21/28",
+    "features": "Open / Stealth Forest"
+   },
+   "features": [
+    "Open",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Dry_Arabia",
+   "stub": false,
+   "prose": {
+    "features": "As the quintessential land map in ''Age of Empires IV'', Dry Arabia is the map to which all others are compared. It is a pure, open, land map with no terrain features such as elevation, cliffs, mountains, or water. It has evenly distributed resources and is often considered the most 'neutral' map around which civilizations are balanced. Players/teams will always spawn across from each other around an imaginary circle drawn at a slight distance from the map edge. Two Trade Posts spawn mirrored on opposite map edges, anywhere from right in the corner to halfway along the map edge. The only limitation is that they cannot spawn between players and the closest corner in 1 vs 1. Three Sacred Sites will sit somewhere roughly in between the two players/teams, but especially in 3 vs 3 and 4 vs 4 they seem to be able to spawn more randomly, either behind players or clustered together. The standard number of Relics - (5/7/9/11) - spawn fairly evenly around the map, although in 2 vs 2 they seem to more often spawn in a line through the center in between teams.",
+    "resources": "Because of the lack of impassable terrain or large forests or bodies of water, resources typically spawn very repeatably in the same number and with a balanced distribution. Players start out with the standard starting resource distribution of one small Gold Mine, one small Stone Outcropping, one medium Berry Bush patch within range of their Capital Town Center, with one more of each slightly farther out. Seven Sheep also roam nearby. Further out on the map in more contested area are the rest of the Sheep, the large Berry Bush patches, the large Deer packs, and the Boar. Two large circular woodlines also spawn within Town Center range. A third large woodline per player will also spawn elsewhere on the map, along with spread out small circular woodlines and patches of Stealth Forest. Large Gold Mines spawn closer to the center of the map, between teams, while Large Stone Outcroppings favor the outside of the map. The rest of the Small Gold Mines and Stone Outcroppings are spread more evenly around the map."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 38,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 56,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 74,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/dry-arabia-1v1.jpg",
+   "ja": "乾アラビア",
+   "notes": [
+    "全マップの基準。起伏・崖・水がいっさい無い、純粋な開けた陸マップ。文明バランスはここを軸に取られている。",
+    "スタート位置はマップ端から少し内側に描いた円の上で、必ず向かい合う。",
+    "集落交易所は対角の辺にミラーで湧く。角ぴったりから辺の中央までどこでもありうるが、1v1に限り「町の中心と最寄りの角のあいだ」には湧かない（patch 16.2.10604 で修正）。",
+    "聖地3つは両者のだいたい中間。聖遺物はマップ全体にほぼ均等。",
+    "大金鉱は中央寄り、大石は外周寄り。小さいのは全体に散る。",
+    "初期の大森林が町の中心の射程内に2つ。3つ目はマップのどこか別の場所。"
+   ],
+   "startDeer": {
+    "near": "遠い",
+    "text": "大群はどちらもマップ外側の争点エリア。町の中心の近くには湧かない。"
+   }
+  },
+  "relic-river": {
+   "name": "Relic River",
+   "slug": "relic-river",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/36/54/72",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 3 / Small: 4 per player",
+    "stone": "Large: 4/5/7/9 / Small: 4/8/12/18",
+    "features": "River / Elevation / Extra Resources / Stealth Forest"
+   },
+   "features": [
+    "River",
+    "Elevation",
+    "Extra Resources",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Relic_River",
+   "stub": false,
+   "prose": {
+    "features": "Relic River is a hybrid river map in the manner of Mongolian Heights, but with less of a focus on naval combat or economy. The river always bisects the map from the north to the south corners, flowing down as waterfalls over three successive drops in elevation, with the bottom section lined by Stealth Forest. It contains shallow water throughout that can be traversed by both land and naval units, but the waterfalls themselves are impassable by any units. The river is narrow enough that sometimes building a Dock can block naval passage along it. All of the map's Relics and Sacred Sites can be found on the banks of the river. The Sacred Sites are always located on the highest, second highest, and lowest elevation sections of the map, while the Relic distribution is more random. Two Trade Posts will always be found on opposite edges of the second highest section. Teams will always start on the lowest portion of the map on opposite sides of the river, along the southwest and southeast edges of the map. The exact player positions and distances from the river can be somewhat random in team games, with players sometimes spawning quite close together, and other times farther apart.",
+    "resources": "Despite being labeled as having 'extra resources', the amount of resources on Relic River is fairly average, with Sheep, Berry Bush, Boar, and Deer amounts all being standard. Players do start off with one of their Deer packs nearby, but the rest of the starting resources are as usual. The remaining Berry Bushes spawn anywhere along the lower two elevation sections of the map, Boars tend to spawn on the upper portions, usually next to the river, and second Deer packs can spawn nearly anywhere else on the map. Smaller woods dot the map, especially along the edges, but large woodlines (other than the starting ones) spawn only in the north corner of the map and at each elevation change along the edges of the map. Small and Large Stone Outcroppings are clustered at the top of the map, except for a single large outcropping that spawns next to the lowest portion of the river, hidden by Stealth Forest. Small Gold Mines are spread fairly evenly along the map, while three Large Gold Mines always spawn along the river at the top, middle, and bottom, regardless of the map size. This results in slightly more gold than average with fewer players, but less with larger team sizes. A small number of Shoreline Fish are only found along the lowest section of the river."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 36,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 54,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 72,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/relic-river-1v1.jpg",
+   "ja": "聖遺物の川",
+   "notes": [
+    "川が北の角から南の角へマップを二分し、3段の滝で高低差を作る。",
+    "川は浅瀬なので陸上ユニットも渡れるが、滝そのものはどのユニットも通れない。川幅が狭く、港を建てると船が通れなくなることがある。",
+    "聖遺物と聖地は全部が川岸にある。聖地は最上段・2段目・最下段に固定、聖遺物の位置はもっとランダム。",
+    "集落交易所は2段目の両端に必ず2つ。",
+    "1v1は最下段（南西と南東）で川を挟んで対面する。",
+    "「追加資源」と銘打たれているが、羊・果実・イノシシ・鹿の量は標準。ただし鹿1群は最初から自陣の近くにある。",
+    "大金鉱3つが川沿いの上・中・下に、人数と無関係に固定で湧く。そのぶん人数が少ない1v1では金が相対的に多い。",
+    "石は上段に集中。例外として最下段の川沿いに、不可視の森に隠れた大石が1つある。"
+   ],
+   "startDeer": {
+    "near": "近い",
+    "text": "大群2つのうち1つは最初から自陣の近く。もう1つはマップのほぼどこにでも湧く。"
+   }
+  },
+  "west-lake": {
+   "name": "West Lake",
+   "slug": "west-lake",
+   "raw": {
+    "sacredSites": "3",
+    "gold": "5"
+   },
+   "features": [],
+   "wiki": "https://ageofempires.fandom.com/wiki/West_Lake",
+   "stub": true,
+   "prose": {
+    "features": "",
+    "resources": ""
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    }
+   },
+   "img": null,
+   "ja": "西湖",
+   "notes": [
+    "中央を浅い湖が占めていて、歩いて渡れる。",
+    "港も船も一切建てられないマップ。そのぶん中央の制圧が難しい。",
+    "湖の中央に聖地が1つあり、これが非常に守りにくい位置にある。",
+    "※ 資源の内訳（羊・鹿・イノシシ・果実・金・石・集落交易所・聖遺物の数）は未確認。コミュニティwikiにもまだデータが無い。"
+   ],
+   "startDeer": {
+    "near": null,
+    "text": "未確認。wiki に資源の記述がまだ無い。"
+   }
+  },
+  "golden-heights": {
+   "name": "Golden Heights",
+   "slug": "golden-heights",
+   "raw": {
+    "sacredSites": "2",
+    "tradePosts": "1",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/36/54/72",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Small: 2 per player",
+    "gold": "Large: 4/5/6/7 / Small: 4/14/20/25",
+    "stone": "Large: 2/4/6/8 / Small: 5/10/15/20",
+    "features": "Hybrid / Extra gold / Elevation / Stealth Forest"
+   },
+   "features": [
+    "Hybrid",
+    "Extra gold",
+    "Elevation",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Golden_Heights",
+   "stub": false,
+   "prose": {
+    "features": "The regions on this map are always arranged in the same way, with the small lake always in the West corner, and the area of lower elevation running along the northeast and southeast edges of the map. In between these two features lies the elevated 'Heights' part of the map. The cliff always forms an arrowhead pointing directly to the east corner of the map. In all team game sizes, two opposing players will start next to this cliff in the depression, relatively close together. In 2 vs 2, additional players are added across from each other close to the lake, while 3 vs 3 and 4 vs 4 will see the additional team members spawn along the north-south axis of the map in the middle of the plateau, with one directly in front of the other in 4 vs 4. This map only contains a single Trade Post, always in the west corner of the map. One of the two Sacred Sites is always in between the cliff and the east corner, and the other is close to the center of the map. Relics can spawn anywhere on the map, but one will almost always spawn close to the eastern Sacred Site, between the two players in the 1 vs 1 positions.",
+    "resources": "True to its name, all of the gold is located on the elevated portion of the map, clustered in the center, except for one or two starting Small Gold Mines. As a consequence, the stone is located more along the fringes of the map, close to the lake, cliff, and - especially in terms of Large Stone Outcroppings - the edges of the map. Deer and Boar more often spawn on the plateau, but can also spawn in the depression and between the two 1 vs 1 player positions. In team games especially, Boars prefer to spawn along the east-west axis of the map. The map features the standard Berry Bush and Sheep distribution, with contestable bushes and Sheep able to spawn anywhere. The lake only contains a small number of Deep Water Fish, so devoting too many resources to contest them may be risky. Shore Fish spawn in the lake as well, but in 4 vs 4 they are clustered close to the map edges. Golden Heights also features plenty of wood, with two large starting circular woodlines per player, and additional large and small woodlines and stealth forest patches dotting the map."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "small",
+       "patches": 4,
+       "bushes": 8
+      }
+     ],
+     "berryBushes": 24
+    },
+    "2v2": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 7,
+     "sheep": 36,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "small",
+       "patches": 8,
+       "bushes": 16
+      }
+     ],
+     "berryBushes": 48
+    },
+    "3v3": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 9,
+     "sheep": 54,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "small",
+       "patches": 12,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 72
+    },
+    "4v4": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 11,
+     "sheep": 72,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "small",
+       "patches": 16,
+       "bushes": 32
+      }
+     ],
+     "berryBushes": 96
+    }
+   },
+   "img": "assets/maps/golden-heights-1v1.jpg",
+   "ja": "ゴールデンハイツ",
+   "notes": [
+    "地形の配置は毎回同じ。湖が西の角、低地が北東〜南東の辺、その間が高台。崖は東の角を指す矢じり形。",
+    "1v1は2人とも崖のそばの低地スタートで、距離は比較的近い。",
+    "名前どおり金が全部高台の中央に固まる（初期の小金鉱1〜2個を除く）。石はその反動で湖・崖・マップ端寄り。",
+    "集落交易所は西の角に1つだけ。聖地は「崖と東の角のあいだ」と「マップ中央付近」の2つ。",
+    "聖遺物1つは東側の聖地の近く、つまり1v1の両者のあいだにほぼ確定で湧く。",
+    "鹿とイノシシは高台に湧きやすいが、低地や両者のあいだにも出る。",
+    "湖の深い方の魚は数が少ないので、投資しすぎると割に合わない。"
+   ],
+   "startDeer": {
+    "near": "遠い",
+    "text": "高台に湧きやすい。低地や1v1の両者のあいだにも出るが、自陣近くに固定では湧かない。"
+   }
+  },
+  "flankwoods": {
+   "name": "Flankwoods",
+   "slug": "flankwoods",
+   "raw": {
+    "sacredSites": "2",
+    "tradePosts": "1",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/38/56/74",
+    "deer": "Small: 3 per player",
+    "boar": "2 per player",
+    "berries": "Medium: 6 per player",
+    "gold": "Large: 2/4/5/6 / Small: 4/6/8/11 / Tiny: 1 per player*",
+    "stone": "Large: 2/4/5/6 / Small: 6/10/15/20",
+    "features": "Elevation / Open / Stealth Forest"
+   },
+   "features": [
+    "Elevation",
+    "Open",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Flankwoods",
+   "stub": false,
+   "prose": {
+    "features": "Flankwoods takes its name from the two lanes of Stealth Forest lining the northeast and southwest edges of the map. In the center of the map, cliffs outline the corners and short edges of a rectangular plateau situated between the Stealth Forests. The plateau differs in size considerably depending on the size of the map. It starts off at approximately 50% the width of the map on the micro size, and decreases steadily with each map size increase until it becomes only a narrow sliver of the open area on the large map size. Players start on either side of the plateau. In 3 vs 3 and 4 vs 4 there are one and two pocket players respectively which start slightly further back than the flank players. The plateau contains nearly all of the important map features, with the two Sacred Sites at either end, the Trade Post in its center, and nearly all the Relics (although in 3 vs 3 it is more likely for Relics to also spawn behind the teams).",
+    "resources": "Players will always start with one Tiny Gold Vein and Small Stone Outcropping behind their Capital Town Center, away from the plateau, as well as two large circular woodlines, one small Deer pack. In 1 vs 1 and 2 vs 2, each player also gets the standard starting medium Berry Bush. Two or three additional large woodlines will also spawn behind each team, along with a smattering of small ones. Flankwoods uses the updated Sheep distribution with seven starting nearby Sheep per player and only two neutral Sheep per player (plus two extra). All the rest of the resources, including the unusually large amount of Boars cluster very densely on the plateau or at the corners of the stealth forest and the edges of the map, behind the teams. The exception is in 1 vs 1, where the two Boars for each player tend to spawn along the Stealth Forest beside their bases. Resources seem to be most likely to spawn in the corners on 3 vs 3. On small map sizes, the resources are more sparse since the plateau is large, but they increasingly begin crowding together as the plateau shrinks, spilling off the plateau in the center in 4 vs 4, where the density becomes rather extreme. In this high density situation, it is not surprising that some resources can fail to spawn. Two Large Stone Outcroppings and Large Gold Veins are always guaranteed to spawn on opposing corners of the plateau. It is possible for one or two neutral resource nodes to spawn hidden behind the stealth forest."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "small",
+       "herds": 6,
+       "head": 18
+      }
+     ],
+     "deerHead": 18,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 72
+    },
+    "2v2": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 7,
+     "sheep": 38,
+     "boar": 8,
+     "deer": [
+      {
+       "size": "small",
+       "herds": 12,
+       "head": 36
+      }
+     ],
+     "deerHead": 36,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 24,
+       "bushes": 144
+      }
+     ],
+     "berryBushes": 144
+    },
+    "3v3": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 9,
+     "sheep": 56,
+     "boar": 12,
+     "deer": [
+      {
+       "size": "small",
+       "herds": 18,
+       "head": 54
+      }
+     ],
+     "deerHead": 54,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 36,
+       "bushes": 216
+      }
+     ],
+     "berryBushes": 216
+    },
+    "4v4": {
+     "sacredSites": 2,
+     "tradePosts": 1,
+     "relics": 11,
+     "sheep": 74,
+     "boar": 16,
+     "deer": [
+      {
+       "size": "small",
+       "herds": 24,
+       "head": 72
+      }
+     ],
+     "deerHead": 72,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 48,
+       "bushes": 288
+      }
+     ],
+     "berryBushes": 288
+    }
+   },
+   "img": "assets/maps/flankwoods-1v1.jpg",
+   "ja": "フランクウッズ",
+   "notes": [
+    "北東と南西の辺に不可視の森のレーンが走り、中央に崖で囲まれた長方形の台地がある。マップが小さいほど台地は広く、1v1では台地がマップ幅の約50%を占める。",
+    "重要なものは全部台地に乗っている。聖地2つが両端、集落交易所が中央、聖遺物もほぼ全部。",
+    "各自の初期資源は町の中心の裏（台地と反対側）に小さい金脈1つと小石1つ、大森林2つ、小さい鹿の群れ1つ。",
+    "中立の羊が極端に少ない。そのぶん初期の手元の羊が多い。",
+    "残りの資源は台地の上か、不可視の森の角、チームの後ろのマップ端に非常に密集して湧く。",
+    "1v1に限り、各自のイノシシ2頭は自陣脇の不可視の森沿いに湧きやすい。",
+    "台地の対角には大石2つと大金脈2つが必ず湧く。不可視の森の裏に資源が隠れて湧くこともある。"
+   ],
+   "startDeer": {
+    "near": "近い",
+    "text": "初期資源として小群1つが町の中心の裏（台地と反対側）に必ず付く。ただし小群なので3頭。"
+   }
+  },
+  "hidden-valley": {
+   "name": "Hidden Valley",
+   "slug": "hidden-valley",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/20/30/40",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Small: 1 per player",
+    "gold": "Large: 1 per player / Small: 6/10/14/19",
+    "stone": "Large: 1 per player / Small: 6/10/15/20",
+    "features": "Open / Elevation / Stealth Forest"
+   },
+   "features": [
+    "Open",
+    "Elevation",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Hidden_Valley",
+   "stub": false,
+   "prose": {
+    "features": "Two depressions along the northwest and southeast edges of the map are connected by a narrow valley lined by cliffs that separate it from the adjacent elevated areas. Both valley entrances are blocked by forest. Players start on opposite sides of this valley in each depression, and in team games, team members spawn relatively close to each other lined up along the map edge. Player will slowly gain access to the valley as they chop through the forested entrance, revealing a Sacred Site and potentially a Relic. The other two Sacred Sites are directly adjacent to the one in the valley on opposite cliff edges. All other Relics are distributed around the elevated center section on the map (but not necessarily evenly on both sides of the valley) and two Trade Posts can be found close to the center of the northeast and southwest edges. This map overall has a similar layout as The Pit, with the central cliffs facilitating walling and enabling players to defend one side while focusing efforts on the other. However, because the valley is narrower, and there are no woodlines along the edges, this requires a greater investment. The gameplay is also less likely to focus around the corners, with no significant resources there and with the Trade Posts located in the center on this map.",
+    "resources": "Most of the resources are found on the elevated portion of the map, with the valley and depressions relatively bare other than the starting resources, one circular woodline in each corner, and potentially some Small Gold Mines, Stone Outcroppings, or Berry Bushes. The starting woodline is much smaller than normal, so players will likely be encouraged to begin chopping through to the valley or move out onto the more contested center where some larger woodlines exist and small woodlines are plentiful. The unique Sheep distribution also contributes to the lack of resources in the starting area, with the four Sheep that normally spawn near each player's Capital Town Center removed. In 1 vs 1 games, this is compensated with extra contested Sheep spawning individually across the map, but in team games, they are standard in number, leaving fewer Sheep overall on the map. Each player also starts out with one nearby large Deer pack, while the rest of the packs are spread around the center along with the Boars. The Large Gold Mines and Large Stone Outcroppings are always evenly placed along two lines just in front of and parallel to the depressions in which the players start, always alternating between one another. There will always be an equal number of combined large gold and stone deposits on each side of the valley. On 1 vs 1 maps, one side will have both Gold Mines and the other will have both Stone Outcroppings."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "small",
+       "patches": 2,
+       "bushes": 4
+      }
+     ],
+     "berryBushes": 20
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 20,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "small",
+       "patches": 4,
+       "bushes": 8
+      }
+     ],
+     "berryBushes": 40
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 30,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "small",
+       "patches": 6,
+       "bushes": 12
+      }
+     ],
+     "berryBushes": 60
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 40,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "small",
+       "patches": 8,
+       "bushes": 16
+      }
+     ],
+     "berryBushes": 80
+    }
+   },
+   "img": "assets/maps/hidden-valley-1v1.jpg",
+   "ja": "隠された谷",
+   "notes": [
+    "崖に挟まれた谷を挟んで対面。谷の入口は両側とも森で塞がっている。",
+    "森を切り開くと谷に入れるようになり、聖地1つと、運が良ければ聖遺物が出てくる。残り2つの聖地はその両脇の崖の上。",
+    "集落交易所は北東と南西の辺の中央付近。角に主要資源が無いこともあって、角の取り合いにはなりにくい。",
+    "The Pit と似た構造だが谷が狭く、外周に森が無いぶん壁への投資は重い。",
+    "初期の森が通常より小さく、町の中心の近くに湧くはずの羊も無い。序盤から谷か中央に出ざるを得ない設計。",
+    "大金鉱と大石は、両者のスタート地点の手前に平行な2本の線を描くように、交互に並んで湧く。谷の左右で「大金＋大石」の合計数は必ず等しい。",
+    "1v1に限り、片側に大金鉱2つ・反対側に大石2つがまとまる（チーム戦では混在する）。"
+   ],
+   "startDeer": {
+    "near": "近い",
+    "text": "大群2つのうち1つが自陣の近くに必ず湧く。残りは中央に散る。初期の羊が無いぶんここが重要。"
+   }
+  },
+  "ancient-spires": {
+   "name": "Ancient Spires",
+   "slug": "ancient-spires",
+   "raw": {
+    "sacredSites": "2",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "20/36/54/72",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 2/3/4/5 / Small: 8/14/20/27",
+    "stone": "Large: 2/4/6/8 / Small: 8/14/21/28",
+    "features": "Hybrid / Choke Point / Stealth Forest"
+   },
+   "features": [
+    "Hybrid",
+    "Choke Point",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Ancient_Spires",
+   "stub": false,
+   "prose": {
+    "features": "Ancient Spires is a hybrid land/water map notable for its large rock formations (the 'spires'). Combined with the several ponds of various sizes dotted across the map, this creates several choke points that can be easily walled off. The number of ponds can vary but in a 1 vs 1, there will almost always be 6 ponds, and in team games, there can be between 2 and 3 ponds per player. The map generation will always attempt to place one pond within view of the starting Town Center. The ponds can sometimes be small enough that it can be difficult to place a dock without removing the Shore Fish, and they offer minimal strategic value for anything but Fishing Boats. The map includes two Trade Posts and Sacred Sites with the Trade Posts placed along the map edges anywhere from the middle to the corner, and the Sacred Sites placed towards the middle of the map in between the players. Ancient Spires features the standard Relic generation distributed evenly around the map.",
+    "resources": "Ancient Spires has the standard distributions for all resources, including starting player resource. On top of this, each pond on Ancient Spires also typically comes with 5 Shoreline Fish. Sometimes, if two ponds are very close together, one can have six fish and the other four. The map generates with the standard two large circular woodlines per player, but additional large woodlines can also sometimes be found elsewhere on the map, as well as regularly distributed small woodlines. Patches of stealth forest also dot the landscape. The other resources are all distributed fairly evenly across the map."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 36,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 54,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 72,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/ancient-spires-1v1.jpg",
+   "ja": "古代の尖塔",
+   "notes": [
+    "巨大な岩塔（spires）と大小の池が組み合わさって、壁で締めやすいチョークポイントが複数できる。",
+    "1v1では池がほぼ必ず6つ。町の中心の視界内に池が1つ来るように生成が調整される。",
+    "池には浅瀬の魚が1つあたり5匹。近接した池どうしだと6匹と4匹に割れることがある。",
+    "池が小さすぎて港が置けない、あるいは置くと魚が潰れることがある。漁船以外の使い道はほぼ無い。",
+    "集落交易所は辺の中央から角までのどこか、聖地2つは両者のあいだの中央寄り。",
+    "資源配分は初期資源も含めて全部が標準。要するに Dry Arabia の数値に地形だけ足したマップ。"
+   ],
+   "startDeer": {
+    "near": "遠い",
+    "text": "初期資源も含めて全部が標準配分。大群はマップ外側の争点エリア。"
+   }
+  },
+  "ocean-gateway": {
+   "name": "Ocean Gateway",
+   "slug": "ocean-gateway",
+   "raw": {
+    "sacredSites": "3"
+   },
+   "features": [],
+   "wiki": "https://ageofempires.fandom.com/wiki/Ocean_Gateway",
+   "stub": true,
+   "prose": {
+    "features": "",
+    "resources": ""
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": null,
+     "relics": null,
+     "sheep": null,
+     "boar": null,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    }
+   },
+   "img": null,
+   "ja": "大海への入口",
+   "notes": [
+    "険しい崖に囲まれ、4つの「ゲートウェイ」がマップ端の漁場と海上交易への出入口になっている。",
+    "港を置けるスペースが限られる一方で、側面は大きく開けている。陸と海のバランスを取るのが難しいマップ。",
+    "※ 資源の内訳（羊・鹿・イノシシ・果実・金・石・集落交易所・聖遺物の数）は未確認。コミュニティwikiにもまだデータが無い。"
+   ],
+   "startDeer": {
+    "near": null,
+    "text": "未確認。wiki に資源の記述がまだ無い。"
+   }
+  },
+  "the-pit": {
+   "name": "The Pit",
+   "slug": "the-pit",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "1 vs 1: 5 / 2 vs 2: 6 / Others: Varies",
+    "sheep": "28/36/54/72",
+    "deer": "Large: 1 per player / Small: 4/6/12/24",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 4/4/8/8 / Small: 4/6/14/20",
+    "stone": "Large: 2/2/4/4 / Small: 4/10/12/22",
+    "features": "Open / Stealth Forest"
+   },
+   "features": [
+    "Open",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/The_Pit",
+   "stub": false,
+   "prose": {
+    "features": "Aside from the cliffs and valley which divide the center of the map into three sections, this map also features two hills in the north and south corners. These hills are cornered by cliffs and must be accessed from the side. The other two corners always have a Trade Post. The three Sacred Sites on this map are distributed among the three sections of the map center - one in the central valley surrounded by Stealth Forest, and one on each side. Teams always spawn in a line or shallow arc on the northeast and southwest sides of the map, with a woodline at their back. While the standard five Relics spawn in 1 vs 1, team games seem to consistently spawn fewer than normal, with six in 2 vs 2, and as few as seven observed in 4 vs 4 (where the standard is 11). This may be because of the limited range in which the Relics can spawn, only in the center section of the map and not on the corners.",
+    "resources": "The most unique resource feature on this map is the wood, which is all aggregated in rectangular forests on each edge of the map. While the back woodline appears safe, it is usually outside the range of the starting Capital Town Center. Because of this, each player starts with an additional small woodline within range - the only other wood on the map besides the central Stealth Forest. Berry Bush and Huntable Boar spawns are standard, with berries tending to spawn closer to the players and Boars tending to spawn in the center sections. Sheep distributions are also standard, except on micro sized maps where all groups of two are replaced with more widely distributed individual spawns, resulting in a few more Sheep per player. Deer spawns are separated between 1 large pack, which spawns in reasonably close proximity (but not in Town Center range) to each player, and several small packs, which spawn either just outside the corner hills or on the sides of the center area. The Large Stone Outcroppings are always evenly distributed among the two corner hills with the Trade Posts, and half of the Large Gold Mines are evenly distributed among the other two hills along with an equal amount of Small Stone Outcroppings. The other half of the large mines are in the central valley. The rest of the contestable small mines also spawn outside the hills or on the center-sides, while the other contestable small outcroppings are limited to the center-sides."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 28,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 2,
+       "head": 14
+      },
+      {
+       "size": "small",
+       "herds": 4,
+       "head": 12
+      }
+     ],
+     "deerHead": 26,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 6,
+     "sheep": 36,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      },
+      {
+       "size": "small",
+       "herds": 6,
+       "head": 18
+      }
+     ],
+     "deerHead": 46,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": null,
+     "sheep": 54,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 6,
+       "head": 42
+      },
+      {
+       "size": "small",
+       "herds": 12,
+       "head": 36
+      }
+     ],
+     "deerHead": 78,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": null,
+     "sheep": 72,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      },
+      {
+       "size": "small",
+       "herds": 24,
+       "head": 72
+      }
+     ],
+     "deerHead": 128,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/the-pit-1v1.jpg",
+   "ja": "ピット",
+   "notes": [],
+   "startDeer": {
+    "near": "やや近い",
+    "text": "大群1つが比較的近くに湧く。ただし町の中心の射程内ではない。小群は角の丘の外側か中央の脇。"
+   }
+  },
+  "high-view": {
+   "name": "High View",
+   "slug": "high-view",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "22/42/62/82",
+    "deer": "2 large per player",
+    "boar": "2/3/4/5",
+    "berries": "2 medium and 1 large per player",
+    "gold": "Large: 2/3/4/5 / Small: 8/14/20/27",
+    "stone": "Large: 1 per player / Small: 8/14/21/27",
+    "features": "Open / Elevation / Extra Wood / Stealth Forest"
+   },
+   "features": [
+    "Open",
+    "Elevation",
+    "Extra Wood",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/High_View",
+   "stub": false,
+   "prose": {
+    "features": "The defining feature of this map is the abundance of Stealth Forest covering the land. Players start on gentle hills clear of Stealth Forest, likely explaining the name of the map and the 'elevation' tag. Other than that, the map is mostly flat and open. Players can spawn relatively close to each other in team games. In 2 vs 2, players spawn in a single clearing that can be lined around the edge with dense (non-stealth) forest. In 3 vs 3 and 4 vs 4, player starts can have a significant element of randomness. Players can spawn at varying distances from each other and the map edges. They can be either close together or spread out along one half of the map. It is even not that rare for a player to spawn on the enemy team's side. Sacred Sites and Trade Posts typically spawn along the center axis between teams, with the two Trade Posts and two of the Sacred Sites close to the map edge and the third Sacred Site directly in the center of the map. However, because of the randomness of spawns in 6- and 8-player team games, it is possible for players to be placed such that one of the Sacred Sites is solidly within their territory instead of on neutral ground. High View also features Abandoned Outpost Points of Interest. In 1 vs 1, two of these spawn in between the Sacred Sites along the center axis, while in team games, one also spawns in each corner of the map. Relic spawns are standard, but as is possible on maps with a lot of Stealth Forest, the full number may occasionally not spawn.",
+    "resources": "High View has a very similar resource distribution to Dry Arabia, with a standard amount of resources spread fairly randomly and evenly around the map. However, the abundant Stealth Forest makes it more likely for the exact number of nodes to differ from generation to generation due to the Stealth Forest impeding resource spawns. Resources also tend to cluster more in forest clearings. Wood is inherently plentiful in the Stealth Forests, but there is also a fairly standard amount of dense forest as well. Instead of just the standard circular woodlines, it is possible for some maps to generate with rectangular or arc-like woodlines. Each player's two Deer packs, while not always within range of their Capital Town Center, will always be within their starting clearing, offering a nearby and relatively safe source of hunted meat. High View is also one of the maps with a greater number of starting sheep - in this case eight - and fewer neutral Sheep."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 22,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      },
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 42,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      },
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 62,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      },
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 82,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      },
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/high-view-1v1.jpg",
+   "ja": "ハイ ビュー",
+   "notes": [],
+   "startDeer": {
+    "near": "近い",
+    "text": "大群2つとも自陣の開けた土地の中に湧く。町の中心の射程内とは限らないが、比較的安全に狩れる。"
+   }
+  },
+  "cliffside": {
+   "name": "Cliffside",
+   "slug": "cliffside",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "24/44/66/88",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Small: 4 per player + 6 base",
+    "stone": "Small: 5 per player + 2 base",
+    "features": "Elevation / Extra Gold / Stealth Forests"
+   },
+   "features": [
+    "Elevation",
+    "Extra Gold",
+    "Stealth Forests"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Cliffside",
+   "stub": false,
+   "prose": {
+    "features": "Teams on Cliffside spawn relatively close to each other separated by the focal point of this map: an elevated zigzagging ridge that divides the map in two from one corner to the other, over which players will compete for control and resources. The ridge can generate in either a North-to-South or East-to-West configuration. Much of it will be blocked by impassable cliffs, but openings and access points are present throughout, making it difficult to completely wall off or block. At certain points, a second layer of cliffs may spawn creating small canyons. There are always three Sacred Sites that spawn on top of the ridge directly along the map diagonal, making them highly contestable. Two Trade Posts will spawn along either of the two opposing map edges, typically in the center or significantly offset from the corners. Relics follow the standard distribution and may spawn either along the ridge or anywhere else on the map. Stealth Forest will generate in small patches beside the ridge next to openings, conducive to ambushing opponents as they try to cross it.",
+    "resources": "Food on this map is as standard as you can get, with the usual amount of Berry Bush patches, Wild Boar, and Deer nearly always evenly divided between the two sides of the ridge. The only deviation is that each player starts out with two extra nearby Sheep. Wood is similarly basic, with one large circular starting woodline per player, and small circular woodlines fairly evenly dotting the rest of the map. This map uniquely has no Large Gold Mines or Stone Outcroppings, but despite this, it is not lacking in either gold or stone. A larger-than-usual amount of small mines and outcroppings dot the map, clustered around and on top of the ridge. Despite the 'extra gold' tag, however, the total amount of gold and stone is similar to other maps without this tag, and nowhere near the amount of gold on maps such as Black Forest."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 24,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 44,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 66,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 88,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/cliffside-1v1.jpg",
+   "ja": "断崖絶壁",
+   "notes": [],
+   "startDeer": {
+    "near": "遠い",
+    "text": "尾根の左右にほぼ均等に分かれる標準配分。自陣近くに固定では湧かない。"
+   }
+  },
+  "highwoods": {
+   "name": "Highwoods",
+   "slug": "highwoods",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "12 per player",
+    "deer": "Medium: 3 per player / Small: 2 per player",
+    "boar": "1 per player",
+    "berries": "Medium: 1 per player",
+    "gold": "Large: 2 per player / Small: 3 per player",
+    "stone": "Small: 4 per player*",
+    "features": "Elevation / Extra Wood / Stealth Forest"
+   },
+   "features": [
+    "Elevation",
+    "Extra Wood",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Highwoods",
+   "stub": false,
+   "prose": {
+    "features": "Highwoods is very similar ways to its earlier and similarly named counterpart: High View. On both maps, players start out in a clearing surrounded by woods. The primary difference is that on Highwoods, smaller and more irregular patches of dense and stealth forest are distributed more evenly and organically around the map with Stealth Forest often filling in the space between patches of dense forest. High View, by comparison, has much less dense forest, and both the dense and Stealth forests are more clumped together in large circular blobs. This creates many more possible choke points on Highwoods that are quite easily wallable. Highwoods also has an elevation feature which at least merits it its name, with a large hill in the center of the map on which lies a Sacred Site. Similar to the initial iteration of High View, the two Trade Post and other two Sacred Sites are in opposing corners, meaning they can often be in easily defendable positions behind teams, whose players spawn in the standard circular arrangement on this map.",
+    "resources": "Resources are evenly distributed around the map in whatever room exists between the forests. No resources can spawn directly in Stealth Forests, but animals can spawn along the edge and wander in. Deer are plentiful, but there are no contested Berry Bushes. Each player's Boar and eight of the twelve Sheep per player are located near the Capital Town Centers, while the rest of the Sheep are contested. Starting resources are otherwise standard. Small Stone Outcroppings seem to be the most susceptible out of all the resources to be blocked from spawning by the abundance of forest, with a target of four per player (including the two starting stone) from the map script, but sometimes barely over two per player actually spawning."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": 24,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "medium",
+       "herds": 6,
+       "head": 30
+      },
+      {
+       "size": "small",
+       "herds": 4,
+       "head": 12
+      }
+     ],
+     "deerHead": 42,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 2,
+       "bushes": 12
+      }
+     ],
+     "berryBushes": 12
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": 48,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "medium",
+       "herds": 12,
+       "head": 60
+      },
+      {
+       "size": "small",
+       "herds": 8,
+       "head": 24
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 24
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": 72,
+     "boar": 6,
+     "deer": [
+      {
+       "size": "medium",
+       "herds": 18,
+       "head": 90
+      },
+      {
+       "size": "small",
+       "herds": 12,
+       "head": 36
+      }
+     ],
+     "deerHead": 126,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 6,
+       "bushes": 36
+      }
+     ],
+     "berryBushes": 36
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": 96,
+     "boar": 8,
+     "deer": [
+      {
+       "size": "medium",
+       "herds": 24,
+       "head": 120
+      },
+      {
+       "size": "small",
+       "herds": 16,
+       "head": 48
+      }
+     ],
+     "deerHead": 168,
+     "berries": [
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 48
+    }
+   },
+   "img": "assets/maps/highwoods-1v1.jpg",
+   "ja": "高地の森",
+   "notes": [],
+   "startDeer": {
+    "near": null,
+    "text": "鹿は中群3つ＋小群2つが1人あたりと多いが、自陣からの距離は wiki に記述が無い。"
+   }
+  },
+  "prairie": {
+   "name": "Prairie",
+   "slug": "prairie",
+   "raw": {
+    "sacredSites": "3",
+    "tradePosts": "2",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "Varies",
+    "deer": "Small: Varies",
+    "boar": "1 per player",
+    "berries": "Medium: Varies",
+    "gold": "Small: Varies",
+    "stone": "Small: Varies",
+    "features": "Open / Less Wood / Elevation"
+   },
+   "features": [
+    "Open",
+    "Less Wood",
+    "Elevation"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Prairie",
+   "stub": false,
+   "prose": {
+    "features": "= In terms of map features, Prairie differs little from its most logical comparison - Dry Arabia. Both are pure land maps with three Sacred Sites and two Trade Posts. The Sacred Sites similarly tend to be in the center between players in 1 vs 1, but can be more clustered and randomly placed in team games, sometimes spawning behind players. Players also spawn in the same starting positions, encircling the center and evenly spaced. The same number of Relics also spawn evenly distributed. However, one difference is that the Trade Posts on Prairie are always directly in opposite corners, as opposed to potentially along the map edges, making trade a more reliable strategy on every map generation. === Resources === While Prairie may seem like Dry Arabia with significantly less wood due to the lack of large woodlines, there are actually significant differences when it comes to resource distribution. First of all, rather than using the standard resource distribution function which attempts to place a fixed number of each resource, the map is scripted to introduce an element of randomness in the placement of certain resources. Berry Bush patches, Sheep, Deer packs, Small Gold Veins, and Small Stone Outcroppings are all affected by this. Furthermore, rather than spawn independently of each other, contested Sheep are tied to Small Gold Vein spawns, with four Sheep spawning around every mine. The approximate number of small mines is 7 to 10 on micro maps, 12 to 14 on small maps, 18 to 21 on medium maps, and 24 to 31 on large maps. This can result in over 40 Sheep (double the standard amount) in 1 vs 1 games with the relative amount decreasing slightly as the map gets larger (up to ~1.7x in 4 vs 4). The amount of Small Stone Outcroppings is similar to the amount of small gold, as is the number of Deer packs, which only spawn in the small variety (groups of three). The berries provide another increased source of food, and rather than spawning in their standard amount of three patches tied to the Capital Town Center location, they also spawn randomly distributed along the map. Only medium patches of six bushes spawn, and the total numbers vary around 10 to 12 on micro maps, 15 to 19 on small maps, 23 to 26 on medium maps, and 33 to 38 on large maps. There are also additional Boars, with one spawning relatively close to each player's sta close small Deer herd. === Changelog === * Originally, players' safe starting gold and stone nodes were large. With patch 16.2.10604, they were changed to small nodes. === Trivia === * In the season three public update preview, Prairie spawned two Boars per player and had more Deer per pack (whether large or medium size is unknown). With its release in update 24916, the numbers were decreased to the current amount. * Prairie is referred to as 'Dunes' in the game files.",
+    "resources": "= While Prairie may seem like Dry Arabia with significantly less wood due to the lack of large woodlines, there are actually significant differences when it comes to resource distribution. First of all, rather than using the standard resource distribution function which attempts to place a fixed number of each resource, the map is scripted to introduce an element of randomness in the placement of certain resources. Berry Bush patches, Sheep, Deer packs, Small Gold Veins, and Small Stone Outcroppings are all affected by this. Furthermore, rather than spawn independently of each other, contested Sheep are tied to Small Gold Vein spawns, with four Sheep spawning around every mine. The approximate number of small mines is 7 to 10 on micro maps, 12 to 14 on small maps, 18 to 21 on medium maps, and 24 to 31 on large maps. This can result in over 40 Sheep (double the standard amount) in 1 vs 1 games with the relative amount decreasing slightly as the map gets larger (up to ~1.7x in 4 vs 4). The amount of Small Stone Outcroppings is similar to the amount of small gold, as is the number of Deer packs, which only spawn in the small variety (groups of three). The berries provide another increased source of food, and rather than spawning in their standard amount of three patches tied to the Capital Town Center location, they also spawn randomly distributed along the map. Only medium patches of six bushes spawn, and the total numbers vary around 10 to 12 on micro maps, 15 to 19 on small maps, 23 to 26 on medium maps, and 33 to 38 on large maps. There are also additional Boars, with one spawning relatively close to each player's sta close small Deer herd. === Changelog === * Originally, players' safe starting gold and stone nodes were large. With patch 16.2.10604, they were changed to small nodes. === Trivia === * In the season three public update preview, Prairie spawned two Boars per player and had more Deer per pack (whether large or medium size is unknown). With its release in update 24916, the numbers were decreased to the current amount. * Prairie is referred to as 'Dunes' in the game files."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 5,
+     "sheep": null,
+     "boar": 2,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "2v2": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 7,
+     "sheep": null,
+     "boar": 4,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "3v3": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 9,
+     "sheep": null,
+     "boar": 6,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    },
+    "4v4": {
+     "sacredSites": 3,
+     "tradePosts": 2,
+     "relics": 11,
+     "sheep": null,
+     "boar": 8,
+     "deer": [],
+     "deerHead": null,
+     "berries": [],
+     "berryBushes": null
+    }
+   },
+   "img": "assets/maps/prairie-1v1.jpg",
+   "ja": "大草原",
+   "notes": [],
+   "startDeer": {
+    "near": "近い",
+    "text": "各自の近くに小群が1つ。そのすぐそばにイノシシも1頭湧く。ただし小群なので3頭。"
+   }
+  },
+  "nagari": {
+   "name": "Nagari",
+   "slug": "nagari",
+   "raw": {
+    "sacredSites": "2",
+    "tradePosts": "2",
+    "relics": "Default: 4 / Per player: 1",
+    "sheep": "20/38/56/74",
+    "deer": "Large: 2 per player",
+    "boar": "2/3/4/5",
+    "berries": "Large: 1 per player / Medium: 2 per player",
+    "gold": "Large: 2/3/4/5 / Small: 8/18/26/43",
+    "stone": "Large: 1 per player / Small: 8/14/21/27",
+    "features": "Hybrid / Choke Points / Stealth Forest"
+   },
+   "features": [
+    "Hybrid",
+    "Choke Points",
+    "Stealth Forest"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Nagari",
+   "stub": false,
+   "prose": {
+    "features": "Nagari features two parallel mountain ranges, offset from one another with a lake in between. Two lakes of varying sizes will spawn in opposite corners, and they can spawn either in the corners closer to the mountain ranges or those farther away. Players in 1 vs 1 will always spawn next to the mountain ranges, and as such, they may or may not spawn next to the corner lakes. The combined length of the mountain ranges and lake make the distance between players quite large, discouraging early aggression. Furthermore, the distance between each mountain range and opposite edges of the map are quite short, making walling easy. In 2 vs 2, one of the players on each team will always start next to one of the corner lakes, and larger team sizes will distribute player starting locations such that each team is lined up parallel to each of the mountain ranges. The two Sacred Sites are located along the central axis of the map that lies between the two mountain ranges and along opposite edges of the map. Two Trade Posts are in each of the two opposite corners not occupied by lakes. Although the map is not explicitly divided in two equal halves, as on Mongolian Heights or Mountain Pass, there are an even number of Relics. Their positions though are not as explicitly advantageous to one team as on the aforementioned maps. In team games, the Relics tend to spawn more along the map edges perpendicular to the mountain ranges and player spawns. They can, however, also spawn behind each team.",
+    "resources": "Other than Sheep, Nagari has a standard starting resource spawn, while also having the standard number of Berry Bushes, Boars, and Deer and Stone Outcroppings around the map. Sheep on the map are found mostly around the players' bases, with each starting position assigned 7 nearby sheep, and then the rest occurring in contested territory. The central lake holds a moderate amount of Deep Water Fish in 2 and 4-player games, but is teeming with them in 6- and 8-player games. A single Deep Water Fish will also spawn in each corner lake. Shoreline Fish also spawn along both the corner and central lakes. As is typical on most hybrid maps, there is extra gold, with a larger than average number of Small Gold Mines distributed fairly evenly around the map. Somewhat atypical is the lack of large woodlines, with only two per player. There are plenty of small woodlines and Stealth Forest around the map however."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 6,
+     "sheep": 20,
+     "boar": 2,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 2,
+       "bushes": 16
+      },
+      {
+       "size": "medium",
+       "patches": 4,
+       "bushes": 24
+      }
+     ],
+     "berryBushes": 40
+    },
+    "2v2": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 8,
+     "sheep": 38,
+     "boar": 3,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      },
+      {
+       "size": "medium",
+       "patches": 8,
+       "bushes": 48
+      }
+     ],
+     "berryBushes": 80
+    },
+    "3v3": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 10,
+     "sheep": 56,
+     "boar": 4,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 6,
+       "bushes": 48
+      },
+      {
+       "size": "medium",
+       "patches": 12,
+       "bushes": 72
+      }
+     ],
+     "berryBushes": 120
+    },
+    "4v4": {
+     "sacredSites": 2,
+     "tradePosts": 2,
+     "relics": 12,
+     "sheep": 74,
+     "boar": 5,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      },
+      {
+       "size": "medium",
+       "patches": 16,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 160
+    }
+   },
+   "img": "assets/maps/nagari-1v1.jpg",
+   "ja": "ナーガリ",
+   "notes": [],
+   "startDeer": {
+    "near": "遠い",
+    "text": "標準配分。羊以外は初期資源も標準で、自陣近くに固定では湧かない。"
+   }
+  },
+  "boulder-bay": {
+   "name": "Boulder Bay",
+   "slug": "boulder-bay",
+   "raw": {
+    "sacredSites": "2",
+    "tradePosts": "1 Trade Post / 1 Coastal Trade Post",
+    "relics": "Default: 3 / Per player: 1",
+    "sheep": "16/28/42/56",
+    "deer": "2 large per player",
+    "boar": "Micro: 4 / Small: 7 / Medium: 9-10 / Large: 11-12",
+    "berries": "2 large per player",
+    "gold": "Large: 4/10/9/12 / Small: 5/10/20/19",
+    "stone": "Large: 1 per player / Small: 5/10/15/20",
+    "features": "Naval / Elevation / Choke Point / Stealth Forests"
+   },
+   "features": [
+    "Naval",
+    "Elevation",
+    "Choke Point",
+    "Stealth Forests"
+   ],
+   "wiki": "https://ageofempires.fandom.com/wiki/Boulder_Bay",
+   "stub": false,
+   "prose": {
+    "features": "The eponymous bay from which the map gets its name is a medium sized body of water that juts out from any one of the corners of the map, tapering sharply at the start and extending to approximately the center of the map. Teams will start on opposite sides of this bay, although it seems worryingly common in 3 vs 3 games for one team member to spawn on the wrong side, surrounded by enemies. Individual player positions are randomized to a degree, with team members able to spawn in a line or arc, or more clumped together in a group. Within the bay on the corner itself is always an island with one Sacred Site and one Coastal Trade Post, and across from the bay is a raised plateau with a Trade Post in the corner and additional resources. The land Trade Post allows for a long, but contestable trade route. A second Sacred Site is positioned somewhere between the tip of the bay and the raised plateau, usually closer to the water. The 'choke point' designation of this map is somewhat outdated, as it comes from a previous version where the bay extended all the way to the plateau - nearly 3/4 of the map - making it much easier to block off the land area of the map with walls. The usual number of Relics spawn on this map, with it being possible for one to spawn on the island in the bay. The bay may also contain Stealth Kelp Forest.",
+    "resources": "Outside of the standard copious amount of Deep Water Fish and Shoreline Fish that come with most large bodies of water, this map features only two large Berry Bush patches and two fewer nearby neutral Sheep per player, but makes up for it by spawning a larger than usual number of Boars. Deer spawns are standard. Players start out with either one or two large circular woodlines, and only small circular woodlines dot the rest of the map, along with patches of Stealth Forest. In addition to their starting Small Stone Outcropping, each player can also find a large outcropping and a second small stone nearby. A small number of additional contested small outcroppings round out the stone on the map. The number of Gold Mine spawns per map size is somewhat strange, with a greater number of large mines in 2 vs 2 compared than 3 vs 3, but on each map size, players start with a Large Gold just outside the range of their Capital Town Center (alongside their standard starting small gold). The rest of the mines spawn fairly evenly distributed across the map, and any mineral node, as well as a Boar, may spawn on the island in the bay."
+   },
+   "bySize": {
+    "1v1": {
+     "sacredSites": 2,
+     "tradePosts": null,
+     "relics": 5,
+     "sheep": 16,
+     "boar": null,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 4,
+       "head": 28
+      }
+     ],
+     "deerHead": 28,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 4,
+       "bushes": 32
+      }
+     ],
+     "berryBushes": 32
+    },
+    "2v2": {
+     "sacredSites": 2,
+     "tradePosts": null,
+     "relics": 7,
+     "sheep": 28,
+     "boar": null,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 8,
+       "head": 56
+      }
+     ],
+     "deerHead": 56,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 8,
+       "bushes": 64
+      }
+     ],
+     "berryBushes": 64
+    },
+    "3v3": {
+     "sacredSites": 2,
+     "tradePosts": null,
+     "relics": 9,
+     "sheep": 42,
+     "boar": null,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 12,
+       "head": 84
+      }
+     ],
+     "deerHead": 84,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 12,
+       "bushes": 96
+      }
+     ],
+     "berryBushes": 96
+    },
+    "4v4": {
+     "sacredSites": 2,
+     "tradePosts": null,
+     "relics": 11,
+     "sheep": 56,
+     "boar": null,
+     "deer": [
+      {
+       "size": "large",
+       "herds": 16,
+       "head": 112
+      }
+     ],
+     "deerHead": 112,
+     "berries": [
+      {
+       "size": "large",
+       "patches": 16,
+       "bushes": 128
+      }
+     ],
+     "berryBushes": 128
+    }
+   },
+   "img": "assets/maps/boulder-bay-1v1.jpg",
+   "ja": "ボルダー ベイ",
+   "notes": [],
+   "startDeer": {
+    "near": "遠い",
+    "text": "標準配分。"
+   }
+  }
+ }
+}
