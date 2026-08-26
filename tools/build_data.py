@@ -31,7 +31,15 @@ CIV_JP = {
     "zx": ("朱熹の遺産", "朱熹"),
 }
 
-# 生産施設の日本語名（ゲーム内表記）。ここに無いものは英語のまま出す
+# ゲーム内に対応する文字列が無いラベルだけ、こちらで補う
+TERM_FALLBACK = {
+    'i-dps': {'ja': 'DPS', 'en': 'DPS'},
+    'i-time': {'ja': '生産時間', 'en': 'Build Time'},
+    'i-fire': {'ja': '焼夷攻撃', 'en': 'Fire Attack'},
+    'a-eleph': {'ja': '象', 'en': 'Elephant'},
+}
+
+# 生産施設の日本語名（fallback。通常は data/locale-raw のゲーム内表記を使う）
 BUILDING_JP = {
     'town-center': '町の中心', 'capital-town-center': '町の中心（首都）',
     'barracks': '戦士育成所', 'archery-range': '弓兵育成所', 'stable': '騎兵育成所',
@@ -87,7 +95,7 @@ UI = {
         'view.matrix': '生産施設 × 時代', 'view.table': '表', 'unitsFilter': 'ユニット',
         'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
-        'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計',
+        'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計', 'colAtk': '攻撃',
         'noUnits': '該当するユニットがありません。',
         'tip.dps': 'DPS（自爆ユニットは出さない）', 'tip.atk': '攻撃力（{t}）',
         'tip.int': '攻撃間隔（秒）', 'tip.range': '射程（–は近接）',
@@ -111,7 +119,7 @@ UI = {
         'view.matrix': 'Building × Age', 'view.table': 'Table', 'unitsFilter': 'Units',
         'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
-        'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total',
+        'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total', 'colAtk': 'Attack',
         'noUnits': 'No units match.',
         'tip.dps': 'DPS (not shown for self-destructing units)', 'tip.atk': 'Attack ({t})',
         'tip.int': 'Rate of fire (seconds)', 'tip.range': 'Range (– means melee)',
@@ -160,7 +168,7 @@ def main():
         if w and w.get('s') and w['s'] < 0.5:
             w['dps'] = None   # 爆破船などの自爆は DPS 換算しても意味がない
         units.append({
-            'id': u['id'], 'base': u['b'], 'n': u['n'], 'jp': u['jp'], 'prov': u['prov'],
+            'id': u['id'], 'base': u['b'], 'n': u['n'],
             'age': u['a'], 'civs': u['cv'], 'at': u['at'], 'uq': u.get('uq', False),
             'hp': u['hp'], 'w': w, 'ch': u['ch'], 'bo': u['bo'],
             'am': u['am'], 'ar': u['ar'], 'mv': u['mv'],
@@ -182,26 +190,46 @@ def main():
         return {'ja': slug_label(slug), 'en': bname.get(slug) or
                 ' '.join(w.capitalize() for w in slug.split('-'))}
 
+    civs_idx = json.load(open(os.path.join(ROOT, 'data', 'civs-index.json')))
+    raw_dir = os.path.join(ROOT, 'data', 'locale-raw')
+    langs = sorted(f[:-5] for f in os.listdir(raw_dir)) if os.path.isdir(raw_dir) else ['en']
+    langs.sort(key=lambda l: (l != 'ja', l != 'en', l))
+
     meta = {
         'source': 'https://github.com/aoe4world/data',
         'patch': 'Season 13 / 16.1.9737',
-        'langs': ['ja', 'en'],
-        'civs': {c: {'ja': CIV_JP.get(c, (c, c))[0], 'sh': CIV_JP.get(c, (c, c))[1],
-                     'en': (civs_idx.get(c) or {}).get('name', c),
-                     'flag': f'assets/flags/{c}.png'} for c in civs},
-        'buildings': {b: blabel(b) for b in buildings},
+        'langs': langs,
+        'civs': {c: {'flag': f'assets/flags/{c}.png',
+                     'en': (civs_idx.get(c) or {}).get('name', c)} for c in civs},
         'buildingOrder': BUILDING_ORDER,
-        'landmarks': {b: blabel(b) for b in buildings if b not in BUILDING_ORDER},
+        'landmarks': [b for b in buildings if b not in BUILDING_ORDER],
         'unitBuilt': sorted(UNIT_BUILT),
-        'attrs': {k: {'ja': v[0], 'en': v[1]} for k, v in ATTR_I18N.items()},
-        'stats': {k: {'ja': v[0], 'en': v[1]} for k, v in STAT_I18N.items()},
         'classIcon': L.CLASS_ICON,
         'atkIcon': L.ATK_ICON,
         'roman': L.ROMAN,
-        'ui': UI,
         'repo': 'https://github.com/yousan/aoe4units',
-        'disclaimer': DISCLAIMER_I18N,
     }
+
+    # ---- 言語ごとのファイル: ゲーム内表記（locale-raw）＋ UI文言
+    i18n_dir = os.path.join(ROOT, 'data', 'i18n')
+    os.makedirs(i18n_dir, exist_ok=True)
+    for lang in langs:
+        raw = json.load(open(os.path.join(raw_dir, f'{lang}.json'), encoding='utf-8'))
+        terms = dict(raw.get('terms') or {})
+        for k, v in TERM_FALLBACK.items():
+            terms.setdefault(k, v.get(lang, v['en']))
+        out = {
+            'units': raw.get('units') or {},
+            'buildings': raw.get('buildings') or {},
+            'civs': raw.get('civs') or {},
+            'terms': terms,
+            'ui': UI.get(lang, UI['en']),
+            'uiIsFallback': lang not in UI,
+            'disclaimer': DISCLAIMER_I18N.get(lang, DISCLAIMER_I18N['en']),
+        }
+        json.dump(out, open(os.path.join(i18n_dir, f'{lang}.json'), 'w', encoding='utf-8'),
+                  ensure_ascii=False, separators=(',', ':'))
+    print(f'i18n     : {len(langs)} langs ->', ', '.join(langs))
 
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
     up = os.path.join(ROOT, 'data', 'units.json')

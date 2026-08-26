@@ -215,10 +215,9 @@ table.tbl .z{color:#4a4238}
 .home:hover{color:var(--fg);border-color:var(--gold)}
 [hidden]{display:none !important}
 .chrome{display:flex;align-items:center;gap:12px;flex:1;flex-wrap:wrap}
-.langs{display:flex;gap:3px;margin-left:auto}
-.langbtn{background:transparent;border:1px solid var(--line);color:var(--dim);font-family:inherit;
- padding:4px 9px;border-radius:6px;cursor:pointer;font-size:11.5px}
-.langbtn.on{background:var(--panel2,#241f19);color:var(--gold);border-color:var(--gold)}
+select#langs{margin-left:auto;background:var(--panel2,#241f19);border:1px solid var(--line);
+ color:var(--dim);padding:5px 8px;border-radius:7px;font-size:12px;font-family:inherit}
+select#langs:hover{color:var(--fg);border-color:var(--gold)}
 .pickh{padding:22px 18px 0;margin:0;font-size:13px;color:var(--gold);letter-spacing:.12em}
 .civgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:12px;
  padding:16px 18px 30px}
@@ -250,7 +249,8 @@ table.tbl .z{color:#4a4238}
 /* 誤りの報告リンク */
 .report{display:inline-flex;align-items:center;gap:4px;font-size:12px;text-decoration:none;
  color:var(--dim);border:1px solid var(--line);border-radius:7px;padding:5px 10px;white-space:nowrap}
-.report:hover{color:#e0b0b0;border-color:#a8524a;background:#241a18}
+.report{color:var(--gold)}
+.report:hover{color:#1d1710;background:var(--gold);border-color:var(--gold)}
 .disc .report{padding:0;border:none;color:var(--gold)}
 .disc .report:hover{background:none;color:#f0d49a}
 @media print{ .report{display:none !important} }

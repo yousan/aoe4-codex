@@ -1,5 +1,5 @@
 // ユニットカードの描画。全ビューで共通して使う。
-import { t, L, lang } from './i18n.js';
+import { t, lang, term, unitName } from './i18n.js';
 
 export const IMG_BASE = 'assets/units/';
 
@@ -10,21 +10,17 @@ export function ico(name, cls = '') {
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-const TIERS_JA = ['黎明', '初期', '熟練', 'ベテラン', '精鋭'];
-const TIERS_EN = ['Vanguard ', 'Early ', 'Hardened ', 'Veteran ', 'Elite '];
-
-/** 系統名（ティアの接頭辞を落とした名前） */
-export function lineLabel(u) {
-  const ja = lang() === 'ja' && u.jp;
-  const n = ja ? u.jp : u.n;
-  for (const p of (ja ? TIERS_JA : TIERS_EN)) if (n.startsWith(p)) return n.slice(p.length);
-  return n;
+/** 系統名。同じ系統の中でいちばん短い名前を使う（言語ごとの接頭辞に依存しない） */
+export function lineLabel(units) {
+  const list = Array.isArray(units) ? units : [units];
+  const names = list.map(unitName);
+  return names.reduce((a, b) => (b.length < a.length ? b : a), names[0]);
 }
 
 /** 属性の行（重装/軽装 は漢字チップ、それ以外はアイコン） */
 function attrRow(u, meta) {
   const out = u.at.map((a) => {
-    const tip = esc(L(meta.attrs[a]) || a);
+    const tip = esc(term(a));
     if ((a === 'a-heavy' || a === 'a-light') && lang() === 'ja') {
       const heavy = a === 'a-heavy';
       return `<span class="kj ${heavy ? 'hv' : 'lt'}" data-tip="${tip}">${heavy ? '重' : '軽'}</span>`;
@@ -44,7 +40,7 @@ function bonusRow(u, meta) {
       }
       return ico(meta.classIcon[c] || 'a-inf');
     }).join('');
-    const names = b.c.map((c) => L(meta.attrs[meta.classIcon[c]]) || c).join(lang() === 'ja' ? '・' : ', ');
+    const names = b.c.map((c) => term(meta.classIcon[c] || c)).join(lang() === 'ja' ? '・' : ', ');
     return `<span class="bo up" data-tip="${esc(t('tip.vs', { c: names, v: b.v }))}">+${b.v}${icons}</span>`;
   }).join('');
   return `<div class="bonus">${items}</div>`;
@@ -59,7 +55,7 @@ export function renderCard(u, meta) {
   const row = (icon, val, tip) =>
     `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
 
-  const st = (k) => L(meta.stats[k]);
+  const st = (k) => term(k);
   const left = [
     row('i-hp', u.hp || '–', st('i-hp')),
     row(atk, w.d ?? '–', t('tip.atk', { t: st(atk) })),
@@ -76,18 +72,15 @@ export function renderCard(u, meta) {
   ];
 
   const paid = RES.filter(([k]) => u.cost[k]);
-  const tip = (paid.length ? paid.map(([k, icn]) => `${L(meta.stats[icn])} ${u.cost[k]}`).join(' / ') + ' / ' : '')
+  const tip = (paid.length ? paid.map(([k, icn]) => `${term(icn)} ${u.cost[k]}`).join(' / ') + ' / ' : '')
     + t('tip.cost', { n: u.cost.tot });
   const cost = paid.length
     ? paid.map(([k, icn]) => `<span class="c r-${k}">${ico(icn)}${u.cost[k]}</span>`).join('')
     : `<span class="c r-g">${ico('i-gold')}${u.cost.tot}</span>`;
 
-  const ja = lang() === 'ja';
-  const shown = (ja && u.jp) ? u.jp : u.n;
-  const name = (ja && u.jp && u.prov)
-    ? `<span class="prov" data-tip="${esc(t('tip.prov'))}">${esc(shown)}</span>`
-    : esc(shown);
-  const sub = (ja && u.jp) ? `<span class="en">${esc(u.n)}</span>` : '';
+  const shown = unitName(u);
+  const name = esc(shown);
+  const sub = shown !== u.n ? `<span class="en">${esc(u.n)}</span>` : '';
 
   return `<div class="card a${u.age}">
   <div class="hd"><img src="${IMG_BASE}${u.ic}" alt="" loading="lazy"><div class="nm">${name}${sub}</div>
