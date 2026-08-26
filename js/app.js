@@ -134,7 +134,7 @@ function preparePrint() {
 
 function legendHTML() {
   const row = (obj, kanji) => Object.entries(obj).map(([k, v]) => {
-    const mark = (kanji && (k === 'a-heavy' || k === 'a-light'))
+    const mark = (kanji && lang() === 'ja' && (k === 'a-heavy' || k === 'a-light'))
       ? `<span class="kj">${k === 'a-heavy' ? '重' : '軽'}</span>`
       : `<svg class="ic"><use href="#${k}"/></svg>`;
     return `<div class="lg">${mark}<span>${esc(L(v))}</span></div>`;

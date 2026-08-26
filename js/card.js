@@ -10,23 +10,26 @@ export function ico(name, cls = '') {
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-const TIERS = ['黎明', '初期', '熟練', 'ベテラン', '精鋭'];
+const TIERS_JA = ['黎明', '初期', '熟練', 'ベテラン', '精鋭'];
+const TIERS_EN = ['Vanguard ', 'Early ', 'Hardened ', 'Veteran ', 'Elite '];
 
 /** 系統名（ティアの接頭辞を落とした名前） */
 export function lineLabel(u) {
-  const n = u.jp || u.n;
-  for (const t of TIERS) if (n.startsWith(t)) return n.slice(t.length);
+  const ja = lang() === 'ja' && u.jp;
+  const n = ja ? u.jp : u.n;
+  for (const p of (ja ? TIERS_JA : TIERS_EN)) if (n.startsWith(p)) return n.slice(p.length);
   return n;
 }
 
 /** 属性の行（重装/軽装 は漢字チップ、それ以外はアイコン） */
 function attrRow(u, meta) {
   const out = u.at.map((a) => {
-    if (a === 'a-heavy' || a === 'a-light') {
+    const tip = esc(L(meta.attrs[a]) || a);
+    if ((a === 'a-heavy' || a === 'a-light') && lang() === 'ja') {
       const heavy = a === 'a-heavy';
-      return `<span class="kj ${heavy ? 'hv' : 'lt'}" data-tip="${esc(L(meta.attrs[a]))}">${heavy ? '重' : '軽'}</span>`;
+      return `<span class="kj ${heavy ? 'hv' : 'lt'}" data-tip="${tip}">${heavy ? '重' : '軽'}</span>`;
     }
-    return `<span class="at" data-tip="${esc(L(meta.attrs[a]) || a)}">${ico(a)}</span>`;
+    return `<span class="at" data-tip="${tip}">${ico(a)}</span>`;
   }).join('');
   return `<div class="attrs">${out}</div>`;
 }
@@ -36,7 +39,7 @@ function bonusRow(u, meta) {
   if (!u.bo || !u.bo.length) return '';
   const items = u.bo.map((b) => {
     const icons = b.c.map((c) => {
-      if (c === 'heavy' || c === 'light') {
+      if ((c === 'heavy' || c === 'light') && lang() === 'ja') {
         return `<span class="kj ${c === 'heavy' ? 'hv' : 'lt'}">${c === 'heavy' ? '重' : '軽'}</span>`;
       }
       return ico(meta.classIcon[c] || 'a-inf');
