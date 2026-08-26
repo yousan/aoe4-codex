@@ -248,3 +248,11 @@ table.tbl .z{color:#4a4238}
  padding:3px 9px;font-size:11px;cursor:pointer;font-family:inherit}
 .mini:hover{border-color:var(--gold);color:var(--fg)}
 @media print{ .fbar{display:none !important} }
+
+/* 誤りの報告リンク */
+.report{display:inline-flex;align-items:center;gap:4px;font-size:12px;text-decoration:none;
+ color:var(--dim);border:1px solid var(--line);border-radius:7px;padding:5px 10px;white-space:nowrap}
+.report:hover{color:#e0b0b0;border-color:#a8524a;background:#241a18}
+.disc .report{padding:0;border:none;color:var(--gold)}
+.disc .report:hover{background:none;color:#f0d49a}
+@media print{ .report{display:none !important} }
