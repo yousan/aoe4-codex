@@ -1,0 +1,7 @@
+# 元データ（aoe4world/data から取得する。tools/fetch.sh で再取得）
+data/units-all.json
+
+# 作業ファイル
+tmp/
+*.pdf
+__pycache__/

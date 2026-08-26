@@ -1,0 +1,309 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8">
+<title>AoE4 ユニットカード v3</title><style>
+:root{--bg:#100e0b;--card:#1b1713;--card2:#231d17;--line:#3a3128;--fg:#efe7da;--dim:#9b8e79;
+--gold:#d8b06a;--a1:#7fae98;--a2:#78a3d4;--a3:#bf90da;--a4:#dfae5c;
+--food:#e08a70;--wood:#9ec27a;--gold2:#e0c469;--stone:#93a0ab}
+*{box-sizing:border-box}
+body{margin:0;padding:24px 26px;background:var(--bg);color:var(--fg);font-size:13px;
+font-family:"Segoe UI","Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+font-variant-numeric:tabular-nums}
+h2{font-size:12px;color:var(--gold);letter-spacing:.14em;margin:0 0 12px;font-weight:600}
+h2 small{color:var(--dim);letter-spacing:0;font-weight:400;margin-left:10px}
+.sec{margin-bottom:30px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.ic{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round;viewBox:0 0 24 24}
+svg.ic{width:13px;height:13px}
+.card{width:208px;background:var(--card);border:1px solid var(--line);border-radius:9px}
+.a1{border-top:2px solid var(--a1)}.a2{border-top:2px solid var(--a2)}
+.a3{border-top:2px solid var(--a3)}.a4{border-top:2px solid var(--a4)}
+.card .hd{display:flex;align-items:center;gap:6px;padding:6px 7px;background:var(--card2);
+border-radius:8px 8px 0 0}
+.card .hd img{width:30px;height:30px;border-radius:5px;flex:none;background:#0d0b09}
+.card .nm{flex:1;min-width:0;font-weight:700;color:#fff;font-size:12.5px;line-height:1.2;
+white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .en{display:block;color:var(--dim);font-weight:400;font-size:9px;line-height:1.25;
+white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .age{flex:none;width:19px;height:19px;line-height:19px;text-align:center;border-radius:50%;
+font-size:9.5px;font-weight:700;color:#17130f}
+.a1 .age{background:var(--a1)}.a2 .age{background:var(--a2)}.a3 .age{background:var(--a3)}.a4 .age{background:var(--a4)}
+.attrs{display:flex;align-items:center;gap:5px;padding:4px 8px;background:#191512;
+border-top:1px solid #2b241d;border-bottom:1px solid #2b241d;color:var(--gold);flex-wrap:wrap}
+.attrs .at{display:inline-flex}
+.attrs svg.ic{width:14px;height:14px}
+.sw-hv{stroke-width:3.2} .sw-lt{stroke-width:1.3}
+.kj{font-size:10px;line-height:1.35;padding:0 3px;border-radius:3px;font-weight:700}
+.kj.hv,.kj{background:var(--gold);color:#1d1710}
+.kj.lt{background:none;color:var(--dim);border:1px solid var(--line);font-weight:400}
+.bdg{display:inline-flex;padding:1px;border-radius:3px;border:1px solid var(--gold);color:var(--gold)}
+.bdg.on{background:var(--gold);color:#1d1710}
+.card .body{display:grid;grid-template-columns:1fr 1fr}
+.card .col{padding:4px 0} .card .col+.col{border-left:1px solid #2b241d}
+.card .r{display:flex;align-items:center;gap:5px;padding:2px 8px}
+.card .r .ic{color:var(--dim)}
+.card .v{font-weight:600;font-size:12.5px;margin-left:auto}
+.bonus{display:flex;flex-wrap:wrap;gap:5px 11px;padding:6px 8px;border-top:1px solid #2b241d;
+background:#1e1912}
+.bo{display:inline-flex;align-items:center;gap:4px;color:var(--gold2,#f0d49a);
+font-size:13px;font-weight:700;line-height:1.2}
+.bo svg.ic{width:17px;height:17px;color:var(--gold)}
+.bo .kj{font-size:11px;padding:0 3px;line-height:1.3}
+.card .ft{display:flex;align-items:center;gap:8px;padding:5px 8px;border-top:1px solid #2b241d;
+background:#171310;font-size:12px;border-radius:0 0 8px 8px}
+.card .ft .sp{flex:1}
+.card .c{display:inline-flex;align-items:center;gap:3px;font-weight:600}
+.card .c.dim{color:var(--dim);font-weight:400;font-size:11px}
+.r-f .ic{color:var(--food)}.r-wd .ic{color:var(--wood)}
+.r-g .ic{color:var(--gold2)}.r-st .ic{color:var(--stone)}
+.card.big .hd img{width:46px;height:46px}
+.zoom{transform:scale(2.1);transform-origin:top left;width:208px}
+.zwrap{display:flex;gap:18px;margin-bottom:14px}
+.zcol{width:410px;height:430px} .zcol h3{font-size:12px;color:var(--gold);margin:0 0 8px;font-weight:600}
+.lgwrap{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px 14px;max-width:900px;
+background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12px 14px}
+.lg{display:flex;align-items:center;gap:7px;color:var(--dim);font-size:11.5px}
+.lg .ic{width:15px;height:15px;color:var(--gold)}
+.prov{border-bottom:1px dotted var(--dim)}
+/* ---- ツールチップ（待ち時間なし・大きめ） ---- */
+[data-tip]{position:relative}
+[data-tip]:hover{z-index:120}
+[data-tip]:hover::after{
+ content:attr(data-tip);position:absolute;left:0;top:calc(100% + 5px);
+ background:#2f2820;color:#f7f1e6;border:1px solid var(--gold);border-radius:7px;
+ padding:6px 11px;font-size:14px;font-weight:500;line-height:1.35;letter-spacing:.02em;
+ white-space:nowrap;pointer-events:none;z-index:200;box-shadow:0 6px 18px #000b}
+[data-tip].up:hover::after{top:auto;bottom:calc(100% + 5px)}
+.card .r[data-tip]:hover::after{left:4px}
+.attrs [data-tip]:hover::after{left:-2px}
+
+/* ================= 印刷（A4横） ================= */
+@page{size:A4 landscape;margin:8mm}
+@media print{
+ :root{--bg:#fff;--card:#fff;--card2:#f4efe6;--line:#a99b84;--fg:#191510;--dim:#5b5344;
+  --gold:#7a5a1e;--gold2:#5a4212;--a1:#3f7d64;--a2:#35608f;--a3:#6f458c;--a4:#8f6512;
+  --food:#b04a2c;--wood:#4d7a2e;--stone:#4d5a66}
+ body{background:#fff;color:#191510;padding:0;font-size:12px}
+ .noprint{display:none !important}
+ a{color:#191510;text-decoration:none}
+ .card{break-inside:avoid;page-break-inside:avoid;border-color:#b5a68e;box-shadow:none}
+ .card .hd{background:#f0e9dd}
+ .card .hd img{background:#231e16}
+ .card .nm,.card .v{color:#000}
+ .attrs{background:#f7f2e9;border-color:#cdc0a8}
+ .bonus{background:#fbf5e9;border-color:#cdc0a8}
+ .card .ft{background:#f7f2e9;border-color:#cdc0a8}
+ .card .col+.col{border-color:#d8ccb5}
+ .card .r .ic{color:#5b5344}
+ .kj{background:#7a5a1e;color:#fff}
+ .kj.lt{background:#fff;color:#3d372c;border-color:#8a7c66}
+ [data-tip]:hover::after{display:none !important}
+ .lgwrap{border-color:#b5a68e;break-inside:avoid}
+ h1,h2{color:#4a3609}
+}
+.note{color:var(--dim);font-size:11.5px;line-height:1.7;margin-top:8px;max-width:900px}
+</style></head><body>
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="i-hp" viewBox="0 0 24 24"><path d="M12 21C5 16.5 3 13 3 9.8A4.6 4.6 0 0 1 12 7.4 4.6 4.6 0 0 1 21 9.8C21 13 19 16.5 12 21Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-melee" viewBox="0 0 24 24"><path d="M12 1.8 14.4 6.5V13.5H9.6V6.5Z" fill="currentColor" stroke="none"/><path d="M7 14.2h10M12 14.2v4.4"/><circle cx="12" cy="20.4" r="1.7" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-ranged" viewBox="0 0 24 24"><path d="M4 20 19 5M13 4.5h6.5V11M4 20l.2-4M4 20l4-.2"/></symbol>
+<symbol id="i-siege" viewBox="0 0 24 24"><path d="M2.5 20C5 9.5 13 5.5 19 8.5"/><circle cx="19.5" cy="10.5" r="2.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 2.5c4 5 6 7.5 6 11a6 6 0 0 1-12 0c0-2 1-3.5 2.5-5 .3 1.6 1 2.5 2 2.5 1.2 0 1.8-1.6 1.5-8.5Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-dps" viewBox="0 0 24 24"><path d="M13.5 2 4 13.5h6L9 22l10-12h-6.5Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-int" viewBox="0 0 24 24"><circle cx="12" cy="14" r="7.5"/><path d="M12 14V9.5M9 2h6M19.5 7 21 5.5"/></symbol>
+<symbol id="i-range" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.8"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-armm" viewBox="0 0 24 24"><path d="M12 2.4 20 6v5.6c0 5-4.4 8.2-8 10-3.6-1.8-8-5-8-10V6Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-armr" viewBox="0 0 24 24"><path d="M12 2.4 20 6v5.6c0 5-4.4 8.2-8 10-3.6-1.8-8-5-8-10V6Z"/><path d="M9.2 14.8 14.8 9.2M11.5 9.2h3.3v3.3" stroke-width="1.7"/></symbol>
+<symbol id="i-speed" viewBox="0 0 24 24"><path d="M3 7.5h11M3 12h7.5M3 16.5h9.5"/><path d="M15.5 6.5 21 12l-5.5 5.5"/></symbol>
+<symbol id="i-pop" viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="3.7"/><path d="M4.5 20.5c0-4.2 3.4-6.5 7.5-6.5s7.5 2.3 7.5 6.5"/></symbol>
+<symbol id="i-time" viewBox="0 0 24 24"><path d="M6.5 2.5h11M6.5 21.5h11M8.5 2.5v3.6L12 10.4l3.5-4.3V2.5M8.5 21.5v-3.6L12 13.6l3.5 4.3v3.6"/></symbol>
+<symbol id="i-food" viewBox="0 0 24 24"><path d="M12 22V8"/><path d="M12 16.5c-3.4 0-5.4-2.2-5.4-5.2 3.4 0 5.4 2.2 5.4 5.2Zm0 0c3.4 0 5.4-2.2 5.4-5.2-3.4 0-5.4 2.2-5.4 5.2Z" fill="currentColor" stroke="none"/><path d="M12 10.5c-3 0-4.8-2-4.8-4.6 3 0 4.8 2 4.8 4.6Zm0 0c3 0 4.8-2 4.8-4.6-3 0-4.8 2-4.8 4.6Z" fill="currentColor" stroke="none"/><path d="M12 6.4c1.7-1.6 1.7-3.4 0-4.8-1.7 1.4-1.7 3.2 0 4.8Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-wood" viewBox="0 0 24 24"><path d="M12 2.5 6 11h3.2L4.5 18.5h15L14.8 11H18Z" fill="currentColor" stroke="none"/><path d="M12 18.5v3"/></symbol>
+<symbol id="i-gold" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="3.6" fill="#1b1713" stroke="none"/></symbol>
+<symbol id="i-stone" viewBox="0 0 24 24"><path d="M4 16.5 8 7l7-2.5 5.5 6-2.5 8-9 1Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-inf" viewBox="0 0 24 24"><path d="M4.5 16.8a7.5 7.5 0 0 1 15 0v3.7h-5.6v-3.7h-3.8v3.7H4.5Z" fill="currentColor" stroke="none"/><path d="M12 9V4.5" stroke-width="2"/></symbol>
+<symbol id="a-cav" viewBox="0 0 24 24"><path d="M6.5 21.5V13a5.5 5.5 0 0 1 11 0v8.5"/><circle cx="8" cy="17.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="17.5" r="1.2" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-camel" viewBox="0 0 24 24"><path d="M2.5 19.5v-1.8c0-2 1.4-3.6 3.2-3.6s3.2 1.6 3.2 3.6c0-2 1.4-3.6 3.2-3.6s3.2 1.6 3.2 3.6v1.8"/><path d="M15.3 17.7V9.4c0-1.6 1.2-2.9 2.8-2.9h2.4"/></symbol>
+<symbol id="a-eleph" viewBox="0 0 24 24"><path d="M3.5 20.5V14a6.2 6.2 0 0 1 12.4 0v6.5"/><path d="M15.9 15c2.9.5 3.7 3.4 1.8 5.5"/><circle cx="7.8" cy="13.2" r="2.4"/><path d="M13.4 19l2.2 1.6"/></symbol>
+<symbol id="a-siege" viewBox="0 0 24 24"><path d="M2.5 21h16"/><circle cx="7.5" cy="17.2" r="3.4"/><path d="M5.8 14.4 16.5 5.2"/><path d="M14.6 3h6v5.2h-6Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-ship" viewBox="0 0 24 24"><path d="M2.5 16.5h19l-3 4.5H5.5Z" fill="currentColor" stroke="none"/><path d="M12 16V3M12.8 4.5 19 14.5h-6.2"/></symbol>
+<symbol id="a-relig" viewBox="0 0 24 24"><path d="M12 3v18M6 9.5h12"/></symbol>
+<symbol id="a-worker" viewBox="0 0 24 24"><path d="M3 21 11 13"/><path d="M11.5 5.5 19 13l-2.8 2.8L8.7 8.3Z"/></symbol>
+<symbol id="a-gun" viewBox="0 0 24 24"><circle cx="10" cy="15.5" r="6.2" fill="currentColor" stroke="none"/><path d="M14.6 11c1.5-1.6 2-3 1.6-4.6"/><path d="M18.2 4.4l2.6-1.4M19.6 7.4h3M18.6 1.6l.8 2.4"/></symbol>
+<symbol id="a-melee" viewBox="0 0 24 24"><path d="M12 1.8 14.4 6.5V13.5H9.6V6.5Z" fill="currentColor" stroke="none"/><path d="M7 14.2h10M12 14.2v4.4"/><circle cx="12" cy="20.4" r="1.7" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-ranged" viewBox="0 0 24 24"><path d="M4 20 19 5M13 4.5h6.5V11M4 20l.2-4M4 20l4-.2"/></symbol>
+<symbol id="a-massive" viewBox="0 0 24 24"><path d="M7.5 7.5h9v9h-9Z" fill="currentColor" stroke="none"/><path d="M4 8.5V4h4.5M15.5 4H20v4.5M20 15.5V20h-4.5M8.5 20H4v-4.5"/></symbol>
+<symbol id="a-scout" viewBox="0 0 24 24"><path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-spear" viewBox="0 0 24 24"><path d="M3.5 20.5 15.5 8.5"/><path d="M22 2 14 5.5 18.5 10Z" fill="currentColor" stroke="none"/><path d="M9 12.5 11.5 15"/></symbol>
+<symbol id="a-xbow" viewBox="0 0 24 24"><path d="M3 6Q12 13 21 6"/><path d="M3 6H21"/><path d="M12 3.5V21M9.2 21h5.6"/></symbol>
+<symbol id="a-bow" viewBox="0 0 24 24"><path d="M6 3.5a13 13 0 0 1 0 17"/><path d="M6 3.5 6 20.5"/><path d="M6 12h13M15.5 8.5 19 12l-3.5 3.5"/></symbol>
+<symbol id="a-heavy" viewBox="0 0 24 24"><path d="M12 2.4 20 6v5.6c0 5-4.4 8.2-8 10-3.6-1.8-8-5-8-10V6Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="a-light" viewBox="0 0 24 24"><path d="M19.5 3.5C10 4 4.5 9.5 4.5 18v2.5"/><path d="M19.5 3.5c.5 8-4.5 13-11.5 13.5"/></symbol>
+</svg>
+
+<div class="sec"><h2>日本語名＋属性フル表示 <small>属性はゲーム内のクラスそのまま（ボーナスの対象になる単位）</small></h2>
+<div class="row"><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/knight-3.png" alt=""><div class="nm">騎士<span class="en">Knight</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="kj hv" data-tip="重装">重</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">230</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">24</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">16.0</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.5</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">4</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.625</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 140 / 金 100 / 合計 240"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>140</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>100</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>35</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a1">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/spearman-1.png" alt=""><div class="nm">槍兵<span class="en">Spearman</span></div>
+    <div class="age">I</div></div>
+  <div class="attrs"><span class="kj lt" data-tip="軽装">軽</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="槍兵"><svg class="ic "><use href="#a-spear"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">80</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">7</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">3.73</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.25</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 労働者・象 +20">+20<svg class="ic "><use href="#a-worker"/></svg><svg class="ic "><use href="#a-eleph"/></svg></span><span class="bo up" data-tip="対 騎兵 +17">+17<svg class="ic "><use href="#a-cav"/></svg></span><span class="bo up" data-tip="対 象 +3">+3<svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="ft up" data-tip="食料 60 / 木材 20 / 合計 80"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>60</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>15</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/crossbowman-3.png" alt=""><div class="nm">弩兵<span class="en">Crossbowman</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="kj lt" data-tip="軽装">軽</span><span class="at" data-tip="遠隔"><svg class="ic "><use href="#a-ranged"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="弩兵"><svg class="ic "><use href="#a-xbow"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">80</span></div><div class="r" data-tip="攻撃力（遠隔攻撃）"><svg class="ic "><use href="#i-ranged"/></svg><span class="v">11</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">5.18</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">2.125</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">5</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.125</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 重装 +10">+10<span class="kj hv">重</span></span></div>
+  <div class="ft up" data-tip="食料 80 / 金 40 / 合計 120"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>80</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>40</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>22.5</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a2">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/archer-2.png" alt=""><div class="nm">弓兵<span class="en">Archer</span></div>
+    <div class="age">II</div></div>
+  <div class="attrs"><span class="kj lt" data-tip="軽装">軽</span><span class="at" data-tip="遠隔"><svg class="ic "><use href="#a-ranged"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="弓兵"><svg class="ic "><use href="#a-bow"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">70</span></div><div class="r" data-tip="攻撃力（遠隔攻撃）"><svg class="ic "><use href="#i-ranged"/></svg><span class="v">5</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">3.08</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.625</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">5</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.25</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 軽装・近接・歩兵 +5">+5<span class="kj lt">軽</span><svg class="ic "><use href="#a-melee"/></svg><svg class="ic "><use href="#a-inf"/></svg></span><span class="bo up" data-tip="対 軽装・火薬・歩兵 +5">+5<span class="kj lt">軽</span><svg class="ic "><use href="#a-gun"/></svg><svg class="ic "><use href="#a-inf"/></svg></span></div>
+  <div class="ft up" data-tip="食料 30 / 木材 50 / 合計 80"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>30</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>50</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>15</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/man-at-arms-3.png" alt=""><div class="nm">軍兵<span class="en">Man-at-Arms</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="kj hv" data-tip="重装">重</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">155</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">12</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">8.73</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.375</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">4</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.125</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 90 / 金 20 / 合計 110"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>90</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>20.5</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a2">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/horseman-2.png" alt=""><div class="nm">騎乗兵<span class="en">Horseman</span></div>
+    <div class="age">II</div></div>
+  <div class="attrs"><span class="kj lt" data-tip="軽装">軽</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">125</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">9</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">5.14</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.75</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">2</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.875</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 遠隔 +9">+9<svg class="ic "><use href="#a-ranged"/></svg></span><span class="bo up" data-tip="対 攻城兵器 +9">+9<svg class="ic "><use href="#a-siege"/></svg></span></div>
+  <div class="ft up" data-tip="食料 100 / 木材 20 / 合計 120"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>100</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>22.5</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a2">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/camel-archer-2.png" alt=""><div class="nm">らくだ弓兵<span class="en">Camel Archer</span></div>
+    <div class="age">II</div></div>
+  <div class="attrs"><span class="at" data-tip="遠隔"><svg class="ic "><use href="#a-ranged"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span><span class="at" data-tip="ラクダ"><svg class="ic "><use href="#a-camel"/></svg></span><span class="at" data-tip="弓兵"><svg class="ic "><use href="#a-bow"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">150</span></div><div class="r" data-tip="攻撃力（遠隔攻撃）"><svg class="ic "><use href="#i-ranged"/></svg><span class="v">11</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">8.0</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.375</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">3.75</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.625</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 軽装・近接・歩兵 +11">+11<span class="kj lt">軽</span><svg class="ic "><use href="#a-melee"/></svg><svg class="ic "><use href="#a-inf"/></svg></span><span class="bo up" data-tip="対 軽装・火薬・歩兵 +11">+11<span class="kj lt">軽</span><svg class="ic "><use href="#a-gun"/></svg><svg class="ic "><use href="#a-inf"/></svg></span></div>
+  <div class="ft up" data-tip="食料 170 / 木材 60 / 合計 230"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>170</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>60</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>35</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/war-elephant-3.png" alt=""><div class="nm">戦象<span class="en">War Elephant</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="kj hv" data-tip="重装">重</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span><span class="at" data-tip="象"><svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">800</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">50</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">17.39</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">2.875</span></div><div class="r" data-tip="突進（チャージ）攻撃の威力"><svg class="ic "><use href="#a-spear"/></svg><span class="v">80</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">1</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">5</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 騎兵 +40">+40<svg class="ic "><use href="#a-cav"/></svg></span><span class="bo up" data-tip="対 労働者・象 +34">+34<svg class="ic "><use href="#a-worker"/></svg><svg class="ic "><use href="#a-eleph"/></svg></span><span class="bo up" data-tip="対 象 +6">+6<svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="ft up" data-tip="資源内訳なし / 合計 680"><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>680</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>100</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>3</span></div>
+</div><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/mangonel-3.png" alt=""><div class="nm">投石機<span class="en">Mangonel</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="at" data-tip="攻城兵器"><svg class="ic "><use href="#a-siege"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">130</span></div><div class="r" data-tip="攻撃力（攻城攻撃）"><svg class="ic "><use href="#i-siege"/></svg><span class="v">10</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">1.45</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">6.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">8</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">0.75</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 艦船 +30">+30<svg class="ic "><use href="#a-ship"/></svg></span><span class="bo up" data-tip="対 遠隔 +10">+10<svg class="ic "><use href="#a-ranged"/></svg></span></div>
+  <div class="ft up" data-tip="木材 400 / 金 200 / 合計 600"><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>400</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>200</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>40</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>3</span></div>
+</div><div class="card a4">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/streltsy-4.png" alt=""><div class="nm">ストレリツィ<span class="en">Streltsy</span></div>
+    <div class="age">IV</div></div>
+  <div class="attrs"><span class="at" data-tip="遠隔"><svg class="ic "><use href="#a-ranged"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="火薬"><svg class="ic "><use href="#a-gun"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">130</span></div><div class="r" data-tip="攻撃力（遠隔攻撃）"><svg class="ic "><use href="#i-ranged"/></svg><span class="v">38</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">17.88</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">2.125</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">4</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.125</span></div></div></div>
+  
+  <div class="ft up" data-tip="資源内訳なし / 合計 240"><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>240</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>90</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/galleass-3.png" alt=""><div class="nm">ガレアス船<span class="en">Galleass</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="at" data-tip="遠隔"><svg class="ic "><use href="#a-ranged"/></svg></span><span class="at" data-tip="巨大"><svg class="ic "><use href="#a-massive"/></svg></span><span class="at" data-tip="艦船"><svg class="ic "><use href="#a-ship"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">700</span></div><div class="r" data-tip="攻撃力（遠隔攻撃）"><svg class="ic "><use href="#i-ranged"/></svg><span class="v">130</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">25.37</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">5.125</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">8</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">1</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1</span></div></div></div>
+  
+  <div class="ft up" data-tip="木材 360 / 金 300 / 合計 660"><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>360</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>300</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>50</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>5</span></div>
+</div><div class="card a1">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/abbasid/villager-1.png" alt=""><div class="nm">農民<span class="en">Villager</span></div>
+    <div class="age">I</div></div>
+  <div class="attrs"><span class="at" data-tip="労働者"><svg class="ic "><use href="#a-worker"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">50</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">6</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">1.55</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">3.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.125</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 50 / 合計 50"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>50</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>20</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+
+<div class="sec"><h2>重装／軽装の見せ方 3案 <small>2.2倍表示。左=騎士（重装）右=槍兵（軽装）</small></h2>
+<div class="zwrap">
+  <div class="zcol"><h3>案1: 線の太さ</h3><div class="zoom"><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/knight-3.png" alt=""><div class="nm">騎士<span class="en">Knight</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="at" data-tip="重装"><svg class="ic sw-hv"><use href="#a-heavy"/></svg></span><span class="at" data-tip="近接"><svg class="ic sw-hv"><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic sw-hv"><use href="#a-cav"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">230</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">24</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">16.0</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.5</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">4</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.625</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 140 / 金 100 / 合計 240"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>140</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>100</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>35</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+  <div class="zcol"><h3>案2: 漢字チップ</h3><div class="zoom"><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/knight-3.png" alt=""><div class="nm">騎士<span class="en">Knight</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="kj hv" data-tip="重装">重</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">230</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">24</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">16.0</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.5</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">4</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.625</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 140 / 金 100 / 合計 240"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>140</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>100</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>35</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+  <div class="zcol"><h3>案3: 塗りバッジ</h3><div class="zoom"><div class="card a3">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/knight-3.png" alt=""><div class="nm">騎士<span class="en">Knight</span></div>
+    <div class="age">III</div></div>
+  <div class="attrs"><span class="bdg on" data-tip="重装"><svg class="ic "><use href="#a-heavy"/></svg></span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="騎兵"><svg class="ic "><use href="#a-cav"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">230</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">24</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">16.0</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.5</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">4</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">4</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.625</span></div></div></div>
+  
+  <div class="ft up" data-tip="食料 140 / 金 100 / 合計 240"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>140</span><span class="c r-g"><svg class="ic "><use href="#i-gold"/></svg>100</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>35</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+</div>
+<div class="zwrap">
+  <div class="zcol" style="height:400px"><div class="zoom"><div class="card a1">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/spearman-1.png" alt=""><div class="nm">槍兵<span class="en">Spearman</span></div>
+    <div class="age">I</div></div>
+  <div class="attrs"><span class="at" data-tip="軽装"><svg class="ic sw-lt"><use href="#a-light"/></svg></span><span class="at" data-tip="近接"><svg class="ic sw-lt"><use href="#a-melee"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic sw-lt"><use href="#a-inf"/></svg></span><span class="at" data-tip="槍兵"><svg class="ic sw-lt"><use href="#a-spear"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">80</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">7</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">3.73</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.25</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 労働者・象 +20">+20<svg class="ic "><use href="#a-worker"/></svg><svg class="ic "><use href="#a-eleph"/></svg></span><span class="bo up" data-tip="対 騎兵 +17">+17<svg class="ic "><use href="#a-cav"/></svg></span><span class="bo up" data-tip="対 象 +3">+3<svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="ft up" data-tip="食料 60 / 木材 20 / 合計 80"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>60</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>15</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+  <div class="zcol" style="height:400px"><div class="zoom"><div class="card a1">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/spearman-1.png" alt=""><div class="nm">槍兵<span class="en">Spearman</span></div>
+    <div class="age">I</div></div>
+  <div class="attrs"><span class="kj lt" data-tip="軽装">軽</span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="槍兵"><svg class="ic "><use href="#a-spear"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">80</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">7</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">3.73</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.25</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 労働者・象 +20">+20<svg class="ic "><use href="#a-worker"/></svg><svg class="ic "><use href="#a-eleph"/></svg></span><span class="bo up" data-tip="対 騎兵 +17">+17<svg class="ic "><use href="#a-cav"/></svg></span><span class="bo up" data-tip="対 象 +3">+3<svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="ft up" data-tip="食料 60 / 木材 20 / 合計 80"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>60</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>15</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+  <div class="zcol" style="height:400px"><div class="zoom"><div class="card a1">
+  <div class="hd"><img src="https://data.aoe4world.com/images/units/spearman-1.png" alt=""><div class="nm">槍兵<span class="en">Spearman</span></div>
+    <div class="age">I</div></div>
+  <div class="attrs"><span class="bdg " data-tip="軽装"><svg class="ic "><use href="#a-light"/></svg></span><span class="at" data-tip="近接"><svg class="ic "><use href="#a-melee"/></svg></span><span class="at" data-tip="歩兵"><svg class="ic "><use href="#a-inf"/></svg></span><span class="at" data-tip="槍兵"><svg class="ic "><use href="#a-spear"/></svg></span></div>
+  <div class="body"><div class="col"><div class="r" data-tip="HP"><svg class="ic "><use href="#i-hp"/></svg><span class="v">80</span></div><div class="r" data-tip="攻撃力（近接攻撃）"><svg class="ic "><use href="#i-melee"/></svg><span class="v">7</span></div><div class="r" data-tip="DPS（自爆ユニットは出さない）"><svg class="ic "><use href="#i-dps"/></svg><span class="v">3.73</span></div><div class="r" data-tip="攻撃間隔（秒）"><svg class="ic "><use href="#i-int"/></svg><span class="v">1.875</span></div></div><div class="col"><div class="r" data-tip="射程（–は近接）"><svg class="ic "><use href="#i-range"/></svg><span class="v">–</span></div><div class="r" data-tip="近接防御"><svg class="ic "><use href="#i-armm"/></svg><span class="v">0</span></div><div class="r" data-tip="遠隔防御"><svg class="ic "><use href="#i-armr"/></svg><span class="v">0</span></div><div class="r" data-tip="移動速度"><svg class="ic "><use href="#i-speed"/></svg><span class="v">1.25</span></div></div></div>
+  <div class="bonus"><span class="bo up" data-tip="対 労働者・象 +20">+20<svg class="ic "><use href="#a-worker"/></svg><svg class="ic "><use href="#a-eleph"/></svg></span><span class="bo up" data-tip="対 騎兵 +17">+17<svg class="ic "><use href="#a-cav"/></svg></span><span class="bo up" data-tip="対 象 +3">+3<svg class="ic "><use href="#a-eleph"/></svg></span></div>
+  <div class="ft up" data-tip="食料 60 / 木材 20 / 合計 80"><span class="c r-f"><svg class="ic "><use href="#i-food"/></svg>60</span><span class="c r-wd"><svg class="ic "><use href="#i-wood"/></svg>20</span><span class="sp"></span>
+    <span class="c dim"><svg class="ic "><use href="#i-time"/></svg>15</span><span class="c dim"><svg class="ic "><use href="#i-pop"/></svg>1</span></div>
+</div></div></div>
+</div></div>
+
+<div class="sec"><h2>属性アイコン凡例 <small>ダメージボーナスの対象になるやつ</small></h2>
+<div class="lgwrap"><div class="lg"><span class=kj>重</span><span>重装</span></div><div class="lg"><span class=kj>軽</span><span>軽装</span></div><div class="lg"><svg class="ic "><use href="#a-melee"/></svg><span>近接</span></div><div class="lg"><svg class="ic "><use href="#a-ranged"/></svg><span>遠隔</span></div><div class="lg"><svg class="ic "><use href="#a-inf"/></svg><span>歩兵</span></div><div class="lg"><svg class="ic "><use href="#a-cav"/></svg><span>騎兵</span></div><div class="lg"><svg class="ic "><use href="#a-camel"/></svg><span>ラクダ</span></div><div class="lg"><svg class="ic "><use href="#a-eleph"/></svg><span>象</span></div><div class="lg"><svg class="ic "><use href="#a-siege"/></svg><span>攻城兵器</span></div><div class="lg"><svg class="ic "><use href="#a-ship"/></svg><span>艦船</span></div><div class="lg"><svg class="ic "><use href="#a-worker"/></svg><span>労働者</span></div><div class="lg"><svg class="ic "><use href="#a-relig"/></svg><span>宗教</span></div><div class="lg"><svg class="ic "><use href="#a-gun"/></svg><span>火薬</span></div><div class="lg"><svg class="ic "><use href="#a-massive"/></svg><span>巨大</span></div><div class="lg"><svg class="ic "><use href="#a-scout"/></svg><span>斥候</span></div><div class="lg"><svg class="ic "><use href="#a-spear"/></svg><span>槍兵</span></div><div class="lg"><svg class="ic "><use href="#a-xbow"/></svg><span>弩兵</span></div><div class="lg"><svg class="ic "><use href="#a-bow"/></svg><span>弓兵</span></div></div></div>
+
+<div class="sec"><h2>ステータスアイコン凡例</h2>
+<div class="lgwrap"><div class="lg"><svg class="ic "><use href="#i-hp"/></svg><span>HP</span></div><div class="lg"><svg class="ic "><use href="#i-melee"/></svg><span>近接攻撃</span></div><div class="lg"><svg class="ic "><use href="#i-ranged"/></svg><span>遠隔攻撃</span></div><div class="lg"><svg class="ic "><use href="#i-siege"/></svg><span>攻城攻撃</span></div><div class="lg"><svg class="ic "><use href="#i-dps"/></svg><span>DPS</span></div><div class="lg"><svg class="ic "><use href="#i-int"/></svg><span>攻撃間隔</span></div><div class="lg"><svg class="ic "><use href="#i-range"/></svg><span>射程</span></div><div class="lg"><svg class="ic "><use href="#i-armm"/></svg><span>近接防御</span></div><div class="lg"><svg class="ic "><use href="#i-armr"/></svg><span>遠隔防御</span></div><div class="lg"><svg class="ic "><use href="#i-speed"/></svg><span>移動速度</span></div><div class="lg"><svg class="ic "><use href="#i-pop"/></svg><span>人口</span></div><div class="lg"><svg class="ic "><use href="#i-time"/></svg><span>生産時間</span></div><div class="lg"><svg class="ic "><use href="#i-food"/></svg><span>食料</span></div><div class="lg"><svg class="ic "><use href="#i-wood"/></svg><span>木材</span></div><div class="lg"><svg class="ic "><use href="#i-gold"/></svg><span>金</span></div><div class="lg"><svg class="ic "><use href="#i-stone"/></svg><span>石</span></div></div>
+<div class="note">日本語名は AoE4攻略Wiki（AoE Haul）とゲーム内表記から。未対応の名前は英語のまま出る（現在 254 件）。</div>
+</div>
+</body></html>
