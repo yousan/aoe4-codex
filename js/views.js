@@ -29,8 +29,9 @@ function extras(u, meta, cols) {
 }
 
 /** 縦=時代 / 横=生産施設（施設の中はユニット系統ごとの列） */
-export function renderMatrix(units, meta, { blds = null } = {}) {
+export function renderMatrix(units, meta, { blds = null, bases = null } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
+  if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
   const shown = units.filter((u) => cols.includes(primary(u, cols)));
   if (!shown.length) return `<p class="empty">${t('noUnits')}</p>`;
@@ -77,28 +78,6 @@ export function renderMatrix(units, meta, { blds = null } = {}) {
     <tbody>${rows}</tbody></table></div>`;
 }
 
-/** 時代ごとに、兵種で区切って並べる */
-export function renderList(units, meta) {
-  const ages = [...new Set(units.map((u) => u.age))].sort();
-  return ages.map((a) => {
-    const us = units.filter((u) => u.age === a)
-      .sort((x, y) => (FAM_ORDER.indexOf(family(x)) - FAM_ORDER.indexOf(family(y)))
-        || x.n.localeCompare(y.n));
-    let cur = null;
-    const body = us.map((u) => {
-      const f = family(u);
-      let head = '';
-      if (f !== cur) {
-        cur = f;
-        head = `</div><div class="famlab">${f ? ico(f) : ''}${esc(L(meta.attrs[f]) || '-')}</div><div class="row">`;
-      }
-      return head + renderCard(u, meta);
-    }).join('');
-    return `<div class="sec"><h2>${t('ageN', { n: meta.roman[a] })} <small>${us.length} ${t('units')}</small></h2>
-      <div class="row">${body}</div></div>`;
-  }).join('');
-}
-
 const COLS = [
   ['jp', () => t('colUnit'), 'l'], ['age', () => t('colAge'), ''],
   ['hp', (m) => L(m.stats['i-hp']), ''], ['d', (m) => L(m.stats['i-melee']).replace(/(近接|Melee )/, ''), ''],
@@ -116,8 +95,10 @@ const val = (u, k) => ({
 }[k]);
 
 /** 表。数値の比較用 */
-export function renderTable(units, meta, { sort = 'age', asc = true } = {}) {
-  const rows = [...units].sort((a, b) => {
+export function renderTable(units, meta, { sort = 'age', asc = true, bases = null } = {}) {
+  const src = bases ? units.filter((u) => bases.includes(u.base)) : units;
+  if (!src.length) return `<p class="empty">${t('noUnits')}</p>`;
+  const rows = [...src].sort((a, b) => {
     const x = val(a, sort); const y = val(b, sort);
     if (typeof x === 'string' || typeof y === 'string') {
       return String(x ?? '').localeCompare(String(y ?? ''), 'ja') * (asc ? 1 : -1);
@@ -138,8 +119,9 @@ export function renderTable(units, meta, { sort = 'age', asc = true } = {}) {
 }
 
 /** 印刷用: 1施設 = 1ページ（A4横に収まる幅）に組み替える */
-export function renderPrintMatrix(units, meta, civName, { blds = null } = {}) {
+export function renderPrintMatrix(units, meta, civName, { blds = null, bases = null } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
+  if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
   const shown = units.filter((u) => cols.includes(primary(u, cols)));
   const ages = [...new Set(shown.map((u) => u.age))].sort();
@@ -170,6 +152,22 @@ export function renderPrintMatrix(units, meta, civName, { blds = null } = {}) {
       <table class="mx"><thead><tr><th class="corner age">${t('age')}</th>${head}</tr></thead>
       <tbody>${rows}</tbody></table></section>`;
   }).join('');
+}
+
+/** 施設ごとの「ユニット系統」の一覧（フィルタの選択肢に使う） */
+export function availableLines(units, meta, blds) {
+  const cols = (blds && blds.length) ? blds : MAIN_COLS;
+  const shown = units.filter((u) => cols.includes(primary(u, cols)));
+  const seen = new Map();
+  for (const u of shown) {
+    const key = u.base;
+    const cur = seen.get(key);
+    if (!cur || u.age < cur.u.age) seen.set(key, { u, b: primary(u, cols) });
+  }
+  return [...seen.entries()]
+    .map(([base, { u, b }]) => ({ base, b, age: u.age, label: lineLabel(u) }))
+    .sort((x, y) => cols.indexOf(x.b) - cols.indexOf(y.b) || x.age - y.age
+      || x.label.localeCompare(y.label, lang()));
 }
 
 /** その文明で実際に使われている生産施設（列の候補） */
