@@ -1,6 +1,6 @@
 // ビュー（マトリクス / 時代別一覧 / 表）の描画
 import { renderCard, ico, lineLabel } from './card.js';
-import { t, L, lang } from './i18n.js';
+import { t, lang, term, bldName, unitName } from './i18n.js';
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -23,8 +23,8 @@ function primary(u, cols) {
 function extras(u, meta, cols) {
   if (u.pb.some((b) => meta.unitBuilt.includes(b))) return [t('builtByUnits')];
   const out = u.pb
-    .filter((b) => !cols.includes(b) && b !== 'capital-town-center' && meta.landmarks[b])
-    .map((b) => L(meta.landmarks[b]));
+    .filter((b) => !cols.includes(b) && b !== 'capital-town-center' && meta.landmarks.includes(b))
+    .map((b) => bldName(b));
   return [...new Set(out)];
 }
 
@@ -48,16 +48,13 @@ export function renderMatrix(units, meta, { blds = null, bases = null } = {}) {
       cell.set(`${u.age}|${b}|${u.base}`, u);
     }
     sub[b] = [...lines.entries()]
-      .map(([base, list]) => {
-        const first = list.reduce((a, x) => (x.age < a.age ? x : a));
-        return [base, lineLabel(first), Math.min(...list.map((x) => x.age))];
-      })
+      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age))])
       .sort((a, x) => a[2] - x[2] || a[1].localeCompare(x[1], 'ja'));
   }
 
   const h1 = cols.map((b) => {
     const n = shown.filter((u) => primary(u, cols) === b).length;
-    return `<th class="bld" colspan="${sub[b].length}">${esc(L(meta.buildings[b]) || b)}<span>${n}</span></th>`;
+    return `<th class="bld" colspan="${sub[b].length}">${esc(bldName(b))}<span>${n}</span></th>`;
   }).join('');
   const h2 = cols.flatMap((b) => sub[b].map(([, lbl]) => `<th class="ln">${esc(lbl)}</th>`)).join('');
 
@@ -80,15 +77,15 @@ export function renderMatrix(units, meta, { blds = null, bases = null } = {}) {
 
 const COLS = [
   ['jp', () => t('colUnit'), 'l'], ['age', () => t('colAge'), ''],
-  ['hp', (m) => L(m.stats['i-hp']), ''], ['d', (m) => L(m.stats['i-melee']).replace(/(近接|Melee )/, ''), ''],
-  ['dps', () => 'DPS', ''], ['rng', (m) => L(m.stats['i-range']), ''],
-  ['s', (m) => L(m.stats['i-int']), ''], ['am', (m) => L(m.stats['i-armm']), ''],
-  ['ar', (m) => L(m.stats['i-armr']), ''], ['tot', () => t('colTot'), ''],
-  ['pop', (m) => L(m.stats['i-pop']), ''], ['t', (m) => L(m.stats['i-time']), ''],
-  ['mv', (m) => L(m.stats['i-speed']), ''],
+  ['hp', () => term('i-hp'), ''], ['d', () => t('colAtk'), ''],
+  ['dps', () => 'DPS', ''], ['rng', () => term('i-range'), ''],
+  ['s', () => term('i-int'), ''], ['am', () => term('i-armm'), ''],
+  ['ar', () => term('i-armr'), ''], ['tot', () => t('colTot'), ''],
+  ['pop', () => term('i-pop'), ''], ['t', () => term('i-time'), ''],
+  ['mv', () => term('i-speed'), ''],
 ];
 const val = (u, k) => ({
-  jp: (lang() === 'ja' ? (u.jp || u.n) : u.n), age: u.age, hp: u.hp,
+  jp: unitName(u), age: u.age, hp: u.hp,
   d: u.w?.d, dps: u.w?.dps, s: u.w?.s,
   rng: (u.w?.r1 >= 1) ? u.w.r1 : null,
   am: u.am, ar: u.ar, tot: u.cost.tot, pop: u.cost.pop, t: u.cost.t, mv: u.mv,
@@ -110,8 +107,8 @@ export function renderTable(units, meta, { sort = 'age', asc = true, bases = nul
     `<th class="${cls} ${sort === k ? 'sorted ' + (asc ? 'asc' : '') : ''}" data-sort="${k}">${esc(lbl(meta))}</th>`).join('');
   const body = rows.map((u) => `<tr>
     <td class="l"><img class="tic" src="assets/units/${u.ic}" alt="" loading="lazy">
-      <span class="nm">${esc(lang() === 'ja' ? (u.jp || u.n) : u.n)}</span>${
-        lang() === 'ja' && u.jp ? ` <span class="en">${esc(u.n)}</span>` : ''}</td>
+      <span class="nm">${esc(unitName(u))}</span>${
+        unitName(u) !== u.n ? ` <span class="en">${esc(u.n)}</span>` : ''}</td>
     <td><span class="age a${u.age}">${meta.roman[u.age]}</span></td>
     ${COLS.slice(2).map(([k]) => `<td>${val(u, k) ?? '<span class="z">–</span>'}</td>`).join('')}
   </tr>`).join('');
@@ -134,8 +131,7 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
       lines.get(u.base).push(u);
     }
     const order = [...lines.entries()]
-      .map(([base, list]) => [base, lineLabel(list.reduce((a, x) => (x.age < a.age ? x : a))),
-        Math.min(...list.map((x) => x.age))])
+      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age))])
       .sort((a, x) => a[2] - x[2] || a[1].localeCompare(x[1], 'ja'));
     const head = order.map(([, lbl]) => `<th class="ln">${esc(lbl)}</th>`).join('');
     const rows = ages.map((a) => {
@@ -148,7 +144,7 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
       }).join('');
       return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;
     }).join('');
-    return `<section class="psec"><h2 class="pt">${esc(civName)} — ${esc(L(meta.buildings[b]) || b)}</h2>
+    return `<section class="psec"><h2 class="pt">${esc(civName)} — ${esc(bldName(b))}</h2>
       <table class="mx"><thead><tr><th class="corner age">${t('age')}</th>${head}</tr></thead>
       <tbody>${rows}</tbody></table></section>`;
   }).join('');
@@ -160,12 +156,12 @@ export function availableLines(units, meta, blds) {
   const shown = units.filter((u) => cols.includes(primary(u, cols)));
   const seen = new Map();
   for (const u of shown) {
-    const key = u.base;
-    const cur = seen.get(key);
-    if (!cur || u.age < cur.u.age) seen.set(key, { u, b: primary(u, cols) });
+    if (!seen.has(u.base)) seen.set(u.base, { list: [], b: primary(u, cols) });
+    seen.get(u.base).list.push(u);
   }
   return [...seen.entries()]
-    .map(([base, { u, b }]) => ({ base, b, age: u.age, label: lineLabel(u) }))
+    .map(([base, { list, b }]) => ({ base, b, age: Math.min(...list.map((x) => x.age)),
+      label: lineLabel(list) }))
     .sort((x, y) => cols.indexOf(x.b) - cols.indexOf(y.b) || x.age - y.age
       || x.label.localeCompare(y.label, lang()));
 }
