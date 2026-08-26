@@ -12,6 +12,28 @@ python3 -c "
 import json; d=json.load(open('data/units-all.json'))
 print('   units:', len(d['data']), '/ data version:', d.get('__version__'))"
 
+echo "==> buildings/all.json, civilizations/civs-index.json"
+curl -sSL --max-time 120 https://data.aoe4world.com/buildings/all.json -o data/buildings-all.json
+curl -sSL --max-time 60 https://data.aoe4world.com/civilizations/civs-index.json -o data/civs-index.json
+
+echo "==> civ flags (aoe4world/explorer)"
+python3 - <<'PYX'
+import urllib.request, os
+FLAG = {'ab':'ab','ay':'ay','by':'by','ch':'ch','de':'de','en':'en','fr':'fr',
+        'gol':'goldenhorde','hl':'hl','hr':'hr','ja':'ja','je':'je','jin':'jindynasty',
+        'kt':'kt','ma':'ma','mac':'macedonian','mo':'mo','od':'od','ot':'ot','ru':'ru',
+        'sen':'sengoku','tug':'tughlaq','zx':'zx'}
+base = 'https://raw.githubusercontent.com/aoe4world/explorer/main/assets/flags/'
+os.makedirs('assets/flags', exist_ok=True)
+n = 0
+for code, name in FLAG.items():
+    dst = f'assets/flags/{code}.png'
+    if os.path.exists(dst):
+        continue
+    urllib.request.urlretrieve(base + name + '.png', dst); n += 1
+print(f'   flags: {n} downloaded, {len(FLAG)} total')
+PYX
+
 echo "==> unit icons"
 python3 -c "
 import json, os
