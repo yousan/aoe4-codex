@@ -1,0 +1,59 @@
+{
+ "name": "Golden Horde",
+ "description": "Leading the Golden Horde westwards, Batu Khan expanded the Mongolian Empire right into the heart of Eastern Europe. The Khan’s great Golden Tent was the center of network of control, with outposts that allowed them to maintain a vast territory. While still powerful raiders, the Golden Horde sacrificed the mobility of their camps to field larger forces needed to control their vassal states.",
+ "classes": "Aggression, Cavalry, Horde",
+ "overview": [
+  {
+   "title": "Civilization Bonuses",
+   "list": [
+    "Start with maximum population limit.",
+    "Units are always recruited in batches.",
+    "Stockyards are a unique building that can be worked by 4 villagers and is a food drop-off.",
+    "Ovoos can be built on multiple Stone deposits increasing Stone income.",
+    "Unique technologies costing only Stone.",
+    "Stables available in the Dark Age (I).",
+    "Age up by building and upgrading the Golden Tent.",
+    "Fortified Outposts provide influence or aura bonuses based on the Edict set in the Golden Tent.",
+    "Silk Road: Traders generate +10% additional Food, Wood and Gold with 5/10/15 active Traders.",
+    "Transport ships have +50% health and +15% move speed.",
+    "Scouts can deploy the Scouting Falcon ability to keep watch over the surrounding area."
+   ]
+  },
+  {
+   "title": "Golden Tent",
+   "description": "The Golden Tent is the only landmark for the Golden Horde, which can be upgraded to advance to the next age and increase the health of the building. An edict can be chosen on the Golden Tent, which changes the influence or aura bonus provided by Fortified Outposts.\nThe Batu Khan and Torguud can be recruited from the Golden Tent."
+  },
+  {
+   "title": "Hordes",
+   "description": "Units are produced in batches of two. Technologies can be researched that improve batch production."
+  },
+  {
+   "title": "Stockyard",
+   "description": "Construct the Stockyard instead of Farms or Pastures for Food — Stockyards have Sheep carcasses which can be gathered and dropped off at the Stockyard directly."
+  },
+  {
+   "title": "Fortified Outposts",
+   "description": "Fortified Outposts have more health and provide influence or aura bonuses depending on the Edict chosen on the Golden Tent."
+  },
+  {
+   "title": "Augmented Transports",
+   "description": "Transport Ship landings are faster and more durable with +50% health and +15% move speed."
+  },
+  {
+   "title": "Silk Road",
+   "description": "Explore the Silk Road with Traders that receive extra resources from trades based on your total number of active Traders.\n• 5+ Traders: +10% Food\n• 10+ Traders: +10% Food, Wood\n• 15+ Traders: +10% Food, Wood, Gold"
+  },
+  {
+   "title": "Stone Tech and Ovoos",
+   "description": "Construct Ovoo over Stone outcroppings to harvest Stone without the need for Villagers. The maximum number of Ovoos that can be built is increased +1 per age up."
+  },
+  {
+   "title": "Scouting Falcon",
+   "description": "Scouts can deploy the Scouting Falcon ability to keep watch over the surrounding area."
+  },
+  {
+   "title": "Unique Units",
+   "description": "Golden Horde Khan: Heavy Cavalry that scales in strength on age up. Can fire an arrow that increases the damage taken by enemies in an area. The Khan will also provide an increasing attack damage aura the longer the Khan is in combat.\nTorguud: Heavy Cavalry which can protect the Khan, redirecting any damage taken by the Khan to the Torguud.\nKharash: Weak Light Melee Infantry units that provide armor to nearby allies.\nKipchak: Horse archer that can fire arrows which cause the target hit to bleed.\nTraction Trebuchet: Faster move speed, setup time and attack speed.\nKeshik: Heavy Cavalry available in Feudal Age, regenerates Health after every attack."
+  }
+ ]
+}

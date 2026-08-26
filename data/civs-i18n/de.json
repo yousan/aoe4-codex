@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "Die Abbasiden-Dynastie erreicht ein blühendes Goldenes Zeitalter, indem sie Gebäude rund um ihr Haus der Weisheit konzentriert. Dies ermöglicht es ihnen, erhebliche wirtschaftliche Vorteile freizuschalten. Das Haus der Weisheit bestimmt auch das Voranschreiten zum nächsten Zeitalter und gewährt Zugang zu fortschrittlicher Technologie. Die Kameleinheiten der Abbasiden sind darauf spezialisiert, gegnerische Kavallerie zu kontern.",
+  "ay": "Am Zusammenfluss der Kontinente, wo Handel und Wissenschaft aufeinandertreffen und Reiche aufeinanderprallen, nutzen die Ayyubiden ihr Streben nach Wissen, um die Oberhand zu gewinnen. Das Haus der Weisheit ist der Mittelpunkt dieser Kombination aus Urbanisierung und Wissenschaft, die mächtige Boni für das Goldene Zeitalter freischaltet und den Aufstieg durch die Zeitalter ermöglicht. Die Ayyubiden setzt auf vielseitige Einheiten, um einen taktischen Vorteil auf dem Schlachtfeld zu erlangen.",
+  "by": "Die Byzantiner errichten weitläufige Wassernetzwerke von Aquädukten und Zisternen. Nutzen Sie mächtige einzigartige Fähigkeiten und heuern Sie Söldner mit exquisitem Olivenöl an. Bauern arbeiten unermüdlich an der Herstellung von Olivenöl für das Reich.",
+  "ch": "Die Chinesen können ihren Fokus über die Zeitalter verlagern, setzen eine Vielzahl einzigartiger Einheiten ein und errichten Gebäude besonders schnell. Ihre Feinde müssen sich ständig anpassen, wenn sie nicht abgehängt werden wollen.",
+  "de": "Das Delhi-Sultanat ist seinen Feinden durch ein gigantisches Netzwerk an Gelehrten immer einige Schritte voraus. Wenn es erst einmal ins Rollen kommt, trampelt es mit seinen furchteinflößenden Kriegselefanten alles nieder, was ihm im Wege steht.",
+  "en": "Ausgezeichnete frühe Infanterieeinheiten sowie eine verlässliche Nahrungsproduktion durch Felder verschaffen den Engländern früh einen militärischen und wirtschaftlichen Vorteil.",
+  "fr": "Die Franzosen führen mächtige Kavallerieeinheiten ins Feld und können ihre Produktion an befestigten Stellungen verstärken. Ihre Feinde müssen sich auf Sturmangriffe durch die gefährlichen königlichen Ritter und andere gepanzerte Einheiten einstellen.",
+  "gol": "Batu Khan führte die Goldene Horde nach Westen und dehnte das mongolische Reich bis ins Herz Osteuropas aus. Das große Goldene Zelt des Khans war das Zentrum des Kontrollnetzwerks, mit Außenposten, die es ermöglichten, ein riesiges Territorium zu halten. Obwohl die Goldene Horde aus mächtigen Plünderern bestand, opferte sie die Beweglichkeit ihrer Lager, um größere Truppen aufzustellen, die sie zur Kontrolle ihrer Vasallenstaaten benötigte.",
+  "hl": "Das Haus Lancaster tritt als mächtiger Zweig der englischen Adeligen in Erscheinung. Landsitze sind das Rückgrat der Wirtschaft, weil sie für nachhaltige wirtschaftliche Praktiken sorgen. Die Militärmacht der Lancasters liegt im technologischen Vorteil und der überlegenen Taktik auf dem Schlachtfeld begründet. Zerstören Sie feindliche Formationen mit mächtigen Stoßtruppen und nehmen Sie sie anschließend mit überlegenden Fernkampfinfanterieeinheiten auseinander.",
+  "hr": "Prälate verbessern die Wirtschaft des Heiligen Römischen Reiches, während mächtige Infanterieeinheiten den Kern des Militärapparats bilden. Seine Feinde bekommen es mit einem Gegner zu tun, der sich schnell von Angriffen erholen und vernichtende Gegenangriffe ausführen kann.",
+  "ja": "Als Herrscher über das japanische Land fördert der Daimyo die Landwirtschaft und setzt Samurai zur Verteidigung seines Territoriums ein. Die einzigartige Esse arbeitet unermüdlich daran, ihre Klingen zu schärfen, um ihnen einen Vorteil im Kampf zu verschaffen. Kräftige Samurai-Bannermänner führen ihre vielfältige Armee aus Infanterie und Kavallerie zum Sieg.",
+  "je": "Als Funke der Hoffnung für das französische Volk zieht Johanna von Orléans auf das Schlachtfeld und flößt ihren Anhängern Mut ein. Johanna beginnt als bescheidene Dorfbewohnerin und begibt sich in der Dunklen Zeit auf die Reise eines Helden. Die Erfahrung formt Jeanne zu einer mächtigen Anführerin, die Zugang zu vertrauenswürdigen Gefährten und mächtigen Fähigkeiten erhält, die das Reich formen, das sie erschaffen sollte.",
+  "jin": "Die Jin-Dynastie entwickelt sich zu einer beeindruckenden militärischen Macht im Norden Chinas. Die berittenen Dorfbewohner bewegen sich schnell, um neue Rohstoffe und Gebiete zu beanspruchen. Nutzen Sie alle Gelegenheiten, um in kürzester Zeit Scharen von Kavallerie zu versammeln, um Ihre Feinde zu vertreiben und Ihre Gegner zu zermalmen. Bewegen Sie willensschwache Feinde durch Bestechung dazu zu desertieren und etablieren Sie profitable Tributstaaten.",
+  "kt": "Gegründet, um die Sanftmütigen und Müden zu schützen, errichten die Tempelritter Kommende in ganz Europa, um ihre Verbündeten um sich zu scharen. Mit einem spektakulären Aufgebot schwerer Truppen ziehen die Templer beherzt und diszipliniert in die Schlacht. Festungen sind in der sorgfältig gepflegten Landschaft verstreut und bieten den Pilgern, die dadurch beschützt werden, wichtige Verteidigungspositionen und einen sicheren Zufluchtsort.",
+  "ma": "Die malische Wirtschaft floriert dank ihrer Möglichkeiten zur Gold- und Nahrungsproduktion. Durch die Beanspruchung von Goldvorkommen für ihre Baugruben machen sie sich dieses Wachstum zunutze und bilden einzigartige Infanterieeinheiten aus, die aus dem Hinterhalt angreifen und Speere auf Gegner schleudern.",
+  "mac": "Kaiser Basil II. setzte Waräger ein, um Revolten niederzuschlagen, die byzantinische Adlige eingefädelt hatten. Die im Ausland geborenen Krieger kamen mit Schiffen aus dem Norden. Die byzantinische Politik und Kultur konnte sie nicht beeindrucken. Sie stellten ein schnelles Elite-Überfallkommando, das die Kaiser über die Jahrhunderte hinweg beschützte. Die makedonische Dynastie prägte Silber als einzigartigen Rohstoff. Während sie den Kaiser schützten, konnten die Kämpfer die Währung in Waräger-Arsenalen zum Schärfen ihrer Klingen und zur Verbesserung ihrer Fähigkeiten ausgeben.",
+  "mo": "Die Mongolen sind wahre Meister des Kampfes zu Pferd und können ihre Lager problemlos versetzen. Nahe gelegene Steinvorkommen und Überfälle auf feindliche Gebäude beflügeln die mongolische Wirtschaft. Ihre Feinde müssen sich gleich zu Beginn einer Partie auf Blitzangriffe durch die Kavallerie gefasst machen.",
+  "od": "Der Orden des Drachen wird von handverlesenen wohlhabenden Eliten gegründet, um feindliche Imperien zu vernichten. Der Orden investiert große Mengen an Rohstoffe in die Ausbildung einiger weniger außergewöhnlicher Krieger und schafft es so, eine Elite-Armee aufzustellen, die ihresgleichen sucht.",
+  "ot": "Die osmanische Armee kann sich vergrößern, um das Schlachtfeld zu dominieren – unterstützt von Militärschulen, die ununterbrochen Einheiten ausbilden können und somit die Reihen ihrer Formationen anwachsen lassen. Die Mehter-Kriegstrommeln unterstützen diese Formationen ebenfalls und signalisieren den bestausgebildeten Truppen, die Gunst der Stunde zu nutzen.",
+  "ru": "Die Rus machen sich ihre Umgebung in vollem Umfang zu Nutze. Sie sammeln Rohstoffe bei der Jagd und dem Fällen von Bäumen beständiger als andere Völker, um dann im späteren Spielverlauf starke Kampfeinheiten auszubilden. Ihre Feinde müssen es zu Beginn einer Partie mit starken Befestigungsanlagen und einer diversifizierten Wirtschaft aufnehmen, die sich nur schwer aus dem Takt bringen lässt.",
+  "sen": "Die Sengoku Jidai war eine Ära wechselnder Allianzen und unaufhörlicher Kriege. Drei rivalisierende Clans können unterstützt werden, um mächtige Vorteile für Fernkampfinfanterieeinheiten, Nahkampfinfanterieeinheiten oder Kavallerie zu erhalten. Selbst mitten im Krieg gab es Zeit zum Feiern, das Matsuri-Fest ist das Herz des Handels, was der Wirtschaft mächtige Boni verleiht.",
+  "tug": "Unter seiner Herrschaft legte der Sultan Ghiyasuddin Tughluq den Grundstein für die Fortschritte in der Kunst, Architektur und Expansion der Tughluq-Dynastie. Nachdem er den Bau des Tughlaqabad-Forts in Auftrag gegeben hatten, erweiterten die zukünftigen Sultane, Emire und Gouverneure ihre militärische Präsenz mit Gewalt und der Demonstration ihrer Macht. Die Tughluq-Dynastie erforderte den schnellen Bau weiterer Festungen, während die Gouverneure die hart arbeitenden Elefanten und Dorfbewohner beaufsichtigen.",
+  "zx": "Die Lehren des Philosophen Zhu Xi formen die chinesische Zivilisation neu. Dank Zhu Xis Vermächtnisses verfügen die Chinesen über eine hochentwickelte Verwaltung mit hervorragenden Reichsbeamten und fortschrittlichen Technologien. Die prall gefüllte Schatzkammer hilft bei der Gründung mächtiger Dynastien und der Erforschung vieler einzigartiger Technologien. Rekrutieren Sie schon früh Palastwachen, Zhugenus und Grenadiere, um das Reich zu schützen."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Jeanne wählt den Weg der Bogenschützin und legt einen Bogen an, um Feinde aus der Ferne anzugreifen.\nErhält die Fähigkeit Göttlicher Pfeil, die einem einzelnen Ziel hohen Schaden zufügt.",
+   "n": "Pfad des Bogenschützen"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "Jeannes Sammlungsruf ruft nun 7 ihrer auserwählten Gefährten auf das Schlachtfeld. \nGewährt die ultimative Stärke des Himmels-Fähigkeit, die einer einzelnen Einheit große Macht verleiht.",
+   "n": "Feldkommandant"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Jeannes Reiter können in Ställen ausgebildet werden.\nErhält die Fähigkeit „Reiter, bereit machen!“, die 3 Reiter zu ihr herbeiruft.",
+   "n": "Reiter-Gefährten"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "Jeannes Fähigkeit „Sammlungsruf“ ruft nun 3 ihrer auserwählten Gefährten und eine mächtige Kanone auf das Schlachtfeld. \nGewährt die ultimative Fähigkeit „Tapfere Inspiration“, die die Angriffsgeschwindigkeit naher Verbündeter stark erhöht.",
+   "n": "Schießpulver-Monarch"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Jeannes Elitekämpfer können in Kasernen ausgebildet werden.\nErhält „Zu den Waffen, Männer!“, wodurch sich 3 Elitekämpfer an ihrer Seite versammeln.",
+   "n": "Elitekämpfer-Gefährten"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Jeanne wählt den Weg der Kriegerin und rüstet sich mit einem Zweihandschwert aus, um Feinde im Nahkampf anzugreifen.\nErhält die Fähigkeit Heiliger Zorn, die Flächenschaden um Jeanne herum verursacht.",
+   "n": "Pfad des Kriegers"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Schaltet die Produktion von Keshig-, Ghulam- und Turmelefanten-Söldnern frei.\nKeshig: Feudalzeitalter\nGhulam: Veteranenvertrag\nTurm-Elefant: Elitevertrag",
+   "n": "Östlicher Söldnervertrag"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Schaltet die Produktion von Langbogenschützen-, Landsknecht- und Strelizen-Söldnern frei.\nLangbogenschützen: Feudalzeit\nLandsknecht: Veteranenvertrag\nStrelizen: Elitevertrag",
+   "n": "Westlicher Söldnervertrag"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Schaltet die Produktion von Speerwerfer-, Kamelreiter- und Grenadier-Söldnern frei.\nSpeerwerfer: Feudalzeit\nKamelreiter: Veteranenvertrag\nGrenadier: Elitevertrag",
+   "n": "Seidenstraßen-Söldnervertrag"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "Schaltet die folgenden kulturellen Technologien frei:\n• Bewahrung des Wissens (II. Zeitalter)\n• Medizinische Zentren (III. Zeitalter)\n• Öffentliche Bibliotheken (IV. Zeitalter)",
+   "n": "Kulturflügel"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "Schaltet die folgenden kulturellen Technologien frei:\n• Bewahrung des Wissens (II. Zeitalter)\n• Medizinische Zentren (III. Zeitalter)\n• Öffentliche Bibliotheken (IV. Zeitalter)",
+   "n": "Kulturflügel"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Baut den Kulturflügel.\nErrichten Sie diesen Flügel, um das nächste Zeitalter in 20 % weniger Zeit und mit 1350 weniger Kosten zu erreichen.",
+   "n": "Kulturflügel: Fortschritt"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Errichtet den Kulturflügel. \nGewährt nach Fertigstellung 4 Derwisch, erhöht Heilung der Einheit um +50 %, und schaltet diese permanent ein.",
+   "n": "Kulturflügel: Logistik"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Baut den Kulturflügel.\nErrichten Sie diesen Flügel, um das nächste Zeitalter in 20 % weniger Zeit und mit 250 weniger Kosten zu erreichen.",
+   "n": "Kulturflügel: Fortschritt"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Errichtet den Kulturflügel.\nGewährt nach Fertigstellung 2 Derwisch und schaltet die heilende Aura permanent ein.",
+   "n": "Kulturflügel: Logistik"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "Schaltet die folgenden kulturellen Technologien frei:\n• Bewahrung des Wissens (II. Zeitalter)\n• Medizinische Zentren (III. Zeitalter)\n• Öffentliche Bibliotheken (IV. Zeitalter)",
+   "n": "Kulturflügel"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Baut den Kulturflügel.\nErrichten Sie diesen Flügel, um das nächste Zeitalter in 20 % weniger Zeit und mit 400 weniger Kosten zu erreichen.",
+   "n": "Kulturflügel: Fortschritt"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Errichtet den Kulturflügel. \nGewährt nach Fertigstellung 3 Derwisch, erhöht Heilung der Einheit um +25 %, und schaltet diese permanent ein.",
+   "n": "Kulturflügel: Logistik"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "Schaltet die folgenden kulturellen Technologien frei:\n• Bewahrung des Wissens (II. Zeitalter)\n• Medizinische Zentren (III. Zeitalter)\n• Öffentliche Bibliotheken (IV. Zeitalter)",
+   "n": "Kulturflügel"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Baut den Kulturflügel.\nErrichten Sie diesen Flügel, um das nächste Zeitalter in 20 % weniger Zeit und mit 1300 weniger Kosten zu erreichen.",
+   "n": "Kulturflügel: Fortschritt"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Errichtet den Kulturflügel. \nGewährt nach Fertigstellung 4 Derwisch, erhöht Heilung der Einheit um +50 %, und schaltet diese permanent ein.",
+   "n": "Kulturflügel: Logistik"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Bau des Wirtschaftsflügels.\nSchaltet die folgenden wirtschaftlichen Technologien frei:\n• Fruchtbarer Halbmond (II. Zeitalter)\n• Landwirtschaft (III. Zeitalter)\n• Verbesserte Verarbeitung (IV. Zeitalter)",
+   "n": "Wirtschaftsflügel"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Bau des Wirtschaftsflügels.\nSchaltet die folgenden wirtschaftlichen Technologien frei:\n• Fruchtbarer Halbmond (II. Zeitalter)\n• Landwirtschaft (III. Zeitalter)\n• Verbesserte Verarbeitung (IV. Zeitalter)",
+   "n": "Wirtschaftsflügel"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel. \nGewährt nach Fertigstellung 10 Dorfbewohner und alle Dorfbewohner arbeiten +10 % schneller.",
+   "n": "Wirtschaftsflügel: Wachstum"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel.\nBringt nach Fertigstellung 2000 Holz und 1000 Stein. Dorfbewohner errichten Gebäude um +50 % schneller.",
+   "n": "Wirtschaftsflügel: Industrie"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel. \nGewährt nach Fertigstellung 3 Dorfbewohner. Obstgärten erhalten 50 zusätzliche Nahrung.",
+   "n": "Wirtschaftsflügel: Wachstum"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel.\nBringt nach Fertigstellung 400 Holz. Dorfbewohner errichten Gebäude um +30 % schneller.",
+   "n": "Wirtschaftsflügel: Industrie"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Bau des Wirtschaftsflügels.\nSchaltet die folgenden wirtschaftlichen Technologien frei:\n• Fruchtbarer Halbmond (II. Zeitalter)\n• Landwirtschaft (III. Zeitalter)\n• Verbesserte Verarbeitung (IV. Zeitalter)",
+   "n": "Wirtschaftsflügel"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel. \nGewährt nach Fertigstellung 7 Dorfbewohner. Obstgärten erhalten 100 zusätzliche Nahrung.",
+   "n": "Wirtschaftsflügel: Wachstum"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel.\nBringt nach Fertigstellung 900 Holz und 400 Stein. Dorfbewohner errichten Gebäude um +40 % schneller.",
+   "n": "Wirtschaftsflügel: Industrie"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Bau des Wirtschaftsflügels.\nSchaltet die folgenden wirtschaftlichen Technologien frei:\n• Fruchtbarer Halbmond (II. Zeitalter)\n• Landwirtschaft (III. Zeitalter)\n• Verbesserte Verarbeitung (IV. Zeitalter)",
+   "n": "Wirtschaftsflügel"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel. \nGewährt nach Fertigstellung 10 Dorfbewohner und alle Dorfbewohner arbeiten +10 % schneller.",
+   "n": "Wirtschaftsflügel: Wachstum"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Errichtet den Wirtschaftsflügel.\nBringt nach Fertigstellung 2800 Holz und 900 Stein. Dorfbewohner errichten Gebäude um +50 % schneller.",
+   "n": "Wirtschaftsflügel: Industrie"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Bau des Militärflügels. Gewährt nach Fertigstellung 2 Speerkämpfer und 2 Bogenschützen (II. Zeitalter), 2 Kamelreiter (III. Zeitalter) oder 3 Handkanoniere (IV. Zeitalter).\nSchaltet frei:\n•Ausbildungslager (II. Zeitalter)\n•Kompositbögen (III. Zeitalter)\n•Kamelunterstützung (IV. Zeitalter)",
+   "n": "Militärflügel"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Bau des Militärflügels. Gewährt nach Fertigstellung 2 Speerkämpfer und 2 Bogenschützen (II. Zeitalter), 2 Kamelreiter (III. Zeitalter) oder 3 Handkanoniere (IV. Zeitalter).\nSchaltet frei:\n•Ausbildungslager (II. Zeitalter)\n•Kompositbögen (III. Zeitalter)\n•Kamelunterstützung (IV. Zeitalter)",
+   "n": "Militärflügel"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nBei Fertigstellung erhalten Kavallerieeinheiten die Fähigkeit, Belagerungswaffen zu bauen.\nDas Haus der Weisheit produziert 7 Wüstenplünderer alle 2 Minuten für den Rest des Spiels.",
+   "n": "Militärflügel: Verstärkung"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nDie Schadens- und Rüstungstechnologien der Militärakademie und der Schmiede sind fortan kostenlos und werden automatisch vervollständigt, wenn Sie mit einem Zeitalter beginnen. (Die Technologien anderer Zeitalter müssen weiterhin wie gewohnt entwickelt werden).",
+   "n": "Militärflügel: Meisterschmiede"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nBei Fertigstellung erhalten Kavallerieeinheiten die Fähigkeit, Belagerungswaffen zu bauen.\nDas Haus der Weisheit produziert 1 Wüstenplünderer nach 15 Sekunden und dann alle 2 Minuten für den Rest des Spiels.",
+   "n": "Militärflügel: Verstärkung"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nDie Schadens- und Rüstungstechnologien der Militärakademie und der Schmiede sind fortan kostenlos und werden automatisch vervollständigt, wenn Sie mit einem Zeitalter beginnen. (Die Technologien anderer Zeitalter müssen weiterhin wie gewohnt entwickelt werden).",
+   "n": "Militärflügel: Meisterschmiede"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Bau des Militärflügels. Gewährt nach Fertigstellung 2 Speerkämpfer und 2 Bogenschützen (II. Zeitalter), 2 Kamelreiter (III. Zeitalter) oder 3 Handkanoniere (IV. Zeitalter).\nSchaltet frei:\n•Ausbildungslager (II. Zeitalter)\n•Kompositbögen (III. Zeitalter)\n•Kamelunterstützung (IV. Zeitalter)",
+   "n": "Militärflügel"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nBei Fertigstellung erhalten Kavallerieeinheiten die Fähigkeit, Belagerungswaffen zu bauen.\nDas Haus der Weisheit produziert 3 Wüstenplünderer alle 2 Minuten für den Rest des Spiels.",
+   "n": "Militärflügel: Verstärkung"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nDie Schadens- und Rüstungstechnologien der Militärakademie und der Schmiede sind fortan kostenlos und werden automatisch vervollständigt, wenn Sie mit einem Zeitalter beginnen. (Die Technologien anderer Zeitalter müssen weiterhin wie gewohnt entwickelt werden).",
+   "n": "Militärflügel: Meisterschmiede"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Bau des Militärflügels. Gewährt nach Fertigstellung 2 Speerkämpfer und 2 Bogenschützen (II. Zeitalter), 2 Kamelreiter (III. Zeitalter) oder 3 Handkanoniere (IV. Zeitalter).\nSchaltet frei:\n•Ausbildungslager (II. Zeitalter)\n•Kompositbögen (III. Zeitalter)\n•Kamelunterstützung (IV. Zeitalter)",
+   "n": "Militärflügel"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nBei Fertigstellung erhalten Kavallerieeinheiten die Fähigkeit, Belagerungswaffen zu bauen.\nDas Haus der Weisheit produziert 7 Wüstenplünderer alle 2 Minuten für den Rest des Spiels.",
+   "n": "Militärflügel: Verstärkung"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Errichtet den Militärflügel.\nDie Schadens- und Rüstungstechnologien der Militärakademie und der Schmiede sind fortan kostenlos und werden automatisch vervollständigt, wenn Sie mit einem Zeitalter beginnen. (Die Technologien anderer Zeitalter müssen weiterhin wie gewohnt entwickelt werden).",
+   "n": "Militärflügel: Meisterschmiede"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Errichtet den Verwaltungsflügel. Gewährt passiv +%1 %% des Effekts aller Boni des Goldenen Zeitalters. \nSchaltet frei:\n•Stadtplanung (II. Zeitalter)\n•Belagerungsbefehl (III. Zeitalter)\n•Großer Basar (IV. Zeitalter)",
+   "n": "Verwaltungsflügel"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Errichtet den Verwaltungsflügel. Gewährt passiv +%1 %% des Effekts aller Boni des Goldenen Zeitalters. \nSchaltet frei:\n•Stadtplanung (II. Zeitalter)\n•Belagerungsbefehl (III. Zeitalter)\n•Großer Basar (IV. Zeitalter)",
+   "n": "Verwaltungsflügel"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Errichtet den Handelsflügel.\nAlle drei Minuten trifft eine Handelskarawane mit einer zufälligen Auswahl von vier günstigen Tauschgeschäften mit Rohstoffen und Einheiten ein.\nDie Qualität dieser Tauschgeschäfte wird dauerhaft festgelegt, abhängig von dem Zeitalter, in dem der Handelsflügel errichtet wird. Wenn Sie den Handelsflügel benutzen, um in ein späteres Zeitalter voranzuschreiten, erhalten Sie lukrativere Tauschangebote.",
+   "n": "Handelsflügel: Basar"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Baut den Handelsflügel.\nNach Fertigstellung erhalten Sie 7 Atabeg, der in jedem militärischen Produktionsgebäude (außer Häfen) garnisoniert werden kann, um die Gesundheit von neu ausgebildeten Einheiten um 20 % zu erhöhen.",
+   "n": "Handelsflügel: Berater"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Errichtet den Handelsflügel.\nAlle drei Minuten trifft eine Handelskarawane mit einer zufälligen Auswahl von vier günstigen Tauschgeschäften mit Rohstoffen und Einheiten ein.\nDie Qualität dieser Tauschgeschäfte wird dauerhaft festgelegt, abhängig von dem Zeitalter, in dem der Handelsflügel errichtet wird. Wenn Sie den Handelsflügel benutzen, um in ein späteres Zeitalter voranzuschreiten, erhalten Sie lukrativere Tauschangebote.",
+   "n": "Handelsflügel: Basar"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Baut den Handelsflügel.\nNach Fertigstellung erhalten Sie 3 Atabeg, der in jedem militärischen Produktionsgebäude (außer Häfen) garnisoniert werden kann, um die Gesundheit von neu ausgebildeten Einheiten um 20 % zu erhöhen.",
+   "n": "Handelsflügel: Berater"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Errichtet den Verwaltungsflügel. Gewährt passiv +%1 %% des Effekts aller Boni des Goldenen Zeitalters. \nSchaltet frei:\n•Stadtplanung (II. Zeitalter)\n•Belagerungsbefehl (III. Zeitalter)\n•Großer Basar (IV. Zeitalter)",
+   "n": "Verwaltungsflügel"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Errichtet den Handelsflügel.\nAlle drei Minuten trifft eine Handelskarawane mit einer zufälligen Auswahl von vier günstigen Tauschgeschäften mit Rohstoffen und Einheiten ein.\nDie Qualität dieser Tauschgeschäfte wird dauerhaft festgelegt, abhängig von dem Zeitalter, in dem der Handelsflügel errichtet wird. Wenn Sie den Handelsflügel benutzen, um in ein späteres Zeitalter voranzuschreiten, erhalten Sie lukrativere Tauschangebote.",
+   "n": "Handelsflügel: Basar"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Baut den Handelsflügel.\nNach Fertigstellung erhalten Sie 5 Atabeg, der in jedem militärischen Produktionsgebäude (außer Häfen) garnisoniert werden kann, um die Gesundheit von neu ausgebildeten Einheiten um 20 % zu erhöhen.",
+   "n": "Handelsflügel: Berater"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Errichtet den Verwaltungsflügel. Gewährt passiv +%1 %% des Effekts aller Boni des Goldenen Zeitalters. \nSchaltet frei:\n•Stadtplanung (II. Zeitalter)\n•Belagerungsbefehl (III. Zeitalter)\n•Großer Basar (IV. Zeitalter)",
+   "n": "Verwaltungsflügel"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Errichtet den Handelsflügel.\nAlle drei Minuten trifft eine Handelskarawane mit einer zufälligen Auswahl von vier günstigen Tauschgeschäften mit Rohstoffen und Einheiten ein.\nDie Qualität dieser Tauschgeschäfte wird dauerhaft festgelegt, abhängig von dem Zeitalter, in dem der Handelsflügel errichtet wird. Wenn Sie den Handelsflügel benutzen, um in ein späteres Zeitalter voranzuschreiten, erhalten Sie lukrativere Tauschangebote.",
+   "n": "Handelsflügel: Basar"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Baut den Handelsflügel.\nNach Fertigstellung erhalten Sie 7 Atabeg, der in jedem militärischen Produktionsgebäude (außer Häfen) garnisoniert werden kann, um die Gesundheit von neu ausgebildeten Einheiten um 20 % zu erhöhen.",
+   "n": "Handelsflügel: Berater"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "Bergfriede funktionieren wie Dorfzentren, einschließlich Einheitenausbildung, Bevölkerungskapazität und Technologien.",
+   "n": "Dorfbefestigungen"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Erlaubt Gelehrten, sich in militärischen Gebäuden einzuquartieren, um deren Produktionsrate um 100 % zu erhöhen.",
+   "n": "Effiziente Produktion"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Kriegselefanten erhalten +20 % Gesundheit und +4 Fernkampfrüstung.",
+   "n": "Gepanzerte Tiere"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Kriegselefanten erhalten +20 % Gesundheit und +4 Fernkampfrüstung.",
+   "n": "Gepanzerte Tiere"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "- Alle Kavallerieeinheiten erhalten +10 % Gesundheit und +50 % Sturmangriffsschaden.",
+   "n": "Königreich Polen"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "- Alle Goldeinheiten erhalten +2 an Nahkampfrüstung.",
+   "n": "Deutscher Orden"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- Reduziert die Änderungen beim Basis-Kaufpreis oder Verkaufspreis um 75 %, wenn auf dem Marktplatz mit Rohstoffen gehandelt wird.",
+   "n": "Republik Venedig"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- Erhöht die Gesundheit von Zivilisteneinheiten um +30 % und deren Bewegungsgeschwindigkeit um +10 %. Erhöht die Heilungswirkung aller Quellen um +30 %.",
+   "n": "Johanniterorden"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- Landgebundene Militäreinheiten werden +15 % schneller ausgebildet und kosten -5 % weniger Gold.",
+   "n": "Königreich Frankreich"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "- Nahkampfeinheiten erhalten 15 % an zusätzlichem Schaden.",
+   "n": "Fürstentum Antiochia"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- Festungen und Häfen erhalten +30 % Gesundheit.",
+   "n": "Angevinisches Reich"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "- Pilger erzeugen +20 % Gold.",
+   "n": "Republik Genua"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "- Einheiten in der Nähe von geweihten Stätten erhalten +20 % Schaden und regenerieren Gesundheit.",
+   "n": "Königreich Kastilien"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Jedes Tributsubjekt bringt Händlern zusätzlich +10 % Einkommen.",
+   "n": "Auf See gegründete Allianz"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Lässt 12 Schafe am Wahrzeichen-Dorfzentrum der Hauptstadt erscheinen und erhöht die Bergbaugeschwindigkeit von Dorfbewohnern um 15 %.",
+   "n": "Anatolische Hügel"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Erhöht die Fernkampfrüstung von vergoldeten Bogenschützen um +3.",
+   "n": "Schuppenrüstung"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "Pfeile von Bogenschützen verursachen innerhalb von 6 Sekunden 3 zusätzlichen Schaden.",
+   "n": "Vergiftete Pfeile"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Erhöht die Fern- und Nahkampfrüstung aller Waffenknechte um +2.",
+   "n": "Geharnischt"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Gebäude um 10 %.",
+   "n": "Strukturen"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Gebäude um 10 %.",
+   "n": "Strukturen"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Gebäude um 10 %.",
+   "n": "Strukturen"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Erhöht den Schaden aller Kavallerieeinheiten um 1.",
+   "n": "Klingenverzierung"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Erhöht den Schaden aller Kavallerieeinheiten um 1.",
+   "n": "Klingenverzierung"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Erhöht den Schaden aller Kavallerieeinheiten um 1.",
+   "n": "Klingenverzierung"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Kavallerieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Schuppenpanzer für Pferde"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Kavallerieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Schuppenpanzer für Pferde"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Kavallerieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Schuppenpanzer für Pferde"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Erhöhen Sie den Schaden aller Nahkampf-Infanterieeinheiten um 1.",
+   "n": "Modell-Schweißen"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Erhöhen Sie den Schaden aller Nahkampf-Infanterieeinheiten um 1.",
+   "n": "Modell-Schweißen"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Erhöhen Sie den Schaden aller Nahkampf-Infanterieeinheiten um 1.",
+   "n": "Modell-Schweißen"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Nahkampf-Infanterieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Konifiziertes Kettenhemd"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Nahkampf-Infanterieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Konifiziertes Kettenhemd"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Nahkampf-Infanterieeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Konifiziertes Kettenhemd"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Erhöht den Fernkampfschaden aller Pfeile und Bolzen um +1.",
+   "n": "Wetzsteine"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Erhöht den Fernkampfschaden aller Pfeile und Bolzen um +1.",
+   "n": "Wetzsteine"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Erhöht den Fernkampfschaden aller Pfeile und Bolzen um +1.",
+   "n": "Wetzsteine"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Fernkampfeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Lamellenrüstung"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Fernkampfeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Lamellenrüstung"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Erhöht die Rüstung aller Fernkampfeinheiten um 1 und deren Gesundheit um 5 %.",
+   "n": "Lamellenrüstung"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Belagerungseinheiten um 5 %.",
+   "n": "Eisenbeschläge"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Belagerungseinheiten um 5 %.",
+   "n": "Eisenbeschläge"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Erhöht die Gesundheit aller Belagerungseinheiten um 5 %.",
+   "n": "Eisenbeschläge"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "Gebäude werden um +50 % schneller repariert.",
+   "n": "Banco-Reparaturen"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Klöster werden autark, ihre Felder werden durch Klosterbrüder bestellt.\nDie Dorfbewohner können in den Klöstern Rohstoffe abliefern.\nPrälaten können in Klöstern einquartiert werden, um alle Dorfbewohner in der Nähe zu inspirieren und ihre Sammelgeschwindigkeit zu erhöhen.",
+   "n": "Abteien mit Zysternen"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Speerkämpfer rüsten gehärtete Hippen aus, wodurch die Rüstung von Gegnern um 1 reduziert wird.",
+   "n": "Hippenträger"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Erhöht die Fernkampf- und Nahkampfrüstung von Torguten und Reitern um +1 und der Gesundheit um +20",
+   "n": "Gepolsterte Rüstung"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Einfache Soldaten sind mit widerstandsfähigerer Rüstung ausgestattet. Leichte Kavallerie erhält +2 Rüstung.",
+   "n": "Brigantine"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "Alle Gebäude erhalten +5 Brandschutz.",
+   "n": "Schiefer- und Steinkonstruktion"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "Der Import von burgundischen Handrohren ermöglicht die Ausbildung von Handrohrschützen in der Ritterzeit und reduziert die Kosten für Handrohrschützen um 25 %.",
+   "n": "Burgunder-Importe"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Erhöht die Angriffsreichweite von Speerkämpfern um +100 %.",
+   "n": "Phalanx"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Erhöht die Rüstung von Kamelreitern um +2.",
+   "n": "Kamelreiterharnische"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Kameleinheiten um +15 %.",
+   "n": "Kamelabrichtung"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Erhöht die Produktionskapazität von Bannermann-Samurai um +1 und stellt einen kostenlosen Dorfbewohner bereit.\nErhöht TP des Dorfzentrums um +1000, fügt eine zusätzliche Schießscharte und eine Aura hinzu, die die Sammelrate von Dorfbewohnern auf Feldern um +20 % erhöht.",
+   "n": "Daimyo-Anwesen"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Erhöht die Produktionskapazität von Bannermann-Samurai um +2 und stellt einen kostenlosen Dorfbewohner bereit.\nErhöht TP des Dorfzentrums um +2000, Brandschutz um +2, fügt eine zusätzliche Schießscharte und eine Aura hinzu, die die Sammelrate von Dorfbewohnern auf Feldern um +40 % erhöht.",
+   "n": "Daimyo-Palast"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Erhöht die Produktionskapazität von Bannermann-Samurai um +3 und stellt einen kostenlosen Dorfbewohner bereit.\nErhöht TP des Dorfzentrums um +3000, Brandschutz um +3, fügt eine Aura hinzu, die die Sammelrate von Dorfbewohnern auf Feldern um +60 % erhöht, und eine Raketenstellung ausrüstet.",
+   "n": "Shogunat-Burg"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Füllt die Ställe mit den besten Hengsten und erhöht die Gesundheit aller Kavallerie um 35 %.",
+   "n": "Königliche Blutlinien"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Erhöht den Bonusschaden der königlichen Ritter nach einem Sturmangriff von +3 auf +10.",
+   "n": "Sattelzwiesel"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Königliche Ritter, die nicht kämpfen, regenerieren alle 1 Sekunden +1 TP.",
+   "n": "Rittertum"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Erhöht die TP von Kavallerie der Rus um +25.",
+   "n": "Tapferkeit der Bojaren"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Ritter rüsten einen Mordaxt aus und erhöhen ihren Nahkampfschaden um +4.",
+   "n": "Ritter-Mordäxte"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Ihre Ritter und Halblanzierer verzieren ihre Rüstung mit dem Farben des Hauses Lancaster und erhalten +5 Bonusschaden auf feindliche schwere Einheiten.",
+   "n": "Amtskette von Esses"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Lokale Stämme bieten einige ihrer Rentiere als Tribut. Lässt 4 Rentier(e) unter Ihrem Dorfzentrum erscheinen.",
+   "n": "Kollektive Jagd"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Fortschritte bei den feudalen Landverteilungspraktiken erhöhen das Baulimit von Landsitzen um 4 und ihre Gesundheit um 100.",
+   "n": "Konzentrierte Landübungen"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Fortschritte bei den feudalen Landverteilungspraktiken erhöhen das Baulimit von Landsitzen um 4 und ihre Gesundheit um 200.",
+   "n": "Freies-Feld-System"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Verbessert die Feuer- und Fernkampfrüstung von Schiffen um +2.",
+   "n": "Verkupferung"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "In Armbrüste können mächtigere Bolzen geladen werden, die über +0.5 Reichweite verfügen und +2 Schaden verursachen.",
+   "n": "Armbrustspanner"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Vergoldete Armbrustschützen verursachen +20 Schaden gegen Belagerungseinheiten.",
+   "n": "Bodkinbolzen"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Reduziert die Kosten aller Technologien und Zeitalter-Fortschritte um -20 %.",
+   "n": "Bewahrung des Wissens"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "Imame können Einheiten bekehren, ohne eine Reliquie zu halten, aber sie können nur eine einzelne Einheit ins Visier nehmen.",
+   "n": "Missionierung"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Dorfzentren und Bergfrieds heilen Einheiten in der Nähe jede 1 Sekunde um +2 Gesundheit.",
+   "n": "Medizinische Zentren"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Dorfbewohner und Händler erhalten +2 Gesundheit pro Wirtschaftsaufwertung.",
+   "n": "Öffentliche Bibliotheken"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Kavallerieeinheiten um +20 %.",
+   "n": "Dali-Pferde"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Verbessert den Brandschutz des befestigten Außenpostens und der Palisaden um +3 und die Gesundheit um +300.",
+   "n": "Irdene Kernmauern"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Erhöht die Aura der Wüstenaußenposten in Festungen und damit auch die Rüstung umstehender Einheiten um 1/1.",
+   "n": "Wüstenzitadellen"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Inspirierte Dorfbewohner sammeln Rohstoffe um +5 % schneller und bauen Gebäude und Verteidigungsanlagen +25 % schneller.",
+   "n": "Ergebenheit"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Erhöht den Fernkampfschaden von Donso (+6), Bogenschütze (+2) und Speerwerfer (+3).",
+   "n": "Präzisionstraining"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Erhöht die Holz-Sammelrate durch Dorfbewohner um 15 % und ihre Holz-Tragfähigkeit um 10.",
+   "n": "Pferde rekrutieren"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "Fackeln der vergoldeten Speerkämpfer verursachen Flächenschaden.",
+   "n": "Schwere Fackeln"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Mit jeder erreichten Dynastie erhöht sich die Sammelrate von Dorfbewohnern um 5 %.",
+   "n": "Uralte Techniken"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Erhöht die Sammelrate von Dorfbewohnern auf Feldern um +15 %.",
+   "n": "Landwirtschaft"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Reduziert die Kosten für Wirtschaftsgebäude und -häuser um 30 %.",
+   "n": "Fruchtbarer Halbmond"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Verringert die Kosten für die Produktion von Dorfbewohnern um 40 %.",
+   "n": "Frische Lebensmittel"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Dorfbewohner erzeugen +8 % Rohstoffe.",
+   "n": "Verbesserte Verarbeitung"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Erhöht die Sammelrate von Obo-Steinen um 20 %.",
+   "n": "Obo-Angebot"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Erhöht die Sammelrate von Obo-Steinen um 20 %.",
+   "n": "Obo-Zeremonie"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Erhöht die Nahrungssammelrate auf Koppelhöfen um 10 %. Gilt nicht für Schafherden.",
+   "n": "Wechselweiden"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Erhöht die Nahrungssammelrate auf Koppelhöfen um 10 %. Gilt nicht für Schafherden.",
+   "n": "Überweidung"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Erhöht die Sammelrate von Nahrung durch Dorfbewohner um 30 %. Gilt nicht für Jagdfleisch.\nWurde „Hortikultur“ bereits entwickelt, wird sie stattdessen um 20 % erhöht.",
+   "n": "Hortikultur (verbessert)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Erhöht die Sammelrate von Gold durch Dorfbewohner um 35 %.\nWenn bereits „Spezialisierte Spitzhacke“ entwickelt wurde, wird sie stattdessen um 20 % erhöht.",
+   "n": "Spezialisierte Spitzhacke (verbessert)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Dorfbewohner fällen Bäume mit einem einzigen Schlag.\nHolz-Tragfähigkeit um +2 erhöht.",
+   "n": "Forstwirtschaft (verbessert)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Erhöht die Sammelrate von Holz durch Dorfbewohner um 35 %.\nWenn bereits „Doppelseitige Breitaxt“ entwickelt wurde, wird sie stattdessen um 20 % erhöht.",
+   "n": "Doppelseitige Breitaxt (verbessert)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Erhöht die Jagdfleisch-Sammelrate von Dorfbewohnern um +25 %.\nWenn bereits „Überlebenstechniken“ entwickelt wurde, wird die Jagdfleisch-Sammelrate stattdessen um +10 % erhöht.",
+   "n": "Überlebenstechniken (verbessert)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "Bei aktiviertem Kharasch-Edikt erschafft das goldene Zelt und Militärgebäude im Einflussbereich eines befestigten Außenpostens eine zusätzliche Kharasch, wenn eine beliebige Einheit rekrutiert wird.",
+   "n": "Kharasch-Edikt freischalten"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "Wenn das Koppelhof-Edikt aktiv ist, bringen Koppelhöfe im Einflussbereich eines befestigten Außenpostens Gold hervor, während sie in Betrieb sind.",
+   "n": "Koppelhof freischalten"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "Der zusätzliche Schaden durch Elefanten erhöht sich um 30 %.",
+   "n": "Kollateralschaden"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Elefanten erlangen alle 2 Sekunden +2 an Gesundheit wieder, wenn sie sich nicht im Kampf befinden.",
+   "n": "Elefantenpfleger"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "Die Taktiken des mächtigen Daimyo verbessern die Nahkampfinfanterie und erhöhen ihren Schaden um +15 %, den Fackelschaden um +15 % und die Gesundheit um +15 %.",
+   "n": "Oda-Taktiken"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Verbessert den französischen Einfluss, indem die Einheitenkosten um weitere 5 % gesenkt werden.",
+   "n": "Verpflichtungsprämien"
+  },
+  "upgrade_fanaticism": {
+   "d": "Templer-Brüder und Kommenden erhalten 10 % zusätzlichen Schaden, wenn ihre Gesundheit unter einem Wert von 50 % liegt, und von 30 %, wenn sie 25 % unterschreitet.",
+   "n": "Fanatismus"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Jedes umzäunte Feld, das von einem Dorfbewohner bestellt wird, generiert alle 6 Sekunden +1 Gold.",
+   "n": "Umzäunungen"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Sprengschiffe verursachen bei allen Feinden im Explosionsradius vollen Schaden.",
+   "n": "Flüssigsprengstoffe"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Rutten erhalten 15 % Angriffsgeschwindigkeit und hüllen ihre Geschosse in Feuer, was nach dem Aufprall einen Bereich mit Griechischem Feuer hinterlässt.",
+   "n": "Römisches Feuer"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Tughlaqabad-Forts erhöhen die Produktionsgeschwindigkeit von Häfen in der Nähe um 30 %, den Schießscharten-Schaden um 2 und die Waffenreichweite um 1 Felder.",
+   "n": "Aufsicht Tughlaqabad-Fort"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Vergoldete Waffenknechte unter 20 % TP erleiden -20 % Schaden.",
+   "n": "Goldener Kürass"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Gegengewicht-Triboke verursachen + 30 % erhöhten Schaden und werden mit Griechischem Feuer versehen und verursachen Flächenschaden. Griechisches Feuer kann nicht mit anderen Patches kombiniert werden.",
+   "n": "Griechische Feuergeschosse"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Nest der Bienen erhalten 3 zusätzliche Raketenpfeile.",
+   "n": "Zusätzliche Fässer"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Erhöht die Reichweite von Handkanonieren um +1.5.",
+   "n": "Pyrotechnik"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "Feindliche Einheiten erhalten über 5 Sekunden +15 % Fern- und Nahkampfschaden, wenn sie von einer Granate getroffen werden.",
+   "n": "Hartschalenbomben"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "Der donnernde Lärm von Eruptor- und Sturmlanzenwaffen erschreckt feindliche Kavallerie und verringert 5 Sekunden lang den Schaden umstehender Kavallerie um 20 %.",
+   "n": "Himmelserschütterer"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Erhöht die Reichweite der Dromonen um 0.5 und ihren Schaden um 1.\nWertet alle Dromonen so auf, dass sie Griechisches Feuer auf der Oberfläche oder dem Boden hinterlassen, wo sie angreifen.",
+   "n": "Schwere Dromone"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "Die Ausbildung in unwegsamem Gelände steigert den Hobelar-Sturmangriffsschaden um 125 % und die Produktionsrate um 100 %.",
+   "n": "Hügeltraining"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Feindliche Einheiten, die niedergetrampelt werden, werden verwundbar und erleiden 12 Sekunden lang +15 % erhöhten Schaden.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Der Schaden an Arbeitern durch Reiter steigt um +2. Pro Arbeiter, der von Ihren Reitern getötet wird, erhalten Sie +30 Gold als Belohnung.",
+   "n": "Expilatores"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Späher werten den Fackelschaden von Einheiten in der Nähe um +25 % auf.",
+   "n": "Trapeziten"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Erhöht die Waffenreichweite der berittenen Schützen um +1 und schalte die Galoppfähigkeit frei.\nGalopp: Aktivieren, um sich bei maximaler Geschwindigkeit 8 Sekunden lang mit +2 Feldern Waffenreichweite zu bewegen.",
+   "n": "Reittraining"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Erhöhen Sie die Sichtweite von Häusern um 7 Felder und verbessern Sie ihre Baugeschwindigkeit um 500 %.",
+   "n": "Grenzsiedlungen"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "Erhöht die maximale Menge an Gold, die von Reichsbeamten getragen werden kann, von 40 auf 70.",
+   "n": "Offizielle Prüfung"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Spawnt 2 Janitscharen für jede Ihrer Wahrzeichen-Dorfzentren und Militärschulen beim Wahrzeichen-Dorfzentrum.",
+   "n": "Janitscharen-Kompanie"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Ermöglicht allen Belagerungswaffen das Einquartieren von Infanterieeinheiten. Bei Einquartierung sind Angriffs- und Aufbaugeschwindigkeit um +25 % erhöht.",
+   "n": "Belagerungstrupps"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Lässt 2 Mehter im Wahrzeichen-Dorfzentrum erscheinen. Mehter erhöhen die Bewegungsgeschwindigkeit aller Einheiten derselben Formation um +15 %.",
+   "n": "Mehter-Trommeln"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "Erhöht die Zahl der Militärschulen, die errichtet werden können, um +1.",
+   "n": "Militärcampus"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Erhöht die militärische Produktionsrate um +25 % und ermöglicht Militärschulen, Lanzenreiter und Janitscharen auszubilden.",
+   "n": "Fortgeschrittene Akademie"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Lässt 2 Imame im Wahrzeichen-Dorfzentrum erscheinen. Imame heilen passiv Einheiten in ihrer Nähe um 1 TP pro Sekunde. Erhöht auf 2 TP in der Ritterzeit und 3 TP in der Imperialzeit.",
+   "n": "Außeneinsatz"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Erhöht die Menge an Gold, die Händler im Sultanhani-Handelsnetz sammeln um +40 %.",
+   "n": "Handelstasche"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "Khanda-Ausbildung verbessert die Dauer des Sturmangriffs von Waffenknechten um 3 Sekunden und erhöht die Schadenswirkung ihres Sturmangriffs um 100 %.",
+   "n": "Khanda-Übungen"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "Die Jin-Dynastie konsolidiert ihre Macht und stärkt das Meng'an-Mouke-System, um bevorstehenden Bedrohungen zu begegnen. Verteidiger werden nun von berittenen Grenadieren unterstützt, und die verfügbare Anzahl der Verteidiger steigt um +10.",
+   "n": "Fliegende Feuerbataillone"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "Fernkampf-Infanterieeinheiten können im Feld Belagerungstürme und Rammböcke konstruieren. Verbesserte Belagerungstechnik ermöglicht außerdem die Konstruktion von Mangonellen, Rutten und Triboken.",
+   "n": "Belagerungstechnik (verbessert)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Der Schaden von Speerkämpfern gegen Kavallerie erhöht sich um 35 % und die Produktionsrate erhöht sich um 50 %.",
+   "n": "Neza-Ausbildung"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Waffenknechte und Lanzenreiter führen einen Kilij, was ihren Schaden um 3 erhöht.",
+   "n": "Geschärfte Klingen"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "Infanterieeinheiten erhalten 30 Sekunden lang +25 % Schaden und +20 % Bewegungsgeschwindigkeit, nachdem eine Einheit besiegt wurde.",
+   "n": "Mamluken des Sultans"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Erhöht die Fernkampfrüstung von Infanterieeinheiten in der Kaserne um +2.",
+   "n": "Kreuzgefaltete Rüstung"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Prälaten erhöhen ihre Bewegungsgeschwindigkeit um %1 %% und können Gruppen von Militäreinheiten inspirieren, was ihre Rüstung um %2 % und ihren Schaden um %3 %% verbessert.",
+   "n": "Inspirierte Krieger"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Eisenklammern zur Verstärkung der Mauern senken den Schaden gegnerischer Angriffe auf Steinmauern und Festungen mit Schießpulver um 20 %.",
+   "n": "Eisenklammern"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "Onna-Musha feuert einen pfeifenden Pfeil ab, wenn ein Feind gesichtet wird, und erhöht 10 Sekunden lang die Bewegungsgeschwindigkeit.",
+   "n": "Pfeifender Kabur-ya-Pfeil"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Fügen Sie diesem Gebäude eine defensive Großballistenstellung hinzu.",
+   "n": "Großballistenstellung"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Angreifer des Tughlaqabad-Forts erzittern vor Furcht, was ihre Angriffsgeschwindigkeit um 30 % verringert, wenn sie das Fort ins Visier nehmen.",
+   "n": "Fluch von Auliya"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Versieht dieses Gebäude mit einer defensiven Stellung mit einer großen Bombarde.",
+   "n": "Große-Bombarde-Stellung"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Versieht dieses Gebäude mit einer defensiven Mange.",
+   "n": "Mangenstellung"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Fügen Sie dieser Konstruktion eine Meng'an-Mouke-Stellung hinzu, die 5 Verteidiger versammelt, wenn Feinde in der Nähe sind. Verteidiger können nicht kontrolliert werden und greifen Bedrohungen in der Nähe dieser Stellung an.\nErzeugt alle 60 Sekunden 1 globalen Meng'an-Mouke-Verteidiger.",
+   "n": "Meng'an-Mouke-Stellung"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Versieht dieses Gebäude mit einer Tribok-Stellung zur Abwehr.",
+   "n": "Tribok-Stellung"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "Der Khan kann einen Signalpfeil senden, der 10 Feld Reichweite offenbart und Gegnern 10 Sekunden lang +10 % Schaden im Zielbereich zufügt.",
+   "n": "Khan-Schwächungspfeil"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Erhöht die Dauer der Signalpfeile des Khans um +7 Sekunden und ihre Reichweite um +3 Felder.\nWenn „Das Pfeifen der Pfeile“ bereits entwickelt wurde, werden die Dauer um +2 Sekunden und die Reichweite um +1 Felder erhöht.",
+   "n": "Pfeifende Pfeile (verbessert)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Erhöht die Dauer der Signalpfeile des Khans um 2 Sekunden und ihre Reichweite um +5 Felder.",
+   "n": "Pfeifende Pfeile"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Kharasch sind mit Schilden ausgestattet und erhalten +2 Fernkampfrüstung, +2 Nahkampfrüstung sowie eine um +25 bessere Gesundheit.",
+   "n": "Schlachtfeld-Bergung"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Gewährt Rittern und schwarzen Rittern +2 für die Nahkampf- und +2 für die Fernkampfrüstung.",
+   "n": "Stahl-Rossharnische"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Vergoldete Ritter erleiden bei einem Sturmangriff -25 % Schaden.",
+   "n": "Kriegspferde"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "Geschickte Schmiedekunst verschafft der Armee eine stärkere Lamellenrüstung. Die Gesundheit aller Kavallerie- und Nahkampfinfanterieeinheiten erhöht sich um +25 %.",
+   "n": "Gefütterter Lamellenpanzer"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Erhöht die Heilung von Keshigs um +2 TP pro Angriff und die Angriffsgeschwindigkeit um +20 %.\nWenn Steppenlanzenreiter bereits entwickelt wurden, erhöht sich die Heilung von Keshigs um +1 TP pro Angriff und die Angriffsgeschwindigkeit um +10 %.",
+   "n": "Steppenlanzenreiter (verbessert)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Erhöht die Heilung von Keshigs um +1 TP pro Angriff und die Angriffsgeschwindigkeit um +10 %.",
+   "n": "Steppenlanzenreiter"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Erhöht die Heilung von Keshigs um +1 LP pro Angriff und Angriffsgeschwindigkeit um +10 %. Torguten erhalten denselben Heilungsangriff wie die Keshig.",
+   "n": "Sarai-Lanzenreiter"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Füllt die Ställe mit den besten Hengsten und erhöht die Gesundheit aller Kavallerie um 35 %.",
+   "n": "Königliche Blutlinien"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Königliche Ritter, die nicht kämpfen, regenerieren alle 1 Sekunden +1 TP.",
+   "n": "Rittertum"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Verbessert den französischen Einfluss, indem die Einheitenkosten um weitere 5 % gesenkt werden.",
+   "n": "Verpflichtungsprämien"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Geweihte Gebäude reduzieren außerdem die Holz- und Goldkosten von Einheiten um 25 %.",
+   "n": "Versorgungskompanie"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "Infanterieeinheiten erhalten die Fähigkeit „Gewaltmarsch“.\nDiese erhöht bei Aktivierung ihre Infanterie-Bewegungsgeschwindigkeit um +100 % für 10 Sekunden, endet aber, sobald die Einheiten Schaden verursachen.",
+   "n": "Gewaltmarsch"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Erhöht die Tragekapazität von Dorfbewohnern um +10.",
+   "n": "Reichhaltige Rationen"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Dorfbewohner und Infanterie können zum Schutz in Häusern stationiert werden. Häuser erhalten Garnisonspfeile und +50 % TP.",
+   "n": "Verstärkte Fundamente"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Erhöht die Gesundheit und den Schaden von Jeanne um 25 % und verleiht ihr +1 Rüstung. Erhöht Gesundheit und Schaden von Jeannes Gefährten um 20 %.",
+   "n": "Gefährten-Ausrüstung"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Erhöht den Brandschutz von Steinmauertürmen, Bergfrieden und Außenposten um +10.",
+   "n": "Schwer brennbare Verteidigungsanlagen"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Erhöht den Brandschutz von Steinmauertürmen, Bergfrieden und Außenposten um +10.",
+   "n": "Schwer brennbare Verteidigungsanlagen"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Elefanten bewegen sich um +10 % schneller.",
+   "n": "Mahouts"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Elefanten bewegen sich um +10 % schneller.",
+   "n": "Mahouts"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Moscheen stellen bei Einheiten, die nicht kämpfen, pro Sekunde +4 Gesundheit wieder her.",
+   "n": "Ort des Friedens"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Bogen- und Armbrustschützen erhalten +0.5 Reichweite.",
+   "n": "Paiks"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Arbalétrieren um +25 %.",
+   "n": "Armbrust-Steigbügel"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Erhöht die Sichtweite von Gelehrten um +100 %.",
+   "n": "Allsehendes Auge"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Gelehrten um 50 %.",
+   "n": "Schnelligkeit"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Wertet Turm-Elefanten auf, sodass Elite-Armbrustschützen anstelle von Bogenschützen auf ihnen reiten. Turm-Elefanten haben um +25 % erhöhte Gesundheit und um +4 erhöhte Fernkampfrüstung.",
+   "n": "Howdahs"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Schaltet die Fähigkeit „Pilgerkredit“ frei. Dabei wird über eine bestimmte Dauer eine größere Menge an Lebensmitteln gegen Gold als Kredit gewährt.",
+   "n": "Wechsel"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Zhugenu und Armbrustschützen feuern einen zusätzlichen Bolzen ab. Der zusätzliche Bolzen für Armbrustschützen ist um 40 % effektiver als der vorherige Bolzen.",
+   "n": "10.000 Bolzen"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Speerkämpfer und Reiter erhalten beim Sturmangriff eine Feuerlanze.",
+   "n": "Das Brüllen des Drachen"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "Reichsbeamte erhalten 150 TP und ihr maximal mitgeführtes Gold wird um +80 erhöht. Das Reichsbeamten-Limit wird um +2 erhöht.",
+   "n": "Erweiterte Verwaltung"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Fügt Bombarden zusätzlichen Flächenschaden zu.",
+   "n": "Wolke des Schreckens"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Ermöglicht die Produktion von Spezial-Kavallerieeinheiten, der Kaiserlichen Garde und der Yuan-Plünderer.",
+   "n": "Dynastische Beschützer"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Speerkämpfer sind mit einem stärkeren Speer ausgestattet, der die Waffenreichweite um +20 % und den Schaden gegen Kavallerie um + 15 % erhöht.",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Bogenschützen um +33 %.",
+   "n": "Kompositbögen"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Waffenknechte führen Streitkolben, was ihren Bonusschaden gegen gepanzerte Ziele um +6 erhöht.",
+   "n": "Schwere Streitkolben"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Waffenknechte führen Zweihandwaffen, was ihren Schaden um +2 erhöht.",
+   "n": "Zweihandwaffen"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Erhöht die TP von Palastwachen um +30.",
+   "n": "Kampferprobt"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "Mit der Ausbildung von Elite-Infanterieeinheiten verbessern sich die Kampffähigkeiten. Nahkampfinfanterieeinheiten verursachen +20 % Schaden und +20 % Gesundheit.\nFalls Elite-Armeetaktiken bereits entwickelt wurden, erhöht sich der Schaden um +5 % und die Gesundheit um +5 %.",
+   "n": "Elite-Armeetaktiken (verbessert)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Kiptschak-Bogenschützen feuern 2 zusätzliche Pfeile ab, die jeweils 70 % weniger Schaden verursachen.",
+   "n": "Dreifachschuss"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Erhöht den Fernkampfschaden von Mangudai und des Khans um +2.\nWenn „Siha-Bogenteile“ bereits entwickelt wurde, erhöht sich der Fernkampfschaden von Mangudai und des Khans um +1.",
+   "n": "Siha-Bogenteile (verbessert)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Erhöht den Fernkampfschaden von Mangudai und des Khans um +1.",
+   "n": "Siha-Bogenteile"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "Der Herrscher des Hauses Lancaster erhebt Steuern gegen alle Vasallen, um seine Kriegsbemühungen zu finanzieren. Landsitze erzeugen 30 Gold pro Minute.",
+   "n": "Schildgeld"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Aktive Händler generieren alle 6 Sekunden 1 Gold.",
+   "n": "Händlergilden"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von berittenen Samurai um + 10 %, während „Ablenkende Rüstung“ aktiv ist.",
+   "n": "Domaru-Rüstung"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Erhöht den Nahkampfschaden aller Einheiten mit Ausnahme von Belagerungseinheiten um +1.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Erhöht den Nahkampfschaden aller Einheiten mit Ausnahme von Belagerungseinheiten um +1.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Erhöht den Nahkampfschaden aller Einheiten mit Ausnahme von Belagerungseinheiten um +1.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Erhöht den Nahkampfschaden aller Einheiten mit Ausnahme von Belagerungseinheiten um +1.",
+   "n": "Yaki-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Erhöht die TP aller Infanterieeinheiten um +15 %.",
+   "n": "Ausbildungslager"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Kameleinheiten stärken die Rüstung von Infanterieeinheiten in der Nähe um 2.",
+   "n": "Kamelunterstützung"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "Infanterie erhöht die Rüstung von Kamelen in der Nähe um 3.",
+   "n": "Infanterie-Unterstützung"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Stattet Kamelreiter mit Schilden aus und verbessert ihre Nahkampfrüstung um +3.",
+   "n": "Kamelreiterschilde"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Erhöht die Produktionsrate von Militärgebäuden um +50 %.",
+   "n": "Erhöhte Vorräte"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Fortgeschrittene Militärtaktiken erhöhen die Effektivität Ihrer Truppen in der Schlacht und verbessern so ihren Bonusschaden um 20 %.",
+   "n": "Militärisches Taktiktraining"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Erhöht die Jagdfleisch-Sammelrate von Dorfbewohnern um +20 %.",
+   "n": "Mohe-Vorfahren"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Erhöht die Jagdfleisch-Sammelrate von Dorfbewohnern um +20 %.",
+   "n": "Jagdbrauch"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Rüsten Sie einen berittenen Samurai mit einem Odachi aus, einem Langschwert, das bei Infanterieeinheiten einen zusätzlichen Schaden von +4 bewirkt.",
+   "n": "Berittener Samurai mit Odachi"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "Die Umrüstung zwischen Lodja-Schiffstypen ist 50 % schneller und hat keine Kostenstrafe mehr.",
+   "n": "Anpassungsfähige Rümpfe"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Ersetzt die Waffen des Rutte-Schiffes durch Repetier-Großballisten, die Salven mit %1 % durchschlagenden Bolzen abfeuern.",
+   "n": "Marine-Armbrüste"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Kriegsschiffe feuern einen Hwacha-Angriff ab.",
+   "n": "Donnerschlag-Bomben"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Militärschiffe, die nicht kämpfen, regenerieren alle 2 Sekunden +1 TP.",
+   "n": "Feuerwachen"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Erhöht die Produktionsrate von Schießpulverschiffen um 25 % und ihre Bewegungsgeschwindigkeit um 25 %.",
+   "n": "Kaiserliche Flotte"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Bogenschützenschiffe feuern zusätzliche 2 Speer-Waffen ab.",
+   "n": "Kanu-Taktiken"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Erhöht den Schaden von Schiffskanonen um 15 %.",
+   "n": "Ferngeschütze"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Baglahs heilen 30 der Gesundheit, wenn sie eine feindliche Einheit töten.",
+   "n": "Wiederverwertete Materialien"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Erhalten Sie +25 Holz und +25 Gold, wenn Sie gegnerische Schiffe versinken.",
+   "n": "Piraterie"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Erhöht die Reichweite von Kampfschiffen um +1.",
+   "n": "Admiralität"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Fügt diesem Kriegshafen eine defensive Rutte der Marine hinzu.",
+   "n": "Stellung für Rutte der Marine"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Erhöht die TP von Militärschiffen um +10 %.",
+   "n": "Teakholzmasten"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Verstärken Sie Hwacha mit spitzen Feuerlanzen, die Angreifern im Nahkampf 10 an Konterschaden zufügen.",
+   "n": "Stachelschweinverteidigung"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Erhöht den Angriffsgeschwindigkeit-Bonus von „Netz aus Burgen“ von 20 % auf 30 %.",
+   "n": "Netz aus Zitadellen"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Rüstet Samurai mit einem Odachi, einem Langschwert, aus, das +4 Extraschaden gegen Infanterieeinheiten verursacht.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "Reichsbeamter-Limit wird um +2 erhöht. Gewährt einen Reichsbeamten nach Fertigstellung.",
+   "n": "Imperiale rote Siegel"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "Reichsbeamte bewegen sich 50 % schneller.",
+   "n": "Reform des einzelnen Peitschenhiebs"
+  },
+  "upgrade_official_supervise": {
+   "d": "Erhöht Überwachung durch Reichsbeamte von 150 % auf 300 %.",
+   "n": "Regionale Inspektion"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "Reichsbeamte können jetzt Bergfriede und Außenposten überwachen, um den von ihnen erlittenen Schaden um 35 % zu reduzieren.",
+   "n": "Büro für militärische Angelegenheiten"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "Die Jam-Geschwindigkeitsaura wirkt sich auf alle Einheiten aus, nicht nur auf Händler und Kavallerieeinheiten. Gilt nicht für Belagerungsmaschinen.\nDas verbesserte Jam-Netzwerk erlaubt Händlern in Jams Aura 1 TP alle 2 Sekunden zu regenerieren.",
+   "n": "Jam-Netzwerk (verbessert)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "Die Jam-Geschwindigkeitsaura wirkt sich auf alle Einheiten (außer Belagerungseinheiten) aus, nicht nur auf Händler und Kavallerie-Einheiten.",
+   "n": "Jam-Netzwerk"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Fügt dem Außenposten die Fähigkeit „Glorreicher Angriff“ hinzu. Bei Aktivierung startet eine 10-sekündige Zeitbeschränkung, die allen Spielern den Außenposten und den in der Nähe befindlichen Bereich anzeigt. Wenn die Zeit abgelaufen ist, steigt bei allen verbündeten Einheiten in der Nähe 30 Sekunden lang die Bewegungsgeschwindigkeit um +50 %, während sie -15 % weniger Schaden erleiden.",
+   "n": "Glorreicher Angriff"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Versehen Sie dieses Gebäude mit defensiven Speerwerfern und erhöhen Sie dadurch die Geschossreichweite der einquartierten Einheiten um +1. Speerwerfer fügen Fernkampfeinheiten zusätzlichen Schaden zu. Es kann nur eine Waffenstellung hinzugefügt werden.",
+   "n": "Speerstellung"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Verleiht diesem Außenposten +300 Gesundheit und +3 Brandschutz",
+   "n": "Pax Mongolica"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Obos erzeugen jede Minute +60 Nahrung, +60 Holz und +10 Gold.",
+   "n": "Obo-Zehnt"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "Schalten Sie eine frühe Ozutsu-Einheit frei, die ab dem III. Zeitalter verfügbar ist.",
+   "n": "Freischaltung: Ozutsu"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Rüsten Sie Ihre Freisassen und Speerkämpfer mit wattierten Jacken aus und verbessern Sie ihre Nahkampfrüstung dadurch um 3.",
+   "n": "Wattierte Jacke"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Jede Warägereinheit, die bei Zerstörung eines Wahrzeichens oder eines Dorfzentrums anwesend ist, bringt dem Spieler eine Silber-Gabe.",
+   "n": "Polutasvarf"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Grafenwächter erhalten während des Werfens zusätzliche Dolche. Diese Dolche verursachen auch einen kleinen Flächenschaden.\nGrafenwächter werfen nun 2 Dolche, sind aber weniger treffsicher.",
+   "n": "Dolchwurfübungen"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "Dank der Handwerkskunst örtlicher Jäger werden die Stammesangehörigen der Mohe mit neuen Rüstungen ausgestattet, die zusätzlichen Schaden um -50 % reduzieren.",
+   "n": "Waffenrock"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Erhöht das Plündergut beim Anzünden von Gebäuden auf +75 Nahrung und Gold.\nWenn „Plünderbeute“ bereits entwickelt wurde, erhöht sich das Plündergut beim Anzünden von Gebäuden um +25 Nahrung und Gold.",
+   "n": "Plünderbeute (verbessert)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Erhöht das Plündergut beim Anzünden von Gebäuden auf +50 Nahrung und Gold.",
+   "n": "Plünderbeute"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Erhöht das Plündergut beim Anzünden von Gebäuden um +75 Steine.\nWenn „Steinbeute“ bereits entwickelt wurde, erhöht sich das Plündergut beim Anzünden von Gebäuden um +25 Steine.",
+   "n": "Steinbeute (verbessert)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Fügt +50 Steine zum Plündergut für das Anzünden eines Gebäudes hinzu.",
+   "n": "Steinbeute"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Erhöhen Sie die Angriffsgeschwindigkeit von Rammböcken um +30 % und reduzieren Sie die Feldbauzeit um -75 %.\nWenn Leichte Träger bereits erforscht wurde, erhöhen Sie die Angriffsgeschwindigkeit um +10 % und reduzieren Sie stattdessen die Feldbauzeit um -25 %.",
+   "n": "Leichte Träger (verbessert)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Erhöht die Nahkampfrüstung von Arbalétrieren um +5.",
+   "n": "Gambesons"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Arbalétrieren um +25 %.",
+   "n": "Armbrust-Steigbügel"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Erhöht den Geschützschaden von Janitscharen um +4.",
+   "n": "Janitscharen-Geschütze"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Langbogenschützen erhalten Pfeilsalve, eine aktivierte Fähigkeit, die ihre Angriffszeit für eine Dauer von 6 Sekunden um +1 Sekunde reduziert.",
+   "n": "Pfeilsalve"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Erhöht die TP von Mauern, Türmen und Toren um 25 %.",
+   "n": "Verstärkte Befestigungen"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "Serienproduktion von Schießständen um +1 erhöht, ohne Kosten oder Zeit für die Rekrutierung zu erhöhen.",
+   "n": "Verstärkung für Schießstände"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "Serienproduktion von Kasernen um +1 erhöht, ohne Ressourcenkosten oder Rekrutierungszeit zu erhöhen.",
+   "n": "Verstärkung für Kasernen"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "Erhöht die Serienproduktion von Ställen um +1, ohne Kosten oder Zeit für die Rekrutierung zu erhöhen. Erhöht auch die Serienproduktion von Torguten um +1.",
+   "n": "Verstärkung für Ställe"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "Gebetszelte ermöglichen auch ohne Obo eine verbesserte Produktion in ihrem Einflussbereich.",
+   "n": "Mönchsschreine"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Bombarden um +33 %.",
+   "n": "Nachladeübungen"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "Fortgeschrittenere Magazine ermöglichen es Zhugenu, panzerbrechende Bolzen mit +0.5 Reichweite abzufeuern, die +1 Schaden bei leichter Nahkampfinfanterie verursachen.",
+   "n": "Bolzen-Magazine"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Warägerwachen und Riddari werden mit einem mächtigen Romphaia-Schwert ausgestattet und erhöhen so den Nahkampfschaden von Wachen der leichten Infanterie um 3 und den Schaden von Riddari um 3.",
+   "n": "Rhomphaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Bringt +2 Sturmangriffsschaden pro in der Nähe befindlicher schwerer Kavallerie.",
+   "n": "Herrschaft der Templer"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Aktiviert Pilger.\nAlle 60 Sekunden erscheinen neue Pilger. Beginnen Sie mit 1 Pilger(n), und erhalten Sie für jede Festung 1 Pilger zusätzlich (maximal 10).",
+   "n": "Sichere Reise"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Verbessere den Bereich des Heiligen Segens um +5 Kacheln und erhöht den Schaden durch den Segen des Heiligen um +1.",
+   "n": "Eifer"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Erhöht die Dauer von „Segen des Heiligen“ um +10 Sekunden.",
+   "n": "Göttliches Licht"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Erhöht die TP von Kriegermönchen um +100.",
+   "n": "Die Verehrung des Heiligen"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Naginata-Samurai können in regelmäßigen Abständen einen Yumi aus der Ferne nutzen.",
+   "n": "Samurai-Bogen"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "Heiligtum-Garantien stellen Pilgern 1 zusätzliche Pilgerpunkte bereit.",
+   "n": "Heiligtum"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Investitionen in größere und bessere Schiffsrümpfe erhöhen den Schaden der Karacke um 20 %, die Gesundheit um 15 % und die Reichweite um 10 %.",
+   "n": "Schiffe der Krone"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "Rekrutieren Sie 5 Halblanzierer.",
+   "n": "Lassen Sie den Adel antreten"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "Rekrutieren Sie 12 Yeomanen.",
+   "n": "Grafschaftsmiliz"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "Rekrutieren Sie 10 Halblanzierer, 10 Grafenwächter und 10 Yeomanen.",
+   "n": "Exaktes Milizprogramm"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Erhöht die maximale Anzahl von Yorishiro um +2. Erzeugt sofort 2 Yorishiro am schwimmenden Tor.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Erhöht die Sichtweite aller Gebäude um +2 Felder. Wirtschaftsgebäude heilen alle 3 Minuten um 100 % ihrer Gesundheit über 3 Sekunden.",
+   "n": "Gion-Fest"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Erhöht die Gesundheit von Shinto-Priester um +40, die Heilungsrate um +60 % und die Bewegungsgeschwindigkeit um +15 %.",
+   "n": "Shinto-Rituale"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Nach Fertigstellung erhalten Belagerungseinheiten Zugriff auf die Fähigkeit ''Strukturelle Verstärkung''.\nBelagerungseinheiten erhalten +20 Nahkampfrüstung und +5 Brandschutz für 10 Sekunden.",
+   "n": "Belagerungskartentaktik"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "Der Auf- und Abbau von Mangonellen, Triboken und Bombarden geschieht ohne Verzögerung.",
+   "n": "Belagerungstrupp-Ausbildung"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Erhöht den Schaden von Bombardements um +20 %. Bombardements bewirken um +50 % höheren Schaden gegen Infanterie.",
+   "n": "Feinjustierte Geschütze"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Der Schaden von Rammböcken wurde um +25 % erhöht. Rammböcke heilen 2 TP alle 1 Sekunden.",
+   "n": "Wandernde Stadt"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Erhöht den Schaden von Triboken um +30 %.\nWenn bereits Geometrie entwickelt wurde, wird er stattdessen um +10 % erhöht.",
+   "n": "Geometrie (verbessert)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Erhöht die Angriffsgeschwindigkeit von Rutten um +35 %, gewährt +10 % Widerstand beim Fernkampf und erhöht Gesundheit um +10.\nWenn Auslösevorrichtungen bereits entwickelt wurden, werden stattdessen Angriffsgeschwindigkeit um 10 % und Gesundheit +10 erhöht.",
+   "n": "Auslösevorrichtungen (verbessert)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "Belagerungseinheiten verursachen alle 10 Sekunden, in denen sie installiert sind 10 % zusätzlichen Schaden, bis maximal 50 %.",
+   "n": "Verlängerte Belagerung"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Belagerungsmaschinen um 10 %.",
+   "n": "Leichte Rahmen"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Belagerungsmaschinen um weitere +10 %.",
+   "n": "Verstärkte Achsen"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Belagerungsmaschinen um 25 %.\nWenn bereits „Geschmierte Achsen“ entwickelt wurde, wird sie stattdessen um 10 % erhöht.",
+   "n": "Geschmierte Achsen (verbessert)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "Neue Zimmermannstechniken erhöhen die Gesundheit von Belagerungsmaschinen um +30 %.\nWenn Belagerungswerke bereits erforscht wurden, erhöht sich deren Gesundheit um +10 %.",
+   "n": "Belagerungswerke (verbessert)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Verbessert die Rüstung von Sofa um +2.",
+   "n": "Importierte Rüstung"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Sofa erhöhen die Bewegungsgeschwindigkeit benachbarter Infanterie um +15 %.",
+   "n": "Farima-Führung"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Erhöht den Schaden durch Speerkämpfer und Reiter um +2.",
+   "n": "Ahlspieße"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit von Speerkämpfern um +10 % und +5 Schaden gegen Arbeiter.",
+   "n": "Leichte Klingen"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Erhöht die Reichweite von Rutten um +1 Felder.",
+   "n": "Verstärkter Wurfarm"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Musofadi-Krieger und Musofadi-Schützen erhalten + 5 Heilung bei jedem Angriff über 5 Sekunden, nachdem sie die Tarnung fallenlassen.",
+   "n": "Ortskenntnisse"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Speerkämpfer sind mit Sturmlanzen ausgerüstet und erhalten einen explosiven Fernkampfangriff mit Abklingzeit.",
+   "n": "Sturmlanzen"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Schaltet die Fähigkeit Synchronschuss für Freisassen frei.",
+   "n": "Synchronschuss"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Tanegashima Ashigaru setzt automatisch einen stehenden Schild ein, wenn er sich nicht bewegt. Er erhöht dabei die Waffenreichweite um +2 Felder und die Fernkampfrüstung um +2.",
+   "n": "Tanegashima Tate"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Erhöht die Rüstung der gepanzerten Reiter um +1, die Bewegungsgeschwindigkeit der Limitanei um +15 % und die Angriffsgeschwindigkeit der Warägergarde um +15 %.",
+   "n": "Tropfenschilde"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Erhöht die Produktionsrate von Militär- und Transporteinheiten in Gebäuden um 53 %.\nHat keine Auswirkung auf religiöse oder andere Unterstützungseinheiten.\nWenn die Militärakademie bereits erforscht wurde, erhöht sich die Produktionsrate stattdessen um 20 %.",
+   "n": "Militärakademie (verbessert)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "Bergfriede und Steintürme können Granaten auf Einheiten in der Nähe abwerfen, um Explosionsschaden zu verursachen. Feinde seien gewarnt.",
+   "n": "Feuerregen"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Entwickelt alle Waräger-Festungen mit Standard-Schießscharten-Stellungen weiter, die bei einer Waffenreichweite von 6 Feldern einen Schaden von 10 Feldern verursachen.",
+   "n": "Festungsschießscharten zur Defensive"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Erhöht die Gesundheit aller Kavallerieeinheiten um 35 %.\nWenn das Gebiet Biologie bereits entwickelt wurde, beträgt die Aufwertung 10 % %.",
+   "n": "Biologie (verbessert)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Buddhistische Tempel wirken alle 6 Sekunden Sohei Sutra auf einen Gegner in der Nähe.",
+   "n": "Ämter der fünf Berge"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "Die Angriffsaura des Ikko-ikki-Mönches heilt um +1.",
+   "n": "Kampo-Medizin"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Erhöht die Gesundheit des Ikko-ikki-Mönches um + 60 und den Nahkampfschaden um +2.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Erhöht die Bewegungsgeschwindigkeit des Ikko-Ikki-Mönchs um +33 %.",
+   "n": "Berggipfel-Training"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Wertet buddhistische Bekehrung zu Nehan-Bekehrung auf, mit einer kürzeren Abklingzeit von 25 % und erhöht die Bewegungsgeschwindigkeit verbündete Einheiten in der Nähe um +25 %.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Buddhistische Mönche generieren alle 25 Sekunden 60 Gold.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "Das goldene Zelt kann zu reduzierten Steinkosten schnell Spezialeinheiten hervorbringen, Kosten für Torguten-Steine und die Produktionsrate werden um 20 % verringert und Rus-Tribute werden mit verbesserter Rüstung und einer Berdysch-Axt weiterentwickelt.",
+   "n": "Steinarmeen"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "Das goldene Zelt erzeugt alle 10 Sekunden für jeden befestigten Außenposten 10 Einheiten Gold, bis zu einem Maximum von 6 befestigten Außenposten.",
+   "n": "Jam-Netzwerk-Handel"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Reduziert die Kosten der Khans und Torguten um 20 % und erhöht deren Gesundheit um 30.",
+   "n": "Khans und Torguten"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Produziert 2 Gebäudekarren, die in ein Militärgebäude entpackt werden können.\nBeim Voranschreiten in spätere Zeitalter wird ein zusätzlicher Gebäudekarren produziert.",
+   "n": "Gebäudekarren"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "Die eroberten Rus-Gebiete werden größere Schilde für schwere Infanterieeinheiten und schwere Kavallerie bieten, die ihre Fernkampfrüstung um +2 erhöhen.\nHolz wird außerdem mit einer Rate von 200 pro Minute erzeugt, aber sie wird für jede ausgerüstete Einheit mit einem Rus-Schild um 2 reduziert.",
+   "n": "Moskowitischer Tribut"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Schamanen können eine Reliquie in ihrem Besitz verbrauchen und in einen Obo verwandeln, wodurch das Baulimit überschritten werden kann. Erhöht die Sammelrate von Obo-Steinen um 20 %.",
+   "n": "Reliquien-Obos"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Das Tragen hoher Turmschilde verleiht Waffenknechten +3 Fernkampfrüstung.",
+   "n": "Turmschilde"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Händler und Handelsschiffe kehren auch mit einem sekundären Rohstoff zurück. Dieser Rohstoff beträgt 25 % des Basisgoldwertes und wird auf dem Markt festgelegt.",
+   "n": "Großer Basar"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Erhöht die Goldeinnahmen von Händlern und Handelsschiffen um 30 %.",
+   "n": "Gewürzstraßen"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Gewährt Händlern und Handelsschiffen +3 mehr Rüstung.",
+   "n": "Gepanzerte Karawanen"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Händlern liefern +20 % Stein.\nSollte „Steinhandel“ bereits erreicht sein, werden stattdessen +10 % Stein geliefert.",
+   "n": "Steinhandel (verbessert)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Händler liefern bei ihren Tauschgeschäften +10 % Stein.",
+   "n": "Steinhandel"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Rammböcke erhalten eine Fähigkeit, die sie selbst erstarren lässt. Dies bringt starke Verteidigungsboni und ermöglicht es, mehrere Pfeile abzufeuern.",
+   "n": "Brückenkopf"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Erhöht innerhalb der Aura einer Festung die Golderzeugung von Klöstern, geweihten Stätten und Pilgern um 20 %.",
+   "n": "Schatztürme"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Tribokgeschosse zerbersten beim Aufprall und vergrößern so ihren Wirkungsbereich.",
+   "n": "Trümmerprojektile"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Explosive Granaten, die von Triboken und Hwachas geschleudert werden, räuchern feindliche Verteidiger aus und verringern den Schaden des angegriffenen Gebäudes 8 Sekunden lang um 20 %. Triboke und Hwachas gewinnen +1 an Reichweite.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "Alle Tribokwaffen erhalten 1 zusätzliche Projektile.",
+   "n": "Verteidigung (Gegengewicht)"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Heiler-Elefanten zu Elite-Heiler-Elefanten aufwerten",
+   "n": "Aufwertung zur Eliteeinheit"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Erprobte Söldner zu Veteranen-Söldnern aufwerten.",
+   "n": "Veteranen-Vertrag"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Veteranen-Söldner zu Elite-Söldnern aufwerten.",
+   "n": "Elite-Vertrag"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Erhöht die Heilungsrate von religiösen Einheiten um +90 %.\nWenn bereits „Kräutermedizin“ entwickelt wurde, wird sie stattdessen um +30 % erhöht.",
+   "n": "Kräutermedizin (verbessert)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Erhöht die TP aller Schamanen um +60.\nWenn bereits „Frömmigkeit“ entwickelt wurde, werden sie stattdessen um +20 erhöht.",
+   "n": "Frömmigkeit (verbessert)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Ermöglicht es Gelehrten, Geweihte Stätten vor der Ritterzeit (III) einzunehmen. Geweihte Stätten erzeugen +25 % mehr Gold.",
+   "n": "Heiligkeit"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "Reliquien, die in einem Gebetszelt platziert werden, bringen jede Minute ein Einkommen von +60 Nahrung, +60 Holz und +15 Stein.\nFalls Zehntscheune bereits erforscht wurde, erhöht sich stattdessen das Einkommen von Nahrung und Holz um +20 und von Stein um +5.",
+   "n": "Zehntscheunen (verbessert)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Von Gelehrten geheilte Einheiten erhalten für 3 Sekunden +50 % Angriffsgeschwindigkeit.",
+   "n": "Eifer"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Gebäude im bepackten Zustand bewegen sich um +70 % schneller und erledigen das Packen/Entpacken um +50 % schneller.\nWenn die überlegene Mobilität bereits entwickelt wurde, ist die Geschwindigkeit um +20 % erhöht.",
+   "n": "Überlegene Mobilität (verbessert)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Gebäude können 50 % schneller gepackt, bewegt und entpackt werden.",
+   "n": "Überlegene Mobilität"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Erhöhen Sie die Tragekapazität von Dorfbewohnern um +3, ihre Bewegungsgeschwindigkeit um +7 % und die Sammelrate von Beerensträuchern um +25 %.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Erhöhen Sie die Tragekapazität von Dorfbewohnern um +3, ihre Bewegungsgeschwindigkeit um +7 % und die Sammelrate von Beerensträuchern um +25 %.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Erhöhen Sie die Tragekapazität von Dorfbewohnern um +3, ihre Bewegungsgeschwindigkeit um +7 % und die Sammelrate von Beerensträuchern um +25 %.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Wertet Ballistenelefanten zu Elite-Ballistenelefanten auf",
+   "n": "Verstärkte Arm-Balliste"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Erhöht die Rohstofftragekapazität von Dorfbewohnern um +9 und ihre Bewegungsgeschwindigkeit um +15 %.\nWenn bereits „Lohnstabilität“ entwickelt wurde, wird die Tragekapazität stattdessen um +4 erhöht.",
+   "n": "Schubkarre (verbessert)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Warägergarde erhöht ihre Bewegungsgeschwindigkeit um +30 %, wenn Berserker aktiviert wird.",
+   "n": "Wilde Geschwindigkeit"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Waräger-Arsenale produzieren mehr tödliche Pfeile, wodurch der Schaden bei Einheiten, die von Bogmaður getroffen wurden, 5 Sekunden lang um 20 % reduziert wird.",
+   "n": "Vernichtende Blendung"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Erhöht die Gesundheit der Dorfbewohner um +50 %.\nWenn Textilien bereits erforscht wurde, erhöht sich die Gesundheit stattdessen um +100 %.",
+   "n": "Textilien (Verbessert)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Türme und Bergfriede reparieren Mauern und Tore in der Nähe um +25 Gesundheit pro Sekunde.",
+   "n": "Zusatzmaterialien"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "Erfahrung durch das Bauen größerer Triboke erhöht ihre Reichweite um 2 und die Gesundheit um 50 %.",
+   "n": "Warwolf-Tribok"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Erhöht den Fackelschaden aller Infanterie- und Kavallerieeinheiten um 5.\nWenn „Zusätzliche Fackeln“ bereits entwickelt wurde, wird der Fackelschaden aller Infanterie- und Kavallerieeinheiten um 2 erhöht.",
+   "n": "Zusätzliche Fackeln (verbessert)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Erhöht den Fackelschaden aller Infanterie- und Kavallerieeinheiten um +3.",
+   "n": "Zusätzliche Fackeln"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Erhöht den Schaden der von dieser Hölzernen Festung abgefeuerten Pfeile um +2.",
+   "n": "Burgturm"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Erhöht die Sichtweite dieser Hölzernen Festung um 6 Felder.",
+   "n": "Burgwache"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "Bewegungsgeschwindigkeit von Kavallerie um 10 % erhöht.",
+   "n": "Pferdetraining"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Erhöht den Anti-Kavallerie-Schaden der Yari-Kavallerie um + 2.",
+   "n": "Verbessertes Yari"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Yatai können auf Feldern in der Umgebung Nahrung sammeln, was +4 Nahrung/Min. bringt. Erhöht die maximale Rate auf 80 Nahrung/Min.",
+   "n": "Yatai-Feld-Versammlung"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Gewährt Yumi Ashigaru +1 Schaden.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Der vergoldete Landsknecht rüstet eine Hellebardenwaffe aus, die Feinde verwundet. Wenn eine Einheit von dieser Waffe getroffen wird, erleidet sie jede Sekunde 2 Schaden. Hält 10 Sekunden an.\nJeder Heileffekt entfernt die Blutung.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Nahrung",
+  "i-gold": "Gold",
+  "i-silver": "Silber",
+  "i-stone": "Steine",
+  "i-vizier": "Wesirpunkte",
+  "i-wood": "Holz"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Machen Sie sich das Streben der Abbasiden nach Wissen durch die Erforschung einzigartiger Technologien zu eigen, von denen Kamele, Militär, Religion, Wirtschaft und Handel profitieren.\nSchreiten Sie durch die Aufwertung von bis zu 4 Flügeln im Haus der Weisheit zum nächsten Zeitalter voran.",
+   "t": "Streben nach Wissen"
+  },
+  "ab-2": {
+   "d": "Kamele erschrecken durch ihre Anwesenheit gegnerische Kavalleriepferde und reduzieren deren Schaden somit um -20 %.",
+   "t": "Kamelkämpfer"
+  },
+  "ab-3": {
+   "d": "Infanterie kann Rammen, Belagerungstürme, Rutten und Mangen bauen, ohne dafür Belagerungstechnik zu benötigen.",
+   "t": "Belagerungsexperten"
+  },
+  "ab-4": {
+   "d": "Beerensträucher werden zu Obstgärten, wenn Sie in der Nähe Mühlen errichten, wodurch die Nahrungskapazität um 100 Punkte erhöht wird.\nDorfbewohner sammeln Beerensträucher um 25 % schneller, können aber von Wildschweinen nichts sammeln.\nDorfbewohner können 3 Einheiten Nahrung von Beerensträuchern tragen.",
+   "t": "Große Obstgärten"
+  },
+  "ab-5": {
+   "d": "Händler an Land sind 33 % kostengünstiger.",
+   "t": "Handelswirtschaft"
+  },
+  "ab-6": {
+   "d": "Häfen können für -50 % weniger Holz gebaut werden.",
+   "t": "Schiffswerften"
+  },
+  "ab-7": {
+   "d": "Arbeiten Sie auf Ihr Goldenes Zeitalter hin – verbessern Sie Wirtschaft und Technologie.\nGebäude im Einflussbereich des Hauses der Weisheit erhalten +5 Brandschutz und tragen einen Punkt zum Erreichen des Goldenen Zeitalters bei. Die Schwellenwerte für die Freischaltung liegen bei 10, 30 und 60 Gebäuden.\n- Stufe 1: Sammelrate der Dorfbewohner +15 %\n- Stufe 2: Forschungsrate +20 %\n- Stufe 3: Sammelrate der Dorfbewohner +20 % für alle Rohstoffe. Forschungsraten +20 %, Produktionsraten +20 %.",
+   "t": "Goldenes Zeitalter"
+  },
+  "ab-8": {
+   "d": "Kamelbogenschützen: Leichte Fernkampfkavallerie, die leichter Nahkampfinfanterie Bonusschaden zufügt.\nKamelreiter: Leichte Nahkampfkavallerie, die Kavallerie Bonusschaden zufügt.\nGhulam: Zähe Infanterie mit einem Doppelschlag-Angriff.",
+   "t": "Spezialeinheiten"
+  },
+  "ay-1": {
+   "d": "Schreiten Sie durch die Zeitalter voran, indem Sie 8 einzigartige Flügel im Haus der Weisheit auswählen.\nErhalten Sie sofortigen Zugang zu Boni für Wirtschaft, Technologie und Militär, ohne dass ein Aufwertung erforderlich ist, um die Zivilisation an die Bedürfnisse der Schlacht anzupassen.\nJeder Flügel bietet mächtigere Boni, wenn er in späteren Zeitaltern gebaut wird.",
+   "t": "Anpassungsfähiger Kommandant"
+  },
+  "ay-2": {
+   "d": "Kamele erschrecken durch ihre Anwesenheit gegnerische Kavalleriepferde und reduzieren deren Schaden somit um -20 %.",
+   "t": "Kamelkämpfer"
+  },
+  "ay-3": {
+   "d": "Infanterie kann Belagerungsmaschinen auf dem Feld konstruieren, ohne die Technologie der Belagerungstechnik zu benötigen.\nZugang zu zwei einzigartigen Belagerungswaffen und einer einzigartigen Belagerungsaufwertung.",
+   "t": "Belagerungsmeister"
+  },
+  "ay-4": {
+   "d": "Beerensträucher werden zu Obstgärten, wenn Sie in der Nähe Mühlen errichten, wodurch die Nahrungskapazität um 100 Punkte erhöht wird.\nDorfbewohner sammeln Beerensträucher um 25 % schneller, können aber von Wildschweinen nichts sammeln.\nDorfbewohner können 3 Einheiten Nahrung von Beerensträuchern tragen.",
+   "t": "Große Obstgärten"
+  },
+  "ay-5": {
+   "d": "Händler an Land sind 33 % kostengünstiger.",
+   "t": "Handelswirtschaft"
+  },
+  "ay-6": {
+   "d": "Häfen können für -50 % weniger Holz gebaut werden.",
+   "t": "Schiffswerften"
+  },
+  "ay-7": {
+   "d": "Arbeiten Sie auf Ihr Goldenes Zeitalter hin: Verbessern Sie Wirtschaft, Technologie und Militär.\nGebäude im Einflussbereich des Hauses der Weisheit erhalten +5 Brandschutz und tragen einen Punkt zum Goldenen Zeitalter bei. Die Schwellenwerte für die Freischaltung liegen bei 10, 20, 30, 50 und 75 Gebäuden. \n- Stufe 1: Sammelrate der Dorfbewohner +10 %\n- Stufe 2: Forschungsrate +25 %\n- Stufe 3: Produktionsrate +20 %\n- Stufe 4: Belagerungseinheiten kosten 20 % weniger Rohstoffe in der Produktion.\n- Stufe 5: Kameleinheiten greifen 20 % schneller an.",
+   "t": "Goldenes Zeitalter"
+  },
+  "ay-8": {
+   "d": "Wüstenplünderer: Vielseitiger Kamelreiter, der zwischen Fern- und Nahkampfmodus wechseln kann.\nKamellanzenreiter: Schweres Kamel mit einem mächtigen Sturmangriff.\nDerwisch: Berittene religiöse Einheit mit einer mächtigen Heilungsfähigkeit.\nManjaniq: Einzigartige Mange, die einen Brandmodus verwenden kann, um Schaden in einem stark vergrößerten Bereich zu verursachen.\nTurm des Sultans: Eine riesige Belagerungswaffe, die mit Bogenschützen besetzt und mit einem Rammbock ausgestattet ist, der verheerenden Schaden an Gebäuden anrichtet.",
+   "t": "Spezialeinheiten"
+  },
+  "by-1": {
+   "d": "Sammeln Sie einen einzigartigen Rohstoff, um mit ihm Söldnereinheiten anzuwerben. Dorfbewohner sammeln Olivenöl, das 50 % der Nahrung aus Beerensträuchern, 20 % aus Olivenhainen und 10 % aus Küstenfischen entspricht.\nFischerboote erzeugen Olivenöl, das 20 % der Nahrung aus Fischen entspricht, und Händler liefern 20 % Olivenöl basierend auf der gehandelten Menge.",
+   "t": "Olivenöl"
+  },
+  "by-2": {
+   "d": "Kaufen Sie Verträge oder errichten Sie die Kontrolle über Handelsposten, um einzigartige Einheiten anderer Zivilisationen mit Olivenöl im Söldnerhaus zu rekrutieren.",
+   "t": "Söldner"
+  },
+  "by-3": {
+   "d": "Zisternen bieten Dorfbewohnern in der Nähe erhöhte Nahrungssammelraten und einen Einfluss, der die Einheiten-Produktionsrate, die Forschungsrate oder die Gebäudeverteidigung verbessert.\nKonstruieren Sie ein Aquädukt-Netzwerk und verbinden Sie es mit Zisternen, um seinen erzeugten Bonus zu erhöhen.",
+   "t": "Zisternen und Aquädukte"
+  },
+  "by-4": {
+   "d": "Sammeln Sie Steine von jedem errichteten Gebäude. Die Größe des Gebäudes bestimmt die Menge des gesammelten Steins.",
+   "t": "Feldsteine"
+  },
+  "by-5": {
+   "d": "Cheirosiphone, Dromonen und verbesserte Triboke schleudern bei ihren Angriffen griechisches Feuer, die das Gebiet in Flammen hüllen, um mit der Zeit Schaden zu verursachen.",
+   "t": "Griechisches Feuer"
+  },
+  "by-6": {
+   "d": "Außenposten und Bergfriede können mit Mangenstellungen aufgerüstet werden. Steinmauertürme werden mit Mangenstellungen anstelle von Rutten ausgestattet.",
+   "t": "Mangenstellungen"
+  },
+  "by-7": {
+   "d": "Limitanei: Ersatz für Speerkämpfer. Leichte Nahkampf-Infanterieeinheit mit der Fähigkeit Schildmauer, welche die Fernkampf-Rüstung auf Kosten der Bewegungsgeschwindigkeit erhöht.\nWarägergarde: Ersatz für Waffenknecht. Verwendet die Fähigkeit Berserker, um den Schaden auf Kosten der Rüstung zu erhöhen. Kann Transportschiffe bauen und die Rüstung von Transporten erhöhen, wenn sie einquartiert ist. Erhält erhöhte Bewegungsgeschwindigkeit nach der Landung von Transportschiffen.\nKataphrakt: Ersatz für Ritter. Schwere Kavallerie mit der machtvollen zielgerichteten Fähigkeit „Trampeln“, mit der Feinden durch Hindurchstürmen Schaden zufügt wird.\nCheirosiphon: Ein Rammbock, der mit einem Griechischen Feuerangriff mit kurzer Reichweite ausgestattet ist.\nDromone: Ersatz für die Rutte. Ausgerüstet mit Griechischem Feuer.",
+   "t": "Spezialeinheiten"
+  },
+  "ch-1": {
+   "d": "Beginnen Sie Ihre Reise in der Tang-Dynastie – erhöht die Sichtweite des Spähers um +30 % und ermöglicht Zugang zu Dörfern.\nErrichten Sie beide Wahrzeichen in einem Zeitalter, um Dynastien mit Spezialboni, Spezialgebäuden und Spezialeinheiten zu beginnen.\n• Song-Dynastie: Dorfbewohner werden um +33 % schneller produziert – schaltet Kornspeicher und Zhugenu frei.\n• Yuan-Dynastie: Bewegungsgeschwindigkeit von Dorfbewohnern, Beamten und Militäreinheiten +15 % – schaltet Pagode und Feuerlanzenreiter frei.\n• Ming-Dynastie: Militäreinheiten +15 % Gesundheit – schaltet Grenadier frei.",
+   "t": "Große Dynastien"
+  },
+  "ch-2": {
+   "d": "Dorfbewohner errichten Verteidigungsanlagen um +50 % und alle anderen Gebäude um +1100 % schneller. Häfen arbeiten um +10 % schneller.",
+   "t": "Schnelle Herstellung"
+  },
+  "ch-3": {
+   "d": "Beginnen Sie das Spiel mit der bereits kostenlos freigeschalteten Technologie „Chemie“ – defensive Gebäude verwenden Handrohrscharten anstelle von defensiven Schießscharten.",
+   "t": "Meister des Schießpulvers"
+  },
+  "ch-4": {
+   "d": "Ausgebildete Einheiten, entwickelte Technologien und abgelieferte Rohstoffe generieren Steuern (Gold), die von Reichsbeamten erhoben werden können.",
+   "t": "Steuern"
+  },
+  "ch-5": {
+   "d": "Errichten Sie Militär- und Wirtschaftsgebäude im Einflussbereich des Wahrzeichens Kaiserliche Akademie, um +100 % mehr Steuergold zu generieren.",
+   "t": "Einfluss"
+  },
+  "ch-6": {
+   "d": "Reichsbeamter: Verwenden Sie die Fähigkeit „Überwachen“, um die Produktionsrate von Forschungs- und Militärgebäuden um +150 % zu erhöhen – das Überwachen von Wirtschaftsgebäuden erhöht die Menge der von Dorfbewohnern abgelieferten Rohstoffe um +20 %.\nZhugenu: Leichte Fernkampfinfanterie mit schnellem Stoßangriff, der gegen leichte Einheiten effektiv ist.\nPalastwache: Ersatz für Waffenknecht. Schwere Nahkampfinfanterie, die Rüstung gegen Bewegungsgeschwindigkeit eintauscht.\nBienennest: Ersatz für Mange. Belagerungsmaschine, die Raketensalven abfeuert und damit Flächenschaden verursacht.\nFeuerlanzenreiter: Leichte Kavallerie, effektiv gegen Belagerungsmaschinen und Gebäude. Verfügt über erweiterte Sichtweite und einen explosionsartigen Sturmangriff.\nGrenadier: Leichte Schießpulverinfanterie, die Granaten wirft und damit Flächenschaden verursacht.",
+   "t": "Spezialeinheiten"
+  },
+  "de-1": {
+   "d": "Bilden Sie in der Dunklen Zeit Gelehrte (I) in Moscheen aus. Sie können religiöse Technologien früher als andere Zivilisationen entwickeln und freischalten.",
+   "t": "Gelehrtenkultur"
+  },
+  "de-2": {
+   "d": "Sparen Sie die Kosten für Technologien und entwickeln Sie alle Technologien gratis, allerdings geht dies deutlich langsamer vonstatten – Technologien können pausiert und fortgesetzt werden.",
+   "t": "Akademische Errungenschaften"
+  },
+  "de-3": {
+   "d": "Errichten Sie befestigte Siedlungen mit Infanterieeinheiten, die Palisadenwälle bauen können. Errichten Sie das Wahrzeichen „Komplex des Verteidigers“, um diese Fähigkeit auf Steinmauern auszuweiten.",
+   "t": "Grenzbefestigungen"
+  },
+  "de-4": {
+   "d": "Fischkutter können sich selbst mit einem Fernangriff verteidigen und haben 50 % zusätzliche TP.",
+   "t": "Defensive Deckmannschaft"
+  },
+  "de-5": {
+   "d": "Beerensträucher werden zu Obstgärten, wenn Sie in der Nähe Mühlen errichten, wodurch die Nahrungskapazität um 100 Punkte erhöht wird.\nDorfbewohner sammeln Beerensträucher um 25 % schneller, können aber von Wildschweinen nichts sammeln.\nDorfbewohner können 3 Einheiten Nahrung von Beerensträuchern tragen.",
+   "t": "Gartenpflege"
+  },
+  "de-6": {
+   "d": "In einer Moschee, Madrasa oder einem Hafen einquartierte Gelehrte erhöhen die Forschungsgeschwindigkeit von Gebäuden in ihrem Einflussbereich, je nachdem, wie viele Gelehrte insgesamt einquartiert. Häfen arbeiten schneller, wenn darin Gelehrten einquartiert sind.",
+   "t": "Einfluss"
+  },
+  "de-7": {
+   "d": "Gelehrter: Religiöse Einheit mit Heilfähigkeit in der Dunklen Zeit (I).\nKriegselefant: Schwere Nahkampfkavallerie, wird von einem Speerkämpfer mit hohen TP, hohem Schaden und starkem Belagerungsangriff geritten.\nTurmelefant: Fernkampfkavallerie, wird von zwei Bogenschützen geritten, die aus der Bewegung heraus feuern können.\nGhazi-Plünderer: Schneller Reiter, der einen schweren Streitkolben schwingt.",
+   "t": "Spezialeinheiten"
+  },
+  "en-1": {
+   "d": "Schützen Sie die Grenze mit Dorfzentren, Außenposten, Steintürmen und Bergfrieden, mit denen Sie die Angriffsgeschwindigkeit der Einheiten in der Nähe um +20 % erhöhen, wenn Feinde in Reichweite sind.\nEntwickeln Sie in Bergfrieden die Technologie „Netz aus Zitadellen“, um die Angriffsgeschwindigkeit um +30 % zu erhöhen.",
+   "t": "Netz aus Burgen"
+  },
+  "en-2": {
+   "d": "Bergfriede können alle militärischen Einheiten produzieren.",
+   "t": "Bergfriedproduktion"
+  },
+  "en-3": {
+   "d": "In der Dunklen Zeit (I) verfügbarer Vorhut-Waffenknecht – englische Waffenknechte werden +40 % schneller ausgebildet.",
+   "t": "Ruf zu den Waffen"
+  },
+  "en-4": {
+   "d": "Das Dorfzentrum der Hauptstadt feuert einen zusätzlichen Pfeil ab und Dorfbewohner sind mit Kurzbögen ausgerüstet, wenn sie gegnerische Einheiten angreifen.",
+   "t": "Defensiv-Byrig"
+  },
+  "en-5": {
+   "d": "Das Anlegen von Feldern ist um 50 % günstiger.\nEntwickeln Sie in der Imperialzeit (IV) die Umzäunungstechnologie, damit Dorfbewohner während der Feldarbeit alle 6 Sekunden +1 Gold generieren.",
+   "t": "Insel der Landwirtschaft"
+  },
+  "en-6": {
+   "d": "Die Marineaufbereitung erhöht die Effizienz von Häfen und reduziert die Kosten für den Schiffsbau um -10 %.",
+   "t": "Schiffsbauer"
+  },
+  "en-7": {
+   "d": "Die Ernterate von Feldern, die sich im Einflussbereich einer Mühle befinden, erhöht sich nach jedem Zeitalter-Aufstieg um +20/25/30/30 %.",
+   "t": "Einfluss"
+  },
+  "en-8": {
+   "d": "Späher und Waffenknechte können Lagerfeuer erschaffen, welche die Sichtweite von Einheiten in der Nähe um +30 % und die Sammelrate von Jägern in der Nähe um 10 % erhöhen.",
+   "t": "Königswald"
+  },
+  "en-9": {
+   "d": "Langbogenschütze: Bogenschütze mit +2 Reichweite und +1 Schaden, der über die Verteidigungspfahl-Fähigkeit verfügt und damit gegnerische Kavallerie betäuben und verletzen kann.",
+   "t": "Spezialeinheiten"
+  },
+  "fr-1": {
+   "d": "Setzen Sie den Königlichen Ritter in der Feudalzeit (II) ein und entwickeln Sie mächtige einzigartige Technologien für die Kavallerie.",
+   "t": "Königliche Hengste"
+  },
+  "fr-2": {
+   "d": "Profitieren Sie von einer überlegenen Wirtschaft mit -50 % günstigeren Ablieferplätzen für Rohstoffe und -35 % günstigeren Wirtschaftstechnologien.\nDie Produktionsrate von Dorfzentren erhöht sich pro Zeitalter um +15 %, +15 %, +20 %, +25 %.",
+   "t": "Kontinentale Wirtschaft"
+  },
+  "fr-3": {
+   "d": "Liefern Sie mit Händlern und Handelsschiffen Nahrung, Holz oder Gold an Marktplätze.\nHandelsschiffe gewähren +20 % mehr Rohstoffe.\nHandelsposten werden zu Beginn des Spiels auf der Minikarte enthüllt.\nHäfen bieten der Bevölkerung mehr Platz.",
+   "t": "Handelswirtschaft"
+  },
+  "fr-4": {
+   "d": "Schmieden gewähren Nahkampfschaden-Technologien nach jedem Zeitalter-Aufstieg gratis.",
+   "t": "Die Gunst des Schmieds"
+  },
+  "fr-5": {
+   "d": "Unterstützen Sie Offensiven mit -10 % billigeren Bergfrieden, die die Kosten von Einheiten, die von Bogenschießplätzen und Ställen in ihrem Einflussbereich produziert werden, um -20 % reduzieren.",
+   "t": "Einfluss"
+  },
+  "fr-6": {
+   "d": "Königlicher Ritter: Schwere Kavallerie, die nach einem Sturmangriff 5 Sekunden lang +3 Bonusschaden erhält.\nArbalétrier: Armbrustschütze mit +1 Nahkampfrüstung, der zur Verteidigung eine Pavese einsetzen kann, die 30 Sekunden lang +5 Fernkampfrüstung und +1 Waffenreichweite verleiht.\nKanone: Ersatz für die Bombarde mit mehr Schaden, Mobilität und ohne Vorbereitungszeit.\nGaleasse: Große Kriegsgaleere mit nach vorn gerichteten Bombarden mit hoher Reichweite.\nKriegskogge: Einzigartiges Rutte-Schiff mit verringerten Kosten und erhöhter Fernkampfrüstung.",
+   "t": "Spezialeinheiten"
+  },
+  "gol-1": {
+   "d": "Das goldene Zelt ist das einzige Wahrzeichen der Goldenen Horde, das weiterentwickelt werden kann, um zum nächsten Zeitalter voranzuschreiten und die Gesundheit des Gebäudes zu erhöhen. Im goldenen Zelt kann ein Edikt ausgewählen werden, das den zusätzlichen Einfluss oder die zusätzliche Aura verändert, welche befestigte Außenposten bereitstellen.\nDer Batu-Khan und die Torguten können im goldenen Zelt rekrutiert werden.",
+   "t": "Goldenes Zelt"
+  },
+  "gol-2": {
+   "d": "Die Einheiten entstehen in Zweiergruppen. Sie können Technologien erforschen, um die Serienproduktion zu verbessern.",
+   "t": "Horden"
+  },
+  "gol-3": {
+   "d": "Bauen Sie den Koppelhof anstelle von Feldern oder Weiden, um Nahrung zu erhalten. Koppelhöfe verfügen über Schafe, die gesammelt und direkt am Koppelhof abgeladen werden können.",
+   "t": "Koppelhof"
+  },
+  "gol-4": {
+   "d": "Befestigte Außenposten verfügen über mehr Gesundheit und gewähren zusätzlichen Einfluss oder eine zusätzliche Aura, je nachdem, welches Edikt im goldenen Zelt ausgewählt ist.",
+   "t": "Befestigte Außenposten"
+  },
+  "gol-5": {
+   "d": "Transportschiffslandungen sind mit +50 % TP und +15 % Bewegungsgeschwindigkeit schneller und widerstandsfähiger.",
+   "t": "Verbesserte Transporte"
+  },
+  "gol-6": {
+   "d": "Erkunden Sie die Seidenstraße mit Händlern, die entsprechend der Gesamtzahl Ihrer aktiven Händler zusätzliche Rohstoffe aus dem Handel erhalten.\n• 5+ Händler: +10 % Nahrung\n• 10+ Händler: +10 % Nahrung, Holz\n• 15+ Händler: +10 % Nahrung, Holz, Gold",
+   "t": "Seidenstraße"
+  },
+  "gol-7": {
+   "d": "Errichten Sie Obos über Steinvorkommen, um Steine zu sammeln, ohne Dorfbewohner zu benötigen. Die maximale Anzahl von Obos, die gebaut werden kann, erhöht sich pro Zeitalter um +1.",
+   "t": "Steintechnologien und Obos"
+  },
+  "gol-8": {
+   "d": "Späher können die Fähigkeit „Spähfalke“ einsetzen, um die Umgebung zu überwachen.",
+   "t": "Spähfalke"
+  },
+  "gol-9": {
+   "d": "Khan der Goldenen Horde: Schwere Kavallerie, die nach jedem Zeitalter-Aufstieg stärker wird. Kann einen Pfeil abfeuern, der den Schaden erhöht, den Gegner in einem Bereich erleiden. Der Khan sorgt außerdem für eine Angriffsschadens-Aura, je länger der Khan sich im Kampf befindet.\nTorguten: Schwere Kavallerie, die den Khan beschützen und jeglichen vom Khan erlittenen Schaden auf die Torguten umleiten kann.\nKharash: Schwache leichte Nahkampfinfanterieeinheiten, die Verbündete in der Nähe mit Rüstung versorgen.\nMangudai: Berittener Bogenschütze, der getroffene Ziele bluten lässt.\nMangonel: Höhere Bewegungsgeschwindigkeit, Vorbereitungszeit und Angriffsgeschwindigkeit.\nKeshig: Schwere Kavallerie, verfügbar in der Feudalzeit, regeneriert Gesundheit nach jedem Angriff.",
+   "t": "Spezialeinheiten"
+  },
+  "hl-1": {
+   "d": "Errichten Sie Landsitze, um in der Feudalzeit passives Einkommen zu generieren. Die Landsitze dienen als Sammelgebäude für alle Rohstoffe und liefern +10 zusätzlichen Raum für die Bevölkerung. Jeder Landsitz generiert 30 Nahrung und 10 Holz pro Minute sowie weitere 4 Nahrung und 2 Holz für jeden Dorfbewohner in der Nähe. \nErhöhen Sie mit einzigartigen Technologien das Baulimit der Landsitze.",
+   "t": "Feudalsystem"
+  },
+  "hl-2": {
+   "d": "Jedes Dorfzentrum erzeugt nach Fertigstellung 4 Schafe. Dorfbewohner sammeln Ressourcen von Schafen um 20 % schneller.",
+   "t": "Wolle-Industrie"
+  },
+  "hl-3": {
+   "d": "Das Dorfzentrum der Hauptstadt feuert einen zusätzlichen Pfeil ab und Dorfbewohner sind mit Kurzbögen ausgerüstet, wenn sie gegnerische Einheiten angreifen.",
+   "t": "Defensiv-Byrig"
+  },
+  "hl-4": {
+   "d": "Bergfriede bringen nach dem Bau %1 % kostenlose Grafenwächter. Jeder aktive Bergfried gewährt Grafenwächtern und Halblanzierern +1 Schaden bis maximal +4.",
+   "t": "Ein vereintes Haus"
+  },
+  "hl-5": {
+   "d": "Die Marineaufbereitung erhöht die Effizienz von Häfen und reduziert die Kosten für den Schiffsbau um -10 %.",
+   "t": "Schiffsbauer"
+  },
+  "hr-1": {
+   "d": "Zeigen Sie Reichsmacht mit Reliquien in Außenposten, Türmen und Bergfrieden, für + 25 % Rüstung, + 25 % Schaden, + 25 % Reichweite und + 20 % % Sichtweite. \nReliquien in Häfen erhöhen die Schiffs-Angriffsgeschwindigkeit um + 5 % pro Reliquie (Max. + 25 %).\nRelquien in Gebäuden erzeugen + 80 Gold pro Minute.",
+   "t": "Religiöser Eifer"
+  },
+  "hr-2": {
+   "d": "Infanterieeinheiten bewegen sich 5 % schneller in der Dunklen Zeit (I) und 10 % schneller in der Feudalzeit (II). Rüsten Sie Infanterieeinheiten mit wirkungsvollen Technologien auf und setzen Sie den frühen Waffenknecht in der Feudalzeit (II) ein.",
+   "t": "Armee des Kaiserreichs"
+  },
+  "hr-3": {
+   "d": "Alle Stellungstechnologien sind um -20 % günstiger. Sichtweite von Außenposten um +20 % erhöht.",
+   "t": "Stellungsarchitektur"
+  },
+  "hr-4": {
+   "d": "Dorfbewohner können +40 % mehr Rohstoffe als andere Zivilisationen tragen.",
+   "t": "Handwagen"
+  },
+  "hr-5": {
+   "d": "Gebäude, die im Einflussbereich eines Dorfzentrums errichtet wurden, erhalten die Fähigkeit „Notfallreparaturen“, die aktiviert werden kann, um das Gebäude 20 Sekunden lang um +150 TP pro Sekunde zu reparieren.",
+   "t": "Einfluss"
+  },
+  "hr-6": {
+   "d": "Prälat: Verwenden Sie die Fähigkeit „Heilige Inspiration“ bei Dorfbewohnern, um ihre Sammelrate 30 Sekunden lang um +35 % zu erhöhen.\nLandsknecht: leichte Nahkampf-Infanterieeinheit mit einem großen Zweihandschwert, das hohen Flächenschaden verursachen kann.\nSchwarzer Reiter: starker berittener Kanonier mit Rüstung. Die Ausbildung ist abhängig von der Zahl der errichteten Bergfriede.",
+   "t": "Spezialeinheiten"
+  },
+  "ja-1": {
+   "d": "Dorfzentren können zu besonderen Gebäuden aufgewertet werden, die Daimyo-Anwesen, Daimyo-Palast und Shogunat-Burg genannt werden. Diese Gebäude bieten den Feldern der Dorfbewohner in der Nähe einen Bonus von 20 %, 40 %, 60 %, erhöhen die Kapazität von Samurai-Bannermännern um +1, +2, +3 und verbessern ihre Verteidigung.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Elite-Feldsamurai-Bannerträger, die den Schaden von Infanterieeinheiten in der Nähe um +15 % und von Kavallerie um +10 % erhöhen. Samurai-Bannerträger lassen ihre Banner fallen, wenn sie getötet werden und stellen dann für eine gewisse Zeit den gleichen Effekt bereit.",
+   "t": "Hatamoto-Samurai"
+  },
+  "ja-3": {
+   "d": "Bilden Sie Samurai in der Dunklen Zeit (I) aus. Samurai haben die Fähigkeit „Ablenkenden Rüstung“, mit der sie regelmäßig Nah- oder Fernkampfangriffe abblocken können.",
+   "t": "Ruhe des Gemüts"
+  },
+  "ja-4": {
+   "d": "Die Esse ist eine Ablieferungsstelle für Gold und Steine und ersetzt das Bergarbeiterlager und die Schmiede. Außerdem bietet sie zusätzliche Nahkampfschaden-Technologie in der Dunklen Zeit (I). Das Bauernhaus sorgt für Bevölkerung und ersetzt die Mühle als Ablieferungsstelle für Nahrung.",
+   "t": "Bauernhaus und Esse"
+  },
+  "ja-5": {
+   "d": "In der Imperialzeit (IV) haben Sie Zugang zu einem mächtigeren Bergfried mit erhöhter Gesundheit und Raketenstellungen zu einem höheren Preis. Raketen greifen schnell an und fügen einzelnen Zielen massiven Schaden zu.",
+   "t": "Odas Festung"
+  },
+  "ja-6": {
+   "d": "Wenn Dorfbewohner Gold abliefern, wird 20 % zusätzlich Stein produziert und umgekehrt.",
+   "t": "Silberbergbau"
+  },
+  "ja-7": {
+   "d": "Wählen Sie zwischen Shintoismus und Buddhismus mit Ihrer Wahl des Wahrzeichens des III. Zeitalters. Wenn Sie Shintoismus wählen, schalten Sie den Shinto-Priester frei. Wenn Sie sich für den Buddhismus entscheiden, schalten Sie den buddhistischen Mönch frei. Diese religiösen Einheiten bieten Spezialboni.",
+   "t": "Religiöse Wahl"
+  },
+  "ja-8": {
+   "d": "Kasernen lassen sich 50 % günstiger bauen.",
+   "t": "Samurai-Gebiete"
+  },
+  "ja-9": {
+   "d": "Fischerboote werden 25 % günstiger hergestellt.",
+   "t": "Fischerdorf"
+  },
+  "je-1": {
+   "d": "Jeanne d‘Arc kündigt sich auf dem Schlachtfeld an. Eine heldenhafte Einheit, die Erfahrung für die Erfüllung von Aufgaben wie das Sammeln von Rohstoffen, den Bau von Gebäuden und die Teilnahme am Kampf erhält.\nNachdem sie genug Erfahrung gesammelt hat, kann Jeanne aufsteigen, um mächtige wirtschaftliche und kämpferische Fähigkeiten zu erhalten.",
+   "t": "Die Reise eines Helden"
+  },
+  "je-2": {
+   "d": "Setzen Sie den Königlichen Ritter in der Feudalzeit (II) ein und entwickeln Sie mächtige einzigartige Technologien für die Kavallerie.",
+   "t": "Königliche Hengste"
+  },
+  "je-3": {
+   "d": "Unter der Führung von Jeanne d‘Arc arbeiten die Leute härter. Wirtschaftliche Aufwertungen sind 35 % günstiger.",
+   "t": "Verbundene Wirtschaft"
+  },
+  "je-4": {
+   "d": "Liefern Sie mit Händlern und Handelsschiffen Nahrung, Holz oder Gold an Marktplätze.\nHandelsschiffe gewähren +20 % mehr Rohstoffe.\nHandelsposten werden zu Beginn des Spiels auf der Minikarte enthüllt.\nHäfen bieten der Bevölkerung mehr Platz.",
+   "t": "Handelswirtschaft"
+  },
+  "je-5": {
+   "d": "Jeanne d‘Arc: eine Heldeneinheit, die als Dorfbewohnerin beginnt. Jeanne muss die „Die Reise eines Helden“ durchlaufen, um mächtige Fähigkeiten zu erlangen.\nJeannes Reiter: Schnelle Kavallerie, die bei Plünderungen, Flankenangriffen und dem Kontern von Armbrüsten effektiv ist, wird verfügbar, sobald Jeanne Stufe 3 erreicht.\nJeannes Elitekämpfer: Zähe Infanterieeinheit, die sich hervorragend gegen Speerkämpfer eignet, wird verfügbar, sobald Jeanne Stufe 3 erreicht.\nKöniglicher Ritter: Schwere Kavallerie, die 5 Sekunden lang nach Abschluss eines Sturmangriffs +3 Extraschaden erhält.\nArbalétrier: Armbrustschütze mit +1 Nahkampfrüstung, der eine defensive Pavese einsetzen kann, um 30 Sekunden lang +5 Fernkampfrüstung und +1 Waffenreichweite bereitzustellen.\nKanone: Ersatz für Bombarden mit mehr Schaden, Mobilität und ohne Vorbereitungszeit.\nGaleasse: Große Kriegsgaleere mit einer vorwärts montierten Bombarde mit großer Reichweite.\nKriegskogge: Einzigartiges Rutteschiff mit reduzierten Kosten und erhöhter Durchschlagspanzerung.",
+   "t": "Spezialeinheiten"
+  },
+  "jin-1": {
+   "d": "Wählen Sie nach Fertigstellung eines Wahrzeichens einen von 3 Standorten, um Grasländer zu erstellen, die allmählich bis zu 5 Pferde auf ihrem Feld bereitstellen. Pferde erhöhen die Gesundheit aller Nahkampfkavallerieeinheiten um +2 und die von Fernkampfkavallerie um +1 oder können von Ställen im Einflussbereich der Grasländer verwendet werden, um berittene Einheiten schnell auszubilden. Grasländer erzeugen in der Feudal-/Ritter-/Imperialzeit alle 90/60/45 Sekunden ein neues Pferd.",
+   "t": "Grasländer"
+  },
+  "jin-2": {
+   "d": "Die nomadische Abstammung gibt Ihnen Zugriff auf bis zu 20 berittene Dorfbewohner, die deutlich schneller sammeln und bauen, sich spürbar schneller bewegen, aber teurer sind. Etablieren Sie Tributstaaten mit Handelsposten, um das maximale Baulimit um %2 % zu erhöhen.",
+   "t": "Jurchen-Vermächtnis"
+  },
+  "jin-3": {
+   "d": "Werten Sie Verteidigungsgebäude mit den Meng'an-Mouke-Stellungen auf, welche Verteidiger zum Schutz von Gebieten in der Nähe entsenden. Stellungen erzeugen zudem langsam Verteidiger, um Verluste auszugleichen.",
+   "t": "Meng'an-Mouke"
+  },
+  "jin-4": {
+   "d": "Bilden Sie bis zu 2 Abgesandte aus, die mit zwei mächtigen Fähigkeiten ausgestattet sind.\nVerwenden Sie bei neutralen Handelssiedlungen die entsprechende Funktion, um eine Tributpflicht zu etablieren und einen loyalen Verbündeten für sich zu gewinnen, der für Sie Nahrung sammelt, das Baulimit für berittene Dorfbewohner um +3 erhöht und das Einkommen Ihrer Händler um +15 % steigert.\nNutzen Sie die Bestechungsfunktion bei Gruppen feindlicher Einheiten, um Feinde in neutrale Kämpfer umzuwandeln, die alles beiseiteräumen, was sich ihnen in den Weg stellt.",
+   "t": "Abgesandte"
+  },
+  "jin-5": {
+   "d": "Bauen Sie in der Feudalzeit die Werkhalle, um frühzeitig Großballisten nutzen zu können, die ein Ersatz für Rutten sind und gegnerische Formationen mit zwei Projektilen beschießen. Großballistenstellungen ersetzen an allen Verteidigungsanlagen die Ruttenstellungen.",
+   "t": "Belagerungsexpertise"
+  },
+  "kt-1": {
+   "d": "Steigen Sie im Dorfzentrum ins nächste Zeitalter auf, indem Sie eine von drei einzigartigen Kommenden bauen. Jede Kommende schaltet eine Spezialeinheit und einen Bonus permanent frei.",
+   "t": "Kommende errichten"
+  },
+  "kt-2": {
+   "d": "Festungen ersetzen Bergfriede und sind in der Feudalzeit verfügbar.\nFernkampfeinheiten in der Nähe einer Festung haben eine um +15 % erhöhte Angriffsreichweite. Steinmauern im Einflussbereich einer Festung oder des Tempelritter-Hauptquartiers verfügen über +25 % Gesundheit und einen zusätzlichen Standardpfeil.\nFestungen verhalten sich wie Wahrzeichen, können aber vollständig zerstört werden.",
+   "t": "Fränkische Verteidigungsstrategien"
+  },
+  "kt-3": {
+   "d": "Die Tempelritter können keine Händler ausbilden. Sie bringen stattdessen Gold durch erfolgreiche Pilgerfahrten ein. Sobald Sie die Feudalzeit erreichen, können die Tempelritter sicheres Geleit für Pilger sein, wenn diese zu einer geweihten Stätte reisen. \nAlle 60 Sekunden reist eine Gruppe Pilger vom Hauptquartier der Templer zur ausgewählten geweihten Stätte und generiert bei ihrer Ankunft je nach zurückgelegter Distanz mehr oder weniger Gold. Die Größe der Gruppe wird mit jeder aktiven Festung um 1 erhöht, bis zu maximal 10.\nZu Beginn des Spiels werden die geweihten Städten und die Reliquien angezeigt.",
+   "t": "Wallfahrt"
+  },
+  "kt-4": {
+   "d": "Bauen Sie Kriegshäfen anstelle von Häfen. Sie sind teurer, bieten aber mehr Gesundheit, eine stärkere Stellung und mehr Garnisonsplatz für Fischkutter, während sie die Gesundheit von Schiffen in der Nähe verbessern.",
+   "t": "Küsten-Kriegshäfen"
+  },
+  "kt-5": {
+   "d": "Dorfbewohner lagern Holz automatisch ohne Holzfällerlager ein.\nHolz wird in jedem Zeitalter 20 % schneller gesammelt, und 20 % des gesammelten Holzes wird in zusätzliche Nahrung umgewandelt.",
+   "t": "Bewahrung der Landschaft"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Belagerungsexperten"
+  },
+  "kt-7": {
+   "d": "Tempelbruder: Ersatz für Ritter. Teurer als ein normaler Ritter, verfügt aber über zusätzliche Gesundheit und zusätzlichen Schaden.\nFeudalzeit\nKommende der Malteser-Ritter – Malteser-Ritter: schwere Nahkampf-Infanterieeinheit, die befreundete Einheiten in der Nähe heilen kann.\nKommende des Königreichs von Frankreich – Ritterbruder: schwere Kavallerie, die günstiger ist als normale Ritter. Generiert für jeden Ritterbruder in der Nähe zusätzliche Gesundheit.\nKommende des Fürstentums Antiochia – Unteroffizier: schwere Infanterieeinheit mit starker Nahkampfrüstung. Wirft mit Äxten, die aus der Ferne Nahkampfschaden verursachen.\nRitterzeit\nKommende des angevinischen Reichs – schwerer Speerkämpfer: gepanzerter Speerkämpfer, der in der Nähe von Festungen stärker ist.\nKommende der Republik Genua – Genuesischer Armbrustschütze: teurer Armbrustschütze, der Nahkampf-Infanterieeinheiten zusätzlichen Schaden zufügt.\nKommende des Königreichs Kastilien – Jinete: berittener Speerkämpfer, der gegen Fernkampfeinheiten brilliert.\nImperialzeit\nKommende des Königreichs Polen – Szlachta-Kavallerie: Elite-Kavallerie mit hervorragender Fernkampfrüstung. Verlangsamt die Angriffe getroffener Feinde und verursacht bei leichten Infanterieeinheiten zusätzlichen Schaden.\nKommende des Deutschen Ordens – Deutscher Ritter: extrem mächtige schwere Infanterieeinheit, die mit jedem im Kampf bezwungenen Feind an Macht gewinnt. Schwächt die Rüstung von Feinden in der Nähe.\nKommende der Republik Venedig – Condottiere: schnelle Infanterieeinheit, die nur Gold kostet. Stark im Kampf gegen Schießpulvereinheiten.\nVenezianische Galeere: großes Schiff mit Rudern und frontal montiertem Fernkampftribok.\nVenezianischer Händler: teurer aber schneller Händler mit einem maximalen Baulimit von 5.",
+   "t": "Spezialeinheiten"
+  },
+  "ma-1": {
+   "d": "Profitieren Sie von überlegener Goldwirtschaft und bauen Sie in der dunklen Zeit (I) die Baugrube über Goldadern, um Gold zu erzeugen, ohne es zu erschöpfen. Dorfbewohner können Gold abbauen, während die Baugrube aktiv ist.\nIst die Goldader erschöpft, fördert die Baugrube weiterhin Gold aus der Ader.",
+   "t": "Baugruben"
+  },
+  "ma-2": {
+   "d": "Jedes Haus und Bergarbeiterlager, das im Einflussbereich von Tagebaugruben errichtet wurde, erhöht die Goldgenerierung. \nDorfzentren kosten beim Errichten Gold statt Stein.",
+   "t": "Einfluss – Bergbaugemeinden"
+  },
+  "ma-3": {
+   "d": "Züchten Sie Rinder aus Mühlen in der dunklen Zeit (I). Rindern können schneller von malischen Dorfbewohnern zu Nahrung verarbeitet werden, als von anderen Zivilisationen, oder sie können in einer Rinderfarm für kontinuierliche Nahrung einquartiert werden.",
+   "t": "Rinder & Farmen"
+  },
+  "ma-4": {
+   "d": "Die einzigartigen Musofadi-Krieger- und -Kanonier-Einheiten können die Tarnfähigkeit verwenden, um die Gegend zu erkunden und Hinterhalte zu legen.",
+   "t": "Musofadi-Spurensucher"
+  },
+  "ma-5": {
+   "d": "Veteranen-Einheitentechnologien, die im Burgzeitalter (III) freigeschaltet wurden, kosten die Hälfte.",
+   "t": "Fararis Wissen"
+  },
+  "ma-6": {
+   "d": "Händler und Handelsschiffe, die Zoll-Außenposten passieren, gewähren basierend auf dem aktuellen Handelsziel sofort Bonus-Rohstoffe. Erzeugt keine zusätzliche Steuer, wenn ein Zoll-Außenposten in Reichweite eines anderen errichtet wird.",
+   "t": "Zoll-Außenposten"
+  },
+  "ma-7": {
+   "d": "Auf abgeschlossenen Handelsrouten gesammeltes Gold verringert die Entwicklungszeit zukünftiger Technologien.",
+   "t": "Manuskripthandel"
+  },
+  "ma-8": {
+   "d": "Fischerboote geben 10 % ihrer Nahrung als Gold ab.",
+   "t": "Fischverarbeitung"
+  },
+  "ma-9": {
+   "d": "Die Bewegungsgeschwindigkeit aller Schiffe wird in der Nähe von Docks erhöht.\nTransportschiffe greifen mit Speeren pro einquartierter Einheit an.",
+   "t": "Landungstrupps"
+  },
+  "mac-1": {
+   "d": "Die Dorfbewohner entdecken unter Goldadern und Steinvorkommen große Galenit-Ablagerungen und gewinnen beim Abbau Silber als Spezialrohstoff.\nDie Dorfbewohner gewinnen Silber in Höhe von 40 % des abgebauten Goldes oder Steines.",
+   "t": "Galenit sammeln"
+  },
+  "mac-2": {
+   "d": "Waräger-Arsenale verleihen Bergarbeiterlagern und Dorfzentren Einfluss, sodass sie schrittweise beginnen, Silber zu verarbeiten. Die verarbeitete Silbermenge hängt von der Gesamtmenge des von Dorfbewohnern deponierten Silbers ab.",
+   "t": "Einfluss - Silberprägung"
+  },
+  "mac-3": {
+   "d": "Entwickeln Sie für Silber im Waräger-Arsenal einzigartige Militärtechnologien. Ersetzt die Schmiede und die Universität. Die makedonische Dynastie kann drei Stufen militärischer Aufwertungen abdecken.",
+   "t": "Warägerverarbeitung"
+  },
+  "mac-4": {
+   "d": "Befestigen Sie das Reich mit Waräger-Festungen, die alle Waräger-Einheiten ausbilden und Pfeile zur Verteidigung einsetzen können.",
+   "t": "Festungen"
+  },
+  "mac-5": {
+   "d": "Wählen Sie im Waräger-Kriegerlager Ihrer Verstärkung. Sobald genug Krieger in der Schlacht gefallen sind, treffen kostenlos Waräger-Krieger im Kriegslager ein, um die ausgedünnten Reihen aufzustocken.\nWenn ein Gewässer angrenzt, können Sie Boote als Verstärkung auswählen.",
+   "t": "Kriegslager"
+  },
+  "mac-6": {
+   "d": "Schnitzen Sie Runensteine in Erinnerung an vergangene Siege. Sobald genug Gegner den Warägern zum Opfer gefallen sind, kann ein Runenstein erschaffen werden, der Waräger in der Nähe mit Kampfboni in einem Gebiet inspiriert.",
+   "t": "Waräger-Runensteine"
+  },
+  "mac-7": {
+   "d": "Cheirosiphone, verbesserte Dromonen, Rutten und Triboke schleudern bei ihren Angriffen griechisches Feuer auf den Feind, die das Zielgebiet in Flammen hüllen, um über eine bestimmte Zeit Schäden zu verursachen.",
+   "t": "Griechisches Feuer"
+  },
+  "mac-8": {
+   "d": "Außenposten und Bergfriede können mit Mangenstellungen aufgerüstet werden. Steinmauertürme werden mit Mangenstellungen anstelle von Rutten ausgestattet.",
+   "t": "Mangenstellungen"
+  },
+  "mac-9": {
+   "d": "Atgeirmaðr: Ersatz für den Speerkämpfer. Leichte Nahkampfinfanterie mit einer passiven Fähigkeit, die ihre Angriffsgeschwindigkeit erhöht, wenn sich Waräger-Einheiten in der Nähe befinden.\nBogmaður: Ersatz für Bogenschützen. Leichte Fernkampf-Infanterieeinheit mit der Fähigkeit, auf Kosten der Bewegungsgeschwindigkeit die Wirkung der Rüstung auszusetzen.\nFrühe Warägerwache: Ersatz für Waffenknechte. Verwenden Sie die Berserker-Fähigkeit, um die Schadenswirkung auf Kosten von Rüstungen zu steigern. Kann Transportschiffe bauen und die Rüstung der Transportschiffe erhöhen, wenn die Einheit einquartiert ist.\nRiddari: Ritter-Ersatz. Schwere Kavallerie mit der Fähigkeit, eine Zeitlang aus der Ferne Äxte auf den Gegner abzufeuern.\nCheirosiphon: Ein Rammbock mit kurzer Reichweite, der mit einem griechischen Feuerangriff ausgestattet ist.\nDromone: Ersatz für die Rutte. Mit griechischem Feuer ausgestattet.",
+   "t": "Spezialeinheiten"
+  },
+  "mo-1": {
+   "d": "Alle Gebäude können eingepackt und an anderer Stelle wiederaufgebaut werden.\nBeginnen Sie das Spiel mit maximaler Bevölkerung, ohne Häuser bauen zu müssen.\nReagieren Sie mit einem Netzwerk von Außenposten, die die Bewegungsgeschwindigkeit von Kavallerie und Händlern in der Nähe um +15 % erhöhen, schnell auf gegnerische Bewegungen.",
+   "t": "Große Herrschaft"
+  },
+  "mo-2": {
+   "d": "Führen Sie den mächtigen Khan in der Dunklen Zeit (I) aufs Feld, um allen Militäreinheiten in der Nähe mächtige Boni mit Signalpfeilen zu gewähren.\nKhane und Späher können die Fähigkeit „Spähfalke“ einsetzen, um die Umgebung zu bewachen.",
+   "t": "Khanat"
+  },
+  "mo-3": {
+   "d": "Errichten Sie Ställe bereits zur Dunklen Zeit und führen Sie Reiter +25 % schneller ins Feld.",
+   "t": "Expertenreiter"
+  },
+  "mo-4": {
+   "d": "Legen Sie statt Feldern Weiden an, um Schafe für Nahrung zu züchten – Weiden produzieren Schafe schneller, wenn sie im Einflussbereich eines Obos liegen.",
+   "t": "Nomadische Erntehelfer"
+  },
+  "mo-5": {
+   "d": "Plündert feindliche Gebäude für +25 Nahrung und Gold, wenn sie während der Errichtung angezündet oder zerstört werden.",
+   "t": "Plünderbeute"
+  },
+  "mo-6": {
+   "d": "Transportschiffslandungen sind mit +50 % TP und +15 % Bewegungsgeschwindigkeit schneller und widerstandsfähiger.",
+   "t": "Verbesserte Transporte"
+  },
+  "mo-7": {
+   "d": "Erkunden Sie die Seidenstraße mit Händlern, die entsprechend der Gesamtzahl Ihrer aktiven Händler zusätzliche Rohstoffe aus dem Handel erhalten.\n• 5+ Händler: +10 % Nahrung\n• 10+ Händler: +10 % Nahrung, Holz\n• 15+ Händler: +10 % Nahrung, Holz, Gold",
+   "t": "Seidenstraße"
+  },
+  "mo-8": {
+   "d": "Errichten Sie den Obo auf Steinvorkommen, um an Einfluss zu gewinnen und Steine abzubauen, ohne dafür Dorfbewohner zu benötigen. Obos bauen nach jedem Zeitalter-Aufstieg +70, 100, 130, 160 Steine pro Minute ab.\nGebäude im Einflussbereich eines Obos können die Produktion von Einheiten verdoppeln oder verbesserte Technologieversionen mit Steinen erforschen.",
+   "t": "Einfluss"
+  },
+  "mo-9": {
+   "d": "Khan: Berittener Bogenschütze, der nach jedem Zeitalter-Aufstieg stärker wird und die Signalpfeil-Fähigkeiten freischaltet.\n• Manöverpfeil: Bewegungsgeschwindigkeit +33% erhöht.\nSturmpfeil: Angriffsgeschwindigkeit um +50 % erhöht.\n• Rüstungspfeil: Rüstung um +2 erhöht.\nMangudai: Berittener Bogenschütze, der aus der Bewegung heraus in alle Richtungen feuern kann.\nMangonel: Höhere Bewegungsgeschwindigkeit, Vorbereitungszeit und Angriffsgeschwindigkeit.\nKeshig: Schwere Kavallerie, verfügbar in der Feudalzeit, regeneriert TP nach jedem Angriff.",
+   "t": "Spezialeinheiten"
+  },
+  "od-1": {
+   "d": "Dorfbewohner sammeln 28 % schneller, errichten und reparieren Gebäude 20 % schneller, aber kosten 20 % mehr Nahrung in der Ausbildung.",
+   "t": "Effiziente Dorfbewohner"
+  },
+  "od-2": {
+   "d": "Zeigen Sie Reichsmacht mit Reliquien in Außenposten, Türmen und Bergfrieden, für + 25 % Rüstung, + 25 % Schaden, + 25 % Reichweite und + 20 % % Sichtweite. \nReliquien in Häfen erhöhen die Schiffs-Angriffsgeschwindigkeit um + 5 % pro Reliquie (Max. + 25 %).\nRelquien in Gebäuden erzeugen + 80 Gold pro Minute.",
+   "t": "Religiöser Eifer"
+  },
+  "od-3": {
+   "d": "Erforschen Sie Technologien wie schwere Fackeln, Schuppenrüstungen und Kriegspferde, um die Macht des Ordens weiter zu stärken.",
+   "t": "Elite-Ausrüstung"
+  },
+  "od-4": {
+   "d": "Alle Stellungstechnologien sind um -20 % günstiger. Sichtweite von Außenposten um +20 % erhöht.",
+   "t": "Stellungsarchitektur"
+  },
+  "od-5": {
+   "d": "Dorfbewohner können +40 % mehr Rohstoffe als andere Zivilisationen tragen.",
+   "t": "Handwagen"
+  },
+  "od-6": {
+   "d": "Gebäude, die im Einflussbereich eines Dorfzentrums errichtet wurden, erhalten die Fähigkeit „Notfallreparaturen“, die aktiviert werden kann, um das Gebäude 20 Sekunden lang um +150 TP pro Sekunde zu reparieren.",
+   "t": "Einfluss"
+  },
+  "od-7": {
+   "d": "Die Elite-Infanterie- und Kavallerie-Einheiten des Ordens – wie etwa der vergoldete Waffenknecht, der vergoldete Ritter und andere – haben fast doppelt so viele Gesundheit wie reguläre Einheiten und richten deutlich mehr Schaden an. Allerdings ist ihre Ausbildung sehr viel kostspieliger und sie verbrauchen doppelt so viel des Bevölkerungslimits.",
+   "t": "Spezialeinheiten"
+  },
+  "ot-1": {
+   "d": "Die Militärschule ist ein einzigartiges Gebäude, das beauftragt werden kann, einen bestimmten Einheitentyp kontinuierlich ohne Kosten auszubilden, jedoch mit langsamerer Produktionsrate.",
+   "t": "Militärschulausbildung"
+  },
+  "ot-2": {
+   "d": "Die Ausbildung von Einheiten und Fortschritte durch die Zeitalter gewährt Erfahrung für Wesir-Punkte. Je höher die Kosten einer Aktion, desto mehr Erfahrung wird gewährt. Sammeln Sie bis zu fünf Wesir-Punkte und geben Sie diese aus, um mächtige, einzigartige osmanische Boni freizuschalten.",
+   "t": "Reichsrat"
+  },
+  "ot-3": {
+   "d": "Trainieren, verbessern und stellen Sie eine Armee mit billigeren Militär- und Technologiegebäuden zusammen.",
+   "t": "Militärische Anreize"
+  },
+  "ot-4": {
+   "d": "Die Bewegungsgeschwindigkeit von Handelsschiffen, Fischerbooten und Transportschiffen wird erhöht.",
+   "t": "Lieferrouten"
+  },
+  "ot-5": {
+   "d": "Militärische Produktionsgebäude, die im Einflussgebiet einer Schmiede oder Universität errichtet wurden, erhalten mit zunehmendem Alter höhere Produktionsrate.",
+   "t": "Einfluss"
+  },
+  "ot-6": {
+   "d": "Sipahi: Ersatz für Reiter. Aktiviert die Fähigkeit „Tapferkeit“, um schneller anzugreifen. Gleichzeitig steigt aber auch der erlittene Schaden durch Nahkampfwaffen.\nMehter: Berittener Kriegstrommler, der Einheiten in der Nähe militärische Verbesserungen bietet, wenn die Fähigkeit „Kriegstrommel“ umgeschaltet wird.\n• Angriffstrommeln: erhöhte Angriffsgeschwindigkeit\n• Nahkampf-Verteidigungstrommeln: verbesserte Nahkampfrüstung.\n• Fernkampf-Verteidigungstrommel: verbesserte Fernkampfrüstung.\nJanitschar: mächtiger Handrohrschütze, der Belagerungsmaschinen reparieren und Kavallerie Bonusschaden zufügen kann.\nGroße Galeere: Große Kriegsgaleere, die sich in eine schwimmende Militärschule verwandeln kann.\nGroße Bombarde: Größte verfügbare Schießpulver-Belagerungsmaschine. Verursacht Fernkampf- und Flächenschaden.\nAkinji: Fernkampfkavallerie mit hoher Reichweite, die schnell hintereinander zwei Pfeile abfeuern kann. Muss durch den Kaiserlichen Rat freigeschaltet werden.",
+   "t": "Spezialeinheiten"
+  },
+  "ru-1": {
+   "d": "Befestigen Sie das umliegende Land mit Hölzernen Festungen, die Außenposten ersetzen – gewährt +100 % TP und +3 Einquartierungsplätze.\nErrichten Sie den befestigten Palisadenwall – gewährt +100 % TP und eine schnellere Bauzeit.",
+   "t": "Hölzerner Bund"
+  },
+  "ru-2": {
+   "d": "Leben Sie vom Land dank Spähern, die in Jagdhütten ausgebildet werden. Jagdhütten bieten die Vorteile einer herkömmlichen Mühle, können aber Waldtarnung durchschauen und erzeugen basierend auf der Anzahl der nahe gelegenen Bäume Gold.",
+   "t": "Jagdgesellschaft"
+  },
+  "ru-3": {
+   "d": "Führen Sie in der Feudalzeit (II) den frühen Ritter ins Feld.",
+   "t": "Druschina-Gefolge"
+  },
+  "ru-4": {
+   "d": "Lodja-Schiffe können gegen Bezahlung in eine beliebige Art von Schiff verwandelt werden.\nLodja-Fischkutter verarbeiten Nahrung direkt an Bord – Sie müssen nicht zum Hafen zurückkehren, um die Nahrung abzuliefern.",
+   "t": "Lodja-Wiederherstellung"
+  },
+  "ru-5": {
+   "d": "Das Sammeln von Tieren gewährt eine Goldprämie. Erreicht die Gesamtzahl der Prämien eine bestimmte Höhe, erhalten Dorfbewohner und Jagdhütten Wirtschaftsboni.\n100 Prämie\n• +5 % Nahrungssammelrate\n• Jagdhütten generieren 10 % mehr Gold\n400 Prämie\n• +10 % Nahrungssammelrate\n• Jagdhütten generieren 25 % mehr Gold\n1000 Prämie\n• +15 % Nahrungssammelrate\n• Jagdhütten generieren 40 % mehr Gold",
+   "t": "Prämienbelohnungen"
+  },
+  "ru-6": {
+   "d": "Überwachen von Abholzungsaktionen – Dorfbewohner liefern +20 % mehr Holz, wenn sich Holzfällerlager und Dorfzentren im Einflussbereich einer Hölzernen Festung befinden.",
+   "t": "Einfluss"
+  },
+  "ru-7": {
+   "d": "Kriegermönch: Religiöse, leichte Kavallerieeinheit, die nahe gelegene Einheiten im Kampf inspiriert und ihnen +1 Rüstung sowie +2 Schaden gewährt.\nBerittener Bogenschütze: Leichte Fernkampfkavallerie mit hoher Beweglichkeit und hohem Schaden.\nStrelize: Handrohrschütze, der stationär stärker wird und über einen Nahkampfangriff mit hohem Schaden verfügt.\nLodja-Schiffe: Können in eine beliebige Art von Schiff verwandelt werden.",
+   "t": "Spezialeinheiten"
+  },
+  "sen-1": {
+   "d": "Daimyo-Anwesen sind einzigartige Gebäude, die einem der drei Clans gewidmet werden können. Der Hojo-Clan verbessert Nahkampf-Infanterieeinheiten, der Oda-Clan Fernkampf-Infanterieeinheiten, der Takeda-Clan verbessert die Kavallerie. Das Daimyo-Anwesen hat auch einen Einfluss auf die Produktionsrate von Militärgebäuden.",
+   "t": "Daimyo-Anwesen"
+  },
+  "sen-2": {
+   "d": "Der Matsuri ist ein einzigartiger Vorläufer eines Marktplatzes, der Yatai hervorbringen kann. Der Yatai ist eine Arbeiter-Spezialeinheit, die langsam Nahrung aus Nahrungsquellen innerhalb von 2 Feldern erzeugt, ohne sie zu töten oder zu verzehren. Wenn ein Yatai genug Nahrung gesammelt hat, schickt er einen Nahrungshändler zurück zum Matsuri. Dies steigert die Sammelrate von Dorfbewohnern in der Nähe.",
+   "t": "Yatai und Matsuri"
+  },
+  "sen-3": {
+   "d": "Die Esse ist eine Ablieferungsstelle für Gold und Steine und ersetzt das Bergarbeiterlager und die Schmiede. Außerdem bietet sie zusätzliche Nahkampfschaden-Technologie in der Dunklen Zeit (I). Das Bauernhaus sorgt für Bevölkerung und ersetzt die Mühle als Ablieferungsstelle für Nahrung.",
+   "t": "Bauernhaus und Esse"
+  },
+  "sen-4": {
+   "d": "In der Imperialzeit (IV) haben Sie Zugang zu einem mächtigeren Bergfried mit erhöhter Gesundheit und Raketenstellungen zu einem höheren Preis. Raketen greifen schnell an und fügen einzelnen Zielen massiven Schaden zu.",
+   "t": "Odas Festung"
+  },
+  "sen-5": {
+   "d": "Wenn Dorfbewohner Gold abliefern, wird 20 % zusätzlich Stein produziert und umgekehrt.",
+   "t": "Silberbergbau"
+  },
+  "sen-6": {
+   "d": "Fischerboote werden 25 % günstiger hergestellt.",
+   "t": "Fischerdorf"
+  },
+  "sen-7": {
+   "d": "Die Position aller Hirsche und Wildschweine wird auf der Karte angezeigt.",
+   "t": "Wildradar"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "Arbeitsgefährten"
+  },
+  "tug-2": {
+   "d": "Die Tughluq-Dynastie sucht nach Erkenntnissen und Wissen. Daher finanziert sie Technologien zur Erforschung durch eine erhöhte Anzahl an Rohstoffen. Das Resultat ist eine praktisch nicht existente Entwicklungsdauer.",
+   "t": "Gelehrsamkeit"
+  },
+  "tug-3": {
+   "d": "Verbreiten Sie mit dem Tughlaqabad-Fort Angst und Schrecken unter Ihren Feinden. Das ab der Feudalzeit (II) verfügbare Defensiv-Gebäude können Sie verbessern, um seine Schadenswirkung und seine Gesundheit zu steigern. Außerdem eröffnet Ihnen das Gebäude die Wahl eines Gouverneurs.",
+   "t": "Legendäre Forts"
+  },
+  "tug-4": {
+   "d": "Wählen Sie einen der sechs Gouverneure im Tughlaqabad-Fort, um der Tughluq-Dynastie zu einem neuen Aufschwung zu verhelfen. Die Stärke der Gouverneur erhöht sich mit jeder Weiterentwicklung des Tughlaqabad-Forts. Die Gouverneure unterstützen die Wirtschaft, die Geschwindigkeit, das Militär und die Forschung und bringen religiöse Extras.\nJedes Fort kann durch einen Gouverneur besetzt werden.",
+   "t": "Statthalter-Gehilfe"
+  },
+  "tug-5": {
+   "d": "Die Dorfbewohner sammeln von Beerensträuchern um 30 % schneller, können aber keine Ressourcen von Wildschweinen sammeln.\nDie Dorfbewohner führen +3 Nahrungseinheiten von Beerensträuchern mit sich.",
+   "t": "Korbflechten"
+  },
+  "tug-6": {
+   "d": "Errichten Sie befestigte Siedlungen mit Infanterieeinheiten, die Palisadenwälle bauen können.",
+   "t": "Grenzbefestigungen"
+  },
+  "tug-7": {
+   "d": "Fischkutter können sich selbst mit einem Fernangriff verteidigen und haben 50 % zusätzliche TP.",
+   "t": "Defensive Deckmannschaft"
+  },
+  "tug-8": {
+   "d": "Plündernder Elefant: Schneller Elefant, der effektiv im Kampf gegen Fernkampfeinheiten sowie im Flankieren und Kontern von Fernkampfeinheiten ist. Kann Einheiten durch Trampeln überwinden und in einem gewissen Bereich Schäden verursachen.\nHeilender Elefant: Gepanzerter Nahkampf-Elefanten mit starker Gesundheit und zwei Imamen als Reiter, die Einheiten einzeln heilen können. Zunehmende Schadenswirkung mit jeder Nahkampfinfanterie in der Nähe. \nKriegselefant: Schwere Nahkampfkavallerie mit einem Speerkämpfer als Reiter, der über eine starke Gesundheit und einen Belagerungsangriff verfügt.\nBalliste-Elefant: Fernkampfelefant mit Balliste, der effektiv gegen Nahkampfeinheiten ist und mehrere Ziele durchschlagen kann.",
+   "t": "Spezialeinheiten"
+  },
+  "zx-1": {
+   "d": "Beginnen Sie Ihre Reise in der Tang-Dynastie – die Kosten für Wahrzeichen werden um -15 % reduziert und das Dorf wird freigeschaltet.\nBauen Sie beide Wahrzeichen in einem Zeitalter, um Dynastien mit speziellen Boni, einzigartigen Gebäuden und Einheiten zu starten.\n– Song: Holzkosten für Wirtschafts- und Bevölkerungsgebäude werden um -30 % reduziert – schaltet den Bau des Kornspeichers frei.\n– Yuan: 10 % Rabatt auf alle Einheiten – schaltet den Bau der Pagode frei.\n– Ming: Einzigartige Einheiten verursachen +20 % Schaden.",
+   "t": "Große Dynastien"
+  },
+  "zx-2": {
+   "d": "Ausgebildete Einheiten, entwickelte Technologien und abgelieferte Rohstoffe erzeugen Steuern (Gold), die von Reichsbeamten erhoben werden können. Einzigartige Verwaltungstechnologien aus der Lu Shan-Akademie und Zhu Xis Bibliothek werten die Reichsbeamten erheblich auf.",
+   "t": "Steuern"
+  },
+  "zx-3": {
+   "d": "Greifen Sie auf den Zhugenu und den Grenadier zu, ohne eine Dynastie zu gründen. Wahrzeichen können mächtige Shaolin-Mönche, Yuan-Plünderer und Kaiserliche Garde freischalten. Frühe Palastwachen können in der Feudalzeit ausgebildet werden.",
+   "t": "Dynastie-Einheiten"
+  },
+  "zx-4": {
+   "d": "Beginnen Sie das Spiel mit der bereits kostenlos freigeschalteten Technologie „Chemie“ – defensive Gebäude verwenden Handrohrscharten anstelle von defensiven Schießscharten.",
+   "t": "Meister des Schießpulvers"
+  },
+  "zx-5": {
+   "d": "Dorfbewohner errichten Verteidigungsanlagen um +50 % und alle anderen Gebäude um +1100 % schneller. Häfen arbeiten um +10 % schneller.",
+   "t": "Schnelle Herstellung"
+  },
+  "zx-6": {
+   "d": "Bilden Sie in der Feudalzeit (II) frühe Palastwachen aus, um den Kaiser zu schützen.",
+   "t": "Beschützen Sie den Palast"
+  },
+  "zx-7": {
+   "d": "Reichsbeamter: Verwenden die Fähigkeit „Überwachen“, um die Produktionsrate von Forschungs- und Militärgebäuden um +150 % zu erhöhen – das Überwachen von Wirtschaftsgebäuden erhöht die Menge der von Dorfbewohnern abgelieferten Rohstoffe um +20 %.\nZhugenu: Ersatz für Bogenschützen. Leichte Fernkampfinfanterieeinheit mit schnellem Stoßangriff, der gegen leichte Einheiten effektiv ist.\nPalastwache: Ersatz für Waffenknecht. Schwere Nahkampfinfanterieeinheit, die Rüstung gegen Bewegungsgeschwindigkeit eintauscht.\nBienennest: Ersatz für Mange. Belagerungsmaschine, die Raketensalven abfeuert und damit Flächenschaden verursacht.\nGrenadier: Leichte Schießpulverinfanterieeinheit, die Granaten wirft und damit Flächenschaden verursacht.",
+   "t": "Spezialeinheiten"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}

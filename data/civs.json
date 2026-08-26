@@ -1,0 +1,6706 @@
+{
+ "civs": {
+  "ab": {
+   "en": "Abbasid Dynasty",
+   "flag": "assets/flags/ab.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/culture-wing-1.png",
+     "id": "culture-wing-1",
+     "k": "upgrade_add_culture_wing",
+     "time": 100
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/economic-wing-1.png",
+     "id": "economic-wing-1",
+     "k": "upgrade_add_economy_wing",
+     "time": 100
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/military-wing-1.png",
+     "id": "military-wing-1",
+     "k": "upgrade_add_military_wing",
+     "time": 100
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/trade-wing-1.png",
+     "id": "trade-wing-1",
+     "k": "upgrade_add_trade_wing",
+     "time": 100
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 75,
+      "wood": 25
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/armored-caravans-2.png",
+     "id": "armored-caravans-2",
+     "k": "upgrade_trade_trader_armor_abb",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 25,
+      "gold": 75
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/boot-camp-2.png",
+     "id": "boot-camp-2",
+     "k": "upgrade_mil_camel_archers_improved_weapon_abb",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/culture-wing-2.png",
+     "id": "culture-wing-2",
+     "k": "upgrade_add_culture_wing_feudal",
+     "time": 100
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/economic-wing-2.png",
+     "id": "economic-wing-2",
+     "k": "upgrade_add_economy_wing_feudal",
+     "time": 100
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 25,
+      "gold": 75
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/fertile-crescent-2.png",
+     "id": "fertile-crescent-2",
+     "k": "upgrade_econ_fertile_crescent_abb",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 75
+     },
+     "from": [
+      "mill"
+     ],
+     "icon": "assets/techs/fresh-foodstuffs-2.png",
+     "id": "fresh-foodstuffs-2",
+     "k": "upgrade_econ_improved_carry_capacity_abb",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/military-wing-2.png",
+     "id": "military-wing-2",
+     "k": "upgrade_add_military_wing_feudal",
+     "time": 100
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/phalanx-2.png",
+     "id": "phalanx-2",
+     "k": "upgrade_camel_archer_comp_bow_abb",
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 75,
+      "wood": 25
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/preservation-of-knowledge-2.png",
+     "id": "preservation-of-knowledge-2",
+     "k": "upgrade_cul_cheaper_research_abb",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/trade-wing-2.png",
+     "id": "trade-wing-2",
+     "k": "upgrade_add_trade_wing_feudal",
+     "time": 100
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "wood": 75
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/agriculture-3.png",
+     "id": "agriculture-3",
+     "k": "upgrade_econ_agriculture_abb",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/camel-handling-3.png",
+     "id": "camel-handling-3",
+     "k": "upgrade_camel_speed_boost_abb",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/camel-rider-shields-3.png",
+     "id": "camel-rider-shields-3",
+     "k": "upgrade_mil_mameluke_shields_abb",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/composite-bows-3.png",
+     "id": "composite-bows-3",
+     "k": "upgrade_mameluke_damage_abb",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/culture-wing-3.png",
+     "id": "culture-wing-3",
+     "k": "upgrade_add_culture_wing_castle",
+     "time": 100
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/economic-wing-3.png",
+     "id": "economic-wing-3",
+     "k": "upgrade_add_economy_wing_castle",
+     "time": 100
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/grand-bazaar-3.png",
+     "id": "grand-bazaar-3",
+     "k": "upgrade_trade_commodity_trade_abb",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/medical-centers-3.png",
+     "id": "medical-centers-3",
+     "k": "upgrade_cul_medical_centers_abb",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/military-wing-3.png",
+     "id": "military-wing-3",
+     "k": "upgrade_add_military_wing_castle",
+     "time": 100
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 125,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/teak-masts-3.png",
+     "id": "teak-masts-3",
+     "k": "upgrade_naval_teak_masts_abb",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/trade-wing-3.png",
+     "id": "trade-wing-3",
+     "k": "upgrade_add_trade_wing_castle",
+     "time": 100
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 225
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/camel-rider-barding-4.png",
+     "id": "camel-rider-barding-4",
+     "k": "upgrade_camel_armor_abb",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/camel-support-4.png",
+     "id": "camel-support-4",
+     "k": "upgrade_mil_camel_support_abb",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/culture-wing-4.png",
+     "id": "culture-wing-4",
+     "k": "upgrade_add_culture_wing_imperial",
+     "time": 100
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/economic-wing-4.png",
+     "id": "economic-wing-4",
+     "k": "upgrade_add_economy_wing_imperial",
+     "time": 100
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/improved-processing-4.png",
+     "id": "improved-processing-4",
+     "k": "upgrade_econ_improved_processing_abb",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/military-wing-4.png",
+     "id": "military-wing-4",
+     "k": "upgrade_add_military_wing_imperial",
+     "time": 100
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "mosque"
+     ],
+     "icon": "assets/techs/proselytization-4.png",
+     "id": "proselytization-4",
+     "k": "upgrade_cul_conversion_invuln_abb",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/public-libraries-4.png",
+     "id": "public-libraries-4",
+     "k": "upgrade_cul_public_libraries_abb",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/spice-roads-4.png",
+     "id": "spice-roads-4",
+     "k": "upgrade_trade_gold_income_abb",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/trade-wing-4.png",
+     "id": "trade-wing-4",
+     "k": "upgrade_add_trade_wing_imperial",
+     "time": 100
+    }
+   ],
+   "traits": [
+    {
+     "k": "ab-1"
+    },
+    {
+     "k": "ab-2"
+    },
+    {
+     "k": "ab-3"
+    },
+    {
+     "k": "ab-4"
+    },
+    {
+     "k": "ab-5"
+    },
+    {
+     "k": "ab-6"
+    },
+    {
+     "k": "ab-7"
+    },
+    {
+     "k": "ab-8"
+    }
+   ]
+  },
+  "ay": {
+   "en": "Ayyubids",
+   "flag": "assets/flags/ay.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 225,
+      "gold": 125
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-culture-wing-advancement-1.png",
+     "id": "feudal-culture-wing-advancement-1",
+     "k": "upgrade_add_culture_wing_dark_a_abb_ha_01",
+     "time": 96
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-trade-wing-advisors-1.png",
+     "id": "feudal-trade-wing-advisors-1",
+     "k": "upgrade_add_trade_wing_dark_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-trade-wing-bazaar-1.png",
+     "id": "feudal-trade-wing-bazaar-1",
+     "k": "upgrade_add_trade_wing_dark_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-economic-wing-growth-1.png",
+     "id": "feudal-economic-wing-growth-1",
+     "k": "upgrade_add_economy_wing_dark_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-economic-wing-industry-1.png",
+     "id": "feudal-economic-wing-industry-1",
+     "k": "upgrade_add_economy_wing_dark_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-culture-wing-logistics-1.png",
+     "id": "feudal-culture-wing-logistics-1",
+     "k": "upgrade_add_culture_wing_dark_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-military-wing-master-smiths-1.png",
+     "id": "feudal-military-wing-master-smiths-1",
+     "k": "upgrade_add_military_wing_dark_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/feudal-military-wing-reinforcement-1.png",
+     "id": "feudal-military-wing-reinforcement-1",
+     "k": "upgrade_add_military_wing_dark_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 900,
+      "gold": 500
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-culture-wing-advancement-2.png",
+     "id": "castle-culture-wing-advancement-2",
+     "k": "upgrade_add_culture_wing_feudal_a_abb_ha_01",
+     "time": 96
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-trade-wing-advisors-2.png",
+     "id": "castle-trade-wing-advisors-2",
+     "k": "upgrade_add_trade_wing_feudal_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-trade-wing-bazaar-2.png",
+     "id": "castle-trade-wing-bazaar-2",
+     "k": "upgrade_add_trade_wing_feudal_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-economic-wing-growth-2.png",
+     "id": "castle-economic-wing-growth-2",
+     "k": "upgrade_add_economy_wing_feudal_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-economic-wing-industry-2.png",
+     "id": "castle-economic-wing-industry-2",
+     "k": "upgrade_add_economy_wing_feudal_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-culture-wing-logistics-2.png",
+     "id": "castle-culture-wing-logistics-2",
+     "k": "upgrade_add_culture_wing_feudal_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-military-wing-master-smiths-2.png",
+     "id": "castle-military-wing-master-smiths-2",
+     "k": "upgrade_add_military_wing_feudal_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/phalanx-2.png",
+     "id": "phalanx-2",
+     "k": "upgrade_camel_archer_comp_bow_abb",
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/castle-military-wing-reinforcement-2.png",
+     "id": "castle-military-wing-reinforcement-2",
+     "k": "upgrade_add_military_wing_feudal_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 125,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/teak-masts-2.png",
+     "id": "teak-masts-2",
+     "k": "upgrade_naval_teak_masts_abb",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 1500,
+      "gold": 750
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-culture-wing-advancement-3.png",
+     "id": "imperial-culture-wing-advancement-3",
+     "k": "upgrade_add_culture_wing_castle_a_abb_ha_01",
+     "time": 96
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-trade-wing-advisors-3.png",
+     "id": "imperial-trade-wing-advisors-3",
+     "k": "upgrade_add_trade_wing_castle_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-trade-wing-bazaar-3.png",
+     "id": "imperial-trade-wing-bazaar-3",
+     "k": "upgrade_add_trade_wing_castle_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-economic-wing-growth-3.png",
+     "id": "imperial-economic-wing-growth-3",
+     "k": "upgrade_add_economy_wing_castle_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-economic-wing-industry-3.png",
+     "id": "imperial-economic-wing-industry-3",
+     "k": "upgrade_add_economy_wing_castle_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-culture-wing-logistics-3.png",
+     "id": "imperial-culture-wing-logistics-3",
+     "k": "upgrade_add_culture_wing_castle_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-military-wing-master-smiths-3.png",
+     "id": "imperial-military-wing-master-smiths-3",
+     "k": "upgrade_add_military_wing_castle_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/imperial-military-wing-reinforcement-3.png",
+     "id": "imperial-military-wing-reinforcement-3",
+     "k": "upgrade_add_military_wing_castle_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 300,
+      "wood": 200
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/siege-carpentry-3.png",
+     "id": "siege-carpentry-3",
+     "k": "upgrade_siege_carpentry_abb_ha_01",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/sultans-mamluks-3.png",
+     "id": "sultans-mamluks-3",
+     "k": "upgrade_infantry_kill_bonus_abb_ha_01",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 1550,
+      "gold": 750
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-culture-wing-advancement-4.png",
+     "id": "bonus-culture-wing-advancement-4",
+     "k": "upgrade_add_culture_wing_imperial_a_abb_ha_01",
+     "time": 96
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-trade-wing-advisors-4.png",
+     "id": "bonus-trade-wing-advisors-4",
+     "k": "upgrade_add_trade_wing_imperial_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-trade-wing-bazaar-4.png",
+     "id": "bonus-trade-wing-bazaar-4",
+     "k": "upgrade_add_trade_wing_imperial_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-economic-wing-growth-4.png",
+     "id": "bonus-economic-wing-growth-4",
+     "k": "upgrade_add_economy_wing_imperial_a_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-economic-wing-industry-4.png",
+     "id": "bonus-economic-wing-industry-4",
+     "k": "upgrade_add_economy_wing_imperial_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/infantry-support-4.png",
+     "id": "infantry-support-4",
+     "k": "upgrade_mil_infantry_support_abb_ha_01",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-culture-wing-logistics-4.png",
+     "id": "bonus-culture-wing-logistics-4",
+     "k": "upgrade_add_culture_wing_imperial_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-military-wing-master-smiths-4.png",
+     "id": "bonus-military-wing-master-smiths-4",
+     "k": "upgrade_add_military_wing_imperial_b_abb_ha_01",
+     "time": 120
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "house-of-wisdom"
+     ],
+     "icon": "assets/techs/bonus-military-wing-reinforcement-4.png",
+     "id": "bonus-military-wing-reinforcement-4",
+     "k": "upgrade_add_military_wing_imperial_a_abb_ha_01",
+     "time": 120
+    }
+   ],
+   "traits": [
+    {
+     "k": "ay-1"
+    },
+    {
+     "k": "ay-2"
+    },
+    {
+     "k": "ay-3"
+    },
+    {
+     "k": "ay-4"
+    },
+    {
+     "k": "ay-5"
+    },
+    {
+     "k": "ay-6"
+    },
+    {
+     "k": "ay-7"
+    },
+    {
+     "k": "ay-8"
+    }
+   ]
+  },
+  "by": {
+   "en": "Byzantines",
+   "flag": "assets/flags/by.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {},
+     "from": [
+      "golden-horn-tower",
+      "mercenary-house"
+     ],
+     "icon": "assets/techs/eastern-mercenary-contract-1.png",
+     "id": "eastern-mercenary-contract-1",
+     "k": "merc_contract_01_tower_alt_byz",
+     "time": 10
+    },
+    {
+     "age": 1,
+     "cost": {},
+     "from": [
+      "golden-horn-tower",
+      "mercenary-house"
+     ],
+     "icon": "assets/techs/silk-road-mercenary-contract-1.png",
+     "id": "silk-road-mercenary-contract-1",
+     "k": "merc_contract_03_tower_alt_byz",
+     "time": 10
+    },
+    {
+     "age": 1,
+     "cost": {},
+     "from": [
+      "golden-horn-tower",
+      "mercenary-house"
+     ],
+     "icon": "assets/techs/western-mercenary-contract-1.png",
+     "id": "western-mercenary-contract-1",
+     "k": "merc_contract_02_tower_alt_byz",
+     "time": 10
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 80,
+      "wood": 40
+     },
+     "from": [
+      "house"
+     ],
+     "icon": "assets/techs/border-settlements-2.png",
+     "id": "border-settlements-2",
+     "k": "upgrade_house_vision_byz",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 50,
+      "wood": 30
+     },
+     "from": [
+      "imperial-hippodrome",
+      "stable"
+     ],
+     "icon": "assets/techs/expilatores-2.png",
+     "id": "expilatores-2",
+     "k": "upgrade_hippodrome_horseman_byz",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 50,
+      "wood": 30
+     },
+     "from": [
+      "imperial-hippodrome",
+      "stable"
+     ],
+     "icon": "assets/techs/trapezites-2.png",
+     "id": "trapezites-2",
+     "k": "upgrade_hippodrome_scout_byz",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/heavy-dromon-3.png",
+     "id": "heavy-dromon-3",
+     "k": "upgrade_heavy_dromon_byz",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 125,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/liquid-explosives-3.png",
+     "id": "liquid-explosives-3",
+     "k": "upgrade_fireship_liquid_explosives_byz",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 75,
+      "stone": 200
+     },
+     "from": [
+      "keep"
+     ],
+     "icon": "assets/techs/mangonel-emplacement-3.png",
+     "id": "mangonel-emplacement-3",
+     "k": "upgrade_keep_mangonel_byz",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/teardrop-shields-3.png",
+     "id": "teardrop-shields-3",
+     "k": "upgrade_teardrop_shields_byz",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "golden-horn-tower",
+      "mercenary-house"
+     ],
+     "icon": "assets/techs/veteran-mercenaries-3.png",
+     "id": "veteran-mercenaries-3",
+     "k": "upgrade_unit_mercenary_3_tower_alt_byz",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "golden-horn-tower",
+      "mercenary-house"
+     ],
+     "icon": "assets/techs/elite-mercenaries-4.png",
+     "id": "elite-mercenaries-4",
+     "k": "upgrade_unit_mercenary_4_tower_alt_byz",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/ferocious-speed-4.png",
+     "id": "ferocious-speed-4",
+     "k": "upgrade_varangian_berserk_speed_byz",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/greek-fire-projectiles-4.png",
+     "id": "greek-fire-projectiles-4",
+     "k": "upgrade_greek_fire_trebuchet_byz",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "imperial-hippodrome",
+      "stable"
+     ],
+     "icon": "assets/techs/numeri-4.png",
+     "id": "numeri-4",
+     "k": "upgrade_hippodrome_cataphract_byz",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "by-1"
+    },
+    {
+     "k": "by-2"
+    },
+    {
+     "k": "by-3"
+    },
+    {
+     "k": "by-4"
+    },
+    {
+     "k": "by-5"
+    },
+    {
+     "k": "by-6"
+    },
+    {
+     "k": "by-7"
+    }
+   ]
+  },
+  "ch": {
+   "en": "Chinese",
+   "flag": "assets/flags/ch.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 100
+     },
+     "from": [
+      "imperial-academy"
+     ],
+     "icon": "assets/techs/imperial-examinations-2.png",
+     "id": "imperial-examinations-2",
+     "k": "upgrade_imperial_examinations_chi",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "stone": 75
+     },
+     "from": [
+      "keep"
+     ],
+     "icon": "assets/techs/extra-materials-3.png",
+     "id": "extra-materials-3",
+     "k": "upgrade_wall_repair_chi",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 800,
+      "wood": 400
+     },
+     "from": [
+      "astronomical-clocktower",
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/additional-barrels-4.png",
+     "id": "additional-barrels-4",
+     "k": "upgrade_gunpowder_cost_chi",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "spirit-way",
+      "university"
+     ],
+     "icon": "assets/techs/ancient-techniques-4.png",
+     "id": "ancient-techniques-4",
+     "k": "upgrade_dynasty_econ_bonus_chi",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/battle-hardened-4.png",
+     "id": "battle-hardened-4",
+     "k": "upgrade_manatarms_battle_hardened_chi",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/pyrotechnics-4.png",
+     "id": "pyrotechnics-4",
+     "k": "upgrade_gunpowder_damage_chi",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "astronomical-clocktower",
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/reload-drills-4.png",
+     "id": "reload-drills-4",
+     "k": "upgrade_reload_drills_chi",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/thunderclap-bombs-4.png",
+     "id": "thunderclap-bombs-4",
+     "k": "upgrade_naval_explosive_techniques_chi",
+     "time": 45
+    }
+   ],
+   "traits": [
+    {
+     "k": "ch-1"
+    },
+    {
+     "k": "ch-2"
+    },
+    {
+     "k": "ch-3"
+    },
+    {
+     "k": "ch-4"
+    },
+    {
+     "k": "ch-5"
+    },
+    {
+     "k": "ch-6"
+    }
+   ]
+  },
+  "de": {
+   "en": "Delhi Sultanate",
+   "flag": "assets/flags/de.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {},
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/efficient-production-1.png",
+     "id": "efficient-production-1",
+     "k": "upgrade_age2_scholar_military_production_sul",
+     "time": 135
+    },
+    {
+     "age": 2,
+     "cost": {},
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/all-seeing-eye-2.png",
+     "id": "all-seeing-eye-2",
+     "k": "upgrade_landmark_scholar_sight_range_sul",
+     "time": 157
+    },
+    {
+     "age": 2,
+     "cost": {},
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/sanctity-2.png",
+     "id": "sanctity-2",
+     "k": "upgrade_unit_religious_sanctity_4_sul",
+     "time": 210
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/forced-march-3.png",
+     "id": "forced-march-3",
+     "k": "upgrade_landmark_force_march_sul",
+     "time": 225
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/hearty-rations-3.png",
+     "id": "hearty-rations-3",
+     "k": "upgrade_landmark_hearty_rations_sul",
+     "time": 180
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/honed-blades-3.png",
+     "id": "honed-blades-3",
+     "k": "upgrade_improved_swords_sul",
+     "time": 240
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/mahouts-3.png",
+     "id": "mahouts-3",
+     "k": "upgrade_landmark_mahouts_sul",
+     "time": 180
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/paiks-3.png",
+     "id": "paiks-3",
+     "k": "upgrade_landmark_paiks_sul",
+     "time": 240
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/reinforced-foundations-3.png",
+     "id": "reinforced-foundations-3",
+     "k": "upgrade_landmark_house_popcap_sul",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/salvaged-materials-3.png",
+     "id": "salvaged-materials-3",
+     "k": "upgrade_naval_patchwork_repairs_sul",
+     "time": 240
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "compound-of-the-defender"
+     ],
+     "icon": "assets/techs/slow-burning-defenses-3.png",
+     "id": "slow-burning-defenses-3",
+     "k": "upgrade_landmark_keep_defense_compond_sul",
+     "time": 225
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/swiftness-3.png",
+     "id": "swiftness-3",
+     "k": "upgrade_landmark_scholar_speed_sul",
+     "time": 450
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/tranquil-venue-3.png",
+     "id": "tranquil-venue-3",
+     "k": "upgrade_landmark_mosque_heal_sul",
+     "time": 180
+    },
+    {
+     "age": 3,
+     "cost": {},
+     "from": [
+      "compound-of-the-defender",
+      "keep"
+     ],
+     "icon": "assets/techs/village-fortresses-3.png",
+     "id": "village-fortresses-3",
+     "k": "upgrade_age2_keep_town_center_sul",
+     "time": 360
+    },
+    {
+     "age": 4,
+     "cost": {},
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/armored-beasts-4.png",
+     "id": "armored-beasts-4",
+     "k": "upgrade_age3_war_elephant_elite_sul",
+     "time": 720
+    },
+    {
+     "age": 4,
+     "cost": {},
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/howdahs-4.png",
+     "id": "howdahs-4",
+     "k": "upgrade_landmark_siege_elephant_sul",
+     "time": 720
+    },
+    {
+     "age": 4,
+     "cost": {},
+     "from": [
+      "keep"
+     ],
+     "icon": "assets/techs/slow-burning-defenses-4.png",
+     "id": "slow-burning-defenses-4",
+     "k": "upgrade_landmark_keep_defense_sul",
+     "time": 225
+    },
+    {
+     "age": 4,
+     "cost": {},
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/zeal-4.png",
+     "id": "zeal-4",
+     "k": "upgrade_unit_religious_zealous_4_sul",
+     "time": 1080
+    }
+   ],
+   "traits": [
+    {
+     "k": "de-1"
+    },
+    {
+     "k": "de-2"
+    },
+    {
+     "k": "de-3"
+    },
+    {
+     "k": "de-4"
+    },
+    {
+     "k": "de-5"
+    },
+    {
+     "k": "de-6"
+    },
+    {
+     "k": "de-7"
+    }
+   ]
+  },
+  "en": {
+   "en": "English",
+   "flag": "assets/flags/en.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/admiralty-2.png",
+     "id": "admiralty-2",
+     "k": "upgrade_naval_shipwrights_eng",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/armor-clad-3.png",
+     "id": "armor-clad-3",
+     "k": "upgrade_armor_clad_eng",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "stone": 150
+     },
+     "from": [
+      "berkshire-palace",
+      "keep",
+      "the-white-tower"
+     ],
+     "icon": "assets/techs/network-of-citadels-3.png",
+     "id": "network-of-citadels-3",
+     "k": "upgrade_network_of_citadels_eng",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "archery-range",
+      "council-hall"
+     ],
+     "icon": "assets/techs/arrow-volley-4.png",
+     "id": "arrow-volley-4",
+     "k": "upgrade_ranged_longbow_arrow_volley_eng",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "mill"
+     ],
+     "icon": "assets/techs/enclosures-4.png",
+     "id": "enclosures-4",
+     "k": "upgrade_farm_improved_enclosures_eng",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/shattering-projectiles-4.png",
+     "id": "shattering-projectiles-4",
+     "k": "upgrade_trebuchet_aoe_eng",
+     "time": 90
+    }
+   ],
+   "traits": [
+    {
+     "k": "en-1"
+    },
+    {
+     "k": "en-2"
+    },
+    {
+     "k": "en-3"
+    },
+    {
+     "k": "en-4"
+    },
+    {
+     "k": "en-5"
+    },
+    {
+     "k": "en-6"
+    },
+    {
+     "k": "en-7"
+    },
+    {
+     "k": "en-8"
+    },
+    {
+     "k": "en-9"
+    }
+   ]
+  },
+  "fr": {
+   "en": "French",
+   "flag": "assets/flags/fr.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "gold": 200,
+      "wood": 100
+     },
+     "from": [
+      "school-of-cavalry",
+      "stable"
+     ],
+     "icon": "assets/techs/chivalry-2.png",
+     "id": "chivalry-2",
+     "k": "upgrade_cavalry_chivalry_fre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "school-of-cavalry",
+      "stable"
+     ],
+     "icon": "assets/techs/cantled-saddles-3.png",
+     "id": "cantled-saddles-3",
+     "k": "upgrade_cavalry_cantled_saddle_fre",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "wood": 100
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/chivalry-3.png",
+     "id": "chivalry-3",
+     "k": "upgrade_landmark_cavalry_chivalry_fre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/crossbow-stirrups-3.png",
+     "id": "crossbow-stirrups-3",
+     "k": "upgrade_landmark_ranged_crossbow_stirrups_fre",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/enlistment-incentives-3.png",
+     "id": "enlistment-incentives-3",
+     "k": "upgrade_landmark_enlistment_incentives_fre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/gambesons-3.png",
+     "id": "gambesons-3",
+     "k": "upgrade_ranged_crossbow_drills_fre",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/royal-bloodlines-3.png",
+     "id": "royal-bloodlines-3",
+     "k": "upgrade_landmark_cavalry_bloodline_fre",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/crossbow-stirrups-4.png",
+     "id": "crossbow-stirrups-4",
+     "k": "upgrade_ranged_crossbow_stirrups_fre",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "keep",
+      "red-palace"
+     ],
+     "icon": "assets/techs/enlistment-incentives-4.png",
+     "id": "enlistment-incentives-4",
+     "k": "upgrade_enlistment_incentives_fre",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/long-guns-4.png",
+     "id": "long-guns-4",
+     "k": "upgrade_naval_long_guns_fre",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "chamber-of-commerce",
+      "market"
+     ],
+     "icon": "assets/techs/merchant-guilds-4.png",
+     "id": "merchant-guilds-4",
+     "k": "upgrade_market_trickle_fre",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/royal-bloodlines-4.png",
+     "id": "royal-bloodlines-4",
+     "k": "upgrade_cavalry_bloodline_fre",
+     "time": 90
+    }
+   ],
+   "traits": [
+    {
+     "k": "fr-1"
+    },
+    {
+     "k": "fr-2"
+    },
+    {
+     "k": "fr-3"
+    },
+    {
+     "k": "fr-4"
+    },
+    {
+     "k": "fr-5"
+    },
+    {
+     "k": "fr-6"
+    }
+   ]
+  },
+  "gol": {
+   "en": "Golden Horde",
+   "flag": "assets/flags/gol.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "stone": 400
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/beachhead-1.png",
+     "id": "beachhead-1",
+     "k": "upgrade_transport_breachhead_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/building-carts-1.png",
+     "id": "building-carts-1",
+     "k": "upgrade_tent_dark_2_cart_mon_ha_gol",
+     "time": 105
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/khan-and-torguuds-1.png",
+     "id": "khan-and-torguuds-1",
+     "k": "upgrade_tent_dark_1_khan_mon_ha_gol",
+     "time": 105
+    },
+    {
+     "age": 1,
+     "cost": {
+      "stone": 600
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/unlock-kharash-edict-1.png",
+     "id": "unlock-kharash-edict-1",
+     "k": "upgrade_edict_kharash_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "stone": 800
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/unlock-stockyard-edict-1.png",
+     "id": "unlock-stockyard-edict-1",
+     "k": "upgrade_edict_stockyard_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 400
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/increased-supplies-2.png",
+     "id": "increased-supplies-2",
+     "k": "upgrade_military_production_speed_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 300
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/khan-debuff-arrow-2.png",
+     "id": "khan-debuff-arrow-2",
+     "k": "upgrade_khan_debuff_arrow_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/muscovy-yasak-2.png",
+     "id": "muscovy-yasak-2",
+     "k": "upgrade_tent_feudal_1_pasture_mon_ha_gol",
+     "time": 110
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/piracy-2.png",
+     "id": "piracy-2",
+     "k": "upgrade_naval_piracy_mon",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/relic-ovoos-2.png",
+     "id": "relic-ovoos-2",
+     "k": "upgrade_tent_feudal_2_relics_mon_ha_gol",
+     "time": 110
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 200
+     },
+     "from": [
+      "ger"
+     ],
+     "icon": "assets/techs/rotation-grazing-2.png",
+     "id": "rotation-grazing-2",
+     "k": "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 1100
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/archery-range-reinforcements-3.png",
+     "id": "archery-range-reinforcements-3",
+     "k": "upgrade_reinforcements_archery_range_mon_ha_gol",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 1100
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/barracks-reinforcements-3.png",
+     "id": "barracks-reinforcements-3",
+     "k": "upgrade_reinforcements_barracks_mon_ha_gol",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 300
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/battlefield-salvage-3.png",
+     "id": "battlefield-salvage-3",
+     "k": "upgrade_kharash_improvement_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 500
+     },
+     "from": [
+      "fortified-outpost"
+     ],
+     "icon": "assets/techs/earthen-core-walls-3.png",
+     "id": "earthen-core-walls-3",
+     "k": "upgrade_defensive_improvement_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 400
+     },
+     "from": [
+      "fortified-outpost"
+     ],
+     "icon": "assets/techs/glorious-charge-3.png",
+     "id": "glorious-charge-3",
+     "k": "upgrade_outpost_glorious_charge_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 400
+     },
+     "from": [
+      "ger"
+     ],
+     "icon": "assets/techs/over-grazing-3.png",
+     "id": "over-grazing-3",
+     "k": "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "ger"
+     ],
+     "icon": "assets/techs/ovoo-offering-3.png",
+     "id": "ovoo-offering-3",
+     "k": "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 800
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/padded-armor-3.png",
+     "id": "padded-armor-3",
+     "k": "upgrade_bodyguard_durability_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 400
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/sarai-lancers-3.png",
+     "id": "sarai-lancers-3",
+     "k": "upgrade_lancer_healing_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 1100
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/stables-reinforcements-3.png",
+     "id": "stables-reinforcements-3",
+     "k": "upgrade_reinforcements_stables_mon_ha_gol",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/stone-armies-3.png",
+     "id": "stone-armies-3",
+     "k": "upgrade_tent_castle_1_tribute_mon_ha_gol",
+     "time": 110
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 800
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/triple-shot-3.png",
+     "id": "triple-shot-3",
+     "k": "upgrade_mangudai_triple_shot_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "golden-tent"
+     ],
+     "icon": "assets/techs/yam-network-trade-3.png",
+     "id": "yam-network-trade-3",
+     "k": "upgrade_tent_castle_2_batch_production_mon_ha_gol",
+     "time": 110
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 250
+     },
+     "from": [
+      "ger"
+     ],
+     "icon": "assets/techs/ovoo-ceremony-4.png",
+     "id": "ovoo-ceremony-4",
+     "k": "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "stone": 500
+     },
+     "from": [
+      "prayer-tent"
+     ],
+     "icon": "assets/techs/ovoo-tithe-4.png",
+     "id": "ovoo-tithe-4",
+     "k": "upgrade_ovoo_tithe_barns_mon_ha_gol",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "market"
+     ],
+     "icon": "assets/techs/stone-commerce-4.png",
+     "id": "stone-commerce-4",
+     "k": "upgrade_trader_silkroad_stone_mon",
+     "time": 90
+    }
+   ],
+   "traits": [
+    {
+     "k": "gol-1"
+    },
+    {
+     "k": "gol-2"
+    },
+    {
+     "k": "gol-3"
+    },
+    {
+     "k": "gol-4"
+    },
+    {
+     "k": "gol-5"
+    },
+    {
+     "k": "gol-6"
+    },
+    {
+     "k": "gol-7"
+    },
+    {
+     "k": "gol-8"
+    },
+    {
+     "k": "gol-9"
+    }
+   ]
+  },
+  "hl": {
+   "en": "House of Lancaster",
+   "flag": "assets/flags/hl.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/admiralty-2.png",
+     "id": "admiralty-2",
+     "k": "upgrade_naval_shipwrights_eng",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "wood": 175
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/billmen-2.png",
+     "id": "billmen-2",
+     "k": "upgrade_billmen_lan",
+     "time": 25
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 175,
+      "wood": 75
+     },
+     "from": [
+      "manor"
+     ],
+     "icon": "assets/techs/condensed-land-practices-2.png",
+     "id": "condensed-land-practices-2",
+     "k": "upgrade_condensedlandpractices_lan",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 250,
+      "gold": 250
+     },
+     "from": [
+      "lancaster-castle"
+     ],
+     "icon": "assets/techs/muster-the-nobles-2.png",
+     "id": "muster-the-nobles-2",
+     "k": "upgrade_shire_levy_2",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 250,
+      "wood": 150
+     },
+     "from": [
+      "manor"
+     ],
+     "icon": "assets/techs/open-field-system-2.png",
+     "id": "open-field-system-2",
+     "k": "upgrade_condensedlandpractices_lan_2",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 600
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/burgundian-imports-3.png",
+     "id": "burgundian-imports-3",
+     "k": "upgrade_burgundianimports_lan",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/collar-of-esses-3.png",
+     "id": "collar-of-esses-3",
+     "k": "upgrade_collarofesses_lan",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 50,
+      "gold": 100
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/hill-training-3.png",
+     "id": "hill-training-3",
+     "k": "upgrade_hill_training_lan",
+     "time": 25
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 250,
+      "gold": 750
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/military-tactics-training-3.png",
+     "id": "military-tactics-training-3",
+     "k": "upgrade_militarytactics_lan",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 600,
+      "wood": 600
+     },
+     "from": [
+      "lancaster-castle"
+     ],
+     "icon": "assets/techs/shire-levy-3.png",
+     "id": "shire-levy-3",
+     "k": "upgrade_shire_levy_3",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/synchronized-shot-3.png",
+     "id": "synchronized-shot-3",
+     "k": "upgrade_synchronizedshot_lan",
+     "time": 75
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/warwolf-trebuchet-3.png",
+     "id": "warwolf-trebuchet-3",
+     "k": "upgrade_warwolf_lan",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 1250,
+      "gold": 1250
+     },
+     "from": [
+      "lancaster-castle"
+     ],
+     "icon": "assets/techs/exact-militia-program-4.png",
+     "id": "exact-militia-program-4",
+     "k": "upgrade_shire_levy_4",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/padded-jack-4.png",
+     "id": "padded-jack-4",
+     "k": "upgrade_paddedjack_lan",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "manor"
+     ],
+     "icon": "assets/techs/scutage-4.png",
+     "id": "scutage-4",
+     "k": "upgrade_manor_gold_lan",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 250
+     },
+     "from": [
+      "kings-college"
+     ],
+     "icon": "assets/techs/ships-of-the-crown-4.png",
+     "id": "ships-of-the-crown-4",
+     "k": "upgrade_shipofthecrown_lan",
+     "time": 75
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 425,
+      "wood": 175
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/throwing-dagger-drills-4.png",
+     "id": "throwing-dagger-drills-4",
+     "k": "upgrade_puncture_throw_lan",
+     "time": 30
+    }
+   ],
+   "traits": [
+    {
+     "k": "hl-1"
+    },
+    {
+     "k": "hl-2"
+    },
+    {
+     "k": "hl-3"
+    },
+    {
+     "k": "hl-4"
+    },
+    {
+     "k": "hl-5"
+    }
+   ]
+  },
+  "hr": {
+   "en": "Holy Roman Empire",
+   "flag": "assets/flags/hr.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "food": 75,
+      "gold": 250
+     },
+     "from": [
+      "meinwerk-palace"
+     ],
+     "icon": "assets/techs/awl-pikes-2.png",
+     "id": "awl-pikes-2",
+     "k": "upgrade_spear_horseman_damage_hre",
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/fire-stations-2.png",
+     "id": "fire-stations-2",
+     "k": "upgrade_naval_firestations_hre",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "wood": 75
+     },
+     "from": [
+      "monastery",
+      "regnitz-cathedral"
+     ],
+     "icon": "assets/techs/cistercian-abbeys-3.png",
+     "id": "cistercian-abbeys-3",
+     "k": "upgrade_benediction_hre",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "monastery",
+      "regnitz-cathedral"
+     ],
+     "icon": "assets/techs/devoutness-3.png",
+     "id": "devoutness-3",
+     "k": "upgrade_devoutness_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "barracks",
+      "burgrave-palace"
+     ],
+     "icon": "assets/techs/heavy-maces-3.png",
+     "id": "heavy-maces-3",
+     "k": "upgrade_man_at_arms_maces_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "monastery",
+      "regnitz-cathedral"
+     ],
+     "icon": "assets/techs/inspired-warriors-3.png",
+     "id": "inspired-warriors-3",
+     "k": "upgrade_inspired_infantry_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "stone": 100
+     },
+     "from": [
+      "elzbach-palace",
+      "keep"
+     ],
+     "icon": "assets/techs/slate-and-stone-construction-3.png",
+     "id": "slate-and-stone-construction-3",
+     "k": "upgrade_building_fire_armor_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 90,
+      "gold": 210
+     },
+     "from": [
+      "meinwerk-palace"
+     ],
+     "icon": "assets/techs/steel-barding-3.png",
+     "id": "steel-barding-3",
+     "k": "upgrade_knight_barding_hre",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "barracks",
+      "burgrave-palace"
+     ],
+     "icon": "assets/techs/two-handed-weapons-3.png",
+     "id": "two-handed-weapons-3",
+     "k": "upgrade_man_at_arms_two_handed_hre",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 250,
+      "stone": 100
+     },
+     "from": [
+      "elzbach-palace",
+      "keep"
+     ],
+     "icon": "assets/techs/reinforced-defenses-4.png",
+     "id": "reinforced-defenses-4",
+     "k": "upgrade_reinforced_defenses_hre",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "hr-1"
+    },
+    {
+     "k": "hr-2"
+    },
+    {
+     "k": "hr-3"
+    },
+    {
+     "k": "hr-4"
+    },
+    {
+     "k": "hr-5"
+    },
+    {
+     "k": "hr-6"
+    }
+   ]
+  },
+  "ja": {
+   "en": "Japanese",
+   "flag": "assets/flags/ja.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "stone": 175
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/daimyo-manor-1.png",
+     "id": "daimyo-manor-1",
+     "k": "upgrade_capital_tier_1_jpn",
+     "time": 20
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 750
+     },
+     "from": [
+      "buddhist-temple",
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/five-mountain-ministries-1.png",
+     "id": "five-mountain-ministries-1",
+     "k": "upgrade_temple_fivemountain_jpn",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 35,
+      "stone": 15
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/tatara-1.png",
+     "id": "tatara-1",
+     "k": "upgrade_melee_damage_i_jpn",
+     "time": 15
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 50,
+      "wood": 25
+     },
+     "from": [
+      "farmhouse",
+      "kura-storehouse"
+     ],
+     "icon": "assets/techs/tawara-1.png",
+     "id": "tawara-1",
+     "k": "upgrade_unit_town_center_wheelbarrow_1_jpn",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 600
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/daimyo-palace-2.png",
+     "id": "daimyo-palace-2",
+     "k": "upgrade_capital_tier_2_jpn",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "stone": 50
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/hizukuri-2.png",
+     "id": "hizukuri-2",
+     "k": "upgrade_melee_damage_ii_jpn",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "wood": 50
+     },
+     "from": [
+      "farmhouse",
+      "kura-storehouse"
+     ],
+     "icon": "assets/techs/takezaiku-2.png",
+     "id": "takezaiku-2",
+     "k": "upgrade_unit_town_center_wheelbarrow_2_jpn",
+     "time": 40
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 150,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/copper-plating-3.png",
+     "id": "copper-plating-3",
+     "k": "upgrade_copper_plating_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "farmhouse",
+      "kura-storehouse"
+     ],
+     "icon": "assets/techs/fudasashi-3.png",
+     "id": "fudasashi-3",
+     "k": "upgrade_unit_town_center_wheelbarrow_3_jpn",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 100,
+      "wood": 75
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/kabura-ya-whistling-arrow-3.png",
+     "id": "kabura-ya-whistling-arrow-3",
+     "k": "upgrade_kaburya_arrow_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "stone": 125
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/kobuse-gitae-3.png",
+     "id": "kobuse-gitae-3",
+     "k": "upgrade_melee_damage_iii_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/odachi-3.png",
+     "id": "odachi-3",
+     "k": "upgrade_odachi_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 300
+     },
+     "from": [
+      "shinto-shrine"
+     ],
+     "icon": "assets/techs/shinto-rituals-3.png",
+     "id": "shinto-rituals-3",
+     "k": "upgrade_shrine_rituals_jpn",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "stone": 1200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/shogunate-castle-3.png",
+     "id": "shogunate-castle-3",
+     "k": "upgrade_capital_tier_3_jpn",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "wood": 200
+     },
+     "from": [
+      "buddhist-temple",
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/zen-3.png",
+     "id": "zen-3",
+     "k": "upgrade_temple_zen_jpn",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 400
+     },
+     "from": [
+      "shinto-shrine"
+     ],
+     "icon": "assets/techs/bunrei-4.png",
+     "id": "bunrei-4",
+     "k": "upgrade_shrine_bunrei_jpn",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 200,
+      "wood": 75
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/do-maru-armor-4.png",
+     "id": "do-maru-armor-4",
+     "k": "upgrade_marudo_armor_jpn",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 750
+     },
+     "from": [
+      "buddhist-temple",
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/five-mountain-ministries-4.png",
+     "id": "five-mountain-ministries-4",
+     "k": "upgrade_temple_fivemountain_jpn",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 150,
+      "wood": 100
+     },
+     "from": [
+      "shinto-shrine"
+     ],
+     "icon": "assets/techs/gion-festival-4.png",
+     "id": "gion-festival-4",
+     "k": "upgrade_shrine_gion_jpn",
+     "time": 40
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/nagae-yari-4.png",
+     "id": "nagae-yari-4",
+     "k": "upgrade_long_spear_jpn",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350
+     },
+     "from": [
+      "buddhist-temple",
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/nehan-4.png",
+     "id": "nehan-4",
+     "k": "upgrade_temple_nehan_jpn",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/oda-tactics-4.png",
+     "id": "oda-tactics-4",
+     "k": "upgrade_elite_army_tactics_jpn",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 275,
+      "stone": 175
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/yaki-ire-4.png",
+     "id": "yaki-ire-4",
+     "k": "upgrade_melee_damage_iv_jpn",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "ja-1"
+    },
+    {
+     "k": "ja-2"
+    },
+    {
+     "k": "ja-3"
+    },
+    {
+     "k": "ja-4"
+    },
+    {
+     "k": "ja-5"
+    },
+    {
+     "k": "ja-6"
+    },
+    {
+     "k": "ja-7"
+    },
+    {
+     "k": "ja-8"
+    },
+    {
+     "k": "ja-9"
+    }
+   ]
+  },
+  "je": {
+   "en": "Jeanne d'Arc",
+   "flag": "assets/flags/je.png",
+   "techs": [
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-3-champion-companions-0.png",
+     "id": "level-3-champion-companions-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-4-field-commander-0.png",
+     "id": "level-4-field-commander-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-4-gunpowder-monarch-0.png",
+     "id": "level-4-gunpowder-monarch-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-2-path-of-the-archer-0.png",
+     "id": "level-2-path-of-the-archer-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-2-path-of-the-warrior-0.png",
+     "id": "level-2-path-of-the-warrior-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 0,
+     "cost": {},
+     "from": [],
+     "icon": "assets/techs/level-3-rider-companions-0.png",
+     "id": "level-3-rider-companions-0",
+     "k": "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01",
+     "time": 0
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 200,
+      "wood": 100
+     },
+     "from": [
+      "school-of-cavalry",
+      "stable"
+     ],
+     "icon": "assets/techs/chivalry-2.png",
+     "id": "chivalry-2",
+     "k": "upgrade_cavalry_chivalry_fre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "school-of-cavalry",
+      "stable"
+     ],
+     "icon": "assets/techs/cantled-saddles-3.png",
+     "id": "cantled-saddles-3",
+     "k": "upgrade_cavalry_cantled_saddle_fre",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "wood": 100
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/chivalry-3.png",
+     "id": "chivalry-3",
+     "k": "upgrade_landmark_cavalry_chivalry_fre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/companion-equipment-3.png",
+     "id": "companion-equipment-3",
+     "k": "upgrade_landmark_keep_companion_upgrade_fre_ha_01",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/crossbow-stirrups-3.png",
+     "id": "crossbow-stirrups-3",
+     "k": "upgrade_landmark_ranged_crossbow_stirrups_fre",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/gambesons-3.png",
+     "id": "gambesons-3",
+     "k": "upgrade_ranged_crossbow_drills_fre",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/ordinance-company-3.png",
+     "id": "ordinance-company-3",
+     "k": "upgrade_landmark_enlistment_incentives_fre_ha_01",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "royal-institute"
+     ],
+     "icon": "assets/techs/royal-bloodlines-3.png",
+     "id": "royal-bloodlines-3",
+     "k": "upgrade_landmark_cavalry_bloodline_fre",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/crossbow-stirrups-4.png",
+     "id": "crossbow-stirrups-4",
+     "k": "upgrade_ranged_crossbow_stirrups_fre",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/long-guns-4.png",
+     "id": "long-guns-4",
+     "k": "upgrade_naval_long_guns_fre",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "chamber-of-commerce",
+      "market"
+     ],
+     "icon": "assets/techs/merchant-guilds-4.png",
+     "id": "merchant-guilds-4",
+     "k": "upgrade_market_trickle_fre",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/royal-bloodlines-4.png",
+     "id": "royal-bloodlines-4",
+     "k": "upgrade_cavalry_bloodline_fre",
+     "time": 90
+    }
+   ],
+   "traits": [
+    {
+     "k": "je-1"
+    },
+    {
+     "k": "je-2"
+    },
+    {
+     "k": "je-3"
+    },
+    {
+     "k": "je-4"
+    },
+    {
+     "k": "je-5"
+    }
+   ]
+  },
+  "jin": {
+   "en": "Jin Dynasty",
+   "flag": "assets/flags/jin.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "gold": 250,
+      "wood": 75
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/collective-hunting-1.png",
+     "id": "collective-hunting-1",
+     "k": "upgrade_collective_hunting_jin",
+     "time": 10
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 75,
+      "wood": 50
+     },
+     "from": [
+      "mill"
+     ],
+     "icon": "assets/techs/mohe-ancestry-1.png",
+     "id": "mohe-ancestry-1",
+     "k": "upgrade_mohe_ancestry_1_jin",
+     "time": 20
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "great-pasture",
+      "war-stable"
+     ],
+     "icon": "assets/techs/quilted-armor-1.png",
+     "id": "quilted-armor-1",
+     "k": "upgrade_quilted_armor_jin",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 150,
+      "wood": 50
+     },
+     "from": [
+      "mill"
+     ],
+     "icon": "assets/techs/hunting-tradition-2.png",
+     "id": "hunting-tradition-2",
+     "k": "upgrade_mohe_ancestry_2_jin",
+     "time": 40
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 125,
+      "wood": 50
+     },
+     "from": [
+      "machine-workshop"
+     ],
+     "icon": "assets/techs/lightweight-frames-2.png",
+     "id": "lightweight-frames-2",
+     "k": "upgrade_siege_weapon_speed_1_jin",
+     "time": 25
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 50,
+      "stone": 125
+     },
+     "from": [
+      "keep"
+     ],
+     "icon": "assets/techs/bed-crossbow-emplacement-3.png",
+     "id": "bed-crossbow-emplacement-3",
+     "k": "upgrade_keep_bedcrossbow_jin",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 125,
+      "wood": 25
+     },
+     "from": [
+      "lumber-camp"
+     ],
+     "icon": "assets/techs/draft-horses-3.png",
+     "id": "draft-horses-3",
+     "k": "upgrade_draft_horses_jin",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "stone": 100
+     },
+     "from": [
+      "great-wall-bastion",
+      "keep"
+     ],
+     "icon": "assets/techs/mengan-mouke-emplacement-3.png",
+     "id": "mengan-mouke-emplacement-3",
+     "k": "upgrade_keep_menganmouke_jin",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/naval-crossbows-3.png",
+     "id": "naval-crossbows-3",
+     "k": "upgrade_naval_bed_crossbow_ship_jin",
+     "time": 25
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "machine-workshop"
+     ],
+     "icon": "assets/techs/porcupine-defense-3.png",
+     "id": "porcupine-defense-3",
+     "k": "upgrade_nestofbees_porcupine_defense",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 500,
+      "stone": 200
+     },
+     "from": [
+      "great-wall-bastion",
+      "keep"
+     ],
+     "icon": "assets/techs/rain-of-fire-3.png",
+     "id": "rain-of-fire-3",
+     "k": "upgrade_tech_rain_of_fire_jin",
+     "time": 90
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "wood": 100
+     },
+     "from": [
+      "machine-workshop"
+     ],
+     "icon": "assets/techs/reinforced-axles-3.png",
+     "id": "reinforced-axles-3",
+     "k": "upgrade_siege_weapon_speed_2_jin",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/storm-lances-3.png",
+     "id": "storm-lances-3",
+     "k": "upgrade_storm_lances_jin",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "wood": 300
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/alliance-conducted-at-sea-4.png",
+     "id": "alliance-conducted-at-sea-4",
+     "k": "upgrade_alliance_conducted_sea_jin",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "stone": 300
+     },
+     "from": [
+      "great-wall-bastion",
+      "keep"
+     ],
+     "icon": "assets/techs/flying-fire-battalions-4.png",
+     "id": "flying-fire-battalions-4",
+     "k": "upgrade_improved_menganmouke_jin",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/heaven-shaking-thunder-4.png",
+     "id": "heaven-shaking-thunder-4",
+     "k": "upgrade_heaven_shaking_thunder_jin",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/padded-lamellar-4.png",
+     "id": "padded-lamellar-4",
+     "k": "upgrade_lamellar_armor_jin",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "machine-workshop"
+     ],
+     "icon": "assets/techs/pili-pao-4.png",
+     "id": "pili-pao-4",
+     "k": "upgrade_trebuchet_pilipao_jin",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/tower-shields-4.png",
+     "id": "tower-shields-4",
+     "k": "upgrade_towershields_jin",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "jin-1"
+    },
+    {
+     "k": "jin-2"
+    },
+    {
+     "k": "jin-3"
+    },
+    {
+     "k": "jin-4"
+    },
+    {
+     "k": "jin-5"
+    }
+   ]
+  },
+  "kt": {
+   "en": "Knights Templar",
+   "flag": "assets/flags/kt.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/kingdom-of-france-1.png",
+     "id": "kingdom-of-france-1",
+     "k": "upgrade_age_dark_com_2_tem",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/knights-hospitaller-1.png",
+     "id": "knights-hospitaller-1",
+     "k": "upgrade_age_dark_com_1_tem",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 400,
+      "gold": 200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/principality-of-antioch-1.png",
+     "id": "principality-of-antioch-1",
+     "k": "upgrade_age_dark_com_3_tem",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 150,
+      "wood": 250
+     },
+     "from": [
+      "capital-town-center"
+     ],
+     "icon": "assets/techs/sanctuary-1.png",
+     "id": "sanctuary-1",
+     "k": "upgrade_sanctuary_tem",
+     "time": 15
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/angevin-empire-2.png",
+     "id": "angevin-empire-2",
+     "k": "upgrade_age_feudal_com_1_tem",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "wood": 250
+     },
+     "from": [
+      "fortress"
+     ],
+     "icon": "assets/techs/desert-citadels-2.png",
+     "id": "desert-citadels-2",
+     "k": "upgrade_desert_citadels",
+     "time": 25
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/kingdom-of-castile-2.png",
+     "id": "kingdom-of-castile-2",
+     "k": "upgrade_age_feudal_com_3_tem",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 150,
+      "wood": 100
+     },
+     "from": [
+      "harbor"
+     ],
+     "icon": "assets/techs/naval-springald-emplacement-2.png",
+     "id": "naval-springald-emplacement-2",
+     "k": "upgrade_naval_springald_emplacement_tem",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 1200,
+      "gold": 600
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/republic-of-genoa-2.png",
+     "id": "republic-of-genoa-2",
+     "k": "upgrade_age_feudal_com_2_tem",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "wood": 200
+     },
+     "from": [
+      "capital-town-center"
+     ],
+     "icon": "assets/techs/safe-passage-2.png",
+     "id": "safe-passage-2",
+     "k": "upgrade_safe_passage_tem",
+     "time": 10
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/kingdom-of-poland-3.png",
+     "id": "kingdom-of-poland-3",
+     "k": "upgrade_age_castle_com_1_tem",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "market"
+     ],
+     "icon": "assets/techs/lettre-de-change-3.png",
+     "id": "lettre-de-change-3",
+     "k": "upgrade_lettre_de_change_tem",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/republic-of-venice-3.png",
+     "id": "republic-of-venice-3",
+     "k": "upgrade_age_castle_com_3_tem",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/rule-of-templars-3.png",
+     "id": "rule-of-templars-3",
+     "k": "upgrade_rule_of_templars_tem",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 2400,
+      "gold": 1200
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/teutonic-order-3.png",
+     "id": "teutonic-order-3",
+     "k": "upgrade_age_castle_com_2_tem",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "fortress"
+     ],
+     "icon": "assets/techs/treasure-towers-3.png",
+     "id": "treasure-towers-3",
+     "k": "upgrade_treasure_tower_tem",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/brigandine-4.png",
+     "id": "brigandine-4",
+     "k": "upgrade_brigandine_tem",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 1000,
+      "wood": 500
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/counterweight-defenses-4.png",
+     "id": "counterweight-defenses-4",
+     "k": "upgrade_trebuchet_projectiles",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/cranequins-4.png",
+     "id": "cranequins-4",
+     "k": "upgrade_cranequin_tem",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "monastery"
+     ],
+     "icon": "assets/techs/fanaticism-4.png",
+     "id": "fanaticism-4",
+     "k": "upgrade_fanaticism",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "stone": 100
+     },
+     "from": [
+      "fortress"
+     ],
+     "icon": "assets/techs/iron-clamps-4.png",
+     "id": "iron-clamps-4",
+     "k": "upgrade_iron_clamps_tem",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 275,
+      "stone": 150
+     },
+     "from": [
+      "fortress"
+     ],
+     "icon": "assets/techs/trebuchet-emplacement-4.png",
+     "id": "trebuchet-emplacement-4",
+     "k": "upgrade_keep_trebuchet",
+     "time": 30
+    }
+   ],
+   "traits": [
+    {
+     "k": "kt-1"
+    },
+    {
+     "k": "kt-2"
+    },
+    {
+     "k": "kt-3"
+    },
+    {
+     "k": "kt-4"
+    },
+    {
+     "k": "kt-5"
+    },
+    {
+     "f": 1,
+     "k": "kt-6"
+    },
+    {
+     "k": "kt-7"
+    }
+   ]
+  },
+  "ma": {
+   "en": "Malians",
+   "flag": "assets/flags/ma.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "wood": 75
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/banco-repairs-2.png",
+     "id": "banco-repairs-2",
+     "k": "upgrade_banco_repairs_mal",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 125,
+      "wood": 50
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/canoe-tactics-2.png",
+     "id": "canoe-tactics-2",
+     "k": "upgrade_naval_javelin_ships_mal",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 75
+     },
+     "from": [
+      "toll-outpost"
+     ],
+     "icon": "assets/techs/javelin-emplacement-2.png",
+     "id": "javelin-emplacement-2",
+     "k": "upgrade_outpost_javelin_slit_mal",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "barracks"
+     ],
+     "icon": "assets/techs/local-knowledge-2.png",
+     "id": "local-knowledge-2",
+     "k": "upgrade_stealth_healing_mal",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 175,
+      "gold": 500
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/imported-armor-3.png",
+     "id": "imported-armor-3",
+     "k": "upgrade_sofa_armor_mal",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 175,
+      "gold": 500
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/poisoned-arrows-3.png",
+     "id": "poisoned-arrows-3",
+     "k": "upgrade_archer_poison_arrow_mal",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 250,
+      "gold": 500
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/farima-leadership-4.png",
+     "id": "farima-leadership-4",
+     "k": "upgrade_sofa_farima_leadership_mal",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "wood": 150
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/precision-training-4.png",
+     "id": "precision-training-4",
+     "k": "upgrade_donso_precision_training_mal",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "ma-1"
+    },
+    {
+     "k": "ma-2"
+    },
+    {
+     "k": "ma-3"
+    },
+    {
+     "k": "ma-4"
+    },
+    {
+     "k": "ma-5"
+    },
+    {
+     "k": "ma-6"
+    },
+    {
+     "k": "ma-7"
+    },
+    {
+     "k": "ma-8"
+    },
+    {
+     "k": "ma-9"
+    }
+   ]
+  },
+  "mac": {
+   "en": "Macedonian Dynasty",
+   "flag": "assets/flags/mac.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "silver": 175
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/blade-inlaying-tier1-2.png",
+     "id": "blade-inlaying-tier1-2",
+     "k": "upgrade_arsenal_cavalry_damage_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 80,
+      "wood": 40
+     },
+     "from": [
+      "house"
+     ],
+     "icon": "assets/techs/border-settlements-2.png",
+     "id": "border-settlements-2",
+     "k": "upgrade_house_vision_byz",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 250
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/butted-chainmail-tier1-2.png",
+     "id": "butted-chainmail-tier1-2",
+     "k": "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 200
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/fortifications-tier1-2.png",
+     "id": "fortifications-tier1-2",
+     "k": "upgrade_arsenal_building_survivability_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 225
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/iron-fittings-tier1-2.png",
+     "id": "iron-fittings-tier1-2",
+     "k": "upgrade_arsenal_siege_survivability_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 250
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/lamellar-armor-tier1-2.png",
+     "id": "lamellar-armor-tier1-2",
+     "k": "upgrade_arsenal_ranged_survivability_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 175
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/pattern-welding-tier1-2.png",
+     "id": "pattern-welding-tier1-2",
+     "k": "upgrade_arsenal_melee_infantry_damage_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 750
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/ruinous-blinding-2.png",
+     "id": "ruinous-blinding-2",
+     "k": "upgrade_varangian_bowmen_blinding_byz_ha_mac",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 250
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/scale-barding-tier1-2.png",
+     "id": "scale-barding-tier1-2",
+     "k": "upgrade_arsenal_cavalry_survivability_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "silver": 275
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/sharpening-stones-tier1-2.png",
+     "id": "sharpening-stones-tier1-2",
+     "k": "upgrade_arsenal_ranged_damage_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "stone": 50
+     },
+     "from": [
+      "varangian-stronghold"
+     ],
+     "icon": "assets/techs/stronghold-defensive-arrowslits-2.png",
+     "id": "stronghold-defensive-arrowslits-2",
+     "k": "upgrade_tech_stronghold_arrows_byz_ha_mac",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 700
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/blade-inlaying-tier3-3.png",
+     "id": "blade-inlaying-tier3-3",
+     "k": "upgrade_arsenal_cavalry_damage_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 1100
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/butted-chainmail-tier3-3.png",
+     "id": "butted-chainmail-tier3-3",
+     "k": "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 800
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/fortifications-tier3-3.png",
+     "id": "fortifications-tier3-3",
+     "k": "upgrade_arsenal_building_survivability_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/heavy-dromon-3.png",
+     "id": "heavy-dromon-3",
+     "k": "upgrade_heavy_dromon_byz",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 900
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/iron-fittings-tier3-3.png",
+     "id": "iron-fittings-tier3-3",
+     "k": "upgrade_arsenal_siege_survivability_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 1100
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/lamellar-armor-tier3-3.png",
+     "id": "lamellar-armor-tier3-3",
+     "k": "upgrade_arsenal_ranged_survivability_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 125,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/liquid-explosives-3.png",
+     "id": "liquid-explosives-3",
+     "k": "upgrade_fireship_liquid_explosives_byz",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 75,
+      "stone": 200
+     },
+     "from": [
+      "keep"
+     ],
+     "icon": "assets/techs/mangonel-emplacement-3.png",
+     "id": "mangonel-emplacement-3",
+     "k": "upgrade_keep_mangonel_byz",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 700
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/pattern-welding-tier3-3.png",
+     "id": "pattern-welding-tier3-3",
+     "k": "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 500
+     },
+     "from": [
+      "varangian-warcamp"
+     ],
+     "icon": "assets/techs/polutasvarf-3.png",
+     "id": "polutasvarf-3",
+     "k": "upgrade_palace_pillaging_byz_ha_mac",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 1000
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/rhomphaia-3.png",
+     "id": "rhomphaia-3",
+     "k": "upgrade_rhomphaia_byz_ha_mac",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 1100
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/scale-barding-tier3-3.png",
+     "id": "scale-barding-tier3-3",
+     "k": "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "silver": 1100
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/sharpening-stones-tier3-3.png",
+     "id": "sharpening-stones-tier3-3",
+     "k": "upgrade_arsenal_ranged_damage_3_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 2400
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/blade-inlaying-tier5-4.png",
+     "id": "blade-inlaying-tier5-4",
+     "k": "upgrade_arsenal_cavalry_damage_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 3000
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/butted-chainmail-tier5-4.png",
+     "id": "butted-chainmail-tier5-4",
+     "k": "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 2600
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/fortifications-tier5-4.png",
+     "id": "fortifications-tier5-4",
+     "k": "upgrade_arsenal_building_survivability_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/greek-fire-projectiles-4.png",
+     "id": "greek-fire-projectiles-4",
+     "k": "upgrade_greek_fire_trebuchet_byz",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 2800
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/iron-fittings-tier5-4.png",
+     "id": "iron-fittings-tier5-4",
+     "k": "upgrade_arsenal_siege_survivability_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 3000
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/lamellar-armor-tier5-4.png",
+     "id": "lamellar-armor-tier5-4",
+     "k": "upgrade_arsenal_ranged_survivability_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 2400
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/pattern-welding-tier5-4.png",
+     "id": "pattern-welding-tier5-4",
+     "k": "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 1000
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/prolonged-siege-4.png",
+     "id": "prolonged-siege-4",
+     "k": "upgrade_siege_setup_damage_byz_ha_mac",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 500
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/roman-fire-4.png",
+     "id": "roman-fire-4",
+     "k": "upgrade_flaming_springald_byz_ha_mac",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 3000
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/scale-barding-tier5-4.png",
+     "id": "scale-barding-tier5-4",
+     "k": "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "silver": 3200
+     },
+     "from": [
+      "varangian-arsenal"
+     ],
+     "icon": "assets/techs/sharpening-stones-tier5-4.png",
+     "id": "sharpening-stones-tier5-4",
+     "k": "upgrade_arsenal_ranged_damage_5_byz_ha_mac",
+     "rep": 2,
+     "repAll": 6,
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "mac-1"
+    },
+    {
+     "k": "mac-2"
+    },
+    {
+     "k": "mac-3"
+    },
+    {
+     "k": "mac-4"
+    },
+    {
+     "k": "mac-5"
+    },
+    {
+     "k": "mac-6"
+    },
+    {
+     "k": "mac-7"
+    },
+    {
+     "k": "mac-8"
+    },
+    {
+     "k": "mac-9"
+    }
+   ]
+  },
+  "mo": {
+   "en": "Mongols",
+   "flag": "assets/flags/mo.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 25,
+      "gold": 50,
+      "stone": 75
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/forestry-improved-1.png",
+     "id": "forestry-improved-1",
+     "k": "upgrade_econ_resource_wood_fell_rate_1_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 75,
+      "wood": 25
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/superior-mobility-1.png",
+     "id": "superior-mobility-1",
+     "k": "upgrade_unit_town_center_faster_packing_1_mon",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 75,
+      "stone": 100,
+      "wood": 25
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/survival-techniques-improved-1.png",
+     "id": "survival-techniques-improved-1",
+     "k": "upgrade_econ_villager_hunting_gear_1_improved_mon",
+     "time": 25
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 150,
+      "stone": 200,
+      "wood": 50
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/wheelbarrow-improved-1.png",
+     "id": "wheelbarrow-improved-1",
+     "k": "upgrade_unit_wheelbarrow_1_improved_mon",
+     "time": 90
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 50,
+      "gold": 75
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/whistling-arrows-1.png",
+     "id": "whistling-arrows-1",
+     "k": "upgrade_khan_signal_arrow_mon",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 100,
+      "stone": 500
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/double-broadax-improved-2.png",
+     "id": "double-broadax-improved-2",
+     "k": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "stone": 500,
+      "wood": 50
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/horticulture-improved-2.png",
+     "id": "horticulture-improved-2",
+     "k": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/piracy-2.png",
+     "id": "piracy-2",
+     "k": "upgrade_naval_piracy_mon",
+     "time": 20
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 75,
+      "gold": 150
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/raid-bounty-2.png",
+     "id": "raid-bounty-2",
+     "k": "upgrade_raid_bounty_mon",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 75,
+      "gold": 150,
+      "stone": 225
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/raid-bounty-improved-2.png",
+     "id": "raid-bounty-improved-2",
+     "k": "upgrade_raid_bounty_improved_mon",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 125,
+      "stone": 175,
+      "wood": 50
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/siege-engineering-improved-2.png",
+     "id": "siege-engineering-improved-2",
+     "k": "upgrade_improved_siege_engineers_mon",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "stone": 500,
+      "wood": 50
+     },
+     "from": [
+      "ger",
+      "steppe-redoubt"
+     ],
+     "icon": "assets/techs/specialized-pick-improved-2.png",
+     "id": "specialized-pick-improved-2",
+     "k": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 75,
+      "stone": 100,
+      "wood": 25
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/superior-mobility-improved-2.png",
+     "id": "superior-mobility-improved-2",
+     "k": "upgrade_unit_town_center_faster_packing_1_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 75,
+      "stone": 125
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/whistling-arrows-improved-2.png",
+     "id": "whistling-arrows-improved-2",
+     "k": "upgrade_khan_signal_arrow_improved_mon",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/additional-torches-3.png",
+     "id": "additional-torches-3",
+     "k": "upgrade_weapon_fire_damage_mon",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350,
+      "stone": 400
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/additional-torches-improved-3.png",
+     "id": "additional-torches-improved-3",
+     "k": "upgrade_weapon_fire_damage_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 350,
+      "stone": 500,
+      "wood": 150
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/greased-axles-improved-3.png",
+     "id": "greased-axles-improved-3",
+     "k": "upgrade_siege_weapon_speed_improved_mon",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 275,
+      "stone": 275
+     },
+     "from": [
+      "prayer-tent"
+     ],
+     "icon": "assets/techs/herbal-medicine-improved-3.png",
+     "id": "herbal-medicine-improved-3",
+     "k": "upgrade_unit_religious_herbal_medicine_4_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "stone": 350,
+      "wood": 100
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/military-academy-improved-3.png",
+     "id": "military-academy-improved-3",
+     "k": "upgrade_tech_military_academy_improved_mon",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 225,
+      "wood": 100
+     },
+     "from": [
+      "prayer-tent"
+     ],
+     "icon": "assets/techs/monastic-shrines-3.png",
+     "id": "monastic-shrines-3",
+     "k": "upgrade_religious_monastery_ovoo_mon",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/steppe-lancers-3.png",
+     "id": "steppe-lancers-3",
+     "k": "upgrade_lancer_healing_mon",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 50,
+      "gold": 100,
+      "stone": 150
+     },
+     "from": [
+      "capital-town-center",
+      "town-center"
+     ],
+     "icon": "assets/techs/textiles-improved-3.png",
+     "id": "textiles-improved-3",
+     "k": "upgrade_villager_health_improved_mon",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "outpost"
+     ],
+     "icon": "assets/techs/yam-network-3.png",
+     "id": "yam-network-3",
+     "k": "upgrade_ortoo_all_units_mon",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000,
+      "stone": 1500
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/biology-improved-4.png",
+     "id": "biology-improved-4",
+     "k": "upgrade_tech_university_biology_improved_mon",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000,
+      "stone": 1500
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/elite-army-tactics-improved-4.png",
+     "id": "elite-army-tactics-improved-4",
+     "k": "upgrade_manatarms_elite_army_tactics_improved_mon",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 225,
+      "stone": 325,
+      "wood": 100
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/geometry-improved-4.png",
+     "id": "geometry-improved-4",
+     "k": "upgrade_siege_mathematics_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 400,
+      "stone": 500,
+      "wood": 300
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/lightweight-beams-improved-4.png",
+     "id": "lightweight-beams-improved-4",
+     "k": "upgrade_ram_scaling_improved_mon",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "stone": 300
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/pax-mongolica-4.png",
+     "id": "pax-mongolica-4",
+     "k": "upgrade_outpost_stone_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 325,
+      "stone": 325
+     },
+     "from": [
+      "prayer-tent"
+     ],
+     "icon": "assets/techs/piety-improved-4.png",
+     "id": "piety-improved-4",
+     "k": "upgrade_unit_religious_piety_4_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 350,
+      "stone": 500,
+      "wood": 150
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/roller-shutter-triggers-improved-4.png",
+     "id": "roller-shutter-triggers-improved-4",
+     "k": "upgrade_siege_roller_trigger_improved_mon",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 600,
+      "stone": 900,
+      "wood": 300
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/siege-works-improved-4.png",
+     "id": "siege-works-improved-4",
+     "k": "upgrade_siege_works_improved_mon",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 200,
+      "wood": 75
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/siha-bow-limbs-4.png",
+     "id": "siha-bow-limbs-4",
+     "k": "upgrade_mangudai_weapon_damage_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 200,
+      "stone": 275,
+      "wood": 75
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/siha-bow-limbs-improved-4.png",
+     "id": "siha-bow-limbs-improved-4",
+     "k": "upgrade_mangudai_weapon_damage_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350,
+      "stone": 500
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/steppe-lancers-improved-4.png",
+     "id": "steppe-lancers-improved-4",
+     "k": "upgrade_lancer_healing_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 225
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/stone-bounty-4.png",
+     "id": "stone-bounty-4",
+     "k": "upgrade_raid_stone_bounty_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 225,
+      "stone": 325
+     },
+     "from": [
+      "ovoo",
+      "the-white-stupa"
+     ],
+     "icon": "assets/techs/stone-bounty-improved-4.png",
+     "id": "stone-bounty-improved-4",
+     "k": "upgrade_raid_stone_bounty_improved_mon",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "market",
+      "the-silver-tree"
+     ],
+     "icon": "assets/techs/stone-commerce-4.png",
+     "id": "stone-commerce-4",
+     "k": "upgrade_trader_silkroad_stone_mon",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700,
+      "stone": 1000
+     },
+     "from": [
+      "market",
+      "the-silver-tree"
+     ],
+     "icon": "assets/techs/stone-commerce-improved-4.png",
+     "id": "stone-commerce-improved-4",
+     "k": "upgrade_trader_silkroad_stone_improved_mon",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "stone": 500
+     },
+     "from": [
+      "prayer-tent"
+     ],
+     "icon": "assets/techs/tithe-barns-improved-4.png",
+     "id": "tithe-barns-improved-4",
+     "k": "upgrade_unit_religious_tithe_barn_4_improved_mon",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 250,
+      "stone": 250,
+      "wood": 100
+     },
+     "from": [
+      "deer-stones",
+      "outpost"
+     ],
+     "icon": "assets/techs/yam-network-improved-4.png",
+     "id": "yam-network-improved-4",
+     "k": "upgrade_ortoo_all_units_improved_mon",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "mo-1"
+    },
+    {
+     "k": "mo-2"
+    },
+    {
+     "k": "mo-3"
+    },
+    {
+     "k": "mo-4"
+    },
+    {
+     "k": "mo-5"
+    },
+    {
+     "k": "mo-6"
+    },
+    {
+     "k": "mo-7"
+    },
+    {
+     "k": "mo-8"
+    },
+    {
+     "k": "mo-9"
+    }
+   ]
+  },
+  "od": {
+   "en": "Order of the Dragon",
+   "flag": "assets/flags/od.png",
+   "techs": [
+    {
+     "age": 2,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/fire-stations-2.png",
+     "id": "fire-stations-2",
+     "k": "upgrade_naval_firestations_hre",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 150,
+      "gold": 250
+     },
+     "from": [
+      "meinwerk-palace"
+     ],
+     "icon": "assets/techs/golden-cuirass-2.png",
+     "id": "golden-cuirass-2",
+     "k": "upgrade_golden_cuirass_hre_ha_01",
+     "time": 60
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "barracks",
+      "burgrave-palace"
+     ],
+     "icon": "assets/techs/heavy-torches-2.png",
+     "id": "heavy-torches-2",
+     "k": "upgrade_dragon_fire_hre_ha_01",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "monastery",
+      "regnitz-cathedral"
+     ],
+     "icon": "assets/techs/inspired-warriors-3.png",
+     "id": "inspired-warriors-3",
+     "k": "upgrade_inspired_infantry_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/scale-armor-3.png",
+     "id": "scale-armor-3",
+     "k": "upgrade_archer_armor_hre_ha_01",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "stone": 100
+     },
+     "from": [
+      "elzbach-palace",
+      "keep"
+     ],
+     "icon": "assets/techs/slate-and-stone-construction-3.png",
+     "id": "slate-and-stone-construction-3",
+     "k": "upgrade_building_fire_armor_hre",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "meinwerk-palace"
+     ],
+     "icon": "assets/techs/zornhau-3.png",
+     "id": "zornhau-3",
+     "k": "upgrade_zornhau_hre_ha_01",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "meinwerk-palace"
+     ],
+     "icon": "assets/techs/bodkin-bolts-4.png",
+     "id": "bodkin-bolts-4",
+     "k": "upgrade_crossbow_siege_damage_hre_ha_01",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 250,
+      "stone": 100
+     },
+     "from": [
+      "elzbach-palace",
+      "keep"
+     ],
+     "icon": "assets/techs/reinforced-defenses-4.png",
+     "id": "reinforced-defenses-4",
+     "k": "upgrade_reinforced_defenses_hre",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/war-horses-4.png",
+     "id": "war-horses-4",
+     "k": "upgrade_knight_war_horses_hre_ha_01",
+     "time": 90
+    }
+   ],
+   "traits": [
+    {
+     "k": "od-1"
+    },
+    {
+     "k": "od-2"
+    },
+    {
+     "k": "od-3"
+    },
+    {
+     "k": "od-4"
+    },
+    {
+     "k": "od-5"
+    },
+    {
+     "k": "od-6"
+    },
+    {
+     "k": "od-7"
+    }
+   ]
+  },
+  "ot": {
+   "en": "Ottomans",
+   "flag": "assets/flags/ot.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/advanced-academy-1.png",
+     "id": "advanced-academy-1",
+     "k": "upgrade_imperial_military_training_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/anatolian-hills-1.png",
+     "id": "anatolian-hills-1",
+     "k": "upgrade_anatolian_hills_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/field-work-1.png",
+     "id": "field-work-1",
+     "k": "upgrade_imperial_monk_formation_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/janissary-company-1.png",
+     "id": "janissary-company-1",
+     "k": "upgrade_imperial_janissary_company_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/mehter-drums-1.png",
+     "id": "mehter-drums-1",
+     "k": "upgrade_imperial_mehter_drums_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/military-campus-1.png",
+     "id": "military-campus-1",
+     "k": "upgrade_imperial_military_campus_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/siege-crews-1.png",
+     "id": "siege-crews-1",
+     "k": "upgrade_imperial_manned_siege_ott",
+     "time": 0
+    },
+    {
+     "age": 1,
+     "cost": {
+      "vizier": 1
+     },
+     "from": [],
+     "icon": "assets/techs/trade-bags-1.png",
+     "id": "trade-bags-1",
+     "k": "upgrade_imperial_trader_capacity_ott",
+     "time": 0
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 250,
+      "stone": 400
+     },
+     "from": [
+      "keep",
+      "sea-gate-castle"
+     ],
+     "icon": "assets/techs/great-bombard-emplacement-4.png",
+     "id": "great-bombard-emplacement-4",
+     "k": "upgrade_keep_great_bombard",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/imperial-fleet-4.png",
+     "id": "imperial-fleet-4",
+     "k": "upgrade_naval_imperial_fleet_ott",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/janissary-guns-4.png",
+     "id": "janissary-guns-4",
+     "k": "upgrade_ranged_janissary_guns_ott",
+     "time": 45
+    }
+   ],
+   "traits": [
+    {
+     "k": "ot-1"
+    },
+    {
+     "k": "ot-2"
+    },
+    {
+     "k": "ot-3"
+    },
+    {
+     "k": "ot-4"
+    },
+    {
+     "k": "ot-5"
+    },
+    {
+     "k": "ot-6"
+    }
+   ]
+  },
+  "ru": {
+   "en": "Rus",
+   "flag": "assets/flags/ru.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 75,
+      "gold": 200
+     },
+     "from": [
+      "abbey-of-the-trinity",
+      "monastery"
+     ],
+     "icon": "assets/techs/divine-light-1.png",
+     "id": "divine-light-1",
+     "k": "upgrade_saints_blessing_duration_rus",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 75
+     },
+     "from": [
+      "wooden-fortress"
+     ],
+     "icon": "assets/techs/castle-turret-2.png",
+     "id": "castle-turret-2",
+     "k": "upgrade_wooden_castle_turret_rus",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "stone": 50
+     },
+     "from": [
+      "wooden-fortress"
+     ],
+     "icon": "assets/techs/castle-watch-2.png",
+     "id": "castle-watch-2",
+     "k": "upgrade_wooden_castle_watch_rus",
+     "time": 15
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 175
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/adaptable-hulls-3.png",
+     "id": "adaptable-hulls-3",
+     "k": "upgrade_naval_adaptable_hulls_rus",
+     "time": 20
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/boyars-fortitude-3.png",
+     "id": "boyars-fortitude-3",
+     "k": "upgrade_cavalry_hp_rus",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 150
+     },
+     "from": [
+      "abbey-of-the-trinity"
+     ],
+     "icon": "assets/techs/fervor-3.png",
+     "id": "fervor-3",
+     "k": "upgrade_saints_blessing_buff_effect_rus",
+     "time": 25
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 225,
+      "wood": 100
+     },
+     "from": [
+      "high-armory"
+     ],
+     "icon": "assets/techs/banded-arms-4.png",
+     "id": "banded-arms-4",
+     "k": "upgrade_springald_range_rus",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "high-armory"
+     ],
+     "icon": "assets/techs/fine-tuned-guns-4.png",
+     "id": "fine-tuned-guns-4",
+     "k": "upgrade_siege_fined_tuned_guns_rus",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/knight-poleaxes-4.png",
+     "id": "knight-poleaxes-4",
+     "k": "upgrade_cavalry_melee_damage_rus",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/mounted-training-4.png",
+     "id": "mounted-training-4",
+     "k": "upgrade_horse_archer_mounted_training_rus",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 425
+     },
+     "from": [
+      "abbey-of-the-trinity"
+     ],
+     "icon": "assets/techs/saints-veneration-4.png",
+     "id": "saints-veneration-4",
+     "k": "upgrade_saints_veneration_rus",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 225
+     },
+     "from": [
+      "high-armory"
+     ],
+     "icon": "assets/techs/siege-crew-training-4.png",
+     "id": "siege-crew-training-4",
+     "k": "upgrade_siege_crew_training_rus",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 100,
+      "gold": 225
+     },
+     "from": [
+      "high-armory"
+     ],
+     "icon": "assets/techs/wandering-town-4.png",
+     "id": "wandering-town-4",
+     "k": "upgrade_siege_improvements_rus",
+     "time": 45
+    }
+   ],
+   "traits": [
+    {
+     "k": "ru-1"
+    },
+    {
+     "k": "ru-2"
+    },
+    {
+     "k": "ru-3"
+    },
+    {
+     "k": "ru-4"
+    },
+    {
+     "k": "ru-5"
+    },
+    {
+     "k": "ru-6"
+    },
+    {
+     "k": "ru-7"
+    }
+   ]
+  },
+  "sen": {
+   "en": "Sengoku Daimyo",
+   "flag": "assets/flags/sen.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 200,
+      "gold": 500
+     },
+     "from": [
+      "hojo-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/cross-folded-armor-1.png",
+     "id": "cross-folded-armor-1",
+     "k": "upgrade_infantry_ranged_armor_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 150,
+      "gold": 275
+     },
+     "from": [
+      "oda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/higoyumi-1.png",
+     "id": "higoyumi-1",
+     "k": "upgrade_yumi_damage_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "takeda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/horse-training-1.png",
+     "id": "horse-training-1",
+     "k": "upgrade_yari_horse_training_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "takeda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/improved-yari-1.png",
+     "id": "improved-yari-1",
+     "k": "upgrade_yari_improved_damage_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "hojo-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/lightweight-blades-1.png",
+     "id": "lightweight-blades-1",
+     "k": "upgrade_spearman_horseman_range_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 75,
+      "gold": 175
+     },
+     "from": [
+      "hojo-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/samurai-bow-1.png",
+     "id": "samurai-bow-1",
+     "k": "upgrade_samurai_bow_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 35,
+      "stone": 15
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/tatara-1.png",
+     "id": "tatara-1",
+     "k": "upgrade_melee_damage_i_jpn",
+     "time": 15
+    },
+    {
+     "age": 1,
+     "cost": {
+      "gold": 50,
+      "wood": 25
+     },
+     "from": [
+      "farmhouse"
+     ],
+     "icon": "assets/techs/tawara-1.png",
+     "id": "tawara-1",
+     "k": "upgrade_unit_town_center_wheelbarrow_1_jpn",
+     "time": 30
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "stone": 50
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/hizukuri-2.png",
+     "id": "hizukuri-2",
+     "k": "upgrade_melee_damage_ii_jpn",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 100,
+      "wood": 50
+     },
+     "from": [
+      "farmhouse"
+     ],
+     "icon": "assets/techs/takezaiku-2.png",
+     "id": "takezaiku-2",
+     "k": "upgrade_unit_town_center_wheelbarrow_2_jpn",
+     "time": 40
+    },
+    {
+     "age": 2,
+     "cost": {
+      "gold": 300
+     },
+     "from": [
+      "matsuri"
+     ],
+     "icon": "assets/techs/yatai-farm-gather-2.png",
+     "id": "yatai-farm-gather-2",
+     "k": "upgrade_yatai_farm_gather_jpn_ha_sen",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 150,
+      "wood": 75
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/copper-plating-3.png",
+     "id": "copper-plating-3",
+     "k": "upgrade_copper_plating_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 250,
+      "wood": 100
+     },
+     "from": [
+      "farmhouse"
+     ],
+     "icon": "assets/techs/fudasashi-3.png",
+     "id": "fudasashi-3",
+     "k": "upgrade_unit_town_center_wheelbarrow_3_jpn",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 300
+     },
+     "from": [
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/kampo-medicine-3.png",
+     "id": "kampo-medicine-3",
+     "k": "upgrade_temple_monk_healing_jpn_ha_sen",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 200,
+      "stone": 125
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/kobuse-gitae-3.png",
+     "id": "kobuse-gitae-3",
+     "k": "upgrade_melee_damage_iii_jpn",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "gold": 300
+     },
+     "from": [
+      "buddhist-temple",
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/mountain-top-training-3.png",
+     "id": "mountain-top-training-3",
+     "k": "upgrade_temple_monk_move_speed_jpn_ha_sen",
+     "time": 30
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "takeda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/mounted-samurai-odachi-3.png",
+     "id": "mounted-samurai-odachi-3",
+     "k": "upgrade_mounted_samurai_odachi_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "oda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/ozutsu-unlock-3.png",
+     "id": "ozutsu-unlock-3",
+     "k": "upgrade_ozutsu_unlock_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "oda-clan-daimyo-estate"
+     ],
+     "icon": "assets/techs/tanegashima-tate-3.png",
+     "id": "tanegashima-tate-3",
+     "k": "upgrade_tanegashima_pavise_jpn_ha_sen",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 300
+     },
+     "from": [
+      "temple-of-equality"
+     ],
+     "icon": "assets/techs/nenbutsu-4.png",
+     "id": "nenbutsu-4",
+     "k": "upgrade_temple_monk_health_attack_jpn_ha_sen",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000
+     },
+     "from": [
+      "university"
+     ],
+     "icon": "assets/techs/oda-tactics-4.png",
+     "id": "oda-tactics-4",
+     "k": "upgrade_elite_army_tactics_jpn",
+     "time": 90
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 275,
+      "stone": 175
+     },
+     "from": [
+      "forge"
+     ],
+     "icon": "assets/techs/yaki-ire-4.png",
+     "id": "yaki-ire-4",
+     "k": "upgrade_melee_damage_iv_jpn",
+     "time": 60
+    }
+   ],
+   "traits": [
+    {
+     "k": "sen-1"
+    },
+    {
+     "k": "sen-2"
+    },
+    {
+     "k": "sen-3"
+    },
+    {
+     "k": "sen-4"
+    },
+    {
+     "k": "sen-5"
+    },
+    {
+     "k": "sen-6"
+    },
+    {
+     "k": "sen-7"
+    }
+   ]
+  },
+  "tug": {
+   "en": "Tughlaq Dynasty",
+   "flag": "assets/flags/tug.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "gold": 150
+     },
+     "from": [
+      "tughlaqabad-fort"
+     ],
+     "icon": "assets/techs/curse-of-auliya-1.png",
+     "id": "curse-of-auliya-1",
+     "k": "upgrade_keep_curse_of_the_fort",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 60,
+      "gold": 150
+     },
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/elephant-caretakers-2.png",
+     "id": "elephant-caretakers-2",
+     "k": "upgrade_elephant_caretakers_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 90,
+      "gold": 210
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/tughlaqabad-fort-overwatch-2.png",
+     "id": "tughlaqabad-fort-overwatch-2",
+     "k": "upgrade_fort_support_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 60,
+      "gold": 150
+     },
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/collateral-damage-3.png",
+     "id": "collateral-damage-3",
+     "k": "upgrade_elephant_building_damage_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 60,
+      "gold": 150
+     },
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/khanda-drills-3.png",
+     "id": "khanda-drills-3",
+     "k": "upgrade_improved_infantry_charge_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 60,
+      "gold": 150
+     },
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/mahouts-3.png",
+     "id": "mahouts-3",
+     "k": "upgrade_landmark_mahouts_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 60,
+      "gold": 150
+     },
+     "from": [
+      "house-of-learning"
+     ],
+     "icon": "assets/techs/neza-training-3.png",
+     "id": "neza-training-3",
+     "k": "upgrade_improved_spearman_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 500,
+      "gold": 1000
+     },
+     "from": [
+      "stable"
+     ],
+     "icon": "assets/techs/armored-beasts-4.png",
+     "id": "armored-beasts-4",
+     "k": "upgrade_age3_war_elephant_elite_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 240,
+      "gold": 600
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/reinforced-arm-ballista-4.png",
+     "id": "reinforced-arm-ballista-4",
+     "k": "upgrade_unit_war_elephant_ballista_4_sul_ha_tug",
+     "time": 5
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 240,
+      "gold": 600
+     },
+     "from": [
+      "dome-of-the-faith",
+      "mosque"
+     ],
+     "icon": "assets/techs/upgrade-to-elite-4.png",
+     "id": "upgrade-to-elite-4",
+     "k": "upgrade_unit_healer_elephant_4_sul_ha_tug",
+     "time": 5
+    }
+   ],
+   "traits": [
+    {
+     "f": 1,
+     "k": "tug-1"
+    },
+    {
+     "k": "tug-2"
+    },
+    {
+     "k": "tug-3"
+    },
+    {
+     "k": "tug-4"
+    },
+    {
+     "k": "tug-5"
+    },
+    {
+     "k": "tug-6"
+    },
+    {
+     "k": "tug-7"
+    },
+    {
+     "k": "tug-8"
+    }
+   ]
+  },
+  "zx": {
+   "en": "Zhu Xi's Legacy",
+   "flag": "assets/flags/zx.png",
+   "techs": [
+    {
+     "age": 1,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "mount-lu-academy"
+     ],
+     "icon": "assets/techs/military-affairs-bureau-1.png",
+     "id": "military-affairs-bureau-1",
+     "k": "upgrade_official_supervise_defensive",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 50,
+      "gold": 125
+     },
+     "from": [
+      "mount-lu-academy"
+     ],
+     "icon": "assets/techs/regional-inspection-1.png",
+     "id": "regional-inspection-1",
+     "k": "upgrade_official_supervise",
+     "time": 45
+    },
+    {
+     "age": 1,
+     "cost": {
+      "food": 75,
+      "gold": 175
+     },
+     "from": [
+      "mount-lu-academy"
+     ],
+     "icon": "assets/techs/single-whip-reform-1.png",
+     "id": "single-whip-reform-1",
+     "k": "upgrade_official_movement_speed",
+     "time": 45
+    },
+    {
+     "age": 2,
+     "cost": {
+      "food": 75,
+      "gold": 175
+     },
+     "from": [
+      "blacksmith"
+     ],
+     "icon": "assets/techs/dali-horses-2.png",
+     "id": "dali-horses-2",
+     "k": "upgrade_dali_horses_chi_ha_01",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 75,
+      "gold": 150
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/bolt-magazines-3.png",
+     "id": "bolt-magazines-3",
+     "k": "upgrade_repeater_damage_chi_ha_01",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 250
+     },
+     "from": [
+      "archery-range"
+     ],
+     "icon": "assets/techs/hard-cased-bombs-3.png",
+     "id": "hard-cased-bombs-3",
+     "k": "upgrade_gunpowder_damage_chi_ha_01",
+     "time": 45
+    },
+    {
+     "age": 3,
+     "cost": {
+      "food": 100,
+      "gold": 200
+     },
+     "from": [
+      "mount-lu-academy"
+     ],
+     "icon": "assets/techs/imperial-red-seals-3.png",
+     "id": "imperial-red-seals-3",
+     "k": "upgrade_official_limit",
+     "time": 45
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "zhu-xis-library"
+     ],
+     "icon": "assets/techs/10000-bolts-4.png",
+     "id": "10000-bolts-4",
+     "k": "upgrade_library_crossbow_upgrade",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 800,
+      "wood": 400
+     },
+     "from": [
+      "siege-workshop"
+     ],
+     "icon": "assets/techs/additional-barrels-4.png",
+     "id": "additional-barrels-4",
+     "k": "upgrade_gunpowder_cost_chi",
+     "time": 60
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 150,
+      "gold": 350
+     },
+     "from": [
+      "zhu-xis-library"
+     ],
+     "icon": "assets/techs/advanced-administration-4.png",
+     "id": "advanced-administration-4",
+     "k": "upgrade_library_improved_officials",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 700,
+      "wood": 300
+     },
+     "from": [
+      "zhu-xis-library"
+     ],
+     "icon": "assets/techs/cloud-of-terror-4.png",
+     "id": "cloud-of-terror-4",
+     "k": "upgrade_library_siege_works",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "zhu-xis-library"
+     ],
+     "icon": "assets/techs/dynastic-protectors-4.png",
+     "id": "dynastic-protectors-4",
+     "k": "upgrade_library_unfailing_grit",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "food": 300,
+      "gold": 700
+     },
+     "from": [
+      "zhu-xis-library"
+     ],
+     "icon": "assets/techs/roar-of-the-dragon-4.png",
+     "id": "roar-of-the-dragon-4",
+     "k": "upgrade_library_flaming_charge",
+     "time": 30
+    },
+    {
+     "age": 4,
+     "cost": {
+      "gold": 500,
+      "wood": 200
+     },
+     "from": [
+      "dock"
+     ],
+     "icon": "assets/techs/thunderclap-bombs-4.png",
+     "id": "thunderclap-bombs-4",
+     "k": "upgrade_naval_explosive_techniques_chi",
+     "time": 45
+    }
+   ],
+   "traits": [
+    {
+     "k": "zx-1"
+    },
+    {
+     "k": "zx-2"
+    },
+    {
+     "k": "zx-3"
+    },
+    {
+     "k": "zx-4"
+    },
+    {
+     "k": "zx-5"
+    },
+    {
+     "k": "zx-6"
+    },
+    {
+     "k": "zx-7"
+    }
+   ]
+  }
+ },
+ "langs": [
+  "ja",
+  "en",
+  "de",
+  "es",
+  "fr",
+  "it",
+  "ko",
+  "pl",
+  "pt-BR",
+  "ru",
+  "tr",
+  "vi",
+  "zh-Hans",
+  "zh-Hant"
+ ],
+ "patch": "Season 13 / 16.1.9737（構造）+ ゲーム本体 2026-07-05 版（HP・攻撃力・防御）",
+ "source": "https://github.com/aoe4world/data"
+}

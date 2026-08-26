@@ -1,0 +1,38 @@
+{
+ "name": "Jeanne d'Arc",
+ "description": "A spark of hope for the French people, Jeanne d'Arc takes to the battlefield and inspires courage to her followers. Starting as a humble villager, Jeanne begins the Journey of a Hero in the Dark Age. Experience forges Jeanne into a powerful leader, gaining access to trusted companions and powerful abilities which shape the empire she was destined to create.",
+ "classes": "Trade, Cavalry, Hero",
+ "overview": [
+  {
+   "title": "Civilization Bonuses",
+   "list": [
+    "Jeanne d'Arc navigates the Journey of a Hero.",
+    "Royal Knights in the Feudal Age (II).",
+    "Economic technologies are -35% cheaper.",
+    "Trade Posts are revealed on the minimap.",
+    "Traders can return Food, Wood, or Gold to Markets.",
+    "Trade Ships return +20% resources."
+   ]
+  },
+  {
+   "title": "Journey of a Hero",
+   "description": "Jeanne d'Arc is present on the battlefield. A heroic unit who gains experience for completing tasks such as gathering resources, constructing buildings, and participating in combat.\nAfter accruing enough experience, Jeanne may level up to obtain powerful economic and combat abilities."
+  },
+  {
+   "title": "Royal Stallions",
+   "description": "Deploy the Royal Knight in the Feudal Age (II) and research powerful unique technologies for cavalry."
+  },
+  {
+   "title": "Galvanized Economy",
+   "description": "The people work harder under Jeanne d'Arc's leadership. Economic upgrades are 35% cheaper."
+  },
+  {
+   "title": "Trade Economy",
+   "description": "Choose to return Food, Wood, or Gold to Markets with Traders and Trade Ships.\nTrade Ships return +20% more resources.\nTrade Posts are revealed on the minimap at the start of the game.\nDocks provide populations space."
+  },
+  {
+   "title": "Unique Units",
+   "description": "Jeanne d'Arc: A hero unit that starts as a villager, Jeanne begins the Journey of a Hero to gain powerful abilities.\nJeanne's Rider: Fast Cavalry effective at raiding, flanking, and countering Crossbows, becomes available once Jeanne achieves level 3.\nJeanne's Champion: Tough infantry that excels at countering Spearmen, becomes available once Jeanne achieves level 3.\nRoyal Knight: Heavy Cavalry that gains +3 bonus damage for 5 seconds after completing a charge.\nArbalétrier: Crossbowman with +1 melee armor that can deploy a defensive Pavise to provide +5 ranged armor and +1 weapon range for 30 seconds.\nCannon: Bombard replacement with more damage, mobility and no setup time.\nGalleass: Large war galley that has a long range forward mounted bombard.\nWar Cog: Unique Springald Ship with reduced cost and increased pierce armor."
+  }
+ ]
+}

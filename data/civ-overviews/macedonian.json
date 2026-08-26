@@ -1,0 +1,57 @@
+{
+ "name": "Macedonian Dynasty",
+ "description": "Emperor Basil II employed Varangians to defend against revolts fomented by Byzantine nobles. Arriving on ships from the north, these foreign-born warriors were not swayed by Byzantine politics and culture, creating an elite shock division protecting emperors for centuries to come. The Macedonian Dynasty mints Silver as a unique resource to spend at Varangian Arsenals, sharpening their blades and honing their skills while they protect the Emperor.",
+ "classes": "Varangians, Silver, Technology",
+ "overview": [
+  {
+   "title": "Civilization Bonuses",
+   "list": [
+    "Villagers extract Silver from Gold and Stone to research unique technologies.",
+    "Generate Silver passively on Mining Camps and Town Centers with influence of Varangian Arsenals.",
+    "Exceed three tiers of technologies with the Varangian Arsenal by spending Silver.",
+    "Access to Early Varangian Guard in the Feudal Age (II).",
+    "Produce all unique Varangian units from the Varangian Stronghold.",
+    "Varangian units have unique abilities to improve their combat effectiveness.",
+    "Reinforce warriors that fall in battle for free with the Varangian Warcamp.",
+    "Field units capable of using various forms of Greek Fire.",
+    "Transport Ships temporarily increase the move speed of units when unloading."
+   ]
+  },
+  {
+   "title": "Galena Gathering",
+   "description": "Villagers discover abundant galena deposits among Gold Veins and Stone Outcroppings and extract Silver as a unique resource when mining from them.\nVillagers extract Silver equal to 40% of Gold or Stone mined."
+  },
+  {
+   "title": "Influence - Silver Minting",
+   "description": "(translation not found) (undefined)"
+  },
+  {
+   "title": "Varangian Smithing",
+   "description": "Research unique military technologies at the Varangian Arsenal for Silver. Replaces the Blacksmith and University. Macedonian Dynasty can exceed three tiers of military upgrades per category."
+  },
+  {
+   "title": "Strongholds",
+   "description": "Fortify the empire with Varangian Strongholds that can produce all Varangian units and defend with arrows."
+  },
+  {
+   "title": "Warcamp",
+   "description": "Choose reinforcements at the Varangian Warcamp. Once enough warriors fall in battle, free Varangian warriors arrive at the warcamp to bolster missing ranks.\nIf adjacent to water, boats can be selected as reinforcements."
+  },
+  {
+   "title": "Varangian Runestones",
+   "description": "Carve Runestones to honor past victories in combat. After enough enemies have fallen to Varangians, a Runestone may be created that inspires nearby Varangians with combat bonuses in an area."
+  },
+  {
+   "title": "Greek Fire",
+   "description": "Cheirosiphons along with upgraded Dromons, Springalds, and Trebuchets fling Greek Fire with their attacks, engulfing the area in flames for damage over time."
+  },
+  {
+   "title": "Mangonel Emplacements",
+   "description": "Outposts and Keeps can be upgraded with Mangonel Emplacements. Stone Wall Towers come equipped with Mangonel Emplacements instead of Springalds."
+  },
+  {
+   "title": "Unique Units",
+   "description": "Atgeirmaðr: Spearman replacement. Light melee infantry with a passive ability that increases their attack speed when Varangian units are nearby.\nBogmaðr: Archer replacement. Light ranged infantry with an ability to bypass armor at the cost of move speed. \nEarly Varangian Guard: Man-at-Arms replacement. Use the Berserking ability to increase damage at the cost of armor. Can construct Transport Ships and increase armor of transports when garrisoned.\nRiddari: Knight replacement. Heavy cavalry with an ability to throw axes from range for a period of time.\nCheirosiphon: A ram equipped with a short ranged Greek Fire attack.\nDromon: Springald Ship replacement. Equipped with Greek Fire."
+  }
+ ]
+}

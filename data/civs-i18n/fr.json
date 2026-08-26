@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "La dynastie abbasside poursuit un âge d’or florissant en concentrant les structures autour de la maison de la sagesse, lui permettant de débloquer des avantages économiques considérables. La maison de la sagesse permet également de progresser au travers des âges et donne accès à des technologies avancées. Les unités abbassides avec des chameaux sont idéales pour contrer la cavalerie ennemie.",
+  "ay": "Au croisement des continents, là où le commerce et la science se rejoignent, tandis que les empires s’affrontent, les Ayyoubides exploitent leur quête du savoir pour prendre l’ascendant. La Maison de la sagesse incarne le point névralgique de cette fusion entre urbanisation et science, permettant de débloquer d’importants avantages de l’âge d'or et de progresser à travers les âges. Les Ayyoubides misent sur des unités polyvalentes pour obtenir un avantage tactique sur le champ de bataille.",
+  "by": "Les Byzantins construisent de vastes réseaux d'aqueducs et de citernes vitaux. Tirez parti de puissantes capacités uniques et engagez des mercenaires avec de l'huile d'olive exquise. Les paysans travaillent sans relâche pour produire de l'huile d'olive pour l'empire.",
+  "ch": "Les Chinois peuvent déplacer leur attention à travers les âges en déployant de nombreuses unités uniques et en les construisant rapidement. Les ennemis doivent continuellement s'adapter s'ils veulent rester dans la course.",
+  "de": "Le sultanat de Delhi garde une longueur d'avance sur ses ennemis grâce à de grands réseaux d'érudits. Pleinement conscient de son rôle, il déploie le redoutable éléphant de guerre et piétine tous ceux qui se trouvent sur son chemin.",
+  "en": "Une infanterie primitive exceptionnelle donne un élan puissant aux Anglais soutenu par une production alimentaire fiable issue des champs.",
+  "fr": "Les Français déploient de puissantes unités de cavalerie et peuvent augmenter la production dans leurs fortifications. Les ennemis doivent être prêts à résister aux charges de chevaliers royaux puissants et d'autres unités en armure.",
+  "gol": "En menant la Horde d'Or vers l'ouest, Batu Khan étendit l'Empire mongol jusqu'au cœur de l'Europe de l'Est. La grande tente dorée du Khan était le centre du réseau de contrôle, avec des avant-postes qui leur permettaient de maintenir un vaste territoire. Bien qu'elle fut encore constituée de puissants pillards, la Horde d'Or sacrifia la mobilité de ses camps pour déployer des forces plus importantes nécessaires au contrôle de ses États vassaux.",
+  "hl": "La maison de Lancastre est une branche puissante de la royauté anglaise. Les manoirs sont le pivot de l’économie, car ils fournissent des pratiques économiques durables. La puissance militaire de Lancastre repose sur un avantage technologique et des tactiques supérieures sur le champ de bataille. Démantelez les formations ennemies avec de puissantes troupes de choc, puis détruisez-les avec une infanterie à distance supérieure.",
+  "hr": "Les prélats renforcent l'économie du Saint-Empire romain, tandis que de puissantes unités d'infanterie forment le noyau de son armée. Les ennemis doivent faire face à un adversaire capable de se remettre rapidement de ses attaques et de déployer de fortes contre-attaques.",
+  "ja": "Régnant sur les terres japonaises, les Daimyos améliorent l'agriculture et emploient des samouraïs pour défendre leur territoire. La forge, unique en son genre, travaille sans relâche pour affûter leurs lames et leur donner un avantage au combat. Les féroces samouraïs porte-bannières mènent leur armée constituée d'infanterie et de cavalerie vers la victoire.",
+  "je": "Rayon d'espoir pour le peuple français, Jeanne d'Arc s'engage sur le champ de bataille, insufflant courage et inspiration à ses partisans. Modeste villageoise au départ, Jeanne entame un voyage qui la conduira à devenir une héroïne en cet âge sombre. Cette expérience transforme Jeanne en une leader puissante, lui permettant d'avoir des compagnons de confiance et des capacités impressionnantes qui façonneront l'empire qu'elle était destinée à créer.",
+  "jin": "La dynastie Jin émerge comme une puissance militaire redoutable dans le nord de la Chine. Les villageois à cheval se déplacent rapidement pour s'emparer de nouvelles ressources et terres. Saisissez les opportunités et rassemblez des armées de cavalerie à tout moment pour mettre en déroute les ennemis et écraser l'opposition. Soudoyez les ennemis faibles pour les forcer à déserter et établir des États tributaires rentables.",
+  "kt": "Fondés afin de protéger les humbles et les fatigués, les Templiers établissent des commanderies dans toute l’Europe pour faire appel à leurs alliés. Alignant un éventail spectaculaire de troupes lourdes, les Templiers mènent la charge avec discipline et grand cœur. Des forteresses parsèment le paysage soigneusement cultivé, offrant des positions défensives clés et des refuges sûrs pour les pèlerins qu’elles protègent.",
+  "ma": "L'économie malienne regorge de possibilités pour produire de l'or et de la nourriture. Les Maliens prennent possession de gisements d'or pour leurs mines à ciel ouvert et tirent parti de cette croissance pour produire des unités d'infanterie uniques qui frappent furtivement et lancent des javelots sur les ennemis.",
+  "mac": "L'empereur Basile II fit appel aux Varègues pour se défendre contre les révoltes fomentées par les nobles byzantins. Arrivés sur des navires venus du nord, ces guerriers d'origine étrangère, imperméables à la politique et à la culture byzantines, formèrent une division de choc d'élite protégeant les empereurs pour les siècles à venir. La dynastie macédonienne frappe de l'argent comme une ressource unique à dépenser dans les arsenaux varègues, aiguisant leurs lames et perfectionnant leurs compétences au service de la protection de l'empereur.",
+  "mo": "Experts en mobilité et en combat à cheval, les Mongols peuvent facilement déplacer leurs camps. Ils tirent des avantages économiques de leur installation à proximité des affleurements de pierres et des descentes dans les bâtiments ennemis. Les ennemis doivent faire face à des attaques de cavalerie dès le début de la partie.",
+  "od": "L'ordre du Dragon est établi par de riches élites minutieusement choisies afin d'écraser les empires hostiles. En investissant de grandes quantités de ressources pour ne former que quelques guerriers exceptionnels, l'Ordre réussit à élever une armée d'élite inégalée.",
+  "ot": "L'armée ottomane peut s'étendre pour dominer le champ de bataille, avec le soutien des écoles militaires capables de produire continuellement des unités pour gonfler les rangs de leurs formations. Les tambours de guerre mehters soutiennent ces formations et signalent aux troupes hautement entraînées de prendre l'avantage de la situation.",
+  "ru": "Les Rus' tirent un grand avantage de la campagne. Ils sont capables de collecter plus facilement les ressources issues de la chasse et de la sylviculture, puis de déployer de puissantes unités de combat. Les ennemis devront faire face très tôt à de solides fortifications et à une économie diversifiée qui ne sera pas facilement ébranlée.",
+  "sen": "Le Sengoku Jidai était une ère d'alliances changeantes et de guerres incessantes. Trois clans rivaux peuvent être soutenus pour obtenir de puissants avantages applicables à votre infanterie à distance, votre infanterie de corps-à-corps ou votre cavalerie. Même en pleine guerre, du temps était consacré aux célébrations : le festival Matsuri constitue le cœur du commerce et des échanges, et offre de puissants bonus économiques.",
+  "tug": "Le sultanat de Ghiyath al-Din Tughlûq posa les fondations des avancées artistiques, architecturales et expansionnistes qui marquèrent la dynastie des Tughlûq. Après avoir ordonné la construction du fort de Tughlaqabad, les sultans, émirs et gouverneurs qui lui succédèrent étendirent leur présence militaire par la force et la contrainte. La dynastie des Tughlûq se distingue par sa capacité à ériger rapidement de nombreux forts, tandis que les gouverneurs supervisent le dur labeur accompli par les éléphants et les villageois.",
+  "zx": "Les enseignements du philosophe Zhu Xi laissent une empreinte profonde sur la civilisation chinoise. Grâce à l’héritage de Zhu Xi, la Chine développe une administration sophistiquée, avec des officiers impériaux de haut rang et des avancées technologiques. Les richesses abondantes permettent d’établir des dynasties puissantes et de développer de nombreux domaines technologiques uniques. Ne tardez pas pour recruter des gardes du palais, des chu ko nu et des grenadiers et assurez la protection de l’Empire."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Jeanne choisit la voie de l'archer, équipée d'un arc pour attaquer les ennemis de loin.\nGagne la capacité Flèche divine, qui inflige des dégâts élevés à une cible unique.",
+   "n": "Voie de l’archer"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "La capacité Appel de ralliement de Jeanne concernera désormais 7 de ses compagnons de choix sur le champ de bataille.\nGagne la capacité ultime Force des cieux, qui renforce considérablement une seule unité.",
+   "n": "Commandant sur le terrain"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Les cavaliers de Jeanne sont disponibles à la formation aux écuries.\nGagne « Cavaliers, parés ! », qui rallie 3 cavaliers à ses côtés.",
+   "n": "Compagnons cavaliers"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "La capacité Appel au ralliement de Jeanne concernera désormais 3 de ses compagnons de choix, ainsi qu'un puissant canon sur le champ de bataille.\nGagne la capacité ultime Inspiration valeureuse, qui augmente considérablement la vitesse d'attaque des alliés à proximité.",
+   "n": "Monarque de la poudre à canon"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Les champions de Jeanne sont disponibles à la formation aux casernes.\nGagne « Aux armes, messieurs ! », qui rallie 3 champions à ses côtés.",
+   "n": "Compagnons champions"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Jeanne choisit la voie du guerrier, équipée d'une épée à deux mains pour combattre les ennemis au corps-à-corps.\nGagne la capacité Courroux sacré, qui inflige des dégâts de zone autour de Jeanne.",
+   "n": "Voie du guerrier"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Débloque la production de mercenaires Kheshigs, Ghulams et éléphants avec tour.\nKheshig : âge féodal\nGhulams : contrats de vétéran\nÉléphants à tour : contrats d'élite",
+   "n": "Contrat de mercenaire de l’Est"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Débloque la production de mercenaires fantassins à arc long, lansquenets et streltsy.\nFantassins à arc long : Âge féodal\nLansquenets : contrats de vétéran\nStreltsy : contrats d'élite",
+   "n": "Contrat de mercenaire de l’Ouest"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Débloque la production des mercenaires lanceurs de javelot, chameliers et grenadiers.\nLanceurs de javelot : Âge féodal\nChameliers : contrats de vétéran\nGrenadiers : contrats d'élite",
+   "n": "Contrat de mercenaire de la Route de la soie"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "Les technologies culturelles suivantes sont rendues disponibles :\n• Savoir préservé (Âge II)\n• Centres médicaux (Âge III)\n• Bibliothèques publiques (Âge IV)",
+   "n": "Aile de la culture"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "Les technologies culturelles suivantes sont rendues disponibles :\n• Savoir préservé (Âge II)\n• Centres médicaux (Âge III)\n• Bibliothèques publiques (Âge IV)",
+   "n": "Aile de la culture"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Construit l'aile de la culture.\nConstruisez cette aile pour avancer vers l'Âge suivant en 20 % de temps en moins et avec 1350 de coûts en ressources en moins.",
+   "n": "Aile de la culture : avancée"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Construit l’aile de la culture.\nUne fois terminée, octroie 4 derviches, augmente les soins de l’unité de +50 % et l’active de façon permanente.",
+   "n": "Aile de la culture : logistique"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Construit l'aile de la culture.\nConstruisez cette aile pour avancer vers l'Âge suivant en 20 % de temps en moins et avec 250 de coûts en ressources en moins.",
+   "n": "Aile de la culture : avancée"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Construit l'aile de la culture.\nUne fois achevée, octroie 2 derviches et active une aura de guérison de façon permanente.",
+   "n": "Aile de la culture : logistique"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "Les technologies culturelles suivantes sont rendues disponibles :\n• Savoir préservé (Âge II)\n• Centres médicaux (Âge III)\n• Bibliothèques publiques (Âge IV)",
+   "n": "Aile de la culture"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Construit l'aile de la culture.\nConstruisez cette aile pour avancer vers l'Âge suivant en 20 % de temps en moins et avec 400 de coûts en ressources en moins.",
+   "n": "Aile de la culture : avancée"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Construit l’aile de la culture.\nUne fois terminée, octroie 3 derviches, augmente les soins de l’unité de +25 % et l’active de façon permanente.",
+   "n": "Aile de la culture : logistique"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "Les technologies culturelles suivantes sont rendues disponibles :\n• Savoir préservé (Âge II)\n• Centres médicaux (Âge III)\n• Bibliothèques publiques (Âge IV)",
+   "n": "Aile de la culture"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Construit l'aile de la culture.\nConstruisez cette aile pour avancer vers l'Âge suivant en 20 % de temps en moins et avec 1300 de coûts en ressources en moins.",
+   "n": "Aile de la culture : avancée"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Construit l’aile de la culture.\nUne fois terminée, octroie 4 derviches, augmente les soins de l’unité de +50 % et l’active de façon permanente.",
+   "n": "Aile de la culture : logistique"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Construit l’aile économique.\nLes technologies économiques suivantes deviennent disponibles :\n• Croissant fertile (Âge II)\n• Agriculture (Âge III)\n• Traitement amélioré (Âge IV)",
+   "n": "Aile économique"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Construit l’aile économique.\nLes technologies économiques suivantes deviennent disponibles :\n• Croissant fertile (Âge II)\n• Agriculture (Âge III)\n• Traitement amélioré (Âge IV)",
+   "n": "Aile économique"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 10 villageois et l'ensemble de ceux-ci travaillent plus vite de +10 % .",
+   "n": "Aile économique : croissance"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 2000 unité(s) de bois et 1000 unité(s) de pierre. Les villageois construisent les bâtiments 50 % plus vite.",
+   "n": "Aile économique : industrie"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie immédiatement 3 villageois. Les vergers gagnent 50 de nourriture supplémentaire.",
+   "n": "Aile économique : croissance"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 400 unité(s) de bois. Les villageois construisent les bâtiments 30 % plus vite.",
+   "n": "Aile économique : industrie"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Construit l’aile économique.\nLes technologies économiques suivantes deviennent disponibles :\n• Croissant fertile (Âge II)\n• Agriculture (Âge III)\n• Traitement amélioré (Âge IV)",
+   "n": "Aile économique"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie immédiatement 7 villageois. Les vergers gagnent 100 de nourriture supplémentaire.",
+   "n": "Aile économique : croissance"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 900 unité(s) de bois et 400 unité(s) de pierre. Les villageois construisent les bâtiments 40 % plus vite.",
+   "n": "Aile économique : industrie"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Construit l’aile économique.\nLes technologies économiques suivantes deviennent disponibles :\n• Croissant fertile (Âge II)\n• Agriculture (Âge III)\n• Traitement amélioré (Âge IV)",
+   "n": "Aile économique"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 10 villageois et l'ensemble de ceux-ci travaillent plus vite de +10 % .",
+   "n": "Aile économique : croissance"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Construit l'aile économique.\nUne fois achevée, octroie 2800 unité(s) de bois et 900 unité(s) de pierre. Les villageois construisent les bâtiments 50 % plus vite.",
+   "n": "Aile économique : industrie"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Construit l’aile militaire. Une fois construite, génère 2 lanciers et 2 archers (Âge II), 2 chameliers (Âge III) ou 3 escopettiers (Âge IV).\nDébloque :\n• Camp d’entraînement (Âge II)\n• Arc composite (Âge III)\n• Chameaux de soutien (Âge IV)",
+   "n": "Aile militaire"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Construit l’aile militaire. Une fois construite, génère 2 lanciers et 2 archers (Âge II), 2 chameliers (Âge III) ou 3 escopettiers (Âge IV).\nDébloque :\n• Camp d’entraînement (Âge II)\n• Arc composite (Âge III)\n• Chameaux de soutien (Âge IV)",
+   "n": "Aile militaire"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nUne fois achevée, la cavalerie obtient la capacité de construction d'armes de siège.\nLa Maison de la sagesse produit 7 pilleurs du désert immédiatement, puis toutes les 2 minutes pour le restant de la partie.",
+   "n": "Aile militaire : renforts"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nLes technologies de dégâts et d'armure de l’atelier de forgeron et de l'académie militaire deviennent gratuites et sont développées instantanément en entrant dans un âge. (Les technologies d'autres âges doivent être développées normalement).",
+   "n": "Aile militaire : maîtres forgerons"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Construit l’aile militaire.\nLes unités de cavalerie obtiennent alors la capacité de construire des armes de siège.\nLa Maison de la sagesse produit 1 pilleurs du désert après 15 secondes, puis toutes les 2 minutes pour le restant de la partie.",
+   "n": "Aile militaire : renforts"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nLes technologies de dégâts et d'armure de l’atelier de forgeron et de l'académie militaire deviennent gratuites et sont développées instantanément en entrant dans un âge. (Les technologies d'autres âges doivent être développées normalement).",
+   "n": "Aile militaire : maîtres forgerons"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Construit l’aile militaire. Une fois construite, génère 2 lanciers et 2 archers (Âge II), 2 chameliers (Âge III) ou 3 escopettiers (Âge IV).\nDébloque :\n• Camp d’entraînement (Âge II)\n• Arc composite (Âge III)\n• Chameaux de soutien (Âge IV)",
+   "n": "Aile militaire"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nUne fois achevée, la cavalerie obtient la capacité de construction d'armes de siège.\nLa Maison de la sagesse produit 3 pilleurs du désert immédiatement, puis toutes les 2 minutes pour le restant de la partie.",
+   "n": "Aile militaire : renforts"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nLes technologies de dégâts et d'armure de l’atelier de forgeron et de l'académie militaire deviennent gratuites et sont développées instantanément en entrant dans un âge. (Les technologies d'autres âges doivent être développées normalement).",
+   "n": "Aile militaire : maîtres forgerons"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Construit l’aile militaire. Une fois construite, génère 2 lanciers et 2 archers (Âge II), 2 chameliers (Âge III) ou 3 escopettiers (Âge IV).\nDébloque :\n• Camp d’entraînement (Âge II)\n• Arc composite (Âge III)\n• Chameaux de soutien (Âge IV)",
+   "n": "Aile militaire"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nUne fois achevée, la cavalerie obtient la capacité de construction d'armes de siège.\nLa Maison de la sagesse produit 7 pilleurs du désert immédiatement, puis toutes les 2 minutes pour le restant de la partie.",
+   "n": "Aile militaire : renforts"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Construit l'aile militaire.\nLes technologies de dégâts et d'armure de l’atelier de forgeron et de l'académie militaire deviennent gratuites et sont développées instantanément en entrant dans un âge. (Les technologies d'autres âges doivent être développées normalement).",
+   "n": "Aile militaire : maîtres forgerons"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Construit l'aile administrative. Augmente passivement de +50 % l'effet de tous les bonus de l'âge d'or.\nDébloque :\n• Urbanisme (Âge II)\n• Directive de siège (Âge III)\n• Grand bazar (Âge IV)",
+   "n": "Aile administrative"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Construit l'aile administrative. Augmente passivement de +50 % l'effet de tous les bonus de l'âge d'or.\nDébloque :\n• Urbanisme (Âge II)\n• Directive de siège (Âge III)\n• Grand bazar (Âge IV)",
+   "n": "Aile administrative"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nToutes les trois minutes, une caravane de commerce arrive avec une sélection aléatoire de quatre échanges de ressources et d'unités en votre faveur.\nLa qualité de ces échanges est établie de façon permanente en fonction de l'âge auquel est construit l'aile commerciale. Utiliser l'aile commerciale pour passer à un âge plus avancé permet des échanges plus lucratifs.",
+   "n": "Aile commerciale : bazar"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nUne fois achevée, octroie 7 atabegs pouvant être placés en garnison dans n'importe quel bâtiment de production militaire (sauf les ports) afin d'accroître de 20 % la santé des unités nouvellement formées.",
+   "n": "Aile commerciale : conseillers"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nToutes les trois minutes, une caravane de commerce arrive avec une sélection aléatoire de quatre échanges de ressources et d'unités en votre faveur.\nLa qualité de ces échanges est établie de façon permanente en fonction de l'âge auquel est construit l'aile commerciale. Utiliser l'aile commerciale pour passer à un âge plus avancé permet des échanges plus lucratifs.",
+   "n": "Aile commerciale : bazar"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nUne fois achevée, octroie 3 atabegs pouvant être placés en garnison dans n'importe quel bâtiment de production militaire (sauf les ports) afin d'accroître de 20 % la santé des unités nouvellement formées.",
+   "n": "Aile commerciale : conseillers"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Construit l'aile administrative. Augmente passivement de +50 % l'effet de tous les bonus de l'âge d'or.\nDébloque :\n• Urbanisme (Âge II)\n• Directive de siège (Âge III)\n• Grand bazar (Âge IV)",
+   "n": "Aile administrative"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nToutes les trois minutes, une caravane de commerce arrive avec une sélection aléatoire de quatre échanges de ressources et d'unités en votre faveur.\nLa qualité de ces échanges est établie de façon permanente en fonction de l'âge auquel est construit l'aile commerciale. Utiliser l'aile commerciale pour passer à un âge plus avancé permet des échanges plus lucratifs.",
+   "n": "Aile commerciale : bazar"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nUne fois achevée, octroie 5 atabegs pouvant être placés en garnison dans n'importe quel bâtiment de production militaire (sauf les ports) afin d'accroître de 20 % la santé des unités nouvellement formées.",
+   "n": "Aile commerciale : conseillers"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Construit l'aile administrative. Augmente passivement de +50 % l'effet de tous les bonus de l'âge d'or.\nDébloque :\n• Urbanisme (Âge II)\n• Directive de siège (Âge III)\n• Grand bazar (Âge IV)",
+   "n": "Aile administrative"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nToutes les trois minutes, une caravane de commerce arrive avec une sélection aléatoire de quatre échanges de ressources et d'unités en votre faveur.\nLa qualité de ces échanges est établie de façon permanente en fonction de l'âge auquel est construit l'aile commerciale. Utiliser l'aile commerciale pour passer à un âge plus avancé permet des échanges plus lucratifs.",
+   "n": "Aile commerciale : bazar"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Construit l'aile commerciale.\nUne fois achevée, octroie 7 atabegs pouvant être placés en garnison dans n'importe quel bâtiment de production militaire (sauf les ports) afin d'accroître de 20 % la santé des unités nouvellement formées.",
+   "n": "Aile commerciale : conseillers"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "Les donjons agissent comme des forums, y compris pour la production d'unités, la limite de population et de technologies.",
+   "n": "Forteresses de village"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Permet aux érudits d'être placés en garnison dans les bâtiments militaires pour augmenter leur vitesse de production de 100 %.",
+   "n": "Production efficace"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Procure +20 % de santé et +4 d'armure à distance aux éléphants de guerre.",
+   "n": "Bêtes blindées"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Procure +20 % de santé et +4 d'armure à distance aux éléphants de guerre.",
+   "n": "Bêtes blindées"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "- Toute la cavalerie bénéficie de +10 % de santé et de +50 % de dégâts de charge.",
+   "n": "Royaume de Pologne"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "- Toutes les unités d'or gagnent +2 d'armure au corps-à-corps.",
+   "n": "Ordre teutonique"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- Réduit la variation du prix d'achat ou de vente de base de 75 % lors du commerce de ressources au marché.",
+   "n": "République de Venise"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- Augmente la santé de toutes les unités civiles de +30 % et leur vitesse de déplacement de +10 %. Augmente les soins de toutes les sources de +30 %.",
+   "n": "Chevaliers hospitaliers"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- Les unités militaires terrestres sont produites +15 % plus rapidement et coûtent -5 % d’or en moins.",
+   "n": "Royaume de France"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "- Les unités de corps-à-corps gagnent 15 % de dégâts.",
+   "n": "Principauté d’Antioche"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- Les forteresses et les ports bénéficient de +30 % de santé.",
+   "n": "Empire Plantagenêt"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "- Les pèlerins génèrent +20 % d'or.",
+   "n": "République de Gênes"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "- Les unités proches des lieux sacrés gagnent + 20 % de dégâts et régénèrent leur santé.",
+   "n": "Royaume de Castille"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Chaque sujet tributaire rapporte un revenu supplémentaire de +10 % aux marchands.",
+   "n": "Alliance conclue en mer"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Fait apparaître 12 moutons au forum du monument et augmente la vitesse d’extraction des villageois de +15 %.",
+   "n": "Collines anatoliennes"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Augmente l’armure à distance des archers dorés de +3.",
+   "n": "Armure à écailles"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "Les flèches des archers infligent 3 points de dégâts supplémentaires pendant 6 secondes.",
+   "n": "Flèches empoisonnées"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Augmente l'armure à distance et de corps-à-corps des hommes d'armes de 2.",
+   "n": "Blindé"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Augmente la santé de tous les bâtiments de 10 %.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Augmente la santé de tous les bâtiments de 10 %.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Augmente la santé de tous les bâtiments de 10 %.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Augmente les dégâts de toutes les unités de cavalerie de 1.",
+   "n": "Incrustation de lame"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Augmente les dégâts de toutes les unités de cavalerie de 1.",
+   "n": "Incrustation de lame"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Augmente les dégâts de toutes les unités de cavalerie de 1.",
+   "n": "Incrustation de lame"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités de cavalerie de 1 et leur santé de 5 %.",
+   "n": "Barde écaillée"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités de cavalerie de 1 et leur santé de 5 %.",
+   "n": "Barde écaillée"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités de cavalerie de 1 et leur santé de 5 %.",
+   "n": "Barde écaillée"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Augmente les dégâts de toute l'infanterie au corps-à-corps de 1.",
+   "n": "Soudage de motifs"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Augmente les dégâts de toute l'infanterie au corps-à-corps de 1.",
+   "n": "Soudage de motifs"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Augmente les dégâts de toute l'infanterie au corps-à-corps de 1.",
+   "n": "Soudage de motifs"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités d'infanterie de corps-à-corps de 1 et leur santé de 5 %.",
+   "n": "Cotte de mailles boutonnée"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités d'infanterie de corps-à-corps de 1 et leur santé de 5 %.",
+   "n": "Cotte de mailles boutonnée"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités d'infanterie de corps-à-corps de 1 et leur santé de 5 %.",
+   "n": "Cotte de mailles boutonnée"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Augmente les dégâts à distance de 1 pour l'intégralité des flèches et des carreaux.",
+   "n": "Pierres à aiguiser"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Augmente les dégâts à distance de 1 pour l'intégralité des flèches et des carreaux.",
+   "n": "Pierres à aiguiser"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Augmente les dégâts à distance de 1 pour l'intégralité des flèches et des carreaux.",
+   "n": "Pierres à aiguiser"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités à distance de 1 et leur santé de 5 %.",
+   "n": "Armure lamellaire"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités à distance de 1 et leur santé de 5 %.",
+   "n": "Armure lamellaire"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Augmente l'armure de toutes les unités à distance de 1 et leur santé de 5 %.",
+   "n": "Armure lamellaire"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Augmente la santé de toutes les unités de siège de 5 %.",
+   "n": "Raccords en fer"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Augmente la santé de toutes les unités de siège de 5 %.",
+   "n": "Raccords en fer"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Augmente la santé de toutes les unités de siège de 5 %.",
+   "n": "Raccords en fer"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "La vitesse de réparation des bâtiments est augmentée de +50 %.",
+   "n": "Réparations de Banco"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Les monastères deviennent autonomes, travaillant leurs terres avec leurs frères lais.\nLes villageois peuvent déposer des ressources dans les monastères.\nLes prélats peuvent être mis en garnison dans les monastères pour inspirer tous les villageois à proximité, augmentant ainsi leur vitesse de collecte.",
+   "n": "Abbayes cisterciennes"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Les lanciers s’équipent de serpes de guerre trempées, réduisant l’armure des ennemis de 1 lorsqu’ils attaquent.",
+   "n": "Serpiers"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Augmente l'armure à distance et au corps-à-corps de +1 ainsi que la santé de +20 des Torguuds et des cavaliers.",
+   "n": "Armure rembourrée"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Les simples soldats sont équipés d’une armure plus résistante. La cavalerie légère gagne +2 d'armure.",
+   "n": "Brigandine"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "Tous les bâtiments gagnent 5 de résistance au feu.",
+   "n": "Construction en ardoise et en pierre"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "L’importation de couleuvrines bourguignonnes permet d’entraîner les escopettiers à l’âge des châteaux et réduit le coût des escopettiers de 25 %.",
+   "n": "Imports de Bourgogne"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Augmente la portée d'attaque des lanciers de 100 %.",
+   "n": "Phalange"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Augmente l'armure des chameliers de 2.",
+   "n": "Barde de chamelier"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Augmente la vitesse de déplacement des unités militaires à chameau de +15 %.",
+   "n": "Dressage de chameaux"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Augmente le plafond de production du samouraï porte-bannière de 1 et fournit un villageois gratuit.\nAugmente la santé du forum de 1000, ajoute une meurtrière supplémentaire, ainsi qu'une aura augmentant la vitesse de récolte des villageois dans des fermes de 20 %.",
+   "n": "Manoir Daimyo"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Augmente le plafond de production du samouraï porte-bannière de 2 et fournit un villageois gratuit.\nAugmente la santé du forum de 2000, l’armure de feu de 2, ajoute une meurtrière supplémentaire, ainsi qu’une aura augmentant la vitesse de récolte des villageois dans des fermes de 40 %.",
+   "n": "Palais Daimyo"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Augmente le plafond de production du samouraï porte-bannière de +3 et fournit un villageois gratuit.\nAugmente la santé du forum de +3000, l’armure de feu de +3, génère une aura qui augmente la vitesse de récolte des villageois dans des fermes de +60 % et équipe une fortification à fusées.",
+   "n": "Château du Shogunat"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Remplissez les écuries avec les meilleurs étalons, augmentant la santé de toute la cavalerie de +35 %.",
+   "n": "Lignées royales"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Augmente les dégâts supplémentaires des chevaliers royaux après une charge de 3 à 10.",
+   "n": "Selles à troussequin"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Les chevaliers royaux régénèrent 1 de santé toutes les 1 secondes lorsqu'ils sont hors du combat.",
+   "n": "Chevalerie"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Augmente la santé de la cavalerie rus' de 25.",
+   "n": "Force morale des boyards"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Les chevaliers s'équipent d'une hache de guerre, augmentant leurs dégâts de mêlée de +4.",
+   "n": "Haches de guerre de chevalier"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Vos chevaliers et demi-lanciers ornent leurs armures de la livrée des Lancastre, ce qui leur permet d’infliger +5 dégâts supplémentaires contre les unités lourdes ennemies.",
+   "n": "Collier aux esses"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Les tribus locales offrent certains de leurs rennes en tribut. Fait apparaître 4 rennes sous votre forum.",
+   "n": "Chasse collective"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Les avancées des pratiques de distribution des terres féodales augmentent la limite de construction des manoirs de 4 et leur santé de 100.",
+   "n": "Pratiques des terres condensées"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Les avancées des pratiques de distribution des terres féodales augmentent la limite de construction des manoirs de 4 et leur santé de 200.",
+   "n": "Paysage à champ ouvert"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Améliore de +2 la résistance au feu et aux dégâts à distance des navires.",
+   "n": "Revêtement en cuivre"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "Les arbalètes sont capables de charger des carreaux plus forts offrant +0.5 de portée et +2 de dégâts.",
+   "n": "Cranequins"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Les arbalétriers dorés infligent 20 de dégâts en plus aux unités de siège.",
+   "n": "Carreaux bodkin"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Réduit le coût de toutes les technologies et des avancées d'âge de -20 %.",
+   "n": "Savoir préservé"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "Les imams peuvent convertir des unités sans porter une relique, mais ne peuvent cibler qu’une seule unité.",
+   "n": "Prosélytisme"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Les forums et les donjons confèrent +2 de santé toutes les 1 secondes aux unités à proximité.",
+   "n": "Centres médicaux"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Les villageois et les marchands gagnent +2 de santé pour chaque amélioration économique.",
+   "n": "Bibliothèques publiques"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Augmente la vitesse d'attaque des unités de cavalerie de +20 %.",
+   "n": "Chevaux de Dali"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Augmente l'armure de feu des postes avancés fortifiés et des palissades de +3 et la santé de +300.",
+   "n": "Murs de base du cœur"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Augmente l'aura des postes avancés du désert sur les forteresses pour augmenter l'armure des unités à proximité de +1/+1.",
+   "n": "Citadelles du désert"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Les villageois inspirés collectent des ressources +5 % plus rapidement et construisent des bâtiments et des défenses +25 % plus rapidement.",
+   "n": "Dévotion"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Augmente les dégâts à distance des donso de +6, des archers de +2 et des lanceurs de javelots de +3.",
+   "n": "Entraînement de précision"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Augmente le taux de récolte de bois des villageois de 15 % et leur capacité de transport de bois de 10.",
+   "n": "Chevaux de trait"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "Les torches des lanciers dorés infligent des dégâts de zone.",
+   "n": "Torches lourdes"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Augmente la vitesse de collecte des villageois de 5 %. pour chaque dynastie atteinte.",
+   "n": "Techniques anciennes"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Augmente la vitesse de collecte des villageois dans les fermes de 15 %.",
+   "n": "Agriculture"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Réduit le coût des bâtiments économiques et des habitations de 30 %.",
+   "n": "Croissant fertile"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Réduit le coût de production des villageois de 40 %.",
+   "n": "Aliments frais"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Les villageois déposent +8 %. de ressources en plus.",
+   "n": "Traitement amélioré"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Augmente le taux de collecte de pierre des ovoos de 20 %.",
+   "n": "Offrandes ovoos"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Augmente le taux de collecte de pierre des ovoos de 20 %.",
+   "n": "Cérémonie ovoo"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Augmente la vitesse de récolte de nourriture dans les enclos à bétail de 10 %. Ne s'applique pas aux troupeaux de moutons.",
+   "n": "Pâturage en rotation"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Augmente la vitesse de récolte de nourriture dans les enclos à bétail de 10 %. Ne s'applique pas aux troupeaux de moutons.",
+   "n": "Surpâturage"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Augmente la vitesse de collecte de nourriture des villageois de 30 %. Ne s'applique pas à la viande chassée.\nSi la technologie Horticulture a déjà été développée, alors elle augmente de 20 %.",
+   "n": "Horticulture (améliorée)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Augmente la vitesse de collecte d'or des villageois de 35 %..\nSi la technologie Pioche spécialisée a déjà été développée, alors elle augmente de 20 %.",
+   "n": "Pioche spécialisée (améliorée)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Les villageois abattent les arbres d'un seul coup de hache.\nCapacité de transport de bois augmentée de +2.",
+   "n": "Gestion forestière (améliorée)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Augmente la vitesse de collecte de bois des villageois de 35 %..\nSi la technologie Double doloire a déjà été développée, alors elle augmente de 20 %.",
+   "n": "Double doloire (améliorée)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Augmente la vitesse de collecte de la viande chassée de 25 %..\nSi Techniques de survie a déjà été développée, alors la vitesse de collecte de viande chassée augmente de 10 %.",
+   "n": "Techniques de survie (améliorées)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "Lorsque l'édit du kharash est actif, la tente d’or et les bâtiments militaires sous l'influence d'un poste avancé fortifié produisent un kharash supplémentaire chaque fois qu'une unité est recrutée.",
+   "n": "Débloquer l'édit du kharash"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "Lorsque l'édit de l'enclos à bétail est actif, les enclos à bétail sous l'influence d'un poste avancé fortifié peuvent générer de l'or tant qu'ils sont en activité.",
+   "n": "Débloquer l'édit de l'enclos à bétail"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "Dégâts bonus infligés par les éléphants augmentés de 30 %.",
+   "n": "Dommages collatéraux"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Les éléphants régénèrent +2 de santé supplémentaire toutes les 2 secondes lorsqu'ils sont hors combat.",
+   "n": "Gardiens d'éléphants"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "Les tactiques de puissants daimyo améliorent l’infanterie de corps-à-corps, augmentant ses dégâts de +15 %, les dégâts des torches de +15 % et la santé de +15 %.",
+   "n": "Tactique d’Oda"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Améliore l'influence des Français en réduisant davantage le coût des unités de 5 %.",
+   "n": "Incitations à l'enrôlement"
+  },
+  "upgrade_fanaticism": {
+   "d": "Les unités de frères Templiers et les unités de commanderie gagnent 10 % de dégâts lorsqu'elles sont inférieures à 50 % de santé, et 30 % lorsqu'elles sont inférieures à 25 % de santé.",
+   "n": "Fanatisme"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Chaque enclos de ferme dans lequel travaille un villageois génère 1 d'or toutes les 6 secondes.",
+   "n": "Enclos"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Les navires incendiaires infligent des dégâts importants à tous les ennemis dans leur rayon d'explosion.",
+   "n": "Explosifs liquides"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Les espringales bénéficient de 15 % de vitesse d'attaque supplémentaire et enflamment leurs projectiles, créant une zone de feu grégeois après l'impact.",
+   "n": "Feu romain"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Vitesse de production des ports à proximité +30 %, dégâts des meurtrières +2 et portée des armes +1 parcelles grâce aux forts de Tughlaqabad.",
+   "n": "Guet du fort de Tughlaqabad"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Les hommes d'armes dorés qui tombent en dessous de 20 % de santé subissent 20 % de dégâts en moins.",
+   "n": "Cuirasse d'or"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Les trébuchets à contrepoids infligent des dégâts accrus de +30 % et enveloppent leurs cibles de feu grégeois, ce qui inflige des dégâts de zone. Le feu grégeois ne s'accumule pas avec les autres parcelles.",
+   "n": "Projectiles de feu grégeois"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Les nids d’abeilles reçoivent 3 flèches explosives supplémentaires.",
+   "n": "Barils supplémentaires"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Augmente la portée des escopettes de 1.5.",
+   "n": "Pyrotechnie"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "Les unités ennemies subissent +15 % de dégâts à distance et de corps-à-corps pendant 5 secondes lorsqu'elles sont touchées par une grenade.",
+   "n": "Bombes à enveloppe rigide"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "Les sons tonitruants de l'érupteur et des lances foudroyantes effraient la cavalerie ennemie, réduisant les dégâts de la cavalerie à proximité de 20 % pendant 5 secondes.",
+   "n": "Tonnerre céleste"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Augmente la portée des dromons de 0.5 et leurs dégâts de 1.\nAméliore tous les dromons afin que le feu grégeois subsiste à la surface ou au sol après une attaque.",
+   "n": "Dromon lourd"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "L’entraînement sur terrain accidenté augmente les dégâts de charge hobelar de +125 % et la vitesse de production de +100 %.",
+   "n": "Formation en côtes"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Les unités ennemies touchées par Piétinement deviennent vulnérables et subissent des dégâts accrus de +15 % pendant 12 secondes.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Les dégâts des cavaliers contre les travailleurs augmentent de +2. Les travailleurs éliminés par vos cavaliers rapportent +30 pièces d'or.",
+   "n": "Expilatores"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Les éclaireurs augmentent les dégâts causés par les torches des unités voisines de +25 %.",
+   "n": "Trapézites"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Augmente la portée de l'arme des archers à cheval de +1 et débloque la capacité Galop.\nGalop : activez pour vous déplacer à vitesse maximale avec une portée d'arme de +2 parcelle(s) pendant 8 secondes.",
+   "n": "Formation des unités montées"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Augmentez la ligne de mire des maisons de 7 parcelles et améliorez leur vitesse de construction de 500 %.",
+   "n": "Colonies frontalières"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "Augmente la quantité maximale d'or portée par les officiers impériaux de 40 à 70.",
+   "n": "Examens impériaux"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Fait apparaître 2 janissaires pour chacun de vos forum de monument et chacune de vos écoles militaires au forum du monument.",
+   "n": "Compagnie janissaire"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Permet à tous les engins de siège d'être mis en garnison par l'infanterie. Une fois en garnison, la vitesse d'attaque et de préparation est augmentée de +25 %.",
+   "n": "Équipes de siège"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Fait apparaître 2 mehter(s) au forum du monument. Les mehters augmentent la vitesse de déplacement des unités de la même formation de +15 %.",
+   "n": "Tambours mehters"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "Augmente de +1 le nombre d'écoles militaires pouvant être construites.",
+   "n": "Campus militaire"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Augmente la vitesse de production militaire de +25 % et octroie aux écoles militaires la possibilité de former des lanciers de cavalerie et des janissaires.",
+   "n": "Académie avancée"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Faites apparaître 2 d'imams au centre ville du monument. Les imams soignent les unités proches avec 1 de points de vie toutes les secondes. Augmente à 2 de santé à l'âge des châteaux et à 3 de santé à l'âge impérial.",
+   "n": "Travail de terrain"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Augmente la quantité d'or collectée par les marchands et les revenus du réseau commercial de Sultanhani de +40 %.",
+   "n": "Sacs commerciaux"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "La formation du khanda augmente la durée de charge des hommes d'armes de 3 secondes et les dégâts de leur attaque chargée de 100 %.",
+   "n": "Formation au khanda"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "La dynastie Jin consolide son pouvoir et renforce le système Meng'an Mouke pour faire face aux menaces à venir. Les défenseurs sont désormais soutenus par des grenadiers montés, et leur nombre disponible augmente de +10.",
+   "n": "Bataillons de feu fulgurant"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "L'infanterie au corps-à-corps et à distance peut construire des tours de siège et des béliers sur le terrain. Les améliorations de l'expertise de siège permettent également de construire des mangonneaux, des espringales et des trébuchets.",
+   "n": "Expertise de siège (améliorée)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Les dégâts infligés par les lanciers à la cavalerie sont augmentés de 35 %, et leur vitesse de production de 50 %.",
+   "n": "Formation de neza"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Les hommes d’armes et les lanciers s'équipent d'un kilij, augmentant leurs dégâts de 3.",
+   "n": "Épées aiguisées"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "L'infanterie bénéficie de +25 % de dégâts et de +20 % de vitesse de déplacement pendant 30 secondes après avoir vaincu une unité.",
+   "n": "Mamelouks du sultan"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Augmente l'armure à distance de l'infanterie de caserne de +2.",
+   "n": "Armure flexible à croix"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Les prélats augmentent leur vitesse de déplacement de 10 % et peuvent inspirer des groupes d'unités militaires, améliorant ainsi leur armure de +1 et leurs dégâts de +15 %.",
+   "n": "Guerriers inspirés"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Les sabots de fer renforçant les murs réduisent de 20 % les dégâts infligés par les canons aux murs de pierre et aux forteresses.",
+   "n": "Sabots de fer"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "L'onna-musha tire une flèche sifflante lorsqu'elle aperçoit un ennemi, ce qui augmente sa vitesse de déplacement pendant 10 secondes.",
+   "n": "Flèche sifflante kabura-ya"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Ajoutez un emplacement d'arbalète à support défensif à ce bâtiment.",
+   "n": "Emplacement d'arbalète à support"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Les attaquants de ce fort de Tughlaqabad sont frappés par la peur, réduisant leur vitesse d'attaque de 30 % lorsqu'ils ciblent le fort.",
+   "n": "Malédiction d'Auliya"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Ajoute un emplacement défensif de grande bombarde à cette structure.",
+   "n": "Emplacement de grande bombarde"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Ajoute un emplacement de mangonneau défensif à cette structure.",
+   "n": "Emplacement de mangonneau"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Ajoute un emplacement Meng'an Mouke à cette structure, qui rallie 5 défenseurs dès que des ennemis s'en approchent. Les défenseurs ne peuvent pas être contrôlés et attaquent automatiquement les menaces à proximité. \nProduit 1 défenseurs Meng'an Mouke globaux toutes les 60 secondes.",
+   "n": "Emplacement Meng'an Mouke"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Ajoutez un emplacement de trébuchet défensif à cette structure.",
+   "n": "Emplacement de trébuchet"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "Le khan peut tirer une flèche sifflante qui révèle un rayon de 10 parcelles et inflige +10 % de dégâts supplémentaires aux ennemis présents dans la zone ciblée pendant 10 secondes.",
+   "n": "Flèche affaiblissante du khan"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Augmente la durée des flèches sifflantes du khan de 7 secondes et leur portée de 3 parcelles.\nCette augmentation est de 2 secondes et de 1 parcelles si la technologie Flèches sifflantes a déjà été développée.",
+   "n": "Flèches sifflantes (améliorées)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Augmente la durée des flèches sifflantes du khan de 5 secondes et leur portée de 2 parcelles.",
+   "n": "Flèches sifflantes"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Les kharash sont équipés de boucliers, ce qui leur confère +2 d'armure à distance, +2 d'armure de corps-à-corps et augmente leur santé de +25.",
+   "n": "Sauvetage sur le champ de bataille"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Accorde aux chevaliers et aux cavaliers noirs +2 points d'armure de corps-à-corps et +2 points d'armure à distance.",
+   "n": "Barde en acier"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Les chevaliers dorés subissent 25 % de dégâts en moins en chargeant.",
+   "n": "Destriers"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "Une forge industrieuse fournit une armure lamellaire plus robuste à l'armée. La santé de toute la cavalerie et de l'infanterie de corps-à-corps augmente de +25 %.",
+   "n": "Armure lamellaire rembourrée"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Augmente la guérison du Keshik de +2 de santé par attaque et sa vitesse d’attaque de +20 %.\nSi la technologie des lanciers des steppes a déjà été développée, augmente la guérison du Keshik de +1 de santé par attaque et sa vitesse d’attaque de +10 %.",
+   "n": "Lanciers des steppes (améliorés)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Augmente la guérison du Keshik de +1 de santé par attaque et sa vitesse d’attaque de +10 %.",
+   "n": "Lanciers des steppes"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Augmente la guérison du kheshig de +1 de santé par attaque et sa vitesse d’attaque de +10 %. Confère aux Torguuds la même capacité de guérison par attaque que le kheshig.",
+   "n": "Lancier de cavalerie saraï"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Remplissez les écuries avec les meilleurs étalons, augmentant la santé de toute la cavalerie de +35 %.",
+   "n": "Lignées royales"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Les chevaliers royaux régénèrent 1 de santé toutes les 1 secondes lorsqu'ils sont hors du combat.",
+   "n": "Chevalerie"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Améliore l'influence des Français en réduisant davantage le coût des unités de 5 %.",
+   "n": "Incitations à l'enrôlement"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Les bâtiments consacrés réduisent également le coût en bois et en or des unités de 25 %.",
+   "n": "Compagnie d'ordonnance"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "Les unités d'infanterie gagnent la capacité Marche forcée.\nLorsqu'elle est activée, l'infanterie se déplace +100 % plus rapidement pendant 10 secondes, mais s'arrête lorsqu'elle inflige des dégâts.",
+   "n": "Marche forcée"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Augmente la capacité de transport des villageois de 10.",
+   "n": "Rations copieuses"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Les villageois et l'infanterie peuvent tenir garnison à l'intérieur des habitations pour se protéger. Les habitations gagnent des flèches de garnison et +50 % de santé.",
+   "n": "Fondations renforcées"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Augmente la santé et les dégâts de Jeanne d'Arc de 25 % et gagne +1 d'armure. Augmente la santé et les dégâts des compagnons de Jeanne de 20 %.",
+   "n": "Équipement des compagnons"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Augmente la résistance au feu des tours en pierre, des donjons et des postes avancés de 10.",
+   "n": "Défenses à combustion lente"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Augmente la résistance au feu des tours en pierre, des donjons et des postes avancés de 10.",
+   "n": "Défenses à combustion lente"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Les éléphants se déplacent +10 % plus rapidement.",
+   "n": "Cornacs"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Les éléphants se déplacent +10 % plus rapidement.",
+   "n": "Cornacs"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Les mosquées rendent 4 point(s) de vie par seconde aux unités hors du combat.",
+   "n": "Lieu paisible"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Les archers et les arbalétriers gagnent +0.5 de portée.",
+   "n": "Païks"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Augmente la vitesse d'attaque des arbalétriers de +25 %.",
+   "n": "Étriers d'arbalète"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Augmente la portée de la vision des érudits de 100 %.",
+   "n": "Œil omniscient"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Augmente la vitesse de déplacement des érudits de 50 %.",
+   "n": "Agilité"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Améliorez les éléphants avec tour pour qu'ils soient montés par des arbalétriers d’élite au lieu d’archers. Les éléphants de tour gagnent +25 % de santé et +4 armure à distance.",
+   "n": "Howdahs"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Déverrouille les capacités de prêt aux pèlerins, permettant de prêter une grande quantité de nourriture pour un remboursement en or au fil du temps.",
+   "n": "Lettre de change"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Les chu ko nu et les arbalétriers tirent un carreau supplémentaire. Le carreau supplémentaire tiré par les arbalétriers est équivalent à 40 % de la puissance du carreau précédent.",
+   "n": "10 000 carreaux"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Les lanciers et les cavaliers reçoivent une lance enflammée lors de la charge.",
+   "n": "Rugissement du Dragon"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "Les officiers impériaux gagnent 150 de santé supplémentaire et peuvent désormais transporter un maximum d'or de +80. La limite des officiels impériaux est augmentée de +2.",
+   "n": "Administration avancée"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Ajoute des dégâts de zone aux bombardes.",
+   "n": "Nuage de terreur"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Permet la production d'unités de cavalerie uniques, la garde impériale et le pilleur yuan.",
+   "n": "Protecteurs dynastique"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Les lanciers sont équipés d’une lance plus puissante qui augmente la portée des armes de +20 % et leurs dégâts contre la cavalerie de +15 %.",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Augmente la vitesse d'attaque des archers de +33 %.",
+   "n": "Arcs composites"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Les hommes d'armes manient des masses qui augmentent les dégâts supplémentaires qu'ils infligent aux cibles lourdes de 6.",
+   "n": "Masses d'armes lourdes"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Les hommes d'armes manient des armes à deux mains qui augmentent leurs dégâts de 2.",
+   "n": "Armes à deux mains"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Augmente la santé des gardes du palais de 30.",
+   "n": "Soldat aguerri"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "La formation de l'infanterie d'élite conduit à de meilleures prouesses au combat. L'infanterie de corps-à-corps gagne +20 % de dégâts et +20 % de santé.\nSi la technologie Tactiques d'armée d'élite a déjà été développée, augmente les dégâts de +5 % et la santé de +5 % à la place.",
+   "n": "Tactiques d'armée d'élite (améliorées)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Les archers kipchaks tirent 2 flèches supplémentaires, chacune infligeant 70 % de dégâts en moins.",
+   "n": "Triple tir"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Augmente les dégâts à distance des mangudaï et du khan de 2.\nCette augmentation est de 1 si la technologie Branches d'arc Siha a déjà été développée.",
+   "n": "Branches d'arc Siha (améliorées)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Augmente les dégâts à distance des mangudaï et du khan de 1.",
+   "n": "Branches d'arc Siha"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "Le seigneur de Lancastre prélève un impôt sur tous les vassaux pour financer l'effort de guerre. Les manoirs génèrent 30 pièces d'or par minute.",
+   "n": "Écuage"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Les marchands actifs génèrent 1 d'or toutes les 6 secondes.",
+   "n": "Guildes des marchands"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Augmente la vitesse de déplacement des samouraïs montés de +10 % quand l’armure déflectrice est activée.",
+   "n": "Armure Dō-maru"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Augmente les dégâts au corps-à-corps de toutes les unités hors unités de siège de 1.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Augmente les dégâts au corps-à-corps de toutes les unités hors unités de siège de 1.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Augmente les dégâts au corps-à-corps de toutes les unités hors unités de siège de 1.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Augmente les dégâts au corps-à-corps de toutes les unités hors unités de siège de 1.",
+   "n": "Yaki-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Augmente la santé de toute l'infanterie de 15 %.",
+   "n": "Camp d’entraînement"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Les chameaux augmentent l'armure de l'infanterie à proximité de 2.",
+   "n": "Chameaux de soutien"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "L’infanterie augmente l’armure des chameaux à proximité de 3.",
+   "n": "Soutien de l’infanterie"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Accorde des boucliers aux unités de chameliers pour augmenter leur armure au corps-à-corps de 3.",
+   "n": "Boucliers de chamelier"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Augmente la vitesse de production des bâtiments militaires de +50 %.",
+   "n": "Approvisionnement amélioré"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Les tactiques militaires avancées augmentent l’efficacité générale de vos troupes au combat, ce qui augmente leurs dégâts bonus de 20 %.",
+   "n": "Formation aux tactiques militaires"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Augmente la vitesse de collecte de la viande chassée de 20 %.",
+   "n": "Ascendance Mohe"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Augmente la vitesse de collecte de la viande chassée de 20 %.",
+   "n": "Tradition de chasse"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Équipe les samouraïs montés d'un ōdachi, une épée longue disposant d'un bonus de +4 aux dégâts contre l'infanterie.",
+   "n": "Ōdachi de samouraï monté"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "La conversion entre les types de navires lodya est 50 % plus rapide et n'a plus de pénalité de coût.",
+   "n": "Coques adaptables"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Remplace l'armement des navires à espringale par des arbalètes à support à répétition tirant des rafales de 2 carreaux perforants.",
+   "n": "Arbalètes navales"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Les navires de guerre lancent une attaque de nid d'abeilles.",
+   "n": "Bombes coup de tonnerre"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Les navires militaires régénèrent +1 de santé toutes les 2 secondes lorsqu'ils sont hors combat.",
+   "n": "Poste d'incendie"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Augmente la vitesse de production des navires de poudre à canon de 25 % et leur vitesse de déplacement de 25 %.",
+   "n": "Flotte impériale"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Les navires d'archers tirent 2 javelot(s) supplémentaire(s).",
+   "n": "Tactiques de canoë"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Augmente les dégâts des canons des unités navales de 15 %.",
+   "n": "Canons longs"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Les baggalas guérissent de 30 lorsqu'ils tuent une unité ennemie.",
+   "n": "Matériaux récupérés"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Obtenez 25 unité(s) de bois et 25 unité(s) d'or lors du naufrage d’un navire ennemi.",
+   "n": "Piraterie"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Augmente la portée des navires de combat de 1.",
+   "n": "Amirauté"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Ajoute une espringale navale défensive à ce port.",
+   "n": "Fortification d'espringale navale"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Augmente la santé des navires militaires de +10 %.",
+   "n": "Mâts en teck"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Renforce le nid d'abeilles avec des lances de feu pointues qui infligent 10 de dégâts aux attaquants au corps-à-corps.",
+   "n": "Défense de porc-épic"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Augmente le bonus de vitesse d’attaque du réseau de châteaux de 20 %. à 30 %.",
+   "n": "Réseau de citadelles"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Équipez les samouraïs d’un odachi, épée longue disposant d'un bonus de dégât de +4 contre l’infanterie.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "Limite des officiers impériaux augmentée de 2. Octroie un officier impérial à la fin.",
+   "n": "Sceaux rouges impériaux"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "Les officiers impériaux se déplacent 50 % plus rapidement.",
+   "n": "Réforme du coup de fouet unique"
+  },
+  "upgrade_official_supervise": {
+   "d": "Supervision des officiers impériaux améliorée de 150 % à 300 %.",
+   "n": "Inspection régionale"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "Les officiers impériaux peuvent désormais superviser donjons et postes avancés afin de réduire les dégâts subis de 35 %.",
+   "n": "Bureau des affaires militaires"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "L’aura de vitesse du yam affecte toutes les unités et ne se limite plus aux marchands et aux unités de cavalerie. Ne s'applique pas aux engins de siège.\nLe réseau du yam amélioré permet aux marchands de régénérer 1 de santé toutes les 2 secondes sous l’aura du yam.",
+   "n": "Réseau du yam (amélioré)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "L'aura de vitesse du yam affecte toutes les unités et ne se limite plus aux marchands et aux unités de cavalerie. Ne s'applique pas aux engins de siège.",
+   "n": "Réseau du yam"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Ajoute la capacité Charge glorieuse aux postes avancés. Une fois activée, un compte à rebours de 10 secondes est lancé durant lequel la position du poste avancé ainsi que la zone alentour est révélée aux autres joueurs. À la fin du compte à rebours, toutes les unités alliées à proximité voient leur vitesse de déplacement augmentée de 50 % et leurs dégâts subis réduits de 15 % pendant 30 secondes.",
+   "n": "Charge glorieuse"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Ajoutez des javelots défensifs à cette structure et augmentez la portée des flèches de garnison de +1. Les javelots infligent des dégâts supplémentaires aux unités à distance. Une seule fortification d'arme peut être ajoutée.",
+   "n": "Fortification de javelot"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Ajoute +300 de santé et +3 en armure de feu à tous les postes avancés.",
+   "n": "Pax Mongolica"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Chaque minute, les ovoos procurent +60 de nourriture, +60 de bois et +10 d'or.",
+   "n": "Dîme de l'ovoo"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "Débloque en avance une unité à ozutsu précoce, disponible à partir de l'âge III.",
+   "n": "Déblocage d'ozutsu"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Équipe vos yeomen et vos lanciers avec des jaques pour augmenter leur armure au corps-à-corps de 3.",
+   "n": "Jaque"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Chaque unité varègue présente lors de la destruction d'un monument ou d'un forum accorde au joueur une bénédiction d'argent.",
+   "n": "Polutasvarf"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Les gardes du Comte reçoivent des dagues supplémentaires lors du lancer, infligeant également une petite quantité de dégâts de zone.\nLes gardes du Comte lancent désormais 2 dagues, mais ont une précision réduite.",
+   "n": "Manœuvres de lancer de dagues"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "En s'appuyant sur l'artisanat des chasseurs locaux, les membres de la tribu Mohe s'équipent d'une nouvelle armure qui réduit les dégâts bonus subis de -50 %.",
+   "n": "Armure matelassée"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Augmente le revenu de pillage en nourriture et en or de 75 pour les bâtiments incendiés.\nCette augmentation est de 25 si la technologie Récompense de raid a déjà été développée.",
+   "n": "Récompense de raid (améliorée)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Augmente le revenu de pillage pour les bâtiments incendiés à 50 unité(s) de nourriture et d'or.",
+   "n": "Récompense de raid"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Ajoute 75 pierre(s) au revenu de raid pour les bâtiments incendiés.\nAjoute 25 pierre(s) supplémentaire(s) si la technologie Prime de pierre a déjà été développée.",
+   "n": "Prime de pierre (améliorée)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Ajoute 50 unité(s) de pierre au revenu de pillage pour les bâtiments incendiés.",
+   "n": "Prime de pierre"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Augmente la vitesse d’attaque des béliers de +30 % et réduit leur temps de construction sur le terrain de -75 %.\nSi vous avez déjà développé les poutres légères, augmente alors la vitesse d’attaque de +10 % et réduit le temps de construction sur le terrain de -25 %.",
+   "n": "Poutres légères (améliorées)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Augmente l’armure au corps-à-corps des arbalétriers lourds de 5.",
+   "n": "Jaques"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Augmente la vitesse d'attaque des arbalétriers de +25 %.",
+   "n": "Étriers d'arbalète"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Augmente les dégâts du canon janissaire de +4.",
+   "n": "Canons janissaires"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Les fantassins à arc long obtiennent la capacité Volée de flèches qui réduit leur temps d’attaque de +1 seconde(s) pendant 6 secondes.",
+   "n": "Volée de flèches"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Augmente la santé des murs, des tours et des portes de 25 %.",
+   "n": "Défenses renforcées"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "La production par lots du camp de tir à l'arc est augmentée de +1 ; n'augmente pas le coût en ressources ou le temps de recrutement.",
+   "n": "Renforts du camp de tir à l'arc"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "La production par lots de la caserne est augmentée de +1 ; n'augmente pas le coût en ressources ou le temps de recrutement.",
+   "n": "Renforts de la caserne"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "La production par lots de l'écurie est augmentée de +1 ; n'augmente pas le coût en ressources ou le temps de recrutement. La production par lots de Torguuds est également augmentée de +1.",
+   "n": "Renforts de l'écurie"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "Les tentes de prière permettent une production améliorée dans leur influence même sans Ovoo.",
+   "n": "Sanctuaires monastiques"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Augmente la vitesse d’attaque des bombardes de +33 %.",
+   "n": "Exercices de recharge"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "Des chargeurs plus avancés permettent aux chu ko nu de tirer des carreaux perforants avec une portée de +0.5 qui infligent +1 de dégâts contre l’infanterie légère de corps-à-corps.",
+   "n": "Chargeurs de carreaux"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Les gardes varègues et riddaris s'équipent d'une puissante épée rhomphaia, qui augmente les dégâts de l'infanterie légère des gardes de 3 et les dégâts des riddaris de 3.",
+   "n": "Rhomphaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Gagne +2 de dégâts de charge par cavalerie lourde chargeant à proximité.",
+   "n": "Règle des Templiers"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Active les pèlerins.\nLes pèlerins sont générés toutes les 60 secondes. Commence par 1 pèlerin(s), gain de 1 pèlerins pour chaque forteresse (Max 10).",
+   "n": "Passage sécurisé"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Améliore la portée de la bénédiction sainte de +5 parcelles et les dégâts accordés par la bénédiction sainte de +1.",
+   "n": "Passion"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Augmente la durée de la bénédiction sainte de 10 seconde(s).",
+   "n": "Lumière divine"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Augmente la santé des moines-guerriers de +100.",
+   "n": "Vénération des saints"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Les samouraïs à naginata peuvent périodiquement tirer au yumi à distance.",
+   "n": "Arc de samouraï"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "Les garanties de sanctuaire accordent à Pèlerinage 1 pèlerin supplémentaire.",
+   "n": "Sanctuaire"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Investir dans des coques de navires plus grandes et de meilleure qualité augmente les dégâts des caraques de 20 %, leur santé de 15 % et leur portée de 10 %.",
+   "n": "Navires de la Couronne"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "Levez en masse 5 demi-lanciers",
+   "n": "Rassembler les nobles"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "Levez en masse 12 yeomen",
+   "n": "Levée en masse du shire"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "Levez en masse 10 demi-lanciers, 10 gardes du Comte, et 10 yeomen.",
+   "n": "Programme Milice exacte"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Augmente le nombre maximum de yorishiro de 2. Produit immédiatement 2 yorishiro à la porte flottante.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Augmente la ligne de mire de tous les bâtiments de +2 parcelles. Toutes les 3 minutes, toutes les unités économiques récupèrent 100 % de leur santé sur une période de 3 secondes.",
+   "n": "Gion matsuri"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Augmente la santé des prêtres shinto de 40, la vitesse de guérison de 60 % et la vitesse de déplacement de 15 %.",
+   "n": "Rituels shintoïstes"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Une fois terminé, les unités de siège gagnent accès à la compétence Renforts structurels.\nLes unités de siège gagnent +20 d'armure au corps-à-corps et +5 d'armure de feu pendant 10 secondes.",
+   "n": "Menuiserie de siège"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "La vitesse d’installation et de démontage des mangonneaux, des trébuchets et des bombardes est instantanée.",
+   "n": "Formation d'équipe de siège"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Augmente les dégâts des bombardes de +20 %. Les bombardes obtiennent +50 de dégâts contre l’infanterie.",
+   "n": "Canons bien réglés"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Les dégâts des béliers sont augmentés de +25 %. Les béliers soignent 2 de santé toutes les 1 secondes.",
+   "n": "Ville ambulante"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Augmente les dégâts infligés par les trébuchets de +30 %.\nSi la technologie Géométrie a déjà été développée, elle augmente alors les dégâts de +10 %.",
+   "n": "Géométrie (améliorée)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Augmente la vitesse d'attaque des espringales de +35 %, confère +10 % de résistance à distance et augmente la santé de +10.\nSi la technologie Gâchettes à clapet roulant a déjà été développée, augmente la vitesse d'attaque de 10 % et la santé de +10 à la place.",
+   "n": "Gâchettes à clapet roulant (améliorées)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "Les unités de siège infligent 10 % de dégâts supplémentaires toutes les 10 secondes à l'endroit où elles sont déployées, jusqu'à un maximum de 50 %.",
+   "n": "Siège prolongé"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Augmente la vitesse de déplacement des engins de siège de 10 %.",
+   "n": "Structures légères"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Augmente davantage la vitesse de déplacement des engins de siège de +10 %.",
+   "n": "Essieux renforcés"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Augmente la vitesse de déplacement des engins de siège de 25 %..\nSi la technologie Essieux graissés a déjà été développée, elle augmente alors de 10 %.",
+   "n": "Essieux graissés (améliorés)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "Les nouvelles techniques de menuiserie augmentent la santé des engins de siège de +30 %.\nSi la technologie Travaux de siège a déjà été recherchée, augmente plutôt leur santé de +10 %.",
+   "n": "Travaux de siège (améliorés)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Augmente l'armure des sofa de +2.",
+   "n": "Armure d'importation"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Les sofa augmentent la vitesse de déplacement de l'infanterie proche de +15 %.",
+   "n": "Autorité de Farima"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Augmente les dégâts des lanciers et des cavaliers de +2.",
+   "n": "Ahlspiess"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Augmente la vitesse de déplacement des lanciers de +10 % et leur confère +5 points de dégâts contre les ouvriers.",
+   "n": "Lames légères"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Augmente la portée des espringales de 1 parcelles.",
+   "n": "Bras bandés"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Les guerriers et les artilleurs musofadi gagnent +5 de soins avec chaque attaque pendant 5 secondes une fois sortis de la furtivité.",
+   "n": "Savoir local"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Les lanciers sont équipés de lances foudroyantes, bénéficiant d'une attaque à distance explosive à rechargement.",
+   "n": "Lances foudroyantes"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Déverrouille la capacité Projectiles synchronisés pour les yeomen.",
+   "n": "Projectiles synchronisés"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Les Tanegashima Ashigaru déploient automatiquement un bouclier vertical lorsqu'ils sont immobiles, ce qui augmente la portée de l'arme de +2 parcelles et l'armure à distance de +2.",
+   "n": "Tate tanegashima"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Augmente l’armure des cataphractaires de +1, la vitesse de déplacement des Limitanei de +15 % et la vitesse d’attaque des gardes varègues de +15 %.",
+   "n": "Boucliers en forme de goutte d’eau"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Augmente la vitesse de production des unités militaires et de transport dans les bâtiments de 53 %.\nN’affecte pas les unités religieuses ni les autres unités de soutien.\nSi l’Académie militaire a déjà été développée, augmente la vitesse de production de 20 % à la place.",
+   "n": "Académie militaire (améliorée)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "Les tours en pierre et les donjons gagnent une attaque à la grenade contre les unités proches qui inflige des dégâts explosifs. Les ennemis n'ont qu'à bien se tenir.",
+   "n": "Pluie de feu"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Améliore toutes les citadelles varègues en leur ajoutant des fortifications à meurtrières par défaut, qui infligent 10 de dégâts avec une portée d'arme de 6 parcelles.",
+   "n": "Meurtrières défensives de citadelle"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Investir dans les sciences naturelles augmente la santé de toutes les unités de cavalerie de 35 %.\nSi la technologie Biologie a déjà été développée, elle augmente alors de 10 %.",
+   "n": "Biologie (améliorée)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Les temples bouddhistes lancent Sutra des Sōhei sur un ennemi à proximité toutes les 6 secondes.",
+   "n": "Ministères des cinq montagnes"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "Les soins de l'aura d'attaque des moines Ikko-ikki est augmentée de +1.",
+   "n": "Médecine Kampo"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Augmente la santé des moines Ikko-ikki de +60, ainsi que leurs dégâts au corps-à-corps de +2.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Augmente la vitesse de déplacement du moine Ikko-ikki de +33 %.",
+   "n": "Formation en haute montagne"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Améliore Conversion bouddhiste en Conversion du Nehan, qui a un temps de récupération plus court de 25 % et qui améliore la vitesse de déplacement des unités alliées à proximité de 25 % supplémentaires lors du lancement.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Les moines bouddhistes génèrent 25 pièces d'or toutes les 60 secondes.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "La tente dorée peut rapidement produire des unités uniques à un coût réduit en pierre et en pierre torguud, sa vitesse de production est diminuée de 20 %, et les tributs rus' sont améliorés grâce à une armure renforcée et une bardiche.",
+   "n": "Armées de pierre"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "La tente dorée génère 10 unité(s) d'or toutes les 10 secondes pour chaque poste avancé fortifié construit, jusqu'à un maximum de 6 postes avancés fortifiés.",
+   "n": "Commerce sur le réseau du yam"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Réduit le coût du khan et des Torguuds de 20 % et augmente leur santé de 30.",
+   "n": "Khan et Torguuds"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Produit 2 chariots de construction pouvant être montés en un bâtiment militaire.\nUn chariot de construction supplémentaire est produit lors de l'avancement vers des âges ultérieurs.",
+   "n": "Chariots de construction"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "Les territoires rus' conquis confèrent de plus grands boucliers à l'infanterie lourde et à la cavalerie lourde, augmentant leur armure à distance de +2. \nDu bois sera également généré au rythme de 200 par minute, mais ce gain est réduit de 2 ressource(s) de bois pour chaque unité équipée d'un bouclier rus'.",
+   "n": "Iassak moscovite"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Les chamans peuvent consommer une relique portée afin de construire un ovoo, contournant ainsi la limite de construction. Augmente la vitesse de collecte de pierre des ovoos de 20 %.",
+   "n": "Ovoos à reliques"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Équiper des grands boucliers confère à vos hommes d'armes +3 d'armure à distance.",
+   "n": "Grands boucliers"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Les marchands et les navires de commerce reviennent également avec une ressource secondaire. Cette ressource représente 25 %. de la valeur de l'or et se trouve au marché.",
+   "n": "Grand bazar"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Augmente le revenu en or des marchands et des navires de commerce de 30 %.",
+   "n": "Routes des épices"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Confère +3 d'armure aux marchands et aux navires de commerce.",
+   "n": "Caravanes blindées"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Les marchands fournissent +20 % de pierre à leurs échanges.\nSi Commerce de la pierre a déjà été développé, ils fournissent +10 % de pierre à la place.",
+   "n": "Commerce de pierre (amélioré)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Les marchands fournissent 10 % de pierre supplémentaire.",
+   "n": "Commerce de la pierre"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Sous l'effet de cette capacité, les béliers s'immobilisent et bénéficient de puissants bonus défensifs, ainsi que de la capacité de tirer des volées de flèches.",
+   "n": "Tête de pont"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Augmente la quantité d'or générée par les monastères, les lieux sacrés et les pèlerins de 20 % dans la zone d'aura d'une forteresse.",
+   "n": "Tours de trésors"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Les projectiles des trébuchets éclatent à l'impact, ce qui augmente leur zone d'effet.",
+   "n": "Projectiles à éclats"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Les grenades explosives lancées par les trébuchets et les nids d'abeilles éliminent les défenseurs ennemis. Les dégâts des bâtiments attaqués sont alors réduits de 20 % pendant 8 secondes. Les trébuchets et les nids d'abeilles gagnent +1 de portée.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "Toutes les armes de trébuchet gagnent +1 projectiles supplémentaires.",
+   "n": "Défenses à contrepoids"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Convertir les éléphants soigneurs en éléphants soigneurs d'élite",
+   "n": "Convertir en élite"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Convertir les mercenaires aguerris en mercenaires vétérans",
+   "n": "Contrat de vétéran"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Convertir les mercenaires vétérans en mercenaires d'élite",
+   "n": "Contrat d'élite"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Augmente la vitesse de soin des unités religieuses de 90 %..\nCette augmentation est de 30 %. si la technologie Plantes médicinales a déjà été développée.",
+   "n": "Plantes médicinales (améliorées)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Augmente la santé de tous les chamans de 60.\nCette augmentation est de 20 si la technologie Piété a déjà été développée.",
+   "n": "Piété (améliorée)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Permet aux érudits de capturer des lieux sacrés avant l'âge des châteaux (III). Les lieux sacrés génèrent 25 %. plus d'or.",
+   "n": "Sainteté"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "Toutes les minutes, chaque relique placée dans une tente de prière fournit +60 unité(s) de nourriture, +60 unité(s) de bois et +15 unité(s) de pierre.\nLes revenus en nourriture et en bois augmentent de 20 et les revenus en pierre de 5 si la technologie Granges dîmières a déjà été développée.",
+   "n": "Granges dîmières (améliorées)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Les unités soignées par les érudits obtiennent +50 %. de vitesse d'attaque pendant 3 seconde(s).",
+   "n": "Ferveur"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Le déplacement des bâtiments démontés et leur montage/démontage sont +70 % et +50 % plus rapides respectivement.\nSi la technologie Mobilité supérieure a déjà été développée, alors la vitesse augmente de +20 % à la place.",
+   "n": "Mobilité supérieure (améliorée)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Le déplacement de bâtiments démontés et le montage/démontage sont 50 % plus rapides.",
+   "n": "Mobilité supérieure"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Augmente la capacité de transport des villageois de 3, leur vitesse de déplacement de 7 % et leur vitesse de récolte des buissons de baies de +25 %.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Augmente la capacité de transport des villageois de 3, leur vitesse de déplacement de 7 % et leur vitesse de récolte des buissons de baies de +25 %.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Augmente la capacité de transport des villageois de 3, leur vitesse de déplacement de 7 % et leur vitesse de récolte des buissons de baies de +25 %.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Convertir les éléphants à baliste en éléphants à baliste d'élite",
+   "n": "Baliste à leviers renforcée"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Augmente la capacité de transport de ressources villageois de 9 et leur vitesse de déplacement de 15 %.\nSi la technologie Brouettes a déjà été développée, alors elle augmente de 4.",
+   "n": "Brouette (améliorée)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Les gardes varègues augmentent leur vitesse de déplacement de +30 % lors de l’activation de Fureur guerrière.",
+   "n": "Vitesse féroce"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Les arsenaux varègues produisent des flèches plus meurtrières, ce qui permet aux unités touchées par des bogmaðrs de voir leurs dégâts réduits de 20 % pendant 5 secondes.",
+   "n": "Aveuglement ruineux"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Augmente la santé de tous les villageois de 50 %.\nCette augmentation est de 100 % si la technologie Textiles a déjà été développée.",
+   "n": "Textiles (améliorés)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Les tours et les donjons réparent les murs et portes à proximité à hauteur de 25 points de vie par seconde.",
+   "n": "Matériaux supplémentaires"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "L’expérience acquise lors de la construction de trébuchets plus grands augmente leur portée de 2 et leur santé de 50 %.",
+   "n": "Trébuchet Loup de guerre"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Augmente les dégâts des torches de toutes les unités d'infanterie et de cavalerie de 5.\nCette augmentation est de 2 si la technologie Torches supplémentaires a déjà été développée.",
+   "n": "Torches supplémentaires (améliorées)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Augmente les dégâts des torches de toutes les unités d'infanterie et de cavalerie de 3.",
+   "n": "Torches supplémentaires"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Augmente les dégâts des flèches tirées depuis cette forteresse en bois de 2.",
+   "n": "Tourelle de château"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Augmente la portée de la vision de cette forteresse en bois de 6 parcelles.",
+   "n": "Tour de guet de château"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "La vitesse de déplacement de la cavalerie est augmentée de 10 %.",
+   "n": "Dressage des chevaux"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Augmente les dégâts anti-cavalerie de la cavalerie à yari de +2.",
+   "n": "Yari amélioré"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Les yatai peuvent récolter de la nourriture des champs agricoles à proximité, chaque champ agricole générant +4 unité(s) de nourriture par minute. Augmente le taux maximum à 80 unité(s) de nourriture par minute.",
+   "n": "Rassemblement de fermes yatai"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Confère +1 point(s) de dégâts aux ashigaru à yumi.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Les lansquenets dorés sont équipés d’une hallebarde qui inflige des blessures à l'ennemi. Lorsqu’une unité est touchée par cette arme, elle se met à saigner et perd 2 points de vie par seconde. Dure 10 secondes.\nN’importe quel effet de soin guérit le saignement.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Nourriture",
+  "i-gold": "Or",
+  "i-silver": "Argent",
+  "i-stone": "Pierre",
+  "i-vizier": "Points de vizir",
+  "i-wood": "Bois"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Adoptez la soif de savoir des Abbassides en développant des technologies uniques qui profiteront aux chameaux, à l'armée, à la religion, à l'économie et au commerce.\nProgressez à l'âge suivant en améliorant jusqu'à quatre ailes du savoir de la Maison de la sagesse.",
+   "t": "Quête de savoir"
+  },
+  "ab-2": {
+   "d": "Les chameaux effraient la cavalerie ennemie de leur présence, réduisant leurs dégâts de 20 %.",
+   "t": "Guerriers sur chameaux"
+  },
+  "ab-3": {
+   "d": "L’infanterie peut construire des béliers, des tours de siège, des espringales et des mangonneaux sans la technologie Expertise de siège.",
+   "t": "Experts de siège"
+  },
+  "ab-4": {
+   "d": "Convertissez les buissons de baies en vergers en construisant des moulins à proximité. La limite de nourriture est augmentée de 100.\nLes villageois récoltent sur les buissons de baies 25 % plus rapidement, mais la récolte de la viande de sanglier est impossible.\nLes villageois transportent +3 unités de nourriture depuis les buissons de baies.",
+   "t": "Grands vergers"
+  },
+  "ab-5": {
+   "d": "Les commerçants fonciers sont 33 % moins chers.",
+   "t": "Économie et commerce"
+  },
+  "ab-6": {
+   "d": "La construction des quais consomme 50 % de bois en moins.",
+   "t": "Chantiers navals"
+  },
+  "ab-7": {
+   "d": "Tentez d'atteindre l'âge d'or de votre civilisation en améliorant l'économie et la technologie.\nLes bâtiments dans la zone d'influence de la Maison de la sagesse obtiennent +5 en armure de feu et contribuent à atteindre l'âge d'or. Les seuils de déverrouillage sont de 10, 30 et 60 bâtiments.\n• Rang 1 : +15 % de taux de collecte des villageois\n• Rang 2 : +20 % de vitesse de développement\n• Rang 3 : +20 % de taux de collecte des villageois pour toutes les ressources. +20 % de vitesse de développement. +20 % de vitesse de production.",
+   "t": "Âge d'or"
+  },
+  "ab-8": {
+   "d": "Archers sur chameaux : unités de cavalerie à distance légère qui inflige des dégâts supplémentaires aux unités d'infanterie au corps-à-corps légère.\nChameliers : unités de cavalerie au corps-à-corps légère qui inflige des dégâts supplémentaires à la cavalerie.\nGhulam : unité d'infanterie robuste capable de lancer une double frappe.",
+   "t": "Unités uniques"
+  },
+  "ay-1": {
+   "d": "Progressez d'âge en âge en choisissant parmi 8 ailes uniques de la Maison de la sagesse.\nAccédez immédiatement à divers bonus économiques, technologiques et militaires sans requérir d'amélioration afin de remodeler la civilisation en fonction du combat.\nChaque aile fournit des bonus plus puissants si elle est construite dans les derniers âges.",
+   "t": "Commandant adaptable"
+  },
+  "ay-2": {
+   "d": "Les chameaux effraient la cavalerie ennemie de leur présence, réduisant leurs dégâts de 20 %.",
+   "t": "Guerriers sur chameaux"
+  },
+  "ay-3": {
+   "d": "L'infanterie peut construire des engins de siège sur le terrain sans avoir besoin de la technologie Expertise de siège.\nAccès à deux armes de siège uniques et à une amélioration de siège unique.",
+   "t": "Maîtres de tactiques de siège"
+  },
+  "ay-4": {
+   "d": "Convertissez les buissons de baies en vergers en construisant des moulins à proximité. La limite de nourriture est augmentée de 100.\nLes villageois récoltent sur les buissons de baies 25 % plus rapidement, mais la récolte de la viande de sanglier est impossible.\nLes villageois transportent +3 unités de nourriture depuis les buissons de baies.",
+   "t": "Grands vergers"
+  },
+  "ay-5": {
+   "d": "Les commerçants fonciers sont 33 % moins chers.",
+   "t": "Économie et commerce"
+  },
+  "ay-6": {
+   "d": "La construction des quais consomme 50 % de bois en moins.",
+   "t": "Chantiers navals"
+  },
+  "ay-7": {
+   "d": "Bâtissez la voie vers l'âge d'or en améliorant votre économie, votre technologie et votre armée.\nLa résistance au feu des bâtiments construits dans la zone d'influence de la Maison de la sagesse augmente de +5 et contribue de 1 point à l'âge d'or. Les seuils de déblocage sont de 10, 20, 30, 50 et 75 bâtiments.\n• Niveau 1 : taux de collecte des villageois +10 %\n• Niveau 2 : vitesse de développement +25 %\n• Niveau 3 : vitesse de production +20 %\n• Niveau 4 : les unités de siège coûtent 20 % de ressources en moins à produire\n• Niveau 5 : les unités à chameaux attaquent 20 % plus vite.",
+   "t": "Âge d'or"
+  },
+  "ay-8": {
+   "d": "Pilleur du désert : chamelier polyvalent pouvant passer du mode à distance au mode au corps-à-corps.\nLancier chamelier : chamellerie lourde avec une puissante charge offensive.\nDerviche : unité religieuse montée à la puissante capacité de soin.\nManjaniq : mangonneau unique qui peut avoir recours à un mode incendiaire pour infliger des dégâts sur une zone bien plus grande.\nTour du sultan : gigantesque arme de siège embarquant des archers et équipée d'un bélier infligeant des dégâts dévastateurs aux bâtiments.",
+   "t": "Unités uniques"
+  },
+  "by-1": {
+   "d": "Collectez une ressource unique utilisée pour engager des unités mercenaires. Les villageois produisent une quantité d'huile d'olive équivalente à 50 % de la nourriture récoltée sur les buissons de baies, 20 % de la nourriture récoltée dans les oliveraies et 10 % de la nourriture obtenue sur les poissons pêchés près de la côte.\nLes bateaux de pêche génèrent une quantité d'huile d'olive équivalente à 20 % de la nourriture issue de la pêche et les marchands génèrent une quantité d'huile d'olive équivalente à 20 % de la quantité de ressources échangée.",
+   "t": "Huile d’olive"
+  },
+  "by-2": {
+   "d": "Achetez des contrats ou prenez le contrôle de comptoirs afin de recruter des unités uniques d’autres civilisations à la maison des mercenaires en échange d’huile d’olive.",
+   "t": "Mercenaires"
+  },
+  "by-3": {
+   "d": "Les citernes augmentent le taux de collecte des villageois à proximité et améliorent la vitesse de production, la vitesse de développement ou la défense des bâtiments.\nConstruisez un réseau d’aqueducs relié aux citernes pour augmenter leurs bonus.",
+   "t": "Citernes et aqueducs"
+  },
+  "by-4": {
+   "d": "Collectez de la pierre de chaque bâtiment construit. La taille du bâtiment détermine la quantité de pierre collectée.",
+   "t": "Pierres des champs"
+  },
+  "by-5": {
+   "d": "Les cheirosiphons ainsi que les dromons et les trébuchets améliorés lancent du feu grégeois avec leurs attaques, engloutissant la zone dans des flammes infligeant des dégâts au fil du temps.",
+   "t": "Feu grégeois"
+  },
+  "by-6": {
+   "d": "Les postes avancés et les donjons peuvent être équipés d'emplacements de mangonneaux. Les tours en pierre sont directement équipées d'emplacements de mangonneaux au lieu d'espringales.",
+   "t": "Emplacements de mangonneau"
+  },
+  "by-7": {
+   "d": "Limitanei : remplacent les lanciers. Infanterie au corps-à-corps légère avec la capacité Mur de boucliers qui permet d’augmenter leur armure à distance au détriment de leur vitesse de déplacement.\nGardes varègues : remplacent les hommes d’armes. Utilisez la capacité Fureur guerrière pour augmenter leurs dégâts au détriment de leur armure. Peuvent construire des navires de transport et augmenter l’armure des transports une fois en garnison. Leur vitesse de déplacement est améliorée lorsqu’ils débarquent d’un navire de transport.\nCataphractaires : remplacent les chevaliers. Cavalerie lourde avec la capacité Piétinement, une puissante attaque ciblée qui permet de charger l’ennemi et d’infliger des dégâts aux unités sur la trajectoire de l’attaque.\nCheirosiphons : béliers capables de lancer une attaque de feu grégeois à courte portée.\nDromons : remplacent les navires avec espringale. Équipés de feu grégeois.",
+   "t": "Unités uniques"
+  },
+  "ch-1": {
+   "d": "Commencez la partie avec la dynastie Tang. Portée de la vision des unités de reconnaissance augmentée de +30 % et villages débloqués.\nEntrez dans une dynastie en construisant les deux monuments d'un âge pour avoir accès à des bonus spéciaux, des unités et bâtiments uniques.\n• Dynastie Song : les villageois sont produits +33 % plus rapidement. Silos à grain et chu ko nus débloqués.\n• Dynastie Yuan : les villageois, les officiers et les unités militaires se déplacent +15 % plus rapidement. Pagodes et lanciers de feu débloqués.\n• Dynastie Ming : +15 % de santé pour les unités militaires. Grenadiers débloqués.",
+   "t": "Grandes dynasties"
+  },
+  "ch-2": {
+   "d": "Les villageois construisent des défenses 50 % plus rapidement et tous les autres bâtiments 100 % plus vite. Les docks fonctionnent 10 % plus rapidement.",
+   "t": "Constructions rapides"
+  },
+  "ch-3": {
+   "d": "Commencez la partie avec la technologie de chimie accordée gracieusement. Les bâtiments défensifs utilisent des canonnières plutôt que des archères de défense.",
+   "t": "Maîtres de la poudre à canon"
+  },
+  "ch-4": {
+   "d": "Unités formées, technologies développées et ressources déposées génèrent des impôts (or), qui peuvent être collectés par les officiers impériaux.",
+   "t": "Impôts"
+  },
+  "ch-5": {
+   "d": "Construire des bâtiments militaires et économiques dans la zone d'influence de l'académie impériale permet de générer 100 % d'or des impôts.",
+   "t": "Influence"
+  },
+  "ch-6": {
+   "d": "Officier impérial : utilisez la capacité Superviser pour augmenter la vitesse de production des bâtiments de recherche et militaires de 150 %. Superviser les bâtiments économiques augmente la quantité de ressources déposées par les villageois de 20 %.\nChu ko nu : unité d'infanterie légère à distance possédant une attaque explosive en rafale efficace contre les unités légères.\nGarde du palais : remplace les hommes d'armes. Unité d'infanterie lourde au corps-à-corps qui sacrifie son armure pour une plus grande vitesse de déplacement.\nNid d'abeilles : remplace les mangonneaux. Engin de siège capable d'envoyer un tir de barrage de roquettes, infligeant des dégâts de zone.\nLancier de feu : unité de cavalerie légère efficace contre les engins de siège et les bâtiments. Possède une grande portée de la vision et une charge explosive.\nGrenadier : unité d'infanterie légère à poudre à canon à distance qui lance des grenades pour infliger des dégâts de zone.",
+   "t": "Unités uniques"
+  },
+  "de-1": {
+   "d": "Former des érudits des mosquées à l'âge sombre (I). Développez et débloquez les technologies religieuses plus tôt que les autres civilisations.",
+   "t": "Culture érudite"
+  },
+  "de-2": {
+   "d": "Économisez sur le coût des technologies et recherchez toutes les technologies gratuitement, mais elles progresseront à une vitesse beaucoup plus lente. Il est possible de mettre une recherche de technologie en pause et de la rependre plus tard.",
+   "t": "Réussite scolaire"
+  },
+  "de-3": {
+   "d": "Établissez des villages fortifiés grâce à des unités d'infanterie capables de construire des palissades. Construisez l'enceinte du défenseur pour étendre cette capacité aux murs de pierre.",
+   "t": "Fortifications de frontière"
+  },
+  "de-4": {
+   "d": "Les navires de pêche peuvent se défendre avec une attaque à distance et ont 50 % de santé supplémentaire.",
+   "t": "Matelots robustes"
+  },
+  "de-5": {
+   "d": "Convertissez les buissons de baies en vergers en construisant des moulins à proximité. La limite de nourriture est augmentée de 100.\nLes villageois récoltent sur les buissons de baies 25 % plus rapidement, mais la récolte de la viande de sanglier est impossible.\nLes villageois transportent +3 unités de nourriture depuis les buissons de baies.",
+   "t": "Prime de jardin"
+  },
+  "de-6": {
+   "d": "Les érudits en garnison dans une mosquée, une médersa ou un port augmenteront la vitesse de développement des bâtiments sous leur influence en fonction du nombre total d'érudits en garnison. Les ports travaillent plus vite lorsque des érudits y sont en garnison.",
+   "t": "Influence"
+  },
+  "de-7": {
+   "d": "Érudit : unité religieuse capable de guérir à l'Âge sombre (I).\nÉléphant de guerre : unité de cavalerie au corps-à-corps lourde montée par un lancier et possédant une santé et des dégâts élevés avec une attaque de siège puissante.\nÉléphant avec tour : unité de cavalerie à distance montée par deux archers capables de tirer tout en se déplaçant.\nPilleur ghazi : cavalier rapide équipé d'une masse lourde.",
+   "t": "Unités uniques"
+  },
+  "en-1": {
+   "d": "Protégez la frontière avec des forums, des postes avancés, des tours en pierre et des donjons qui augmentent la vitesse d'attaque des unités à proximité de +20 % lorsque des ennemis sont à portée.\nDéveloppez la technologie Réseau de citadelles dans les donjons pour augmenter davantage la vitesse d'attaque de +30 %.",
+   "t": "Réseau de châteaux"
+  },
+  "en-2": {
+   "d": "Les donjons ont la capacité unique de produire toutes les unités militaires.",
+   "t": "Production des donjons"
+  },
+  "en-3": {
+   "d": "Les hommes d'armes d'avant-garde sont disponibles à l'Âge sombre (I). Les hommes d'armes anglais produisent 40 % plus vite.",
+   "t": "Appel aux armes"
+  },
+  "en-4": {
+   "d": "Le forum de la capitale tire une flèche supplémentaire et les villageois manient des arcs courts lorsqu'ils attaquent des unités ennemies.",
+   "t": "Byrig défensifs"
+  },
+  "en-5": {
+   "d": "La construction de fermes coûte 50 % moins cher.\nDéveloppez la technologie des enclos à l'Âge impérial (IV) pour permettre aux villageois de générer +1 d'or toutes les 6 secondes lorsqu'ils travaillent dans les fermes.",
+   "t": "Île d'agriculture"
+  },
+  "en-6": {
+   "d": "L'organisation navale augmente l'efficacité des quais, réduisant le coût de construction des navires de 10 %.",
+   "t": "Chantier naval"
+  },
+  "en-7": {
+   "d": "La vitesse de récolte des fermes est augmentée de +20/25/30/30 % à chaque changement d’âge sous l’influence d’un moulin.",
+   "t": "Influence"
+  },
+  "en-8": {
+   "d": "Les éclaireurs et les hommes d'armes peuvent allumer des feux de camp, qui augmentent la portée de visibilité des unités à proximité de +30 % ainsi que la vitesse de collecte des chasseurs alentours de +10 %.",
+   "t": "Forêt royale"
+  },
+  "en-9": {
+   "d": "Fantassin à arc long : archer possédant une portée de +2 et infligeant +1 de dégâts. Équipé de la capacité palis défensifs qui lui permet d'assommer et d'infliger des dégâts à la cavalerie ennemie.",
+   "t": "Unités uniques"
+  },
+  "fr-1": {
+   "d": "Déployez le chevalier royal à l'âge féodal (II) et recherchez de puissantes technologies exclusives pour la cavalerie.",
+   "t": "Étalons royaux"
+  },
+  "fr-2": {
+   "d": "Bénéficiez d'une économie supérieure avec des coûts de dépôt de ressources réduits de -50 % et des coûts de technologie réduits de -35 %.\nLa vitesse de production des forums est augmentée à chaque âge de +15 %, +15 %, +20 % et +25 %.",
+   "t": "Économie continentale"
+  },
+  "fr-3": {
+   "d": "Choisissez de raporter de la nourriture, du bois ou de l'or aux marchés avec des marchands et des navires de commerce.\nLes navires de commerce reviennent avec +20 % de ressources en plus.\nLes comptoirs sont indiqués sur la minicarte en début de partie.\nLes ports génèrent de l'espace de population supplémentaire.",
+   "t": "Économie et commerce"
+  },
+  "fr-4": {
+   "d": "Les ateliers de forgeron octroient gratuitement des technologies de dégâts au corps-à-corps gratuites.",
+   "t": "Bénédiction du forgeron"
+  },
+  "fr-5": {
+   "d": "Continuez vos attaques grâce à des donjons 10 % moins chers. Réduit de 20 % le coût des unités produites par les camps de tir à l'arc et les écuries qui se trouvent dans leur zone d'influence.",
+   "t": "Influence"
+  },
+  "fr-6": {
+   "d": "Chevalier royal : unité de cavalerie lourde. Inflige +3 de dégâts supplémentaires pendant 5 secondes après avoir effectué une charge.\nArbalétrier : unité à distance avec +1 d'armure de mêlée capable de déployer un pavois défensif qui fournit +5 d'armure à distance et +1 de portée d'arme pendant 30 secondes.\nCanon : remplace la bombarde. Inflige plus de dégâts, possède une plus grande mobilité et ne nécessite pas de temps d'installation.\nGaléasse : grande galère de guerre équipée d'une bombarde longue portée montée à l'avant.\nCogue de guerre : navire avec espringale unique moins cher et aux dégâts à distance plus élevés.",
+   "t": "Unités uniques"
+  },
+  "gol-1": {
+   "d": "La tente dorée est le seul monument de la horde d'or. Elle peut être améliorée pour passer à l'âge supérieur et augmenter la santé du bâtiment. Un édit peut y être choisi, modifiant le bonus d'influence ou d'aura accordé par les postes avancés fortifiés.\nLe Batu Khan et les Torguuds peuvent être recrutés depuis la tente dorée.",
+   "t": "Tente dorée"
+  },
+  "gol-2": {
+   "d": "Les unités sont produites par groupes de deux. Des technologies peuvent être développées pour améliorer cette production groupée.",
+   "t": "Hordes"
+  },
+  "gol-3": {
+   "d": "Construisez des enclos à bétail plutôt que des fermes ou des pâturages pour produire de la nourriture : les enclos contiennent des carcasses de mouton pouvant être collectées et déposées à l'enclos à bétail directement.",
+   "t": "Enclos à bétail"
+  },
+  "gol-4": {
+   "d": "Les postes avancés fortifiés ont plus de santé et octroient des bonus d'influence ou d'aura en fonction de l'édit choisi à la tente dorée.",
+   "t": "Postes avancés fortifiés"
+  },
+  "gol-5": {
+   "d": "Les débarquements de navires de transport sont plus rapides et les navires plus durables avec +50 % de santé et +15 % de vitesse de déplacement.",
+   "t": "Transports améliorés"
+  },
+  "gol-6": {
+   "d": "Explorez la Route de la soie avec des marchands. Ils obtiennent des ressources supplémentaires à chaque transaction en fonction de votre nombre total de marchands actifs.\n• 5+ marchands : +10 % de nourriture\n• 10+ marchands : +10 % de nourriture et de bois\n• 15+ marchands : +10 % de nourriture, de bois et d'or",
+   "t": "Route de la soie"
+  },
+  "gol-7": {
+   "d": "Construisez des ovoos sur des affleurements de pierre pour collecter de la pierre sans nécessiter de villageois. Le nombre maximum d’ovoos pouvant être construits augmente de 1 chaque fois que vous passez à l’âge suivant.",
+   "t": "Technologie de pierre et ovoos"
+  },
+  "gol-8": {
+   "d": "Les éclaireurs peuvent déployer la capacité Faucon éclaireur pour surveiller les environs.",
+   "t": "Faucon éclaireur"
+  },
+  "gol-9": {
+   "d": "Khan de la horde d'or : unité de cavalerie lourde dont la force augmente au fil des âges. Capable de tirer une flèche qui augmente les dégâts subis par les ennemis dans une zone. Le khan génère également une aura de dégâts d'attaque croissants à mesure que le khan reste en combat.\nTorguud : unité de cavalerie lourde chargée de protéger le khan en subissant tous les dégâts subis par le khan à sa place.\nKharash : faibles unités d'infanterie légère de corps-à-corps, qui augmentent l'armure des alliés à proximité.\nKipchak : archer de cavalerie capable de tirer des flèches qui déclenchent un saignement chez la cible.\nTrébuchet à traction : vitesse de déplacement, durée de mise en place et vitesse d'attaque augmentées.\nKheshig : unité de cavalerie lourde disponible à partir de l'âge féodal. Régénère de la santé après chaque attaque.",
+   "t": "Unités uniques"
+  },
+  "hl-1": {
+   "d": "Construisez des manoirs pour générer des revenus passifs à l'âge féodal. Les manoirs font office de bâtiments de dépôt pour tous les types de ressources et fournissent +10 d'espace de population. Chaque manoir génère 30 unité(s) de nourriture et 10 unité(s) de bois par minute, ainsi que 4 unité(s) de nourriture et 2 unité(s) de bois supplémentaire(s) pour chaque villageois à proximité.\nAugmentez la limite de construction des manoirs avec des technologies uniques.",
+   "t": "La féodalité"
+  },
+  "hl-2": {
+   "d": "Chaque forum génère 4 mouton(s) lors de sa construction. Les villageois récoltent la production des moutons +20 % plus vite.",
+   "t": "Industries lainières"
+  },
+  "hl-3": {
+   "d": "Le forum de la capitale tire une flèche supplémentaire et les villageois manient des arcs courts lorsqu'ils attaquent des unités ennemies.",
+   "t": "Byrig défensifs"
+  },
+  "hl-4": {
+   "d": "Les donjons accordent 3 gardes du Comte gratuits lors de leur construction. Chaque donjon actif augmente les dégâts des gardes du Comte et des demi-lanciers de +1, jusqu'à un maximum de +4.",
+   "t": "Une maison unifiée"
+  },
+  "hl-5": {
+   "d": "L'organisation navale augmente l'efficacité des quais, réduisant le coût de construction des navires de 10 %.",
+   "t": "Chantier naval"
+  },
+  "hr-1": {
+   "d": "Montrez la puissance de l'empire en plaçant des reliques dans les postes avancés, les tours et les donjons, ce qui augmente leur armure de +25 %, leurs dégâts de +25 %, leur portée de +25 % et leur ligne de mire de +20 %.\nLes reliques placées dans les ports augmentent la vitesse d'attaque des navires de +5 % par relique (Max +25 %).\nLes reliques placées dans les bâtiments génèrent +80 d'or par minute.",
+   "t": "Zèle religieux"
+  },
+  "hr-2": {
+   "d": "L'infanterie se déplace 5 % plus rapidement à l'Âge sombre (I) et 10 % plus rapidement à partir de l'Âge féodal (II). Améliorez l'infanterie avec des technologies percutantes et déployez les hommes d'armes primitifs à l'Âge féodal (II).",
+   "t": "Armée de l'empire"
+  },
+  "hr-3": {
+   "d": "Toutes les technologies d'emplacement coûtent 20 % moins cher. La ligne de mire des postes avancés augmente de 20 %.",
+   "t": "Architecture urbaine"
+  },
+  "hr-4": {
+   "d": "Les villageois transportent +40 % plus de ressources que les autres civilisations.",
+   "t": "Charrette à bras"
+  },
+  "hr-5": {
+   "d": "Les bâtiments construits dans la zone d'influence d'un forum obtiennent la capacité Réparations d’urgence qui peut être activée pour réparer le bâtiment et restaurer 150 points de santé par seconde, pendant 20 secondes.",
+   "t": "Influence"
+  },
+  "hr-6": {
+   "d": "Prélat : utilisez la capacité Inspiration sacrée sur les villageois pour augmenter leur taux de collecte de +35 % pendant 30 secondes.\nLansquenet : unité d’infanterie légère au corps-à-corps équipée d’une grande épée à deux mains capable d’infliger d’importants dégâts de zone.\nCavalier noir : puissant artilleur en armure monté dont la production est limitée par le nombre de donjons construits.",
+   "t": "Unités uniques"
+  },
+  "ja-1": {
+   "d": "Les forums peuvent être convertis en bâtiments spéciaux, respectivement appelés manoir du daimyo, palais du daimyo et château du shogunat. Ces bâtiments procurent des bonus de 20 %, 40 %, 60 % aux villageois à proximité travaillant dans des fermes, accroissent de +1, +2, +3 la faculté du samouraï porte-bannière et améliorent ses défenses.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Des porte-bannières samouraïs d'élite de terrain qui augmentent les dégâts de l'infanterie à proximité de +15 % et de la cavalerie de +10 %. Les porte-bannières samouraïs lâchent leurs bannières lorsqu'il sont tués, ce qui octroie le même effet pendant un certain temps.",
+   "t": "Samouraï hatamoto"
+  },
+  "ja-3": {
+   "d": "Produisez des samouraïs à l’Âge sombre (I). Les samouraïs ont la capacité d’armure déflectrice qui peut bloquer périodiquement des attaques au corps-à-corps ou à distance.",
+   "t": "Calme d’esprit"
+  },
+  "ja-4": {
+   "d": "La forge est un site de dépôt d'or et de pierre qui remplace le camp de mineurs et l’atelier de forgeron. De plus, elle fournit une technologie de dégâts au corps-à-corps supplémentaire dans l'âge sombre (I). La ferme fournit de la population et remplace le moulin comme site de dépôt de nourriture.",
+   "t": "Ferme et Forge"
+  },
+  "ja-5": {
+   "d": "Accédez à un donjon plus puissant à l'âge impérial (IV) comprenant des emplacements de santé et de fusées accrus pour un coût plus élevé. Les fusées attaquent rapidement et infligent des dégâts importants aux cibles uniques.",
+   "t": "Forteresse d'Oda"
+  },
+  "ja-6": {
+   "d": "Lorsque les villageois déposent de l'or, 20 % de pierre supplémentaire est également produite, et vice versa.",
+   "t": "Mines d’argent"
+  },
+  "ja-7": {
+   "d": "Sélectionnez le shintoïsme ou le bouddhisme avec votre choix de monument de l’âge III. Si vous choisissez le shintoïsme, vous débloquez le prêtre shinto. Si vous choisissez le bouddhisme, vous débloquez le moine bouddhiste. Ces unités religieuses offrent des bonus uniques.",
+   "t": "Choix religieux"
+  },
+  "ja-8": {
+   "d": "Les casernes sont 50 % moins chères à construire.",
+   "t": "District de samouraïs"
+  },
+  "ja-9": {
+   "d": "Les bateaux de pêche sont produits pour 25 % moins cher.",
+   "t": "Village de pêcheurs"
+  },
+  "je-1": {
+   "d": "Jeanne d'Arc est présente sur le champ de bataille. Une unité héroïque qui gagne de l'expérience en accomplissant des tâches telles que la collecte de ressources, en construisant des bâtiments et en livrant bataille.\nAprès avoir acquis suffisamment d'expérience, Jeanne peut passer au niveau supérieur pour obtenir de puissantes capacités économiques et martiales.",
+   "t": "Le voyage héroïque"
+  },
+  "je-2": {
+   "d": "Déployez le chevalier royal à l'âge féodal (II) et recherchez de puissantes technologies exclusives pour la cavalerie.",
+   "t": "Étalons royaux"
+  },
+  "je-3": {
+   "d": "Les habitants travaillent plus dur sous le commandement de Jeanne d'Arc. Les améliorations économiques coûtent 35 % fois moins cher.",
+   "t": "Économie dynamisée"
+  },
+  "je-4": {
+   "d": "Choisissez de raporter de la nourriture, du bois ou de l'or aux marchés avec des marchands et des navires de commerce.\nLes navires de commerce reviennent avec +20 % de ressources en plus.\nLes comptoirs sont indiqués sur la minicarte en début de partie.\nLes ports génèrent de l'espace de population supplémentaire.",
+   "t": "Économie et commerce"
+  },
+  "je-5": {
+   "d": "Jeanne d'Arc : unité héroïque débutant comme une villageoise. Jeanne doit entreprendre le voyage héroïque pour acquérir de puissantes capacités.\nCavalier de Jeanne : cavalerie rapide efficace pour les pillages, les assaults et pour contrer les arbalétriers. Disponible à partir du niveau 3 de Jeanne.\nChampion de Jeanne : infanterie robuste qui excelle à contrer les lanciers. Disponible à partir du niveau 3 de Jeanne.\nChevalier royal : unité de cavalerie lourde. Inflige +3 de dégâts supplémentaires pendant 5 secondes après avoir effectué une charge.\nArbalétrier : unité de tir à distance munie d'une arbalète, disposant de +1 de points d'armure au corps-à-corps et capable de déployer un pavois défensif assurant +5 de points d'armure à distance ainsi que +1 de portée d'arme pendant 30 secondes.\nCanon : remplace la bombarde. Inflige plus de dégâts, possède une plus grande mobilité et ne nécessite pas de temps d'installation.\nGalléasse : grande galère de guerre équipée d'une bombarde de proue à longue portée.\nCogue de guerre : bateau avec espringale unique au coût moins élevé et plus efficace pour percer les armures.",
+   "t": "Unités uniques"
+  },
+  "jin-1": {
+   "d": "Choisissez parmi 3 emplacements après avoir terminé un monument pour y construire des prairies, qui font progressivement apparaître jusqu'à 5 chevaux dans leur champ. Les chevaux augmentent la santé de toutes les unités de cavalerie de corps-à-corps de +2 ainsi que celle des unités de cavalerie à distance de +1, et peuvent être utilisés par les écuries sous l'influence des prairies pour former rapidement n'importe quelle unité montée. Les prairies produisent un nouveau cheval toutes les 90/60/45 secondes aux âges féodal/des châteaux/impérial.",
+   "t": "Prairies"
+  },
+  "jin-2": {
+   "d": "L'ascendance nomade permet d'avoir jusqu'à 20 villageois à cheval capables de récolter, construire et se déplacer beaucoup plus rapidement, mais à un coût plus élevé. Établissez des États tributaires avec des comptoirs pour augmenter la limite de construction maximale de +3.",
+   "t": "Héritage jürchen"
+  },
+  "jin-3": {
+   "d": "Améliorez les structures défensives avec les emplacements Meng'an Mouke, qui envoient des défenseurs pour protéger les terres voisines. Les emplacements produisent aussi lentement des défenseurs pour compenser les pertes.",
+   "t": "Meng'an Mouke"
+  },
+  "jin-4": {
+   "d": "Formez jusqu'à 2 émissaires dotés de deux capacités puissantes.\nÉtablissez des tributaires sur les colonies commerciales neutres pour gagner un allié loyal, qui récoltera de la nourriture en votre nom, augmentera la limite de construction des villageois à cheval de +3, et accroîtra les revenus de vos marchands de +15 %.\nLancez Soudoyer sur des groupes d'unités ennemies, qui sont alors transformées en combattants neutres prêts à affronter tout ce qui se trouve sur leur passage.",
+   "t": "Émissaires"
+  },
+  "jin-5": {
+   "d": "Construisez l'atelier de machines dès l'Âge féodal pour accéder rapidement aux arbalètes à support, un remplacement des espringales qui tirent deux projectiles sur les formations ennemies. Les emplacements d'arbalète à support remplacent les emplacements d'espringale dans toutes les structures défensives.",
+   "t": "Expertise de siège"
+  },
+  "kt-1": {
+   "d": "Changez d’âge au forum en établissant l’une des trois commanderies uniques. Chaque commanderie débloque de façon permanente une unité et un bonus uniques.",
+   "t": "Etablissez des commanderies"
+  },
+  "kt-2": {
+   "d": "Les forteresses remplacent les donjons et deviennent disponibles à l'âge féodal.\nLes unités à distance positionnées près d'une forteresse bénéficient d'une portée d'attaque augmentée de +15 %, tandis que les murs de pierre placés sous l'influence d'une forteresse ou du quartier général des Templiers voient leur santé accrue de +25 % et gagnent une flèche par défaut.\nLes forteresses fonctionnent comme des monuments, mais peuvent être entièrement détruites.",
+   "t": "Schémas défensifs francs"
+  },
+  "kt-3": {
+   "d": "Les Templiers ne peuvent pas former de marchands. À la place, ils génèrent de l'or grâce aux pèlerinages réussis. En atteignant l'âge féodal, les Templiers peuvent offrir un passage sûr aux pèlerins pour se rendre sur un lieu sacré.\nToutes les 60 secondes, un groupe de pèlerins se rendra du quartier général des Templiers au lieu sacré sélectionné, générant de l'or à l'arrivée en fonction de la distance parcourue. La taille du groupe augmente de 1 pour chaque forteresse active jusqu'à un maximum de 10.\nLes lieux sacrés et les reliques sont révélés au début de la partie.",
+   "t": "Pèlerinage"
+  },
+  "kt-4": {
+   "d": "Construisez des ports plutôt que des quais. Ils coûtent plus cher, mais augmentent la santé des navires à proximité et bénéficient d'une santé accrue, d'une fortification renforcée et d'un plus grand espace de garnison pour les bateaux de pêche.",
+   "t": "Ports côtiers"
+  },
+  "kt-5": {
+   "d": "Les villageois déposent automatiquement du bois sans camp de bûcherons.\nLe bois est récolté +20 % plus rapidement à chaque âge et 20 % du bois récolté est produit comme nourriture supplémentaire.",
+   "t": "Préservation du paysage"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Experts de siège"
+  },
+  "kt-7": {
+   "d": "Frère Templier : remplace le chevalier. Plus cher qu'un chevalier normal, mais doté de points de vie et de dégâts plus importants.\nÂge féodal\nCommanderie de chevaliers hospitaliers - Chevalier hospitalier : unité d'infanterie lourde au corps-à-corps qui peut soigner les unités alliées à proximité.\nCommanderie du royaume de France - Chevalier compagnon : cavalerie lourde moins chère qu'un chevalier normal. Gagne des points de vie supplémentaires pour chaque unité de cavalerie lourde à proximité.\nCommanderie de la principauté d'Antioche- Sergeant : infanterie lourde bénéficiant d'une armure de corps-à-corps élevée. Lance des haches qui infligent des dégâts de corps-à-corps à distance.\nÂge des châteaux\nCommanderie de l'empire Plantagenêt - Lancier lourd : lancier en armure bénéficiant d'une force accrue à proximité des forteresses.\nCommanderie de la république de Gênes - Arbalétrier génois : arbalétrier coûteux qui inflige des dégâts supplémentaires à l'infanterie de corps-à-corps.\nCommanderie du royaume de Castille - Génitour : peltaste monté qui excelle contre les unités à distance.\nÂge impérial\nCommanderie du royaume de Pologne - Cavalerie Szlachta : cavalerie d'élite bénéficiant d'une armure à distance exceptionnelle. Ralentit les attaques des ennemis qu'il combat et inflige des dégâts supplémentaires à l'infanterie légère.\nCommanderie de l'ordre Teutonique - Chevalier teutonique : infanterie lourde extrêmement puissante qui gagne en puissance pour chaque ennemi abattu au combat. Réduit l'armure des ennemis proches.\nCommanderie de la république de Venise - Condottiere : infanterie rapide qui ne coûte que de l'or. Puissant contre les unités à poudre à canon.\nGalère vénitienne : grand navire à rames avec un trébuchet à longue portée monté à l'avant.\nCommerçant vénitien : marchand coûteux mais rapide. Limite de construction maximale de 5.",
+   "t": "Unités uniques"
+  },
+  "ma-1": {
+   "d": "Menez une économie d'or supérieure et construisez la mine au-dessus des filons d'or de l'âge sombre (I) pour générer de l'or sans l'épuiser. Les villageois peuvent extraire de l'or tant que la mine est active.\nSi le filon d'or est complètement épuisé, la mine continuera à extraire de l'or du dépôt.",
+   "t": "Mines à ciel ouvert"
+  },
+  "ma-2": {
+   "d": "Chaque habitation et camp de mineurs construits dans la zone d'influence des mines augmente sa production d'or.\nLa construction des forums coûte de l'or à la place de la pierre.",
+   "t": "Influence - Communautés minières"
+  },
+  "ma-3": {
+   "d": "Produisez du bétail à partir de moulins à l'âge sombre (I). Les villageois maliens récoltent de la nourriture à partir du bétail plus rapidement que les autres civilisations ou ils peuvent être mis en garnison dans un ranch de bétail pour obtenir de la nourriture au fil du temps.",
+   "t": "Bovins et ranchs"
+  },
+  "ma-4": {
+   "d": "Les unités uniques de guerrières et d'artilleuses musofadi peuvent utiliser la capacité Furtivité active pour se faufiler et créer des opportunités d'embuscade.",
+   "t": "Pionnière musofadi"
+  },
+  "ma-5": {
+   "d": "Les technologies d'unités de vétérans débloquées à l'âge des châteaux (III) sont développées deux fois plus vite et moitié moins chères.",
+   "t": "Savoir de Farari"
+  },
+  "ma-6": {
+   "d": "Les marchands et les navires de commerce qui passent près des postes à péage fournissent instantanément des ressources supplémentaires en fonction des cibles commerciales actuelles. Ne génère pas d'impôts supplémentaires si un poste à péage est construit à portée d'un autre.",
+   "t": "Postes à péage"
+  },
+  "ma-7": {
+   "d": "L'or collecté à partir des routes commerciales achevées réduit le temps de développement des technologies futures.",
+   "t": "Commerce de manuscrits"
+  },
+  "ma-8": {
+   "d": "Les bateaux de pêche déposent 10 % de leur nourriture sous forme d'or.",
+   "t": "Mareyage"
+  },
+  "ma-9": {
+   "d": "La vitesse de déplacement de tous les navires à proximité des ports est augmentée.\n Les navires de transport attaquent avec des javelots pour chaque unité transportée.",
+   "t": "Compagnies de débarquement"
+  },
+  "mac-1": {
+   "d": "Les villageois découvrent d'abondants gisements de galène parmi les filons d'or et les affleurements de pierre, et extraient de l'argent comme ressource unique en les exploitant.\nLes villageois extraient de l'argent égal à 40 % de l'or ou de la pierre extraite.",
+   "t": "Collecte de galène"
+  },
+  "mac-2": {
+   "d": "Les arsenaux varègues génèrent de l'influence, permettant aux camps de mineurs et aux forums de commencer à traiter l'argent au fil du temps. La quantité d'argent traitée dépend du montant total d'argent déposé par les villageois.",
+   "t": "Influence - Frappe de l'argent"
+  },
+  "mac-3": {
+   "d": "Développez des technologies militaires uniques à l'arsenal varègue en échange d'argent. Remplace l’atelier de forgeron et l'université. La dynastie macédonienne peut dépasser trois niveaux d'améliorations militaires par catégorie.",
+   "t": "Forge varègue"
+  },
+  "mac-4": {
+   "d": "Fortifiez l'empire avec des citadelles varègues capables de produire toutes les unités varègues et de se défendre à l'aide de flèches.",
+   "t": "Bases"
+  },
+  "mac-5": {
+   "d": "Choisissez des renforts au camp de guerre varègue. Une fois qu'un nombre suffisant de guerriers sont tombés au combat, des guerriers varègues gratuits arrivent au camp pour combler les rangs.\nSi le camp de guerre est adjacent à l'eau, les bateaux peuvent être sélectionnés comme renforts.",
+   "t": "Camp de guerre"
+  },
+  "mac-6": {
+   "d": "Sculptez des pierres runiques pour commémorer les victoires passées. Une fois qu’un nombre suffisant d’ennemis tombent aux mains des Varègues, une pierre runique peut être créée pour inspirer les Varègues à proximité avec des bonus de combat dans une zone.",
+   "t": "Pierres runiques varègues"
+  },
+  "mac-7": {
+   "d": "Les cheirosiphons ainsi que les dromons, les espringales et les trébuchets améliorés lancent du feu grégeois avec leurs attaques, engloutissant la zone dans des flammes infligeant des dégâts au fil du temps.",
+   "t": "Feu grégeois"
+  },
+  "mac-8": {
+   "d": "Les postes avancés et les donjons peuvent être équipés d'emplacements de mangonneaux. Les tours en pierre sont directement équipées d'emplacements de mangonneaux au lieu d'espringales.",
+   "t": "Emplacements de mangonneau"
+  },
+  "mac-9": {
+   "d": "Atgeirmaðr : remplacement du lancier. Infanterie légère de mêlée dotée d'une capacité passive augmentant sa vitesse d'attaque lorsque des unités varègues se trouvent à proximité.\nBogmaðr : remplacement de l'archer. Infanterie à distance légère avec la capacité d'ignorer l'armure au détriment de sa vitesse de déplacement. \nGarde varègue précoce : remplacement de l'homme d'armes. Utilisez la capacité Fureur guerrière pour augmenter vos dégâts au détriment de votre armure. Permet de construire des navires de transport et d'augmenter l'armure des transports lorsqu'il est en garnison.\nRiddari : remplacement des chevaliers. Cavalerie lourde avec la capacité de lancer des haches à distance pendant un certain temps.\nCheirosiphon : un bélier équipé d'une attaque de feu grégeois à courte portée.\nDromon : remplacement du navire à espringale. Équipé du feu grégeois.",
+   "t": "Unités uniques"
+  },
+  "mo-1": {
+   "d": "Tous les bâtiments peuvent être démontés et déplacés à un nouvel emplacement.\nRenoncez au besoin de construire des habitations et commencez avec une population maximum.\nRéagissez rapidement aux mouvements des troupes ennemies grâce à un réseau de postes avancés qui octroient 15 % de vitesse de déplacement à la cavalerie et aux marchands à proximité.",
+   "t": "Grand territoire"
+  },
+  "mo-2": {
+   "d": "Déployez le redoutable Khan à l'âge sombre (I) pour accorder de puissants bonus à toutes les unités militaires à proximité avec des flèches sifflantes.\nLes khans et les éclaireurs avec la vision du faucon peuvent surveiller les zones alentour.",
+   "t": "Khanat"
+  },
+  "mo-3": {
+   "d": "Permet de construire des écuries dès l'âge sombre et de déployer des cavaliers 25 % plus rapidement.",
+   "t": "Cavaliers experts"
+  },
+  "mo-4": {
+   "d": "Construisez des pâturages à la place des fermes pour élever des moutons pour la nourriture. Les pâturages produisent des moutons plus rapidement lorsqu'ils sont sous l'influence d'un ovoo.",
+   "t": "Cueilleurs nomades"
+  },
+  "mo-5": {
+   "d": "Pillez les bâtiments ennemis. Vous recevrez +25 unités de nourriture et d'or lorsqu'ils sont enflammés ou détruits en cours de construction.",
+   "t": "Récompense de raid"
+  },
+  "mo-6": {
+   "d": "Les débarquements de navires de transport sont plus rapides et les navires plus durables avec +50 % de santé et +15 % de vitesse de déplacement.",
+   "t": "Transports améliorés"
+  },
+  "mo-7": {
+   "d": "Explorez la Route de la soie avec des marchands. Ils obtiennent des ressources supplémentaires à chaque transaction en fonction de votre nombre total de marchands actifs.\n• 5+ marchands : +10 % de nourriture\n• 10+ marchands : +10 % de nourriture et de bois\n• 15+ marchands : +10 % de nourriture, de bois et d'or",
+   "t": "Route de la soie"
+  },
+  "mo-8": {
+   "d": "Construisez les ovoos sur les affleurements de pierre pour extraire de la pierre sans villageois et générer de l'influence. Les ovoos récoltent +70, 100, 130, 160 unité(s) de pierre par minute en fonction de l'âge.\nLes bâtiments construits dans la zone d'influence d'un ovoo sont capables de doubler leur production d'unités ou de développer des versions améliorées de technologies en utilisant de la pierre.",
+   "t": "Influence"
+  },
+  "mo-9": {
+   "d": "Khan : archer de cavalerie qui, à chaque nouvel Âge, voit sa force augmenter et débloque la compétence Flèche sifflante.\n• Flèche de manœuvre : augmente la vitesse de déplacement de +33 %.\n• Flèche de vitesse d'attaque : augmente la vitesse d'attaque de +50 %.\n• Flèche d'armure : augmente l'armure de +2.\nMangudaï : archer de cavalerie capable de tirer tout en se déplaçant dans toutes les directions.\nTrébuchet à traction : vitesse de déplacement, temps de montage et vitesse d'attaque améliorés.\nKheshig : cavalerie lourde disponible à l'Âge féodal, régénère de la santé après chaque attaque.",
+   "t": "Unités uniques"
+  },
+  "od-1": {
+   "d": "Les villageois collectent des ressources 28 % plus rapidement, construisent et réparent des bâtiments 20 % plus rapidement, mais coûtent 20 % de nourriture en plus à produire.",
+   "t": "Villageois efficaces"
+  },
+  "od-2": {
+   "d": "Montrez la puissance de l'empire en plaçant des reliques dans les postes avancés, les tours et les donjons, ce qui augmente leur armure de +25 %, leurs dégâts de +25 %, leur portée de +25 % et leur ligne de mire de +20 %.\nLes reliques placées dans les ports augmentent la vitesse d'attaque des navires de +5 % par relique (Max +25 %).\nLes reliques placées dans les bâtiments génèrent +80 d'or par minute.",
+   "t": "Zèle religieux"
+  },
+  "od-3": {
+   "d": "Développez des technologies comme Torches lourdes, Armure à écailles, et Destriers pour renforcer la puissance de l’Ordre.",
+   "t": "Équipement d'élite"
+  },
+  "od-4": {
+   "d": "Toutes les technologies d'emplacement coûtent 20 % moins cher. La ligne de mire des postes avancés augmente de 20 %.",
+   "t": "Architecture urbaine"
+  },
+  "od-5": {
+   "d": "Les villageois transportent +40 % plus de ressources que les autres civilisations.",
+   "t": "Charrette à bras"
+  },
+  "od-6": {
+   "d": "Les bâtiments construits dans la zone d'influence d'un forum obtiennent la capacité Réparations d’urgence qui peut être activée pour réparer le bâtiment et restaurer 150 points de santé par seconde, pendant 20 secondes.",
+   "t": "Influence"
+  },
+  "od-7": {
+   "d": "L'infanterie d’élite et les unités de cavalerie de l’Ordre, comme l’homme d’armes doré, le chevalier doré, et d’autres, ont presque deux fois plus de santé que les unités ordinaires et infligent beaucoup plus de dégâts. Cependant, ils sont beaucoup plus coûteux à former et prennent deux fois plus d’espace de population.",
+   "t": "Unités uniques"
+  },
+  "ot-1": {
+   "d": "Construisez le bâtiment de l'école militaire, qui peut produire un type spécifique d'unité en continu et gratuitement. Cependant, celles-ci sont produites à un rythme plus faible.",
+   "t": "Formation à l'école militaire"
+  },
+  "ot-2": {
+   "d": "L'entraînement des unités et la progression à travers les âges vous permettront d'acquérir de l'expérience en points de vizir. Plus le coût de l'action est élevé, plus l'expérience gagnée est importante. Gagnez jusqu'à cinq points de vizir et dépensez-les pour débloquer de puissants bonus ottomans uniques.",
+   "t": "Conseil impérial"
+  },
+  "ot-3": {
+   "d": "Entraînez, améliorez et assemblez une armée avec des bâtiments militaires et technologiques moins chers.",
+   "t": "Incitation militaire"
+  },
+  "ot-4": {
+   "d": "La vitesse de déplacement des navires de commerce, des bateaux de pêche et des navires de transport a augmenté.",
+   "t": "Itinéraires d'expédition"
+  },
+  "ot-5": {
+   "d": "Les bâtiments de production militaire construits sous l'influence d'un atelier de forgeron ou d'une université gagnent une vitesse de production augmentée à chaque montée en âge.",
+   "t": "Influence"
+  },
+  "ot-6": {
+   "d": "Sipahi : cavalier de remplacement. Active la capacité Force morale, augmentant sa vitesse d'attaque, mais le rendant plus vulnérable aux armes de corps-à-corps.\nMehter : batteur de guerre à cheval qui fournit des améliorations militaires aux unités proches lorsqu'il active la capacité Tambours de guerre.\n• Tambours d'attaque : augmente la vitesse d'attaque.\n• Tambours de défense au corps-à-corps : augmente l'armure au corps-à-corps.\n• Tambours de défense à distance : augmente l'armure à distance.\nJanissaire : puissant escopettier capable de réparer les engins de siège et d'infliger des dégâts supplémentaires à la cavalerie.\nGrande galère : grande galère de guerre capable de se transformer en école militaire flottante.\nGrande bombarde : le plus grand engin de siège à poudre à canon pouvant être déployé. Il bénéficie d'une longue portée et de dégâts de zone.\nAkindji : cavalerie à longue portée tirant deux flèches en succession rapide. Doit être débloquée via le conseil impérial.",
+   "t": "Unités uniques"
+  },
+  "ru-1": {
+   "d": "Fortifiez la campagne avec des forteresses en bois qui remplacent les postes avancés. Elles sont dotées de 100 % points de santé et de 3 emplacements de garnison supplémentaires.\nConstruisez la palissade fortifiée. Elle est dotée de 100 % points de santé supplémentaires et d'un temps de construction plus rapide.",
+   "t": "Fédération du bois"
+  },
+  "ru-2": {
+   "d": "Vivez de la terre grâce à aux éclaireurs entraînés dans des cabanes de chasse. Les cabanes de chasse offrent tous les avantages d'un moulin ordinaire, mais avec la possibilité de voir dans les forêts denses et de générer un revenu en or en fonction du nombre d'arbres.",
+   "t": "Princes chasseurs"
+  },
+  "ru-3": {
+   "d": "Déployez les chevaliers primitifs à l'âge féodal (II).",
+   "t": "Cortège druzhina"
+  },
+  "ru-4": {
+   "d": "Les navires lodya peuvent être convertis en n'importe quel autre type de navires, en échange d'un coût.\nLes navires de pêche Lodya traitent la nourriture directement sur le navire. Ils n'ont pas besoin de rentrer au port pour déposer de la nourriture.",
+   "t": "Reconversion de Lodya"
+  },
+  "ru-5": {
+   "d": "Récolter de la nourriture sur des animaux génère une prime d'or. Atteindre certains paliers octroie des bonus économiques aux villageois et aux cabanes de chasse.\n100 de prime d'or\n• +5 % de taux de collecte de nourriture\n• Les cabanes de chasse génèrent 10 % d'or supplémentaire\n400 de prime d'or\n• +10 % de taux de collecte de nourriture\n• Les cabanes de chasse génèrent 25 % d'or supplémentaire\n1000 de prime d'or\n• +15 % de taux de collecte de nourriture\n• Les cabanes de chasse génèrent 40 % d'or supplémentaire",
+   "t": "Récompenses de prime"
+  },
+  "ru-6": {
+   "d": "Savoir trancher : les villageois déposent 20 % d'unité de bois en plus quand les camps de bûcherons et les centres-villes sont construits dans la zone d’influence d’une forteresse.",
+   "t": "Influence"
+  },
+  "ru-7": {
+   "d": "Moine-guerrier : unité de cavalerie légère religieuse. Inspire les unités à proximité lorsqu’elles sont au combat, leur donnant +1 d'armure et +2 de dégâts.\nArcher de cavalerie : unité de cavalerie légère à distance douée d'une grande mobilité et infligeant de lourds dégâts.\nStreltsy : unité de poudre à canon qui devient plus forte lorsqu’elle est stationnaire et a une attaque au corps-à-corps élevée.\nNavires lodya : peuvent être convertie en n'importe quel autre type de navires.",
+   "t": "Unités uniques"
+  },
+  "sen-1": {
+   "d": "Les domaines de daimyo sont des bâtiments uniques pouvant être dédiés à l'un des trois clans. Le clan Hojo, qui améliore l'infanterie de corps-à-corps ; le clan Oda, qui renforce l'infanterie à distance ; ou le clan Takeda, qui améliore la cavalerie. Le domaine de daimyo exerce également une influence qui augmente la vitesse de production des bâtiments militaires.",
+   "t": "Domaine de daimyo"
+  },
+  "sen-2": {
+   "d": "Le matsuri est un marché précoce unique capable de produire des yatai. Le yatai est une unité ouvrière unique qui génère lentement de la nourriture à partir de sources de nourriture se trouvant dans un rayon de 2 parcelles, et ce sans les tuer ni les consommer. Une fois qu'un yatai a accumulé assez de nourriture, un marchand de nourriture sera renvoyé au matsuri, améliorant une aura qui augmente la vitesse de collecte des villageois à proximité.",
+   "t": "Yatai et matsuri"
+  },
+  "sen-3": {
+   "d": "La forge est un site de dépôt d'or et de pierre qui remplace le camp de mineurs et l’atelier de forgeron. De plus, elle fournit une technologie de dégâts au corps-à-corps supplémentaire dans l'âge sombre (I). La ferme fournit de la population et remplace le moulin comme site de dépôt de nourriture.",
+   "t": "Ferme et Forge"
+  },
+  "sen-4": {
+   "d": "Accédez à un donjon plus puissant à l'âge impérial (IV) comprenant des emplacements de santé et de fusées accrus pour un coût plus élevé. Les fusées attaquent rapidement et infligent des dégâts importants aux cibles uniques.",
+   "t": "Forteresse d'Oda"
+  },
+  "sen-5": {
+   "d": "Lorsque les villageois déposent de l'or, 20 % de pierre supplémentaire est également produite, et vice versa.",
+   "t": "Mines d’argent"
+  },
+  "sen-6": {
+   "d": "Les bateaux de pêche sont produits pour 25 % moins cher.",
+   "t": "Village de pêcheurs"
+  },
+  "sen-7": {
+   "d": "L'emplacement de tous les chevreuils et les sangliers est révélé sur la carte.",
+   "t": "Révéler les chevreuils et sangliers"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "Compagnons travailleurs"
+  },
+  "tug-2": {
+   "d": "En quête de connaissance et de sagesse, la dynastie des Tughlûq consacre davantage de ressources aux technologies avec des temps de développement quasi instantanés.",
+   "t": "Érudition"
+  },
+  "tug-3": {
+   "d": "Intimidez vos ennemis avec le fort de Tughlaqabad. Disponible dès l'âge féodal (II), ce bâtiment défensif peut être amélioré pour augmenter ses dégâts, sa santé, et débloquer le gouverneur de votre choix.",
+   "t": "Forts légendaires"
+  },
+  "tug-4": {
+   "d": "Choisissez l'un des six gouverneurs du fort de Tughlaqabad pour guider la dynastie des Tughlûq vers de nouveaux sommets. La puissance du gouverneur augmente à chaque amélioration du fort. Les gouverneurs offrent des bonus économiques, de rythme, militaires, de développement et religieux. \nUn gouverneur peut être actif dans chaque fort.",
+   "t": "Soutien du gouverneur"
+  },
+  "tug-5": {
+   "d": "Les villageois récoltent à partir des buissons de baies 30 % plus rapidement, mais ne peuvent pas rassembler de nourriture à partir des sangliers.\nLes villageois transportent +3 de nourriture à partir des buissons de baies.",
+   "t": "Vannerie"
+  },
+  "tug-6": {
+   "d": "Établissez des colonies fortifiées grâce à des unités d'infanterie capables de construire des palissades.",
+   "t": "Fortifications de frontière"
+  },
+  "tug-7": {
+   "d": "Les navires de pêche peuvent se défendre avec une attaque à distance et ont 50 % de santé supplémentaire.",
+   "t": "Matelots robustes"
+  },
+  "tug-8": {
+   "d": "Éléphant de combat : éléphant rapide capable d’attaquer, de contourner et de contrer les unités à distance. Capable de passer outre n’importe quelle unité en la piétinant, infligeant des dégâts de zone au passage.\nÉléphant soigneur : éléphant de corps-à-corps blindé à la santé élevée, monté par deux imams capables de soigner les unités individuelles. Inflige des dégâts supplémentaires pour chaque unité d’infanterie au corps-à-corps à proximité.\nÉléphant de guerre : unité de cavalerie lourde montée par un lancier à la santé et aux dégâts élevés doté d’une puissante attaque de siège.\nÉléphant à baliste : éléphant à distance monté d’une baliste, efficace contre les unités de corps-à-corps, capable de transpercer plusieurs cibles.",
+   "t": "Unités uniques"
+  },
+  "zx-1": {
+   "d": "Commencez votre voyage dans la dynastie Tang. Les coûts des monuments sont réduits de 15 % et le village est débloqué.\nConstruisez les deux monuments d'un âge pour commencer les dynasties avec des bonus spéciaux, des bâtiments uniques et des unités.\n• Song : le coût en bois des bâtiments économiques et de population est réduit de 30 %. Débloque la construction du silo à grain.\n• Yuan : réduction de 10 % sur toutes les unités. Débloque la construction de la pagode. \n• Ming : les unités uniques infligent +20 % de dégâts.",
+   "t": "Grandes dynasties"
+  },
+  "zx-2": {
+   "d": "Unités entraînées, technologies développées et ressources déposées génèrent de l’impôt (en or) que les officiers impériaux sont habilités à collecter. Les technologies administratives uniques de l’académie du mont Lu et de la bibliothèque de Zhu Xi améliorent grandement les officiers impériaux.",
+   "t": "Impôts"
+  },
+  "zx-3": {
+   "d": "Accédez au chu ko nu et au grenadier sans établir de dynasties. Les monuments peuvent débloquer les puissantes unités de moines Shaolin, de pilleurs Yuan et de gardes impériaux. Les gardes du palais primitifs peuvent êtres formés à l’Âge féodal.",
+   "t": "Unités de dynastie"
+  },
+  "zx-4": {
+   "d": "Commencez la partie avec la technologie de chimie accordée gracieusement. Les bâtiments défensifs utilisent des canonnières plutôt que des archères de défense.",
+   "t": "Maîtres de la poudre à canon"
+  },
+  "zx-5": {
+   "d": "Les villageois construisent des défenses 50 % plus rapidement et tous les autres bâtiments 100 % plus vite. Les docks fonctionnent 10 % plus rapidement.",
+   "t": "Constructions rapides"
+  },
+  "zx-6": {
+   "d": "Formez les gardes du palais primitifs à l'âge féodal (II) pour protéger l'empereur.",
+   "t": "Protégez le palais"
+  },
+  "zx-7": {
+   "d": "Officier impérial : utilisez la capacité Superviser pour augmenter la vitesse de production des bâtiments de développement et militaires de 150 %. - Superviser les bâtiments économiques augmente la quantité de ressources déposées par les villageois de 20 %.\nChu ko nu : remplace les archers. Unité d'infanterie légère à distance qui possède une attaque explosive en rafale efficace contre les unités légères.\nGarde du palais : remplace les hommes d’armes. Unité d'infanterie lourde au corps-à-corps qui sacrifie son armure pour une plus grande vitesse de déplacement.\nNid d’abeilles : remplace les mangonneaux. Engin de siège capable d’envoyer un tir de barrage de fusées, infligeant des dégâts de zone.\nGrenadier : unité d’infanterie lourde à poudre à canon à distance qui lance des grenades pour infliger des dégâts de zone.",
+   "t": "Unités uniques"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}

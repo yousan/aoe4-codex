@@ -320,3 +320,49 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
  .nb.far{background:#e6e0d4;color:#3d372c}
  .nb.unk{border-color:#a99b84;color:#5b5344}
 }
+
+/* ================= 文明特性と固有テクノロジー（civs.html） ================= */
+.civhead{display:flex;align-items:center;gap:14px;padding:16px 18px 4px}
+.civhead img{width:54px;height:54px;object-fit:contain;flex:none}
+.civh{font-size:16px;color:#f0d49a;margin:0;letter-spacing:.04em}
+.civdesc{margin:5px 0 0;color:var(--dim);font-size:11.5px;line-height:1.65;max-width:70ch}
+#main .sec{padding:0 18px}
+.ageh{font-size:11px;color:var(--dim);letter-spacing:.12em;font-weight:600;
+ margin:14px 0 9px;padding-left:8px;border-left:3px solid var(--line)}
+.ageh.a1{border-color:var(--a1)}.ageh.a2{border-color:var(--a2)}
+.ageh.a3{border-color:var(--a3)}.ageh.a4{border-color:var(--a4)}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:11px}
+.tcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);
+ border-radius:9px;overflow:hidden}
+.tcard.a1{border-top:2px solid var(--a1)}.tcard.a2{border-top:2px solid var(--a2)}
+.tcard.a3{border-top:2px solid var(--a3)}.tcard.a4{border-top:2px solid var(--a4)}
+.tcard.trait{border-top:2px solid var(--gold)}
+.tcard .thd{display:flex;align-items:center;gap:8px;padding:7px 9px;background:var(--card2)}
+.tcard .thd img{width:32px;height:32px;border-radius:5px;flex:none;background:#0d0b09}
+.tnm{flex:1;min-width:0;font-weight:700;color:#fff;font-size:12.5px;line-height:1.25}
+.tfrom{display:block;color:var(--dim);font-weight:400;font-size:10px;line-height:1.3;
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tcard .age{flex:none;width:20px;height:20px;line-height:20px;text-align:center;border-radius:50%;
+ font-size:9.5px;font-weight:700;color:#17130f}
+.tdesc{margin:0;padding:8px 10px;font-size:12px;line-height:1.65;color:var(--fg);flex:1}
+.trep{margin:0 10px 7px;align-self:flex-start;font-size:10.5px;color:var(--gold);
+ border:1px solid var(--line);border-radius:11px;padding:1px 9px}
+.tft{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:6px 10px;
+ border-top:1px solid #2b241d;background:#171310;font-size:12px}
+.tft .c{display:inline-flex;align-items:center;gap:3px;font-weight:600}
+.tft .c.dim{color:var(--dim);font-weight:400;font-size:11px;margin-left:auto}
+.enmark{flex:none;font-size:9px;font-weight:700;color:var(--dim);border:1px solid var(--line);
+ border-radius:3px;padding:0 3px;letter-spacing:.06em}
+.mini{background:transparent;border:1px solid var(--line);color:var(--dim);border-radius:12px;
+ padding:2px 10px;font-size:11.5px;cursor:pointer;font-family:inherit}
+.mini:hover{border-color:var(--gold);color:var(--fg)}
+#main .note{padding:0 18px;margin:18px 0 0}
+@media print{
+ .tcard{break-inside:avoid;page-break-inside:avoid;border-color:#b5a68e}
+ .tcard .thd{background:#f0e9dd}
+ .tft{background:#f7f2e9;border-color:#cdc0a8}
+ .tnm{color:#000}
+ .civhead,#main .sec,#main .note{padding:0}
+ .tgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .enmark{display:none}
+}

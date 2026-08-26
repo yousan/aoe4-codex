@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AoE4 文明特性とテクノロジー</title>
+<meta name="description" content="Age of Empires IV の各文明の特性（civ bonus）と、その文明だけが研究できる固有テクノロジーの一覧。時代・研究施設・コスト・研究時間・効果。">
+<link rel="icon" href="assets/flags/od.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="bar noprint">
+  <a href="?" id="home" class="home">文明一覧へ</a>
+  <a href="index.html" id="lnk-units" class="home">ユニット一覧</a>
+  <a href="maps.html" id="lnk-maps" class="home">ランクマップ</a>
+  <h1 id="civname">…</h1>
+  <span id="chrome" class="chrome" hidden>
+    <select id="civ" aria-label="civilization"></select>
+    <a class="report" target="_blank" rel="noopener">⚑ 間違いを報告</a>
+    <button class="pbtn" id="print">印刷</button>
+  </span>
+  <select id="langs" aria-label="language"></select>
+</header>
+<div class="fbar noprint" id="filter"></div>
+
+<div id="main-wrap"><div id="main"><p class="empty">読み込み中…</p></div></div>
+
+<footer class="disc">
+文明特性とテクノロジーの<b>文言はゲーム本体のロケールファイルから抽出したもの</b>で、こちらでは訳していない。
+どの文明の固有技術か・時代・コスト・研究施設は <a href="https://github.com/aoe4world/data">aoe4world/data</a> より。<br>
+効果の数値はゲーム内の説明文に書かれているものだけ。説明文に出てこない効果は、ここにも出てこない。<br>
+<a href="https://github.com/yousan/aoe4units">github.com/yousan/aoe4units</a> ／
+<a class="report" target="_blank" rel="noopener">⚑ 間違いを報告</a>
+</footer>
+
+<script type="module" src="js/civs.js"></script>
+<noscript><p style="padding:20px;color:#efe7da">This page loads its data with JavaScript.</p></noscript>
+</body>
+</html>

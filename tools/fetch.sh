@@ -16,6 +16,22 @@ echo "==> buildings/all.json, civilizations/civs-index.json"
 curl -sSL --max-time 120 https://data.aoe4world.com/buildings/all.json -o data/buildings-all.json
 curl -sSL --max-time 60 https://data.aoe4world.com/civilizations/civs-index.json -o data/civs-index.json
 
+echo "==> technologies/all.json, civilizations/<civ>.json"
+curl -sSL --max-time 120 https://data.aoe4world.com/technologies/all.json -o data/technologies-all.json
+python3 - <<'PYT'
+import json, os, urllib.request
+idx = json.load(open('data/civs-index.json'))
+os.makedirs('data/civ-overviews', exist_ok=True)
+for code, c in idx.items():
+    url = f"https://data.aoe4world.com/civilizations/{c['slug']}.json"
+    with urllib.request.urlopen(url, timeout=60) as r:
+        d = json.loads(r.read())
+    d.pop('techtree', None)      # 使わないうえに重い
+    json.dump(d, open(f"data/civ-overviews/{c['slug']}.json", 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=1)
+print(f'   civ overviews: {len(idx)}')
+PYT
+
 echo "==> civ flags (aoe4world/explorer)"
 python3 - <<'PYX'
 import urllib.request, os
@@ -49,3 +65,20 @@ if [ -s /tmp/aoe4-icons.tsv ]; then
     xargs -P 4 -n 2 sh -c 'curl -sSL --max-time 30 --create-dirs "$0" -o "$1"'
 fi
 echo "   done: $(find assets/units -type f | wc -l) files, $(du -sh assets/units | cut -f1)"
+
+echo "==> technology icons"
+python3 -c "
+import collections, json, os
+d = json.load(open('data/technologies-all.json'))['data']
+owners = collections.defaultdict(set)
+for t in d: owners[t['baseId']].add(t['civs'][0])
+# 固有テクノロジーぶんだけ落とす（判定は tools/build_civs.py と同じ）
+uniq = [t for t in d if t.get('unique') or len(owners[t['baseId']]) == 1]
+rows = {(t['icon'], os.path.join('assets/techs', t['id'] + '.png')) for t in uniq if t.get('icon')}
+missing = [f'{u}\t{p}' for u, p in sorted(rows) if not os.path.exists(p)]
+open('/tmp/aoe4-techicons.tsv','w').write('\n'.join(missing))
+print(f'   {len(rows)} icons, {len(missing)} to download')"
+if [ -s /tmp/aoe4-techicons.tsv ]; then
+  awk -F'\t' '{print $1" "$2}' /tmp/aoe4-techicons.tsv | \
+    xargs -P 4 -n 2 sh -c 'curl -sSL --max-time 30 --create-dirs "$0" -o "$1"'
+fi

@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "The Abbasid Dynasty pursues a flourishing Golden Age by concentrating structures around their House of Wisdom, allowing them to unlock significant economic advantages. The House of Wisdom also drives progress through the Ages and grants access to advanced technology. Abbasid camel units are expert at countering enemy cavalry.",
+  "ay": "At the confluence of continents, where trade and science meet, and where empires clash, the Ayyubids use their pursuit of knowledge to gain the upper hand. The House of Wisdom is the focal point of this combination of urbanization and science, unlocking powerful Golden Age bonuses and advancing through the ages. The Ayyubids focus on versatile units to gain a tactical advantage on the battlefield.",
+  "by": "The Byzantines construct sprawling networks of life-giving Aqueducts and Cisterns. Leverage powerful unique abilities and hire Mercenaries with exquisite Olive Oil. Peasants work tirelessly to manufacture Olive Oil for the empire.",
+  "ch": "The Chinese can shift their focus across the ages, deploying many unique units and building rapidly. Enemies must continually adapt if they want to keep up.",
+  "de": "The Delhi Sultanate stays many steps ahead of their enemies with great networks of scholars. Fully realized, they field the intimidating War Elephant and trample those in their path.",
+  "en": "Exceptional early infantry provide the English with a powerful punch backed up by reliable Food production from the fields.",
+  "fr": "The French deploy powerful cavalry units and can boost production in fortified positions. Enemies must be prepared to withstand the charges of powerful Royal Knights and other armored units.",
+  "gol": "Leading the Golden Horde westwards, Batu Khan expanded the Mongolian Empire right into the heart of Eastern Europe. The Khan’s great Golden Tent was the center of network of control, with outposts that allowed them to maintain a vast territory. While still powerful raiders, the Golden Horde sacrificed the mobility of their camps to field larger forces needed to control their vassal states.",
+  "hl": "The House of Lancaster emerges as a powerful branch of English royalty. Manors are the backbone of the economy by providing sustainable economic practices. Lancaster military might is of technological advantage and superior tactics on the battlefield. Dismantle enemy formations with potent shock troops then pick them apart with superior ranged infantry.",
+  "hr": "Prelates enhance the economy of the Holy Roman Empire, while powerful infantry units form the core of its military. Enemies must face an opponent able to rapidly recover from attacks and field strong counterattacks.",
+  "ja": "Ruling over the Japanese land, the Daimyo enhances agriculture and employs Samurai to defend their territory. The unique Forge works tirelessly to sharpen their blades to give an edge in battle. Fierce Samurai Bannermen lead their diverse army of infantry and cavalry to victory.",
+  "je": "A spark of hope for the French people, Jeanne d'Arc takes to the battlefield and inspires courage to her followers. Starting as a humble villager, Jeanne begins the Journey of a Hero in the Dark Age. Experience forges Jeanne into a powerful leader, gaining access to trusted companions and powerful abilities which shape the empire she was destined to create.",
+  "jin": "The Jin Dynasty emerges as a formidable military power in northern China. Mounted Villagers move swiftly to claim new resources and land. Seize opportunities and rally hosts of cavalry at a moment's notice to rout enemies and crush opposition. Bribe weak-willed enemies into desertion and establish profitable Tributary States.",
+  "kt": "Founded to protect the meek and weary, the Knights Templar establish Commanderies throughout Europe to call on their allies. Fielding a spectacular array of heavy troops, the Templars lead the charge into battle with discipline and heart. Fortresses dot the carefully cultivated landscape, providing key defensive positions and safe haven to the pilgrims they protect.",
+  "ma": "The Malian economy booms with options for gold and food production. Claiming gold deposits for their Pit Mines, they leverage that growth to produce unique infantry units that strike from stealth and hurl javelins at enemies.",
+  "mac": "Emperor Basil II employed Varangians to defend against revolts fomented by Byzantine nobles. Arriving on ships from the north, these foreign-born warriors were not swayed by Byzantine politics and culture, creating an elite shock division protecting emperors for centuries to come. The Macedonian Dynasty mints Silver as a unique resource to spend at Varangian Arsenals, sharpening their blades and honing their skills while they protect the Emperor.",
+  "mo": "Masters of mobility and mounted warfare, the Mongols can easily relocate their camps. They gain economic benefits from setting up near Stone Outcroppings and from raiding enemy buildings. Enemies must deal with cavalry attacks from the opening moments of play.",
+  "od": "The Order of the Dragon is established by handpicked wealthy elites to crush hostile empires. Investing large amounts of resources into training only a few exceptional warriors, the Order succeeds in raising an elite army unlike any other.",
+  "ot": "The Ottoman Army can expand to dominate the battlefield, supported by Military Schools that are able to continuously produce units to swell the ranks of their formations. Supporting those formations, the Mehter war drums signal the highly trained troops to take situational advantage.",
+  "ru": "The Rus derive great benefit from the countryside. They are able to gather resources more readily from hunting and forestry and can field strong combat units. Enemies face strong early game fortifications and a diverse economy that cannot easily be disrupted.",
+  "sen": "The Sengoku Jidai was an era of shifting alliances and ceaseless warfare. Three rival clans can be supported to gain powerful advantages to your ranged infantry, melee infantry or cavalry. Even in the midst of war there was time for celebration; the Matsuri festival is the heart of commerce and trade providing powerful bonuses to their economy.",
+  "tug": "Ghiyasuddin Tughlaq’s reign as Sultan laid the framework for advancement in arts, architecture, and expansion of the Tughlaq Dynasty. After commanding the construction of the Tughlaqabad Fort, future Sultans, Amirs, and governors expanded their military presence through force and show of power. The Tughlaq Dynasty calls for quick construction of additional forts while governors oversee hard working elephants and villagers.",
+  "zx": "The teachings of philosopher Zhu Xi reshape the Chinese civilization. With Zhu Xi’s Legacy, the Chinese boast a sophisticated administration with superior Imperial Officials and advanced technologies. The brimming treasury helps to establish powerful dynasties and research a breadth of unique technologies. Recruit Palace Guards, Zhuge Nus, and Grenadiers early on to protect the Empire."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Jeanne chooses the path of the Archer, equipping a bow to engage foes from afar.\nGains the Divine Arrow ability, which deals high damage to a single target.",
+   "n": "Path of the Archer"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "Jeanne's Rally Call ability will now call 7 of her chosen companions onto the Battlefield.\nGains the Strength of Heaven ultimate ability, which greatly empowers a single unit.",
+   "n": "Field Commander"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Jeanne's Riders become available to train at Stables.\nGains \"Riders, Ready!\", which rallies 3 Riders to her side.",
+   "n": "Rider Companions"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "Jeanne's Rally Call ability will now call 3 of her chosen companions and a powerful Cannon onto the Battlefield.\nGains the Valorous Inspiration ultimate ability, which greatly increases the attack speed of nearby allies.",
+   "n": "Gunpowder Monarch"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Jeanne's Champions become available to train at Barracks.\nGains \"To Arms, Men!\", which rallies 3 Champions to her side.",
+   "n": "Champion Companions"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Jeanne chooses the path of the Warrior, equipping a two handed sword to engage foes in close combat.\nGains the Holy Wrath ability, which deals area of effect damage around Jeanne.",
+   "n": "Path of the Warrior"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Unlocks production of Keshik, Ghulam, and Tower Elephant mercenaries.\nKeshik: Feudal Age\nGhulam: Veteran contract\nTower Elephant: Elite contract",
+   "n": "Eastern Mercenary Contract"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Unlocks production of Longbowman, Landsknecht, and Streltsy mercenaries.\nLongbowman: Feudal Age\nLandsknecht: Veteran contract\nStreltsy: Elite contract",
+   "n": "Western Mercenary Contract"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Unlocks production of Javelin Thrower, Camel Rider, and Grenadier mercenaries.\nJavelin Thrower: Feudal Age\nCamel Rider: Veteran contract\nGrenadier: Elite contract",
+   "n": "Silk Road Mercenary Contract"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "The following cultural technologies become available:\n• Preservation of Knowledge (Age II)\n• Medical Centers (Age III)\n• Public Libraries (Age IV)",
+   "n": "Culture Wing"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "The following cultural technologies become available:\n• Preservation of Knowledge (Age II)\n• Medical Centers (Age III)\n• Public Libraries (Age IV)",
+   "n": "Culture Wing"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nBuild this wing to advance to the next Age in 20% less time and with 1350 less costs.",
+   "n": "Culture Wing: Advancement"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nUpon completion, grants 4 Dervish, improves the unit's healing by +50%, and turns it on permanently.",
+   "n": "Culture Wing: Logistics"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nBuild this wing to advance to the next Age in 20% less time and with 250 less costs.",
+   "n": "Culture Wing: Advancement"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nUpon completion, grants 2 Dervish and turns their healing aura on permanently.",
+   "n": "Culture Wing: Logistics"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "The following cultural technologies become available:\n• Preservation of Knowledge (Age II)\n• Medical Centers (Age III)\n• Public Libraries (Age IV)",
+   "n": "Culture Wing"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nBuild this wing to advance to the next Age in 20% less time and with 400 less costs.",
+   "n": "Culture Wing: Advancement"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nUpon completion, grants 3 Dervish, improves the unit's healing by +25%, and turns it on permanently.",
+   "n": "Culture Wing: Logistics"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "The following cultural technologies become available:\n• Preservation of Knowledge (Age II)\n• Medical Centers (Age III)\n• Public Libraries (Age IV)",
+   "n": "Culture Wing"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nBuild this wing to advance to the next Age in 20% less time and with 1300 less costs.",
+   "n": "Culture Wing: Advancement"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Constructs the Culture Wing.\nUpon completion, grants 4 Dervish, improves the unit's healing by +50%, and turns it on permanently.",
+   "n": "Culture Wing: Logistics"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Constructs the Economic Wing.\nThe following economic technologies become available:\n• Fertile Crescent (Age II)\n• Agriculture (Age III)\n• Improved Processing (Age IV)",
+   "n": "Economic Wing"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Constructs the Economic Wing.\nThe following economic technologies become available:\n• Fertile Crescent (Age II)\n• Agriculture (Age III)\n• Improved Processing (Age IV)",
+   "n": "Economic Wing"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, grants 10 Villagers and all Villagers work +10% faster.",
+   "n": "Economic Wing: Growth"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, awards 2000 Wood and 1000 Stone. Villagers construct buildings +50% faster.",
+   "n": "Economic Wing: Industry"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, grants 3 Villagers. Orchards gain 50 additional food.",
+   "n": "Economic Wing: Growth"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, awards 400 Wood. Villagers construct buildings +30% faster.",
+   "n": "Economic Wing: Industry"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Constructs the Economic Wing.\nThe following economic technologies become available:\n• Fertile Crescent (Age II)\n• Agriculture (Age III)\n• Improved Processing (Age IV)",
+   "n": "Economic Wing"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, grants 7 Villagers. Orchards gain 100 additional food.",
+   "n": "Economic Wing: Growth"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, awards 900 Wood and 400 Stone. Villagers construct buildings +40% faster.",
+   "n": "Economic Wing: Industry"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Constructs the Economic Wing.\nThe following economic technologies become available:\n• Fertile Crescent (Age II)\n• Agriculture (Age III)\n• Improved Processing (Age IV)",
+   "n": "Economic Wing"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, grants 10 Villagers and all Villagers work +10% faster.",
+   "n": "Economic Wing: Growth"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Constructs the Economic Wing.\nUpon completion, awards 2800 Wood and 900 Stone. Villagers construct buildings +50% faster.",
+   "n": "Economic Wing: Industry"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Constructs the Military Wing. Upon completion, grants 2 Spearmen & 2 Archers (Age II), 2 Camel Riders (Age III), or 3 Handcannoneers (Age IV).\nUnlocks:\n•Boot Camp (Age II)\n•Composite Bows (Age III)\n•Camel Support (Age IV)",
+   "n": "Military Wing"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Constructs the Military Wing. Upon completion, grants 2 Spearmen & 2 Archers (Age II), 2 Camel Riders (Age III), or 3 Handcannoneers (Age IV).\nUnlocks:\n•Boot Camp (Age II)\n•Composite Bows (Age III)\n•Camel Support (Age IV)",
+   "n": "Military Wing"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nUpon completion, Cavalry units gain the ability to construct siege weapons.\nThe House of Wisdom produces 7 Desert Raiders immediately and then every 2 minutes for the rest of the game.",
+   "n": "Military Wing: Reinforcement"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nMilitary Academy and the Blacksmith's damage and armor technologies become free and complete automatically when entering an Age. (Those of other Ages must still be researched as normal).",
+   "n": "Military Wing: Master Smiths"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nUpon completion, Cavalry units gain the ability to construct siege weapons.\nThe House of Wisdom produces 1 Desert Raider after 15 seconds and then every 2 minutes for the rest of the game.",
+   "n": "Military Wing: Reinforcement"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nMilitary Academy and the Blacksmith's damage and armor technologies become free and complete automatically when entering an Age. (Those of other Ages must still be researched as normal).",
+   "n": "Military Wing: Master Smiths"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Constructs the Military Wing. Upon completion, grants 2 Spearmen & 2 Archers (Age II), 2 Camel Riders (Age III), or 3 Handcannoneers (Age IV).\nUnlocks:\n•Boot Camp (Age II)\n•Composite Bows (Age III)\n•Camel Support (Age IV)",
+   "n": "Military Wing"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nUpon completion, Cavalry units gain the ability to construct siege weapons.\nThe House of Wisdom produces 3 Desert Raiders immediately and then every 2 minutes for the rest of the game.",
+   "n": "Military Wing: Reinforcement"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nMilitary Academy and the Blacksmith's damage and armor technologies become free and complete automatically when entering an Age. (Those of other Ages must still be researched as normal).",
+   "n": "Military Wing: Master Smiths"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Constructs the Military Wing. Upon completion, grants 2 Spearmen & 2 Archers (Age II), 2 Camel Riders (Age III), or 3 Handcannoneers (Age IV).\nUnlocks:\n•Boot Camp (Age II)\n•Composite Bows (Age III)\n•Camel Support (Age IV)",
+   "n": "Military Wing"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nUpon completion, Cavalry units gain the ability to construct siege weapons.\nThe House of Wisdom produces 7 Desert Raiders immediately and then every 2 minutes for the rest of the game.",
+   "n": "Military Wing: Reinforcement"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Constructs the Military Wing.\nMilitary Academy and the Blacksmith's damage and armor technologies become free and complete automatically when entering an Age. (Those of other Ages must still be researched as normal).",
+   "n": "Military Wing: Master Smiths"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Constructs the Administration Wing. Passively provides +50% effect of all Golden Age bonuses.\nUnlocks:\n•City Planning (Age II)\n•Siege Directive (Age III)\n•Grand Bazaar (Age IV)",
+   "n": "Administration Wing"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Constructs the Administration Wing. Passively provides +50% effect of all Golden Age bonuses.\nUnlocks:\n•City Planning (Age II)\n•Siege Directive (Age III)\n•Grand Bazaar (Age IV)",
+   "n": "Administration Wing"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nEvery three minutes a trade caravan arrives with a random selection of four favorable exchanges of resources and units.\nThe quality of these trades is permanently set depending on the Age at which the Trade Wing is constructed. Using the Trade Wing to enter a later age provides more lucrative trades.",
+   "n": "Trade Wing: Bazaar"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nUpon completion, gain 7 Atabeg which can be garrisoned in any military production building (except Docks) to increase the health of newly trained units by 20%.",
+   "n": "Trade Wing: Advisors"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nEvery three minutes a trade caravan arrives with a random selection of four favorable exchanges of resources and units.\nThe quality of these trades is permanently set depending on the Age at which the Trade Wing is constructed. Using the Trade Wing to enter a later age provides more lucrative trades.",
+   "n": "Trade Wing: Bazaar"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nUpon completion, gain 3 Atabeg which can be garrisoned in any military production building (except Docks) to increase the health of newly trained units by 20%.",
+   "n": "Trade Wing: Advisors"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Constructs the Administration Wing. Passively provides +50% effect of all Golden Age bonuses.\nUnlocks:\n•City Planning (Age II)\n•Siege Directive (Age III)\n•Grand Bazaar (Age IV)",
+   "n": "Administration Wing"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nEvery three minutes a trade caravan arrives with a random selection of four favorable exchanges of resources and units.\nThe quality of these trades is permanently set depending on the Age at which the Trade Wing is constructed. Using the Trade Wing to enter a later age provides more lucrative trades.",
+   "n": "Trade Wing: Bazaar"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nUpon completion, gain 5 Atabeg which can be garrisoned in any military production building (except Docks) to increase the health of newly trained units by 20%.",
+   "n": "Trade Wing: Advisors"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Constructs the Administration Wing. Passively provides +50% effect of all Golden Age bonuses.\nUnlocks:\n•City Planning (Age II)\n•Siege Directive (Age III)\n•Grand Bazaar (Age IV)",
+   "n": "Administration Wing"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nEvery three minutes a trade caravan arrives with a random selection of four favorable exchanges of resources and units.\nThe quality of these trades is permanently set depending on the Age at which the Trade Wing is constructed. Using the Trade Wing to enter a later age provides more lucrative trades.",
+   "n": "Trade Wing: Bazaar"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Constructs the Trade Wing.\nUpon completion, gain 7 Atabeg which can be garrisoned in any military production building (except Docks) to increase the health of newly trained units by 20%.",
+   "n": "Trade Wing: Advisors"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "Keeps act like Town Centers, including unit production, population capacity, and technology.",
+   "n": "Village Fortresses"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Allow Scholars to garrison in military buildings, boosting production speed by 100%.",
+   "n": "Efficient Production"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Grant +20% health and +4 ranged armor to War Elephants.",
+   "n": "Armored Beasts"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Grant +20% health and +4 ranged armor to War Elephants.",
+   "n": "Armored Beasts"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "- All Cavalry gain +10% health and +50% charge damage.",
+   "n": "Kingdom of Poland"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "- All gold units gain +2 melee armor.",
+   "n": "Teutonic Order"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- Reduces the change in the base buy or sell price by 75% when trading resources at the Market.",
+   "n": "Republic of Venice"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- Increases civilian unit health by +30% and move speed by +10%. Increases healing from all sources by +30%.",
+   "n": "Knights Hospitaller"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- Land military units are produced +15% faster and cost -5% gold.",
+   "n": "Kingdom of France"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "- Melee units gain +15% damage.",
+   "n": "Principality of Antioch"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- Fortresses and Docks gain +30% Health.",
+   "n": "Angevin Empire"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "- Pilgrims generate +20% gold.",
+   "n": "Republic of Genoa"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "- Units near Sacred Sites gain +20% damage and regenerate health.",
+   "n": "Kingdom of Castile"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Each Tributary Subject provides an additional +10% income to traders.",
+   "n": "Alliance Conducted at Sea"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Spawn 12 sheep at the Landmark Town Center and increase Villager mining speed by +15%.",
+   "n": "Anatolian Hills"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Increase the ranged armor of Gilded Archers by +3.",
+   "n": "Scale Armor"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "Archer arrows deal an additional 3 damage over 6 seconds.",
+   "n": "Poisoned Arrows"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Increase the ranged and melee armor of Men-at-Arms by +2.",
+   "n": "Armor Clad"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Increase the health of all buildings by 10%.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Increase the health of all buildings by 10%.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Increase the health of all buildings by 10%.",
+   "n": "Fortifications"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Increase the damage of all Cavalry by 1.",
+   "n": "Blade Inlaying"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Increase the damage of all Cavalry by 1.",
+   "n": "Blade Inlaying"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Increase the damage of all Cavalry by 1.",
+   "n": "Blade Inlaying"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Increase the armor of all Cavalry by 1 and health by 5%.",
+   "n": "Scale Barding"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Increase the armor of all Cavalry by 1 and health by 5%.",
+   "n": "Scale Barding"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Increase the armor of all Cavalry by 1 and health by 5%.",
+   "n": "Scale Barding"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Increase the damage of all Melee Infantry by 1.",
+   "n": "Pattern Welding"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Increase the damage of all Melee Infantry by 1.",
+   "n": "Pattern Welding"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Increase the damage of all Melee Infantry by 1.",
+   "n": "Pattern Welding"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Increase the armor of all Melee Infantry by 1 and health by 5%.",
+   "n": "Butted Chainmail"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Increase the armor of all Melee Infantry by 1 and health by 5%.",
+   "n": "Butted Chainmail"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Increase the armor of all Melee Infantry by 1 and health by 5%.",
+   "n": "Butted Chainmail"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Increase the ranged damage of all arrows and bolts by +1.",
+   "n": "Sharpening Stones"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Increase the ranged damage of all arrows and bolts by +1.",
+   "n": "Sharpening Stones"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Increase the ranged damage of all arrows and bolts by +1.",
+   "n": "Sharpening Stones"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Increase the armor of all Ranged units by 1 and health by 5%.",
+   "n": "Lamellar Armor"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Increase the armor of all Ranged units by 1 and health by 5%.",
+   "n": "Lamellar Armor"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Increase the armor of all Ranged units by 1 and health by 5%.",
+   "n": "Lamellar Armor"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Increase the health of all siege units by 5%.",
+   "n": "Iron Fittings"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Increase the health of all siege units by 5%.",
+   "n": "Iron Fittings"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Increase the health of all siege units by 5%.",
+   "n": "Iron Fittings"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "Buildings are repaired +50% faster.",
+   "n": "Banco Repairs"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Monasteries become self-sufficient, working their lands through Lay Brothers.\nVillagers can drop off resources in Monasteries.\nPrelates can be garrisoned in Monasteries to inspire all nearby Villagers, increasing their gather speed.",
+   "n": "Cistercian Abbeys"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Spearmen equip tempered Bills, reducing the armor of enemies by -1 when attacking.",
+   "n": "Billmen"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Increase Torguud and Horseman ranged and melee armor by +1 and health by +20",
+   "n": "Padded Armor"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Common soldiers are equipped with more resistant armor. Light cavalry gain +2 armor.",
+   "n": "Brigandine"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "All buildings gain +5 fire armor.",
+   "n": "Slate and Stone Construction"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "Importing Burgundian Handcannons enables Handcannoneers to be trained in the Castle Age and reduces Handcannoneer cost by -25%.",
+   "n": "Burgundian Imports"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Increase the attack range of Spearmen by +100%.",
+   "n": "Phalanx"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Increase the armor of Camel Riders by +2.",
+   "n": "Camel Rider Barding"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Increase the movement speed of camel military units by +15%.",
+   "n": "Camel Handling"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Increases the production cap of Bannerman Samurai by +1 and provides a free Villager.\nIncreases Town Center health by +1000, adds an additional arrow slit, and adds an aura which enhances Villagers harvest rate from Farms by +20%.",
+   "n": "Daimyo Manor"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Increases the production cap of Bannerman Samurai by +2 and provides a free Villager.\nIncreases Town Center health by +2000, fire armor by +2, adds an additional arrow slit, and adds an aura which enhances Villagers harvest rate from Farms by +40%.",
+   "n": "Daimyo Palace"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Increases the production cap of Bannerman Samurai by +3 and provides a free Villager.\nIncreases Town Center health by +3000, fire armor by +3, adds an aura which enhances Villagers harvest rate from Farms by +60%, and equips a Rocket Emplacement.",
+   "n": "Shogunate Castle"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Fill the stables with the best stallions, increasing all cavalry health by +35%.",
+   "n": "Royal Bloodlines"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Increase Royal Knights' bonus damage after a charge from +3 to +10.",
+   "n": "Cantled Saddles"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Royal Knights regenerate +1 health every 1 seconds when out of combat.",
+   "n": "Chivalry"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Increase the health of Rus cavalry by +25.",
+   "n": "Boyar's Fortitude"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Knights equip a poleax, increasing their melee damage by +4.",
+   "n": "Knight Poleaxes"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Your Knights and Demilancers adorn their armor with the Lancaster livery, gaining +5 bonus damage against enemy heavy units.",
+   "n": "Collar of Esses"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Local tribes offer some of their Reindeer as tribute. Spawns 4 Reindeer under your Town Center.",
+   "n": "Collective Hunting"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Advancements in feudal land distribution practices increase the build limit of Manors by +4 and their health by +100.",
+   "n": "Condensed Land Practices"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Advancements in feudal land distribution practices increase the build limit of Manors by +4 and their health by +200.",
+   "n": "Open Field System"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Improves the fire and ranged armor of ships by +2.",
+   "n": "Copper Plating"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "Crossbows are able to load stronger bolts that have +0.5 range and +2 damage.",
+   "n": "Cranequins"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Gilded Crossbowmen deal +20 damage against Siege units.",
+   "n": "Bodkin Bolts"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Reduce the cost of all technology and Age advancements by -20%.",
+   "n": "Preservation of Knowledge"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "Imams can convert units without holding a Relic, but can only target a single unit.",
+   "n": "Proselytization"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Town Centers and Keeps heal nearby units for +2 health every 1 second.",
+   "n": "Medical Centers"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Villagers and Traders gain +2 health per economic upgrade.",
+   "n": "Public Libraries"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Increase the attack speed of Cavalry units by +20%.",
+   "n": "Dali Horses"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Increase Fortified Outpost and Palisade fire armor by +3 and health by +300.",
+   "n": "Earthen Core Walls"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Improves the Desert Outposts aura on Fortresses to also increase the armor of nearby units by +1/+1.",
+   "n": "Desert Citadels"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Inspired Villagers gather resources +5% faster and construct buildings and defenses +25% quicker.",
+   "n": "Devoutness"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Increase ranged damage of Donso by +6, Archers by +2, and Javelin Throwers by +3.",
+   "n": "Precision Training"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Increases Villagers' Wood gather rate by 15% and increases their Wood carry capacity by 10.",
+   "n": "Draft Horses"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "Gilded Spearman torches deal area of effect damage.",
+   "n": "Heavy Torches"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Increase the gathering rate of Villagers by +5% for each dynasty achieved.",
+   "n": "Ancient Techniques"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Improve Villagers' gathering rate from Farms by +15%.",
+   "n": "Agriculture"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Reduce the cost of Economy buildings and Houses by 30%.",
+   "n": "Fertile Crescent"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Reduce the cost to produce Villagers by -40%.",
+   "n": "Fresh Foodstuffs"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Villagers drop off +8% more resources.",
+   "n": "Improved Processing"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Increases Ovoo Stone gather rate by 20%.",
+   "n": "Ovoo Offering"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Increases Ovoo Stone gather rate by 20%.",
+   "n": "Ovoo Ceremony"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Increase Stockyard gathering rate for Food by 10%. Does not apply to herded Sheep.",
+   "n": "Rotation Grazing"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Increase Stockyard gathering rate for Food by 10%. Does not apply to herded Sheep.",
+   "n": "Over Grazing"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Increase Villagers' gathering rate for Food by 30%. Does not apply to hunted meat.\nIf Horticulture has already been researched, increase it by 20% instead.",
+   "n": "Horticulture (Improved)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Increase Villagers' gathering rate for Gold by 35%.\nIf Specialized Pick has already been researched, increase it by 20% instead.",
+   "n": "Specialized Pick (Improved)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Villagers fell trees in a single chop.\nWood carry capacity increased by +2.",
+   "n": "Forestry (Improved)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Increase Villagers' gathering rate for Wood by 35%.\nIf Double Broadax has already been researched, increase it by 20% instead.",
+   "n": "Double Broadax (Improved)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Increase Villagers' hunted meat gather rate by +25%.\nIf Survival Techniques has already been researched, increase hunted meat gather rate by +10% instead.",
+   "n": "Survival Techniques (Improved)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "When the Kharash Edict is active the Golden Tent and Military Buildings within the influence of a Fortified Outpost produce an additional Kharash whenever any unit is recruited.",
+   "n": "Unlock Kharash Edict"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "When the Stockyard Edict is active Stockyards within the influence of a Fortified Outpost generate Gold while being worked.",
+   "n": "Unlock Stockyard Edict"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "Bonus damage dealt by Elephants is increased by 30%.",
+   "n": "Collateral Damage"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Elephants regenerate +2 health every 2 seconds when out of combat.",
+   "n": "Elephant Caretakers"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "Tactics from powerful daimyo improves melee infantry, increasing their damage by +15%, torch damage by +15%, and +15% health.",
+   "n": "Oda Tactics"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Improves the French influence by reducing unit costs by a further -5%.",
+   "n": "Enlistment Incentives"
+  },
+  "upgrade_fanaticism": {
+   "d": "Templar Brothers and Commanderie units gain +10% damage when below 50% health, and +30% when below 25% health.",
+   "n": "Fanaticism"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Each Farm Enclosure being worked by a Villager generates +1 Gold every 6 seconds.",
+   "n": "Enclosures"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Incendiary Ships deal full damage to all enemies in their explosion radius.",
+   "n": "Liquid Explosives"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Springalds gain 15% attack speed and engulf their projectiles with fire, creating a patch of Greek Fire after impact.",
+   "n": "Roman Fire"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Tughlaqabad Forts increase the production speed of nearby Docks by 30%, arrowslits damage by 2, and weapon range by 1 tile.",
+   "n": "Tughlaqabad Fort Overwatch"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Gilded Men-at-Arms who fall below 20% health take -20% damage.",
+   "n": "Golden Cuirass"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Counterweight Trebuchets deal +30% increased damage and engulf their target with Greek Fire, dealing area damage. Greek Fire does not stack with other patches.",
+   "n": "Greek Fire Projectiles"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Nest of Bees receive 3 additional Rocket Arrows.",
+   "n": "Additional Barrels"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Increase the range of Handcannons by +1.5.",
+   "n": "Pyrotechnics"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "Enemy units receive +15% Ranged and Melee damage for 5 seconds when hit by a Grenade.",
+   "n": "Hard Cased Bombs"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "The thunderous sounds of Eruptor and Storm Lance weapons scares enemy cavalry, reducing the damage of nearby cavalry by 20% for 5 seconds.",
+   "n": "Heaven Shaking Thunder"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Increases range of Dromons by 0.5 and their damage by 1.\nUpgrades all Dromons to leave Greek Fire on the surface or ground where they attack.",
+   "n": "Heavy Dromon"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "Training in rugged terrain increases Hobelar charge damage by +125% and production speed by +100%.",
+   "n": "Hill Training"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Enemy units hit by Trample become vulnerable and receive +15% increased damage for 12 seconds.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Horseman damage vs. Workers increased by +2. Workers eliminated by your Horsemen reward +30 Gold.",
+   "n": "Expilatores"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Scouts enhance the torch damage of nearby units by +25%.",
+   "n": "Trapezites"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Increase weapon range of Horse Archers by +1 and unlock the Gallop ability.\nGallop: Activate to move at maximum speed with +2 tile weapon range for 8 seconds.",
+   "n": "Mounted Training"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Increase House line of sight by 7 tiles and improve their construction speed by 500%.",
+   "n": "Border Settlements"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "Increase the maximum amount of Gold carried by Imperial Officials from +40 to +70.",
+   "n": "Imperial Examinations"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Spawn 2 Janissaries for each of your Landmark Town Center and Military Schools at the Landmark Town Center.",
+   "n": "Janissary Company"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Allows all siege engines to be garrisoned by infantry. While garrisoned, attack and setup speed is increased by +25%.",
+   "n": "Siege Crews"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Spawn 2 Mehter at the Landmark Town Center. Mehters increase move speed to units in the same formation by +15%.",
+   "n": "Mehter Drums"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "Increase Military Schools that can be built by +1.",
+   "n": "Military Campus"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Increases military production speed by +25% and outfits Military Schools with the ability to train Lancers and Janissaries.",
+   "n": "Advanced Academy"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Spawn 2 Imams at the Landmark Town Center. Imams area heal nearby units for 1 health every second. Increases to 2 health in Castle Age and 3 health in Imperial Age.",
+   "n": "Field Work"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Increase the amount of Gold Traders collect and Income from the Sultanhani Trade Network by +40%.",
+   "n": "Trade Bags"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "Khanda training improves Man-at-Arms charge duration by 3 seconds and increases damage of their charge attack by 100%.",
+   "n": "Khanda Drills"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "The Jin Dynasty consolidates its power and reinforces the Meng'an Mouke system to face incoming threats. Defenders are now supported by Mounted Grenadiers, and the available number of Defenders is increased by +10.",
+   "n": "Flying Fire Battalions"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "Melee and ranged infantry can construct Siege Towers and Battering Rams in the field. Improved Siege Engineering allows for the construction of Mangonels, Springalds and Trebuchets as well.",
+   "n": "Siege Engineering (Improved)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Spearman damage against cavalry increased by 35% and production speed increased by 50%.",
+   "n": "Neza Training"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Men-at-Arms and Lancers equip a Kilij, increasing their damage by +3.",
+   "n": "Honed Blades"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "Infantry gains +25% damage and +20% movement speed for 30 seconds after defeating a unit.",
+   "n": "Sultan's Mamluks"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Increase Barracks infantry ranged armor by +2.",
+   "n": "Cross Folded Armor"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Prelates increase their move speed by 10% and can inspire groups of military units, improving their armor by +1, and damage by +15%.",
+   "n": "Inspired Warriors"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Iron Clamps reinforcing the walls reduces incoming damage from gunpowder by 20% for Stone Walls and Fortresses.",
+   "n": "Iron Clamps"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "Onna-Musha fire a whistling arrow when an enemy is seen, increasing move speed for 10 seconds.",
+   "n": "Kabura-ya Whistling Arrow"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Add a defensive Bed Crossbow Emplacement to this building.",
+   "n": "Bed Crossbow Emplacement"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Attackers of this Tughlaqabad Fort are struck by fear, reducing their attack speed by 30% while targeting the Fort.",
+   "n": "Curse of Auliya"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Add a defensive Great Bombard emplacement to this structure.",
+   "n": "Great Bombard Emplacement"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Add a defensive mangonel emplacement to this structure.",
+   "n": "Mangonel Emplacement"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Add a Meng'an Mouke emplacement to this Structure that rallies 5 Defenders whenever enemies are nearby. Defenders cannot be controlled and will attack threats close to this emplacement.\nProduces 1 global Meng'an Mouke Defender every 60 seconds.",
+   "n": "Meng'an Mouke Emplacement"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Add a defensive trebuchet emplacement to this structure.",
+   "n": "Trebuchet Emplacement"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "The Khan can fire a signal arrow that reveals a 10 Tile range and makes enemies receive +10% damage in the targeted area for 10 seconds.",
+   "n": "Khan Debuff Arrow"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Increase the Khan's Signal Arrow duration by +7 seconds and range by +3 tiles.\nIf Whistling Arrows has already been researched, increase the Khan's Signal Arrow duration by +2 seconds and range by +1 tile.",
+   "n": "Whistling Arrows (Improved)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Increase the Khan's Signal Arrow duration by +5 seconds and range by +2 tiles.",
+   "n": "Whistling Arrows"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Kharash are equipped with shields, gaining +2 ranged armor, +2 melee armor, and increase their health by +25.",
+   "n": "Battlefield Salvage"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Grants Knights and Black Riders +2 melee and +2 ranged armor.",
+   "n": "Steel Barding"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Gilded Knights take -25% damage while charging.",
+   "n": "War Horses"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "Industrious blacksmithing yields stronger lamellar armor for the army. All Cavalry and Melee Infantry health increased by +25%.",
+   "n": "Padded Lamellar"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Increase Keshik healing by +2 Health per attack and attack speed by +20%.\nIf Steppe Lancers has already been researched, increase Keshik healing by +1 Health per attack and attack speed by +10%.",
+   "n": "Steppe Lancers (Improved)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Increase Keshik healing by +1 Health per attack and attack speed by +10%.",
+   "n": "Steppe Lancers"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Increase Keshik healing by +1 Health per attack and attack speed by +10%. Torguud gain the same healing attack as the Keshik.",
+   "n": "Sarai Lancers"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Fill the stables with the best stallions, increasing all cavalry health by +35%.",
+   "n": "Royal Bloodlines"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Royal Knights regenerate +1 health every 1 seconds when out of combat.",
+   "n": "Chivalry"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Improves the French influence by reducing unit costs by a further -5%.",
+   "n": "Enlistment Incentives"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Consecrated buildings also reduce the Wood and Gold cost of units by 25%.",
+   "n": "Ordinance Company"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "Infantry units gain the Forced March ability.\nWhen activated, infantry move +100% faster for 10 seconds, but breaks when dealing damage.",
+   "n": "Forced March"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Increase the carrying capacity of Villagers by +10.",
+   "n": "Hearty Rations"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Villagers and Infantry can garrison inside Houses for protection. Houses gain garrison arrows and +50% Health.",
+   "n": "Reinforced Foundations"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Increase Jeanne d'Arc's health and damage by 25% and gain +1 armor. Increase the health and damage of Jeanne's Companions by 20%.",
+   "n": "Companion Equipment"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Increase the fire armor of Stone Wall Towers, Keeps, and Outposts by +10.",
+   "n": "Slow-Burning Defenses"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Increase the fire armor of Stone Wall Towers, Keeps, and Outposts by +10.",
+   "n": "Slow-Burning Defenses"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Elephants move +10% faster.",
+   "n": "Mahouts"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Elephants move +10% faster.",
+   "n": "Mahouts"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Mosques restore +4 health every second to units that are out of combat.",
+   "n": "Tranquil Venue"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Archers and Crossbowmen gain +0.5 range.",
+   "n": "Paiks"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Increase the attack speed of Arbalétriers by +25%.",
+   "n": "Crossbow Stirrups"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Increase the sight range of Scholars by +100%.",
+   "n": "All-Seeing Eye"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Increases the movement speed of Scholars by +50%.",
+   "n": "Swiftness"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Upgrade Tower Elephants to have Elite Crossbowmen as riders instead of Archers. Tower Elephants gain +25% health and +4 ranged armor.",
+   "n": "Howdahs"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Unlocks the Pilgrim Loan abilities, which loan a large sum of food for a return in gold over time.",
+   "n": "Lettre de Change"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Zhuge Nu and Crossbowmen fire an extra bolt. The additional bolt for Crossbowmen is 40% as effective as the previous bolt.",
+   "n": "10000 Bolts"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Spearmen and Horsemen gain a Fire Lance when charging.",
+   "n": "Roar of the Dragon"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "Imperial Officials gain 150 health and their maximum Gold carried is increased by +80. Imperial Official limit increased by +2.",
+   "n": "Advanced Administration"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Adds area of effect damage to Bombards.",
+   "n": "Cloud of Terror"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Allows production of unique cavalry units, the Imperial Guard, and the Yuan Raider.",
+   "n": "Dynastic Protectors"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Spearmen are equipped with a stronger spear that increases weapon range by +20% and damage against cavalry by +15%.",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Increase the attack speed of Archers by +33%.",
+   "n": "Composite Bows"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Men-at-Arms wield maces, increasing their bonus damage against heavy targets by +6.",
+   "n": "Heavy Maces"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Men-at-Arms wield two-handed weapons, increasing their damage by +2.",
+   "n": "Two-Handed Weapons"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Increase the health of Palace Guards by +30.",
+   "n": "Battle Hardened"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "Training elite infantry leads to improved prowess in battle. Melee Infantry gain +20% damage and +20% health.\nIf Elite Army Tactics has already been researched, increases damage by +5% and health by +5% instead.",
+   "n": "Elite Army Tactics (Improved)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Kipchak Archers fire 2 additional arrows that each deal 70% less damage.",
+   "n": "Triple Shot"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Increase the ranged damage of Mangudai and the Khan by +2.\nIf Siha Bow Limbs has already been researched, increase the ranged damage of Mangudai and the Khan by +1.",
+   "n": "Siha Bow Limbs (Improved)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Increase the ranged damage of Mangudai and the Khan by +1.",
+   "n": "Siha Bow Limbs"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "The Lord of Lancaster levies a tax on all vassals to fund war efforts. Manors generate 30 gold per minute.",
+   "n": "Scutage"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Active Traders generate 1 gold every 6 seconds.",
+   "n": "Merchant Guilds"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Increase Mounted Samurai move speed by +10% while Deflective Armor is active.",
+   "n": "Do-maru Armor"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Increase the melee damage of all non-siege units by +1.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Increase the melee damage of all non-siege units by +1.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Increase the melee damage of all non-siege units by +1.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Increase the melee damage of all non-siege units by +1.",
+   "n": "Yaki-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Increase the health of all infantry by +15%.",
+   "n": "Boot Camp"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Camels increase the armor of nearby infantry by +2.",
+   "n": "Camel Support"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "Infantry increase the armor of nearby camels by 3.",
+   "n": "Infantry Support"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Grant Camel Riders shields, improving their melee armor by +3.",
+   "n": "Camel Rider Shields"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Increases production speed of Military Buildings by +50%.",
+   "n": "Increased Supplies"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Advanced Military Tactics increase your troops' overall effectiveness in battle, improving their bonus damage by +20%.",
+   "n": "Military Tactics Training"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Increase Villagers' hunted meat gather rate by +20%.",
+   "n": "Mohe Ancestry"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Increase Villagers' hunted meat gather rate by +20%.",
+   "n": "Hunting Tradition"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Equip Mounted Samurai with an Odachi, a long sword that deals +4 bonus damage against infantry.",
+   "n": "Mounted Samurai Odachi"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "Converting between Lodya Ship types is 50% faster and no longer has a cost penalty.",
+   "n": "Adaptable Hulls"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Replaces Springald Ship weaponry with repeating Bed Crossbows that fire bursts of 2 piercing bolts.",
+   "n": "Naval Crossbows"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Warships fire a Nest of Bees attack.",
+   "n": "Thunderclap Bombs"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Military Ships regenerate +1 health every 2 seconds when out of combat.",
+   "n": "Fire Stations"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Increase the production speed of Gunpowder Ships by 25% and their movement speed by 25%.",
+   "n": "Imperial Fleet"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Archer Ships fire an additional 2 Javelin weapons.",
+   "n": "Canoe Tactics"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Increase the damage of naval cannons by +15%.",
+   "n": "Long Guns"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Baghlahs heal 30 health when killing an enemy unit.",
+   "n": "Salvaged Materials"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Gain +25 Wood and +25 Gold when sinking an enemy ship.",
+   "n": "Piracy"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Increase the range of combat ships by +1.",
+   "n": "Admiralty"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Adds a defensive naval springald to this Harbor.",
+   "n": "Naval Springald Emplacement"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Increase the health of military ships by +10%.",
+   "n": "Teak Masts"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Reinforce Nest of Bees with pointy Fire Lances which deal 10 damage back to melee attackers.",
+   "n": "Porcupine Defense"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Increase the Network of Castles attack speed bonus from +20% to +30%.",
+   "n": "Network of Citadels"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Equip Samurai with an Odachi, a long sword that deals +4 bonus damage against infantry.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "Imperial Official limit increased by +2. Grants an Imperial Official upon completion.",
+   "n": "Imperial Red Seals"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "Imperial Officials move 50% faster.",
+   "n": "Single Whip Reform"
+  },
+  "upgrade_official_supervise": {
+   "d": "Supervision by Imperial Officials improved from 150% to 300%.",
+   "n": "Regional Inspection"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "Imperial Officials can now supervise Keeps and Outposts to reduce damage taken by 35%.",
+   "n": "Military Affairs Bureau"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "Yam speed aura applies to all units instead of just Traders and cavalry units. Does not apply to siege engines.\nImproved Yam Network allows Traders to regenerate 1 health every 2 seconds while in Yam's aura.",
+   "n": "Yam Network (Improved)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "Yam speed aura applies to all units instead of just Traders and cavalry units. Does not apply to siege engines.",
+   "n": "Yam Network"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Adds the Glorious Charge ability to Outposts, when activated it starts a 10 second timer which reveals the Outpost and the nearby area to all players, when the timer ends all nearby allied units will get +50% movement speed and take -15% less damage for 30 seconds.",
+   "n": "Glorious Charge"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Add defensive javelin to this structure and increase garrison arrow range by +1. Javelins deal additional damage to ranged units. Only one weapon emplacement can be added.",
+   "n": "Javelin Emplacement"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Add +300 health and +3 fire armor to all Outposts.",
+   "n": "Pax Mongolica"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Ovoos provide an income of +60 Food, +60 Wood, and +10 Gold every minute.",
+   "n": "Ovoo Tithe"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "Unlock an Early Ozutsu unit which is available from Age III.",
+   "n": "Ozutsu Unlock"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Equip your Yeomen and Spearmen with Padded Jacks, improving their melee armor by +3.",
+   "n": "Padded Jack"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Each Varangian unit that is present for the destruction of a Landmark or Town Center will award the player with a boon of Silver.",
+   "n": "Polutasvarf"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Earl's Guards are supplied with additional Daggers when throwing, these Daggers also deal a small amount of area damage.\nEarl's Guards now throw 2 Daggers but are less accurate.",
+   "n": "Throwing Dagger Drills"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "Utilizing local hunters' craftsmanship, Mohe Tribesman equip new armor which reduces bonus damage taken by -50%.",
+   "n": "Quilted Armor"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Increase the raid income for igniting a building to +75 Food and Gold.\nIf Raid Bounty has already been researched, increase the raid income for igniting a building by +25 Food and Gold.",
+   "n": "Raid Bounty (Improved)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Increase the raid income for igniting a building to +50 Food and Gold.",
+   "n": "Raid Bounty"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Add +75 Stone to the raid income for igniting a building.\nIf Stone Bounty has already been researched, add +25 Stone to the raid income for igniting a building.",
+   "n": "Stone Bounty (Improved)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Add +50 Stone to the raid income for igniting a building.",
+   "n": "Stone Bounty"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Increase Battering Ram attack speed by +30% and reduce their field construction time by -75%.\nIf Lightweight Beams has already been researched, increase attack speed by +10% and reduce field construction time by -25% instead.",
+   "n": "Lightweight Beams (Improved)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Increase Arbalétrier melee armor by +5.",
+   "n": "Gambesons"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Increase the attack speed of Arbalétriers by +25%.",
+   "n": "Crossbow Stirrups"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Increase Janissary gun damage by +4.",
+   "n": "Janissary Guns"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Longbowmen gain Arrow Volley, an activated ability that reduces their time to attack by +1 second for a duration of 6 seconds.",
+   "n": "Arrow Volley"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Increase the health of walls, towers, and gates by +25%.",
+   "n": "Reinforced Defenses"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "Archery Range batch production increased by +1, does not increase resource cost or time to recruit.",
+   "n": "Archery Range Reinforcements"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "Barracks batch production increased by +1, does not increase resource cost or time to recruit.",
+   "n": "Barracks Reinforcements"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "Stables batch production increased by +1, does not increase resource cost or time to recruit. The Torguud batch production is also increased by +1.",
+   "n": "Stables Reinforcements"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "Prayer Tents allow Improved Production within their influence even without an Ovoo.",
+   "n": "Monastic Shrines"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Increase the attack speed of Bombards by +33%.",
+   "n": "Reload Drills"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "More advanced magazines allow Zhuge Nu to fire piercing bolts with +0.5 range that deal +1 damage against Light Melee Infantry.",
+   "n": "Bolt Magazines"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Varangian Guards and Riddari equip a powerful Rhomphaia sword, increasing light infantry damage of Guards by 3, and damage of Riddari by 3.",
+   "n": "Rhomphaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Gain +2 charge damage per nearby charging Heavy Cavalry.",
+   "n": "Rule of Templars"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Activates Pilgrims.\nPilgrims spawn every 60 seconds. Start with 1 pilgrim, gain 1 pilgrims for each Fortress (Max 10).",
+   "n": "Safe Passage"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Improve the range of Saint's Blessing by +5 tiles and the damage granted by Saint's Blessing by +1.",
+   "n": "Fervor"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Increase the duration of Saint's Blessing by +10 seconds.",
+   "n": "Divine Light"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Increase the health of Warrior Monks by +100.",
+   "n": "Saint's Veneration"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Naginata Samurai can fire a Yumi periodically from range.",
+   "n": "Samurai Bow"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "Guarantees of sanctuary grant Pilgrimage 1 additional Pilgrim.",
+   "n": "Sanctuary"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Investing in bigger and better ship hulls increases Carrack damage by 20%, health by 15%, and range by 10%.",
+   "n": "Ships of the Crown"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "Levy 5 Demilancers.",
+   "n": "Muster the Nobles"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "Levy 12 Yeomen.",
+   "n": "Shire Levy"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "Levy 10 Demilancers, 10 Earl's Guards, and 10 Yeomen.",
+   "n": "Exact Militia Program"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Increases the maximum number of Yorishiro by +2. Immediately produces 2 Yorishiro at the Floating Gate.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Increases the Line of Sight of all buildings by +2 tiles. Every 3 minutes, all economic units heal for 100% of their health over 3 seconds.",
+   "n": "Gion Festival"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Increases Shinto Priest health by +40, healing rate by +60%, and movement speed by +15%.",
+   "n": "Shinto Rituals"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Upon completion, siege units gain access to the Structural Reinforcements ability.\nSiege units gain +20 melee armor and +5 fire armor for 10 seconds.",
+   "n": "Siege Carpentry"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "Setup and teardown speed of Mangonels, Trebuchets, and Bombards is instant.",
+   "n": "Siege Crew Training"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Increase damage of Bombards by +20%. Bombards gain +50 damage vs Infantry.",
+   "n": "Fine Tuned Guns"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Ram damage increased by +25%. Rams heal 2 health every 1 second.",
+   "n": "Wandering Town"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Increase damage of Trebuchets by +30%.\nIf Geometry has already been researched, increase their damage by +10% instead.",
+   "n": "Geometry (Improved)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Increases Springald attack speed by +35%, grants +10% Ranged Resistance, and increases health by +10.\nIf Roller Shutter Triggers has already been researched, increase attack speed by 10% and health by +10 instead.",
+   "n": "Roller Shutter Triggers (Improved)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "Siege units will deal 10% additional damage for every 10 seconds they are set up - to a maximum of 50%.",
+   "n": "Prolonged Siege"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Increase the movement speed of siege engines by +10%.",
+   "n": "Lightweight Frames"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Further increase the movement speed of siege engines by another +10%.",
+   "n": "Reinforced Axles"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Increase the movement speed of siege engines by +25%.\nIf Greased Axles has already been researched, increase it by +10% instead.",
+   "n": "Greased Axles (Improved)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "New carpentry techniques increase the health of siege engines by +30%.\nIf Siege Works has already been researched, increase their health by +10% instead.",
+   "n": "Siege Works (Improved)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Increase armor of Sofa by +2.",
+   "n": "Imported Armor"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Sofa increase the movement speed of nearby infantry by +15%.",
+   "n": "Farima Leadership"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Increase the damage of Spearmen and Horsemen by +2.",
+   "n": "Awl Pikes"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Increases Spearmen move speed by +10% and +5 damage vs. Workers.",
+   "n": "Lightweight Blades"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Increase the range of Springalds by +1 tiles.",
+   "n": "Banded Arms"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Musofadi Warriors and Musofadi Gunners gain +5 healing with each attack for 5 seconds after coming out of stealth.",
+   "n": "Local Knowledge"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Spearmen are equipped with Storm Lances, gaining an explosive ranged attack on a cooldown.",
+   "n": "Storm Lances"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Unlocks the Synchronized Shot ability for Yeomen.",
+   "n": "Synchronized Shot"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Tanegashima Ashigaru will automatically deploy a standing shield if not moving that increases weapon range by +2 tiles and ranged armor by +2.",
+   "n": "Tanegashima Tate"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Increase the armor of Cataphracts by +1, move speed of Limitanei by +15%, and attack speed of Varangian Guard by +15%.",
+   "n": "Teardrop Shields"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Increase the production speed of military and transport units at buildings by 53%.\nDoes not affect religious or other support units.\nIf Military Academy has already been researched, increase production speed by 20% instead.",
+   "n": "Military Academy (Improved)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "Keeps and Stone Wall Towers gain a grenade attack against nearby units that deals explosive damage. Enemies beware.",
+   "n": "Rain of Fire"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Upgrades all Varangian Strongholds with default arrowslit emplacements that deal 10 damage with 6 tiles weapon range.",
+   "n": "Stronghold Defensive Arrowslits"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Investing in natural sciences increases the health of all cavalry by +35%.\nIf Biology has already been researched, increase it by +10% instead.",
+   "n": "Biology (Improved)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Buddhist Temples cast Sohei Sutra on a nearby enemy every 6 seconds.",
+   "n": "Five Mountain Ministries"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "The Ikko-ikki Monk attack aura healing Increased by +1.",
+   "n": "Kampo Medicine"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Increase Ikko-ikki Monk health +60 and melee damage +2.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Increase Ikko-ikki Monk movement speed by +33%.",
+   "n": "Mountain Top Training"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Upgrades Buddhist Conversion to Nehan Conversion, which has a 25% shorter cooldown and additionally improves nearby allied units movement speed by +25% when cast.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Buddhist Monks generate 25 gold every 60 seconds.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "The Golden Tent can rapidly produce unique units at a discounted Stone cost, Torguud Stone cost and production speed are decreased by 20%, and Rus Tributes are upgraded with increased armor and a bardiche axe.",
+   "n": "Stone Armies"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "The Golden Tent will generate 10 Gold every 10 seconds for each Fortified Outpost, up to a maximum of 6 Fortified Outposts.",
+   "n": "Yam Network Trade"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Reduce the cost of the Khan and Torguuds by -20% and increase their health by +30.",
+   "n": "Khan and Torguuds"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Produces 2 Building Carts which can be unpacked into a Military Building.\nAn additional building cart is produced when advancing to later Ages.",
+   "n": "Building Carts"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "The conquered Rus territories will provide larger shields to Heavy Infantry and Heavy Cavalry, increasing their ranged armor by +2. \nWood will also be generated at the rate of 200 per minute, but it is reduced by 2 Wood for each unit equipped with a Rus shield.",
+   "n": "Muscovy Yasak"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Shamans can consume a held Relic to build an Ovoo which can exceed the build limit. Increases Ovoo Stone gather rate by 20%.",
+   "n": "Relic Ovoos"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Equipping tall tower shields grants Men-at-Arms +3 ranged armor.",
+   "n": "Tower Shields"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Traders and Trade Ships also return with a secondary resource. This resource is 25% the base Gold value and is set at the market.",
+   "n": "Grand Bazaar"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Increase the Gold income from Traders and Trade Ships by +30%.",
+   "n": "Spice Roads"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Grant +3 armor to Traders and Trade Ships.",
+   "n": "Armored Caravans"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Traders supply +20% Stone to their trades.\nIf Stone Commerce has already been researched, supply +10% Stone instead.",
+   "n": "Stone Commerce (Improved)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Traders supply +10% Stone to their trades.",
+   "n": "Stone Commerce"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Rams gain an ability that will immobilize themselves, gaining strong defensive bonuses and allowing to fire multiple arrows.",
+   "n": "Beachhead"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Increases the gold generation of Monasteries, Sacred Sites and Pilgrims by 20% within the aura of a Fortress.",
+   "n": "Treasure Towers"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Trebuchet projectiles shatter on impact, increasing their area of effect.",
+   "n": "Shattering Projectiles"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Explosive Grenades hurled by Trebuchets and Nest of Bees smoke out enemy defenders, reducing attacked building damage by 20% for 8 seconds. Trebuchets and Nest of Bees gain +1 range.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "All Trebuchet weapons gain +1 additional projectiles.",
+   "n": "Counterweight Defenses"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Upgrade Healer Elephants to Elite Healer Elephants",
+   "n": "Upgrade to Elite"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Upgrade Hardened Mercenaries to Veteran Mercenaries.",
+   "n": "Veteran Contract"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Upgrade Veteran Mercenaries to Elite Mercenaries.",
+   "n": "Elite Contract"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Increase the healing rate of religious units by +90%.\nIf Herbal Medicine has already been researched, increase it by +30% instead.",
+   "n": "Herbal Medicine (Improved)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Increase all Shamans' health by +60.\nIf Piety has already been researched, increase it by +20 instead.",
+   "n": "Piety (Improved)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Allow Scholars to capture Sacred Sites before the Castle Age (III). Sacred Sites generate +25% more Gold.",
+   "n": "Sanctity"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "Relics placed in a Prayer Tent provide an income of +60 Food, +60 Wood, and +15 Stone every minute.\nIf Tithe Barns has already been researched, increase the income of Food and Wood by +20 and Stone by +5 instead.",
+   "n": "Tithe Barns (Improved)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Units healed by Scholars gain +50% attack speed for 3 seconds.",
+   "n": "Zeal"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Packed buildings move +70% faster and pack/unpack +50% faster.\nIf Superior Mobility has already been researched, increase speed by +20% instead.",
+   "n": "Superior Mobility (Improved)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Packed buildings move and pack/unpack 50% faster.",
+   "n": "Superior Mobility"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Increase the carry capacity of Villagers by +3, their movement speed by +7%, and +25% gather rate from Berry Bushes.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Increase the carry capacity of Villagers by +3, their movement speed by +7%, and +25% gather rate from Berry Bushes.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Increase the carry capacity of Villagers by +3, their movement speed by +7%, and +25% gather rate from Berry Bushes.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Upgrade Ballista Elephants into Elite Ballista Elephants",
+   "n": "Reinforced Arm Ballista"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Increase Villagers' resource carry capacity by +9 and movement speed by +15%.\nIf Wheelbarrow has already been researched, increase carry capacity by +4 instead.",
+   "n": "Wheelbarrow (Improved)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Varangian Guard increase their move speed by +30% when activating Berserking.",
+   "n": "Ferocious Speed"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Varangian Arsenals craft more lethal arrows, causing units hit by Bogmaðr to have their damage reduced by 20% for 5 seconds.",
+   "n": "Ruinous Blinding"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Increase Villagers' health by +50%.\nIf Textiles has already been researched, increase health by +100% instead.",
+   "n": "Textiles (Improved)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Towers and Keeps repair nearby walls and gates for +25 health per second.",
+   "n": "Extra Materials"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "Experience from building larger trebuchets increases their range by +2 and health by +50%.",
+   "n": "Warwolf Trebuchet"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Increase the torch damage of all infantry and cavalry by +5.\nIf Additional Torches has already been researched, increase the torch damage from all infantry and cavalry by +2.",
+   "n": "Additional Torches (Improved)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Increase the torch damage of all infantry and cavalry by +3.",
+   "n": "Additional Torches"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Increase the damage of arrows fired from this Wooden Fortress by +2.",
+   "n": "Castle Turret"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Increase the sight range of this Wooden Fortress by 6 tiles.",
+   "n": "Castle Watch"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "Cavalry movement speed is increased by 10%.",
+   "n": "Horse Training"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Increase Yari Cavalry anti-cavalry damage by +2.",
+   "n": "Improved Yari"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Yatai can collect Food from nearby Farm Fields, with each Farm Field providing +4 Food / min. Increases the maximum rate to 80 Food / min.",
+   "n": "Yatai Farm Gather"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Grants +1 damage to Yumi Ashigaru.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Gilded Landsknecht equip a halberd weapon that wounds enemies. When struck by this weapon, a unit will bleed for 2 damage every second. Lasts 10 seconds.\nAny healing effect will remove the bleed.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Food",
+  "i-gold": "Gold",
+  "i-silver": "Silver",
+  "i-stone": "Stone",
+  "i-vizier": "Vizier Points",
+  "i-wood": "Wood"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Embrace the Abbasids' pursuit of knowledge through researching unique technologies that benefit Camels, Military, Religion, Economy, and Trade.\nAdvance the ages by upgrading up to 4 Wings on the House of Wisdom.",
+   "t": "Pursuit of Knowledge"
+  },
+  "ab-2": {
+   "d": "Camels spook enemy horse cavalry with their presence, reducing their damage by -20%.",
+   "t": "Camel Fighters"
+  },
+  "ab-3": {
+   "d": "Infantry can construct Rams, Siege Towers, Springalds, and Mangonels without the need for Siege Engineering technology.",
+   "t": "Siege Experts"
+  },
+  "ab-4": {
+   "d": "Cultivate Berry Bushes into Orchards by building Mills near them, increasing Food capacity by +100.\nVillagers gather Berry Bushes 25% faster but cannot gather from Boar.\nVillagers carry +3 Food from Berry Bushes.",
+   "t": "Grand Orchards"
+  },
+  "ab-5": {
+   "d": "Land Traders are 33% cheaper.",
+   "t": "Trade Economy"
+  },
+  "ab-6": {
+   "d": "Docks can be constructed for -50% Wood.",
+   "t": "Dockyards"
+  },
+  "ab-7": {
+   "d": "Build towards your Golden Age – improving economy and technology.\nBuildings within the House of Wisdom's influence receive +5 fire armor and contribute one point towards the Golden Age. The threshold for unlocks are 10, 30, and 60 buildings.\n• Tier 1: Villager gather rate +15%\n• Tier 2: Research speed +20%\n• Tier 3: Villager gathering rate +20% for all resources. Research speeds +20%. Production speeds +20%.",
+   "t": "Golden Age"
+  },
+  "ab-8": {
+   "d": "Camel Archers: Light ranged cavalry that deals bonus damage to light melee infantry.\nCamel Riders: Light melee cavalry that deals bonus damage to cavalry.\nGhulam: Tough infantry with a double strike attack.",
+   "t": "Unique Units"
+  },
+  "ay-1": {
+   "d": "Advance through the ages by choosing from 8 unique Wings on the House of Wisdom.\nGain immediate access to bonuses for Economy, Technology, and Military without requiring any upgrade in order to adapt the civilization to the needs of battle.\nEach Wing provides more powerful bonuses when constructed in later Ages.",
+   "t": "Adaptable Commander"
+  },
+  "ay-2": {
+   "d": "Camels spook enemy horse cavalry with their presence, reducing their damage by -20%.",
+   "t": "Camel Fighters"
+  },
+  "ay-3": {
+   "d": "Infantry can construct Siege Engines on the field without the need for Siege Engineering technology.\nAccess to two unique siege weapons and one unique siege upgrade.",
+   "t": "Siegecraft Masters"
+  },
+  "ay-4": {
+   "d": "Cultivate Berry Bushes into Orchards by building Mills near them, increasing Food capacity by +100.\nVillagers gather Berry Bushes 25% faster but cannot gather from Boar.\nVillagers carry +3 Food from Berry Bushes.",
+   "t": "Grand Orchards"
+  },
+  "ay-5": {
+   "d": "Land Traders are 33% cheaper.",
+   "t": "Trade Economy"
+  },
+  "ay-6": {
+   "d": "Docks can be constructed for -50% Wood.",
+   "t": "Dockyards"
+  },
+  "ay-7": {
+   "d": "Build towards your Golden Age – improving economy, technology, and military.\nBuildings within the House of Wisdom's influence receive +5 fire armor and contribute one point towards the Golden Age. The threshold for unlocks are 10, 20, 30, 50, and 75 buildings.\n• Tier 1: Villager gather rate +10%\n• Tier 2: Research speed +25%\n• Tier 3: Production speed +20%\n• Tier 4: Siege units cost 20% less resources to produce\n• Tier 5: Camel units attack 20% faster.",
+   "t": "Golden Age"
+  },
+  "ay-8": {
+   "d": "Desert Raider: Versatile camel rider who can switch between ranged and melee modes.\nCamel Lancer: Heavy camel with a powerful charge attack.\nDervish: Mounted religious unit with a powerful heal ability.\nManjaniq: Unique Mangonel which can use an Incendiary mode to deal damage in a greatly increased area.\nTower of the Sultan: Behemoth siege weapon crewed by archers and equipped with a battering ram for devastating damage against buildings.",
+   "t": "Unique Units"
+  },
+  "by-1": {
+   "d": "Collect a unique resource that is used to hire Mercenary units. Villagers gather Olive Oil equal to 50% of Food gathered from Berry Bushes, 20% from Olive Groves, and 10% from Shore Fish.\nFishing Boats generate Olive Oil equal to 20% of Food from Fish and Traders provide 20% Olive Oil based on the amount being traded.",
+   "t": "Olive Oil"
+  },
+  "by-2": {
+   "d": "Purchase contracts or establish control of Trade Posts to recruit unique units from other civilizations with Olive Oil at the Mercenary House.",
+   "t": "Mercenaries"
+  },
+  "by-3": {
+   "d": "Cisterns provide nearby Villagers with boosted gather rates and an influence that enhances nearby buildings, improving unit production speed, research speed, or building defense.\nConstruct an Aqueduct network and connect them to Cisterns to increase its bonus output.",
+   "t": "Cisterns and Aqueducts"
+  },
+  "by-4": {
+   "d": "Gather Stone from every building constructed. Building size determines the amount of Stone collected.",
+   "t": "Field Stones"
+  },
+  "by-5": {
+   "d": "Cheirosiphons along with upgraded Dromons and Trebuchets fling Greek Fire with their attacks, engulfing the area in flames for damage over time.",
+   "t": "Greek Fire"
+  },
+  "by-6": {
+   "d": "Outposts and Keeps can be upgraded with Mangonel Emplacements. Stone Wall Towers come equipped with Mangonel Emplacements instead of Springalds.",
+   "t": "Mangonel Emplacements"
+  },
+  "by-7": {
+   "d": "Limitanei: Spearman replacement. Light melee infantry with the Shield Wall ability to increase ranged armor at the cost of move speed.\nVarangian Guard: Man-at-Arms replacement. Use the Berserking ability to increase damage at the cost of armor. Can construct Transport Ships and increase armor of transports when garrisoned. Gains increased movement speed when disembarking from Transport Ships.\nCataphract: Knight replacement. Heavy cavalry with Trample, a powerful targeted ability that runs through and damages enemies in its path.\nCheirosiphon: A ram equipped with a short ranged Greek Fire attack.\nDromon: Springald Ship replacement. Equipped with Greek Fire.",
+   "t": "Unique Units"
+  },
+  "ch-1": {
+   "d": "Start your journey in the Tang Dynasty — increases Scout line of sight +30% and provides access to the Village.\nConstruct both Landmarks in an Age to start Dynasties with special bonuses, unique buildings, and units.\n• Song Dynasty: Produce Villagers +33% faster — unlocks Granary and Zhuge Nu.\n• Yuan Dynasty: Villagers, Officials and military unit move speed +15% — unlocks Pagoda and Fire Lancer.\n• Ming Dynasty: Military units +15% health — unlocks Grenadier.",
+   "t": "Great Dynasties"
+  },
+  "ch-2": {
+   "d": "Villagers construct defenses +50% faster and all other buildings +100% faster. Docks work +10% faster.",
+   "t": "Rapid Fabrications"
+  },
+  "ch-3": {
+   "d": "Begin the game with Chemistry technology granted for free - defensive buildings use Handcannon Slits over Defensive Arrowslits.",
+   "t": "Masters of Gunpowder"
+  },
+  "ch-4": {
+   "d": "Units trained, technologies researched, and resources dropped off generate Tax (Gold) that can be collected by Imperial Officials.",
+   "t": "Taxes"
+  },
+  "ch-5": {
+   "d": "Construct military and economic buildings within the Imperial Academy Landmark's influence to generate +100% tax Gold.",
+   "t": "Influence"
+  },
+  "ch-6": {
+   "d": "Imperial Official: Use the Supervise ability to boost production speed of research and military buildings by +150% — supervising economic buildings increases the amount of resources dropped off by Villagers by +20%.\nZhuge Nu: Light ranged infantry with a rapid burst attack effective vs. light units.\nPalace Guard: Man-at-Arms replacement. Heavy melee infantry that exchanges armor for move speed.\nNest of Bees: Mangonel replacement. Siege engine that fires a barrage of rockets, doing area of effect damage.\nFire Lancer: Light cavalry effective vs. siege engines and buildings. Comes with extensive sight range and an explosive charge attack.\nGrenadier: Light ranged gunpowder infantry that throws grenades dealing area of effect damage.",
+   "t": "Unique Units"
+  },
+  "de-1": {
+   "d": "Train Scholars from Mosques in the Dark Age (I). Research and unlock religious technologies earlier than other civilizations.",
+   "t": "Scholarly Culture"
+  },
+  "de-2": {
+   "d": "Save on the cost of technologies and research all technology free but progresses at a much slower rate — technologies can be paused and resumed.",
+   "t": "Scholastic Achievements"
+  },
+  "de-3": {
+   "d": "Establish fortified settlements using infantry units that can build Palisade Walls. Construct the Compound of the Defender Landmark to extend this ability to Stone Walls.",
+   "t": "Frontier Fortifications"
+  },
+  "de-4": {
+   "d": "Fishing Ships can defend themselves with a ranged attack and have 50% additional health.",
+   "t": "Defensive Deckhands"
+  },
+  "de-5": {
+   "d": "Cultivate Berry Bushes into Orchards by building Mills near them, increasing Food capacity by +100.\nVillagers gather Berry Bushes 25% faster but cannot gather from Boar.\nVillagers carry +3 Food from Berry Bushes.",
+   "t": "Garden Bounty"
+  },
+  "de-6": {
+   "d": "Scholars garrisoned in a Mosque, Madrasa, or Dock will increase the research speed of buildings within their influence, based on how many Scholars are garrisoned globally. Docks work faster when garrisoned by Scholars.",
+   "t": "Influence"
+  },
+  "de-7": {
+   "d": "Scholar: Religious unit capable of healing in the Dark Age (I).\nWar Elephant: Heavy melee cavalry mounted with a Spearman that has high health and damage with a strong siege attack.\nTower Elephant: Ranged cavalry mounted with two Archers that can fire while moving.\nGhazi Raider: Fast Horseman wielding a heavy mace.",
+   "t": "Unique Units"
+  },
+  "en-1": {
+   "d": "Protect the frontier with Town Centers, Outposts, Stone Wall Towers, and Keeps that increase attack speed of nearby units by +20% when enemies are in range.\nResearch the Network of Citadels technology from Keeps to further increase attack speed by +30%.",
+   "t": "Network of Castles"
+  },
+  "en-2": {
+   "d": "Keeps have the unique ability to produce all military units.",
+   "t": "Keep Production"
+  },
+  "en-3": {
+   "d": "Vanguard Man-at-Arms available in the Dark Age (I) — English Man-at-Arms produce +40% faster.",
+   "t": "Call to Arms"
+  },
+  "en-4": {
+   "d": "Capital Town Center fires an extra arrow and Villagers wield short bows when attacking enemy units.",
+   "t": "Defensive Byrig"
+  },
+  "en-5": {
+   "d": "Farms are -50% cheaper to construct.\nResearch the Enclosures technology in the Imperial Age (IV) to allow Villagers to generate +1 Gold every 6 seconds when working Farms.",
+   "t": "Island of Agriculture"
+  },
+  "en-6": {
+   "d": "Naval conditioning increases Dock efficiency, reducing ship construction costs by -10%.",
+   "t": "Shipwrights"
+  },
+  "en-7": {
+   "d": "Farm harvest rates increase within the influence of a Mill by +20/25/30/30% after each age up.",
+   "t": "Influence"
+  },
+  "en-8": {
+   "d": "Scouts and Men-at-Arms can create a Campfire, which increases the sight range of nearby units by +30% and the gather rate of nearby hunters by +10%.",
+   "t": "Kingswood"
+  },
+  "en-9": {
+   "d": "Longbowman: Archer with +2 range and +1 damage that comes with the Defensive Paling ability to stun and damage enemy cavalry.",
+   "t": "Unique Units"
+  },
+  "fr-1": {
+   "d": "Deploy the Royal Knight in the Feudal Age (II) and research powerful unique technologies for cavalry.",
+   "t": "Royal Stallions"
+  },
+  "fr-2": {
+   "d": "Wield a superior economy with -50% cheaper resource drop-offs and -35% cheaper economic technologies.\nTown Center production speed increased per age +15%, +15%, +20%, +25%.",
+   "t": "Mainland Economy"
+  },
+  "fr-3": {
+   "d": "Choose to return Food, Wood, or Gold to Markets with Traders and Trade Ships.\nTrade Ships return +20% more resources.\nTrade Posts are revealed on the minimap at the start of the game.\nDocks provide populations space.",
+   "t": "Trade Economy"
+  },
+  "fr-4": {
+   "d": "Blacksmiths grant melee damage technologies for free after each age up.",
+   "t": "Smithy's Grace"
+  },
+  "fr-5": {
+   "d": "Maintain offensives with -10% cheaper Keeps that reduce the cost of units produced from Archery Ranges and Stables within their influence by -20%.",
+   "t": "Influence"
+  },
+  "fr-6": {
+   "d": "Royal Knight: Heavy Cavalry that gains +3 bonus damage for 5 seconds after completing a charge.\nArbalétrier: Crossbowman with +1 melee armor that can deploy a defensive Pavise to provide +5 ranged armor and +1 weapon range for 30 seconds.\nCannon: Bombard replacement with more damage, mobility and no setup time.\nGalleass: Large war galley that has a long range forward mounted bombard.\nWar Cog: Unique Springald Ship with reduced cost and increased ranged armor.",
+   "t": "Unique Units"
+  },
+  "gol-1": {
+   "d": "The Golden Tent is the only landmark for the Golden Horde, which can be upgraded to advance to the next age and increase the health of the building. An edict can be chosen on the Golden Tent, which changes the influence or aura bonus provided by Fortified Outposts.\nThe Batu Khan and Torguud can be recruited from the Golden Tent.",
+   "t": "Golden Tent"
+  },
+  "gol-2": {
+   "d": "Units are produced in batches of two. Technologies can be researched that improve batch production.",
+   "t": "Hordes"
+  },
+  "gol-3": {
+   "d": "Construct the Stockyard instead of Farms or Pastures for Food — Stockyards have Sheep carcasses which can be gathered and dropped off at the Stockyard directly.",
+   "t": "Stockyard"
+  },
+  "gol-4": {
+   "d": "Fortified Outposts have more health and provide influence or aura bonuses depending on the Edict chosen on the Golden Tent.",
+   "t": "Fortified Outposts"
+  },
+  "gol-5": {
+   "d": "Transport Ship landings are faster and more durable with +50% health and +15% move speed.",
+   "t": "Augmented Transports"
+  },
+  "gol-6": {
+   "d": "Explore the Silk Road with Traders that receive extra resources from trades based on your total number of active Traders.\n• 5+ Traders: +10% Food\n• 10+ Traders: +10% Food, Wood\n• 15+ Traders: +10% Food, Wood, Gold",
+   "t": "Silk Road"
+  },
+  "gol-7": {
+   "d": "Construct Ovoo over Stone outcroppings to harvest Stone without the need for Villagers. The maximum number of Ovoos that can be built is increased +1 per age up.",
+   "t": "Stone Tech and Ovoos"
+  },
+  "gol-8": {
+   "d": "Scouts can deploy the Scouting Falcon ability to keep watch over the surrounding area.",
+   "t": "Scouting Falcon"
+  },
+  "gol-9": {
+   "d": "Golden Horde Khan: Heavy Cavalry that scales in strength on age up. Can fire an arrow that increases the damage taken by enemies in an area. The Khan will also provide an increasing attack damage aura the longer the Khan is in combat.\nTorguud: Heavy Cavalry which can protect the Khan, redirecting any damage taken by the Khan to the Torguud.\nKharash: Weak Light Melee Infantry units that provide armor to nearby allies.\nKipchak: Horse archer that can fire arrows which cause the target hit to bleed.\nTraction Trebuchet: Faster move speed, setup time and attack speed.\nKeshik: Heavy Cavalry available in Feudal Age, regenerates Health after every attack.",
+   "t": "Unique Units"
+  },
+  "hl-1": {
+   "d": "Build Manors to generate passive income in the Feudal Age. Manors act as a drop off building for all resource types and provide +10 population space. Each Manor generates 30 food and 10 wood per minute, and an additional 4 food and 2 wood for each nearby villager.\nIncrease the build limit of Manors with unique technologies.",
+   "t": "Feudalism"
+  },
+  "hl-2": {
+   "d": "Each Town Center spawns 4 sheep upon completion. Villagers gather from sheep +20% faster.",
+   "t": "Wool Industries"
+  },
+  "hl-3": {
+   "d": "Capital Town Center fires an extra arrow and Villagers wield short bows when attacking enemy units.",
+   "t": "Defensive Byrig"
+  },
+  "hl-4": {
+   "d": "Keeps grant 3 free Earl's Guards upon being built. Each Active keep grants +1 damage to Earl's Guards and Demilancers up to a maximum of +4.",
+   "t": "A House Unified"
+  },
+  "hl-5": {
+   "d": "Naval conditioning increases Dock efficiency, reducing ship construction costs by -10%.",
+   "t": "Shipwrights"
+  },
+  "hr-1": {
+   "d": "Demonstrate the might of the empire by placing Relics in Outposts, Towers, and Keeps - increasing their armor by +25%, damage by +25%, range by +25%, and line of sight by +20%.\nRelics placed in Docks increase ship attack speed by +5% per Relic (Max +25%).\nRelics placed in buildings generate +80 Gold per minute.",
+   "t": "Religious Zeal"
+  },
+  "hr-2": {
+   "d": "Infantry move 5% faster in the Dark Age (I) and 10% faster from the Feudal Age (II). Upgrade infantry with impactful technologies and field the Early Man-at-Arms in the Feudal Age (II).",
+   "t": "Army of the Empire"
+  },
+  "hr-3": {
+   "d": "All emplacement technologies are -20% cheaper. Outpost sight range increased by +20%.",
+   "t": "Emplacement Architecture"
+  },
+  "hr-4": {
+   "d": "Villagers carry +40% more resources than other civilizations.",
+   "t": "Pushcarts"
+  },
+  "hr-5": {
+   "d": "Buildings constructed within the influence of a Town Center gain the Emergency Repairs ability which can be activated to repair the building for +150 health every second for 20 seconds.",
+   "t": "Influence"
+  },
+  "hr-6": {
+   "d": "Prelate: Use the Holy Inspiration ability on Villagers increasing their gather rate by +35% for 30 seconds.\nLandsknecht: Light melee infantry with a large two-handed sword capable of doing significant area damage.\nBlack Rider: Powerful armored mounted gunner. Production is limited by the number of constructed Keeps.",
+   "t": "Unique Units"
+  },
+  "ja-1": {
+   "d": "Town Centers can be upgraded into special buildings called the Daimyo Manor, Daimyo Palace, and Shogunate Castle. These buildings provide bonuses to nearby Villagers working Farms by 20%, 40%, 60%, increases the capacity of Samurai Bannerman by +1, +2, +3, and improves its defenses.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Field elite Samurai Bannermen that increase the damage of nearby infantry by +15% and cavalry by +10%. Bannermen Samurai drop their banners when killed, providing the same effect for a duration.",
+   "t": "Hatamoto Samurai"
+  },
+  "ja-3": {
+   "d": "Produce Samurai in the Dark Age (I). Samurai have the Deflective Armor ability which can periodically block melee or ranged attacks.",
+   "t": "Calm of Mind"
+  },
+  "ja-4": {
+   "d": "The Forge is a Gold and Stone drop-off and replaces the Mining Camp and Blacksmith. Additionally, it provides extra melee damage technology in the Dark Age (I). The Farmhouse both provides population and replaces the Mill as a Food drop-off.",
+   "t": "Farmhouse & Forge"
+  },
+  "ja-5": {
+   "d": "Access a more powerful Keep in the Imperial Age (IV) that comes with increased health and Rocket Emplacements for a higher cost. Rockets attack quickly and deal massive damage to single targets.",
+   "t": "Oda's Fortress"
+  },
+  "ja-6": {
+   "d": "When Villagers deposit Gold, 20% extra Stone is also produced and vice versa.",
+   "t": "Silver Mining"
+  },
+  "ja-7": {
+   "d": "Select between Shinto and Buddhism with your choice of Age III Landmark. If choosing Shinto, you unlock the Shinto Priest. If choosing Buddhism, you unlock the Buddhist Monk. These religious units offer unique bonuses.",
+   "t": "Religious Choice"
+  },
+  "ja-8": {
+   "d": "Barracks are 50% cheaper to construct.",
+   "t": "Samurai Districts"
+  },
+  "ja-9": {
+   "d": "Fishing Boats are produced 25% cheaper.",
+   "t": "Fishing Village"
+  },
+  "je-1": {
+   "d": "Jeanne d'Arc is present on the battlefield. A heroic unit who gains experience for completing tasks such as gathering resources, constructing buildings, and participating in combat.\nAfter accruing enough experience, Jeanne may level up to obtain powerful economic and combat abilities.",
+   "t": "Journey of a Hero"
+  },
+  "je-2": {
+   "d": "Deploy the Royal Knight in the Feudal Age (II) and research powerful unique technologies for cavalry.",
+   "t": "Royal Stallions"
+  },
+  "je-3": {
+   "d": "The people work harder under Jeanne d'Arc's leadership. Economic upgrades are 35% cheaper.",
+   "t": "Galvanized Economy"
+  },
+  "je-4": {
+   "d": "Choose to return Food, Wood, or Gold to Markets with Traders and Trade Ships.\nTrade Ships return +20% more resources.\nTrade Posts are revealed on the minimap at the start of the game.\nDocks provide populations space.",
+   "t": "Trade Economy"
+  },
+  "je-5": {
+   "d": "Jeanne d'Arc: A hero unit that starts as a villager, Jeanne begins the Journey of a Hero to gain powerful abilities.\nJeanne's Rider: Fast Cavalry effective at raiding, flanking, and countering Crossbows, becomes available once Jeanne achieves level 3.\nJeanne's Champion: Tough infantry that excels at countering Spearmen, becomes available once Jeanne achieves level 3.\nRoyal Knight: Heavy Cavalry that gains +3 bonus damage for 5 seconds after completing a charge.\nArbalétrier: Crossbowman with +1 melee armor that can deploy a defensive Pavise to provide +5 ranged armor and +1 weapon range for 30 seconds.\nCannon: Bombard replacement with more damage, mobility and no setup time.\nGalleass: Large war galley that has a long range forward mounted bombard.\nWar Cog: Unique Springald Ship with reduced cost and increased pierce armor.",
+   "t": "Unique Units"
+  },
+  "jin-1": {
+   "d": "Select from 3 locations upon completing a Landmark to build Grasslands, which gradually spawn up to 5 Horses in their field. Horses increase the health of all Melee Cavalry units by +2 and all Ranged Cavalry by +1, or can be used by Stables within the Influence of the Grasslands to quickly train any mounted unit. Grasslands produce a new Horse every 90/60/45 seconds in the Feudal/Castle/Imperial Ages.",
+   "t": "Grasslands"
+  },
+  "jin-2": {
+   "d": "Nomadic ancestry allows up to 20 Mounted Villagers which gather, construct, and move significantly faster but cost more. Establish Tributary States with Trade Posts to increase the maximum build limit by +3.",
+   "t": "Jurchen Legacy"
+  },
+  "jin-3": {
+   "d": "Upgrade defensive structures with the Meng'an Mouke Emplacements, which send out defenders to protect nearby lands. Emplacements also slowly produce defenders to replenish losses.",
+   "t": "Meng'an Mouke"
+  },
+  "jin-4": {
+   "d": "Train up to 2 Emissaries which come equipped with two powerful abilities.\nEstablish Tributaries on Neutral Trade Settlements to gain a loyal ally, which will gather food on your behalf, increases Mounted Villager build limit by +3, and increases your traders income by +15%.\nCast Bribe on groups of enemy units, turning foes into neutral fighters who will combat anything in their way.",
+   "t": "Emissaries"
+  },
+  "jin-5": {
+   "d": "Build the Machine Workshop in Feudal Age granting early access to Bed Crossbows, a springald replacement which fires two projectiles into enemy formations. Bed Crossbow Emplacements replace Springald Emplacements at all defensive structures.",
+   "t": "Siege Expertise"
+  },
+  "kt-1": {
+   "d": "Age Up at the Town Center by establishing one of three unique Commanderies. Each Commanderie permanently unlocks a unique unit and bonus.",
+   "t": "Establish Commanderies"
+  },
+  "kt-2": {
+   "d": "Fortresses replace Keeps and are available in the Feudal Age.\nRanged units positioned near a Fortress have +15% increased attack range, and Stone Walls placed within the influence of a Fortress or the Templar Headquarters have +25% increased health and gain a default arrow.\nFortresses behave as Landmarks but can be fully destroyed.",
+   "t": "Frankish Defensive Schemes"
+  },
+  "kt-3": {
+   "d": "The Knights Templar cannot train Traders, instead they generate gold from successful pilgrimages. Upon reaching the Feudal Age, the Knights Templar may offer Safe Passage for Pilgrims to travel to a Sacred Site.\nEvery 60 seconds, a group of Pilgrims will travel from the Templar Headquarters to the selected Sacred Site, generating gold upon arrival based on the distance traveled. The size of the group is increased by 1 for each active Fortress up to a maximum of 10.\nSacred Sites and Relics are revealed at the start of the game.",
+   "t": "Pilgrimage"
+  },
+  "kt-4": {
+   "d": "Build Harbors instead of Docks, which are more expensive but have increased health, a stronger emplacement, more garrison space for fishing ships, and increase the health of nearby ships.",
+   "t": "Coastal Harbors"
+  },
+  "kt-5": {
+   "d": "Villagers automatically deposit wood without a Lumber Camp.\nWood is gathered +20% faster in each Age and 20% of the wood gathered is produced as additional food.",
+   "t": "Landscape Preservation"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Siege Experts"
+  },
+  "kt-7": {
+   "d": "Templar Brother: Knight replacement. More expensive than a regular Knight, but has additional health and damage.\nFeudal Age\nKnight Hospitaller Commanderie - Hospitaller Knight: Heavy Melee Infantry that can heal nearby friendly units.\nKingdom of France Commanderie - Chevalier Confrere: Heavy Cavalry that is cheaper than a regular Knight. Gains additional health for each nearby Heavy Cavalry unit.\nPrincipality of Antioch Commanderie - Serjeant: Heavy Infantry with high melee armor. Throws axes which deal melee damage from range.\nCastle Age\nAngevin Empire Commanderie - Heavy Spearman: Armored Spearman that is stronger around Fortresses.\nRepublic of Genoa Commanderie - Genoese Crossbowman: Expensive Crossbowman that deals additional damage to melee infantry.\nKingdom of Castile Commanderie - Genitour: Mounted Javelineer that excels against ranged units.\nImperial Age\nKingdom of Poland Commanderie - Szlachta Cavalry: Elite Cavalry with exceptional ranged armor. Slows the attacks of enemies it damages and deals additional damage to light infantry.\nTeutonic Order Commanderie - Teutonic Knight: Absurdly Powerful Heavy Infantry that gains power for each enemy felled in combat. Reduces the armor of nearby enemies.\nRepublic of Venice Commanderie - Condottiero: Fast infantry that costs only gold. Strong against Gunpowder units.\nVenetian Galley: Large oared vessel with a long range forward mounted Trebuchet.\nVenetian Trader: Expensive but fast moving trader. Max Build limit of 5.",
+   "t": "Unique Units"
+  },
+  "ma-1": {
+   "d": "Wield a superior Gold economy and construct the Pit Mine over top of Gold Veins in the Dark Age (I) to generate Gold without depleting it. Villagers can mine Gold while the Pit Mine is active.\nIf the Gold Vein is completely exhausted, the Pit Mine will continue to extract Gold from the deposit.",
+   "t": "Pit Mines"
+  },
+  "ma-2": {
+   "d": "Each House and Mining Camp constructed within the influence of Pit Mines increases its Gold generation.\nTown Centers cost gold instead of stone to construct.",
+   "t": "Influence - Mining Communities"
+  },
+  "ma-3": {
+   "d": "Produce Cattle from Mills in the Dark Age (I). Malian Villagers harvest Food from Cattle faster than other civilizations or they can be garrisoned in a Cattle Ranch for Food over time.",
+   "t": "Cattle & Ranches"
+  },
+  "ma-4": {
+   "d": "Musofadi Warrior and Musofadi Gunner unique units can use the Activate Stealth ability to sneak around and create ambush opportunities.",
+   "t": "Musofadi Pathfinder"
+  },
+  "ma-5": {
+   "d": "Veteran unit technologies unlocked in the Castle Age (III) are researched at half the time and cost.",
+   "t": "Farari's Knowledge"
+  },
+  "ma-6": {
+   "d": "Traders and Trade Ships that pass by Toll Outposts instantly provide bonus resources based on the current trade targets. Does not generate any bonus tax if a Toll Outpost is built within range of another one.",
+   "t": "Toll Outposts"
+  },
+  "ma-7": {
+   "d": "Gold collected from completed Trader routes lower the research time of future technologies.",
+   "t": "Manuscript Trade"
+  },
+  "ma-8": {
+   "d": "Fishing Boats drop off 10% of their Food as Gold.",
+   "t": "Fish Processing"
+  },
+  "ma-9": {
+   "d": "Movement speed of all ships increased when near their Docks.\nTransport Ships attack with javelins for each unit garrisoned.",
+   "t": "Landing Parties"
+  },
+  "mac-1": {
+   "d": "Villagers discover abundant galena deposits among Gold Veins and Stone Outcroppings and extract Silver as a unique resource when mining from them.\nVillagers extract Silver equal to 40% of Gold or Stone mined.",
+   "t": "Galena Gathering"
+  },
+  "mac-2": {
+   "d": "Varangian Arsenals generate influence for Mining Camps and Town Centers to begin processing Silver over time. The amount of Silver processed is based on the total amount of Silver deposited by Villagers.",
+   "t": "Influence - Silver Minting"
+  },
+  "mac-3": {
+   "d": "Research unique military technologies at the Varangian Arsenal for Silver. Replaces the Blacksmith and University. Macedonian Dynasty can exceed three tiers of military upgrades per category.",
+   "t": "Varangian Smithing"
+  },
+  "mac-4": {
+   "d": "Fortify the empire with Varangian Strongholds that can produce all Varangian units and defend with arrows.",
+   "t": "Strongholds"
+  },
+  "mac-5": {
+   "d": "Choose reinforcements at the Varangian Warcamp. Once enough warriors fall in battle, free Varangian warriors arrive at the warcamp to bolster missing ranks.\nIf adjacent to water, boats can be selected as reinforcements.",
+   "t": "Warcamp"
+  },
+  "mac-6": {
+   "d": "Carve Runestones to honor past victories in combat. After enough enemies have fallen to Varangians, a Runestone may be created that inspires nearby Varangians with combat bonuses in an area.",
+   "t": "Varangian Runestones"
+  },
+  "mac-7": {
+   "d": "Cheirosiphons along with upgraded Dromons, Springalds, and Trebuchets fling Greek Fire with their attacks, engulfing the area in flames for damage over time.",
+   "t": "Greek Fire"
+  },
+  "mac-8": {
+   "d": "Outposts and Keeps can be upgraded with Mangonel Emplacements. Stone Wall Towers come equipped with Mangonel Emplacements instead of Springalds.",
+   "t": "Mangonel Emplacements"
+  },
+  "mac-9": {
+   "d": "Atgeirmaðr: Spearman replacement. Light melee infantry with a passive ability that increases their attack speed when Varangian units are nearby.\nBogmaðr: Archer replacement. Light ranged infantry with an ability to bypass armor at the cost of move speed. \nEarly Varangian Guard: Man-at-Arms replacement. Use the Berserking ability to increase damage at the cost of armor. Can construct Transport Ships and increase armor of transports when garrisoned.\nRiddari: Knight replacement. Heavy cavalry with an ability to throw axes from range for a period of time.\nCheirosiphon: A ram equipped with a short ranged Greek Fire attack.\nDromon: Springald Ship replacement. Equipped with Greek Fire.",
+   "t": "Unique Units"
+  },
+  "mo-1": {
+   "d": "All buildings can be packed up and redeployed to a new location.\nForgo the need to build Houses and begin the game with maximum Population.\nRespond to enemy movements quickly with a network of Outposts which provide +15% move speed to nearby cavalry and Traders.",
+   "t": "Great Dominion"
+  },
+  "mo-2": {
+   "d": "Field the mighty Khan in the Dark Age (I) to provide powerful bonuses to all nearby military units with Signal Arrows.\nKhans and Scouts can deploy the Scouting Falcon ability to keep watch over the surrounding area.",
+   "t": "Khanate"
+  },
+  "mo-3": {
+   "d": "Construct Stables as early as the Dark Age and field Horsemen +25% faster.",
+   "t": "Expert Horsemen"
+  },
+  "mo-4": {
+   "d": "Construct Pastures instead of Farms to raise Sheep for Food — Pastures produce Sheep quicker when within the influence of an Ovoo.",
+   "t": "Nomadic Harvesters"
+  },
+  "mo-5": {
+   "d": "Plunder enemy buildings for +25 Food and Gold when ignited or destroyed under construction.",
+   "t": "Raid Bounty"
+  },
+  "mo-6": {
+   "d": "Transport Ship landings are faster and more durable with +50% health and +15% move speed.",
+   "t": "Augmented Transports"
+  },
+  "mo-7": {
+   "d": "Explore the Silk Road with Traders that receive extra resources from trades based on your total number of active Traders.\n• 5+ Traders: +10% Food\n• 10+ Traders: +10% Food, Wood\n• 15+ Traders: +10% Food, Wood, Gold",
+   "t": "Silk Road"
+  },
+  "mo-8": {
+   "d": "Construct the Ovoo over Stone outcroppings to generate influence and harvest Stone without the need for Villagers. Ovoos harvest +70, 100, 130, 160 Stone per minute after each age up.\nBuildings within the influence of an Ovoo are able to double produce units or research improved versions of technologies using Stone.",
+   "t": "Influence"
+  },
+  "mo-9": {
+   "d": "Khan: Horse archer that scales in strength and unlocks the Signal Arrow abilities after each age up.\n• Maneuver Arrow: Move speed increased +33%.\n• Attack Speed Arrow: Attack speed increased +50%.\n• Armor Arrow: Armor increased +2.\nMangudai: Horse archer that can fire while moving in all directions.\nTraction Trebuchet: Faster move speed, setup time and attack speed.\nKeshik: Heavy Cavalry available in Feudal Age, regenerates Health after every attack.",
+   "t": "Unique Units"
+  },
+  "od-1": {
+   "d": "Villagers gather 28% quicker, construct and repair buildings 20% faster, but cost 20% more Food to produce.",
+   "t": "Efficient Villagers"
+  },
+  "od-2": {
+   "d": "Demonstrate the might of the empire by placing Relics in Outposts, Towers, and Keeps - increasing their armor by +25%, damage by +25%, range by +25%, and line of sight by +20%.\nRelics placed in Docks increase ship attack speed by +5% per Relic (Max +25%).\nRelics placed in buildings generate +80 Gold per minute.",
+   "t": "Religious Zeal"
+  },
+  "od-3": {
+   "d": "Research technologies like Heavy Torches, Scale Armor, and War Horses to further strengthen the might of the Order.",
+   "t": "Elite Equipment"
+  },
+  "od-4": {
+   "d": "All emplacement technologies are -20% cheaper. Outpost sight range increased by +20%.",
+   "t": "Emplacement Architecture"
+  },
+  "od-5": {
+   "d": "Villagers carry +40% more resources than other civilizations.",
+   "t": "Pushcarts"
+  },
+  "od-6": {
+   "d": "Buildings constructed within the influence of a Town Center gain the Emergency Repairs ability which can be activated to repair the building for +150 health every second for 20 seconds.",
+   "t": "Influence"
+  },
+  "od-7": {
+   "d": "The elite infantry and cavalry units of the Order - such as the Gilded Man-at-Arms, the Gilded Knight and others - have nearly twice the health of regular units and deal significantly more damage. However, they are much more costly to train and take up double the population space.",
+   "t": "Unique Units"
+  },
+  "ot-1": {
+   "d": "Construct the Military School building that can produce a specific type of unit continuously at no cost, however they are produced at a slower rate.",
+   "t": "Military School Training"
+  },
+  "ot-2": {
+   "d": "Training units and advancing through the ages will grant experience towards Vizier Points, the higher cost of the action, the more experience earned. Gain up to five Vizier Points and spend them to unlock powerful unique Ottoman bonuses.",
+   "t": "Imperial Council"
+  },
+  "ot-3": {
+   "d": "Train, upgrade, and assemble an army with cheaper military and technology buildings.",
+   "t": "Military Inducement"
+  },
+  "ot-4": {
+   "d": "Movement speed of Trade Ships, Fishing Boats, and Transport Ships increased.",
+   "t": "Shipping Routes"
+  },
+  "ot-5": {
+   "d": "Military production buildings constructed within the influence of a Blacksmith or University gain increased production speed with each age up.",
+   "t": "Influence"
+  },
+  "ot-6": {
+   "d": "Sipahi: Horseman replacement. Activate the Fortitude ability to attack faster but receive more damage from melee weapons.\nMehter: Mounted war drummer that provides military enhancements to nearby units when toggling the War Drums ability.\n• Attack Drums: Increased attack speed.\n• Melee Defense Drums: Increased melee armor.\n• Ranged Defense Drums: Increased ranged armor.\nJanissary: Powerful handcannoneer that can repair siege engines and deal bonus damage to cavalry.\nGrand Galley: Large war galley that can convert into a floating Military School.\nGreat Bombard: Largest gunpowder siege engine that can be fielded. Has long range and area damage attack.\nAkinji: Long-ranged cavalry which fires two arrows in quick succession. Must be unlocked through the Imperial Council.",
+   "t": "Unique Units"
+  },
+  "ru-1": {
+   "d": "Fortify the countryside with Wooden Fortresses that replace Outposts — comes with +100% health and +3 garrison slots.\nConstruct the Fortified Palisade Wall — comes with +100% health and faster build time.",
+   "t": "Woodland Federation"
+  },
+  "ru-2": {
+   "d": "Live off the land with Scouts trained from Hunting Cabins. Hunting Cabins provide the benefits of a standard Mill but with the ability to see into Stealth Forests and generate Gold based on the number of nearby trees.",
+   "t": "Hunter Princes"
+  },
+  "ru-3": {
+   "d": "Field the Early Knight in the Feudal Age (II).",
+   "t": "Druzhina Retinue"
+  },
+  "ru-4": {
+   "d": "Lodya ship can convert into any type of ship for a cost.\nLodya Fishing Ships process Food directly on the vessel — forgoing the need to return to Docks to drop off Food.",
+   "t": "Lodya Reconstitution"
+  },
+  "ru-5": {
+   "d": "Gathering from animals earns a bounty of Gold and reaching certain thresholds of total bounty provides economic bonuses to Villagers and Hunting Cabins.\n100 Bounty\n• +5% Food gather rate\n• Hunting Cabins generate 10% more Gold\n400 Bounty\n• +10% Food gather rate\n• Hunting Cabins generate 25% more Gold\n1000 Bounty\n• +15% Food gather rate\n• Hunting Cabins generate 40% more Gold",
+   "t": "Bounty Rewards"
+  },
+  "ru-6": {
+   "d": "Oversee clear-cutting initiatives — Villagers drop off +20% more Wood when Lumber Camps and Town Centers are within a Wooden Fortress's influence.",
+   "t": "Influence"
+  },
+  "ru-7": {
+   "d": "Warrior Monk: Religious light cavalry unit that inspires nearby units when in combat, providing +1 armor and +2 damage.\nHorse Archer: Light ranged cavalry with high mobility and damage.\nStreltsy: Handcannoneer which gets stronger when stationary and has a high damage melee attack.\nLodya ships: Can be converted into any type of ship.",
+   "t": "Unique Units"
+  },
+  "sen-1": {
+   "d": "Daimyo Estates are unique buildings that can be dedicated to one of three clans. Hojo clan which improves melee infantry, Oda clan which improves ranged infantry, or Takeda clan which improves cavalry. The Daimyo Estate also has an influence that increases production speed of military buildings.",
+   "t": "Daimyo Estate"
+  },
+  "sen-2": {
+   "d": "The Matsuri is a unique early Market that can produce Yatai. The Yatai is a unique worker unit that will slowly generate food from Food sources within 2 tiles without killing or consuming them. If the Yatai collects enough Food it will send a Food Trader back to the Matsuri which improves an aura that increases the gather rate of nearby villagers.",
+   "t": "Yatai and Matsuri"
+  },
+  "sen-3": {
+   "d": "The Forge is a Gold and Stone drop-off and replaces the Mining Camp and Blacksmith. Additionally, it provides extra melee damage technology in the Dark Age (I). The Farmhouse both provides population and replaces the Mill as a Food drop-off.",
+   "t": "Farmhouse & Forge"
+  },
+  "sen-4": {
+   "d": "Access a more powerful Keep in the Imperial Age (IV) that comes with increased health and Rocket Emplacements for a higher cost. Rockets attack quickly and deal massive damage to single targets.",
+   "t": "Oda's Fortress"
+  },
+  "sen-5": {
+   "d": "When Villagers deposit Gold, 20% extra Stone is also produced and vice versa.",
+   "t": "Silver Mining"
+  },
+  "sen-6": {
+   "d": "Fishing Boats are produced 25% cheaper.",
+   "t": "Fishing Village"
+  },
+  "sen-7": {
+   "d": "The location of all Deer and Boar are revealed on the map.",
+   "t": "Deer and Boar Reveal"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "Working Companions"
+  },
+  "tug-2": {
+   "d": "Seeking knowledge and wisdom the Tughlaq Dynasty funds researching technologies with more resources in favor of near instant research times.",
+   "t": "Erudition"
+  },
+  "tug-3": {
+   "d": "Strike fear into your enemies with the Tughlaqabad Fort. Available from the Feudal Age (II), this defensive building can be upgraded to increase its damage output, health, and unlocks your choice in a Governor.",
+   "t": "Legendary Forts"
+  },
+  "tug-4": {
+   "d": "Choose between one of any six Governors at the Tughlaqabad Fort to help lead the Tughlaq Dynasty to new heights. Governor strength increases with each Tughlaqabad Fort improvement upgrade. Governors provide economy, tempo, military, research, and religious bonuses. \nOne Governor may be active per fort.",
+   "t": "Governor Support"
+  },
+  "tug-5": {
+   "d": "Villagers gather Berry Bushes 30% faster but cannot gather from Boar.\nVillagers carry +3 Food from Berry Bushes.",
+   "t": "Basketry"
+  },
+  "tug-6": {
+   "d": "Establish fortified settlements using infantry units that can build Palisade Walls.",
+   "t": "Frontier Fortifications"
+  },
+  "tug-7": {
+   "d": "Fishing Ships can defend themselves with a ranged attack and have 50% additional health.",
+   "t": "Defensive Deckhands"
+  },
+  "tug-8": {
+   "d": "Raiding Elephant: Fast elephant effective at raiding, flanking, and countering ranged units. Can trample to bypass any unit to deal damage in an area.\nHealer Elephant: High health and armored melee elephant mounted with two Imams that can heal units individually. Deals more damage for each nearby melee infantry.\nWar Elephant: Heavy melee cavalry mounted with a Spearman that has high health and damage with a strong siege attack.\nBallista Elephant: Ranged elephant mounted with a ballista thats effective against melee units and can pierce multiple targets.",
+   "t": "Unique Units"
+  },
+  "zx-1": {
+   "d": "Start your journey in the Tang Dynasty - Landmark costs are reduced by -15% and the Village is unlocked.\nConstruct both Landmarks in an Age to start Dynasties with special bonuses, unique buildings, and units.\n• Song: Wood cost of Economy and Population buildings is discounted by -30% - unlocks construction of the Granary.\n• Yuan: 10% discount on all units - unlocks construction of the Pagoda.\n• Ming: Unique Units deal +20% damage.",
+   "t": "Great Dynasties"
+  },
+  "zx-2": {
+   "d": "Units trained, technologies researched, and resources dropped off generate tax (Gold) that can be collected by Imperial Officials. Unique administrative technologies from the Mount Lu Academy and Zhu Xi's Library vastly improve Imperial Officials.",
+   "t": "Taxes"
+  },
+  "zx-3": {
+   "d": "Access the Zhuge Nu and the Grenadier without establishing dynasties. Landmarks can unlock powerful Shaolin Monks, Yuan Raiders, and Imperial Guards. Early Palace Guards can be trained in the Feudal Age.",
+   "t": "Dynasty Units"
+  },
+  "zx-4": {
+   "d": "Begin the game with Chemistry technology granted for free - defensive buildings use Handcannon Slits over Defensive Arrowslits.",
+   "t": "Masters of Gunpowder"
+  },
+  "zx-5": {
+   "d": "Villagers construct defenses +50% faster and all other buildings +100% faster. Docks work +10% faster.",
+   "t": "Rapid Fabrications"
+  },
+  "zx-6": {
+   "d": "Train Early Palace Guards in the Feudal Age (II) to protect the emperor.",
+   "t": "Protect the Palace"
+  },
+  "zx-7": {
+   "d": "Imperial Official: Use the Supervise ability to boost the production speed of research and military buildings by +150% - supervising economic buildings increases the amount of resources dropped off by Villagers by +20%.\nZhuge Nu: Archer replacement. Light ranged infantry with a rapid burst attack effective vs. light units.\nPalace Guard: Man-at-Arms replacement. Heavy melee infantry that exchanges armor for move speed.\nNest of Bees: Mangonel replacement. Siege engine that fires a barrage of rockets, doing area of effect damage.\nGrenadier: Light ranged gunpowder infantry that throws grenades dealing area of effect damage.",
+   "t": "Unique Units"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": false
+}

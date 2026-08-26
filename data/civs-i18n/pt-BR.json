@@ -1,0 +1,2306 @@
+{
+ "civDesc": {
+  "ab": "A Dinastia Abássida busca uma próspera Era de Ouro ao concentrar estruturas em torno de sua Casa da Sabedoria, o que lhes permite obter vantagens econômicas significativas. A Casa da Sabedoria também impulsiona o progresso entre as Eras e concede acesso a tecnologia avançada. As unidades a camelo abássidas são especialistas em combater a cavalaria inimiga.",
+  "ay": "Na confluência dos continentes, onde o comércio e a ciência se encontram, e onde impérios se enfrentam, os aiúbidas usam a busca pelo conhecimento para ficar em vantagem. A Casa da Sabedoria é o ponto focal dessa combinação de urbanização e ciência, desbloqueando poderosos bônus da Era de Ouro e avançando através das eras. Os aiúbidas se concentram em unidades versáteis para obter uma vantagem tática no campo de batalha.",
+  "by": "Os bizantinos constroem extensas redes de aquedutos e cisternas que dão vida. Aproveite poderosas habilidades únicas e contrate mercenários com Azeite requintado. Os camponeses trabalham incansavelmente para fabricar Azeite para o império.",
+  "ch": "Os chineses podem mudar seu foco com o passar das eras, mobilizando muitas unidades exclusivas e construindo rapidamente. Os inimigos precisam se adaptar continuamente se quiserem acompanhá-los.",
+  "de": "O Sultanato de Déli está sempre um passo à frente de seus inimigos com sua grande rede de estudiosos. Quando totalmente desenvolvidos, eles mobilizam o intimidante Elefante de Guerra para pisotear quem estiver em seu caminho.",
+  "en": "Uma infantaria novata excepcional dá força aos ingleses, com o apoio da produção confiável de Comida nos campos.",
+  "fr": "Os franceses mobilizam unidades poderosas de cavalaria e podem aumentar a produção em posições fortificadas. Os inimigos devem estar preparados para suportar as cargas de Cavaleiros Reais poderosos e outras unidades de armadura.",
+  "gol": "Liderando a Horda Dourada para o oeste, Batu Khan expandiu o Império Mongol até o coração da Europa Oriental. A grande Tenda Dourada do Khan era o centro da rede de controle, com postos avançados que lhes permitiam manter um vasto território. Embora ainda fossem invasores poderosos, a Horda Dourada sacrificou a mobilidade de seus acampamentos para colocar em campo forças maiores necessárias para controlar seus estados vassalos.",
+  "hl": "A Dinastia de Lencastre surge como uma poderosa ramificação da realeza inglesa. Palacetes formam a base da economia, sustentados por práticas sustentáveis. O poder militar de Lencastre destaca-se por sua vantagem tecnológica e táticas superiores no campo de batalha. Desmantele as formações inimigas com tropas de choque poderosas e, em seguida, elimine os sobreviventes com uma infantaria de longo alcance superior.",
+  "hr": "Os Prelados melhoram a economia do Sacro Império Romano, enquanto unidades poderosas de infantaria formam o núcleo de sua força militar. Os inimigos devem enfrentar uma força capaz de se recuperar rapidamente de ataques e lançar contra-ataques fortes.",
+  "ja": "Governando as terras japonesas, o Daimyo melhora a agricultura e emprega Samurais para defender seu território. A Forja única funciona incansavelmente para melhorar suas lâminas e conseguir uma vantagem em batalha. Os Porta-Estandartes Samurais ferozes lideram seu exército de infantaria e cavalaria à vitória.",
+  "je": "Uma fagulha de esperança para o povo francês, Joana d'Arc leva para o campo de batalha e inspira coragem aos seus seguidores. Começando como uma humilde aldeã, Joana começa a Jornada de um Heroína na Idade das Trevas. A experiência transforma Joana em uma líder poderosa, ganhando acesso a companheiros confiáveis e habilidades poderosas que moldam o império que ela estava destinada a criar.",
+  "jin": "A Dinastia Jin emerge como uma potência militar formidável no norte da China. Os Aldeões de Montaria se movem rapidamente para reivindicar novos recursos e terras. Aproveite oportunidades e reúna exércitos de cavalaria a qualquer momento para derrotar inimigos e esmagar a oposição. Suborne inimigos fracos para que desertem e estabeleça Estados Tributários lucrativos.",
+  "kt": "Criada para proteger os humildes e fatigados, os Cavaleiros Templários estabeleceram a Comenda por toda a Europa a fim de convocar seus aliados. Com um impressionante exército de tropas pesadas, os Templários lideram o avanço na batalha com disciplina e coragem. Fortalezas pontilham a paisagem cuidadosamente cultivada, oferecendo posições defensivas estratégicas e um refúgio seguro para os peregrinos que protegem.",
+  "ma": "A economia maliana está repleta de opções de produção de ouro e comida. Ao reivindicar depósitos de ouro para suas Minas a Céu Aberto, eles aproveitam ao máximo esse crescimento para produzir unidades de infantaria exclusivas que atacam furtivamente e lançam azagaias contra inimigos.",
+  "mac": "O imperador Basílio II empregou Varangianos para se defender de revoltas fomentadas por nobres bizantinos. Chegando em navios vindos do norte, esses guerreiros nascidos em terras estrangeiras não eram influenciados por políticas e culturas bizantinas, criando uma divisão de choque de elite que protegia imperadores por séculos. A Dinastia Macedônia cunha Prata como um recurso exclusivo para gastar no Arsenal Varangiano, afiando suas lâminas e aprimorando suas habilidades enquanto protegem o Imperador.",
+  "mo": "Mestres da mobilidade e das guerras a cavalo, os mongóis podem realocar facilmente seus acampamentos, além de obter benefícios econômicos ao se fixar perto de Afloramentos de Pedra e saquear construções inimigas. Os inimigos devem lidar com ataques de cavalaria desde os momentos iniciais do jogo.",
+  "od": "A Ordem do Dragão é formada por uma opulenta elite selecionada a dedo para esmagar impérios hostis. Ao investir uma grande quantidade de recursos no treinamento de poucos guerreiros excepcionais, a Ordem obtém sucesso em criar um exército de elite como nenhum outro.",
+  "ot": "O Exército Otomano pode ser expandido e dominar o campo de batalha com o apoio das Escolas Militares, que são capazes de produzir unidades continuamente para inchar as fileiras de suas formações. Para prestar auxílio a essas formações, os tambores de guerra Mehter sinalizam às tropas altamente treinadas o momento certo de ganhar vantagem de acordo com as circunstâncias.",
+  "ru": "Os rus obtêm grande benefício da região rural, sendo que coletam mais facilmente recursos da caça e da floresta e são capazes de conceber fortes unidades de combate. Os inimigos enfrentarão fortificações resistentes desde o começo do jogo e uma economia diversificada, difícil de abalar.",
+  "sen": "O Sengoku Jidai foi uma era de alianças inconstantes e guerras incessantes. Três clãs rivais podem ser apoiados para obter vantagens poderosas para sua infantaria de longo alcance, infantaria corpo a corpo ou cavalaria. Mesmo no meio da guerra, havia tempo para celebração; o festival Matsuri é o coração do comércio e da troca, proporcionando bônus poderosos à sua economia.",
+  "tug": "O reinado de Ghiyasuddin Tughlaq como Sultão estabeleceu a estrutura para o avanço nas artes, arquitetura e expansão da dinastia Tughlaq. Depois de comandar a construção do Forte Tughlaqabad, futuros sultões, amirões e governadores expandiram sua presença militar por meio da força e da demonstração de poder. A Dinastia Tughlaq exige a construção rápida de fortes adicionais, enquanto os governadores supervisionam elefantes e aldeões que trabalham duro.",
+  "zx": "Os ensinamentos do filósofo Zhu Xi remodelam a civilização chinesa. Com o Legado de Zhu Xi, os chineses têm uma administração sofisticada com Funcionários do Império superiores e tecnologias avançadas. Os abundantes tesouros ajudam a estabelecer dinastias poderosas e pesquisar uma variedade de tecnologias exclusivas. Recrute Guardas do Palácio, Zhuge Nus e Granadeiros já no começo para proteger o Império."
+ },
+ "techs": {
+  "jeanne_d_arc_journey_of_a_hero_archer_fre_ha_01": {
+   "d": "Joana escolhe o caminho do Arqueiro, carregando um arco para enfrentar os inimigos de longe.\nGanha a habilidade Flecha Divina, que causa dano alto a um único alvo.",
+   "n": "Caminho do Arqueiro"
+  },
+  "jeanne_d_arc_journey_of_a_hero_commander_monarch_fre_ha_01": {
+   "d": "A habilidade de Chamado para Reunir de Joana agora chamará 7 dos companheiros escolhidos para o Campo de Batalha.\nGanha a habilidade suprema Força do Céu, que fortalece muito uma única unidade.",
+   "n": "Comandante de Campo"
+  },
+  "jeanne_d_arc_journey_of_a_hero_crossbow_companions_fre_ha_01": {
+   "d": "Os Cavaleiros de Joana ficam disponíveis para treinar em Estábulos.\nGanha ''Cavaleiros, Preparem-se!'', que mobiliza 3 dos Cavaleiros ao lado dela.",
+   "n": "Companheiros Cavaleiros"
+  },
+  "jeanne_d_arc_journey_of_a_hero_gunpowder_monarch_fre_ha_01": {
+   "d": "A habilidade de Chamado de Joana para Reunir agora chamará 3 dos companheiros escolhidos e um poderoso Canhão para o Campo de Batalha.\nGanha a habilidade suprema Inspiração Valorosa, que aumenta muito a velocidade de ataque dos aliados próximos.",
+   "n": "Monarca da Pólvora"
+  },
+  "jeanne_d_arc_journey_of_a_hero_manatarms_companions_fre_ha_01": {
+   "d": "Os Campeões de Joana ficam disponíveis para treinar em Quartéis.\nGanha ''Às Armas, Homens!'', que mobiliza 3 dos Campeões ao lado dela.",
+   "n": "Companheiros Campeões"
+  },
+  "jeanne_d_arc_journey_of_a_hero_womanatarms_fre_ha_01": {
+   "d": "Joana escolhe o caminho do Guerreiro, carregando uma espada de duas mãos para enfrentar inimigos em combate próximo.\nGanha a habilidade Ira Sagrada, que causa dano em uma área de efeito em torno de Joana.",
+   "n": "Caminho do Guerreiro"
+  },
+  "merc_contract_01_tower_alt_byz": {
+   "d": "Desbloqueia a produção de mercenários Keshig, Ghulam e Elefante com Torre.\nKeshig: Era Feudal\nGhulam: contrato veterano\nElefante com Torre: contrato de elite",
+   "n": "Contrato de Mercenário Oriental"
+  },
+  "merc_contract_02_tower_alt_byz": {
+   "d": "Desbloqueia a produção de mercenários Arqueiro de Arco Longo, Lansquenete e Atiradores.\nArqueiro de Arco Longo: Era Feudal\nLansquenete: contrato veterano\nAtiradores: contrato de elite",
+   "n": "Contrato de Mercenário Ocidental"
+  },
+  "merc_contract_03_tower_alt_byz": {
+   "d": "Desbloqueia a produção de mercenários Lançadores de Azagaia, Cameleiros e Granadeiro.\nLançadores de Azagaia: Era Feudal\nCameleiro: contrato veterano\nGranadeiro: contrato de elite",
+   "n": "Contrato de Mercenário da Rota da Seda"
+  },
+  "upgrade_add_culture_wing": {
+   "d": "As seguintes tecnologias culturais tornam-se disponíveis:\n• Preservação do Conhecimento (Era II)\n• Centros Médicos (Era III)\n• Bibliotecas Públicas (Era IV)",
+   "n": "Ala Cultural"
+  },
+  "upgrade_add_culture_wing_castle": {
+   "d": "As seguintes tecnologias culturais tornam-se disponíveis:\n• Preservação do Conhecimento (Era II)\n• Centros Médicos (Era III)\n• Bibliotecas Públicas (Era IV)",
+   "n": "Ala Cultural"
+  },
+  "upgrade_add_culture_wing_castle_a_abb_ha_01": {
+   "d": "Constrói a Ala Cultural.\nConstrua esta ala para avançar para a próxima Era em 20% menos tempo e com 1350 menos custos.",
+   "n": "Ala Cultural: Avanço"
+  },
+  "upgrade_add_culture_wing_castle_b_abb_ha_01": {
+   "d": "Constrói a Ala da Cultura.\nApós a conclusão, concede 4 Dervixes, melhora a cura da unidade em +50% e mantém ativo permanentemente.",
+   "n": "Ala Cultural: Logística"
+  },
+  "upgrade_add_culture_wing_dark_a_abb_ha_01": {
+   "d": "Constrói a Ala Cultural.\nConstrua esta ala para avançar para a próxima Era em 20% menos tempo e com 250 menos custos.",
+   "n": "Ala Cultural: Avanço"
+  },
+  "upgrade_add_culture_wing_dark_b_abb_ha_01": {
+   "d": "Constrói a Ala da Cultura.\nApós a conclusão, concede 2 Dervixes, e mantém a aura da cura ativa permanentemente.",
+   "n": "Ala Cultural: Logística"
+  },
+  "upgrade_add_culture_wing_feudal": {
+   "d": "As seguintes tecnologias culturais tornam-se disponíveis:\n• Preservação do Conhecimento (Era II)\n• Centros Médicos (Era III)\n• Bibliotecas Públicas (Era IV)",
+   "n": "Ala Cultural"
+  },
+  "upgrade_add_culture_wing_feudal_a_abb_ha_01": {
+   "d": "Constrói a Ala Cultural.\nConstrua esta ala para avançar para a próxima Era em 20% menos tempo e com 400 menos custos.",
+   "n": "Ala Cultural: Avanço"
+  },
+  "upgrade_add_culture_wing_feudal_b_abb_ha_01": {
+   "d": "Constrói a Ala da Cultura.\nApós a conclusão, concede 3 Dervixes, melhora a cura da unidade em +25% e mantém ativo permanentemente.",
+   "n": "Ala Cultural: Logística"
+  },
+  "upgrade_add_culture_wing_imperial": {
+   "d": "As seguintes tecnologias culturais tornam-se disponíveis:\n• Preservação do Conhecimento (Era II)\n• Centros Médicos (Era III)\n• Bibliotecas Públicas (Era IV)",
+   "n": "Ala Cultural"
+  },
+  "upgrade_add_culture_wing_imperial_a_abb_ha_01": {
+   "d": "Constrói a Ala Cultural.\nConstrua esta ala para avançar para a próxima Era em 20% menos tempo e com 1300 menos custos.",
+   "n": "Ala Cultural: Avanço"
+  },
+  "upgrade_add_culture_wing_imperial_b_abb_ha_01": {
+   "d": "Constrói a Ala da Cultura.\nApós a conclusão, concede 4 Dervixes, melhora a cura da unidade em +50% e mantém ativo permanentemente.",
+   "n": "Ala Cultural: Logística"
+  },
+  "upgrade_add_economy_wing": {
+   "d": "Constrói a Ala Econômica.\nAs seguintes tecnologias econômicas se tornam disponíveis:\n• Crescente Fértil (Era II)\n• Agricultura (Era III)\n• Processamento Aprimorado (Era IV)",
+   "n": "Ala Econômica"
+  },
+  "upgrade_add_economy_wing_castle": {
+   "d": "Constrói a Ala Econômica.\nAs seguintes tecnologias econômicas se tornam disponíveis:\n• Crescente Fértil (Era II)\n• Agricultura (Era III)\n• Processamento Aprimorado (Era IV)",
+   "n": "Ala Econômica"
+  },
+  "upgrade_add_economy_wing_castle_a_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 10 aos Aldeões e todos os Aldeões trabalham +10% mais rápido.",
+   "n": "Ala Econômica: Crescimento"
+  },
+  "upgrade_add_economy_wing_castle_b_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 2000 de Madeira e 1000 de Pedra. Aldeões criam construções +50% mais rápido.",
+   "n": "Ala Econômica: Indústria"
+  },
+  "upgrade_add_economy_wing_dark_a_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nQuando concluída, concede 3 Aldeões. Pomares recebem 50 de comida adicional.",
+   "n": "Ala Econômica: Crescimento"
+  },
+  "upgrade_add_economy_wing_dark_b_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 400 de Madeira. Aldeões criam construções +30% mais rápido.",
+   "n": "Ala Econômica: Indústria"
+  },
+  "upgrade_add_economy_wing_feudal": {
+   "d": "Constrói a Ala Econômica.\nAs seguintes tecnologias econômicas se tornam disponíveis:\n• Crescente Fértil (Era II)\n• Agricultura (Era III)\n• Processamento Aprimorado (Era IV)",
+   "n": "Ala Econômica"
+  },
+  "upgrade_add_economy_wing_feudal_a_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nQuando concluída, concede 7 Aldeões. Pomares recebem 100 de comida adicional.",
+   "n": "Ala Econômica: Crescimento"
+  },
+  "upgrade_add_economy_wing_feudal_b_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 900 de Madeira e 400 de Pedra. Aldeões criam construções +40% mais rápido.",
+   "n": "Ala Econômica: Indústria"
+  },
+  "upgrade_add_economy_wing_imperial": {
+   "d": "Constrói a Ala Econômica.\nAs seguintes tecnologias econômicas se tornam disponíveis:\n• Crescente Fértil (Era II)\n• Agricultura (Era III)\n• Processamento Aprimorado (Era IV)",
+   "n": "Ala Econômica"
+  },
+  "upgrade_add_economy_wing_imperial_a_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 10 aos Aldeões e todos os Aldeões trabalham +10% mais rápido.",
+   "n": "Ala Econômica: Crescimento"
+  },
+  "upgrade_add_economy_wing_imperial_b_abb_ha_01": {
+   "d": "Constrói a Ala Econômica.\nApós a conclusão, concede 2800 de Madeira e 900 de Pedra. Aldeões criam construções +50% mais rápido.",
+   "n": "Ala Econômica: Indústria"
+  },
+  "upgrade_add_military_wing": {
+   "d": "Constrói a Ala Militar. Após concluída a construção, gera 2 Lanceiros e 2 Arqueiros (Era II), 2 Cameleiros (Era III) ou 3 Canhoneiros de Mão (Era IV).\nDesbloqueios:\n•Treino Intensivo (Era II)\n•Arcos Compósitos (Era III)\n•Apoio de Camelos (Era IV)",
+   "n": "Ala Militar"
+  },
+  "upgrade_add_military_wing_castle": {
+   "d": "Constrói a Ala Militar. Após concluída a construção, gera 2 Lanceiros e 2 Arqueiros (Era II), 2 Cameleiros (Era III) ou 3 Canhoneiros de Mão (Era IV).\nDesbloqueios:\n•Treino Intensivo (Era II)\n•Arcos Compósitos (Era III)\n•Apoio de Camelos (Era IV)",
+   "n": "Ala Militar"
+  },
+  "upgrade_add_military_wing_castle_a_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nApós a conclusão, as unidades de Cavalaria ganham a habilidade de construir armas de cerco.\nA Casa da Sabedoria produz 7 Saqueadores do Deserto imediatamente e depois a cada 2 minutos pelo resto da partida.",
+   "n": "Ala Militar: Reforço"
+  },
+  "upgrade_add_military_wing_castle_b_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nA Academia Militar e as tecnologias de dano e armadura da Ferraria se tornam grátis e são concluídas automaticamente ao entrar em uma Era. (As de outras Eras ainda precisam ser pesquisadas como normalmente).",
+   "n": "Ala Militar: Mestres Ferreiros"
+  },
+  "upgrade_add_military_wing_dark_a_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nApós a conclusão, as unidades de Cavalaria ganham a habilidade de construir armas de cerco.\nA Casa da Sabedoria produz 1 Saqueador do Deserto após 15 segundos e depois a cada 2 pelo resto da partida.",
+   "n": "Ala Militar: Reforço"
+  },
+  "upgrade_add_military_wing_dark_b_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nA Academia Militar e as tecnologias de dano e armadura da Ferraria se tornam grátis e são concluídas automaticamente ao entrar em uma Era. (As de outras Eras ainda precisam ser pesquisadas como normalmente).",
+   "n": "Ala Militar: Mestres Ferreiros"
+  },
+  "upgrade_add_military_wing_feudal": {
+   "d": "Constrói a Ala Militar. Após concluída a construção, gera 2 Lanceiros e 2 Arqueiros (Era II), 2 Cameleiros (Era III) ou 3 Canhoneiros de Mão (Era IV).\nDesbloqueios:\n•Treino Intensivo (Era II)\n•Arcos Compósitos (Era III)\n•Apoio de Camelos (Era IV)",
+   "n": "Ala Militar"
+  },
+  "upgrade_add_military_wing_feudal_a_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nApós a conclusão, as unidades de Cavalaria ganham a habilidade de construir armas de cerco.\nA Casa da Sabedoria produz 3 Saqueadores do Deserto imediatamente e depois a cada 2 minutos pelo resto da partida.",
+   "n": "Ala Militar: Reforço"
+  },
+  "upgrade_add_military_wing_feudal_b_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nA Academia Militar e as tecnologias de dano e armadura da Ferraria se tornam grátis e são concluídas automaticamente ao entrar em uma Era. (As de outras Eras ainda precisam ser pesquisadas como normalmente).",
+   "n": "Ala Militar: Mestres Ferreiros"
+  },
+  "upgrade_add_military_wing_imperial": {
+   "d": "Constrói a Ala Militar. Após concluída a construção, gera 2 Lanceiros e 2 Arqueiros (Era II), 2 Cameleiros (Era III) ou 3 Canhoneiros de Mão (Era IV).\nDesbloqueios:\n•Treino Intensivo (Era II)\n•Arcos Compósitos (Era III)\n•Apoio de Camelos (Era IV)",
+   "n": "Ala Militar"
+  },
+  "upgrade_add_military_wing_imperial_a_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nApós a conclusão, as unidades de Cavalaria ganham a habilidade de construir armas de cerco.\nA Casa da Sabedoria produz 7 Saqueadores do Deserto imediatamente e depois a cada 2 minutos pelo resto da partida.",
+   "n": "Ala Militar: Reforço"
+  },
+  "upgrade_add_military_wing_imperial_b_abb_ha_01": {
+   "d": "Constrói a Ala Militar.\nA Academia Militar e as tecnologias de dano e armadura da Ferraria se tornam grátis e são concluídas automaticamente ao entrar em uma Era. (As de outras Eras ainda precisam ser pesquisadas como normalmente).",
+   "n": "Ala Militar: Mestres Ferreiros"
+  },
+  "upgrade_add_trade_wing": {
+   "d": "Constrói a Ala Administrativa. Passivamente fornece +50% de efeito de todos os bônus da Era de Ouro.\nDesbloqueia: \n• Planejamento Urbano (Era II)\n• Diretriz de Cerco (Era III)\n• Grande Bazar (Era IV)",
+   "n": "Ala Administrativa"
+  },
+  "upgrade_add_trade_wing_castle": {
+   "d": "Constrói a Ala Administrativa. Passivamente fornece +50% de efeito de todos os bônus da Era de Ouro.\nDesbloqueia: \n• Planejamento Urbano (Era II)\n• Diretriz de Cerco (Era III)\n• Grande Bazar (Era IV)",
+   "n": "Ala Administrativa"
+  },
+  "upgrade_add_trade_wing_castle_a_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nA cada três minutos, uma caravana de comércio chega com uma seleção aleatória de quatro trocas de recursos e unidades favoráveis.\nA qualidade destas negociações é fixa dependendo da Era em que a Ala Comercial é construída. Usar a Ala Comercial para entrar em uma era posterior permite um comércio mais lucrativo.",
+   "n": "Ala Comercial: Bazar"
+  },
+  "upgrade_add_trade_wing_castle_b_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nApós a conclusão, ganha 7 de Atabegue, que pode ser guarnecido em qualquer construção de produção militar (exceto Docas) para aumentar a vida de unidades recém-treinadas em 20%.",
+   "n": "Ala Comercial: Conselheiros"
+  },
+  "upgrade_add_trade_wing_dark_a_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nA cada três minutos, uma caravana de comércio chega com uma seleção aleatória de quatro trocas de recursos e unidades favoráveis.\nA qualidade destas negociações é fixa dependendo da Era em que a Ala Comercial é construída. Usar a Ala Comercial para entrar em uma era posterior permite um comércio mais lucrativo.",
+   "n": "Ala Comercial: Bazar"
+  },
+  "upgrade_add_trade_wing_dark_b_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nApós a conclusão, ganha 3 de Atabegue, que pode ser guarnecido em qualquer construção de produção militar (exceto Docas) para aumentar a vida de unidades recém-treinadas em 20%.",
+   "n": "Ala Comercial: Conselheiros"
+  },
+  "upgrade_add_trade_wing_feudal": {
+   "d": "Constrói a Ala Administrativa. Passivamente fornece +50% de efeito de todos os bônus da Era de Ouro.\nDesbloqueia: \n• Planejamento Urbano (Era II)\n• Diretriz de Cerco (Era III)\n• Grande Bazar (Era IV)",
+   "n": "Ala Administrativa"
+  },
+  "upgrade_add_trade_wing_feudal_a_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nA cada três minutos, uma caravana de comércio chega com uma seleção aleatória de quatro trocas de recursos e unidades favoráveis.\nA qualidade destas negociações é fixa dependendo da Era em que a Ala Comercial é construída. Usar a Ala Comercial para entrar em uma era posterior permite um comércio mais lucrativo.",
+   "n": "Ala Comercial: Bazar"
+  },
+  "upgrade_add_trade_wing_feudal_b_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nApós a conclusão, ganha 5 de Atabegue, que pode ser guarnecido em qualquer construção de produção militar (exceto Docas) para aumentar a vida de unidades recém-treinadas em 20%.",
+   "n": "Ala Comercial: Conselheiros"
+  },
+  "upgrade_add_trade_wing_imperial": {
+   "d": "Constrói a Ala Administrativa. Passivamente fornece +50% de efeito de todos os bônus da Era de Ouro.\nDesbloqueia: \n• Planejamento Urbano (Era II)\n• Diretriz de Cerco (Era III)\n• Grande Bazar (Era IV)",
+   "n": "Ala Administrativa"
+  },
+  "upgrade_add_trade_wing_imperial_a_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nA cada três minutos, uma caravana de comércio chega com uma seleção aleatória de quatro trocas de recursos e unidades favoráveis.\nA qualidade destas negociações é fixa dependendo da Era em que a Ala Comercial é construída. Usar a Ala Comercial para entrar em uma era posterior permite um comércio mais lucrativo.",
+   "n": "Ala Comercial: Bazar"
+  },
+  "upgrade_add_trade_wing_imperial_b_abb_ha_01": {
+   "d": "Constrói a Ala Comercial.\nApós a conclusão, ganha 7 de Atabegue, que pode ser guarnecido em qualquer construção de produção militar (exceto Docas) para aumentar a vida de unidades recém-treinadas em 20%.",
+   "n": "Ala Comercial: Conselheiros"
+  },
+  "upgrade_age2_keep_town_center_sul": {
+   "d": "Torres de Menagem atuam como Centros Urbanos, incluindo em produção de unidades, capacidade de população e tecnologias.",
+   "n": "Vilas Fortificadas"
+  },
+  "upgrade_age2_scholar_military_production_sul": {
+   "d": "Permite que os Estudiosos se abriguem em construções militares, aumentando a velocidade de produção em 100%.",
+   "n": "Produção Eficiente"
+  },
+  "upgrade_age3_war_elephant_elite_sul": {
+   "d": "Concede +20% de vida e +4 de armadura contra longo alcance para Elefantes de Guerra.",
+   "n": "Bestas de Armadura"
+  },
+  "upgrade_age3_war_elephant_elite_sul_ha_tug": {
+   "d": "Concede +20% de vida e +4 de armadura contra longo alcance para Elefantes de Guerra.",
+   "n": "Bestas de Armadura"
+  },
+  "upgrade_age_castle_com_1_tem": {
+   "d": "- Toda a Cavalaria ganha +10% de vida e +50% de dano de investida.",
+   "n": "Reino da Polônia"
+  },
+  "upgrade_age_castle_com_2_tem": {
+   "d": "- Todas as unidades de ouro ganham +2 de armadura contra corpo a corpo.",
+   "n": "Ordem Teutônica"
+  },
+  "upgrade_age_castle_com_3_tem": {
+   "d": "- Reduz a mudança no preço base de compra ou venda em 75% ao negociar recursos no Mercado.",
+   "n": "República de Veneza"
+  },
+  "upgrade_age_dark_com_1_tem": {
+   "d": "- Aumenta a vida de unidades civis em +30% e velocidade de movimento em +10%. Aumenta a cura de todas as fontes em +30%.",
+   "n": "Cavaleiros Hospitalários"
+  },
+  "upgrade_age_dark_com_2_tem": {
+   "d": "- Unidades militares terrestres são produzidas +15% mais rápido e custam -5% de ouro.",
+   "n": "Reino da França"
+  },
+  "upgrade_age_dark_com_3_tem": {
+   "d": "- Unidades corpo a corpo recebem +15% de dano.",
+   "n": "Principado de Antioquia"
+  },
+  "upgrade_age_feudal_com_1_tem": {
+   "d": "- Fortalezas e Docas ganham +30% de Vida.",
+   "n": "Império Angevino"
+  },
+  "upgrade_age_feudal_com_2_tem": {
+   "d": "- Peregrinos geram +20% de ouro.",
+   "n": "República de Gênova"
+  },
+  "upgrade_age_feudal_com_3_tem": {
+   "d": "- Unidades próximas a Locais Sagrados recebem +20% de dano e regeneram vida.",
+   "n": "Reino de Castela"
+  },
+  "upgrade_alliance_conducted_sea_jin": {
+   "d": "Cada Súdito Tributário fornece uma renda adicional de +10% aos mercadores.",
+   "n": "Aliança Conduzida no Mar"
+  },
+  "upgrade_anatolian_hills_ott": {
+   "d": "Gere 12 ovelha(s) no Marco Centro Urbano e aumente a velocidade de mineração dos Aldeões em +15%.",
+   "n": "Colinas Anatolianas"
+  },
+  "upgrade_archer_armor_hre_ha_01": {
+   "d": "Aumenta a armadura contra longo alcance dos Arqueiros Dourados em +3.",
+   "n": "Armadura de Escamas"
+  },
+  "upgrade_archer_poison_arrow_mal": {
+   "d": "As flechas dos Arqueiros causam um dano adicional de 3 durante 6 segundos.",
+   "n": "Flechas Envenenadas"
+  },
+  "upgrade_armor_clad_eng": {
+   "d": "Aumenta as armaduras contra corpo a corpo e contra longo alcance de Homens de Armas em +2.",
+   "n": "Vestes de Aço"
+  },
+  "upgrade_arsenal_building_survivability_3_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as construções em 10%.",
+   "n": "Fortificações"
+  },
+  "upgrade_arsenal_building_survivability_5_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as construções em 10%.",
+   "n": "Fortificações"
+  },
+  "upgrade_arsenal_building_survivability_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as construções em 10%.",
+   "n": "Fortificações"
+  },
+  "upgrade_arsenal_cavalry_damage_3_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Cavalaria em 1.",
+   "n": "Incrustação de lâmina"
+  },
+  "upgrade_arsenal_cavalry_damage_5_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Cavalaria em 1.",
+   "n": "Incrustação de lâmina"
+  },
+  "upgrade_arsenal_cavalry_damage_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Cavalaria em 1.",
+   "n": "Incrustação de lâmina"
+  },
+  "upgrade_arsenal_cavalry_survivability_3_byz_ha_mac": {
+   "d": "Aumenta a armadura de toda a Cavalaria em 1 e a vida em 5%.",
+   "n": "Barda de Escamas"
+  },
+  "upgrade_arsenal_cavalry_survivability_5_byz_ha_mac": {
+   "d": "Aumenta a armadura de toda a Cavalaria em 1 e a vida em 5%.",
+   "n": "Barda de Escamas"
+  },
+  "upgrade_arsenal_cavalry_survivability_byz_ha_mac": {
+   "d": "Aumenta a armadura de toda a Cavalaria em 1 e a vida em 5%.",
+   "n": "Barda de Escamas"
+  },
+  "upgrade_arsenal_melee_infantry_damage_3_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Infantaria Corpo a Corpo em 1.",
+   "n": "Soldagem de Padrões"
+  },
+  "upgrade_arsenal_melee_infantry_damage_5_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Infantaria Corpo a Corpo em 1.",
+   "n": "Soldagem de Padrões"
+  },
+  "upgrade_arsenal_melee_infantry_damage_byz_ha_mac": {
+   "d": "Aumenta o dano de toda a Infantaria Corpo a Corpo em 1.",
+   "n": "Soldagem de Padrões"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_3_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as infantarias corpo a corpo em 1 e a vida em 5%.",
+   "n": "Cota de malha de caldeamento"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_5_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as infantarias corpo a corpo em 1 e a vida em 5%.",
+   "n": "Cota de malha de caldeamento"
+  },
+  "upgrade_arsenal_melee_infantry_survuvability_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as infantarias corpo a corpo em 1 e a vida em 5%.",
+   "n": "Cota de malha de caldeamento"
+  },
+  "upgrade_arsenal_ranged_damage_3_byz_ha_mac": {
+   "d": "Aumenta o dano de longo alcance de todas as flechas e projéteis em +1.",
+   "n": "Pedras de amolar"
+  },
+  "upgrade_arsenal_ranged_damage_5_byz_ha_mac": {
+   "d": "Aumenta o dano de longo alcance de todas as flechas e projéteis em +1.",
+   "n": "Pedras de amolar"
+  },
+  "upgrade_arsenal_ranged_damage_byz_ha_mac": {
+   "d": "Aumenta o dano de longo alcance de todas as flechas e projéteis em +1.",
+   "n": "Pedras de amolar"
+  },
+  "upgrade_arsenal_ranged_survivability_3_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as unidades de longo alcance em 1 e a vida em 5%.",
+   "n": "Armadura Lamelar"
+  },
+  "upgrade_arsenal_ranged_survivability_5_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as unidades de longo alcance em 1 e a vida em 5%.",
+   "n": "Armadura Lamelar"
+  },
+  "upgrade_arsenal_ranged_survivability_byz_ha_mac": {
+   "d": "Aumenta a armadura de todas as unidades de longo alcance em 1 e a vida em 5%.",
+   "n": "Armadura Lamelar"
+  },
+  "upgrade_arsenal_siege_survivability_3_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as unidades de cerco em 5%.",
+   "n": "Acessórios de ferro"
+  },
+  "upgrade_arsenal_siege_survivability_5_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as unidades de cerco em 5%.",
+   "n": "Acessórios de ferro"
+  },
+  "upgrade_arsenal_siege_survivability_byz_ha_mac": {
+   "d": "Aumenta a vida de todas as unidades de cerco em 5%.",
+   "n": "Acessórios de ferro"
+  },
+  "upgrade_banco_repairs_mal": {
+   "d": "As construções são reparadas +50% mais rápido.",
+   "n": "Reparos de Banco"
+  },
+  "upgrade_benediction_hre": {
+   "d": "Mosteiros se tornam autossuficientes, lavrando suas terras por meio de Irmãos Leigos.\nAldeões podem deixar recursos em Mosteiros.\nPrelados podem ser guarnecidos em Mosteiros para inspirar todos os Aldeões próximos, aumentando a velocidade de coleta deles.",
+   "n": "Abadias Cistercienses"
+  },
+  "upgrade_billmen_lan": {
+   "d": "Lanceiros equipam bisarmas temperadas, reduzindo a armadura dos inimigos em -1 ao atacar.",
+   "n": "Bisarmeiros"
+  },
+  "upgrade_bodyguard_durability_mon_ha_gol": {
+   "d": "Aumenta a armadura de longo alcance e corpo a corpo em +1 e a saúde em +20 para Torguud e Ginete",
+   "n": "Armadura Acolchoada"
+  },
+  "upgrade_brigandine_tem": {
+   "d": "Soldados comuns são equipados com armadura mais resistente. Cavalaria leve ganha +2 de armadura.",
+   "n": "Brigantina"
+  },
+  "upgrade_building_fire_armor_hre": {
+   "d": "Todas as construções ganham +5 de armadura contra fogo.",
+   "n": "Construção de Ardósia e Pedra"
+  },
+  "upgrade_burgundianimports_lan": {
+   "d": "A importação de Canhões de Mão Burgúndios permite o treinamento de Canhoneiros de Mão na Era dos Castelos e diminui o custo do Canhoneiro de Mão em -25%.",
+   "n": "Importações Borgonhesas"
+  },
+  "upgrade_camel_archer_comp_bow_abb": {
+   "d": "Aumenta o alcance do ataque dos Lanceiros em +100%.",
+   "n": "Falange"
+  },
+  "upgrade_camel_armor_abb": {
+   "d": "Aumenta a armadura de Cameleiros em +2.",
+   "n": "Barda de Cameleiro"
+  },
+  "upgrade_camel_speed_boost_abb": {
+   "d": "Aumenta a velocidade de movimento das unidades militares a camelo em +15%.",
+   "n": "Tratamento de Camelos"
+  },
+  "upgrade_capital_tier_1_jpn": {
+   "d": "Aumenta o limite de produção de Samurai Porta-Estandarte em +1 e fornece um Aldeão gratuitamente.\nAumenta a vida do Centro Urbano em +1000, adiciona uma fenda de flecha adicional e uma aura que aumenta a taxa de colheita dos Aldeões em Fazendas em +20%.",
+   "n": "Mansão Daimyo"
+  },
+  "upgrade_capital_tier_2_jpn": {
+   "d": "Aumenta o limite de produção do Samurai Porta-Estandarte em +2 e fornece um Aldeão gratuitamente.\nAumenta a vida do Centro Urbano em +2000, a armadura contra fogo em +2, adiciona uma fenda de flecha adicional e uma aura que melhora a taxa de colheita dos Aldeões nas Fazendas em +40%.",
+   "n": "Palácio Daimyo"
+  },
+  "upgrade_capital_tier_3_jpn": {
+   "d": "Aumenta o limite de produção do Samurai Porta-Estandarte em +3 e fornece um Aldeão gratuitamente.\nAumenta a vida do Centro Urbano em +3000, a armadura contra fogo em +3, adiciona uma aura que melhora a taxa de colheita dos Aldeões nas Fazendas em +60% e equipa uma Instalação de Foguete.",
+   "n": "Castelo do Xogunato"
+  },
+  "upgrade_cavalry_bloodline_fre": {
+   "d": "Encha os estábulos com os melhores garanhões, aumentando a vida de toda a cavalaria em +35%.",
+   "n": "Linhagens Reais"
+  },
+  "upgrade_cavalry_cantled_saddle_fre": {
+   "d": "Aumenta o dano bônus dos Cavaleiros Reais após uma Carga de +3 para +10.",
+   "n": "Selas Elevadas"
+  },
+  "upgrade_cavalry_chivalry_fre": {
+   "d": "Cavaleiros Reais regeneram +1 de vida a cada 1 segundos quando fora de combate.",
+   "n": "Ordens de Cavalaria"
+  },
+  "upgrade_cavalry_hp_rus": {
+   "d": "Aumenta a vida da cavalaria rus em +25.",
+   "n": "Fortaleza dos Boiardos"
+  },
+  "upgrade_cavalry_melee_damage_rus": {
+   "d": "Cavaleiros equipam uma Acha, aumentando o dano corpo a corpo em +4.",
+   "n": "Achas de Cavaleiro"
+  },
+  "upgrade_collarofesses_lan": {
+   "d": "Seus Cavaleiros e Demilanceiros adornam suas armaduras com a heráldica de Lencastre, ganhando +5 de bônus de dano contra unidades inimigas pesadas.",
+   "n": "Colar de Esses"
+  },
+  "upgrade_collective_hunting_jin": {
+   "d": "Tribos locais oferecem parte de suas Renas como tributo. Gera 4 Renas sob o seu Centro Urbano.",
+   "n": "Caça Coletiva"
+  },
+  "upgrade_condensedlandpractices_lan": {
+   "d": "Os avanços nas práticas feudais de distribuição de terras aumentam o limite de construção de Palacetes em +4 e sua saúde em +100.",
+   "n": "Práticas Territoriais Condensadas"
+  },
+  "upgrade_condensedlandpractices_lan_2": {
+   "d": "Os avanços nas práticas feudais de distribuição de terras aumentam o limite de construção de Palacetes em +4 e sua saúde em +200.",
+   "n": "Sistema de Campo Aberto"
+  },
+  "upgrade_copper_plating_jpn": {
+   "d": "Melhora as armas de fogo e as armaduras contra longo alcance de navios em +2.",
+   "n": "Revestimento de Cobre"
+  },
+  "upgrade_cranequin_tem": {
+   "d": "As Bestas são capazes de carregar projéteis mais fortes que têm +0.5 de alcance e +2 de dano.",
+   "n": "Armatostes"
+  },
+  "upgrade_crossbow_siege_damage_hre_ha_01": {
+   "d": "Besteiros Dourados causam +20 de dano contra unidades de Cerco.",
+   "n": "Projéteis de Afiação"
+  },
+  "upgrade_cul_cheaper_research_abb": {
+   "d": "Reduz o custo de todas as tecnologias e avanços da Era em -20%.",
+   "n": "Preservação do Conhecimento"
+  },
+  "upgrade_cul_conversion_invuln_abb": {
+   "d": "Os Imãs podem converter unidades sem possuir uma Relíquia, mas só podem mirar em uma única unidade.",
+   "n": "Proselitismo"
+  },
+  "upgrade_cul_medical_centers_abb": {
+   "d": "Centros Urbanos e Torres de Menagem curam +2 de vida de unidades próximas a cada 1 segundo.",
+   "n": "Centros Médicos"
+  },
+  "upgrade_cul_public_libraries_abb": {
+   "d": "Aldeões e Mercadores ganham +2 de vida por melhoria econômica.",
+   "n": "Bibliotecas Públicas"
+  },
+  "upgrade_dali_horses_chi_ha_01": {
+   "d": "Aumenta a velocidade de ataque das unidades de Cavalaria em +20%.",
+   "n": "Cavalos Dali"
+  },
+  "upgrade_defensive_improvement_mon_ha_gol": {
+   "d": "Aumenta a armadura de fogo do Posto Avançado Fortificado e da Paliçada em +3 e a vida em +300.",
+   "n": "Muralhas do Núcleo Terrestre"
+  },
+  "upgrade_desert_citadels": {
+   "d": "Melhora a aura dos Postos Avançados do Deserto nas Fortalezas para aumentar também a armadura das unidades próximas em +1/+1.",
+   "n": "Cidadelas do Deserto"
+  },
+  "upgrade_devoutness_hre": {
+   "d": "Os aldeões inspirados reúnem recursos +5% mais rápido e constroem construções e defesas +25% mais rápido.",
+   "n": "Devoção"
+  },
+  "upgrade_donso_precision_training_mal": {
+   "d": "Aumente os danos de longo alcance do Donso em +6, dos Arqueiros em +2 e dos Lançadores de Azagaia em +3.",
+   "n": "Treinamento de Precisão"
+  },
+  "upgrade_draft_horses_jin": {
+   "d": "Aumenta a taxa de coleta de madeira dos Aldeões em 15% e sua capacidade de transporte de madeira em 10.",
+   "n": "Cavalos de Tração"
+  },
+  "upgrade_dragon_fire_hre_ha_01": {
+   "d": "As tochas dos Lanceiros Dourados causam dano de área de efeito.",
+   "n": "Tochas Pesadas"
+  },
+  "upgrade_dynasty_econ_bonus_chi": {
+   "d": "Aumenta a taxa de coleta dos Aldeões em +5% para cada dinastia alcançada.",
+   "n": "Técnicas Antigas"
+  },
+  "upgrade_econ_agriculture_abb": {
+   "d": "Melhora a taxa de coleta dos Aldeões nas Fazendas em +15%.",
+   "n": "Agricultura"
+  },
+  "upgrade_econ_fertile_crescent_abb": {
+   "d": "Reduz o custo de construções Econômicas e casas em 30%.",
+   "n": "Crescente Fértil"
+  },
+  "upgrade_econ_improved_carry_capacity_abb": {
+   "d": "Reduz o custo de produção de Aldeões em -40%.",
+   "n": "Alimentos Frescos"
+  },
+  "upgrade_econ_improved_processing_abb": {
+   "d": "Os Aldeões entregam mais +8% de recursos.",
+   "n": "Processamento Melhorado"
+  },
+  "upgrade_econ_ovoo_stone_rate_3_mon_ha_gol": {
+   "d": "Aumenta a taxa de coleta de Pedra do Ovoo em 20%.",
+   "n": "Oferenda no Ovoo"
+  },
+  "upgrade_econ_ovoo_stone_rate_4_mon_ha_gol": {
+   "d": "Aumenta a taxa de coleta de Pedra do Ovoo em 20%.",
+   "n": "Cerimônia do Ovoo"
+  },
+  "upgrade_econ_pasture_harvest_rate_2_mon_ha_gol": {
+   "d": "Aumenta a taxa de coleta de Curral em 10%. Não se aplica a Ovelhas pastoreadas.",
+   "n": "Pastoreio Rotativo"
+  },
+  "upgrade_econ_pasture_harvest_rate_3_mon_ha_gol": {
+   "d": "Aumenta a taxa de coleta de Curral em 10%. Não se aplica a Ovelhas pastoreadas.",
+   "n": "Sobrepastoreio"
+  },
+  "upgrade_econ_resource_food_harvest_rate_2_improved_mon": {
+   "d": "Aumenta a taxa de coleta de Comida dos Aldeões em 30%. Não se aplica à carne caçada.\nSe você já pesquisou Horticultura, o aumento será de 20%.",
+   "n": "Horticultura (Melhorada)"
+  },
+  "upgrade_econ_resource_gold_harvest_rate_2_improved_mon": {
+   "d": "Aumenta a taxa de coleta de Ouro dos Aldeões em 35%.\nSe você já pesquisou Coleta Especializada, o aumento será de 20%.",
+   "n": "Coleta Especializada (Melhorada)"
+  },
+  "upgrade_econ_resource_wood_fell_rate_1_improved_mon": {
+   "d": "Aldeões cortam Árvores com um único golpe.\nCapacidade de carga de madeira aumentada em +2.",
+   "n": "Silvicultura (Melhorada)"
+  },
+  "upgrade_econ_resource_wood_harvest_rate_2_improved_mon": {
+   "d": "Aumenta a taxa de coleta de Madeira dos Aldeões em 35%.\nSe você já pesquisou Machado Largo Duplo, o aumento será de 20%.",
+   "n": "Broadax Duplo (Melhorado)"
+  },
+  "upgrade_econ_villager_hunting_gear_1_improved_mon": {
+   "d": "Aumenta a taxa de coleta de carne de caça dos Aldeões em +25%.\nSe você já pesquisou Técnicas de Sobrevivência, a taxa de coleta de carne de caça aumenta em +10%.",
+   "n": "Técnicas de Sobrevivência (Melhoradas)"
+  },
+  "upgrade_edict_kharash_mon_ha_gol": {
+   "d": "Quando o Decreto Kharash estiver ativo, a Tenda Dourada e as Construções Militares dentro da influência de um Posto Avançado Fortificado produzirão um Kharash adicional sempre que qualquer unidade for recrutada.",
+   "n": "Desbloqueie o Decreto Kharash"
+  },
+  "upgrade_edict_stockyard_mon_ha_gol": {
+   "d": "Quando o Decreto do Curral estiver ativo, os Currais dentro da influência de um Posto Avançado Fortificado geram Ouro enquanto são trabalhados.",
+   "n": "Desbloqueie o Decreto do Curral"
+  },
+  "upgrade_elephant_building_damage_sul_ha_tug": {
+   "d": "O dano bônus causado por Elefantes é aumentado em 30%.",
+   "n": "Dano Colateral"
+  },
+  "upgrade_elephant_caretakers_sul_ha_tug": {
+   "d": "Elefantes regeneram +2 de vida a cada 2 segundos quando fora de combate.",
+   "n": "Protetores de Elefantes"
+  },
+  "upgrade_elite_army_tactics_jpn": {
+   "d": "As táticas de poderosos daimyo melhoram a infantaria corpo a corpo, aumentando seu dano em +15%, o dano de tocha em +15% e a Vida em +15%.",
+   "n": "Táticas de Oda"
+  },
+  "upgrade_enlistment_incentives_fre": {
+   "d": "Melhora a influência francesa ao reduzir os custos de unidades em -5% adicional.",
+   "n": "Incentivos de Alistamento"
+  },
+  "upgrade_fanaticism": {
+   "d": "Unidades de Irmãos Templários e Comendadoras ganham +10% de dano quando abaixo de 50% de vida e +30% quando abaixo de 25% de vida.",
+   "n": "Fanatismo"
+  },
+  "upgrade_farm_improved_enclosures_eng": {
+   "d": "Cada Cercamento operado por um Aldeão gera +1 de Ouro a cada 6 segundos.",
+   "n": "Cercamentos"
+  },
+  "upgrade_fireship_liquid_explosives_byz": {
+   "d": "Navios Incendiários causam dano total a todos os inimigos em seu raio de explosão.",
+   "n": "Líquidos Explosivos"
+  },
+  "upgrade_flaming_springald_byz_ha_mac": {
+   "d": "Espringales ganham 15% de velocidade de ataque e envolvem seus projéteis com fogo, criando uma camada de Fogo Grego após o impacto.",
+   "n": "Fogo Romano"
+  },
+  "upgrade_fort_support_sul_ha_tug": {
+   "d": "Fortes Tughlaqabad aumentam a velocidade de produção das Docas próximas em 30%, o dano das fendas de flechas em 2 e o alcance das armas em 1 de blocos.",
+   "n": "Vigia de Forte Tughlaqabad"
+  },
+  "upgrade_golden_cuirass_hre_ha_01": {
+   "d": "Homens de Armas Dourados com menos de 20% de vida sofrem -20% dano.",
+   "n": "Couraça Dourada"
+  },
+  "upgrade_greek_fire_trebuchet_byz": {
+   "d": "Trabucos de Contrapeso causam +30% de dano aumentado e envolvem o alvo com Fogo Grego, causando dano de área. Fogo Grego não acumula com outros quadrados.",
+   "n": "Projéteis de Fogo Grego"
+  },
+  "upgrade_gunpowder_cost_chi": {
+   "d": "Ninho de Abelhas recebem 3 de Flechas Foguete adicionais.",
+   "n": "Barris Adicionais"
+  },
+  "upgrade_gunpowder_damage_chi": {
+   "d": "Aumenta o alcance de Canhões de Mão em +1.5.",
+   "n": "Pirotecnia"
+  },
+  "upgrade_gunpowder_damage_chi_ha_01": {
+   "d": "As unidades inimigas recebem +15% de dano à distância e corpo a corpo por 5 segundos quando atingidas por uma Granada.",
+   "n": "Bombas de Carcaça Dura"
+  },
+  "upgrade_heaven_shaking_thunder_jin": {
+   "d": "Os sons estrondosos das armas de Eruptor e Lança da Tempestade assustam a cavalaria inimiga, reduzindo o dano da cavalaria próxima em 20% por 5 segundos.",
+   "n": "Trovão Rasga-Céus"
+  },
+  "upgrade_heavy_dromon_byz": {
+   "d": "Aumenta o alcance dos Drómons em 0.5 e seu dano em 1.\nAprimora todos os Drómons para deixar Fogo Grego na superfície ou no solo onde atacam.",
+   "n": "Drómon Pesado"
+  },
+  "upgrade_hill_training_lan": {
+   "d": "Treinar em terreno acidentado aumenta o dano de carga de Hobelar em +125% e a velocidade de produção em +100%.",
+   "n": "Treinamento de Colina"
+  },
+  "upgrade_hippodrome_cataphract_byz": {
+   "d": "Unidades inimigas atingidas por Atropelar ficam vulneráveis e recebem +15% de dano aumentado por 12 segundos.",
+   "n": "Numeri"
+  },
+  "upgrade_hippodrome_horseman_byz": {
+   "d": "Dano de Ginete contra Trabalhadores aumentado em +2. Trabalhadores eliminados por seus Ginetes recompensam +30 de Ouro.",
+   "n": "Saqueadores"
+  },
+  "upgrade_hippodrome_scout_byz": {
+   "d": "Batedores aumentam o dano de tocha das unidades próximas em +25%.",
+   "n": "Trapezitas"
+  },
+  "upgrade_horse_archer_mounted_training_rus": {
+   "d": "Aumente o alcance de armas dos Arqueiros Montados em +1 e desbloqueie a habilidade Galope.\nGalope: Ative para se mover na velocidade máxima com + 2 armadura contra longo alcance por 8 segundos.",
+   "n": "Treinamento Montado"
+  },
+  "upgrade_house_vision_byz": {
+   "d": "Aumenta a linha de visão da Casa em 7 quadrados e melhora sua velocidade de construção em 500%.",
+   "n": "Assentamentos Fronteiriços"
+  },
+  "upgrade_imperial_examinations_chi": {
+   "d": "Aumenta a quantia máxima de Ouro carregado por Funcionários do Império de +40 para +70.",
+   "n": "Exames Imperiais"
+  },
+  "upgrade_imperial_janissary_company_ott": {
+   "d": "Gere 2 de Janízaros para cada um do seus Centros urbanos do Marco Escolas Militares no Centro Urbano do Marco.",
+   "n": "Companhia dos Janízaros"
+  },
+  "upgrade_imperial_manned_siege_ott": {
+   "d": "Permite que todas as armas de cerco sejam guarnecidas por infantarias. Enquanto guarnecida, aumenta a velocidade de ataque e montagem em +25%.",
+   "n": "Equipes de Cerco"
+  },
+  "upgrade_imperial_mehter_drums_ott": {
+   "d": "Crie 2 Mehter no Centro Urbano Marco. Os mehters aumentam a velocidade de movimento de unidades na mesma formação em +15%.",
+   "n": "Tambores Mehter"
+  },
+  "upgrade_imperial_military_campus_ott": {
+   "d": "Aumenta o limite de Escolas Militares que podem ser construídas em +1.",
+   "n": "Campus Militar"
+  },
+  "upgrade_imperial_military_training_ott": {
+   "d": "Aumenta a velocidade de produção militar em +25% e fornece às Escolas Militares a habilidade de treinar Lanceiros e Janízaros.",
+   "n": "Academia Avançada"
+  },
+  "upgrade_imperial_monk_formation_ott": {
+   "d": "Gere 2 de Imãs no Centro Urbano do Marco. A área dos imãs cura unidades próximas em 1 de vida a cada segundo. Aumenta para 2 de vida na Era dos Castelos e para 3 de vida na Era Imperial.",
+   "n": "Trabalho de Campo"
+  },
+  "upgrade_imperial_trader_capacity_ott": {
+   "d": "Aumente a quantidade coletada por Comerciantes de Ouro e a renda da Rede Comercial Sultanhani em +40%.",
+   "n": "Bolsas de Mercador"
+  },
+  "upgrade_improved_infantry_charge_sul_ha_tug": {
+   "d": "O treinamento de Khanda melhora a duração da investida do Homem de Armas em 3 segundos e aumenta o dano de seu ataque de investida em 100%.",
+   "n": "Treinos de Khanda"
+  },
+  "upgrade_improved_menganmouke_jin": {
+   "d": "A Dinastia Jin consolida seu poder e reforça o sistema Meng'an Mouke para enfrentar ameaças iminentes. Os defensores agora são apoiados por Granadeiros Montados, e o número disponível de Defensores é aumentado em +10.",
+   "n": "Batalhões de Fogos"
+  },
+  "upgrade_improved_siege_engineers_mon": {
+   "d": "Infantarias corpo a corpo e de longo alcance podem construir Torres de Cerco e Aríetes no campo. A Engenharia de Cerco Melhorada também permite a construção de Manganelas, Espringales e Trabucos.",
+   "n": "Engenharia de Cerco (Melhorada)"
+  },
+  "upgrade_improved_spearman_sul_ha_tug": {
+   "d": "Dano de Lanceiro contra a cavalaria aumentado em 35% e velocidade de produção aumentada em 50%.",
+   "n": "Treinamento Neza"
+  },
+  "upgrade_improved_swords_sul": {
+   "d": "Homens de Armas e Lanceiros Montados equipam uma Cimitarra, aumentando o dano em +3.",
+   "n": "Lâminas Aprimoradas"
+  },
+  "upgrade_infantry_kill_bonus_abb_ha_01": {
+   "d": "A infantaria ganha +25% de dano e +20% de velocidade de movimento por 30 segundos após defender uma unidade.",
+   "n": "Mamelucos do Sultão"
+  },
+  "upgrade_infantry_ranged_armor_jpn_ha_sen": {
+   "d": "Aumenta a armadura de longo alcance da infantaria do Quartel em +2.",
+   "n": "Armadura Cruzada"
+  },
+  "upgrade_inspired_infantry_hre": {
+   "d": "Prelados aumentam sua velocidade de movimento em 10% e podem inspirar grupos de unidades militares, melhorando sua armadura em +1 e dano em +15%.",
+   "n": "Guerreiros Inspirados"
+  },
+  "upgrade_iron_clamps_tem": {
+   "d": "Braçadeiras de Ferro reforçando as muralhas reduz o dano recebido da pólvora em 20% para Muralhas de Pedra e Fortalezas.",
+   "n": "Braçadeiras de Ferro"
+  },
+  "upgrade_kaburya_arrow_jpn": {
+   "d": "Onna-Musha dispara uma flecha sibilante quando um inimigo é avistado, aumentando sua velocidade de movimento por 10 segundos.",
+   "n": "Flecha Sibilante Kabura-ya"
+  },
+  "upgrade_keep_bedcrossbow_jin": {
+   "d": "Adicione uma Localização de Balestra de Cerco defensiva a esta construção.",
+   "n": "Localização de Balestra de Cerco"
+  },
+  "upgrade_keep_curse_of_the_fort": {
+   "d": "Os agressores deste Forte Tughlaqabad são atacados por medo, reduzindo sua velocidade de ataque em 30% durante o ataque ao Forte.",
+   "n": "Maldição de Auliya"
+  },
+  "upgrade_keep_great_bombard": {
+   "d": "Adicione uma instalação defensiva de Grã-Bombarda a essa estrutura.",
+   "n": "Posicionamento da Grã-Bombarda"
+  },
+  "upgrade_keep_mangonel_byz": {
+   "d": "Adicione uma instalação defensiva de manganela a essa estrutura.",
+   "n": "Instalação de Manganela"
+  },
+  "upgrade_keep_menganmouke_jin": {
+   "d": "Adiciona uma Localização de Meng'an Mouke a esta Estrutura que convoca 5 Defensores sempre que inimigos estiverem por perto. Os Defensores não podem ser controlados e atacarão ameaças próximas a esta Localização.\nProduz 1 Defensor Meng'an Mouke global a cada 60 segundos.",
+   "n": "Localização de Meng'an Mouke"
+  },
+  "upgrade_keep_trebuchet": {
+   "d": "Adicione uma instalação defensiva de Trabuco a essa estrutura.",
+   "n": "Instalação de Trabuco"
+  },
+  "upgrade_khan_debuff_arrow_mon_ha_gol": {
+   "d": "O Khan pode disparar uma flecha sinalizadora que revela 10 de alcance de blocos e causa +10% de dano a inimigos na área-alvo por 10 segundos.",
+   "n": "Flecha de Desvantagem Khan"
+  },
+  "upgrade_khan_signal_arrow_improved_mon": {
+   "d": "Aumenta a duração da Flecha Sinalizadora do Khan em +7 segundos e seu alcance em +3 quadrados.\nSe você já pesquisou Flechas Sibilantes, aumenta a duração da Flecha Sinalizadora do Khan em +2 segundos e seu alcance em +1 quadrados.",
+   "n": "Flechas Sibilantes (Melhoradas)"
+  },
+  "upgrade_khan_signal_arrow_mon": {
+   "d": "Aumenta a duração da Flecha Sinalizadora do Khan em +5 segundos e seu alcance em +2 quadrados.",
+   "n": "Flechas Sibilantes"
+  },
+  "upgrade_kharash_improvement_mon_ha_gol": {
+   "d": "Kharashs são equipados com escudos, ganhando +2 de armadura de longo alcance, +2 armadura corpo a corpo e aumentam sua vida em +25.",
+   "n": "Recuperação de Campo de Batalha"
+  },
+  "upgrade_knight_barding_hre": {
+   "d": "Concede aos Cavaleiros e Cavaleiros Negros +2 no corpo-a-corpo e +2 no alcance da armadura.",
+   "n": "Barda de Aço"
+  },
+  "upgrade_knight_war_horses_hre_ha_01": {
+   "d": "Cavaleiros Dourados sofrem -25% dano enquanto atacam.",
+   "n": "Cavalos de Guerra"
+  },
+  "upgrade_lamellar_armor_jin": {
+   "d": "A ferraria industriosa produz armaduras lamelares mais fortes para o exército. A saúde de toda a Cavalaria e Infantaria Corpo a Corpo é aumentada em +25%.",
+   "n": "Armadura Lamellar Reforçada"
+  },
+  "upgrade_lancer_healing_improved_mon": {
+   "d": "Aumenta a cura de Keshik em +2 de Vida por ataque e velocidade de ataque em +20%.\nSe Lanceiros de Estepe já foram pesquisados, aumenta a cura de Keshik em +1 de Vida por ataque e a velocidade de ataque em +10%.",
+   "n": "Lanceiros de Estepe (Melhorados)"
+  },
+  "upgrade_lancer_healing_mon": {
+   "d": "Aumenta a cura de Keshik em +1 de Vida por ataque e a velocidade de ataque em +10%.",
+   "n": "Lanceiros de Estepe"
+  },
+  "upgrade_lancer_healing_mon_ha_gol": {
+   "d": "Aumenta a cura de Keshig em +1 de Vida por ataque e a velocidade de ataque em +10%. Torguud recebem o mesmo ataque com cura que os Keshig.",
+   "n": "Lanceiros Montados de Sarai"
+  },
+  "upgrade_landmark_cavalry_bloodline_fre": {
+   "d": "Encha os estábulos com os melhores garanhões, aumentando a vida de toda a cavalaria em +35%.",
+   "n": "Linhagens Reais"
+  },
+  "upgrade_landmark_cavalry_chivalry_fre": {
+   "d": "Cavaleiros Reais regeneram +1 de vida a cada 1 segundos quando fora de combate.",
+   "n": "Ordens de Cavalaria"
+  },
+  "upgrade_landmark_enlistment_incentives_fre": {
+   "d": "Melhora a influência francesa ao reduzir os custos de unidades em -5% adicional.",
+   "n": "Incentivos de Alistamento"
+  },
+  "upgrade_landmark_enlistment_incentives_fre_ha_01": {
+   "d": "Edificações consagradas também reduzem o custo em Madeira e Ouro das unidades em 25%.",
+   "n": "Companhia de Ordenação"
+  },
+  "upgrade_landmark_force_march_sul": {
+   "d": "As unidades de infantaria ganham a habilidade de Marcha Forçada.\nQuando ativada, a infantaria se move +100% mais rápido por 10 segundos, mas quebra ao causar danos.",
+   "n": "Marcha Forçada"
+  },
+  "upgrade_landmark_hearty_rations_sul": {
+   "d": "Aumenta a capacidade de carga dos Aldeões em +10.",
+   "n": "Rações Fartas"
+  },
+  "upgrade_landmark_house_popcap_sul": {
+   "d": "Os aldeões e a infantaria podem guarnecer dentro das Casas para proteção. Casas ganham flechas de guarnição e +50% de Vida.",
+   "n": "Alicerces Reforçados"
+  },
+  "upgrade_landmark_keep_companion_upgrade_fre_ha_01": {
+   "d": "Aumente a Vida e o dano de Joana d'Arc em 25% e ganhe +1 de armadura. Aumenta a Vida e o dano dos companheiros de Joana em 20%.",
+   "n": "Equipamento de Companheiro"
+  },
+  "upgrade_landmark_keep_defense_compond_sul": {
+   "d": "Aumenta a armadura contra fogo de Torres de Muralha de Pedra, Torres de Menagem e Postos Avançados em +10.",
+   "n": "Defesas de Queima Lenta"
+  },
+  "upgrade_landmark_keep_defense_sul": {
+   "d": "Aumenta a armadura contra fogo de Torres de Muralha de Pedra, Torres de Menagem e Postos Avançados em +10.",
+   "n": "Defesas de Queima Lenta"
+  },
+  "upgrade_landmark_mahouts_sul": {
+   "d": "Elefantes se movem +10% mais rápido.",
+   "n": "Cornacas"
+  },
+  "upgrade_landmark_mahouts_sul_ha_tug": {
+   "d": "Elefantes se movem +10% mais rápido.",
+   "n": "Cornacas"
+  },
+  "upgrade_landmark_mosque_heal_sul": {
+   "d": "Mesquitas restauram +4 de vida por segundo de unidades fora de combate.",
+   "n": "Lugar Tranquilo"
+  },
+  "upgrade_landmark_paiks_sul": {
+   "d": "Arqueiros e Besteiros recebem +0.5 de alcance.",
+   "n": "Paiks"
+  },
+  "upgrade_landmark_ranged_crossbow_stirrups_fre": {
+   "d": "Aumenta a velocidade de ataque dos Besteiros Franceses em +25%.",
+   "n": "Estribos de Besta"
+  },
+  "upgrade_landmark_scholar_sight_range_sul": {
+   "d": "Aumenta o raio de visão dos Estudiosos em +100%.",
+   "n": "Olho que Tudo Vê"
+  },
+  "upgrade_landmark_scholar_speed_sul": {
+   "d": "Aumenta a velocidade de movimento dos Estudiosos em +50%.",
+   "n": "Rapidez"
+  },
+  "upgrade_landmark_siege_elephant_sul": {
+   "d": "Melhora os Elefantes com Torre para carregarem Besteiros de Elite em vez de Arqueiros. Elefantes com Torre ganham +25% de vida e +4 de armadura contra longo alcance.",
+   "n": "Howdahs"
+  },
+  "upgrade_lettre_de_change_tem": {
+   "d": "Desbloqueia as habilidades Empréstimo de Peregrino, que emprestam uma grande quantidade de comida para um retorno em ouro ao longo do tempo.",
+   "n": "Carta de Troca"
+  },
+  "upgrade_library_crossbow_upgrade": {
+   "d": "Zhuge Nu e Besteiros disparam um flecha adicional. A flecha adicional para Besteiros é 40% tão eficaz quanto a flecha anterior.",
+   "n": "10.000 Projéteis"
+  },
+  "upgrade_library_flaming_charge": {
+   "d": "Lanceiros e Ginetes ganham uma Lança de Fogo quando atacam.",
+   "n": "Rugido do Dragão"
+  },
+  "upgrade_library_improved_officials": {
+   "d": "Funcionários do Império recebem 150 de vida e sua capacidade máxima de carregar Ouro aumenta em +80. Limite de Funcionários do Império aumentado em +2.",
+   "n": "Administração Avançada"
+  },
+  "upgrade_library_siege_works": {
+   "d": "Adiciona dano em área a Bombardas.",
+   "n": "Nuvem de Terror"
+  },
+  "upgrade_library_unfailing_grit": {
+   "d": "Permite a produção de unidades de cavalaria exclusivas, a Guarda Imperial e o Saqueador Yuan.",
+   "n": "Protetores Dinásticos"
+  },
+  "upgrade_long_spear_jpn": {
+   "d": "Os lanceiros são equipados com uma lança mais forte que aumenta o alcance das armas em +20% e o dano contra cavalaria em +15%",
+   "n": "Nagae Yari"
+  },
+  "upgrade_mameluke_damage_abb": {
+   "d": "Aumenta a velocidade de ataque dos arqueiros em +33%.",
+   "n": "Arcos Compósitos"
+  },
+  "upgrade_man_at_arms_maces_hre": {
+   "d": "Homens de Armas empunham maças, aumentando seu dano bônus contra alvos pesados em +6.",
+   "n": "Maças Pesadas"
+  },
+  "upgrade_man_at_arms_two_handed_hre": {
+   "d": "Homens de Armas empunham armas de duas mãos, aumentando seu dano em +2.",
+   "n": "Armas de Duas Mãos"
+  },
+  "upgrade_manatarms_battle_hardened_chi": {
+   "d": "Aumenta a vida dos Guardas do Palácio em +30.",
+   "n": "Calejados por Batalhas"
+  },
+  "upgrade_manatarms_elite_army_tactics_improved_mon": {
+   "d": "Treinar infantaria de elite leva a uma melhor destreza em batalha. Infantaria Corpo-a-corpo ganha +20% de dano e +20% de vida.\nSe Táticas de Exército de Elite já tiver sido pesquisada, aumenta o dano em +5% e a vida em +5% em vez disso.",
+   "n": "Táticas de Exército de Elite (Melhoradas)"
+  },
+  "upgrade_mangudai_triple_shot_mon_ha_gol": {
+   "d": "Arqueiros Quipechaques disparam 2 de flechas extras, com 70% de dano reduzido cada.",
+   "n": "Tiro Triplo"
+  },
+  "upgrade_mangudai_weapon_damage_improved_mon": {
+   "d": "Aumenta o dano de longo alcance do Mangudai e do Khan em +2.\nSe você já pesquisou Lâminas do Arco de Siha, aumenta o dano de longo alcance do Mangudai e do Khan em +1.",
+   "n": "Lâminas do Arco de Siha (Melhoradas)"
+  },
+  "upgrade_mangudai_weapon_damage_mon": {
+   "d": "Aumenta o dano de longo alcance dos Mangudai e do Khan em +1.",
+   "n": "Lâminas do Arco de Siha"
+  },
+  "upgrade_manor_gold_lan": {
+   "d": "O Senhor de Lencastre cobra um imposto sobre todos os vassalos para financiar os esforços de guerra. Palacetes geram 30 de ouro por minuto.",
+   "n": "Scutage"
+  },
+  "upgrade_market_trickle_fre": {
+   "d": "Mercadores ativos geram 1 de ouro a cada 6 segundos.",
+   "n": "Guildas Mercantes"
+  },
+  "upgrade_marudo_armor_jpn": {
+   "d": "Aumenta a velocidade de movimento dos Samurais Montados em +10% enquanto a Armadura Defletiva estiver ativa.",
+   "n": "Armadura Do-maru"
+  },
+  "upgrade_melee_damage_i_jpn": {
+   "d": "Aumenta o dano corpo a corpo de todas as unidades que não sejam de cerco em +1.",
+   "n": "Tatara"
+  },
+  "upgrade_melee_damage_ii_jpn": {
+   "d": "Aumenta o dano corpo a corpo de todas as unidades que não sejam de cerco em +1.",
+   "n": "Hizukuri"
+  },
+  "upgrade_melee_damage_iii_jpn": {
+   "d": "Aumenta o dano corpo a corpo de todas as unidades que não sejam de cerco em +1.",
+   "n": "Kobuse-gitae"
+  },
+  "upgrade_melee_damage_iv_jpn": {
+   "d": "Aumenta o dano corpo a corpo de todas as unidades que não sejam de cerco em +1.",
+   "n": "Iaque-ire"
+  },
+  "upgrade_mil_camel_archers_improved_weapon_abb": {
+   "d": "Aumenta a vida de todas as infantarias em +15%.",
+   "n": "Treino Intensivo"
+  },
+  "upgrade_mil_camel_support_abb": {
+   "d": "Camelos aumentam a armadura das infantarias próximas em +2.",
+   "n": "Apoio de Camelos"
+  },
+  "upgrade_mil_infantry_support_abb_ha_01": {
+   "d": "A infantaria aumenta a armadura de camelos próximos em 3.",
+   "n": "Apoio de Infantaria"
+  },
+  "upgrade_mil_mameluke_shields_abb": {
+   "d": "Concede escudos a Cameleiros, melhorando sua armadura contra corpo a corpo em +3.",
+   "n": "Escudos de Cameleiro"
+  },
+  "upgrade_military_production_speed_mon_ha_gol": {
+   "d": "Aumenta a velocidade de produção de Edifícios Militares em +50%.",
+   "n": "Mais Provisões"
+  },
+  "upgrade_militarytactics_lan": {
+   "d": "Táticas Militares Avançadas aumentam a eficácia geral das suas tropas na batalha, melhorando seu bônus de dano em +20%.",
+   "n": "Treinamento de Táticas Militares"
+  },
+  "upgrade_mohe_ancestry_1_jin": {
+   "d": "Aumenta a taxa de coleta de carne de caça dos Aldeões em +20%.",
+   "n": "Linhagem de Mohe"
+  },
+  "upgrade_mohe_ancestry_2_jin": {
+   "d": "Aumenta a taxa de coleta de carne de caça dos Aldeões em +20%.",
+   "n": "Tradição de Caça"
+  },
+  "upgrade_mounted_samurai_odachi_jpn_ha_sen": {
+   "d": "Equipe o Samurai Montado com uma Odachi, uma espada longa que tem +4 de dano bônus contra infantaria.",
+   "n": "Samurai Odachi Montado"
+  },
+  "upgrade_naval_adaptable_hulls_rus": {
+   "d": "A conversão entre tipos de Navios Lodya é 50% mais rápida e não tem penalidade de custo.",
+   "n": "Cascos Adaptáveis"
+  },
+  "upgrade_naval_bed_crossbow_ship_jin": {
+   "d": "Substitui as armas do Navio de Espringale por Balestras de Cerco repetidoras que disparam rajadas de 2 projéteis perfurantes.",
+   "n": "Bestas Navais"
+  },
+  "upgrade_naval_explosive_techniques_chi": {
+   "d": "Navios de Guerra disparam um ataque de Ninho de Abelhas.",
+   "n": "Bombas de Trovão"
+  },
+  "upgrade_naval_firestations_hre": {
+   "d": "Navios Militares regeneram +1 de vida a cada 2 segundos quando fora de combate.",
+   "n": "Postos de Bombeiros"
+  },
+  "upgrade_naval_imperial_fleet_ott": {
+   "d": "Aumentar a velocidade de produção de Navios de Pólvora em 25% e sua velocidade de movimento em 25%.",
+   "n": "Frota Imperial"
+  },
+  "upgrade_naval_javelin_ships_mal": {
+   "d": "Navios de Arqueiros disparam mais 2 de armas de azagaia.",
+   "n": "Táticas de Canoa"
+  },
+  "upgrade_naval_long_guns_fre": {
+   "d": "Aumenta o dano dos canhões navais em +15%.",
+   "n": "Armas Longas"
+  },
+  "upgrade_naval_patchwork_repairs_sul": {
+   "d": "Baghlahs curam 30 de saúde ao matar uma unidade inimiga.",
+   "n": "Materiais Resgatados"
+  },
+  "upgrade_naval_piracy_mon": {
+   "d": "Ganhe +25 de Madeira e +25 de Ouro ao afundar um navio inimigo.",
+   "n": "Pirataria"
+  },
+  "upgrade_naval_shipwrights_eng": {
+   "d": "Aumenta o alcance de navios de combate em +1.",
+   "n": "Almirantado"
+  },
+  "upgrade_naval_springald_emplacement_tem": {
+   "d": "Adiciona uma barreira naval espringale a este Porto.",
+   "n": "Instalação Naval de Espringale"
+  },
+  "upgrade_naval_teak_masts_abb": {
+   "d": "Aumenta a vida de todos os navios militares em +10%.",
+   "n": "Mastros de teca"
+  },
+  "upgrade_nestofbees_porcupine_defense": {
+   "d": "Reforce o Ninho de Abelhas com Lanças de Fogo pontiagudas que causam 10 de dano de volta aos atacantes corpo a corpo.",
+   "n": "Defesa Porco-Espinho"
+  },
+  "upgrade_network_of_citadels_eng": {
+   "d": "Aumenta o bônus de velocidade de ataque da Rede de Castelos de +20% para +30%.",
+   "n": "Rede de Cidadelas"
+  },
+  "upgrade_odachi_jpn": {
+   "d": "Equipe o Samurai com uma Odachi, uma espada longa que tem +4 de dano bônus contra infantaria.",
+   "n": "Odachi"
+  },
+  "upgrade_official_limit": {
+   "d": "Limite de Funcionários do Império aumentado em +2. Concede um Funcionário do Império após a conclusão.",
+   "n": "Selos Vermelhos Imperiais"
+  },
+  "upgrade_official_movement_speed": {
+   "d": "Funcionários do Império se movem 50% mais rápido.",
+   "n": "Reforma do Chicote"
+  },
+  "upgrade_official_supervise": {
+   "d": "Supervisão por Funcionários do Império melhorada de 150% para 300%.",
+   "n": "Inspeção Regional"
+  },
+  "upgrade_official_supervise_defensive": {
+   "d": "Funcionários do Império agora podem supervisionar as Fortalezas e Postos Avançados para reduzir o dano que sofrem em 35%.",
+   "n": "Agência de Assuntos Militares"
+  },
+  "upgrade_ortoo_all_units_improved_mon": {
+   "d": "A aura de velocidade de Yam se aplica a todas as unidades, não só para Mercadores e unidades de cavalaria. Não se aplica a armas de cerco.\nA Rede Yam melhorada faz com que os Mercadores regenerem 1 de vida a cada 2 segundos sob a aura de Yam.",
+   "n": "Rede Yam (Melhorada)"
+  },
+  "upgrade_ortoo_all_units_mon": {
+   "d": "A aura de velocidade de Yam se aplica a todas as unidades, em vez de apenas aos Mercadores e a Unidades de Cavalaria. Não se aplica às armas de cerco.",
+   "n": "Rede Yam"
+  },
+  "upgrade_outpost_glorious_charge_mon_ha_gol": {
+   "d": "Adiciona a habilidade Ataque Glorioso aos Postos Avançados, quando ativada, ela inicia um cronômetro de 10 segundos que revela o Posto Avançado e a área próxima para todos os jogadores, quando o cronômetro terminar todas as unidades aliadas próximas receberão +50% de velocidade de movimento e levarão -15% menos dano por 30 segundos.",
+   "n": "Investida Gloriosa"
+  },
+  "upgrade_outpost_javelin_slit_mal": {
+   "d": "Adicione azagaias defensivas a esta estrutura e aumente o alcance de flechas da guarnição em +1. As Azagaias causam dano adicional a unidades de longo alcance. Apenas uma localização de arma pode ser adicionada.",
+   "n": "Localização de Azagaia"
+  },
+  "upgrade_outpost_stone_mon": {
+   "d": "Adiciona +300 de vida e +3 de armadura de fogo a todos os Postos Avançados.",
+   "n": "Pax Mongolica"
+  },
+  "upgrade_ovoo_tithe_barns_mon_ha_gol": {
+   "d": "Ovoos geram uma renda de +60 de Comida, +60 de Madeira e +10 de Ouro por minuto.",
+   "n": "Dízimo de Ovoo"
+  },
+  "upgrade_ozutsu_unlock_jpn_ha_sen": {
+   "d": "Desbloqueie uma unidade de Ozutsu Novato que está disponível na Era III.",
+   "n": "Desbloqueio de Ozutsu"
+  },
+  "upgrade_paddedjack_lan": {
+   "d": "Equipe seus Camponeses Armados e Lanceiros com Jaquetas Almofadadas, melhorando sua armadura corpo a corpo em +3.",
+   "n": "Jaqueta Almofadada"
+  },
+  "upgrade_palace_pillaging_byz_ha_mac": {
+   "d": "Cada unidade Varangiana presente para a destruição de um Marco ou Centro Urbano recompensará o jogador com uma benção de Prata.",
+   "n": "Polutasvarf"
+  },
+  "upgrade_puncture_throw_lan": {
+   "d": "Guardas do Conde são fornecidos com Adagas adicionais ao lançar, essas Adagas também causam uma pequena quantidade de dano em área.\nGuardas do Conde agora lançam 2 Adagas, mas são menos precisos.",
+   "n": "Treinos de Lançamento de Adaga"
+  },
+  "upgrade_quilted_armor_jin": {
+   "d": "Utilizando o artesanato dos caçadores locais, os Membros da Tribo Mohe equipam uma nova armadura que reduz o dano bônus recebido em -50%.",
+   "n": "Armadura Acolchoada"
+  },
+  "upgrade_raid_bounty_improved_mon": {
+   "d": "Aumenta a renda de pilhagem por incendiar uma construção para +75 de Comida e Ouro.\nSe você já pesquisou Tesouro de Pilhagem, adiciona +25 de Comida e Ouro à renda de pilhagem por incendiar uma construção.",
+   "n": "Tesouro de Pilhagem (Melhorado)"
+  },
+  "upgrade_raid_bounty_mon": {
+   "d": "Aumenta a renda de pilhagem por incendiar uma construção para +50 de Comida e Ouro.",
+   "n": "Tesouro de Pilhagem"
+  },
+  "upgrade_raid_stone_bounty_improved_mon": {
+   "d": "Adiciona +75 de Pedra à renda de pilhagem por incendiar uma construção.\nSe você já pesquisou Tesouro de Pedra, adiciona +25 de Pedra à renda de pilhagem por incendiar uma construção.",
+   "n": "Tesouro de Pedra (Melhorado)"
+  },
+  "upgrade_raid_stone_bounty_mon": {
+   "d": "Adiciona +50 de Pedra à renda de pilhagem por incendiar uma construção.",
+   "n": "Tesouro de Pedra"
+  },
+  "upgrade_ram_scaling_improved_mon": {
+   "d": "Aumenta a velocidade de ataque do Aríete em +30% e reduz o tempo de construção em campo em -75%.\nSe as telhas leves já tiverem sido pesquisadas, aumenta a velocidade de ataque em +10% e reduz o tempo de construção do campo em -25%.",
+   "n": "Telhas leves (Melhoradas)"
+  },
+  "upgrade_ranged_crossbow_drills_fre": {
+   "d": "Aumenta a armadura contra corpo a corpo do Besteiro Francês em +5.",
+   "n": "Perpontes"
+  },
+  "upgrade_ranged_crossbow_stirrups_fre": {
+   "d": "Aumenta a velocidade de ataque dos Besteiros Franceses em +25%.",
+   "n": "Estribos de Besta"
+  },
+  "upgrade_ranged_janissary_guns_ott": {
+   "d": "Aumenta o dano da arma dos Janízaros em +4.",
+   "n": "Armas dos Janízaros"
+  },
+  "upgrade_ranged_longbow_arrow_volley_eng": {
+   "d": "Arqueiros de Arco Longo ganham Saraivada de Flechas, uma habilidade ativada que reduz seu tempo de ataque em +1 segundo durante 6 segundos.",
+   "n": "Saraivada de Flechas"
+  },
+  "upgrade_reinforced_defenses_hre": {
+   "d": "Aumenta a vida das muralhas, torres e portões em +25%.",
+   "n": "Defesas Reforçadas"
+  },
+  "upgrade_reinforcements_archery_range_mon_ha_gol": {
+   "d": "Produção em lote de Campo de Arqueiros aumentada em +1, sem aumentar o custo de recursos ou o tempo de recrutamento.",
+   "n": "Reforços de Campo de Arqueiros"
+  },
+  "upgrade_reinforcements_barracks_mon_ha_gol": {
+   "d": "Produção em lote de Quartéis aumentada em +1, sem aumentar o custo de recursos ou o tempo de recrutamento.",
+   "n": "Reforços de Quartel"
+  },
+  "upgrade_reinforcements_stables_mon_ha_gol": {
+   "d": "Produção em lote de Estábulos melhorada em +1, sem aumentar o custo de recursos ou o tempo de recrutamento. A produção em lote de Torguud também é melhorada em +1.",
+   "n": "Reforços de Estábulos"
+  },
+  "upgrade_religious_monastery_ovoo_mon": {
+   "d": "Tendas de Oração permitem uma Produção melhorada dentro de sua área de influência, mesmo sem um Ovoo.",
+   "n": "Santuários Monásticos"
+  },
+  "upgrade_reload_drills_chi": {
+   "d": "Aumenta a velocidade de ataque das Bombardas em +33%.",
+   "n": "Exercícios de Recarga"
+  },
+  "upgrade_repeater_damage_chi_ha_01": {
+   "d": "Pentes mais avançados permitem que Zhuge Nu disparem flechas perfurantes com +0.5 alcance que causam +1 de dano contra Infantaria Corpo a Corpo Leve.",
+   "n": "Pentes de Flechas"
+  },
+  "upgrade_rhomphaia_byz_ha_mac": {
+   "d": "Os Guardas Varangianos e Riddari equipam uma poderosa espada Rhomphaia, aumentando o dano de infantaria leve dos Guardas em 3 e o dano de Riddari em 3.",
+   "n": "Romfaia"
+  },
+  "upgrade_rule_of_templars_tem": {
+   "d": "Ganhe +2 de dano de carga por cada Cavalaria Pesada próxima em carga.",
+   "n": "Comando dos Templários"
+  },
+  "upgrade_safe_passage_tem": {
+   "d": "Ativa Peregrinos.\nPeregrinos surgem a cada 60 segundos. Começa com 1 Peregrino, recebe 1 Peregrinos para cada Fortaleza (Máx 10).",
+   "n": "Passagem Segura"
+  },
+  "upgrade_saints_blessing_buff_effect_rus": {
+   "d": "Melhora o alcance da Bênção Santa em +5 quadrados e o dano concedido pela Bênção Santa por +1.",
+   "n": "Fervor"
+  },
+  "upgrade_saints_blessing_duration_rus": {
+   "d": "Aumenta a duração da Bênção Santa em +10 segundos.",
+   "n": "Luz Divina"
+  },
+  "upgrade_saints_veneration_rus": {
+   "d": "Aumenta a vida dos Monges Guerreiros em +100.",
+   "n": "Veneração do Santo"
+  },
+  "upgrade_samurai_bow_jpn_ha_sen": {
+   "d": "Samurai de Naginata podem disparar um arco Yumi periodicamente à distância.",
+   "n": "Arco Samurai"
+  },
+  "upgrade_sanctuary_tem": {
+   "d": "As garantias de santuário concedem 1 de Peregrinação adicional.",
+   "n": "Santuário"
+  },
+  "upgrade_shipofthecrown_lan": {
+   "d": "Investir em cascos de navios maiores e melhores aumenta o dano da Carraca em 20%, a vida em 15% e o alcance em 10%.",
+   "n": "Navios da Coroa"
+  },
+  "upgrade_shire_levy_2": {
+   "d": "Convocar 5 Demilanceiros.",
+   "n": "Reúna os nobres"
+  },
+  "upgrade_shire_levy_3": {
+   "d": "Convocar 12 Camponeses Armados.",
+   "n": "Convocação do Condado"
+  },
+  "upgrade_shire_levy_4": {
+   "d": "Convocar 10 Demilanceiros, 10 Guardas do Conde e 10 Camponeses Armados.",
+   "n": "Programa de Milícia Exata"
+  },
+  "upgrade_shrine_bunrei_jpn": {
+   "d": "Aumenta o número máximo de Yorishiro em +2. Cria imediatamente 2 de Yorishiro no Portão Flutuante.",
+   "n": "Bunrei"
+  },
+  "upgrade_shrine_gion_jpn": {
+   "d": "Aumenta a linha de visão de todas as construções em + 2 quadrados. A cada 3 minutos, todas as unidades econômicas curam 100% da vida delas durante 3 segundos.",
+   "n": "Festival de Gion"
+  },
+  "upgrade_shrine_rituals_jpn": {
+   "d": "Aumenta a vida do Sacerdote Xintoísta em + 40, taxa de cura em + 60% e a velocidade de movimento em + 15%.",
+   "n": "Rituais Xintoísta"
+  },
+  "upgrade_siege_carpentry_abb_ha_01": {
+   "d": "Após a conclusão, as unidades de cerco obtêm acesso à habilidade Reforços Estruturais.\nUnidades de Cerco ganham +20 de armadura contra corpo a corpo e +5 de armadura de fogo por 10 segundos.",
+   "n": "Carpintaria de Cerco"
+  },
+  "upgrade_siege_crew_training_rus": {
+   "d": "A velocidade de montagem e desmontagem de Trabucos, Manganelas e Bombardeios é instantânea.",
+   "n": "Treinamento de Equipe de Cerco"
+  },
+  "upgrade_siege_fined_tuned_guns_rus": {
+   "d": "Aumenta o dano das Bombardas em +20%. Bombardas ganham +50 de dano contra Infantaria.",
+   "n": "Armas Ajustadas"
+  },
+  "upgrade_siege_improvements_rus": {
+   "d": "Dano do Aríete aumentado em +25%. O aríete cura 2 de vida a cada 1 segundos.",
+   "n": "Cidade Nômade"
+  },
+  "upgrade_siege_mathematics_improved_mon": {
+   "d": "Aumenta o dano dos Trabucos em +30%.\nCaso a Geometria já tiver sido pesquisada, aumenta o dano em +10%.",
+   "n": "Geometria (Melhorada)"
+  },
+  "upgrade_siege_roller_trigger_improved_mon": {
+   "d": "Aumenta a velocidade de ataque da Espringale em +35%, concede +10% de Resistência à Ataques de Longo Alcance e aumenta vida em +10.\nSe Acionadores de Porta de Aço já foi pesquisado, aumenta a velocidade de ataque em 10% e a vida em +10 no lugar dos efeitos descritos acima.",
+   "n": "Acionadores de Porta de Aço (Melhorados)"
+  },
+  "upgrade_siege_setup_damage_byz_ha_mac": {
+   "d": "As unidades de cerco causarão 10% de dano adicional a cada 10 segundos em que forem configuradas - até um máximo de 50%.",
+   "n": "Cerco Prolongado"
+  },
+  "upgrade_siege_weapon_speed_1_jin": {
+   "d": "Aumenta a velocidade de movimento das armas de cerco em +10%.",
+   "n": "Armações Leves"
+  },
+  "upgrade_siege_weapon_speed_2_jin": {
+   "d": "Aumenta ainda mais a velocidade de movimento das armas de cerco em mais +10%.",
+   "n": "Eixos Reforçados"
+  },
+  "upgrade_siege_weapon_speed_improved_mon": {
+   "d": "Aumenta a velocidade de movimento das armas de cerco em +25%.\nSe você já pesquisou Eixos Lubrificados, o aumento será de +10%.",
+   "n": "Eixos Lubrificados (Melhorados)"
+  },
+  "upgrade_siege_works_improved_mon": {
+   "d": "Novas técnicas de carpintaria aumentam a vida das armas de cerco em +30%.\nSe a Oficina de Cerco já tiver sido pesquisada, em vez disso, a vida aumenta em +10%.",
+   "n": "Trabalhos de Cerco (Melhorados)"
+  },
+  "upgrade_sofa_armor_mal": {
+   "d": "Aumenta a armadura dos Ginetes Sofa em +2.",
+   "n": "Armadura Importada"
+  },
+  "upgrade_sofa_farima_leadership_mal": {
+   "d": "Os Sofa aumentam a velocidade de movimento da infantaria próxima em +15%.",
+   "n": "Liderança Farima"
+  },
+  "upgrade_spear_horseman_damage_hre": {
+   "d": "Aumenta o dano de Lanceiros e Cavaleiros em +2.",
+   "n": "Lanças Perfuradoras"
+  },
+  "upgrade_spearman_horseman_range_jpn_ha_sen": {
+   "d": "Aumenta a velocidade de movimento dos Lanceiros em +10% e o dano contra Trabalhadores em +5.",
+   "n": "Lâminas Leves"
+  },
+  "upgrade_springald_range_rus": {
+   "d": "Aumenta o alcance de Espringales em +1 quadrados.",
+   "n": "Braços Cintados"
+  },
+  "upgrade_stealth_healing_mal": {
+   "d": "Musofadi Guerreiros e Musofadi Canhoneiros ganham + 5 de cura a cada ataque por 5 segundos após saírem da furtividade.",
+   "n": "Conhecimento Local"
+  },
+  "upgrade_storm_lances_jin": {
+   "d": "Lanceiros estão equipados com Lanças da Tempestade, ganhando um ataque explosivo à distância com tempo de recarga.",
+   "n": "Lanças da Tempestade"
+  },
+  "upgrade_synchronizedshot_lan": {
+   "d": "Libera a habilidade Tiro Sincronizado em Camponeses Armados.",
+   "n": "Tiro Sincronizado"
+  },
+  "upgrade_tanegashima_pavise_jpn_ha_sen": {
+   "d": "Tanegashima Ashigaru implantará automaticamente um escudo em pé se não estiver se movendo, aumentando o alcance da arma em +2 quadrados e a armadura de longo alcance em +2.",
+   "n": "Escudo de Tanegashima"
+  },
+  "upgrade_teardrop_shields_byz": {
+   "d": "Aumenta a armadura dos Catafractários em +1, velocidade de movimento do Limítane em +15%, e velocidade de ataque da Guarda Varangiana em +15%.",
+   "n": "Escudos de Pipa"
+  },
+  "upgrade_tech_military_academy_improved_mon": {
+   "d": "Aumenta em 53% a velocidade de produção das unidades de infantaria, cavalaria, cerco e transporte das construções.\nNão afeta unidades religiosas ou outras unidades de apoio.\nSe a Academia Militar já tiver sido pesquisada, aumenta a velocidade de produção em 20%.",
+   "n": "Academia Militar (Melhorada)"
+  },
+  "upgrade_tech_rain_of_fire_jin": {
+   "d": "Torres de Menagem e Torres de Muralha de Pedra ganham um ataque de granada contra unidades próximas que causa dano explosivo. Inimigos, cuidado.",
+   "n": "Chuva de Fogo"
+  },
+  "upgrade_tech_stronghold_arrows_byz_ha_mac": {
+   "d": "Aprimora todas as Fortalezas Varangianas com posições padrão de fenda de flecha que causam 10 de dano com alcance de arma de 6 blocos.",
+   "n": "Fenda de Flechas Defensivas da Fortaleza"
+  },
+  "upgrade_tech_university_biology_improved_mon": {
+   "d": "Investir em ciências naturais aumenta a vida de toda a cavalaria em +35%.\nSe Biologia já tiver sido pesquisada, aumente-a em +10%.",
+   "n": "Biologia (Melhorada)"
+  },
+  "upgrade_temple_fivemountain_jpn": {
+   "d": "Templos Budistas lançam Sohei Sura em um inimigo próximo a cada 6 segundos.",
+   "n": "Cinco Ministérios da Montanha"
+  },
+  "upgrade_temple_monk_healing_jpn_ha_sen": {
+   "d": "A aura de ataque de Monges Ikko-ikki aumenta em +1 .",
+   "n": "Medicina Kampo"
+  },
+  "upgrade_temple_monk_health_attack_jpn_ha_sen": {
+   "d": "Aumenta a vida de Monges Ikko-ikki em +60 e o dano corpo a corpo em +2.",
+   "n": "Nenbutsu"
+  },
+  "upgrade_temple_monk_move_speed_jpn_ha_sen": {
+   "d": "Aumenta a velocidade de movimento do Monge Ikko-ikki em +33%.",
+   "n": "Treino no Cume da Montanha"
+  },
+  "upgrade_temple_nehan_jpn": {
+   "d": "Atualiza a Conversão Budista para a Conversão de Nehan, que tem uma espera de 25% menor e melhora ainda mais a velocidade de movimento das unidades aliadas próximas em +25% quando lançada.",
+   "n": "Nehan"
+  },
+  "upgrade_temple_zen_jpn": {
+   "d": "Monges Budistas geram 25 de ouro a cada 60 segundos.",
+   "n": "Zen"
+  },
+  "upgrade_tent_castle_1_tribute_mon_ha_gol": {
+   "d": "A Tenda Dourada pode produzir unidades exclusivas rapidamente a um custo de Pedra com desconto, e o custo de Pedra Torguud e velocidade de produção são diminuídos em 20% e Tributos Rus são melhorados com maior armadura e um machado bardiche.",
+   "n": "Exércitos de Pedra"
+  },
+  "upgrade_tent_castle_2_batch_production_mon_ha_gol": {
+   "d": "A Tenda Dourada gerará 10 de Ouro a cada 10 segundos para cada Posto Avançado Fortificado, até um máximo de 6 Postos Avançados Fortificados.",
+   "n": "Comércio de Rede de Yam"
+  },
+  "upgrade_tent_dark_1_khan_mon_ha_gol": {
+   "d": "Reduz o custo do Khan e dos Torguuds em -20% e aumenta a vida deles em +30.",
+   "n": "Khan e Torguuds"
+  },
+  "upgrade_tent_dark_2_cart_mon_ha_gol": {
+   "d": "Produz 2 Carrinhos de Construção que podem ser desmontados em uma Construção Militar.\nUm carrinho de construção adicional é produzido ao avançar para Eras posteriores.",
+   "n": "Carrinhos de Construção"
+  },
+  "upgrade_tent_feudal_1_pasture_mon_ha_gol": {
+   "d": "Os territórios conquistados rus fornecem escudos maiores para a Infantaria Pesada e a Cavalaria Pesada, aumentando sua armadura à distância em +2. \nMadeira também é gerada à taxa de 200 por minuto, mas reduzida em 2 de Madeira para cada unidade equipada com um escudo rus.",
+   "n": "Yasak da Moscóvia"
+  },
+  "upgrade_tent_feudal_2_relics_mon_ha_gol": {
+   "d": "Xamãs podem consumir uma relíquia mantida em um Ovoo que pode exceder o limite de construção. Aumenta a taxa de coleta de Pedra do Ovoo em 20%.",
+   "n": "Ovoos de Relíquias"
+  },
+  "upgrade_towershields_jin": {
+   "d": "Equipar grandes escudos-torre concede aos Homens de Armas +3 de armadura contra ataques à distância.",
+   "n": "Escudos-Torre"
+  },
+  "upgrade_trade_commodity_trade_abb": {
+   "d": "Mercadores e Navios de Comércio também retornam com um recurso secundário. Esse recurso equivale a 25% do valor base do Ouro e é definido no mercado.",
+   "n": "Grande Bazar"
+  },
+  "upgrade_trade_gold_income_abb": {
+   "d": "Aumenta a renda de Ouro dos Mercadores e Navios de Comércio em +30%.",
+   "n": "Rotas das Especiarias"
+  },
+  "upgrade_trade_trader_armor_abb": {
+   "d": "Concede +3 de armadura para Mercadores e Navios de Comércio.",
+   "n": "Caravanas de Armadura"
+  },
+  "upgrade_trader_silkroad_stone_improved_mon": {
+   "d": "Mercadores fornecem +20% de Pedra para seus negócios.\nCaso o Comércio de Pedras já tenha sido pesquisado, eles fornecerão +10% de Pedra.",
+   "n": "Comércio de Pedra (Melhorado)"
+  },
+  "upgrade_trader_silkroad_stone_mon": {
+   "d": "Mercadores fornecem +10% de Pedra para suas negociações.",
+   "n": "Comércio de Pedra"
+  },
+  "upgrade_transport_breachhead_mon_ha_gol": {
+   "d": "Aríetes ganham uma habilidade que imobiliza a si mesmos, ganhando bônus defensivos fortes e permitindo que disparem várias flechas.",
+   "n": "Cabeça de ponte"
+  },
+  "upgrade_treasure_tower_tem": {
+   "d": "Aumenta a geração de ouro de Mosteiros, Locais Sagrados e Peregrinos em 20% dentro da aura de uma Fortaleza.",
+   "n": "Torres do Tesouro"
+  },
+  "upgrade_trebuchet_aoe_eng": {
+   "d": "Os projéteis do trabuco se estilhaçam no impacto, aumentando a área de efeito.",
+   "n": "Projéteis de Estilhaço"
+  },
+  "upgrade_trebuchet_pilipao_jin": {
+   "d": "Granadas Explosivas atiradas por Trabucos e Ninho de Abelhas afugentam defensores inimigos, reduzindo o dano de construção atacada em 20% por 8 segundos. Trabucos e Ninho de Abelhas ganham +1 de alcance.",
+   "n": "Pili Pao"
+  },
+  "upgrade_trebuchet_projectiles": {
+   "d": "Todas as armas de Trabuco ganham +1 projéteis adicionais.",
+   "n": "Defesas de Contrapeso"
+  },
+  "upgrade_unit_healer_elephant_4_sul_ha_tug": {
+   "d": "Aprimorar Elefantes Curandeiros para Elefantes Curandeiros de Elite",
+   "n": "Melhorar para Elite"
+  },
+  "upgrade_unit_mercenary_3_tower_alt_byz": {
+   "d": "Melhorar Mercenários Experientes para Mercenários Veteranos.",
+   "n": "Contrato de Veterano"
+  },
+  "upgrade_unit_mercenary_4_tower_alt_byz": {
+   "d": "Melhorar Mercenários Veteranos para Mercenários de Elite.",
+   "n": "Contrato de Elite"
+  },
+  "upgrade_unit_religious_herbal_medicine_4_improved_mon": {
+   "d": "Aumenta a taxa de cura das Unidades Religiosas em +90%.\nSe você já pesquisou a Medicina Herbal, o aumento será de +30%.",
+   "n": "Medicina Herbal (Melhorada)"
+  },
+  "upgrade_unit_religious_piety_4_improved_mon": {
+   "d": "Aumenta a vida de Xamãs em +60.\nSe você já pesquisou Devoção, o aumento será de +20.",
+   "n": "Devoção (Melhorada)"
+  },
+  "upgrade_unit_religious_sanctity_4_sul": {
+   "d": "Permite que os Estudiosos capturem Locais Sagrados antes da Era dos Castelos (III). Locais Sagrados geram +25% de Ouro.",
+   "n": "Santidade"
+  },
+  "upgrade_unit_religious_tithe_barn_4_improved_mon": {
+   "d": "Relíquias colocadas em uma Tenda de Oração fornecem um suprimento de 60 de Comida, +60 de Madeira e +15 de Pedra a cada minuto. \nSe você já pesquisou Celeiros de Dízimos, aumenta o suprimento de Comida e Madeira em +20 e Pedra em +5.",
+   "n": "Celeiros de Dízimos (Melhorados)"
+  },
+  "upgrade_unit_religious_zealous_4_sul": {
+   "d": "Unidades curadas pelos Estudiosos têm +50% de velocidade de ataque por 3 segundos.",
+   "n": "Zelar"
+  },
+  "upgrade_unit_town_center_faster_packing_1_improved_mon": {
+   "d": "Construções desmontadas se movem + 70% mais rápido e são montadas/desmontadas +50% mais rápido.\nSe Mobilidade Superior já tiver sido pesquisada, aumenta a velocidade em + 20%.",
+   "n": "Mobilidade Superior (Melhorada)"
+  },
+  "upgrade_unit_town_center_faster_packing_1_mon": {
+   "d": "Construções desmontadas são movimentadas e desmontadas/montadas 50% mais rápido.",
+   "n": "Mobilidade Superior"
+  },
+  "upgrade_unit_town_center_wheelbarrow_1_jpn": {
+   "d": "Aumenta a capacidade de carga dos Aldeões em +3, velocidade de movimento em +7% e +25% de taxa de coleta de Arbustos de Frutas.",
+   "n": "Tawara"
+  },
+  "upgrade_unit_town_center_wheelbarrow_2_jpn": {
+   "d": "Aumenta a capacidade de carga dos Aldeões em +3, velocidade de movimento em +7% e +25% de taxa de coleta de Arbustos de Frutas.",
+   "n": "Takezaiku"
+  },
+  "upgrade_unit_town_center_wheelbarrow_3_jpn": {
+   "d": "Aumenta a capacidade de carga dos Aldeões em +3, velocidade de movimento em +7% e +25% de taxa de coleta de Arbustos de Frutas.",
+   "n": "Fudasashi"
+  },
+  "upgrade_unit_war_elephant_ballista_4_sul_ha_tug": {
+   "d": "Aprimorar Elefantes Balistas em Elefantes Balistas de Elite",
+   "n": "Balista de Braço Reforçado"
+  },
+  "upgrade_unit_wheelbarrow_1_improved_mon": {
+   "d": "Aumenta a capacidade de carga de recursos dos Aldeões em +9 e a velocidade de movimento em +15%.\nSe você já pesquisou Carrinho de Mão, a capacidade de carga aumentará em +4.",
+   "n": "Carrinho de Mão (Melhorado)"
+  },
+  "upgrade_varangian_berserk_speed_byz": {
+   "d": "Os Guardas Varangianos aumentam sua velocidade de movimento em +30% ao ativar Berserking.",
+   "n": "Velocidade Feroz"
+  },
+  "upgrade_varangian_bowmen_blinding_byz_ha_mac": {
+   "d": "Arsenais Varangianos fabricam flechas mais letais, fazendo com que unidades atingidas pelo Bogmaðr tenham seu dano reduzido em 20% por 5 segundos.",
+   "n": "Cegueira Ruinosa"
+  },
+  "upgrade_villager_health_improved_mon": {
+   "d": "Aumenta a vida de Aldeões em +50%.\nSe você já pesquisou Tecidos, a vida aumenta em +100%.",
+   "n": "Tecidos (Melhorados)"
+  },
+  "upgrade_wall_repair_chi": {
+   "d": "Torres e Torres de Menagem reparam muralhas e portões próximos em +25 de vida por segundo.",
+   "n": "Materiais Extras"
+  },
+  "upgrade_warwolf_lan": {
+   "d": "A experiência adquirida ao construir trabucos maiores aumenta seu alcance em +2 e sua vida em +50%.",
+   "n": "Trabuco Licantropo"
+  },
+  "upgrade_weapon_fire_damage_improved_mon": {
+   "d": "Aumenta o dano de tocha da infantaria e da cavalaria em +5.\nSe você já pesquisou Tochas Adicionais, o dano de tocha da infantaria e da cavalaria é aumentado em +2.",
+   "n": "Tochas Adicionais (Melhoradas)"
+  },
+  "upgrade_weapon_fire_damage_mon": {
+   "d": "Aumenta o dano de tocha da infantaria e da cavalaria em +3.",
+   "n": "Tochas Adicionais"
+  },
+  "upgrade_wooden_castle_turret_rus": {
+   "d": "Aumenta o dano das flechas disparadas desta Fortaleza de Madeira em +2.",
+   "n": "Torreta do Castelo"
+  },
+  "upgrade_wooden_castle_watch_rus": {
+   "d": "Aumenta o raio de visão desta Fortaleza de Madeira em 6 quadrados.",
+   "n": "Vigia do Castelo"
+  },
+  "upgrade_yari_horse_training_jpn_ha_sen": {
+   "d": "A velocidade de movimento da Cavalaria é aumentada em 10%.",
+   "n": "Treinamento de Cavalos"
+  },
+  "upgrade_yari_improved_damage_jpn_ha_sen": {
+   "d": "Aumenta o dano anticavalaria da Cavalaria Yari em +2.",
+   "n": "Yari Melhorada"
+  },
+  "upgrade_yatai_farm_gather_jpn_ha_sen": {
+   "d": "Yatai podem coletar Comida de Campos Agrícolas próximos, com cada Campo fornecendo +4 Comida / min. Aumenta a taxa máxima para 80 de Comida / min.",
+   "n": "Coleta de Fazenda Yatai"
+  },
+  "upgrade_yumi_damage_jpn_ha_sen": {
+   "d": "Concede +1 de dano bônus a Yumi Ashigaru.",
+   "n": "Higoyumi"
+  },
+  "upgrade_zornhau_hre_ha_01": {
+   "d": "Os Lansquenetes Dourados usam uma alabarda que causa ferimentos aos inimigos. Quando é atingida por esta arma, uma unidade sangra por 2 de dano a cada segundo. Dura 10 segundos.\nQualquer efeito de cura remove o sangramento.",
+   "n": "Zornhau"
+  }
+ },
+ "terms": {
+  "i-food": "Comida",
+  "i-gold": "Ouro",
+  "i-silver": "Prata",
+  "i-stone": "Pedra",
+  "i-vizier": "Pontos de Vizir",
+  "i-wood": "Madeira"
+ },
+ "traits": {
+  "ab-1": {
+   "d": "Assuma a busca dos abássidas pelo conhecimento pesquisando tecnologias exclusivas que beneficiam unidades de Camelos, Militares, Religiosas, Econômicas e Comerciais.\nAvance pelas eras melhorando até 4 Alas da Casa da Sabedoria.",
+   "t": "Busca do Conhecimento"
+  },
+  "ab-2": {
+   "d": "Camelos assustam unidades a cavalo inimigas com sua presença, reduzindo o dano delas em -20%.",
+   "t": "Guerreiros a Camelo"
+  },
+  "ab-3": {
+   "d": "A infantaria pode construir Aríetes, Torres de Cerco, Espringales e Manganelas sem precisar da tecnologia de Engenharia de Cerco.",
+   "t": "Especialistas em Cerco"
+  },
+  "ab-4": {
+   "d": "Transforme Arbustos de Frutas Silvestres em Pomares construindo Moinhos perto deles, aumentando a capacidade de Comida em +100.\nAldeões coletam 25% mais rápido de Arbustos de Frutas Silvestres, mas não podem coletar de Javalis.\nOs aldeões carregam +3 de Comida de Arbustos de Frutas Silvestres.",
+   "t": "Grandes Pomares"
+  },
+  "ab-5": {
+   "d": "Os Mercadores Terrestres são 33% mais baratos.",
+   "t": "Economia Comercial"
+  },
+  "ab-6": {
+   "d": "Docas podem ser construídas por -50% de Madeira.",
+   "t": "Estaleiros"
+  },
+  "ab-7": {
+   "d": "Construa para chegar à Era de Ouro, melhorando economia e tecnologia.\nEdificações dentro da influência da Casa da Sabedoria recebem +5 de armadura contra fogo e contribuem com um ponto para a Era de Ouro. Os limites para desbloqueio são de 10, 30 e 60 edificações.\n• Nível 1: +15% de taxa de coleta de Aldeão\n• Nível 2: +20% de velocidade de pesquisa\n• Nível 3: +20% de taxa de coleta de Aldeão para todos os recursos. +20% de velocidade de pesquisa. +20% de velocidade de produção.",
+   "t": "Era de Ouro"
+  },
+  "ab-8": {
+   "d": "Arqueiros a Camelo: cavalaria de longo alcance leve que causa dano bônus à infantaria corpo a corpo leve.\nCameleiros: cavalaria corpo a corpo leve que causa dano bônus à cavalaria.\nGhulam: infantaria resistente com ataque duplo.",
+   "t": "Unidades Exclusivas"
+  },
+  "ay-1": {
+   "d": "Avance pelas eras escolhendo entre 8 Alas exclusivas na Casa da Sabedoria.\nGanhe acesso imediato a bônus nas áreas de Economia, Tecnologia e Militar sem precisar de qualquer melhoria para adaptar a civilização às necessidades da batalha.\nCada Ala fornece bônus mais poderosos quando construídas em Eras posteriores.",
+   "t": "Comandante Adaptável"
+  },
+  "ay-2": {
+   "d": "Camelos assustam unidades a cavalo inimigas com sua presença, reduzindo o dano delas em -20%.",
+   "t": "Guerreiros a Camelo"
+  },
+  "ay-3": {
+   "d": "A infantaria pode construir Armas de Cerco no campo sem a necessidade da tecnologia Engenharia de Cerco.\nAcesso a duas armas de cerco exclusivas e uma melhoria de cerco exclusiva.",
+   "t": "Mestres da Técnica de Cerco"
+  },
+  "ay-4": {
+   "d": "Transforme Arbustos de Frutas Silvestres em Pomares construindo Moinhos perto deles, aumentando a capacidade de Comida em +100.\nAldeões coletam 25% mais rápido de Arbustos de Frutas Silvestres, mas não podem coletar de Javalis.\nOs aldeões carregam +3 de Comida de Arbustos de Frutas Silvestres.",
+   "t": "Grandes Pomares"
+  },
+  "ay-5": {
+   "d": "Os Mercadores Terrestres são 33% mais baratos.",
+   "t": "Economia Comercial"
+  },
+  "ay-6": {
+   "d": "Docas podem ser construídas por -50% de Madeira.",
+   "t": "Estaleiros"
+  },
+  "ay-7": {
+   "d": "Construa para chegar à Era de Ouro, melhorando economia, tecnologia e exército.\nConstruções dentro da influência da Casa da Sabedoria recebem +5 de armadura de fogo e contribuem com um ponto para a Era de Ouro. Os limites para desbloqueios são de 10, 20, 30, 50 e 75 construções.\n• Nível 1: Taxa de coleta de Aldeões +10%\n• Nível 2: Velocidade de pesquisa +25%\n• Nível 3: Velocidade de produção +20%\n• Nível 4: Unidades de cerco custam 20% menos recursos para produzir\n• Nível 5: Unidades a camelo atacam 20% mais rápido.",
+   "t": "Era de Ouro"
+  },
+  "ay-8": {
+   "d": "Saqueador do Deserto: Cameleiro versátil que pode alternar entre os modos corpo a corpo e a distância.\nLanceiro a Camelo: Camelo pesado com um poderoso ataque de investida.\nDervixe: unidade religiosa montada com uma poderosa capacidade de cura.\nManjaniq: Manganela exclusiva que pode usar um modo Incendiário para causar dano em uma área muito aumentada.\nTorre do Sultão: Arma de cerco gigante tripulada por arqueiros e equipada com um aríete para dano devastador contra construções.",
+   "t": "Unidades Exclusivas"
+  },
+  "by-1": {
+   "d": "Colete um recurso exclusivo que é usado para contratar unidades Mercenárias. Aldeões coletam Azeite igual a 50% da Comida coletada por Arbustos de Frutas Silvestres, 20% dos Olivais e 10% de peixes da costa.\nBarcos de Pesca geram Azeite igual a 20% de Comida de Peixes e Mercadores fornecem 20% de Azeite com base na quantidade sendo negociada.",
+   "t": "Azeite"
+  },
+  "by-2": {
+   "d": "Adquira contratos ou estabeleça o controle de Feitorias para recrutar unidades únicas de outras civilizações com Azeite na Casa Mercenária.",
+   "t": "Mercenários"
+  },
+  "by-3": {
+   "d": "As cisternas fornecem aos Aldeões próximos taxas de coleta aumentadas e uma influência que aprimora as construções próximas, melhorando a velocidade de produção da unidade, a velocidade de pesquisa ou a defesa da construção. \nConstrua uma rede de Aquedutos e conecte-a às Cisternas para aumentar sua produção de bônus.",
+   "t": "Cisternas e Aquedutos"
+  },
+  "by-4": {
+   "d": "Coleta Pedra de cada construção construída. O tamanho da Construção determina a quantidade de Pedra coletada.",
+   "t": "Pedras de Campo"
+  },
+  "by-5": {
+   "d": "Quirossifões, juntamente com Drómons e Trabucos melhorados, atiram Fogo Grego ao atacar, envolvendo a área em chamas e causando dano contínuo.",
+   "t": "Fogo Grego"
+  },
+  "by-6": {
+   "d": "Postos Avançados e Torres de Menagem podem ser melhoradas com instalações de Manganela. Torres de Muralha de Pedra vêm equipadas com instalações Manganelas em vez de Espringales.",
+   "t": "Localizações de Manganela"
+  },
+  "by-7": {
+   "d": "Limítane: Substituto do Lanceiro. Infantaria corpo a corpo leve com a habilidade Parede de Escudos para aumentar a armadura de longo alcance ao custo da velocidade de movimento.\nGuarda Varangiana: Substituto do Homem de Armas. Use a habilidade Berserking para aumentar o dano ao custo da armadura. Pode construir Navios de Transporte e aumentar a armadura dos transportes quando guarnecidos. Ganha aumento de velocidade de movimento ao desembarcar de Navios de Transporte.\nCatafractário: Substituição do Cavaleiro. Cavalaria pesada com Atropelar, uma poderosa habilidade direcionada que atravessa e causa dano aos inimigos em seu caminho.\nQuirosifão: Um aríete equipado com um ataque de Fogo Grego de curto alcance.\nDrómon: Substituto do navio Espringale. Equipado com Fogo Grego.",
+   "t": "Unidades Exclusivas"
+  },
+  "ch-1": {
+   "d": "Comece sua jornada na Dinastia Tang, aumenta a linha de visão dos Batedores +30% e fornece acesso à vila.\nConstrua os dois Marcos de uma Era para iniciar as Dinastias com bônus especiais, construções exclusivas e unidades.\n• Dinastia Song: produza aldeões +33% mais rápidos, desbloqueia o Celeiro e Zhuge Nu.\n• Dinastia Yuan: velocidade de movimento de oficiais e unidades militares +15%, desbloqueia Pagode e Lanceiro Montado de Fogo.\n• Dinastia Ming: unidades militares +15% de vida, desbloqueia Granadeiro.",
+   "t": "Grandes Dinastias"
+  },
+  "ch-2": {
+   "d": "Aldeões constroem defesas + 50% mais rápido e todas as outras construções + 100% mais rápido. Docas trabalham +10% mais rápido.",
+   "t": "Fabricações Rápidas"
+  },
+  "ch-3": {
+   "d": "Comece o jogo com a tecnologia Química concedida gratuitamente. Construções defensivas usam Fendas de Canhão de Mão em vez de Seteiras de Defesa.",
+   "t": "Mestres da Pólvora"
+  },
+  "ch-4": {
+   "d": "Unidades treinadas, tecnologias pesquisadas e recursos entregues geram impostos (Ouro) que podem ser coletados por Funcionários do Império.",
+   "t": "Impostos"
+  },
+  "ch-5": {
+   "d": "Coloque construções militares e econômicas dentro da influência do marco Academia Imperial para gerar +100% de Ouro de impostos.",
+   "t": "Influência"
+  },
+  "ch-6": {
+   "d": "Funcionário do Império: Use a habilidade Supervisionar para aumentar a velocidade de produção de construções militares e de pesquisa em +150%; supervisionar construções econômicas aumenta a quantidade de recursos entregues pelos Aldeões em +20%.\nZhuge Nu: Infantaria de longo alcance leve com um ataque rápido eficaz contra unidades leves.\nGuarda do Palácio: Substituto do Homem de Armas. Infantaria corpo a corpo pesada que troca armadura por velocidade de movimento.\nNinho de Abelhas: Substituto da Manganela. Arma de cerco que dispara uma barragem de foguetes, causando dano em área.\nLanceiro Montado de Fogo: Cavalaria leve, eficaz contra armas de cerco e construções. Possui amplo raio de visão e um ataque de carga explosivo.\nGranadeiro: Infantaria de longo alcance leve que lança granadas, causando dano em área.",
+   "t": "Unidades Exclusivas"
+  },
+  "de-1": {
+   "d": "Treine Estudiosos em Mesquitas na Era das Trevas (I). Pesquise e desbloqueie tecnologias religiosas mais cedo que outras civilizações.",
+   "t": "Cultura Erudita"
+  },
+  "de-2": {
+   "d": "Economize no custo de tecnologias e pesquise todas elas gratuitamente, mas muito mais lentamente — é possível pausar e retomar a pesquisa de tecnologias.",
+   "t": "Conquistas de Estudo"
+  },
+  "de-3": {
+   "d": "Estabeleça assentamentos fortificados usando unidades de infantaria que podem construir Paliçadas. Construa o Marco Complexo do Defensor para estender essa habilidade às Muralhas de Pedra.",
+   "t": "Fortificações da Fronteira"
+  },
+  "de-4": {
+   "d": "Os navios de pesca podem se defender com ataque à distância e têm 50% de vida adicional.",
+   "t": "Ajudantes de Convés Defensivos"
+  },
+  "de-5": {
+   "d": "Transforme Arbustos de Frutas Silvestres em Pomares construindo Moinhos perto deles, aumentando a capacidade de Comida em +100.\nAldeões coletam 25% mais rápido de Arbustos de Frutas Silvestres, mas não podem coletar de Javalis.\nOs aldeões carregam +3 de Comida de Arbustos de Frutas Silvestres.",
+   "t": "Produção do Jardim"
+  },
+  "de-6": {
+   "d": "Estudiosos guarnecidos em uma Mesquita, Madraça ou Doca aumentarão a velocidade de pesquisa das construções que estão sob sua influência, com base em quantos Estudiosos estão guarnecidos globalmente. As Docas trabalham mais rápido quando guarnecidas por Estudiosos.",
+   "t": "Influência"
+  },
+  "de-7": {
+   "d": "Estudioso: unidade religiosa com capacidade de cura na Era das Trevas (I).\nElefante de Guerra: cavalaria corpo a corpo pesada, montada por um Lanceiro que tem muita vida e causa muito dano com um forte ataque de cerco.\nElefante com Torre: cavalaria de longo alcance montada por dois Arqueiros que podem disparar enquanto ela se move.\nSaqueador Gazi: ginete rápido empunhando uma maça pesada",
+   "t": "Unidades Exclusivas"
+  },
+  "en-1": {
+   "d": "Proteja a fronteira com Centros Urbanos, Postos Avançados, Torres de Muralha de Pedra e Fortalezas que aumentam a velocidade de ataque de unidades próximas em +20% quando os inimigos estiverem dentro do alcance.\nPesquise a tecnologia da Rede de Cidadelas nas Fortalezas para aumentar ainda mais a velocidade de ataque em +30%.",
+   "t": "Rede de Castelos"
+  },
+  "en-2": {
+   "d": "As Torres de Menagem possuem a habilidade exclusiva de produzir todas as unidades militares.",
+   "t": "Produção da Torre de Menagem"
+  },
+  "en-3": {
+   "d": "Homem de armas da vanguarda disponível na Era das Trevas (I) — homens de armas ingleses são produzidos +40% mais rápido.",
+   "t": "Chamado às Armas"
+  },
+  "en-4": {
+   "d": "O Centro Urbano da Capital dispara uma flecha adicional e os Aldeões empunham arcos curtos ao atacar unidades inimigas.",
+   "t": "Burhs Defensivos"
+  },
+  "en-5": {
+   "d": "A construção de Fazendas fica 50% mais barata.\nPesquise a tecnologia Cercamentos na Era Imperial (IV) para permitir que os Aldeões gerem +1 de Ouro a cada 6 segundos ao trabalhar nas Fazendas.",
+   "t": "Ilha da Agricultura"
+  },
+  "en-6": {
+   "d": "O condicionamento naval aumenta a eficiência das Docas, reduzindo os custos de construção de navios em -10%.",
+   "t": "Construtores Navais"
+  },
+  "en-7": {
+   "d": "A velocidade de colheita de Fazendas aumenta dentro da influência de um Moinho em +20/25/30/30% após cada avanço de era.",
+   "t": "Influência"
+  },
+  "en-8": {
+   "d": "Batedores e Homens de Armas podem criar uma Fogueira, que aumenta o alcance de visão de unidades próximas em +30% e a taxa de coleta de caçadores próximos em +10%.",
+   "t": "Mata do Rei"
+  },
+  "en-9": {
+   "d": "Arqueiro de Arco Longo: Arqueiro com +2 de alcance e +1 de dano que vem com a habilidade de Estaca Defensiva para atordoar e causar dano à cavalaria inimiga.",
+   "t": "Unidades Exclusivas"
+  },
+  "fr-1": {
+   "d": "Mobilize o Cavaleiro Real na Era Feudal (II) e pesquise tecnologias exclusivas poderosas para a cavalaria.",
+   "t": "Garanhões Reais"
+  },
+  "fr-2": {
+   "d": "Controle uma economia superior com -50% entregas de recursos mais baratas e -35% tecnologias econômicas mais baratas.\nVelocidade de produção do Centro Urbano aumentada por era +15%, +15%, +20%, +25%.",
+   "t": "Economia do Continente"
+  },
+  "fr-3": {
+   "d": "Escolha devolver Comida, Madeira ou Ouro aos Mercados com Mercadores e Navios de Comércio.\nNavios de Comércio devolvem +20% mais recursos.\nAs Feitorias são reveladas no minimapa no início do jogo.\nAs Docas fornecem espaço para populações.",
+   "t": "Economia Comercial"
+  },
+  "fr-4": {
+   "d": "Ferrarias concedem tecnologias de dano corpo a corpo gratuitamente após cada avanço de era.",
+   "t": "Dádiva do Ferro"
+  },
+  "fr-5": {
+   "d": "Mantenha ofensivas com Torres de Menagem -10% mais baratas que reduzem em -20% o custo das unidades produzidas nos Campos de Arqueiros e Estábulos sob sua influência.",
+   "t": "Influência"
+  },
+  "fr-6": {
+   "d": "Cavaleiro Real: Cavalaria Pesada que ganha +3 de dano bônus por 5 segundos após completar uma carga.\nBesteiro Francês: Besteiro com +1 de armadura contra corpo a corpo que pode plantar um Pavês defensivo que fornece +5 de armadura contra longo alcance e +1 de alcance de arma por 30 segundos.\nCanhão: substituto da Bombarda com mais dano, mobilidade e sem tempo de preparação.\nGaleaça: grande galé de guerra que tem uma bombarda de longo alcance montada na frente.\nCoca de Guerra: Navio Espingale único com custo reduzido e maior armadura contra longo alcance.",
+   "t": "Unidades Exclusivas"
+  },
+  "gol-1": {
+   "d": "A Tenda Dourada é o único ponto de referência da Horda Dourada, que pode ser aprimorado para avançar para a próxima era e aumentar a vida da construção. Um decreto pode ser escolhido na Tenda Dourada, o que altera a influência ou o bônus de aura concedidos pelos Postos Avançados Fortificados.\nO Khan dos Batu e Torguud podem ser recrutados na Tenda Dourada.",
+   "t": "Tenda Dourada"
+  },
+  "gol-2": {
+   "d": "As unidades são produzidas em lotes de dois. É possível pesquisar tecnologias que melhorem a produção em lote.",
+   "t": "Hordas"
+  },
+  "gol-3": {
+   "d": "Construa o Curral em vez de Fazendas ou Pastos para obter Comida — os Currais têm carcaças de Ovelhas que podem ser coletadas e entregues diretamente no Curral.",
+   "t": "Curral"
+  },
+  "gol-4": {
+   "d": "Postos Avançados Fortificados têm mais vida e fornecem bônus de influência ou aura dependendo do Decreto escolhido na Tenda Dourada.",
+   "t": "Postos Avançados Fortificados"
+  },
+  "gol-5": {
+   "d": "Unidades desembarcadas do Navio de Transporte ficam mais rápidas e duráveis, com +50% de vida e +15% de velocidade de movimento.",
+   "t": "Transportes Aprimorados"
+  },
+  "gol-6": {
+   "d": "Explore a Rota da Seda com Mercadores que recebem recursos extra do comércio com base no seu número total de Mercadores ativos.\n• 5+ Mercadores: +10% de Comida\n• 10+ Mercadores: +10% de Comida e Madeira\n• 15+ Mercadores: +10% de Comida, Madeira e Ouro",
+   "t": "Rota da Seda"
+  },
+  "gol-7": {
+   "d": "Construa Ovoos sobre afloramentos de Pedra para coletar Pedra sem a necessidade de Aldeões. O número máximo de Ovoos que podem ser construídos aumenta em +1 a cada avanço de era.",
+   "t": "Tecnologia de Pedra e Ovoos"
+  },
+  "gol-8": {
+   "d": "Os batedores podem mobilizar a habilidade Falcão Batedor para vigiar a área ao redor.",
+   "t": "Falcão Batedor"
+  },
+  "gol-9": {
+   "d": "Khan da Horda Dourada: Cavalaria Pesada que aumenta em força com o avanço da era. Pode disparar uma flecha que aumenta o dano recebido pelos inimigos em uma área. O Khan também fornecerá uma aura de dano de ataque crescente quanto mais tempo o Khan estiver em combate.\nTorguud: Cavalaria Pesada que pode proteger o Khan, redirecionando qualquer dano recebido pelo Khan para o Torguud.\nQuipechaque: Unidades fracas de Infantaria Corpo a Corpo Leve que fornecem armadura para aliados próximos.\nMangudai: Arqueiro montado que dispara flechas de fogo que causam sangramento no alvo atingido.\nTrabuco de Tração: Velocidade de movimento, tempo de preparação e velocidade de ataque mais rápidos.\nKeshig: Cavalaria Pesada disponível na Era Feudal, regenera Vida após cada ataque.",
+   "t": "Unidades Exclusivas"
+  },
+  "hl-1": {
+   "d": "Construa Palacetes para gerar renda passiva na Era Feudal. Palacetes funcionam como um depósito para todos os tipos de recursos e fornecem +10 de espaço populacional. Cada Palacete gera 30 de Comida e 10 de Madeira por minuto, além de 4 de Comida e 2 de Madeira adicionais para cada aldeão próximo. \nAumente o limite de construção de Palacetes com tecnologias exclusivas.",
+   "t": "Feudalismo"
+  },
+  "hl-2": {
+   "d": "Cada Centro Urbano gera 4 ovelhas após sua conclusão. Os aldeões coletam de ovelhas +20% mais rápido.",
+   "t": "Indústrias da Lã"
+  },
+  "hl-3": {
+   "d": "O Centro Urbano da Capital dispara uma flecha adicional e os Aldeões empunham arcos curtos ao atacar unidades inimigas.",
+   "t": "Burhs Defensivos"
+  },
+  "hl-4": {
+   "d": "Torres de Menagem concedem 3 Guardas do Conde gratuitos ao serem construídas. Cada torre de menagem Ativa concede +1 de dano aos Guardas do Conde e Demilanceiros até um máximo de +4.",
+   "t": "Uma Casa Unificada"
+  },
+  "hl-5": {
+   "d": "O condicionamento naval aumenta a eficiência das Docas, reduzindo os custos de construção de navios em -10%.",
+   "t": "Construtores Navais"
+  },
+  "hr-1": {
+   "d": "Demonstre o poder do império colocando Relíquias em Postos Avançados, Torres e Torres de Menagem, aumentando a armadura deles em +25%, o dano em +25%, o alcance em +25% e o campo de visão em +20%. \n Relíquias colocadas em Docas aumentam a velocidade de ataque de navios em +5% por Relíquia (Máx. +25%).\n Relíquias colocadas em construções geram +80 de Ouro por minuto.",
+   "t": "Fervor Religioso"
+  },
+  "hr-2": {
+   "d": "A infantaria se move 5% mais rápido na Era das Trevas (I) e 10% mais rápido na Era Feudal (II). Melhore a infantaria com tecnologias impactantes e crie Homens de Armas Novatos na Era feudal (II).",
+   "t": "Exército do Império"
+  },
+  "hr-3": {
+   "d": "Todas as tecnologias de colocação são -20% mais baratas. O alcance de visão do Posto Avançado aumentado em +20%.",
+   "t": "Arquitetura de Instalação"
+  },
+  "hr-4": {
+   "d": "Aldeões carregam +40% mais recursos do que os de outras civilizações.",
+   "t": "Carrinhos de Mão"
+  },
+  "hr-5": {
+   "d": "Construções dentro da influência de um Centro Urbano ganham a habilidade Reparos Emergenciais, que pode ser ativada para reparar a construção em +150 de vida por segundo durante 20 segundos.",
+   "t": "Influência"
+  },
+  "hr-6": {
+   "d": "Prelado: Use a habilidade Inspiração Sagrada nos Aldeões, aumentando sua taxa de coleta em +35% por 30 segundos.\nLansquenete: Infantaria corpo a corpo leve com uma grande espada de duas mãos capaz de causar danos significativos em área.\nCavaleiro Negro: Poderoso artilheiro blindado montado. A produção é limitada pelo número de Fortalezas construídas.",
+   "t": "Unidades Exclusivas"
+  },
+  "ja-1": {
+   "d": "Centros Urbanos podem ser melhorados para construções especiais chamadas de Mansão Daimyo, Palácio Daimyo e Castelo de Xogunato. Essas construções fornecem bônus para Fazendas de Trabalho de Aldeões próximas em 20%, 40%, 60%, aumenta a capacidade de Samurai Porta-Estandarte em +1, +2, +3 e melhora suas defesas.",
+   "t": "Daimyo"
+  },
+  "ja-2": {
+   "d": "Mobilize Porta-Estandartes Samurais de Elite que aumentam o dano da infantaria próxima em +15% e da cavalaria em +10%. Porta-estandartes Samurais derrubam seus estandartes ao morrer, concedendo o mesmo efeito por um período de tempo.",
+   "t": "Samurai Hatamoto"
+  },
+  "ja-3": {
+   "d": "Produz Samurais na Era das Trevas (I). Samurais têm a habilidade Armadura Deflexiva, que pode bloquear periodicamente ataques corpo a corpo ou a distância.",
+   "t": "Calmaria da Mente"
+  },
+  "ja-4": {
+   "d": "A Forja é um ponto de entrega de Ouro e Pedra e substitui o Campo de Mineração e a Ferraria. Além disso, fornece tecnologia de dano corpo a corpo adicional na Era das Trevas (I). A Fazenda fornece população e substitui o Moinho como ponto de entrega de Comida.",
+   "t": "Fazenda e Forja"
+  },
+  "ja-5": {
+   "d": "Acesse uma Torre de Menagem mais poderosa na Era Imperial (IV) que vem com a vida e as Localizações de Foguetes aumentadas por um custo maior. Os foguetes atacam rapidamente e causam grande dano em alvos únicos.",
+   "t": "Fortaleza de Oda"
+  },
+  "ja-6": {
+   "d": "Quando Aldeões depositam Ouro, 20% de Pedra extra também é produzido e vice-versa.",
+   "t": "Mineração de Prata"
+  },
+  "ja-7": {
+   "d": "Selecione entre Xintoísmo e Budismo com sua escolha de Marco da Era III. Se escolher Xintoísmo, você desbloqueia o Sacerdote Xintoísta. Se escolher Budismo, você desbloqueia o Monge Budista. Essas unidades religiosas oferecem bônus exclusivos.",
+   "t": "Escolha Religiosa"
+  },
+  "ja-8": {
+   "d": "Os Quartéis são 50% mais baratos de construir.",
+   "t": "Distritos de Samurai"
+  },
+  "ja-9": {
+   "d": "Os Barcos Pesqueiros são produzidos 25% mais barato.",
+   "t": "Vila dos Pescadores"
+  },
+  "je-1": {
+   "d": "Joane d'Arc chega no campo de batalha. Uma unidade heroica que ganha experiência ao concluir tarefas como reunir recursos, erguer construções e participar de combates.\nDepois de acumular experiência suficiente, Joana pode subir de nível para obter poderosas habilidades econômicas e de combate.",
+   "t": "Jornada de Um Herói"
+  },
+  "je-2": {
+   "d": "Mobilize o Cavaleiro Real na Era Feudal (II) e pesquise tecnologias exclusivas poderosas para a cavalaria.",
+   "t": "Garanhões Reais"
+  },
+  "je-3": {
+   "d": "As pessoas trabalham mais sob a liderança de Joana d'Arc. Melhorias econômicas são 35% mais baratas.",
+   "t": "Economia Galvanizada"
+  },
+  "je-4": {
+   "d": "Escolha devolver Comida, Madeira ou Ouro aos Mercados com Mercadores e Navios de Comércio.\nNavios de Comércio devolvem +20% mais recursos.\nAs Feitorias são reveladas no minimapa no início do jogo.\nAs Docas fornecem espaço para populações.",
+   "t": "Economia Comercial"
+  },
+  "je-5": {
+   "d": "Joana d'Arc: uma unidade heroica que começa como aldeão, Joana começa a Jornada de uma Heroína para conquistar habilidades poderosas.\nCavaleiro de Joana: Cavalaria Rápida eficaz em atacar, flanquear e combater Bestas, torna-se disponível assim que Joana atinge o nível 3.\nCampeão de Joana: infantaria forte que se destaca no combate a lanceiros, torna-se disponível assim que Joana atinge o nível 3.\nCavaleiro Real: Cavalaria pesada que ganha +3 de dano bônus por 5 segundos após completar uma carga.\nBesteiros Franceses: Besteiro com +1 de armadura corpo a corpo que pode plantar um Pavês defensivo para fornecer +5 de armadura de longo alcance e +1 de alcance de arma por 30 segundos.\nCanhão: Substituto da Bombarda com mais dano, mobilidade e sem tempo de preparação.\nGaleaça: grande galé de guerra que tem uma bombarda de longo alcance montada à frente. \nCoca de Guerra: Navio Espringale exclusivo com custo reduzido e maior penetração de armadura.",
+   "t": "Unidades Exclusivas"
+  },
+  "jin-1": {
+   "d": "Escolha entre 3 locais ao completar um Marco para construir Pastagens, que gradualmente geram até 5 Cavalos em seu campo. Cavalos aumentam a Vida de toda a Cavalaria Corpo a Corpo em +2 e de toda a Cavalaria à Distância em +1, ou podem ser usados por Estábulos dentro da Influência das Pastagens para treinar rapidamente qualquer unidade montada. Pastagens produzem um novo Cavalo a cada 90/60/45 segundos na Era Feudal/Castelos/Imperial.",
+   "t": "Pastagens"
+  },
+  "jin-2": {
+   "d": "Ancestralidade nômade permite até 20 Aldeões Montados que se reúnem, constroem e se movem significativamente mais rápido, mas custam mais. Estabeleça Estados Tributários com Feitorias para aumentar o limite máximo de construção em +3.",
+   "t": "Legado de Jurchén"
+  },
+  "jin-3": {
+   "d": "Aprimore estruturas defensivas com Localizações de Meng'an Mouke, que enviam defensores para proteger terras próximas. As Localizações também produzem defensores lentamente para repor perdas.",
+   "t": "Meng'an Mouke"
+  },
+  "jin-4": {
+   "d": "Treine até 2 de Emissários que vêm equipados com duas habilidades poderosas.\nEstabeleça Tributários em Povoados Comerciais Neutros para ganhar um aliado leal, que reúne comida em seu nome, aumenta o limite de construção de Aldeão de Montaria em +3 e aumenta a renda de seus comerciantes em +15%.\nLance Suborno em grupos de unidades inimigas, transformando inimigos em combatentes neutros que lutam contra tudo em seu caminho.",
+   "t": "Emissários"
+  },
+  "jin-5": {
+   "d": "Construa a Oficina de Máquinas na Era Feudal, concedendo acesso antecipado a Balestra de Cerco, um substituto do espringale que dispara dois projéteis contra formações inimigas. Localizações de Balestra de Cerco substituem Localizações de Espringale em todas as estruturas defensivas.",
+   "t": "Experiência em Cerco"
+  },
+  "kt-1": {
+   "d": "Avance a Era no Centro Urbano estabelecendo uma das três Comendas únicas. Cada Comenda desbloqueia permanentemente uma unidade e um bônus exclusivos.",
+   "t": "Estabelecer Comendas"
+  },
+  "kt-2": {
+   "d": "Fortalezas substituem Torres de Menagem e estão disponíveis na Era Feudal.\nUnidades de longo alcance posicionadas perto de uma Fortaleza têm +15% de aumento no alcance de ataque, e Muralhas de Pedra colocadas sob a influência de uma Fortaleza ou do Quartel-General dos Templários têm +25% de aumento de vida e ganham uma flecha por padrão.\nFortalezas se comportam como Marcos, mas podem ser totalmente destruídas.",
+   "t": "Esquemas Defensivos Francos"
+  },
+  "kt-3": {
+   "d": "Os Cavaleiros Templários não podem treinar Comerciantes, em vez disso, eles geram ouro de peregrinações bem-sucedidas. Ao atingir a Era Feudal, os Cavaleiros Templários podem oferecer Passagem Segura para Peregrinos viajarem para um Local Sagrado.\nA cada 60 segundos, um grupo de Peregrinos viajará do Quartel-General dos Templários para o Local Sagrado selecionado, gerando ouro na chegada com base na distância percorrida. O tamanho do grupo é aumentado em 1 para cada Fortaleza ativa até um máximo de 10.\nLocais Sagrados e Relíquias são revelados no início do jogo.",
+   "t": "Peregrinação"
+  },
+  "kt-4": {
+   "d": "Construa Portos em vez de Docas, que são mais caros, mas têm mais vida, uma base mais forte, mais espaço de guarnição para navios de pesca e aumentam a vida dos navios próximos.",
+   "t": "Portos Costeiros"
+  },
+  "kt-5": {
+   "d": "Aldeões depositam madeira automaticamente sem um Campo Madeireiro.\nMadeira é coletada +20% mais rápido em cada Era e 20% da madeira coletada é produzida como comida adicional.",
+   "t": "Preservação da Paisagem"
+  },
+  "kt-6": {
+   "d": "Trebuchets fire additional projectiles and can be deployed atop Fortresses with a unique emplacement.\nSiege Workshops and Siege Engines cost -25% less wood.",
+   "t": "Especialistas em Cerco"
+  },
+  "kt-7": {
+   "d": "Irmão Templário: Substituto de Cavaleiro. Mais caro que um Cavaleiro normal, mas tem vida e dano adicionais.\nEra Feudal\nComenda do Cavaleiro Hospitaleiro - Cavaleiro Hospitalário: Infantaria Pesada de Combate Corpo-a-corpo que pode curar unidades aliadas próximas.\nComenda do Reino da França - Cavaleiro Acompanhante: Cavalaria Pesada mais barata que um Cavaleiro normal. Ganha vida adicional para cada unidade de Cavalaria Pesada próxima.\nComenda do Principado de Antioquia - Sargento: Infantaria Pesada com boa armadura de combate corpo-a-corpo. Arremessa machados que causam dano corpo a corpo à distância.\nEra do Castelo\nComenda do Império Angevino - Lanceiro Pesado: Lanceiro Blindado que é mais forte em Fortalezas.\nComenda da República de Gênova - Besteiro Genovês: Besteiro caro que causa dano adicional à infantaria corpo a corpo.\nComenda do Reino de Castela - Genitor: Lançador de Dardo Montado que se destaca contra unidades de longo alcance.\nEra Imperial\nComenda do Reino da Polônia - Cavalaria Szlachta: Cavalaria de Elite com armadura de longo alcance excepcional. Atrasa os ataques dos inimigos e causa dano adicional à infantaria leve.\nComenda da Ordem Teutônica - Cavaleiro Teutônico: Infantaria Pesada Absurdamente Poderosa que ganha poder para cada inimigo abatido em combate. Reduz a armadura de inimigos próximos.\nComenda da República de Veneza - Condottiero: Infantaria rápida que custa apenas ouro. Forte contra unidades de pólvora.\nGaleia Veneziana: Grande embarcação a remo com um trabuco de longo alcance montado na frente.\nComerciante Veneziano: Comerciante caro, mas rápido. Limite máximo de construção de 5.",
+   "t": "Unidades Exclusivas"
+  },
+  "ma-1": {
+   "d": "Controle uma economia de Ouro superior e construa a Mina a Céu Aberto sobre Veios de Ouro na Era das Trevas (I) para gerar Ouro sem esgotar. Os Aldeões podem minerar Ouro enquanto a Mina está ativa.\nSe o Veio de Ouro estiver completamente esgotado, a Mina continuará a extrair Ouro do depósito.",
+   "t": "Minas a Céu Aberto"
+  },
+  "ma-2": {
+   "d": "Cada Casa e Campo de Mineração construído dentro da influência de Minas a Céu Aberto aumenta sua geração de Ouro:\nCentros Urbanos custam ouro em vez de pedra para construir.",
+   "t": "Influência - Comunidades Mineiras"
+  },
+  "ma-3": {
+   "d": "Produza Gado a partir de Moinhos na Era das Trevas (I). Aldeões Malianos coletam Comida do Gado mais rápido do que outras civilizações ou podem ser guarnecidos no Rancho de Gado para Comida ao longo do tempo.",
+   "t": "Gado e Ranchos"
+  },
+  "ma-4": {
+   "d": "Unidades únicas Musofadi Guerreira e Musofadi Canhoneira podem usar a habilidade de Ativar Furtividade para se esgueirar e criar oportunidades de emboscada.",
+   "t": "Desbravadora Musofadi"
+  },
+  "ma-5": {
+   "d": "As tecnologias de unidades veteranas desbloqueadas na Idade dos Castelos (III) custam metade do tempo e do preço para serem pesquisadas.",
+   "t": "Conhecimento de Farari"
+  },
+  "ma-6": {
+   "d": "Mercadores e Navios de Comércio que passam por Postos Avançados de Portagem fornecem recursos bônus instantâneos com base nos negócios atuais. Não gera nenhum imposto de bônus se um Posto Avançado de Portagem for construído no alcance de outro.",
+   "t": "Postos Avançados de Portagem"
+  },
+  "ma-7": {
+   "d": "O Ouro coletado a partir de rotas comerciais concluídas reduz o tempo de pesquisa de tecnologias futuras.",
+   "t": "Comércio de Manuscritos"
+  },
+  "ma-8": {
+   "d": "Os Barcos de Pesca entregam 10% de sua Comida como Ouro.",
+   "t": "Processamento de Peixes"
+  },
+  "ma-9": {
+   "d": "A velocidade de movimento de todos os navios aumentou quando perto de suas Docas.\nnavios de transporte atacam com azagaias para cada unidade guarnecida.",
+   "t": "Grupos de Terra"
+  },
+  "mac-1": {
+   "d": "Os aldeões descobrem abundantes depósitos de galena entre Veios de Ouro e Afloramentos de Pedra e extraem Prata como um recurso exclusivo ao minerar.\nOs aldeões extraem Prata igual a 40% de Ouro ou Pedra extraída.",
+   "t": "Coleta de Galena"
+  },
+  "mac-2": {
+   "d": "Os Arsenais Varangianos geram influência para que os Campos de Mineração e Centros Urbanos comecem a processar Prata ao longo do tempo. O valor de Prata processado é baseado no valor total de Prata depositado pelos Aldeões.",
+   "t": "Influência - Cunhagem de Prata"
+  },
+  "mac-3": {
+   "d": "Pesquise tecnologias militares exclusivas no Arsenal Varangiano para conseguir Prata. Substitui o Ferreiro e a Universidade. A Dinastia Macedônia pode exceder três níveis de melhorias militares por categoria.",
+   "t": "Ferraria Varangiana"
+  },
+  "mac-4": {
+   "d": "Fortifique o império com Fortalezas Varangianas que podem produzir todas as unidades Varangianas e se defender com flechas.",
+   "t": "Fortalezas"
+  },
+  "mac-5": {
+   "d": "Escolha reforços no Acampamento de Guerra Varangiano. Uma vez que guerreiros suficientes caem na batalha, guerreiros Varangianos livres chegam ao acampamento de guerra para reforçar as fileiras perdidas.\nSe adjacentes à água, os barcos podem ser selecionados como reforços.",
+   "t": "Acampamento de Guerra"
+  },
+  "mac-6": {
+   "d": "Entalhe Pedras Rúnicas para homenagear vitórias passadas em combate. Depois que inimigos suficientes caírem para os Varangianos, uma Pedra Rúnica pode ser criada para inspirar os Varangianos próximos com bônus de combate em uma área.",
+   "t": "Pedras Rúnicas Varangianas"
+  },
+  "mac-7": {
+   "d": "Quirossifões, juntamente com Drómons, Espringales e Trabucos melhorados, atiram Fogo Grego ao atacar, envolvendo a área em chamas e causando dano contínuo.",
+   "t": "Fogo Grego"
+  },
+  "mac-8": {
+   "d": "Postos Avançados e Torres de Menagem podem ser melhoradas com instalações de Manganela. Torres de Muralha de Pedra vêm equipadas com instalações Manganelas em vez de Espringales.",
+   "t": "Localizações de Manganela"
+  },
+  "mac-9": {
+   "d": "Atgeirmaðr: Substituição de Lanceiro. Infantaria corpo a corpo leve com uma habilidade passiva que aumenta sua velocidade de ataque quando unidades varangianas estão próximas.\nBogmaðr: Substituição do Arqueiro. Infantaria leve de longo alcance com a capacidade de contornar a armadura ao custo da velocidade de movimento. \nGuarda Varangiano Novato: Substituição do Homem de Armas. Use a habilidade Berserking para aumentar o dano ao custo da armadura. Pode construir Navios de Transporte e aumentar a armadura dos transportes quando guarnecido.\nRiddari: Substituição do Cavaleiro. Cavalaria pesada com a capacidade de lançar machados à distância por um período de tempo.\nQuirosifão: Um aríete equipado com um ataque de fogo grego de curto alcance.\nDrómon: Substituição do navio Espringale. Equipado com Fogo Grego.",
+   "t": "Unidades Exclusivas"
+  },
+  "mo-1": {
+   "d": "Todas as construções podem ser desmontadas e instaladas em um novo local.\nAbra mão da necessidade de construir Casas e comece o jogo com a população máxima.\nResponda rapidamente aos movimentos dos inimigos com uma rede de Postos Avançados que fornece +15% de velocidade de movimento para unidades de cavalaria e Mercadores próximos.",
+   "t": "Grande Domínio"
+  },
+  "mo-2": {
+   "d": "Mobilize o poderoso Khan na Era das Trevas (I) para fornecer bônus poderosos a todas as unidades militares próximas com Flechas Sinalizadoras.\nKhans e Batedores podem usar a habilidade Falcão Batedor para vigiar a área ao redor.",
+   "t": "Canato"
+  },
+  "mo-3": {
+   "d": "Construa Estábulos já na Era das Trevas e treine Ginetes +25% mais rápido.",
+   "t": "Ginetes Especialistas"
+  },
+  "mo-4": {
+   "d": "Construa Pastos em vez de Fazendas para criar Ovelhas para obter Comida — Pastagens produzem Ovelhas mais rapidamente dentro da influência de um Ovoo.",
+   "t": "Coletores Nômades"
+  },
+  "mo-5": {
+   "d": "Saqueie construções inimigas por +25 de Comida e Ouro quando incendiada ou destruída em construção.",
+   "t": "Tesouro de Pilhagem"
+  },
+  "mo-6": {
+   "d": "Unidades desembarcadas do Navio de Transporte ficam mais rápidas e duráveis, com +50% de vida e +15% de velocidade de movimento.",
+   "t": "Transportes Aprimorados"
+  },
+  "mo-7": {
+   "d": "Explore a Rota da Seda com Mercadores que recebem recursos extra do comércio com base no seu número total de Mercadores ativos.\n• 5+ Mercadores: +10% de Comida\n• 10+ Mercadores: +10% de Comida e Madeira\n• 15+ Mercadores: +10% de Comida, Madeira e Ouro",
+   "t": "Rota da Seda"
+  },
+  "mo-8": {
+   "d": "Construa o Ovoo sobre afloramentos de Pedra para gerar influência e coletar Pedra sem precisar usar Aldeões. Ovoos coletam +70, 100, 130, 160 de Pedra por minuto após cada avanço de era.\nConstruções dentro da influência de um Ovoo podem dobrar as unidades de produção ou pesquisar versões melhoradas de tecnologias usando Pedra.",
+   "t": "Influência"
+  },
+  "mo-9": {
+   "d": "Khan: arqueiro montado que aumenta sua força e desbloqueia as habilidades da Flecha Sinalizadora após cada avanço de era.\n• Flecha de Manobra: velocidade de movimento aumentada em +33%.\n• Flecha de Velocidade de Ataque: velocidade de ataque aumentada em +50%.\n• Flecha de Armadura: armadura aumentada em +2.\nMangudai: arqueiro montado que pode disparar enquanto se move em todas as direções.\nTrabuco de Tração: velocidade de movimento, instalação e ataque mais rápidos.\nKeshig: cavalaria pesada disponível na Era Feudal, regenera Vida a cada ataque.",
+   "t": "Unidades Exclusivas"
+  },
+  "od-1": {
+   "d": "Aldeões coletam 28% mais rápido, constroem e reparam construções 20% mais rápido, mas custam 20% mais Comida para produzir.",
+   "t": "Aldeões Eficientes"
+  },
+  "od-2": {
+   "d": "Demonstre o poder do império colocando Relíquias em Postos Avançados, Torres e Torres de Menagem, aumentando a armadura deles em +25%, o dano em +25%, o alcance em +25% e o campo de visão em +20%. \n Relíquias colocadas em Docas aumentam a velocidade de ataque de navios em +5% por Relíquia (Máx. +25%).\n Relíquias colocadas em construções geram +80 de Ouro por minuto.",
+   "t": "Fervor Religioso"
+  },
+  "od-3": {
+   "d": "Pesquise tecnologias como Tochas Pesadas, Armadura de Escamas e Cavalos de Guerra para fortalecer ainda mais o poder da Ordem.",
+   "t": "Equipamento de Elite"
+  },
+  "od-4": {
+   "d": "Todas as tecnologias de colocação são -20% mais baratas. O alcance de visão do Posto Avançado aumentado em +20%.",
+   "t": "Arquitetura de Instalação"
+  },
+  "od-5": {
+   "d": "Aldeões carregam +40% mais recursos do que os de outras civilizações.",
+   "t": "Carrinhos de Mão"
+  },
+  "od-6": {
+   "d": "Construções dentro da influência de um Centro Urbano ganham a habilidade Reparos Emergenciais, que pode ser ativada para reparar a construção em +150 de vida por segundo durante 20 segundos.",
+   "t": "Influência"
+  },
+  "od-7": {
+   "d": "As unidades de infantaria e cavalaria de elite da Ordem, como o Homem de Armas Dourado, o Cavaleiro Dourado e outros, têm quase o dobro da vida das unidades regulares e causam significativamente mais dano. No entanto, são muito mais custosas para treinar e exigem o dobro do espaço populacional.",
+   "t": "Unidades Exclusivas"
+  },
+  "ot-1": {
+   "d": "Construa a Escola Militar que pode produzir um tipo específico de unidade continuamente e sem custo. No entanto, elas são produzidas a um ritmo mais lento.",
+   "t": "Treinamento da Escola Militar"
+  },
+  "ot-2": {
+   "d": "Treinar unidades e avançar eras dá experiência em direção aos Pontos de Vizir, quanto maior o custo da ação, mais experiência é obtida. Ganhe até cinco Pontos de Vizir e gaste-os para desbloquear poderosos bônus otomanos únicos.",
+   "t": "Conselho Imperial"
+  },
+  "ot-3": {
+   "d": "Treine, aprimore e monte um exército com construções militares e tecnológicos mais baratas.",
+   "t": "Indução Militar"
+  },
+  "ot-4": {
+   "d": "A velocidade de movimento dos Barcos de Pesca, Navios de Comércio e Navios de Transporte aumentou.",
+   "t": "Rotas de Envio"
+  },
+  "ot-5": {
+   "d": "Construções de produção militar criadas sob a influência de um Ferreiro ou Universidade ganham maior velocidade de produção a cada avanço de era.",
+   "t": "Influência"
+  },
+  "ot-6": {
+   "d": "Sipahi: Substituto de Ginete. Ative a habilidade de Fortaleza para atacar mais rápido, mas receba mais danos de armas corpo-a-corpo.\nMehter: tocador de tambor de guerra montado que fornece melhorias militares para unidades próximas ao acionar a habilidade de Tambores de Guerra.\n• Tambores de Ataque: Maior velocidade de ataque.\n• Tambores Contra Corpo-a-Corpo: Armadura contra corpo-a-corpo melhorada.\n• Tambores Contra Longo Alcance: Armadura contra longo alcance melhorada.\nJanízaro: Poderoso canhoneiro de mão que pode reparar armas de cerco e causar dano bônus a cavalarias.\nGrã-Galé: Grande galé de guerra que pode se converter em uma Escola Militar flutuante.\nGrã-Bombarda: Maior arma de cerco de pólvora que pode ser colocada em campo. Tem ataque de longo alcance e de dano de área.\nAkinji: Cavalaria de longo alcance que dispara duas flechas em rápida sucessão. Deve ser desbloqueado através do Conselho Imperial.",
+   "t": "Unidades Exclusivas"
+  },
+  "ru-1": {
+   "d": "Fortifique a região rural com Fortalezas de Madeira que substituem Postos Avançados — elas possuem +100% de vida e +3 espaços de guarnição.\nConstrua a Paliçada Fortificada — possui +100% de vida e tempo de construção mais rápido.",
+   "t": "Federação Florestal"
+  },
+  "ru-2": {
+   "d": "Viva da terra com Batedores treinados em Cabanas de Caça. Essas Cabanas de Caça oferecem os mesmos benefícios de um Moinho padrão, mas com a habilidade de enxergar dentro de Florestas Furtivas e gerar Ouro com base no número de árvores próximas.",
+   "t": "Príncipes Caçadores"
+  },
+  "ru-3": {
+   "d": "Coloque em campo o Cavaleiro Novato na Era Feudal (II).",
+   "t": "Séquito de Druzhina"
+  },
+  "ru-4": {
+   "d": "O Navio Lodya pode ser convertido em qualquer tipo de navio por um custo.\nNavios de Pesca Lodya processam Comida diretamente na embarcação, não precisando mais voltar às Docas para entregar Comida.",
+   "t": "Reconstituição de Lodya"
+  },
+  "ru-5": {
+   "d": "A coleta de animais selvagens concede uma recompensa em Ouro e atingir certas metas do total de recompensas oferece bônus econômicos para Aldeões e Cabanas de Caça. \n 100 Recompensa\n• +5% de coleta de alimentos\n• As Cabanas de Caça geram 10% mais de Ouro\n400 Recompensa\n• +10% taxa de coleta de comida\n• As Cabanas de Caça geram 25% mais de Ouro\n1000 Recompensa\n• +15% taxa de coleta de comida\n• As Cabanas de Caça geram 40% mais de Ouro",
+   "t": "Recompensas de Prêmio"
+  },
+  "ru-6": {
+   "d": "Supervisione iniciativas claras — Aldeões entregam +20% mais Madeira quando Campos Madeireiros e Centros Urbanos estão dentro da influência de uma Fortaleza de Madeira.",
+   "t": "Influência"
+  },
+  "ru-7": {
+   "d": "Monge Guerreiro: Unidade religiosa de cavalaria leve que inspira unidades próximas em combate, fornecendo +1 de armadura e +2 de dano.\nArqueiro Montado: Cavalaria de longo alcance leve com alta mobilidade e dano.\nAtiradores: Canhoneiro de Mão que fica mais forte quando está Imóvel e tem um ataque corpo a corpo de alto dano.\nNavios Lodya: Podem ser convertidos para qualquer tipo de navio.",
+   "t": "Unidades Exclusivas"
+  },
+  "sen-1": {
+   "d": "As Propriedades Daimyo são construções exclusivas que podem ser dedicadas a um dos três clãs: clã Hojo, que aprimora a infantaria corpo a corpo; clã Oda, que aprimora a infantaria de ataque à distância; ou clã Takeda, que aprimora a cavalaria. As Propriedades Daimyo também têm uma influência que aumenta a velocidade de produção de construções militares.",
+   "t": "Propriedade Daimyo"
+  },
+  "sen-2": {
+   "d": "O Matsuri é um Mercado Inicial único que pode produzir Yatai. O Yatai é uma unidade trabalhadora exclusiva que gera comida lentamente a partir de fontes de comida dentro de 2 dos painéis, sem matá-los ou consumi-los. Se o Yatai coletar comida suficiente, ele enviará um Comerciante de Comida de volta ao Matsuri, o que melhora uma aura que aumenta a taxa de coleta de aldeões próximos.",
+   "t": "Yatai e Matsuri"
+  },
+  "sen-3": {
+   "d": "A Forja é um ponto de entrega de Ouro e Pedra e substitui o Campo de Mineração e a Ferraria. Além disso, fornece tecnologia de dano corpo a corpo adicional na Era das Trevas (I). A Fazenda fornece população e substitui o Moinho como ponto de entrega de Comida.",
+   "t": "Fazenda e Forja"
+  },
+  "sen-4": {
+   "d": "Acesse uma Torre de Menagem mais poderosa na Era Imperial (IV) que vem com a vida e as Localizações de Foguetes aumentadas por um custo maior. Os foguetes atacam rapidamente e causam grande dano em alvos únicos.",
+   "t": "Fortaleza de Oda"
+  },
+  "sen-5": {
+   "d": "Quando Aldeões depositam Ouro, 20% de Pedra extra também é produzido e vice-versa.",
+   "t": "Mineração de Prata"
+  },
+  "sen-6": {
+   "d": "Os Barcos Pesqueiros são produzidos 25% mais barato.",
+   "t": "Vila dos Pescadores"
+  },
+  "sen-7": {
+   "d": "A localização de todos os Cervos e Javalis é revelada no mapa.",
+   "t": "Revelação de Cervo e Javali"
+  },
+  "tug-1": {
+   "d": "Take the load off your Villagers back with Worker Elephants. These elephants act as a universal drop-off and can move around freely, saving time and resources for Villagers to focus on working.\nWorker Elephants, Town Centers, and Docks provide bonus resources when Villagers and Fishing Ships drop off.",
+   "t": "Companheiros de Trabalho"
+  },
+  "tug-2": {
+   "d": "Buscando conhecimento e sabedoria, a Dinastia Tughlaq financia a pesquisa de tecnologias com mais recursos em favor de tempos de pesquisa quase instantâneos.",
+   "t": "Erudição"
+  },
+  "tug-3": {
+   "d": "Cause medo em seus inimigos com o Forte Tughlaqabad. Disponível a partir da Era Feudal (II), esta construção defensiva pode ser atualizada para aumentar sua produção de dano, saúde e desbloquear sua escolha em um Governador.",
+   "t": "Fortes Lendários"
+  },
+  "tug-4": {
+   "d": "Escolha entre um dos seis governadores no Forte Tughlaqabad para ajudar a levar a Dinastia Tughlaq a novos patamares. A força do governador aumenta a cada atualização de melhoria do Forte Tughlaqabad. Os governadores fornecem bônus em economia, ritmo, militares, pesquisa e religiosos. \nÉ permitido um Governador por forte.",
+   "t": "Apoio do Governador"
+  },
+  "tug-5": {
+   "d": "Os Aldeões coletam Arbustos Frutíferos 30% mais rápido, mas não podem coletar de Javalis.\nOs Aldeões carregam +3 de Comida de Arbustos Frutíferos.",
+   "t": "Cestaria"
+  },
+  "tug-6": {
+   "d": "Estabeleça assentamentos fortificados usando unidades de infantaria que podem construir Paliçadas.",
+   "t": "Fortificações da Fronteira"
+  },
+  "tug-7": {
+   "d": "Os navios de pesca podem se defender com ataque à distância e têm 50% de vida adicional.",
+   "t": "Ajudantes de Convés Defensivos"
+  },
+  "tug-8": {
+   "d": "Elefante Saqueador: Elefante rápido eficaz em atacar, flanquear e contra-atacar unidades de longo alcance. Pode atropelar para contornar qualquer unidade para causar dano em uma área.\nElefante Curandeiro: Elefante corpo a corpo blindado e com alta vida montado com dois Imãs que podem curar unidades individualmente. Causa mais dano para cada infantaria corpo a corpo próxima.\nElefante de Guerra: Cavalaria corpo a corpo pesada montada com um Lanceiro que tem alta vida e dano com um forte ataque de cerco.\nElefante Balista: Elefante de longo alcance montado com uma balista que é eficaz contra unidades corpo a corpo e pode perfurar vários alvos.",
+   "t": "Unidades Exclusivas"
+  },
+  "zx-1": {
+   "d": "Comece sua jornada na Dinastia Tang - Os custos de Marcos são reduzidos em -15% e a Aldeia é desbloqueada.\nConstrua os dois Marcos de uma Era para iniciar as Dinastias com bônus especiais, edificações exclusivas e unidades.\n• Song: O custo em Madeira de construções de Economia e População têm desconto de -30%; desbloqueia a construção de celeiros.\n• Yuan: 10% de desconto em todas as unidades; desbloqueia a construção de Pagodes.\n• Ming: Unidades Exclusivas causam +20% de dano.",
+   "t": "Grandes Dinastias"
+  },
+  "zx-2": {
+   "d": "Unidades treinadas, tecnologias pesquisadas e recursos entregues geram impostos (Ouro) que podem ser coletados por Funcionários do Império. Tecnologias administrativas exclusivas da Academia Monte Lu e da Biblioteca de Zhu Xi melhoram significativamente os Funcionários do Império.",
+   "t": "Impostos"
+  },
+  "zx-3": {
+   "d": "Acesse o Zhuge Nu e o Granadeiro sem dinastias estabelecidas. Marcos podem desbloquear poderosos Monges Shaolin, Saqueadores Yuan e Guardas Imperiais. Guardas do Palácio Novatos podem ser treinados na Era Feudal.",
+   "t": "Unidades da Dinastia"
+  },
+  "zx-4": {
+   "d": "Comece o jogo com a tecnologia Química concedida gratuitamente. Construções defensivas usam Fendas de Canhão de Mão em vez de Seteiras de Defesa.",
+   "t": "Mestres da Pólvora"
+  },
+  "zx-5": {
+   "d": "Aldeões constroem defesas + 50% mais rápido e todas as outras construções + 100% mais rápido. Docas trabalham +10% mais rápido.",
+   "t": "Fabricações Rápidas"
+  },
+  "zx-6": {
+   "d": "Treine Guardas do Palácio Novatos na Era Feudal (II) para proteger o imperador.",
+   "t": "Proteja o Palácio"
+  },
+  "zx-7": {
+   "d": "Funcionário do Império: Use a habilidade Supervisionar para aumentar a velocidade de produção de edificações militares e de pesquisa em +150% - supervisionar edificações econômicas aumenta a quantidade de recursos entregues pelos Aldeões em +20%.\nZhuge Nu: substitui Arqueiro. Infantaria leve de longo alcance com uma cadência rápida de ataque eficaz contra unidades leves.\nGuarda do Palácio: substitui Homem de Armas. Infantaria pesada corpo a corpo que troca armadura por velocidade de movimento.\nNinho de Abelhas: substitui Manganela. Arma de cerco que dispara uma barragem de foguetes, causando dano na área de efeito.\nGranadeiro: Infantaria leve de longo alcance usuária de pólvora que lança granadas, causando dano na área de efeito.",
+   "t": "Unidades Exclusivas"
+  }
+ },
+ "ui": {
+  "ageN": "Age {n}",
+  "all": "All",
+  "buildings": "Researched at",
+  "enOnly": "No matching in-game string was found, so this is left in English",
+  "free": "Free",
+  "home": "All civilizations",
+  "maps": "Ranked maps",
+  "noTechs": "No unique technologies.",
+  "none": "None",
+  "note": "Effects are the in-game tooltips as-is. Numbers that the tooltip omits are not shown here either.",
+  "pickCiv": "Pick a civilization",
+  "print": "Print (A4 landscape)",
+  "repeat": "{all} tiers total",
+  "repeatAge": "{n} in this Age",
+  "report": "Report an error",
+  "report.body": "## What was wrong\n\n(bonus / technology name, what this site says, what the game says)\n\n\n## Screenshot (if any)\n\n\n## Environment\n\n- Civilization: {civ} (`{code}`)\n- Page: {url}\n- Patch: {patch}\n- Language: {lang}\n",
+  "report.title": "[data] {civ}: ",
+  "sec": "{n}s",
+  "techs": "Unique Technologies",
+  "techsOf": "Unique Technologies ({n})",
+  "time": "Research time",
+  "title": "AoE4 Civilization Bonuses & Technologies",
+  "traits": "Civilization Bonuses",
+  "units": "Units"
+ },
+ "uiIsFallback": true
+}
