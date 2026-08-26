@@ -3,22 +3,44 @@
 Age of Empires IV のユニットデータを、時代・生産施設ごとに並べて見るための静的サイト。
 1ユニット＝1カードで、HP / 攻撃 / DPS / 射程 / 防御 / コスト / ダメージボーナス を一覧できる。
 
-## ページ
+## 使い方
+
+`index.html` が本体。ヘッダのプルダウンで**23文明**を切り替え、タブで**3つのビュー**を切り替える。
+
+| ビュー | 内容 |
+| --- | --- |
+| 生産施設 × 時代 | 横が生産施設（中はユニット系統ごとの列）、縦が時代のマトリクス |
+| 時代別一覧 | 時代ごとに、兵種で区切ってカードを並べる |
+| 表 | 数値比較用。列見出しをクリックで並べ替え |
+
+- 状態は URL に入る（`?civ=od&view=matrix`）。リロードしても戻るボタンでも復元される
+- 右上の印刷ボタンで A4 横に最適化して印刷（マトリクスは **1施設＝1ページ**に組み替わる）
+- ホバーで用語のツールチップ（属性・コスト内訳・ボーナスの対象）
+
+### 構成
+
+```
+index.html          画面の枠だけ
+css/app.css         見た目（カード・マトリクス・印刷）
+js/card.js          ユニットカード1枚の描画。全ビューで共通
+js/views.js         マトリクス / 一覧 / 表 と、印刷用レイアウト
+js/app.js           プルダウン・タブ・URL 同期
+data/units.json     全605ユニット（表示用に整形した派生データ・241KB）
+data/meta.json      文明名・施設名・アイコンのラベル
+```
+
+ビルド不要。素の ES modules と `fetch()` だけで動く。
+
+### 静的版（旧）
+
+データを HTML に埋め込んで生成した版も残してある。JS 無しで開ける。
 
 | ファイル | 内容 |
 | --- | --- |
-| `index.html` | 目次 |
-| `aoe4-od-matrix.html` | ドラゴン騎士団: 生産施設 × 時代 のマトリクス（施設の中はユニット系統ごとの列） |
-| `aoe4-od.html` | ドラゴン騎士団: 時代ごとのユニット一覧 |
-| `aoe4-units.html` | 全23文明・605行のテーブル（絞り込み / 列ソート / CSV書き出し） |
-| `aoe4-card.html` | カードデザインの検討ページ（アイコン凡例つき） |
-
-各ページは単体で完結した HTML で、データも CSS も埋め込み済み。外部から読むのはユニットの
-アイコン画像だけ（`data.aoe4world.com`）。
-
-- ホバーで用語のツールチップが出る（属性・コスト内訳・ボーナスの対象）
-- 右上の印刷ボタンで A4 横に最適化して印刷できる（画面用の横長レイアウトとは別に、
-  印刷時は 1施設＝1ページ に組み替わる）
+| `aoe4-od-matrix.html` | ドラゴン騎士団: 生産施設 × 時代 |
+| `aoe4-od.html` | ドラゴン騎士団: 時代ごとの一覧 |
+| `aoe4-units.html` | 全23文明・605行のテーブル |
+| `aoe4-card.html` | カードデザインの検討ページ |
 
 ## データについて
 
@@ -52,10 +74,13 @@ Age of Empires IV のユニットデータを、時代・生産施設ごとに�
 ## ビルド
 
 ```bash
-./tools/fetch.sh              # 元データを data/units-all.json に取得
-python3 tools/build_cards.py  # aoe4-card.html
-python3 tools/build_civ.py od # aoe4-od.html
-python3 tools/build_matrix.py od  # aoe4-od-matrix.html
+./tools/fetch.sh               # 元データとアイコンを取得
+python3 tools/build_data.py    # data/units.json と data/meta.json を生成（アプリはこれを読む）
+
+# 静的版（旧）を作り直すとき
+python3 tools/build_cards.py
+python3 tools/build_civ.py od
+python3 tools/build_matrix.py od
 ```
 
 `tools/aoe4lib.py` が共通部分（データ整形・アイコン・カード描画・CSS）を持っている。
