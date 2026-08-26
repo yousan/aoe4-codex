@@ -79,16 +79,22 @@ function card(m, size, withImg) {
   }
   c.append(hd);
 
-  if (withImg && m.img) {
+  // 画像が無いマップはダミーの箱で埋める。実画像と同じ 2:1 + キャプション1行にして
+  // おかないと、グリッドの同じ行に並ぶカードで以降の行が縦にズレる
+  if (withImg) {
     const fig = el('figure', 'mimg');
-    const im = el('img');
-    im.src = m.img;
-    im.alt = `${m.ja || m.name} の資源配置サンプル（1v1の生成例2つ）`;
-    im.loading = 'lazy';
-    fig.append(im, el('figcaption', null, '1v1の生成例 2パターン'));
+    if (m.img) {
+      const im = el('img');
+      im.src = m.img;
+      im.alt = `${m.ja || m.name} の資源配置サンプル（1v1の生成例2つ）`;
+      im.loading = 'lazy';
+      fig.append(im, el('figcaption', null, '1v1の生成例 2パターン'));
+    } else {
+      fig.classList.add('ph');
+      fig.append(el('div', 'phbox', '資源配置図なし'),
+        el('figcaption', null, 'wiki にこのマップの配置図がまだ無い'));
+    }
     c.append(fig);
-  } else if (withImg) {
-    c.append(el('div', 'noimg', '資源配置図なし'));
   }
 
   const st = el('div', 'mstats');
