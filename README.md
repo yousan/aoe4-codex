@@ -95,6 +95,8 @@ python3 tools/build_data.py                # data/i18n/<lang>.json を生成
 ```
 
 抽出結果は `data/locale-raw/<lang>.json`、表示用に UI文言を足したものが `data/i18n/<lang>.json`。
+日本語の対応表は読みやすい形でも置いてある → **[docs/glossary.ja.md](docs/glossary.ja.md)**
+（ユニット369件・文明23・施設・属性の English ↔ 日本語）。
 **ゲーム本体が無くても生成済みのファイルがリポジトリに入っている**ので、開発には要らない。
 
 | 種類 | 出どころ |
