@@ -273,8 +273,10 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
 .mimg{margin:0;background:#0d0b09}
 .mimg img{display:block;width:100%;height:auto}
 .mimg figcaption{padding:4px 12px;font-size:10.5px;color:var(--dim);border-bottom:1px solid #2b241d}
-.noimg{padding:26px 12px;text-align:center;color:#4a4238;font-size:11.5px;
- border-bottom:1px solid #2b241d;background:#151210}
+/* 画像が無いマップのダミー。実画像（1400x700）と同じ 2:1 にして行のズレを防ぐ */
+.mimg.ph .phbox{aspect-ratio:2/1;display:flex;align-items:center;justify-content:center;
+ color:#4a4238;font-size:12px;letter-spacing:.08em;
+ background:repeating-linear-gradient(135deg,#151210,#151210 9px,#1a1613 9px,#1a1613 18px)}
 .mstats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}
 .mrow{display:flex;align-items:baseline;gap:8px;padding:5px 12px;border-bottom:1px solid #241e18;
  font-size:12.5px}
@@ -302,7 +304,8 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
  .mextra{background:#faf6ee}
  .mnotes{color:#2e2823}
  .mft{background:#f7f2e9;border-color:#cdc0a8}
- .noimg{background:#f4efe6}
+ .mimg.ph .phbox{background:repeating-linear-gradient(135deg,#f4efe6,#f4efe6 9px,#eae2d4 9px,#eae2d4 18px);
+  color:#8a7c66}
 }
 .mrow.wide{grid-column:1/-1;border-right:none}
 .nb{border-radius:4px;padding:1px 7px;font-size:11px;font-weight:700;white-space:nowrap}
