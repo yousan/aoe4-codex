@@ -92,7 +92,7 @@ STAT_I18N = {
 UI = {
     'ja': {
         'title': 'AoE4 ユニット', 'pickCiv': '文明を選ぶ', 'units': 'ユニット',
-        'view.matrix': '生産施設 × 時代', 'view.table': '表', 'unitsFilter': 'ユニット',
+        'view.matrix': '生産施設 × 時代', 'view.table': '表', 'unitsFilter': 'ユニット', 'otherBuilding': 'その他',
         'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
         'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計', 'colAtk': '攻撃',
@@ -116,7 +116,7 @@ UI = {
     },
     'en': {
         'title': 'AoE4 Units', 'pickCiv': 'Choose a civilization', 'units': 'units',
-        'view.matrix': 'Building × Age', 'view.table': 'Table', 'unitsFilter': 'Units',
+        'view.matrix': 'Building × Age', 'view.table': 'Table', 'unitsFilter': 'Units', 'otherBuilding': 'Other',
         'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
         'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total', 'colAtk': 'Attack',
@@ -204,6 +204,8 @@ def main():
         'civs': {c: {'flag': f'assets/flags/{c}.png',
                      'en': (civs_idx.get(c) or {}).get('name', c)} for c in civs},
         'buildingOrder': BUILDING_ORDER,
+        # pb に出てくるもののうち、実在する建物（残りはユニットが建てるもの）
+        'buildingSet': sorted(b for b in buildings if b in bname),
         'landmarks': [b for b in buildings if b not in BUILDING_ORDER],
         'unitBuilt': sorted(UNIT_BUILT),
         'classIcon': L.CLASS_ICON,

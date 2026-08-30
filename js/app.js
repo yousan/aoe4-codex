@@ -1,7 +1,7 @@
 // 画面の組み立て: 文明選択、ビュー切り替え、生産施設フィルタ、言語、URL同期
 import { SPRITE } from './icons.js';
 import { renderMatrix, renderTable, renderPrintMatrix,
-         availableBuildings, availableLines, MAIN_COLS } from './views.js';
+         availableBuildings, availableLines, buildingCounts, MAIN_COLS } from './views.js';
 import { loadLang, t, lang, term, bldName, civLabel, disclaimer, uiIsFallback } from './i18n.js';
 
 const $ = (s) => document.querySelector(s);
@@ -68,8 +68,10 @@ function renderPicker() {
 function filterUI(units) {
   const avail = availableBuildings(units, META);
   const bon = new Set(activeBlds(units));
+  const counts = buildingCounts(units, META);
   const bchips = avail.map((b) => `<label class="bchip${bon.has(b) ? ' on' : ''}">
-    <input type="checkbox" name="b" value="${b}"${bon.has(b) ? ' checked' : ''}>${esc(bldName(b))}</label>`).join('');
+    <input type="checkbox" name="b" value="${b}"${bon.has(b) ? ' checked' : ''}>${esc(bldName(b))}
+    <i>${counts[b] || 0}</i></label>`).join('');
 
   const lines = availableLines(units, META, activeBlds(units));
   const uon = new Set(activeBases(units));

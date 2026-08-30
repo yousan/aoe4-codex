@@ -241,6 +241,7 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
 .bchip.u{border-style:dashed}
 .bchip.u.on{background:#3b2f1c;border-color:var(--gold);border-style:solid;color:var(--gold2,#f0d49a)}
 .bchip input{margin:0;width:11px;height:11px;accent-color:#1d1710}
+.bchip i{font-style:normal;font-size:10px;opacity:.65}
 .mini{background:transparent;border:1px solid var(--line);color:var(--dim);border-radius:6px;
  padding:3px 9px;font-size:11px;cursor:pointer;font-family:inherit}
 .mini:hover{border-color:var(--gold);color:var(--fg)}
