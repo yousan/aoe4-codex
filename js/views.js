@@ -14,16 +14,22 @@ const ageCell = (meta, a) => (lang() === 'ja'
   ? `<span>第</span>${meta.roman[a]}<span>時代</span>`
   : `<span>${t('age')}</span>${meta.roman[a]}`);
 
+export const OTHER = '*other';
+
 function primary(u, cols) {
   // 町の中心を先に見る（農民・斥候をそこに寄せる）
   const order = cols.includes('town-center') ? ['town-center', ...cols] : cols;
-  return order.find((b) => u.pb.includes(b)) || null;
+  const hit = order.find((b) => u.pb.includes(b));
+  if (hit) return hit;
+  // 生産元が建物でない（歩兵が建てる攻城塔など）ものは「その他」へ
+  return cols.includes(OTHER) ? OTHER : null;
 }
 
 function extras(u, meta, cols) {
   if (u.pb.some((b) => meta.unitBuilt.includes(b))) return [t('builtByUnits')];
   const out = u.pb
-    .filter((b) => !cols.includes(b) && b !== 'capital-town-center' && meta.landmarks.includes(b))
+    .filter((b) => !cols.includes(b) && b !== 'capital-town-center'
+      && (meta.buildingSet || []).includes(b))
     .map((b) => bldName(b));
   return [...new Set(out)];
 }
@@ -166,13 +172,29 @@ export function availableLines(units, meta, blds) {
       || x.label.localeCompare(y.label, lang()));
 }
 
-/** その文明で実際に使われている生産施設（列の候補） */
+/** その文明で実際に使われている生産施設（列の候補）。
+ *  よく使う順（buildingOrder）を先に、それ以外（歴史的建造物など）を後ろに並べる。 */
 export function availableBuildings(units, meta) {
-  const all = meta.buildingOrder;
-  const set = new Set();
+  const real = new Set(meta.buildingSet || []);
+  const used = new Set();
+  let hasOther = false;
   for (const u of units) {
-    const p = primary(u, all);
-    if (p) set.add(p);
+    const b = u.pb.find((x) => real.has(x) && x !== 'capital-town-center');
+    if (b) used.add(b); else hasOther = true;
   }
-  return all.filter((b) => set.has(b));
+  const known = meta.buildingOrder.filter((b) => used.has(b));
+  const extra = [...used].filter((b) => !meta.buildingOrder.includes(b))
+    .sort((a, b) => bldName(a).localeCompare(bldName(b), lang()));
+  return [...known, ...extra, ...(hasOther ? [OTHER] : [])];
+}
+
+/** 施設ごとのユニット数（フィルタのチップに出す） */
+export function buildingCounts(units, meta) {
+  const cols = availableBuildings(units, meta);
+  const out = {};
+  for (const u of units) {
+    const b = primary(u, cols);
+    if (b) out[b] = (out[b] || 0) + 1;
+  }
+  return out;
 }

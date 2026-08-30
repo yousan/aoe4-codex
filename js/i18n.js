@@ -27,6 +27,7 @@ export const disclaimer = () => D.disclaimer || '';
 export const uiIsFallback = () => !!D.uiIsFallback;
 
 export function bldName(slug) {
+  if (slug === '*other') return t('otherBuilding');
   if (D.buildings && D.buildings[slug]) return D.buildings[slug];
   return slug.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ');
 }
