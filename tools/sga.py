@@ -196,15 +196,11 @@ def read_rgd(blob):
             name = keys.get(k, str(k))
             val = conv(v)
             if name in out:
-                if isinstance(out[name], list) and getattr(out[name], 'multi', False) is False \
-                        and not isinstance(out[name], dict):
-                    pass
                 cur = out[name]
                 if isinstance(cur, _Multi):
                     cur.append(val)
                 else:
-                    m = _Multi([cur, val])
-                    out[name] = m
+                    out[name] = _Multi([cur, val])
             else:
                 out[name] = val
         return out
