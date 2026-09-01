@@ -71,7 +71,7 @@ export function renderMatrix(units, meta, { blds = null, bases = null, techs = [
       const edge = (si === 0 && ci > 0) ? ' bl' : '';
       if (!u) return `<td class="${edge}"><span class="e">·</span></td>`;
       const ex = extras(u, meta, cols);
-      return `<td class="${edge}">${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [])}`
+      return `<td class="${edge}">${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [], civ)}`
         + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
     })).join('');
     return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;
@@ -148,7 +148,7 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
         const u = us.find((x) => x.age === a && x.base === base);
         if (!u) return '<td><span class="e">·</span></td>';
         const ex = extras(u, meta, cols);
-        return `<td>${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [])}`
+        return `<td>${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [], civ)}`
           + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
       }).join('');
       return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;
