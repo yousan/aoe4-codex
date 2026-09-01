@@ -80,27 +80,30 @@ export function renderCard(unit, meta, techs, civ) {
   const w = u.w || {};
   const rng = (w.r1 && w.r1 >= 1) ? w.r1 : null;
   const atk = meta.atkIcon[w.t] || 'i-melee';
+  // 増分は小数2桁まで。3桁だと桁が伸びてカードからはみ出す（移動速度の ×1.15 など）
+  const dnum = (n) => Math.round(n * 100) / 100;
+  const dtxt = (n) => (n > 0 ? `+${dnum(n)}` : `${dnum(n)}`);
   const row = (icon, val, tip, field, label) => {
-    const m = field && mods && mods[field];
+    // 表示しない項目（近接ユニットの射程など）にテクが乗ることがある。増分は出さない
+    const m = field && mods && mods[field]
+      && Number.isFinite(val) && Number.isFinite(unitVal(unit, field)) ? mods[field] : null;
     // 強化ぶんを出しているときは、カード全体の一覧ツールチップに任せる（行ごとに出すと煩い）
     if (hasTechTip) {
       // 「基礎値 + 増分」で揃える。強化後の値を出すと +N と二重に見える
       const b = m ? unitVal(unit, field) : val;
-      const d = m ? Math.round((val - b) * 1000) / 1000 : 0;
+      // 増分の無い行にも空の枠を置く。置かないと基礎値の右端が行ごとにずれる
       return `<div class="r">${ico(icon)}<span class="v">${b ?? '–'}</span>`
-        + (m ? `<span class="dlt">${d > 0 ? `+${d}` : d}</span>` : '')
-        + '</div>';
+        + `<span class="dlt">${m ? dtxt(val - b) : ''}</span></div>`;
     }
     if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
     const base = unitVal(unit, field);
-    const d = Math.round((val - base) * 1000) / 1000;
     const head = `${label || tip}　${base} → ${val}`;
     const lines = [head, ...m.map((x) => tline(x.t, x.txt))];
     const detail = esc(lines.join('\n')).replaceAll('\n', '&#10;');
     const rows = m.map((x) => trow(icon, x.txt, x.t, ''));
     return `<div class="r" data-tip="${detail}"${tipData(head, rows)}>${ico(icon)}`
       + `<span class="v">${base}</span>`
-      + `<span class="dlt">${d > 0 ? '+' : ''}${d}</span></div>`;
+      + `<span class="dlt">${dtxt(val - base)}</span></div>`;
   };
 
   const st = (k) => term(k);
@@ -147,12 +150,12 @@ export function renderCard(unit, meta, techs, civ) {
   ${attrRow(u, meta)}
   <div class="body"><div class="col">${left.join('')}</div><div class="col">${right.join('')}</div></div>
   ${bonusRow(u, meta)}
-  <div class="ft up" data-tip="${esc(tip)}">${cost}<span class="sp"></span>
+  <div class="ft up" data-tip="${esc(tip)}"><span class="res">${cost}</span><span class="mk">
     <span class="c dim"${mods && mods.t && !hasTechTip ? ` data-tip="${
       esc([`${term('i-time')}　${unit.cost.t} → ${u.cost.t}`,
         ...mods.t.map((x) => tline(x.t, x.txt))].join('\n'))
         .replaceAll('\n', '&#10;')}"` : ''}>${
       ico('i-time')}${mods && mods.t ? unit.cost.t : u.cost.t}${mods && mods.t
-        ? `<b class="dlt">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
+        ? `<b class="dlt">${dtxt(u.cost.t - unit.cost.t)}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></span></div>
 </div>`;
 }
