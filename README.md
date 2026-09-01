@@ -14,7 +14,7 @@ Age of Empires IV のユニットデータを、時代・生産施設ごとに�
 
 | ビュー | 内容 |
 | --- | --- |
-| 生産施設 × 時代 | 横が生産施設（中はユニット系統ごとの列）、縦が時代のマトリクス |
+| 生産施設 × 時代 | 横が生産施設（中はユニット系統ごとの列）、縦が時代のマトリクス。列の並びは**ゲーム内の生産ボタンと同じ順**（戦士育成所なら 槍兵 → 軍兵） |
 | 表 | 数値比較用。列見出しをクリックで並べ替え |
 
 **生産施設**と**ユニット系統**をチェックボックスで 絞り込める。
@@ -199,6 +199,7 @@ python3 tools/build_data.py                # data/i18n/<lang>.json を生成
 ./tools/fetch.sh                          # 元データとアイコンを取得
 python3 tools/extract_locale.py           # 各言語の公式表記（要: ゲーム本体）
 python3 tools/extract_attrib.py --diff --md  # 現パッチの数値（要: ゲーム本体）
+python3 tools/extract_prod_order.py       # 生産ボタンの並び順（要: ゲーム本体）
 python3 tools/build_data.py               # data/units.json と data/i18n/*.json を生成
 python3 tools/build_civs.py               # data/civs.json と data/civs-i18n/*.json を生成（要: ゲーム本体）
 

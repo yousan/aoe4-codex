@@ -55,8 +55,11 @@ export function renderMatrix(units, meta, { blds = null, bases = null, techs = [
       cell.set(`${u.age}|${b}|${u.base}`, u);
     }
     sub[b] = [...lines.entries()]
-      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age))])
-      .sort((a, x) => a[2] - x[2] || a[1].localeCompare(x[1], 'ja'));
+      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age)),
+        prodRank(meta, civ, b, base)])
+      // ゲーム内の生産ボタンの並びを優先し、無いものは時代→名前で後ろに付ける
+      .sort((a, x) => (a[3] < 0) - (x[3] < 0) || (a[3] >= 0 ? a[3] - x[3] : 0)
+        || a[2] - x[2] || a[1].localeCompare(x[1], lang()));
   }
 
   const h1 = cols.map((b) => {
@@ -140,8 +143,10 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
       lines.get(u.base).push(u);
     }
     const order = [...lines.entries()]
-      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age))])
-      .sort((a, x) => a[2] - x[2] || a[1].localeCompare(x[1], 'ja'));
+      .map(([base, list]) => [base, lineLabel(list), Math.min(...list.map((x) => x.age)),
+        prodRank(meta, civ, b, base)])
+      .sort((a, x) => (a[3] < 0) - (x[3] < 0) || (a[3] >= 0 ? a[3] - x[3] : 0)
+        || a[2] - x[2] || a[1].localeCompare(x[1], lang()));
     const head = order.map(([, lbl]) => `<th class="ln">${esc(lbl)}</th>`).join('');
     const rows = ages.map((a) => {
       const tds = order.map(([base]) => {
@@ -159,8 +164,16 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
   }).join('');
 }
 
+/** ゲーム内の生産ボタンの並び順。無い建物は -1 */
+function prodRank(meta, civ, bld, base) {
+  const list = ((meta.prodOrder || {})[civ] || {})[bld];
+  if (!list) return -1;
+  const i = list.indexOf(base);
+  return i < 0 ? -1 : i;
+}
+
 /** 施設ごとの「ユニット系統」の一覧（フィルタの選択肢に使う） */
-export function availableLines(units, meta, blds) {
+export function availableLines(units, meta, blds, civ) {
   const cols = (blds && blds.length) ? blds : MAIN_COLS;
   const shown = units.filter((u) => cols.includes(primary(u, cols)));
   const seen = new Map();
@@ -170,9 +183,10 @@ export function availableLines(units, meta, blds) {
   }
   return [...seen.entries()]
     .map(([base, { list, b }]) => ({ base, b, age: Math.min(...list.map((x) => x.age)),
-      label: lineLabel(list) }))
-    .sort((x, y) => cols.indexOf(x.b) - cols.indexOf(y.b) || x.age - y.age
-      || x.label.localeCompare(y.label, lang()));
+      label: lineLabel(list), rank: prodRank(meta, civ, b, base) }))
+    .sort((x, y) => cols.indexOf(x.b) - cols.indexOf(y.b)
+      || (x.rank < 0) - (y.rank < 0) || (x.rank >= 0 ? x.rank - y.rank : 0)
+      || x.age - y.age || x.label.localeCompare(y.label, lang()));
 }
 
 /** その文明で実際に使われている生産施設（列の候補）。

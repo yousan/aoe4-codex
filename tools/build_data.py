@@ -293,6 +293,9 @@ def main():
         'civs': {c: {'flag': f'assets/flags/{c}.png',
                      'en': (civs_idx.get(c) or {}).get('name', c)} for c in civs},
         'buildingOrder': BUILDING_ORDER,
+        # ゲーム内の生産ボタンの並び（tools/extract_prod_order.py で抽出）
+        'prodOrder': (json.load(open(os.path.join(ROOT, 'data', 'prod-order.json'), encoding='utf-8'))
+                      if os.path.exists(os.path.join(ROOT, 'data', 'prod-order.json')) else {}),
         # pb に出てくるもののうち、実在する建物（残りはユニットが建てるもの）
         'buildingSet': sorted(b for b in buildings if b in bname),
         'buildingIcons': sorted(

@@ -79,7 +79,7 @@ function filterUI(units) {
     <input type="checkbox" name="b" value="${b}"${bon.has(b) ? ' checked' : ''}>${esc(bldName(b))}
     <i>${counts[b] || 0}</i></label>`).join('');
 
-  const lines = availableLines(units, META, activeBlds(units));
+  const lines = availableLines(units, META, activeBlds(units), state.civ);
   const uon = new Set(activeBases(units));
   const uchips = lines.map((l) => `<label class="bchip u${uon.has(l.base) ? ' on' : ''}">
     <input type="checkbox" name="u" value="${l.base}"${uon.has(l.base) ? ' checked' : ''}>${esc(l.label)}</label>`).join('');
@@ -113,7 +113,7 @@ function activeBlds(units) {
 }
 
 function activeBases(units) {
-  const lines = availableLines(units, META, activeBlds(units)).map((l) => l.base);
+  const lines = availableLines(units, META, activeBlds(units), state.civ).map((l) => l.base);
   return state.bases ? lines.filter((b) => state.bases.includes(b)) : lines;
 }
 
@@ -260,7 +260,7 @@ function wire() {
     if (b.dataset.kind === 'b') {
       go({ blds: on ? availableBuildings(units, META) : [], bases: null }, false);
     } else {
-      go({ bases: on ? availableLines(units, META, activeBlds(units)).map((l) => l.base) : [] }, false);
+      go({ bases: on ? availableLines(units, META, activeBlds(units), state.civ).map((l) => l.base) : [] }, false);
     }
   };
 
