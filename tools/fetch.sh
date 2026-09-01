@@ -50,6 +50,31 @@ for code, name in FLAG.items():
 print(f'   flags: {n} downloaded, {len(FLAG)} total')
 PYX
 
+echo "==> building icons"
+python3 - <<'PYB'
+import json, os
+d = json.load(open('data/buildings-all.json'))['data']
+used = set()
+if os.path.exists('data/units.json'):
+    for u in json.load(open('data/units.json'))['units']:
+        used.update(u['pb'])
+if os.path.exists('data/techs.json'):
+    for t in json.load(open('data/techs.json'))['techs']:
+        used.update((t.get('bld') or {}).values())
+icon = {}
+for b in d:
+    if b['baseId'] in used and b.get('icon'):
+        icon.setdefault(b['baseId'], b['icon'])
+rows = [(u, f"assets/buildings/{b}.png") for b, u in sorted(icon.items())
+        if not os.path.exists(f"assets/buildings/{b}.png")]
+open('/tmp/aoe4-bicons.tsv', 'w').write('\n'.join(f'{u}\t{p}' for u, p in rows))
+print(f'   {len(icon)} icons, {len(rows)} to download')
+PYB
+if [ -s /tmp/aoe4-bicons.tsv ]; then
+  awk -F'\t' '{print $1" "$2}' /tmp/aoe4-bicons.tsv | \
+    xargs -P 4 -n 2 sh -c 'curl -sSL --max-time 30 --create-dirs "$0" -o "$1"'
+fi
+
 echo "==> unit icons"
 python3 -c "
 import json, os

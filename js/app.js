@@ -291,6 +291,22 @@ function wireLabels() {
   $('#home').textContent = t('home');
 }
 
+const ICONS = new Set();
+
+/** ツールチップの中身: [マーク+数値] [時代+施設アイコン+テク名] [詳細] */
+function tipHTML(d) {
+  const rows = d.r.map(([icon, val, age, slug, bld, tech, detail]) => {
+    const img = (META.buildingIcons || []).includes(slug)
+      ? `<img src="assets/buildings/${slug}.png" alt="">`
+      : '<span class="nob"></span>';
+    return `<span class="c1"><svg class="ic"><use href="#${icon}"/></svg><b>${esc(val)}</b></span>`
+      + `<span class="c2"><i>${esc(age)}</i>${img}${esc(tech)}`
+      + `<u>${esc(bld)}</u></span>`
+      + `<span class="c3">${esc(detail)}</span>`;
+  }).join('');
+  return `<div class="th">${esc(d.h)}</div><div class="tg">${rows}</div>`;
+}
+
 /* ツールチップ: スクロール領域で切れないよう、画面固定の1枚を使い回す */
 function initTooltip() {
   const tip = $('#tip');
@@ -311,7 +327,15 @@ function initTooltip() {
     const t = ev.target.closest('[data-tip]');
     if (!t || t === el) return;
     el = t;
-    tip.textContent = t.getAttribute('data-tip');
+    const raw = t.getAttribute('data-tiph');
+    if (raw) {
+      let d = null;
+      try { d = JSON.parse(raw); } catch (_) { d = null; }
+      tip.innerHTML = d ? tipHTML(d) : '';
+      if (!d) tip.textContent = t.getAttribute('data-tip');
+    } else {
+      tip.textContent = t.getAttribute('data-tip');
+    }
     tip.hidden = false;
     place(ev);
   });
