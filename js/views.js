@@ -1,7 +1,7 @@
 // ビュー（マトリクス / 時代別一覧 / 表）の描画
 import { renderCard, ico, lineLabel } from './card.js';
 import { t, lang, term, bldName, unitName } from './i18n.js';
-import { applyTechs } from './techs.js';
+import { applyTechs, autoTechs } from './techs.js';
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -36,7 +36,7 @@ function extras(u, meta, cols) {
 }
 
 /** 縦=時代 / 横=生産施設（施設の中はユニット系統ごとの列） */
-export function renderMatrix(units, meta, { blds = null, bases = null, techs = [] } = {}) {
+export function renderMatrix(units, meta, { blds = null, bases = null, techs = [], civ = null } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
   if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
@@ -71,7 +71,7 @@ export function renderMatrix(units, meta, { blds = null, bases = null, techs = [
       const edge = (si === 0 && ci > 0) ? ' bl' : '';
       if (!u) return `<td class="${edge}"><span class="e">·</span></td>`;
       const ex = extras(u, meta, cols);
-      return `<td class="${edge}">${renderCard(u, meta, techs)}`
+      return `<td class="${edge}">${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [])}`
         + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
     })).join('');
     return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;
@@ -99,10 +99,11 @@ const val = (u, k, applied) => ((x) => ({
 }[k]))(applied ? (applied.get(u) || {}).u || u : u);
 
 /** 表。数値の比較用 */
-export function renderTable(units, meta, { sort = 'age', asc = true, bases = null, techs = [] } = {}) {
+export function renderTable(units, meta, { sort = 'age', asc = true, bases = null, techs = [], civ = null } = {}) {
   const src = bases ? units.filter((u) => bases.includes(u.base)) : units;
   if (!src.length) return `<p class="empty">${t('noUnits')}</p>`;
-  const applied = new Map(src.map((u) => [u, applyTechs(u, techs)]));
+  const applied = new Map(src.map((u) => [u,
+    applyTechs(u, techs.length ? autoTechs(u, techs, civ) : [])]));
   const rows = [...src].sort((a, b) => {
     const x = val(a, sort, applied); const y = val(b, sort, applied);
     if (typeof x === 'string' || typeof y === 'string') {
@@ -124,7 +125,7 @@ export function renderTable(units, meta, { sort = 'age', asc = true, bases = nul
 }
 
 /** 印刷用: 1施設 = 1ページ（A4横に収まる幅）に組み替える */
-export function renderPrintMatrix(units, meta, civName, { blds = null, bases = null, techs = [] } = {}) {
+export function renderPrintMatrix(units, meta, civName, { blds = null, bases = null, techs = [], civ = null } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
   if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
@@ -147,7 +148,7 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
         const u = us.find((x) => x.age === a && x.base === base);
         if (!u) return '<td><span class="e">·</span></td>';
         const ex = extras(u, meta, cols);
-        return `<td>${renderCard(u, meta, techs)}`
+        return `<td>${renderCard(u, meta, techs.length ? autoTechs(u, techs, civ) : [])}`
           + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
       }).join('');
       return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;

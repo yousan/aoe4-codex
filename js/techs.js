@@ -19,6 +19,18 @@ export function techsFor(u, techs) {
   return techs.filter((t) => t.fx.some((e) => affects(u, e)));
 }
 
+/**
+ * そのユニットに「その時代までに」乗せられるテクノロジー一式。
+ * - 発動アビリティ・オーラ・一時的な効果（cond）は外す
+ * - 上位版があるときは下位版を外す（士官学校 と 士官学校(改良) は重ならない）
+ */
+export function autoTechs(u, techs, civ) {
+  const list = techs.filter((t) => !t.cond && t.civs.includes(civ) && t.age <= u.age
+    && t.fx.some((e) => affects(u, e)));
+  const ids = new Set(list.map((t) => t.id));
+  return list.filter((t) => !ids.has(`${t.id}-improved`));
+}
+
 const r2 = (n) => Math.round(n * 1000) / 1000;
 
 /**
@@ -36,6 +48,9 @@ export function applyTechs(unit, techs) {
     for (const t of techs) {
       for (const e of t.fx) {
         if (e.e !== pass || !affects(u, e)) continue;
+        // attackSpeed の multiply>1 は「別のボーナスを強化する」類で、
+        // 攻撃間隔に直接掛けると逆に遅くなってしまうので外す
+        if (e.p === 'attackSpeed' && e.e === 'multiply' && e.v > 1) continue;
         const f = FIELD[e.p];
         if (!f) continue;
         const [kind, need] = f.split(':');

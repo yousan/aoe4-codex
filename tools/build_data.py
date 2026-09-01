@@ -31,6 +31,15 @@ CIV_JP = {
     "zx": ("朱熹の遺産", "朱熹"),
 }
 
+# 発動アビリティ・オーラ・一時的な効果など、「常に乗っている」とは言えないもの。
+# まとめて適用するときは外す（データ側に条件のフラグが無いので手で持つ）
+CONDITIONAL_TECHS = {
+    'arrow-volley', 'zeal', 'do-maru-armor', 'ferocious-speed',
+    'kabura-ya-whistling-arrow', 'camel-support', 'farima-leadership',
+    'forced-march', 'network-of-citadels', 'network-of-castles',
+    'mehter-drums', 'gallop', 'berserking',
+}
+
 # ゲーム内に対応する文字列が無いラベルだけ、こちらで補う
 TERM_FALLBACK = {
     'i-dps': {'ja': 'DPS', 'en': 'DPS'},
@@ -96,8 +105,10 @@ UI = {
         'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
         'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計', 'colAtk': '攻撃',
-        'techs': 'テクノロジー', 'techsOn': '{n} 個', 'base': '基礎値',
-        'techNote': 'アップグレード適用後の値。数字をホバーすると内訳が出る。',
+        'techs': 'テクノロジー', 'base': '基礎値', 'techApply': '強化ぶんを足す',
+        'techNote': 'その時代までに研究できるテクノロジーを全部入れた場合の増分。'
+                    '発動アビリティ・オーラ・一時効果は含めていない。数字にホバーで内訳。',
+        'techHint': 'この文明には {n} 件。オンにすると、各ユニットに乗る強化ぶんを足して表示する。',
         'noUnits': '該当するユニットがありません。',
         'tip.dps': 'DPS（自爆ユニットは出さない）', 'tip.atk': '攻撃力（{t}）',
         'tip.int': '攻撃間隔（秒）', 'tip.range': '射程（–は近接）',
@@ -122,8 +133,10 @@ UI = {
         'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
         'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total', 'colAtk': 'Attack',
-        'techs': 'Technologies', 'techsOn': '{n} on', 'base': 'base',
-        'techNote': 'Values include the selected upgrades. Hover a number for the breakdown.',
+        'techs': 'Technologies', 'base': 'base', 'techApply': 'Add upgrades',
+        'techNote': 'Gain from every technology researchable by that age. '
+                    'Activated abilities, auras and temporary effects are excluded. Hover for details.',
+        'techHint': '{n} for this civilization. Turn on to add the upgrade gain to each unit.',
         'noUnits': 'No units match.',
         'tip.dps': 'DPS (not shown for self-destructing units)', 'tip.atk': 'Attack ({t})',
         'tip.int': 'Rate of fire (seconds)', 'tip.range': 'Range (– means melee)',
@@ -209,6 +222,7 @@ def build_techs():
                 'https://data.aoe4world.com/images/technologies/', ''),
             'cost': (t.get('costs') or {}).get('total', 0),
             'desc': (t.get('description') or '').split('\n')[0],
+            'cond': 1 if t['baseId'] in CONDITIONAL_TECHS else 0,
             'fx': fx,
         })
         for c in t.get('civs', []):

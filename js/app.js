@@ -4,11 +4,11 @@ import { renderMatrix, renderTable, renderPrintMatrix,
          availableBuildings, availableLines, buildingCounts, MAIN_COLS } from './views.js';
 import { loadLang, t, lang, term, bldName, civLabel, techName, disclaimer,
          uiIsFallback } from './i18n.js';
-import { techsFor } from './techs.js';
+import { techsFor, autoTechs } from './techs.js';
 
 const $ = (s) => document.querySelector(s);
 const VIEWS = ['matrix', 'table'];
-const state = { civ: null, view: 'matrix', blds: null, bases: null, techs: [], techOpen: false,
+const state = { civ: null, view: 'matrix', blds: null, bases: null, tech: false,
                 sort: 'age', asc: true, lang: 'ja' };
 let TECHS = [];
 
@@ -36,8 +36,7 @@ function readURL() {
   if (VIEWS.includes(p.get('view'))) state.view = p.get('view');
   state.blds = p.get('b') ? p.get('b').split(',').filter(Boolean) : null;
   state.bases = p.get('u') ? p.get('u').split(',').filter(Boolean) : null;
-  state.techs = p.get('t') ? p.get('t').split(',').filter(Boolean) : [];
-  state.techOpen = p.get('to') === '1';
+  state.tech = p.get('tech') === '1';
   state.lang = p.get('lang') || localStorage.getItem('aoe4units.lang')
     || pickBrowserLang();
 }
@@ -48,8 +47,7 @@ function writeURL(push = false) {
   if (state.civ) p.set('view', state.view);
   if (state.blds) p.set('b', state.blds.join(','));
   if (state.bases) p.set('u', state.bases.join(','));
-  if (state.techs.length) p.set('t', state.techs.join(','));
-  if (state.techOpen) p.set('to', '1');
+  if (state.tech) p.set('tech', '1');
   if (lang() !== 'ja') p.set('lang', lang());
   const url = p.toString() ? `${location.pathname}?${p}` : location.pathname;
   if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
@@ -94,56 +92,18 @@ function filterUI(units) {
       <button class="mini" data-all="0" data-kind="u">${esc(t('none'))}</button></div>`;
 }
 
-/** その文明で研究できて、いま表示している列のユニットに効くテクノロジー */
-function civTechs() {
-  const units = unitsOfCiv();
-  return TECHS.filter((tc) => tc.civs.includes(state.civ)
-    && units.some((u) => techsFor(u, [tc]).length));
-}
-
-const activeTechs = () => civTechs().filter((tc) => state.techs.includes(tc.id));
+/** そのユニットに乗るテクノロジー一式（時代まで・条件付きは除く） */
+const unitTechs = (u) => (state.tech ? autoTechs(u, TECHS, state.civ) : []);
 
 function techUI() {
-  const all = civTechs();
-  if (!all.length) return '';
-  const on = new Set(state.techs);
-  const groups = new Map();
-  for (const tc of all) {
-    const b = (tc.bld && tc.bld[state.civ]) || '-';
-    const key = b === '-' ? '*other' : b;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(tc);
-  }
-  const head = `<div class="bfilter techhead">
+  const n = TECHS.filter((tc) => !tc.cond && tc.civs.includes(state.civ)).length;
+  if (!n) return '';
+  return `<div class="bfilter">
     <span class="blab">${esc(t('techs'))}</span>
-    <button class="mini tgl" data-tech-toggle="1">${state.techOpen ? '▲' : '▼'}
-      ${esc(t('techsOn', { n: `${state.techs.length}/${all.length}` }))}</button>
-    <button class="mini" data-techall="1">${esc(t('all'))}</button>
-    <button class="mini" data-techall="0">${esc(t('none'))}</button>
-    <span class="note">${state.techs.length ? esc(t('techNote')) : ''}</span></div>`;
-  if (!state.techOpen) return head;
-
-  const body = [...groups.entries()].map(([b, list]) => {
-    const chips = list.map((tc) => `<label class="bchip tech${on.has(tc.id) ? ' on' : ''}"
-      data-tip="${esc(techTip(tc))}">
-      <input type="checkbox" name="t" value="${tc.id}"${on.has(tc.id) ? ' checked' : ''}>
-      ${esc(techName(tc))}<i>${meta_roman(tc.age)}</i></label>`).join('');
-    return `<div class="techgrp"><span class="gl">${esc(bldName(b))}</span>${chips}</div>`;
-  }).join('');
-  return head + `<div class="techbody">${body}</div>`;
-}
-
-const meta_roman = (age) => META.roman[age] || '';
-
-function techTip(tc) {
-  const fx = tc.fx.map((e) => {
-    const label = term({ hitpoints: 'i-hp', meleeArmor: 'i-armm', rangedArmor: 'i-armr',
-      meleeAttack: 'i-melee', rangedAttack: 'i-ranged', siegeAttack: 'i-siege',
-      attackSpeed: 'i-int', moveSpeed: 'i-speed', maxRange: 'i-range',
-      buildTime: 'i-time' }[e.p] || e.p);
-    return `${label} ${e.e === 'change' ? (e.v > 0 ? '+' : '') + e.v : '×' + e.v}`;
-  }).join(' / ');
-  return `${techName(tc)} — ${fx}`;
+    <label class="bchip tech${state.tech ? ' on' : ''}">
+      <input type="checkbox" id="techchk"${state.tech ? ' checked' : ''}>
+      ${esc(t('techApply'))}</label>
+    <span class="note">${esc(state.tech ? t('techNote') : t('techHint', { n }))}</span></div>`;
 }
 
 function activeBlds(units) {
@@ -199,10 +159,11 @@ function renderInner() {
   let html;
   if (state.view === 'matrix') {
     html = renderMatrix(units, META, { blds: activeBlds(units), bases: activeBases(units),
-      techs: activeTechs() });
+      techs: state.tech ? TECHS : [], civ: state.civ });
   } else {
     html = renderTable(units, META,
-      { sort: state.sort, asc: state.asc, bases: activeBases(units), techs: activeTechs() });
+      { sort: state.sort, asc: state.asc, bases: activeBases(units),
+        techs: state.tech ? TECHS : [], civ: state.civ });
   }
   $('#main').innerHTML = html;
 
@@ -243,7 +204,8 @@ function preparePrint() {
   if (state.civ && state.view === 'matrix') {
     const units = unitsOfCiv();
     $('#print-area').innerHTML = renderPrintMatrix(units, META, civName(state.civ),
-      { blds: activeBlds(units), bases: activeBases(units), techs: activeTechs() }) + legendHTML();
+      { blds: activeBlds(units), bases: activeBases(units),
+        techs: state.tech ? TECHS : [], civ: state.civ }) + legendHTML();
     document.body.classList.add('pm');
   } else {
     $('#print-area').innerHTML = '';
@@ -274,7 +236,7 @@ function wire() {
   $('#civ').innerHTML = Object.keys(META.civs)
     .sort((a, b) => civName(a).localeCompare(civName(b), lang()))
     .map((c) => `<option value="${c}">${esc(civName(c))}</option>`).join('');
-  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null, bases: null, techs: [] });
+  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null, bases: null });
 
   $('#views').onclick = (e) => {
     const b = e.target.closest('.vtab');
@@ -286,22 +248,11 @@ function wire() {
     if (e.target.type !== 'checkbox') return;
     const pick = (n) => [...$('#filter').querySelectorAll(`input[name=${n}]:checked`)].map((i) => i.value);
     // 施設を変えると系統の候補も変わるので、系統の選択は入れ直す
-    if (e.target.name === 'b') go({ blds: pick('b'), bases: null }, false);
-    else if (e.target.name === 't') go({ techs: pick('t') }, false);
+    if (e.target.id === 'techchk') go({ tech: e.target.checked }, false);
+    else if (e.target.name === 'b') go({ blds: pick('b'), bases: null }, false);
     else go({ bases: pick('u') }, false);
   };
   $('#filter').onclick = (e) => {
-    if (e.target.closest('button[data-tech-toggle]')) {
-      state.techOpen = !state.techOpen;
-      writeURL();
-      render();
-      return;
-    }
-    const ta = e.target.closest('button[data-techall]');
-    if (ta) {
-      go({ techs: ta.dataset.techall === '1' ? civTechs().map((x) => x.id) : [] }, false);
-      return;
-    }
     const b = e.target.closest('button[data-all]');
     if (!b) return;
     const units = unitsOfCiv();
@@ -325,7 +276,7 @@ function wire() {
     const a = e.target.closest('a.civtile');
     if (!a) return;
     e.preventDefault();
-    go({ civ: a.dataset.civ, blds: null, bases: null, techs: [] });
+    go({ civ: a.dataset.civ, blds: null, bases: null });
   });
 
   $('#print').onclick = () => { preparePrint(); window.print(); };
