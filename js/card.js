@@ -67,6 +67,7 @@ const RES = [['f', 'i-food'], ['w', 'i-wood'], ['g', 'i-gold'], ['s', 'i-stone']
 
 export function renderCard(unit, meta, techs, civ) {
   const { u, mods } = applyTechs(unit, techs);
+  const hasTechTip = (techs || []).some((tech) => effectsFor(unit, tech).length);
   const bslug = (tech) => (tech.bld && tech.bld[civ]) || '-';
   const tline = (tech, tail) => `　${meta.roman[tech.age]}  ${techName(tech)}`
     + `（${bldName(bslug(tech))}）  ${tail}`;
@@ -81,6 +82,12 @@ export function renderCard(unit, meta, techs, civ) {
   const atk = meta.atkIcon[w.t] || 'i-melee';
   const row = (icon, val, tip, field, label) => {
     const m = field && mods && mods[field];
+    // 強化ぶんを出しているときは、カード全体の一覧ツールチップに任せる（行ごとに出すと煩い）
+    if (hasTechTip) {
+      return `<div class="r">${ico(icon)}<span class="v">${val ?? '–'}</span>`
+        + (m ? `<span class="dlt">${(() => { const d = Math.round((val - unitVal(unit, field)) * 1000) / 1000; return d > 0 ? `+${d}` : d; })()}</span>` : '')
+        + '</div>';
+    }
     if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
     const base = unitVal(unit, field);
     const d = Math.round((val - base) * 1000) / 1000;
@@ -90,7 +97,7 @@ export function renderCard(unit, meta, techs, civ) {
     const rows = m.map((x) => trow(icon, x.txt, x.t, ''));
     return `<div class="r" data-tip="${detail}"${tipData(head, rows)}>${ico(icon)}`
       + `<span class="v">${base}</span>`
-      + `<span class="up">${d > 0 ? '+' : ''}${d}</span></div>`;
+      + `<span class="dlt">${d > 0 ? '+' : ''}${d}</span></div>`;
   };
 
   const st = (k) => term(k);
@@ -138,11 +145,11 @@ export function renderCard(unit, meta, techs, civ) {
   <div class="body"><div class="col">${left.join('')}</div><div class="col">${right.join('')}</div></div>
   ${bonusRow(u, meta)}
   <div class="ft up" data-tip="${esc(tip)}">${cost}<span class="sp"></span>
-    <span class="c dim"${mods && mods.t ? ` data-tip="${
+    <span class="c dim"${mods && mods.t && !hasTechTip ? ` data-tip="${
       esc([`${term('i-time')}　${unit.cost.t} → ${u.cost.t}`,
         ...mods.t.map((x) => tline(x.t, x.txt))].join('\n'))
         .replaceAll('\n', '&#10;')}"` : ''}>${
       ico('i-time')}${u.cost.t}${mods && mods.t
-        ? `<b class="up">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
+        ? `<b class="dlt">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
 </div>`;
 }
