@@ -177,6 +177,7 @@ for (uid, _), members in groups.items():
                   'mv': (u.get('movement') or {}).get('speed'),
                   'ic': (u.get('icon') or '').replace(IMG, ''),
                   'pb': u.get('producedBy') or [], 'b': u.get('baseId'),
+                  'cls': u.get('classes') or [],
                   'ch': ({'d': charge.get('damage'), 's': charge.get('speed')} if charge else None),
                   'bo': bonus})
 
