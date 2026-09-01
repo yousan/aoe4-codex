@@ -84,8 +84,11 @@ export function renderCard(unit, meta, techs, civ) {
     const m = field && mods && mods[field];
     // 強化ぶんを出しているときは、カード全体の一覧ツールチップに任せる（行ごとに出すと煩い）
     if (hasTechTip) {
-      return `<div class="r">${ico(icon)}<span class="v">${val ?? '–'}</span>`
-        + (m ? `<span class="dlt">${(() => { const d = Math.round((val - unitVal(unit, field)) * 1000) / 1000; return d > 0 ? `+${d}` : d; })()}</span>` : '')
+      // 「基礎値 + 増分」で揃える。強化後の値を出すと +N と二重に見える
+      const b = m ? unitVal(unit, field) : val;
+      const d = m ? Math.round((val - b) * 1000) / 1000 : 0;
+      return `<div class="r">${ico(icon)}<span class="v">${b ?? '–'}</span>`
+        + (m ? `<span class="dlt">${d > 0 ? `+${d}` : d}</span>` : '')
         + '</div>';
     }
     if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
@@ -149,7 +152,7 @@ export function renderCard(unit, meta, techs, civ) {
       esc([`${term('i-time')}　${unit.cost.t} → ${u.cost.t}`,
         ...mods.t.map((x) => tline(x.t, x.txt))].join('\n'))
         .replaceAll('\n', '&#10;')}"` : ''}>${
-      ico('i-time')}${u.cost.t}${mods && mods.t
+      ico('i-time')}${mods && mods.t ? unit.cost.t : u.cost.t}${mods && mods.t
         ? `<b class="dlt">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
 </div>`;
 }
