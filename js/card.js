@@ -1,6 +1,6 @@
 // ユニットカードの描画。全ビューで共通して使う。
-import { t, lang, term, unitName, techName } from './i18n.js';
-import { applyTechs } from './techs.js';
+import { t, lang, term, unitName, techName, bldName } from './i18n.js';
+import { applyTechs, effectsFor, fxText, PROP_ICON } from './techs.js';
 
 export const IMG_BASE = 'assets/units/';
 
@@ -10,6 +10,12 @@ export function ico(name, cls = '') {
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+/** 効果の対象になっている数値の名前 */
+function propLabel(p) {
+  const icon = PROP_ICON[p] || p;
+  return p.endsWith('Attack') ? t('tip.atk', { t: term(icon) }) : term(icon);
+}
 
 /** テク適用前の値（ツールチップの「基礎値」用） */
 function unitVal(u, field) {
@@ -59,8 +65,10 @@ function bonusRow(u, meta) {
 
 const RES = [['f', 'i-food'], ['w', 'i-wood'], ['g', 'i-gold'], ['s', 'i-stone']];
 
-export function renderCard(unit, meta, techs) {
+export function renderCard(unit, meta, techs, civ) {
   const { u, mods } = applyTechs(unit, techs);
+  const tline = (tech, tail) => `　${meta.roman[tech.age]}  ${techName(tech)}`
+    + `（${bldName((tech.bld && tech.bld[civ]) || '-')}）  ${tail}`;
   const w = u.w || {};
   const rng = (w.r1 && w.r1 >= 1) ? w.r1 : null;
   const atk = meta.atkIcon[w.t] || 'i-melee';
@@ -70,7 +78,7 @@ export function renderCard(unit, meta, techs) {
     const base = unitVal(unit, field);
     const d = Math.round((val - base) * 1000) / 1000;
     const lines = [`${label || tip}　${base} → ${val}`,
-      ...m.map((x) => `　${meta.roman[x.t.age]}  ${techName(x.t)}  ${x.txt}`)];
+      ...m.map((x) => tline(x.t, x.txt))];
     const detail = esc(lines.join('\n')).replaceAll('\n', '&#10;');
     return `<div class="r" data-tip="${detail}">${ico(icon)}`
       + `<span class="v">${base}</span>`
@@ -104,7 +112,15 @@ export function renderCard(unit, meta, techs) {
   const name = esc(shown);
   const sub = shown !== u.n ? `<span class="en">${esc(u.n)}</span>` : '';
 
-  return `<div class="card a${u.age}">
+  const applied = (techs || []).filter((tech) => effectsFor(unit, tech).length);
+  const cardTip = applied.length
+    ? esc([`${unitName(unit)}　${t('techs')} ${applied.length}`,
+        ...applied.map((tech) => tline(tech,
+          effectsFor(unit, tech).map((e) => `${propLabel(e.p)} ${fxText(e)}`).join(' / ')))]
+      .join('\n')).replaceAll('\n', '&#10;')
+    : '';
+
+  return `<div class="card a${u.age}"${cardTip ? ` data-tip="${cardTip}"` : ''}>
   <div class="hd"><img src="${IMG_BASE}${u.ic}" alt="" loading="lazy"><div class="nm">${name}${sub}</div>
     <div class="age">${meta.roman[u.age]}</div></div>
   ${attrRow(u, meta)}
@@ -113,7 +129,7 @@ export function renderCard(unit, meta, techs) {
   <div class="ft up" data-tip="${esc(tip)}">${cost}<span class="sp"></span>
     <span class="c dim"${mods && mods.t ? ` data-tip="${
       esc([`${term('i-time')}　${unit.cost.t} → ${u.cost.t}`,
-        ...mods.t.map((x) => `　${meta.roman[x.t.age]}  ${techName(x.t)}  ${x.txt}`)].join('\n'))
+        ...mods.t.map((x) => tline(x.t, x.txt))].join('\n'))
         .replaceAll('\n', '&#10;')}"` : ''}>${
       ico('i-time')}${u.cost.t}${mods && mods.t
         ? `<b class="up">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>

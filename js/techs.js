@@ -33,6 +33,26 @@ export function autoTechs(u, techs, civ) {
 
 const r2 = (n) => Math.round(n * 1000) / 1000;
 
+/** 数値のラベルに使うアイコンキー */
+export const PROP_ICON = {
+  hitpoints: 'i-hp', meleeArmor: 'i-armm', rangedArmor: 'i-armr', fireArmor: 'i-armm',
+  meleeAttack: 'i-melee', rangedAttack: 'i-ranged', siegeAttack: 'i-siege',
+  fireAttack: 'i-fire', attackSpeed: 'i-int', moveSpeed: 'i-speed',
+  maxRange: 'i-range', buildTime: 'i-time',
+};
+
+/** そのユニットに実際に効く効果だけ返す（適用時と同じ条件で絞る） */
+export function effectsFor(u, tech) {
+  return tech.fx.filter((e) => affects(u, e)
+    && FIELD[e.p]
+    && !(e.p === 'attackSpeed' && e.e === 'multiply' && e.v > 1)
+    && !(FIELD[e.p].startsWith('d:') && (!u.w || u.w.t !== FIELD[e.p].split(':')[1])));
+}
+
+/** 「+1」「×1.15」のような表記 */
+export const fxText = (e) => (e.e === 'change'
+  ? `${e.v > 0 ? '+' : ''}${e.v}` : `×${r2(e.v)}`);
+
 /**
  * @returns {{u: object, mods: object|null}} mods は フィールド名 → [{n, txt}]
  */
