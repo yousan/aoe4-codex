@@ -146,6 +146,10 @@ def _read_value(r, typ):
     raise ValueError(f'unknown RGD type {typ}')
 
 
+class _Multi(list):
+    """同じキーが複数あったときの入れ物（順番を保つ）"""
+
+
 def read_rgd(blob):
     """RGD を dict にして返す"""
     r = _R(blob)
@@ -185,9 +189,29 @@ def read_rgd(blob):
     r.u('<i')                            # unknown
     table = _read_list(r)
 
+    def to_dict(pairs):
+        """同じキーが並ぶことがある（生産キューなど）。その場合は順番を保った配列にする"""
+        out = {}
+        for k, v in pairs:
+            name = keys.get(k, str(k))
+            val = conv(v)
+            if name in out:
+                if isinstance(out[name], list) and getattr(out[name], 'multi', False) is False \
+                        and not isinstance(out[name], dict):
+                    pass
+                cur = out[name]
+                if isinstance(cur, _Multi):
+                    cur.append(val)
+                else:
+                    m = _Multi([cur, val])
+                    out[name] = m
+            else:
+                out[name] = val
+        return out
+
     def conv(v):
         if isinstance(v, list):
-            return {keys.get(k, str(k)): conv(x) for k, x in v}
+            return to_dict(v)
         return v
 
-    return {keys.get(k, str(k)): conv(v) for k, v in table}
+    return to_dict(table)

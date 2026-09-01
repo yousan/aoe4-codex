@@ -123,6 +123,1494 @@
   "military-school",
   "town-center"
  ],
+ "prodOrder": {
+  "ab": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "camel-archer"
+   ],
+   "barracks": [
+    "spearman",
+    "ghulam"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-dhow",
+    "fishing-boat",
+    "transport-ship",
+    "baghlah",
+    "xebec",
+    "trade-ship",
+    "dhow"
+   ],
+   "market": [
+    "trade-caravan"
+   ],
+   "mosque": [
+    "imam"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "culverin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "lancer",
+    "camel-rider",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "ay": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "desert-raider"
+   ],
+   "barracks": [
+    "spearman",
+    "ghulam"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-dhow",
+    "fishing-boat",
+    "transport-ship",
+    "baghlah",
+    "xebec",
+    "trade-ship",
+    "dhow"
+   ],
+   "house-of-wisdom": [
+    "atabeg"
+   ],
+   "market": [
+    "trade-caravan"
+   ],
+   "mosque": [
+    "dervish"
+   ],
+   "siege-workshop": [
+    "springald",
+    "manjaniq",
+    "counterweight-trebuchet",
+    "culverin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "camel-lancer",
+    "scout",
+    "desert-raider"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "by": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "limitanei",
+    "varangian-guard"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "dromon",
+    "carrack",
+    "galley",
+    "trade-ship"
+   ],
+   "foreign-engineering-company": [
+    "nest-of-bees",
+    "huihui-pao",
+    "royal-cannon"
+   ],
+   "golden-horn-tower": [
+    "camel-archer",
+    "camel-rider",
+    "mangudai",
+    "royal-knight",
+    "war-elephant",
+    "musofadi-warrior",
+    "landsknecht",
+    "grenadier",
+    "tower-elephant",
+    "streltsy",
+    "javelin-thrower",
+    "longbowman",
+    "zhuge-nu",
+    "arbaletrier",
+    "desert-raider",
+    "ghulam",
+    "keshik",
+    "horse-archer",
+    "sipahi"
+   ],
+   "grand-winery": [
+    "monk"
+   ],
+   "imperial-hippodrome": [
+    "horseman",
+    "cataphract",
+    "scout"
+   ],
+   "market": [
+    "trader"
+   ],
+   "mercenary-house": [
+    "camel-archer",
+    "camel-rider",
+    "mangudai",
+    "royal-knight",
+    "war-elephant",
+    "musofadi-warrior",
+    "landsknecht",
+    "grenadier",
+    "tower-elephant",
+    "streltsy",
+    "javelin-thrower",
+    "longbowman",
+    "zhuge-nu",
+    "arbaletrier",
+    "desert-raider",
+    "ghulam",
+    "keshik",
+    "horse-archer",
+    "sipahi"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "palatine-school": [
+    "limitanei",
+    "varangian-guard",
+    "cataphract",
+    "cheirosiphon"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "cheirosiphon"
+   ],
+   "stable": [
+    "horseman",
+    "cataphract",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "ch": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "grenadier",
+    "zhuge-nu",
+    "handcannoneer"
+   ],
+   "astronomical-clocktower": [
+    "clocktower-springald",
+    "clocktower-counterweight-trebuchet",
+    "clocktower-bombard",
+    "clocktower-nest-of-bees",
+    "clocktower-battering-ram"
+   ],
+   "barracks": [
+    "spearman",
+    "palace-guard"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout",
+    "imperial-official"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "baochuan",
+    "junk",
+    "trade-ship"
+   ],
+   "imperial-academy": [
+    "imperial-official"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "counterweight-trebuchet",
+    "bombard",
+    "nest-of-bees",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "lancer",
+    "fire-lancer",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout",
+    "imperial-official"
+   ]
+  },
+  "de": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "tower-elephant"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-dhow",
+    "fishing-boat",
+    "transport-ship",
+    "baghlah",
+    "xebec",
+    "trade-ship",
+    "dhow"
+   ],
+   "dome-of-the-faith": [
+    "scholar"
+   ],
+   "keep": [
+    "villager",
+    "scout"
+   ],
+   "market": [
+    "trader"
+   ],
+   "mosque": [
+    "scholar"
+   ],
+   "palace-of-the-sultan": [
+    "sultans-elite-tower-elephant"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "bombard",
+    "counterweight-trebuchet",
+    "battering-ram"
+   ],
+   "stable": [
+    "ghazi-raider",
+    "lancer",
+    "war-elephant",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "en": {
+   "abbey-of-kings": [
+    "king"
+   ],
+   "archery-range": [
+    "longbowman",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "berkshire-palace": [
+    "spearman",
+    "man-at-arms",
+    "handcannoneer",
+    "longbowman",
+    "crossbowman",
+    "horseman",
+    "knight",
+    "springald",
+    "mangonel",
+    "ribauldequin",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "council-hall": [
+    "longbowman",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "carrack",
+    "galley",
+    "trade-ship"
+   ],
+   "keep": [
+    "spearman",
+    "man-at-arms",
+    "handcannoneer",
+    "longbowman",
+    "crossbowman",
+    "horseman",
+    "knight",
+    "springald",
+    "mangonel",
+    "ribauldequin",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "kings-palace": [
+    "villager",
+    "scout"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "ribauldequin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "knight",
+    "scout"
+   ],
+   "the-white-tower": [
+    "spearman",
+    "man-at-arms",
+    "handcannoneer",
+    "longbowman",
+    "crossbowman",
+    "horseman",
+    "knight",
+    "springald",
+    "mangonel",
+    "ribauldequin",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ],
+   "wynguard-palace": [
+    "wynguard-army",
+    "wynguard-raiders",
+    "wynguard-rangers",
+    "wynguard-footmen"
+   ]
+  },
+  "fr": {
+   "archery-range": [
+    "archer",
+    "arbaletrier",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "chamber-of-commerce": [
+    "trader"
+   ],
+   "college-of-artillery": [
+    "royal-cannon",
+    "royal-ribauldequin"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "war-cog",
+    "carrack",
+    "galleass",
+    "trade-ship",
+    "galley"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "school-of-cavalry": [
+    "horseman",
+    "royal-knight",
+    "scout"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "cannon",
+    "ribauldequin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "royal-knight",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "gol": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "kipchak-archer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "baochuan",
+    "trade-ship",
+    "light-junk"
+   ],
+   "golden-tent": [
+    "batu-khan",
+    "torguud",
+    "kharash",
+    "keshik",
+    "rus-tribute"
+   ],
+   "market": [
+    "trader"
+   ],
+   "prayer-tent": [
+    "shaman"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "traction-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "hr": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "black-rider"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms",
+    "landsknecht"
+   ],
+   "burgrave-palace": [
+    "spearman",
+    "man-at-arms",
+    "landsknecht"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout",
+    "prelate"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "carrack",
+    "galley",
+    "trade-ship"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "prelate"
+   ],
+   "palace-of-swabia": [
+    "villager",
+    "scout",
+    "prelate"
+   ],
+   "regnitz-cathedral": [
+    "prelate"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "culverin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "knight",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout",
+    "prelate"
+   ]
+  },
+  "hl": {
+   "abbey-of-kings": [
+    "lord-of-lancaster"
+   ],
+   "archery-range": [
+    "yeoman",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "spearman",
+    "earls-guard"
+   ],
+   "berkshire-palace": [
+    "earls-guard"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "carrack",
+    "galley",
+    "trade-ship"
+   ],
+   "keep": [
+    "earls-guard"
+   ],
+   "lancaster-castle": [
+    "demilancer",
+    "earls-guard"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "culverin",
+    "battering-ram"
+   ],
+   "stable": [
+    "hobelar",
+    "knight",
+    "scout"
+   ],
+   "the-white-tower": [
+    "earls-guard"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ],
+   "wynguard-palace": [
+    "wynguard-army",
+    "earls-retinue",
+    "garrison-command",
+    "gunpowder-contingent"
+   ]
+  },
+  "ja": {
+   "archery-range": [
+    "yumi-ashigaru",
+    "onna-musha",
+    "handcannon-ashigaru",
+    "yumi-bannerman"
+   ],
+   "barracks": [
+    "spearman",
+    "samurai",
+    "onna-bugeisha",
+    "katana-bannerman"
+   ],
+   "buddhist-temple": [
+    "buddhist-monk"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "atakebune",
+    "junk",
+    "trade-ship"
+   ],
+   "koka-township": [
+    "shinobi"
+   ],
+   "market": [
+    "trader"
+   ],
+   "shinto-shrine": [
+    "shinto-priest"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "mounted-samurai",
+    "scout",
+    "uma-bannerman"
+   ],
+   "tanegashima-gunsmith": [
+    "handcannon-ashigaru",
+    "ozutsu",
+    "ribauldequin",
+    "bombard"
+   ],
+   "temple-of-equality": [
+    "buddhist-monk"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "je": {
+   "archery-range": [
+    "archer",
+    "arbaletrier",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms",
+    "jeannes-champion"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "chamber-of-commerce": [
+    "trader"
+   ],
+   "college-of-artillery": [
+    "royal-cannon",
+    "royal-ribauldequin"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "war-cog",
+    "carrack",
+    "galleass",
+    "trade-ship",
+    "galley"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "school-of-cavalry": [
+    "horseman",
+    "royal-knight",
+    "scout",
+    "jeannes-rider"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "cannon",
+    "ribauldequin",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "royal-knight",
+    "scout",
+    "jeannes-rider"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "jin": {
+   "barracks": [
+    "spearman",
+    "man-at-arms",
+    "zhanma-swordsman"
+   ],
+   "capital-town-center": [
+    "villager",
+    "emissary",
+    "mounted-villager"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "baochuan",
+    "junk",
+    "trade-ship"
+   ],
+   "dragon-pavilion": [
+    "emissary"
+   ],
+   "great-pasture": [
+    "scout",
+    "horseman",
+    "mohe-tribesman",
+    "iron-pagoda",
+    "trader"
+   ],
+   "machine-workshop": [
+    "crossbowman",
+    "eruptor",
+    "bed-crossbow",
+    "traction-trebuchet",
+    "bombard",
+    "nest-of-bees",
+    "battering-ram"
+   ],
+   "market": [
+    "reindeer-trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "mountain-hall": [
+    "monk"
+   ],
+   "town-center": [
+    "villager",
+    "emissary",
+    "mounted-villager"
+   ],
+   "war-stable": [
+    "scout",
+    "horseman",
+    "mohe-tribesman",
+    "iron-pagoda",
+    "trader"
+   ]
+  },
+  "kt": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "genoese-crossbowman",
+    "genitour"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms",
+    "heavy-spearman",
+    "serjeant",
+    "hospitaller-knight",
+    "teutonic-knight",
+    "condottiero"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "harbor": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "venetian-galley",
+    "galley"
+   ],
+   "market": [
+    "venetian-trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "templar-brother",
+    "scout",
+    "chevalier-confrere",
+    "szlachta-cavalry"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "mac": {
+   "archery-range": [
+    "bogmadr",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "dromon",
+    "warship",
+    "galley",
+    "trade-ship"
+   ],
+   "foreign-engineering-company": [
+    "nest-of-bees",
+    "huihui-pao",
+    "royal-cannon"
+   ],
+   "golden-horn-tower": [
+    "crossbowman"
+   ],
+   "grand-winery": [
+    "monk"
+   ],
+   "imperial-hippodrome": [
+    "horseman",
+    "riddari",
+    "scout",
+    "hippodrome-scout",
+    "hippodrome-horseman",
+    "hippodrome-riddari"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "palatine-school": [
+    "cataphract"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "cheirosiphon"
+   ],
+   "stable": [
+    "horseman",
+    "riddari",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ],
+   "varangian-stronghold": [
+    "atgeirmadr",
+    "bogmadr",
+    "varangian-guard",
+    "riddari"
+   ],
+   "varangian-warcamp": [
+    "atgeirmadr",
+    "varangian-guard",
+    "bogmadr",
+    "riddari",
+    "attack-ship"
+   ]
+  },
+  "ma": {
+   "archery-range": [
+    "archer",
+    "javelin-thrower",
+    "musofadi-gunner",
+    "mansa-javelineer"
+   ],
+   "barracks": [
+    "donso",
+    "musofadi-warrior",
+    "mansa-musofadi-warrior",
+    "freeborn-warrior"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout",
+    "warrior-scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hunting-canoe",
+    "trade-ship",
+    "war-canoe"
+   ],
+   "farimba-garrison": [
+    "mansa-javelineer",
+    "mansa-musofadi-warrior",
+    "freeborn-warrior"
+   ],
+   "market": [
+    "trader"
+   ],
+   "mosque": [
+    "imam"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "bombard",
+    "counterweight-trebuchet",
+    "battering-ram"
+   ],
+   "stable": [
+    "sofa",
+    "scout",
+    "warrior-scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout",
+    "warrior-scout"
+   ]
+  },
+  "mo": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer",
+    "mangudai",
+    "khans-hunter"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "baochuan",
+    "trade-ship",
+    "light-junk"
+   ],
+   "khaganate-palace": [
+    "huihui-pao",
+    "khaganate-mangudai",
+    "khaganate-horse-archer",
+    "khaganate-knight",
+    "khaganate-palace-guard",
+    "khaganate-warrior-monk",
+    "khaganate-nest-of-bees",
+    "keshik"
+   ],
+   "market": [
+    "trader"
+   ],
+   "prayer-tent": [
+    "shaman"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "traction-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "keshik",
+    "scout"
+   ],
+   "the-silver-tree": [
+    "trader"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "od": {
+   "archery-range": [
+    "gilded-archer",
+    "gilded-crossbowman",
+    "gilded-handcannoneer"
+   ],
+   "barracks": [
+    "gilded-spearman",
+    "gilded-man-at-arms",
+    "gilded-landsknecht"
+   ],
+   "burgrave-palace": [
+    "gilded-spearman",
+    "gilded-man-at-arms",
+    "gilded-landsknecht"
+   ],
+   "capital-town-center": [
+    "gilded-villager",
+    "scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "carrack",
+    "galley",
+    "trade-ship"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "prelate"
+   ],
+   "palace-of-swabia": [
+    "gilded-villager",
+    "scout",
+    "prelate"
+   ],
+   "regnitz-cathedral": [
+    "prelate"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "culverin",
+    "battering-ram"
+   ],
+   "stable": [
+    "gilded-horseman",
+    "gilded-knight",
+    "scout"
+   ],
+   "town-center": [
+    "gilded-villager",
+    "scout"
+   ]
+  },
+  "ot": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "janissary",
+    "akinji"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "demolition-ship",
+    "fishing-boat",
+    "transport-ship",
+    "hulk",
+    "carrack",
+    "trade-ship",
+    "grand-galley",
+    "dhow"
+   ],
+   "market": [
+    "trader"
+   ],
+   "mehmed-imperial-armory": [
+    "battering-ram",
+    "springald",
+    "mangonel",
+    "ribauldequin",
+    "counterweight-trebuchet",
+    "great-bombard"
+   ],
+   "military-school": [
+    "spearman",
+    "man-at-arms",
+    "janissary",
+    "archer",
+    "crossbowman",
+    "sipahi",
+    "lancer",
+    "mehter",
+    "akinji"
+   ],
+   "mosque": [
+    "imam"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "ribauldequin",
+    "counterweight-trebuchet",
+    "great-bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "sipahi",
+    "lancer",
+    "mehter",
+    "scout"
+   ],
+   "sultanhani-trade-network": [
+    "trader"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "ru": {
+   "abbey-of-the-trinity": [
+    "warrior-monk"
+   ],
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "streltsy",
+    "horse-archer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "lodya-demolition-ship",
+    "lodya-fishing-boat",
+    "lodya-transport-ship",
+    "lodya-attack-ship",
+    "lodya-trade-ship",
+    "lodya-galley"
+   ],
+   "hunting-cabin": [
+    "scout"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "warrior-monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "knight",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "sen": {
+   "archery-range": [
+    "yumi-ashigaru",
+    "tanegashima-ashigaru",
+    "ozutsu"
+   ],
+   "barracks": [
+    "spearman",
+    "naginata-samurai",
+    "kanabo-samurai"
+   ],
+   "buddhist-temple": [
+    "ikko-ikki-monk"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "atakebune",
+    "junk",
+    "trade-ship"
+   ],
+   "hojo-clan-daimyo-estate": [
+    "daimyo",
+    "spearman-levy",
+    "naginata-samurai-levy"
+   ],
+   "matsuri": [
+    "trader",
+    "yatai"
+   ],
+   "oda-clan-daimyo-estate": [
+    "daimyo",
+    "yumi-ashigaru-levy",
+    "tanegashima-ashigaru-levy"
+   ],
+   "siege-workshop": [
+    "springald",
+    "mangonel",
+    "counterweight-trebuchet",
+    "bombard",
+    "battering-ram"
+   ],
+   "stable": [
+    "yari-cavalry",
+    "mounted-samurai",
+    "scout"
+   ],
+   "takeda-clan-daimyo-estate": [
+    "daimyo",
+    "yari-cavalry-levy",
+    "mounted-samurai-levy"
+   ],
+   "temple-of-equality": [
+    "ikko-ikki-monk"
+   ],
+   "town-center": [
+    "villager",
+    "scout"
+   ]
+  },
+  "tug": {
+   "archery-range": [
+    "archer",
+    "crossbowman",
+    "handcannoneer"
+   ],
+   "barracks": [
+    "spearman",
+    "man-at-arms"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout",
+    "worker-elephant"
+   ],
+   "dock": [
+    "explosive-dhow",
+    "fishing-boat",
+    "transport-ship",
+    "baghlah",
+    "xebec",
+    "trade-ship",
+    "dhow"
+   ],
+   "dome-of-the-faith": [
+    "imam",
+    "healer-elephant"
+   ],
+   "market": [
+    "trader"
+   ],
+   "mosque": [
+    "imam",
+    "healer-elephant"
+   ],
+   "palace-of-the-sultan": [
+    "amir-warrior"
+   ],
+   "siege-workshop": [
+    "ballista-elephant",
+    "mangonel",
+    "bombard",
+    "counterweight-trebuchet",
+    "battering-ram"
+   ],
+   "stable": [
+    "raider-elephant",
+    "lancer",
+    "war-elephant",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout",
+    "worker-elephant"
+   ],
+   "tughlaqabad-fort": [
+    "worker-elephant",
+    "amir-warrior"
+   ]
+  },
+  "zx": {
+   "archery-range": [
+    "crossbowman",
+    "grenadier",
+    "zhuge-nu"
+   ],
+   "barracks": [
+    "spearman",
+    "palace-guard"
+   ],
+   "capital-town-center": [
+    "villager",
+    "scout",
+    "imperial-official"
+   ],
+   "dock": [
+    "explosive-junk",
+    "fishing-boat",
+    "transport-ship",
+    "war-junk",
+    "baochuan",
+    "junk",
+    "trade-ship"
+   ],
+   "jiangnan-tower": [
+    "provincial-levy",
+    "city-guard",
+    "ranged-specialists",
+    "imperial-retinue"
+   ],
+   "market": [
+    "trader"
+   ],
+   "monastery": [
+    "monk"
+   ],
+   "pagoda": [
+    "shaolin-monk"
+   ],
+   "shaolin-monastery": [
+    "shaolin-monk"
+   ],
+   "siege-workshop": [
+    "springald",
+    "counterweight-trebuchet",
+    "bombard",
+    "nest-of-bees",
+    "battering-ram"
+   ],
+   "stable": [
+    "horseman",
+    "lancer",
+    "yuan-raider",
+    "imperial-guard",
+    "scout"
+   ],
+   "town-center": [
+    "villager",
+    "scout",
+    "imperial-official"
+   ]
+  }
+ },
  "buildingSet": [
   "abbey-of-kings",
   "abbey-of-the-trinity",
