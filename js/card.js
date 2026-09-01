@@ -66,12 +66,14 @@ export function renderCard(unit, meta, techs) {
   const atk = meta.atkIcon[w.t] || 'i-melee';
   const row = (icon, val, tip, field) => {
     const m = field && mods && mods[field];
-    const base = m ? unitVal(unit, field) : null;
-    const detail = m
-      ? `${esc(tip)} ｜ ${esc(t('base'))} ${base} ${m.map((x) => `/ ${esc(x.n)} ${x.txt}`).join(' ')}`
-      : esc(tip);
+    if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
+    const base = unitVal(unit, field);
+    const d = Math.round((val - base) * 1000) / 1000;
+    const detail = `${esc(tip)} ｜ ${esc(t('base'))} ${base} → ${val}`
+      + ` ｜ ${m.map((x) => `${esc(x.n)} ${x.txt}`).join(' / ')}`;
     return `<div class="r" data-tip="${detail}">${ico(icon)}`
-      + `<span class="v${m ? ' mod' : ''}">${val ?? '–'}</span></div>`;
+      + `<span class="v">${base}</span>`
+      + `<span class="up">${d > 0 ? '+' : ''}${d}</span></div>`;
   };
 
   const st = (k) => term(k);
@@ -108,6 +110,8 @@ export function renderCard(unit, meta, techs) {
   <div class="body"><div class="col">${left.join('')}</div><div class="col">${right.join('')}</div></div>
   ${bonusRow(u, meta)}
   <div class="ft up" data-tip="${esc(tip)}">${cost}<span class="sp"></span>
-    <span class="c dim">${ico('i-time')}${u.cost.t}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
+    <span class="c dim"${mods && mods.t ? ` data-tip="${esc(t('base'))} ${unit.cost.t} → ${u.cost.t}"` : ''}>${
+      ico('i-time')}${u.cost.t}${mods && mods.t
+        ? `<b class="up">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
 </div>`;
 }
