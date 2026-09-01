@@ -63,12 +63,14 @@ civs.html           文明特性と固有テクノロジーの枠
 maps.html           ランクマップ一覧の枠
 css/app.css         見た目（カード・マトリクス・マップ・印刷）
 js/card.js          ユニットカード1枚の描画。全ビューで共通
+js/techs.js         テクノロジーの効果をユニットの数値に反映する
 js/views.js         マトリクス / 表 と、印刷用レイアウト
 js/app.js           プルダウン・タブ・URL 同期
 js/maps.js          ランクマップ一覧の描画
 js/civs.js          文明特性と固有テクノロジーの描画
 data/units.json     全605ユニット（表示用に整形した派生データ・241KB）
-data/meta.json      文明名・施設名・アイコンのラベル
+data/meta.json      構造の情報（施設の並び順・アイコンの対応など）
+data/techs.json     ユニットの数値に効くテクノロジー122件と、その効果
 data/maps.json      ランクマッププールと各マップの資源データ
 data/civs.json      文明特性と固有テクノロジー（言語に依存しない部分）
 data/civs-i18n/     文明特性・テクノロジーの各言語の文字列

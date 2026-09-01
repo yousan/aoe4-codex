@@ -98,6 +98,7 @@ def main():
     units = json.load(open(os.path.join(ROOT, 'data', 'units.json')))['units']
     buildings = json.load(open(os.path.join(ROOT, 'data', 'buildings-all.json')))['data']
     civs = json.load(open(os.path.join(ROOT, 'data', 'civs-index.json')))
+    techs = json.load(open(os.path.join(ROOT, 'data', 'techs.json')))['techs']
 
     unit_names = sorted({u['n'] for u in units})
     bld_names = {}
@@ -121,7 +122,7 @@ def main():
             print(f'  {lang}: {loc} が無い。とばす')
             continue
         tbl = read_ucs(path)
-        data = {'units': {}, 'buildings': {}, 'civs': {}, 'terms': {}}
+        data = {'units': {}, 'buildings': {}, 'civs': {}, 'terms': {}, 'techs': {}}
         miss = []
         for n in unit_names:
             v = pick(rev.get(n, []), tbl)
@@ -139,6 +140,10 @@ def main():
             v = pick(rev.get(n, []), tbl)
             if v:
                 data['civs'][code] = v
+        for t in techs:
+            v = pick(rev.get(t['n'], []), tbl)
+            if v:
+                data['techs'][t['id']] = v
         for key, spec in TERMS.items():
             if isinstance(spec, tuple):
                 v = tbl.get(spec[1])
@@ -150,7 +155,7 @@ def main():
                   ensure_ascii=False, indent=1, sort_keys=True)
         print(f'  {lang:8} units {len(data["units"])}/{len(unit_names)}  '
               f'buildings {len(data["buildings"])}  civs {len(data["civs"])}  '
-              f'terms {len(data["terms"])}'
+              f'techs {len(data["techs"])}/{len(techs)}  terms {len(data["terms"])}'
               + (f'  未取得: {miss[:3]}' if miss else ''))
 
 

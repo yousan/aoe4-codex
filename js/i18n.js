@@ -23,6 +23,7 @@ export function t(key, vars) {
 /** ゲーム内表記。無いものは英語のまま返す */
 export const unitName = (u) => (D.units && D.units[u.n]) || u.n;
 export const term = (key) => (D.terms && D.terms[key]) || key;
+export const techName = (tech) => (D.techs && D.techs[tech.id]) || tech.n;
 export const disclaimer = () => D.disclaimer || '';
 export const uiIsFallback = () => !!D.uiIsFallback;
 

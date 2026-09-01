@@ -2,11 +2,15 @@
 import { SPRITE } from './icons.js';
 import { renderMatrix, renderTable, renderPrintMatrix,
          availableBuildings, availableLines, buildingCounts, MAIN_COLS } from './views.js';
-import { loadLang, t, lang, term, bldName, civLabel, disclaimer, uiIsFallback } from './i18n.js';
+import { loadLang, t, lang, term, bldName, civLabel, techName, disclaimer,
+         uiIsFallback } from './i18n.js';
+import { techsFor } from './techs.js';
 
 const $ = (s) => document.querySelector(s);
 const VIEWS = ['matrix', 'table'];
-const state = { civ: null, view: 'matrix', blds: null, bases: null, sort: 'age', asc: true, lang: 'ja' };
+const state = { civ: null, view: 'matrix', blds: null, bases: null, techs: [], techOpen: false,
+                sort: 'age', asc: true, lang: 'ja' };
+let TECHS = [];
 
 /** ブラウザの言語から、用意のある言語を選ぶ（ja-JP → ja, zh-TW → zh-Hant など） */
 function pickBrowserLang() {
@@ -32,6 +36,8 @@ function readURL() {
   if (VIEWS.includes(p.get('view'))) state.view = p.get('view');
   state.blds = p.get('b') ? p.get('b').split(',').filter(Boolean) : null;
   state.bases = p.get('u') ? p.get('u').split(',').filter(Boolean) : null;
+  state.techs = p.get('t') ? p.get('t').split(',').filter(Boolean) : [];
+  state.techOpen = p.get('to') === '1';
   state.lang = p.get('lang') || localStorage.getItem('aoe4units.lang')
     || pickBrowserLang();
 }
@@ -42,6 +48,8 @@ function writeURL(push = false) {
   if (state.civ) p.set('view', state.view);
   if (state.blds) p.set('b', state.blds.join(','));
   if (state.bases) p.set('u', state.bases.join(','));
+  if (state.techs.length) p.set('t', state.techs.join(','));
+  if (state.techOpen) p.set('to', '1');
   if (lang() !== 'ja') p.set('lang', lang());
   const url = p.toString() ? `${location.pathname}?${p}` : location.pathname;
   if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
@@ -86,6 +94,58 @@ function filterUI(units) {
       <button class="mini" data-all="0" data-kind="u">${esc(t('none'))}</button></div>`;
 }
 
+/** その文明で研究できて、いま表示している列のユニットに効くテクノロジー */
+function civTechs() {
+  const units = unitsOfCiv();
+  return TECHS.filter((tc) => tc.civs.includes(state.civ)
+    && units.some((u) => techsFor(u, [tc]).length));
+}
+
+const activeTechs = () => civTechs().filter((tc) => state.techs.includes(tc.id));
+
+function techUI() {
+  const all = civTechs();
+  if (!all.length) return '';
+  const on = new Set(state.techs);
+  const groups = new Map();
+  for (const tc of all) {
+    const b = (tc.bld && tc.bld[state.civ]) || '-';
+    const key = b === '-' ? '*other' : b;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(tc);
+  }
+  const head = `<div class="bfilter techhead">
+    <span class="blab">${esc(t('techs'))}</span>
+    <button class="mini tgl" data-tech-toggle="1">${state.techOpen ? '▲' : '▼'}
+      ${esc(t('techsOn', { n: `${state.techs.length}/${all.length}` }))}</button>
+    <button class="mini" data-techall="1">${esc(t('all'))}</button>
+    <button class="mini" data-techall="0">${esc(t('none'))}</button>
+    <span class="note">${state.techs.length ? esc(t('techNote')) : ''}</span></div>`;
+  if (!state.techOpen) return head;
+
+  const body = [...groups.entries()].map(([b, list]) => {
+    const chips = list.map((tc) => `<label class="bchip tech${on.has(tc.id) ? ' on' : ''}"
+      data-tip="${esc(techTip(tc))}">
+      <input type="checkbox" name="t" value="${tc.id}"${on.has(tc.id) ? ' checked' : ''}>
+      ${esc(techName(tc))}<i>${meta_roman(tc.age)}</i></label>`).join('');
+    return `<div class="techgrp"><span class="gl">${esc(bldName(b))}</span>${chips}</div>`;
+  }).join('');
+  return head + `<div class="techbody">${body}</div>`;
+}
+
+const meta_roman = (age) => META.roman[age] || '';
+
+function techTip(tc) {
+  const fx = tc.fx.map((e) => {
+    const label = term({ hitpoints: 'i-hp', meleeArmor: 'i-armm', rangedArmor: 'i-armr',
+      meleeAttack: 'i-melee', rangedAttack: 'i-ranged', siegeAttack: 'i-siege',
+      attackSpeed: 'i-int', moveSpeed: 'i-speed', maxRange: 'i-range',
+      buildTime: 'i-time' }[e.p] || e.p);
+    return `${label} ${e.e === 'change' ? (e.v > 0 ? '+' : '') + e.v : '×' + e.v}`;
+  }).join(' / ');
+  return `${techName(tc)} — ${fx}`;
+}
+
 function activeBlds(units) {
   const avail = availableBuildings(units, META);
   const on = state.blds || avail.filter((b) => MAIN_COLS.includes(b));
@@ -99,6 +159,15 @@ function activeBases(units) {
 
 /* ---------------- 描画 ---------------- */
 function render() {
+  try {
+    renderInner();
+  } catch (err) {
+    console.error(err);
+    $('#main').innerHTML = `<pre class="err">${String(err && err.stack || err)}</pre>`;
+  }
+}
+
+function renderInner() {
   $('#langs').value = lang();
   $('#disc').innerHTML = disclaimer();
   $('#print').textContent = `🖨 ${t('print')}`;
@@ -125,14 +194,15 @@ function render() {
   $('#count').textContent = `${units.length} ${t('units')}`;
   $('#views').innerHTML = VIEWS.map((v) =>
     `<button class="vtab${v === state.view ? ' on' : ''}" data-view="${v}">${esc(t('view.' + v))}</button>`).join('');
-  $('#filter').innerHTML = filterUI(units);
+  $('#filter').innerHTML = filterUI(units) + techUI();
 
   let html;
   if (state.view === 'matrix') {
-    html = renderMatrix(units, META, { blds: activeBlds(units), bases: activeBases(units) });
+    html = renderMatrix(units, META, { blds: activeBlds(units), bases: activeBases(units),
+      techs: activeTechs() });
   } else {
     html = renderTable(units, META,
-      { sort: state.sort, asc: state.asc, bases: activeBases(units) });
+      { sort: state.sort, asc: state.asc, bases: activeBases(units), techs: activeTechs() });
   }
   $('#main').innerHTML = html;
 
@@ -173,7 +243,7 @@ function preparePrint() {
   if (state.civ && state.view === 'matrix') {
     const units = unitsOfCiv();
     $('#print-area').innerHTML = renderPrintMatrix(units, META, civName(state.civ),
-      { blds: activeBlds(units), bases: activeBases(units) }) + legendHTML();
+      { blds: activeBlds(units), bases: activeBases(units), techs: activeTechs() }) + legendHTML();
     document.body.classList.add('pm');
   } else {
     $('#print-area').innerHTML = '';
@@ -204,7 +274,7 @@ function wire() {
   $('#civ').innerHTML = Object.keys(META.civs)
     .sort((a, b) => civName(a).localeCompare(civName(b), lang()))
     .map((c) => `<option value="${c}">${esc(civName(c))}</option>`).join('');
-  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null, bases: null });
+  $('#civ').onchange = () => go({ civ: $('#civ').value, blds: null, bases: null, techs: [] });
 
   $('#views').onclick = (e) => {
     const b = e.target.closest('.vtab');
@@ -217,9 +287,21 @@ function wire() {
     const pick = (n) => [...$('#filter').querySelectorAll(`input[name=${n}]:checked`)].map((i) => i.value);
     // 施設を変えると系統の候補も変わるので、系統の選択は入れ直す
     if (e.target.name === 'b') go({ blds: pick('b'), bases: null }, false);
+    else if (e.target.name === 't') go({ techs: pick('t') }, false);
     else go({ bases: pick('u') }, false);
   };
   $('#filter').onclick = (e) => {
+    if (e.target.closest('button[data-tech-toggle]')) {
+      state.techOpen = !state.techOpen;
+      writeURL();
+      render();
+      return;
+    }
+    const ta = e.target.closest('button[data-techall]');
+    if (ta) {
+      go({ techs: ta.dataset.techall === '1' ? civTechs().map((x) => x.id) : [] }, false);
+      return;
+    }
     const b = e.target.closest('button[data-all]');
     if (!b) return;
     const units = unitsOfCiv();
@@ -243,7 +325,7 @@ function wire() {
     const a = e.target.closest('a.civtile');
     if (!a) return;
     e.preventDefault();
-    go({ civ: a.dataset.civ, blds: null, bases: null });
+    go({ civ: a.dataset.civ, blds: null, bases: null, techs: [] });
   });
 
   $('#print').onclick = () => { preparePrint(); window.print(); };
@@ -260,11 +342,12 @@ function wireLabels() {
 
 (async function main() {
   document.body.insertAdjacentHTML('afterbegin', SPRITE);
-  const [units, meta] = await Promise.all([
+  const [units, meta, techs] = await Promise.all([
     fetch('data/units.json').then((r) => r.json()),
     fetch('data/meta.json').then((r) => r.json()),
+    fetch('data/techs.json').then((r) => r.json()),
   ]);
-  DB = units; META = meta;
+  DB = units; META = meta; TECHS = techs.techs;
   readURL();
   if (!META.langs.includes(state.lang)) state.lang = 'ja';
   await loadLang(state.lang);

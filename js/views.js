@@ -1,6 +1,7 @@
 // ビュー（マトリクス / 時代別一覧 / 表）の描画
 import { renderCard, ico, lineLabel } from './card.js';
 import { t, lang, term, bldName, unitName } from './i18n.js';
+import { applyTechs } from './techs.js';
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -35,7 +36,7 @@ function extras(u, meta, cols) {
 }
 
 /** 縦=時代 / 横=生産施設（施設の中はユニット系統ごとの列） */
-export function renderMatrix(units, meta, { blds = null, bases = null } = {}) {
+export function renderMatrix(units, meta, { blds = null, bases = null, techs = [] } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
   if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
@@ -70,7 +71,7 @@ export function renderMatrix(units, meta, { blds = null, bases = null } = {}) {
       const edge = (si === 0 && ci > 0) ? ' bl' : '';
       if (!u) return `<td class="${edge}"><span class="e">·</span></td>`;
       const ex = extras(u, meta, cols);
-      return `<td class="${edge}">${renderCard(u, meta)}`
+      return `<td class="${edge}">${renderCard(u, meta, techs)}`
         + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
     })).join('');
     return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;
@@ -90,19 +91,20 @@ const COLS = [
   ['pop', () => term('i-pop'), ''], ['t', () => term('i-time'), ''],
   ['mv', () => term('i-speed'), ''],
 ];
-const val = (u, k) => ({
-  jp: unitName(u), age: u.age, hp: u.hp,
-  d: u.w?.d, dps: u.w?.dps, s: u.w?.s,
-  rng: (u.w?.r1 >= 1) ? u.w.r1 : null,
-  am: u.am, ar: u.ar, tot: u.cost.tot, pop: u.cost.pop, t: u.cost.t, mv: u.mv,
-}[k]);
+const val = (u, k, applied) => ((x) => ({
+  jp: unitName(u), age: u.age, hp: x.hp,
+  d: x.w?.d, dps: x.w?.dps, s: x.w?.s,
+  rng: (x.w?.r1 >= 1) ? x.w.r1 : null,
+  am: x.am, ar: x.ar, tot: x.cost.tot, pop: x.cost.pop, t: x.cost.t, mv: x.mv,
+}[k]))(applied ? (applied.get(u) || {}).u || u : u);
 
 /** 表。数値の比較用 */
-export function renderTable(units, meta, { sort = 'age', asc = true, bases = null } = {}) {
+export function renderTable(units, meta, { sort = 'age', asc = true, bases = null, techs = [] } = {}) {
   const src = bases ? units.filter((u) => bases.includes(u.base)) : units;
   if (!src.length) return `<p class="empty">${t('noUnits')}</p>`;
+  const applied = new Map(src.map((u) => [u, applyTechs(u, techs)]));
   const rows = [...src].sort((a, b) => {
-    const x = val(a, sort); const y = val(b, sort);
+    const x = val(a, sort, applied); const y = val(b, sort, applied);
     if (typeof x === 'string' || typeof y === 'string') {
       return String(x ?? '').localeCompare(String(y ?? ''), 'ja') * (asc ? 1 : -1);
     }
@@ -116,13 +118,13 @@ export function renderTable(units, meta, { sort = 'age', asc = true, bases = nul
       <span class="nm">${esc(unitName(u))}</span>${
         unitName(u) !== u.n ? ` <span class="en">${esc(u.n)}</span>` : ''}</td>
     <td><span class="age a${u.age}">${meta.roman[u.age]}</span></td>
-    ${COLS.slice(2).map(([k]) => `<td>${val(u, k) ?? '<span class="z">–</span>'}</td>`).join('')}
+    ${COLS.slice(2).map(([k]) => `<td>${val(u, k, applied) ?? '<span class="z">–</span>'}</td>`).join('')}
   </tr>`).join('');
   return `<div class="mxwrap"><table class="tbl"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 /** 印刷用: 1施設 = 1ページ（A4横に収まる幅）に組み替える */
-export function renderPrintMatrix(units, meta, civName, { blds = null, bases = null } = {}) {
+export function renderPrintMatrix(units, meta, civName, { blds = null, bases = null, techs = [] } = {}) {
   const all = blds && blds.length ? blds : MAIN_COLS;
   if (bases) units = units.filter((u) => bases.includes(u.base));
   const cols = all.filter((b) => units.some((u) => primary(u, all) === b));
@@ -145,7 +147,7 @@ export function renderPrintMatrix(units, meta, civName, { blds = null, bases = n
         const u = us.find((x) => x.age === a && x.base === base);
         if (!u) return '<td><span class="e">·</span></td>';
         const ex = extras(u, meta, cols);
-        return `<td>${renderCard(u, meta)}`
+        return `<td>${renderCard(u, meta, techs)}`
           + (ex.length ? `<div class="alt">＋ ${esc(ex.join('・'))}</div>` : '') + '</td>';
       }).join('');
       return `<tr><th class="age a${a}">${ageCell(meta, a)}</th>${tds}</tr>`;

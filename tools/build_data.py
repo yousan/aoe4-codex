@@ -96,6 +96,8 @@ UI = {
         'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
         'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計', 'colAtk': '攻撃',
+        'techs': 'テクノロジー', 'techsOn': '{n} 個', 'base': '基礎値',
+        'techNote': 'アップグレード適用後の値。数字をホバーすると内訳が出る。',
         'noUnits': '該当するユニットがありません。',
         'tip.dps': 'DPS（自爆ユニットは出さない）', 'tip.atk': '攻撃力（{t}）',
         'tip.int': '攻撃間隔（秒）', 'tip.range': '射程（–は近接）',
@@ -120,6 +122,8 @@ UI = {
         'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
         'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total', 'colAtk': 'Attack',
+        'techs': 'Technologies', 'techsOn': '{n} on', 'base': 'base',
+        'techNote': 'Values include the selected upgrades. Hover a number for the breakdown.',
         'noUnits': 'No units match.',
         'tip.dps': 'DPS (not shown for self-destructing units)', 'tip.atk': 'Attack ({t})',
         'tip.int': 'Rate of fire (seconds)', 'tip.range': 'Range (– means melee)',
@@ -152,6 +156,19 @@ DISCLAIMER_I18N = {
            '<a href="https://github.com/aoe4world/data" target="_blank" rel="noopener">aoe4world/data</a>'),
 }
 
+# テクノロジーが効果を及ぼす対象を判定するために持っておくクラスタグ
+TECH_TAGS = ['infantry', 'cavalry', 'ship', 'melee', 'ranged', 'worker', 'camel', 'archer',
+             'naval_military', 'naval_warship', 'naval_fireship', 'naval_transport',
+             'siege', 'springald', 'incendiary', 'gunpowder', 'monk', 'combat_monk',
+             'transport', 'spearman', 'crossbowman', 'handcannon', 'heavy', 'light',
+             'elephant', 'scout', 'massive']
+# テクノロジー側の呼び名 → ユニット側のタグ
+TAG_ALIAS = {'religious': ['monk', 'combat_monk'], 'warship': ['naval_warship']}
+# ユニットの数値に効くものだけ扱う（採集速度などは表示していないので落とす）
+COMBAT_PROPS = {'hitpoints', 'meleeAttack', 'rangedAttack', 'siegeAttack', 'fireAttack',
+                'meleeArmor', 'rangedArmor', 'fireArmor', 'attackSpeed', 'moveSpeed',
+                'maxRange', 'buildTime'}
+
 UNIT_BUILT = {'gilded-archer', 'gilded-crossbowman', 'gilded-handcannoneer',
               'gilded-landsknecht', 'gilded-man-at-arms', 'gilded-spearman'}
 
@@ -159,6 +176,63 @@ UNIT_BUILT = {'gilded-archer', 'gilded-crossbowman', 'gilded-handcannoneer',
 def slug_label(slug):
     return BUILDING_JP.get(slug) or LANDMARK_JP.get(slug) or \
         ' '.join(w.capitalize() for w in slug.split('-'))
+
+
+def build_techs():
+    """ユニットの数値に効くテクノロジーだけ抜き出す"""
+    raw = json.load(open(os.path.join(ROOT, 'data', 'technologies-all.json')))['data']
+    by_base = {}
+    for t in raw:
+        fx = []
+        for e in (t.get('effects') or []):
+            if e.get('property') not in COMBAT_PROPS:
+                continue
+            sel = e.get('select') or {}
+            cls, ids = sel.get('class'), sel.get('id')
+            if not cls and not ids:
+                continue          # 対象が書かれていないもの（敵に効くデバフ等）は扱わない
+            groups = []
+            for g in (cls or []):
+                grp = []
+                for tag in g:
+                    grp.append(TAG_ALIAS.get(tag, [tag]))
+                groups.append(grp)
+            fx.append({'p': e['property'], 'e': e['effect'], 'v': e['value'],
+                       'cls': groups, 'ids': ids or []})
+        if not fx:
+            continue
+        b = t['baseId']
+        cur = by_base.setdefault(b, {
+            'id': b, 'n': t['name'], 'age': t['age'], 'civs': [],
+            'bld': {}, 'uq': bool(t.get('unique')),
+            'ic': (t.get('icon') or '').replace(
+                'https://data.aoe4world.com/images/technologies/', ''),
+            'cost': (t.get('costs') or {}).get('total', 0),
+            'desc': (t.get('description') or '').split('\n')[0],
+            'fx': fx,
+        })
+        for c in t.get('civs', []):
+            if c not in cur['civs']:
+                cur['civs'].append(c)
+            cur['bld'][c] = (t.get('producedBy') or ['-'])[0]
+        cur['age'] = min(cur['age'], t['age'])
+    out = sorted(by_base.values(), key=lambda x: (x['age'], x['n']))
+    for t in out:
+        t['civs'].sort()
+    return out
+
+
+def tech_hits(tech, units):
+    """そのテクノロジーが実際に効くユニットがあるか"""
+    for u in units:
+        tags = set(u['cls'])
+        for e in tech['fx']:
+            if u['base'] in e['ids']:
+                return True
+            for grp in e['cls']:
+                if all(any(t in tags for t in alt) for alt in grp):
+                    return True
+    return False
 
 
 def main():
@@ -175,6 +249,7 @@ def main():
             'cost': {'f': u['f'], 'w': u['wd'], 'g': u['g'], 's': u['st'],
                      'tot': u['tot'], 'pop': u['pop'], 't': u['bt']},
             'ic': u['ic'], 'pb': u['pb'],
+            'cls': [c for c in (u.get('cls') or []) if c in TECH_TAGS],
         })
     civs = sorted({c for u in units for c in u['civs']})
     buildings = sorted({b for u in units for b in u['pb']})
@@ -222,10 +297,17 @@ def main():
         terms = dict(raw.get('terms') or {})
         for k, v in TERM_FALLBACK.items():
             terms.setdefault(k, v.get(lang, v['en']))
+        blds = dict(raw.get('buildings') or {})
+        if lang == 'ja':      # ロケールに無い建物名だけ手当てする
+            for slug, jp in BUILDING_JP.items():
+                blds.setdefault(slug, jp)
+            for slug, jp in LANDMARK_JP.items():
+                blds.setdefault(slug, jp)
         out = {
             'units': raw.get('units') or {},
-            'buildings': raw.get('buildings') or {},
+            'buildings': blds,
             'civs': raw.get('civs') or {},
+            'techs': raw.get('techs') or {},
             'terms': terms,
             'ui': UI.get(lang, UI['en']),
             'uiIsFallback': lang not in UI,
@@ -236,6 +318,12 @@ def main():
     print(f'i18n     : {len(langs)} langs ->', ', '.join(langs))
 
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
+    techs = [t for t in build_techs() if tech_hits(t, units)]
+    tp = os.path.join(ROOT, 'data', 'techs.json')
+    json.dump({'techs': techs}, open(tp, 'w', encoding='utf-8'),
+              ensure_ascii=False, separators=(',', ':'))
+    print(f'techs.json: {len(techs)} techs, {os.path.getsize(tp)//1024} KB')
+
     up = os.path.join(ROOT, 'data', 'units.json')
     mp = os.path.join(ROOT, 'data', 'meta.json')
     json.dump({'units': units}, open(up, 'w', encoding='utf-8'),
