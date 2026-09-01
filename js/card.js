@@ -67,8 +67,15 @@ const RES = [['f', 'i-food'], ['w', 'i-wood'], ['g', 'i-gold'], ['s', 'i-stone']
 
 export function renderCard(unit, meta, techs, civ) {
   const { u, mods } = applyTechs(unit, techs);
+  const bslug = (tech) => (tech.bld && tech.bld[civ]) || '-';
   const tline = (tech, tail) => `　${meta.roman[tech.age]}  ${techName(tech)}`
-    + `（${bldName((tech.bld && tech.bld[civ]) || '-')}）  ${tail}`;
+    + `（${bldName(bslug(tech))}）  ${tail}`;
+  // [マーク, 数値, 時代, 施設スラッグ, 施設名, テク名, 詳細]
+  const trow = (icon, val, tech, detail) => [icon, val, meta.roman[tech.age],
+    bslug(tech), bldName(bslug(tech)), techName(tech), detail || ''];
+  const tipData = (head, rows) => ` data-tiph='${
+    JSON.stringify({ h: head, r: rows }).replaceAll("'", '&#39;').replaceAll('&', '&amp;')
+      .replaceAll('&amp;#39;', '&#39;')}'`;
   const w = u.w || {};
   const rng = (w.r1 && w.r1 >= 1) ? w.r1 : null;
   const atk = meta.atkIcon[w.t] || 'i-melee';
@@ -77,10 +84,11 @@ export function renderCard(unit, meta, techs, civ) {
     if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
     const base = unitVal(unit, field);
     const d = Math.round((val - base) * 1000) / 1000;
-    const lines = [`${label || tip}　${base} → ${val}`,
-      ...m.map((x) => tline(x.t, x.txt))];
+    const head = `${label || tip}　${base} → ${val}`;
+    const lines = [head, ...m.map((x) => tline(x.t, x.txt))];
     const detail = esc(lines.join('\n')).replaceAll('\n', '&#10;');
-    return `<div class="r" data-tip="${detail}">${ico(icon)}`
+    const rows = m.map((x) => trow(icon, x.txt, x.t, ''));
+    return `<div class="r" data-tip="${detail}"${tipData(head, rows)}>${ico(icon)}`
       + `<span class="v">${base}</span>`
       + `<span class="up">${d > 0 ? '+' : ''}${d}</span></div>`;
   };
@@ -113,14 +121,17 @@ export function renderCard(unit, meta, techs, civ) {
   const sub = shown !== u.n ? `<span class="en">${esc(u.n)}</span>` : '';
 
   const applied = (techs || []).filter((tech) => effectsFor(unit, tech).length);
+  const cardHead = `${unitName(unit)}　${t('techs')} ${applied.length}`;
   const cardTip = applied.length
-    ? esc([`${unitName(unit)}　${t('techs')} ${applied.length}`,
-        ...applied.map((tech) => tline(tech,
-          effectsFor(unit, tech).map((e) => `${propLabel(e.p)} ${fxText(e)}`).join(' / ')))]
+    ? esc([cardHead, ...applied.map((tech) => tline(tech,
+        effectsFor(unit, tech).map((e) => `${propLabel(e.p)} ${fxText(e)}`).join(' / ')))]
       .join('\n')).replaceAll('\n', '&#10;')
     : '';
+  const cardRows = applied.flatMap((tech) => effectsFor(unit, tech)
+    .map((e) => trow(PROP_ICON[e.p] || 'i-hp', fxText(e), tech, propLabel(e.p))));
 
-  return `<div class="card a${u.age}"${cardTip ? ` data-tip="${cardTip}"` : ''}>
+  return `<div class="card a${u.age}"${cardTip
+    ? ` data-tip="${cardTip}"${tipData(cardHead, cardRows)}` : ''}>
   <div class="hd"><img src="${IMG_BASE}${u.ic}" alt="" loading="lazy"><div class="nm">${name}${sub}</div>
     <div class="age">${meta.roman[u.age]}</div></div>
   ${attrRow(u, meta)}

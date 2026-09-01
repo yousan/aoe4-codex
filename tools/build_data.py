@@ -295,6 +295,9 @@ def main():
         'buildingOrder': BUILDING_ORDER,
         # pb に出てくるもののうち、実在する建物（残りはユニットが建てるもの）
         'buildingSet': sorted(b for b in buildings if b in bname),
+        'buildingIcons': sorted(
+            f[:-4] for f in os.listdir(os.path.join(ROOT, 'assets', 'buildings'))
+            if f.endswith('.png')) if os.path.isdir(os.path.join(ROOT, 'assets', 'buildings')) else [],
         'landmarks': [b for b in buildings if b not in BUILDING_ORDER],
         'unitBuilt': sorted(UNIT_BUILT),
         'classIcon': L.CLASS_ICON,
