@@ -1,5 +1,5 @@
 // ユニットカードの描画。全ビューで共通して使う。
-import { t, lang, term, unitName } from './i18n.js';
+import { t, lang, term, unitName, techName } from './i18n.js';
 import { applyTechs } from './techs.js';
 
 export const IMG_BASE = 'assets/units/';
@@ -64,13 +64,14 @@ export function renderCard(unit, meta, techs) {
   const w = u.w || {};
   const rng = (w.r1 && w.r1 >= 1) ? w.r1 : null;
   const atk = meta.atkIcon[w.t] || 'i-melee';
-  const row = (icon, val, tip, field) => {
+  const row = (icon, val, tip, field, label) => {
     const m = field && mods && mods[field];
     if (!m) return `<div class="r" data-tip="${esc(tip)}">${ico(icon)}<span class="v">${val ?? '–'}</span></div>`;
     const base = unitVal(unit, field);
     const d = Math.round((val - base) * 1000) / 1000;
-    const detail = `${esc(tip)} ｜ ${esc(t('base'))} ${base} → ${val}`
-      + ` ｜ ${m.map((x) => `${esc(x.n)} ${x.txt}`).join(' / ')}`;
+    const lines = [`${label || tip}　${base} → ${val}`,
+      ...m.map((x) => `　${meta.roman[x.t.age]}  ${techName(x.t)}  ${x.txt}`)];
+    const detail = esc(lines.join('\n')).replaceAll('\n', '&#10;');
     return `<div class="r" data-tip="${detail}">${ico(icon)}`
       + `<span class="v">${base}</span>`
       + `<span class="up">${d > 0 ? '+' : ''}${d}</span></div>`;
@@ -80,13 +81,13 @@ export function renderCard(unit, meta, techs) {
   const left = [
     row('i-hp', u.hp || '–', st('i-hp'), 'hp'),
     row(atk, w.d ?? '–', t('tip.atk', { t: st(atk) }), 'd'),
-    row('i-dps', w.dps ?? '–', t('tip.dps'), 'dps'),
-    row('i-int', w.s || '–', t('tip.int'), 's'),
+    row('i-dps', w.dps ?? '–', t('tip.dps'), 'dps', 'DPS'),
+    row('i-int', w.s || '–', t('tip.int'), 's', term('i-int')),
   ];
   if (u.ch) left.push(row('a-spear', u.ch.d, t('tip.charge')));
 
   const right = [
-    row('i-range', rng ?? '–', t('tip.range'), 'r1'),
+    row('i-range', rng ?? '–', t('tip.range'), 'r1', term('i-range')),
     row('i-armm', u.am, st('i-armm'), 'am'),
     row('i-armr', u.ar, st('i-armr'), 'ar'),
     row('i-speed', u.mv ?? '–', st('i-speed'), 'mv'),
@@ -110,7 +111,10 @@ export function renderCard(unit, meta, techs) {
   <div class="body"><div class="col">${left.join('')}</div><div class="col">${right.join('')}</div></div>
   ${bonusRow(u, meta)}
   <div class="ft up" data-tip="${esc(tip)}">${cost}<span class="sp"></span>
-    <span class="c dim"${mods && mods.t ? ` data-tip="${esc(t('base'))} ${unit.cost.t} → ${u.cost.t}"` : ''}>${
+    <span class="c dim"${mods && mods.t ? ` data-tip="${
+      esc([`${term('i-time')}　${unit.cost.t} → ${u.cost.t}`,
+        ...mods.t.map((x) => `　${meta.roman[x.t.age]}  ${techName(x.t)}  ${x.txt}`)].join('\n'))
+        .replaceAll('\n', '&#10;')}"` : ''}>${
       ico('i-time')}${u.cost.t}${mods && mods.t
         ? `<b class="up">${Math.round((u.cost.t - unit.cost.t) * 100) / 100}</b>` : ''}</span><span class="c dim">${ico('i-pop')}${u.cost.pop}</span></div>
 </div>`;

@@ -65,14 +65,21 @@ background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12
 /* ---- ツールチップ（待ち時間なし・大きめ） ---- */
 [data-tip]{position:relative}
 [data-tip]:hover{z-index:120}
-[data-tip]:hover::after{
+/* JS で出す本番のツールチップ（スクロール領域で切れないように fixed） */
+body.jstip [data-tip]:hover::after{display:none}
+.tip{position:fixed;z-index:900;background:#2f2820;color:#f7f1e6;border:1px solid var(--gold);
+ border-radius:7px;padding:7px 12px;font-size:14px;line-height:1.55;white-space:pre;
+ pointer-events:none;box-shadow:0 8px 22px #000c;max-width:min(90vw,520px)}
+.tip[hidden]{display:none}
+@media print{ .tip{display:none !important} }
+[data-tip]:hover::after{ /* JS が使えないときの控え */
  content:attr(data-tip);position:absolute;left:0;top:calc(100% + 5px);
  background:#2f2820;color:#f7f1e6;border:1px solid var(--gold);border-radius:7px;
  padding:6px 11px;font-size:14px;font-weight:500;line-height:1.35;letter-spacing:.02em;
- white-space:nowrap;pointer-events:none;z-index:200;box-shadow:0 6px 18px #000b}
+ white-space:pre;pointer-events:none;z-index:200;box-shadow:0 6px 18px #000b}
 [data-tip].up:hover::after{top:auto;bottom:calc(100% + 5px)}
-.card .r[data-tip]:hover::after{left:4px}
-.attrs [data-tip]:hover::after{left:-2px}
+.card .r[data-tip]:hover::after{ /* JS が使えないときの控え */left:4px}
+.attrs [data-tip]:hover::after{ /* JS が使えないときの控え */left:-2px}
 
 /* ================= 印刷（A4横） ================= */
 @page{size:A4 landscape;margin:8mm}
@@ -94,7 +101,7 @@ background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12
  .card .r .ic{color:#5b5344}
  .kj{background:#7a5a1e;color:#fff}
  .kj.lt{background:#fff;color:#3d372c;border-color:#8a7c66}
- [data-tip]:hover::after{display:none !important}
+ [data-tip]:hover::after{ /* JS が使えないときの控え */display:none !important}
  .lgwrap{border-color:#b5a68e;break-inside:avoid}
  h1,h2{color:#4a3609}
 }

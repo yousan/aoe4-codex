@@ -291,6 +291,40 @@ function wireLabels() {
   $('#home').textContent = t('home');
 }
 
+/* ツールチップ: スクロール領域で切れないよう、画面固定の1枚を使い回す */
+function initTooltip() {
+  const tip = $('#tip');
+  if (!tip) return;
+  document.body.classList.add('jstip');
+  let el = null;
+  const place = (ev) => {
+    const pad = 12;
+    const r = tip.getBoundingClientRect();
+    let x = ev.clientX + 14;
+    let y = ev.clientY + 16;
+    if (x + r.width > innerWidth - pad) x = Math.max(pad, ev.clientX - r.width - 14);
+    if (y + r.height > innerHeight - pad) y = Math.max(pad, ev.clientY - r.height - 14);
+    tip.style.left = `${x}px`;
+    tip.style.top = `${y}px`;
+  };
+  document.addEventListener('mouseover', (ev) => {
+    const t = ev.target.closest('[data-tip]');
+    if (!t || t === el) return;
+    el = t;
+    tip.textContent = t.getAttribute('data-tip');
+    tip.hidden = false;
+    place(ev);
+  });
+  document.addEventListener('mousemove', (ev) => {
+    if (!el) return;
+    if (!el.isConnected || !ev.target.closest('[data-tip]')) {
+      el = null; tip.hidden = true; return;
+    }
+    place(ev);
+  });
+  document.addEventListener('mouseleave', () => { el = null; tip.hidden = true; });
+}
+
 (async function main() {
   document.body.insertAdjacentHTML('afterbegin', SPRITE);
   const [units, meta, techs] = await Promise.all([
@@ -308,6 +342,7 @@ function wireLabels() {
   $('#langs').innerHTML = META.langs
     .map((l) => `<option value="${l}">${LNAME[l] || l}</option>`).join('');
   wire();
+  initTooltip();
   wireLabels();
   writeURL();
   render();

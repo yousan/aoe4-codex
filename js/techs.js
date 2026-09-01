@@ -40,8 +40,8 @@ export function applyTechs(unit, techs) {
   if (!techs || !techs.length) return { u: unit, mods: null };
   const u = { ...unit, w: unit.w ? { ...unit.w } : null, cost: { ...unit.cost } };
   const mods = {};
-  const note = (field, name, txt) => {
-    (mods[field] = mods[field] || []).push({ n: name, txt });
+  const note = (field, tech, txt) => {
+    (mods[field] = mods[field] || []).push({ t: tech, txt });
   };
 
   for (const pass of ['change', 'multiply']) {
@@ -57,18 +57,18 @@ export function applyTechs(unit, techs) {
         if (kind === 'd') {
           if (!u.w || u.w.t !== need) continue;
           u.w.d = pass === 'change' ? u.w.d + e.v : u.w.d * e.v;
-          note('d', t.n, pass === 'change' ? `+${e.v}` : `×${e.v}`);
+          note('d', t, pass === 'change' ? `+${e.v}` : `×${e.v}`);
         } else if (kind === 's' || kind === 'r1') {
           if (!u.w || u.w[kind] == null) continue;
           u.w[kind] = pass === 'change' ? u.w[kind] + e.v : u.w[kind] * e.v;
-          note(kind, t.n, pass === 'change' ? `${e.v > 0 ? '+' : ''}${e.v}` : `×${e.v}`);
+          note(kind, t, pass === 'change' ? `${e.v > 0 ? '+' : ''}${e.v}` : `×${e.v}`);
         } else if (kind === 't') {
           u.cost = { ...u.cost, t: pass === 'change' ? u.cost.t + e.v : u.cost.t * e.v };
-          note('t', t.n, pass === 'change' ? `+${e.v}` : `×${e.v}`);
+          note('t', t, pass === 'change' ? `+${e.v}` : `×${e.v}`);
         } else {
           if (u[kind] == null) continue;
           u[kind] = pass === 'change' ? u[kind] + e.v : u[kind] * e.v;
-          note(kind, t.n, pass === 'change' ? `+${e.v}` : `×${e.v}`);
+          note(kind, t, pass === 'change' ? `+${e.v}` : `×${e.v}`);
         }
       }
     }
