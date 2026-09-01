@@ -396,6 +396,7 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
 .bchip.tech{border-style:dotted}
 .bchip.tech.on{background:#2f4a3a;border-color:#7fae98;border-style:solid;color:#dff0e6;font-weight:600}
 .bchip.tech i{font-style:normal;opacity:.6;font-size:10px}
-.card .ft .up{margin-left:3px;font-size:10px}
-.card .up{color:#8fd3aa;font-size:11px;font-weight:700;margin-left:4px;min-width:2.2em;text-align:right}
-@media print{ .card .up{color:#1c5e39} }
+.card .ft .dlt{margin-left:3px;font-size:10px}
+.card .dlt{color:#8fd3aa;font-size:11px;font-weight:700;margin-left:4px;min-width:2.2em;
+ text-align:right}
+@media print{ .card .dlt{color:#1c5e39} }
