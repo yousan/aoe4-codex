@@ -5,7 +5,7 @@ import { renderMatrix, renderTable, renderPrintMatrix,
 import { loadLang, t, lang, term, bldName, civLabel, techName, disclaimer,
          uiIsFallback } from './i18n.js';
 import { techsFor, autoTechs } from './techs.js';
-import { loadCivInfo, traitGrid } from './traits.js';
+import { loadCivInfo, traitGrid, techAges } from './traits.js';
 
 const $ = (s) => document.querySelector(s);
 const VIEWS = ['matrix', 'table'];
@@ -145,7 +145,6 @@ function renderInner() {
     $('#chrome').hidden = true;
     $('#main').innerHTML = renderPicker();
     $('#bonus').innerHTML = '';
-    bonusHTML = '';
     return;
   }
 
@@ -183,15 +182,19 @@ function renderInner() {
   }
 }
 
-/* ---------------- 文明特性（ユニット一覧の下） ---------------- */
-// 文明特性のデータはユニットとは別ファイルなので、一覧を描いたあとに読んで後から差し込む。
+/* ---------------- 文明特性と固有テクノロジー（ユニット一覧の下） ---------------- */
+// このデータはユニットとは別ファイルなので、一覧を描いたあとに読んで後から差し込む。
 // 最初の表示を待たせないためで、切り替え中に古い文明のものが出ないよう都度確認する。
-let bonusHTML = '';
+const UI_EN = {
+  traits: 'Civilization Bonuses', techsOf: 'Unique Technologies ({n})',
+  noTechs: 'No unique technologies.', ageN: 'Age {n}', free: 'Free',
+  time: 'Research time', sec: '{n}s', repeat: '{all} steps', repeatAge: '{n}x in this Age',
+  enOnly: '', note: '',
+};
 
 async function renderBonus() {
   const host = $('#bonus');
   if (!host) return;
-  bonusHTML = '';
   if (!state.civ) { host.innerHTML = ''; return; }
   const civ = state.civ;
   const lg = lang();
@@ -205,14 +208,20 @@ async function renderBonus() {
   }
   if (state.civ !== civ || lang() !== lg) return;   // 途中で切り替わったので捨てる
   if (!L || !db.civs[civ]) { host.innerHTML = ''; return; }
-  const ui = (k, dflt) => (L.ui && L.ui[k]) || dflt;
-  const n = (db.civs[civ].techs || []).length;
-  const link = `civs.html?civ=${civ}${lg === 'ja' ? '' : `&lang=${lg}`}`;
-  bonusHTML = `<section class="sec"><h2>${esc(ui('traits', 'Civilization Bonuses'))}</h2>
-    ${traitGrid(civ, db, L, ui('enOnly', ''))}
-    <p class="note"><a class="more" href="${link}">${
-      esc(ui('techsOf', 'Unique Technologies ({n})').replaceAll('{n}', n))} →</a></p></section>`;
-  host.innerHTML = bonusHTML;
+
+  const ct = (k, vars) => {
+    let s = (L.ui && L.ui[k]) || UI_EN[k] || k;
+    if (vars) for (const [a, b] of Object.entries(vars)) s = s.replaceAll(`{${a}}`, b);
+    return s;
+  };
+  const ctx = { t: ct, bldName,
+                termName: (key, dflt) => (L.terms && L.terms[key]) || dflt };
+  const c = db.civs[civ];
+  const ages = techAges(c.techs || [], L, ctx);
+  host.innerHTML = `<section class="sec"><h2>${esc(ct('traits'))}</h2>
+    ${traitGrid(civ, db, L, ct('enOnly'))}</section>
+  <section class="sec"><h2>${esc(ct('techsOf', { n: (c.techs || []).length }))}</h2>
+    ${ages || `<p class="empty">${esc(ct('noTechs'))}</p>`}</section>`;
 }
 
 function go(patch, push = true) {
@@ -239,11 +248,10 @@ function reportURL() {
 function preparePrint() {
   if (state.civ && state.view === 'matrix') {
     const units = unitsOfCiv();
-    // マトリクスの印刷は #main-wrap ごと差し替えるので、文明特性もこちらに載せる
+    // 印刷はユニット一覧だけ。下に並ぶ文明特性・固有テクノロジーは紙に出さない
     $('#print-area').innerHTML = renderPrintMatrix(units, META, civName(state.civ),
       { blds: activeBlds(units), bases: activeBases(units),
-        techs: state.tech ? TECHS : [], civ: state.civ }) + legendHTML()
-      + (bonusHTML ? `<div class="bsec">${bonusHTML}</div>` : '');
+        techs: state.tech ? TECHS : [], civ: state.civ }) + legendHTML();
     document.body.classList.add('pm');
   } else {
     $('#print-area').innerHTML = '';
