@@ -1636,7 +1636,7 @@
    "t": "Xưởng đóng tàu"
   },
   "ab-7": {
-   "d": "Xây dựng để tiến lên Thời hoàng kim: cải thiện kinh tế, công nghệ và quân đội.\nCác công trình trong phạm vi ảnh hưởng của Ngôi nhà Trí tuệ được +5 giáp chống lửa và đóng góp một điểm cho quá trình tiến lên Thời hoàng kim. Các ngưỡng mở khóa là 10, 30 và 60 công trình.\n• Bậc 1: Tốc độ thu thập của Dân làng được +15%\n• Bậc 2: Tốc độ nghiên cứu được +20%\n• Bậc 3: Tốc độ thu thập của Dân làng được +20% cho tất cả các tài nguyên. Tốc độ nghiên cứu được +20%. Tốc độ sản xuất được +20%.",
+   "d": "Cấp 1 (10 Công trình) Dân làng được +15% tốc độ thu thập tất cả các tài nguyên.\nCấp 2 (20 Công trình) Dân làng được +20% tốc độ xây dựng các công trình.\nCấp 3 (30 Công trình) Kỵ sĩ lạc đà được +15% sát thương.\nCấp 4 (50 Công trình) Thương nhân tạo ra thêm +20% Vàng.\nCấp 5 (75 Công trình) Bộ binh cận chiến được +10% sát thương.",
    "t": "Thời hoàng kim"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Xưởng đóng tàu"
   },
   "ay-7": {
-   "d": "Phát triển để tiến lên Thời đại Hoàng kim – cải thiện kinh tế, công nghệ và quân đội.\nCác công trình trong phạm vi ảnh hưởng của Ngôi nhà trí tuệ được +5 giáp chống lửa và đóng góp một điểm cho quá trình tiến lên Thời đại Hoàng kim. Các ngưỡng mở khóa là 10, 20, 30, 50 và 75 công trình.\n• Bậc 1: Tốc độ thu thập của Dân làng tăng +10%\n• Bậc 2: Tốc độ nghiên cứu tăng +25%\n• Bậc 3: Tốc độ sản xuất tăng +20%\n• Bậc 4: Chi phí tạo các đơn vị công thành giảm 20% tài nguyên\n• Bậc 5: Các đơn vị lạc đà sẽ tấn công nhanh hơn 20%.",
+   "d": "Cấp 1 (10 Công trình) Dân làng được +10% tốc độ thu thập \nđối với tất cả các tài nguyên.\nCấp 2 (20 Công trình) Tốc độ nghiên cứu tăng +25%\nCấp 3 (30 Công trình) Tốc độ tạo +20%\nCấp 4 (50 Công trình) Tạo đơn vị công thành với chi phí tài nguyên ít hơn 20%.\nCấp 5 (75 Công trình) Các đơn vị lạc đà tấn công nhanh hơn 20%.",
    "t": "Thời hoàng kim"
   },
   "ay-8": {

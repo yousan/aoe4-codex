@@ -1636,7 +1636,7 @@
    "t": "Tersaneler"
   },
   "ab-7": {
-   "d": "Altın Çağı'na doğru ilerleyerek ekonomini ve teknolojini iyileştir.\nBeyt'ül Hikmet'in nüfuz alanındaki binalar +5 ateş zırhı kazanır ve Altın Çağ'a doğru bir puan kazandırır. Kilit açma eşikleri sırasıyla 10, 30 ve 60 binadır.\n• 1. Kademe: Köylü toplama hızı +%15\n• 2. Kademe: Araştırma hızı +%20\n• 3. Kademe: Tüm kaynaklar için Köylü toplama hızı +%20. Araştırma hızları +%20. Üretim hızları +%20.",
+   "d": "1. Kademe (10 Binalar) Tüm kaynaklar için Köylü toplama oranı +15% artar.\n2. Kademe (20 Binalar) Köylü bina inşa etme oranı +%20.\n3. Kademe (30 Binalar) Deve Binicisi hasarı +%15.\n4. Kademe (50 Binalar) Tüccarlar +%20 altın üretir.\n5. Kademe (75 Binalar) Yakın Dövüş Piyade hasarı +%10.",
    "t": "Altın Çağ"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Tersaneler"
   },
   "ay-7": {
-   "d": "Altın Çağa ulaşmak için ilerleyerek ekonomiyi, teknolojiyi ve askeriyeyi iyileştirir.\nBeyt'ül Hikmet'in etki alanındaki binalar +5 ateş zırhı alır ve Altın Çağa bir puan katkıda bulunur. Kilit açma eşikleri sırasıyla 10, 20, 30, 50 ve 75 binadır.\n• 1. Kademe: Köylülerin toplama hızı +%10\n• 2. Kademe: Araştırma hızı +%25\n• 3. Kademe: Üretim hızı +%20\n• 4. Kademe: Kuşatma birimi üretmek %20 daha az maliyet gerektirir\n• 5. Kademe: Deve birimleri %20 daha hızlı saldırır.",
+   "d": "1. Kademe (10 Binalar) Tüm kaynaklar için Köylü toplama oranı %10 artar.\n2. Kademe (20 Binalar) Araştırma hızları +%25\n3. Kademe (30 Binalar) Üretim hızları +%20\n4. Kademe (50 Binalar) Kuşatma birimleri %20 daha az kaynak kullanılarak üretilir.\n5. Kademe (75 Binalar) Deve birimleri %20 daha hızlı saldırır.",
    "t": "Altın Çağ"
   },
   "ay-8": {

@@ -1636,7 +1636,7 @@
    "t": "Schiffswerften"
   },
   "ab-7": {
-   "d": "Arbeiten Sie auf Ihr Goldenes Zeitalter hin – verbessern Sie Wirtschaft und Technologie.\nGebäude im Einflussbereich des Hauses der Weisheit erhalten +5 Brandschutz und tragen einen Punkt zum Erreichen des Goldenen Zeitalters bei. Die Schwellenwerte für die Freischaltung liegen bei 10, 30 und 60 Gebäuden.\n- Stufe 1: Sammelrate der Dorfbewohner +15 %\n- Stufe 2: Forschungsrate +20 %\n- Stufe 3: Sammelrate der Dorfbewohner +20 % für alle Rohstoffe. Forschungsraten +20 %, Produktionsraten +20 %.",
+   "d": "Stufe 1 (10 Gebäude) Sammelrate der Dorfbewohner +15 % für alle Rohstoffe.\nStufe 2 (20 Gebäude) Dorfbewohner +20 % Baurate von Gebäuden.\nStufe 3 (30 Gebäude) Kamelreiter +15 % Schaden.\nStufe 4 (50 Gebäude) Händler generieren +20 % Gold.\nStufe 5 (75 Gebäude) Nahkampfinfanterie +10 % Schaden.",
    "t": "Goldenes Zeitalter"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Schiffswerften"
   },
   "ay-7": {
-   "d": "Arbeiten Sie auf Ihr Goldenes Zeitalter hin: Verbessern Sie Wirtschaft, Technologie und Militär.\nGebäude im Einflussbereich des Hauses der Weisheit erhalten +5 Brandschutz und tragen einen Punkt zum Goldenen Zeitalter bei. Die Schwellenwerte für die Freischaltung liegen bei 10, 20, 30, 50 und 75 Gebäuden. \n- Stufe 1: Sammelrate der Dorfbewohner +10 %\n- Stufe 2: Forschungsrate +25 %\n- Stufe 3: Produktionsrate +20 %\n- Stufe 4: Belagerungseinheiten kosten 20 % weniger Rohstoffe in der Produktion.\n- Stufe 5: Kameleinheiten greifen 20 % schneller an.",
+   "d": "Stufe 1 (10 Gebäude) Sammelrate der Dorfbewohner +10 % für alle Rohstoffe.\nStufe 2 (20 Gebäude) Forschungsraten +25 %\nStufe 3 (30 Gebäude) Produktionsraten +20 %\nStufe 4 (50 Gebäude) Produktion von Belagerungseinheiten kostet 20 % weniger Rohstoffe.\nStufe 5 (75 Gebäude) Kameleinheiten greifen 20 % schneller an.",
    "t": "Goldenes Zeitalter"
   },
   "ay-8": {

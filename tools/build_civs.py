@@ -260,6 +260,63 @@ class Locale:
 
 # ---------------------------------------------------------------- 収集
 
+# 黄金時代の段階表示に使う語（ゲーム内の文字列ID）
+GA_TIER_1 = 11266902      # 「グレード 1」/ "Tier 1"。数字を差し替えて各段階に使う
+GA_BUILDINGS = 11252264   # 「建物」/ "Buildings"
+# 括弧を全角にする言語
+WIDE_PAREN = ('ja', 'zh-Hans', 'zh-Hant')
+# 「建物 10」と語を先に置く言語。ほかは「10 Buildings」と数を先に置く
+COUNT_LAST = ('ja', 'zh-Hans', 'zh-Hant', 'ko')
+
+
+def golden_age_trait(sga, loc, attrib_name):
+    """黄金時代の段階を、ゲーム本体の district データから組み立てる。
+
+    upstream の overview は文章がパッチに追いつかないことがある（S13 で
+    アッバース朝が3段階→5段階になったのに3段階のままだった）。段階の数・
+    必要な建物数・各段階の効果はゲーム側に構造化して入っているので、そちらを使う。
+
+    - attrib\\ui_district_info\\<civ>/golden_age_tiers*.rgd  段階の並びと説明文のID
+    - attrib\\ui_district_tier_data\\<civ>/*.rgd             段階ごとの必要建物数
+    """
+    prefix = f'attrib\\ui_district_info\\{attrib_name}/'
+    path = next((n for n in sga.names() if n.startswith(prefix)
+                 and os.path.basename(n).startswith('golden_age_tiers')), None)
+    if not path:
+        return None
+    bag = read_rgd(sga.read(path))['default']['ui_district_info_bag']
+    tiers = bag.get('tiers', {}).get('tier_info') or []
+    if isinstance(tiers, dict):
+        tiers = [tiers]
+
+    rows = []
+    for ti in tiers:
+        if ti.get('hide_in_ui') or not ti.get('description'):
+            continue
+        name = (ti.get('tier_data') or {}).get('$PBGNAME')
+        if not name:
+            continue
+        td = read_rgd(sga.read(f'attrib\\ui_district_tier_data\\{attrib_name}/{name}.rgd'))
+        d = td['default']['ui_district_tier_data_bag']
+        rows.append((d.get('tier'), d.get('unlock_dp'), loc.by_id(ti['description'], {})))
+    if not rows:
+        return None
+
+    label, blds = loc.by_id(GA_TIER_1, {}), loc.by_id(GA_BUILDINGS, {})
+    out = {}
+    for lang in loc.tbl:
+        lines = []
+        for tier, dp, desc in rows:
+            lab = (label.get(lang) or label.get('en', 'Tier 1')).replace('1', str(tier))
+            bl = blds.get(lang) or blds.get('en', 'Buildings')
+            need = f'{bl} {dp}' if lang in COUNT_LAST else f'{dp} {bl}'
+            text = desc.get(lang) or desc.get('en', '')
+            lines.append(f'{lab}（{need}）{text}' if lang in WIDE_PAREN
+                         else f'{lab} ({need}) {text}')
+        out[lang] = '\n'.join(lines)
+    return {'title_id': bag.get('display_name'), 'desc': out, 'tiers': len(rows)}
+
+
 def upgrade_index(sga):
     """attribName → rgd のパス。attrib\\upgrade を優先し、無いものは他も見る
     （ジャンヌ・ダルクの能力選択は ebps の codex_dummy に入っている）"""
@@ -391,6 +448,9 @@ def main():
             strings[lang]['civDesc'].setdefault(code, ov.get('description', ''))
 
         # --- 文明特性 ---
+        ga = golden_age_trait(sga, loc, ci['attribName'])
+        if ga:
+            print(f'    {code}: 黄金時代 {ga["tiers"]} 段階をゲームから取得')
         traits = []
         for i, o in enumerate(ov.get('overview', [])):
             if 'description' not in o:
@@ -403,6 +463,10 @@ def main():
             did, vals = loc.find(raw) if raw else (None, None)
             title = loc.by_id(tid, {}) if tid else {}
             desc = loc.by_id(did, vals) if did else {}
+            # 黄金時代だけは upstream の文章を使わない（段階数が古いことがある）
+            if ga and norm(o['title']) == 'Golden Age':
+                title = loc.by_id(ga['title_id'], {}) or title
+                desc = ga['desc']
             if not desc and not raw and tid:
                 # upstream 側が説明文を丸ごと持っていないことがある（翻訳漏れ）。
                 # 文明概要の項目は「説明文のID → タイトルのID」と続けて並んでいるので、
