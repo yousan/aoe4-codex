@@ -4,6 +4,8 @@
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+// 本文で使える装飾は **強調** だけ。先にエスケープしてから置き換えるので HTML は書けない
+const md = (s) => esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
 
 const KIND = {
   fact: { label: '事実（出典あり）', cls: 'k-fact' },
@@ -28,13 +30,13 @@ const kindOf = (n) => KIND[n.kind] || KIND.analysis;
 /* ---------------- 本文のブロック ---------------- */
 function block(b) {
   if (b.h) return `<h3 class="nh">${esc(b.h)}</h3>`;
-  if (b.p) return `<p class="np">${esc(b.p)}</p>`;
-  if (b.note) return `<p class="nnote">${esc(b.note)}</p>`;
-  if (b.ul) return `<ul class="nul">${b.ul.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  if (b.p) return `<p class="np">${md(b.p)}</p>`;
+  if (b.note) return `<p class="nnote">${md(b.note)}</p>`;
+  if (b.ul) return `<ul class="nul">${b.ul.map((x) => `<li>${md(x)}</li>`).join('')}</ul>`;
   if (b.table) {
     const h = b.table.head.map((x) => `<th>${esc(x)}</th>`).join('');
     const r = b.table.rows.map((row) =>
-      `<tr>${row.map((c, i) => `<td class="${i ? 'num' : 'l'}">${esc(c)}</td>`).join('')}</tr>`).join('');
+      `<tr>${row.map((c, i) => `<td class="${i ? 'num' : 'l'}">${md(c)}</td>`).join('')}</tr>`).join('');
     return `<div class="ntwrap"><table class="ntbl"><thead><tr>${h}</tr></thead><tbody>${r}</tbody></table></div>`;
   }
   return '';
@@ -42,7 +44,7 @@ function block(b) {
 
 function article(n) {
   const k = kindOf(n);
-  const asm = (n.assumptions || []).map((x) => `<li>${esc(x)}</li>`).join('');
+  const asm = (n.assumptions || []).map((x) => `<li>${md(x)}</li>`).join('');
   const src = (n.sources || []).map((s) => s.u
     ? `<li><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a></li>`
     : `<li>${esc(s.t)}</li>`).join('');
@@ -53,7 +55,7 @@ function article(n) {
       ${(n.tags || []).map((t) => `<span class="ntag">${esc(t)}</span>`).join('')}
     </div>
     <h2 class="ntitle">${esc(n.title)}</h2>
-    <p class="nlead">${esc(n.lead || '')}</p>
+    <p class="nlead">${md(n.lead || '')}</p>
     ${asm ? `<div class="nmeta"><b>前提</b><ul>${asm}</ul></div>` : ''}
     ${n.body.map(block).join('')}
     ${src ? `<div class="nmeta src"><b>出典</b><ul>${src}</ul></div>` : ''}
