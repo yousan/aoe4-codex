@@ -145,7 +145,7 @@ function chrome() {
     }),
   });
   document.querySelectorAll('a.report').forEach((a) => {
-    a.href = `https://github.com/yousan/aoe4units/issues/new?${q}`;
+    a.href = `https://github.com/yousan/aoe4-codex/issues/new?${q}`;
     a.textContent = `⚑ ${t('report')}`;
   });
 }
