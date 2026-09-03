@@ -183,8 +183,7 @@ table.mx tbody tr:nth-child(odd) td{background:#171411}
  .card .ft{padding:3px 8px}
  table.mx td{padding:5px}
  .lgsec{break-before:page;zoom:.9}
- .bsec{break-before:page;zoom:.9}
- .bsec .tcard{break-inside:avoid;page-break-inside:avoid}
+ #bonus{display:none}      /* 印刷はユニット一覧だけ */
  .alt{font-size:9px;margin:2px 0 0 2px}
 }
 

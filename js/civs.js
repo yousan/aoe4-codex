@@ -1,19 +1,11 @@
 // 文明特性と固有テクノロジーの一覧。data/civs.json + data/civs-i18n/<lang>.json を読む。
 // 文言はすべてゲーム本体から抽出したもので、こちらでは訳さない（英語のままのものは印を付ける）。
 import { SPRITE } from './icons.js';
-import { traitCard } from './traits.js';
+import { traitCard, techAges } from './traits.js';
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const ico = (id) => `<svg class="ic"><use href="#${id}"/></svg>`;
-
-const AGES = [1, 2, 3, 4];
-const ROMAN = { 1: 'I', 2: 'II', 3: 'III', 4: 'IV' };
-const RES = [['food', 'i-food', 'f'], ['wood', 'i-wood', 'wd'],
-  ['gold', 'i-gold', 'g'], ['stone', 'i-stone', 'st']];
-const EXTRA = [['silver', 'i-silver'], ['vizier', 'i-vizier']];
-
 const state = { civ: null, lang: 'ja', blds: null };
 let DB = null;      // data/civs.json
 let L = null;       // data/civs-i18n/<lang>.json
@@ -106,48 +98,14 @@ function picker() {
   return `<h2 class="pickh">${esc(t('pickCiv'))}</h2><div class="civgrid">${tiles}</div>`;
 }
 
-function cost(r) {
-  const parts = RES.filter(([k]) => r.cost[k])
-    .map(([k, icn, cls]) => `<span class="c r-${cls}">${ico(icn)}${r.cost[k]}</span>`);
-  for (const [k, term] of EXTRA) {
-    if (r.cost[k]) parts.push(`<span class="c r-g">${r.cost[k]} ${esc(termName(term, k))}</span>`);
-  }
-  if (!parts.length) parts.push(`<span class="c dim">${esc(t('free'))}</span>`);
-  if (r.time) {
-    parts.push(`<span class="c dim" data-tip="${esc(t('time'))}">${ico('i-time')}${
-      esc(t('sec', { n: r.time }))}</span>`);
-  }
-  return parts.join('');
-}
-
-function techCard(r) {
-  const s = L.techs[r.k] || { n: r.k, d: '' };
-  const from = r.from.length
-    ? `<span class="tfrom">${r.from.map((b) => esc(bldName(b))).join(' / ')}</span>` : '';
-  const rep = r.rep
-    ? `<span class="trep">${esc(t('repeat', { all: r.repAll }))} ・ ${
-      esc(t('repeatAge', { n: r.rep }))}</span>` : '';
-  const en = r.f ? `<span class="enmark" data-tip="${esc(t('enOnly'))}">EN</span>` : '';
-  return `<article class="tcard a${r.age}">
-    <div class="thd"><img src="${r.icon}" alt="" loading="lazy">
-      <span class="tnm">${esc(s.n)}${from}</span>${en}
-      <span class="age">${ROMAN[r.age]}</span></div>
-    <p class="tdesc">${esc(s.d).replaceAll('\n', '<br>')}</p>
-    ${rep}<div class="tft">${cost(r)}</div></article>`;
-}
+const ctx = () => ({ t, bldName, termName });
 
 function civPage(civ) {
   const c = DB.civs[civ];
   const on = new Set(activeBlds(civ));
   const shown = c.techs.filter((r) => !r.from.length || r.from.some((b) => on.has(b)));
   const traits = c.traits.map((tr) => traitCard(tr, L, t('enOnly'))).join('');
-
-  const ages = AGES.map((a) => {
-    const rows = shown.filter((r) => r.age === a);
-    if (!rows.length) return '';
-    return `<h3 class="ageh a${a}">${esc(t('ageN', { n: a }))}</h3>
-      <div class="tgrid">${rows.map(techCard).join('')}</div>`;
-  }).join('');
+  const ages = techAges(shown, L, ctx());
 
   return `<div class="civhead"><img src="${c.flag}" alt="">
       <div><h2 class="civh">${esc(civName(civ))}</h2>

@@ -102,7 +102,7 @@ UI = {
     'ja': {
         'title': 'AoE4 ユニット', 'pickCiv': '文明を選ぶ', 'units': 'ユニット',
         'view.matrix': '生産施設 × 時代', 'view.table': '表', 'unitsFilter': 'ユニット', 'otherBuilding': 'その他',
-        'print': '印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
+        'print': 'ユニット一覧を印刷（A4横）', 'buildings': '生産施設', 'all': 'すべて', 'none': 'なし',
         'age': '時代', 'ageN': '第 {n} 時代', 'home': '文明一覧へ',
         'colUnit': 'ユニット', 'colAge': '時代', 'colTot': '資源計', 'colAtk': '攻撃',
         'techs': 'テクノロジー', 'base': '基礎値', 'techApply': '強化ぶんを足す',
@@ -130,7 +130,7 @@ UI = {
     'en': {
         'title': 'AoE4 Units', 'pickCiv': 'Choose a civilization', 'units': 'units',
         'view.matrix': 'Building × Age', 'view.table': 'Table', 'unitsFilter': 'Units', 'otherBuilding': 'Other',
-        'print': 'Print (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
+        'print': 'Print unit list (A4 landscape)', 'buildings': 'Buildings', 'all': 'All', 'none': 'None',
         'age': 'Age', 'ageN': 'Age {n}', 'home': 'All civilizations',
         'colUnit': 'Unit', 'colAge': 'Age', 'colTot': 'Total', 'colAtk': 'Attack',
         'techs': 'Technologies', 'base': 'base', 'techApply': 'Add upgrades',
