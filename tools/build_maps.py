@@ -31,7 +31,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = {'User-Agent': 'aoe4units/1.0 (+https://github.com/yousan/aoe4units) map data builder'}
+UA = {'User-Agent': 'aoe4-codex/1.0 (+https://github.com/yousan/aoe4-codex) map data builder'}
 
 WIKI = 'https://ageofempires.fandom.com/api.php'
 GAMES = 'https://aoe4world.com/api/v0/games'

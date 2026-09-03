@@ -1,16 +1,21 @@
-# aoe4units
+# aoe4-codex
 
-Age of Empires IV のユニットデータを、時代・生産施設ごとに並べて見るための静的サイト。
-1ユニット＝1カードで、HP / 攻撃 / DPS / 射程 / 防御 / コスト / ダメージボーナス を一覧できる。
+Age of Empires IV の**ユニット・文明特性・固有テクノロジー・ランクマップ**を、
+文明ごとにまとめて見るための静的サイト。
+ユニットは1体＝1カードで、HP / 攻撃 / DPS / 射程 / 防御 / コスト / ダメージボーナス を一覧できる。
+
+> 旧名は `aoe4units`。ユニット以外も載るようになったので改名した（旧URL
+> `yousan.github.io/aoe4units/` は新URLへ転送している）。
 
 ## 使い方
 
-`index.html` がユニット一覧、`civs.html` が**文明特性と固有テクノロジー**、
+`index.html` がユニット一覧（下に文明特性と固有テクノロジーが続く）、
+`civs.html` が**文明特性と固有テクノロジー**だけのページ、
 `maps.html` が**ランクマップ一覧**。
 
 ### ユニット一覧
 
-`index.html` が本体。ヘッダのプルダウンで**23文明**を切り替え、タブで**3つのビュー**を切り替える。
+`index.html` が本体。ヘッダのプルダウンで**23文明**を切り替え、タブでビューを切り替える。
 
 | ビュー | 内容 |
 | --- | --- |
@@ -225,7 +230,7 @@ python3 tools/build_matrix.py od
 条件としている。このリポジトリはその条件に従って、データとアイコンを同梱している。
 
 > Age Of Empires 4 © Microsoft Corporation.
-> aoe4units は Microsoft の "Game Content Usage Rules" に基づき Age of Empires IV のアセットを
+> aoe4-codex は Microsoft の "Game Content Usage Rules" に基づき Age of Empires IV のアセットを
 > 利用して作成された非公式のファンツールで、Microsoft によって承認・提携されたものではありません。
 
 日本語名の出典は [AoE4 攻略wiki](https://aoe4.upgame.jp/) と AoE Haul wiki。

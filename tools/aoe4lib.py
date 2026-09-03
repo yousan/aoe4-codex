@@ -239,7 +239,7 @@ STAT_JP = {'i-hp': 'HP', 'i-melee': '近接攻撃', 'i-ranged': '遠隔攻撃', 
 ROMAN = ['', 'I', 'II', 'III', 'IV']
 
 DISCLAIMER = ('Age Of Empires 4 © Microsoft Corporation. — '
-              'aoe4units は Microsoft の <a href="https://www.xbox.com/en-US/developers/rules" '
+              'aoe4-codex は Microsoft の <a href="https://www.xbox.com/en-US/developers/rules" '
               'target="_blank" rel="noopener">Game Content Usage Rules</a> に基づき '
               'Age of Empires IV のアセットを利用して作成された非公式のファンツールで、'
               'Microsoft によって承認・提携されたものではありません。 '

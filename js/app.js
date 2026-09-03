@@ -38,6 +38,7 @@ function readURL() {
   state.blds = p.get('b') ? p.get('b').split(',').filter(Boolean) : null;
   state.bases = p.get('u') ? p.get('u').split(',').filter(Boolean) : null;
   state.tech = p.get('tech') === '1';
+  // localStorage のキーは旧名のまま。変えると保存済みの言語設定が消えるだけで得がない
   state.lang = p.get('lang') || localStorage.getItem('aoe4units.lang')
     || pickBrowserLang();
 }

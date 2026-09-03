@@ -157,12 +157,12 @@ UI = {
     },
 }
 DISCLAIMER_I18N = {
-    'ja': ('Age Of Empires 4 © Microsoft Corporation. — aoe4units は Microsoft の '
+    'ja': ('Age Of Empires 4 © Microsoft Corporation. — aoe4-codex は Microsoft の '
            '<a href="https://www.xbox.com/en-US/developers/rules" target="_blank" rel="noopener">'
            'Game Content Usage Rules</a> に基づき Age of Empires IV のアセットを利用して作成された'
            '非公式のファンツールで、Microsoft によって承認・提携されたものではありません。 '
            'データ: <a href="https://github.com/aoe4world/data" target="_blank" rel="noopener">aoe4world/data</a>'),
-    'en': ('Age Of Empires 4 © Microsoft Corporation. — aoe4units was created under Microsoft\'s '
+    'en': ('Age Of Empires 4 © Microsoft Corporation. — aoe4-codex was created under Microsoft\'s '
            '<a href="https://www.xbox.com/en-US/developers/rules" target="_blank" rel="noopener">'
            'Game Content Usage Rules</a> using assets from Age of Empires IV, and it is not endorsed by '
            'or affiliated with Microsoft. Data: '
@@ -306,7 +306,7 @@ def main():
         'classIcon': L.CLASS_ICON,
         'atkIcon': L.ATK_ICON,
         'roman': L.ROMAN,
-        'repo': 'https://github.com/yousan/aoe4units',
+        'repo': 'https://github.com/yousan/aoe4-codex',
     }
 
     # ---- 言語ごとのファイル: ゲーム内表記（locale-raw）＋ UI文言
