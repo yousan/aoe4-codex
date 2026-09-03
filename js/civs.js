@@ -1,6 +1,7 @@
 // 文明特性と固有テクノロジーの一覧。data/civs.json + data/civs-i18n/<lang>.json を読む。
 // 文言はすべてゲーム本体から抽出したもので、こちらでは訳さない（英語のままのものは印を付ける）。
 import { SPRITE } from './icons.js';
+import { traitCard } from './traits.js';
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -105,14 +106,6 @@ function picker() {
   return `<h2 class="pickh">${esc(t('pickCiv'))}</h2><div class="civgrid">${tiles}</div>`;
 }
 
-function traitCard(tr) {
-  const s = L.traits[tr.k] || { t: tr.k, d: '' };
-  const en = tr.f ? `<span class="enmark" data-tip="${esc(t('enOnly'))}">EN</span>` : '';
-  return `<article class="tcard trait">
-    <div class="thd"><span class="tnm">${esc(s.t)}</span>${en}</div>
-    <p class="tdesc">${esc(s.d).replaceAll('\n', '<br>')}</p></article>`;
-}
-
 function cost(r) {
   const parts = RES.filter(([k]) => r.cost[k])
     .map(([k, icn, cls]) => `<span class="c r-${cls}">${ico(icn)}${r.cost[k]}</span>`);
@@ -147,7 +140,7 @@ function civPage(civ) {
   const c = DB.civs[civ];
   const on = new Set(activeBlds(civ));
   const shown = c.techs.filter((r) => !r.from.length || r.from.some((b) => on.has(b)));
-  const traits = c.traits.map(traitCard).join('');
+  const traits = c.traits.map((tr) => traitCard(tr, L, t('enOnly'))).join('');
 
   const ages = AGES.map((a) => {
     const rows = shown.filter((r) => r.age === a);

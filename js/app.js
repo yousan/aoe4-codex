@@ -5,6 +5,7 @@ import { renderMatrix, renderTable, renderPrintMatrix,
 import { loadLang, t, lang, term, bldName, civLabel, techName, disclaimer,
          uiIsFallback } from './i18n.js';
 import { techsFor, autoTechs } from './techs.js';
+import { loadCivInfo, traitGrid } from './traits.js';
 
 const $ = (s) => document.querySelector(s);
 const VIEWS = ['matrix', 'table'];
@@ -143,6 +144,8 @@ function renderInner() {
     $('#civname').textContent = t('title');
     $('#chrome').hidden = true;
     $('#main').innerHTML = renderPicker();
+    $('#bonus').innerHTML = '';
+    bonusHTML = '';
     return;
   }
 
@@ -166,6 +169,7 @@ function renderInner() {
         techs: state.tech ? TECHS : [], civ: state.civ });
   }
   $('#main').innerHTML = html;
+  renderBonus();
 
   if (state.view === 'table') {
     $('#main').querySelectorAll('th[data-sort]').forEach((th) => {
@@ -177,6 +181,38 @@ function renderInner() {
       };
     });
   }
+}
+
+/* ---------------- 文明特性（ユニット一覧の下） ---------------- */
+// 文明特性のデータはユニットとは別ファイルなので、一覧を描いたあとに読んで後から差し込む。
+// 最初の表示を待たせないためで、切り替え中に古い文明のものが出ないよう都度確認する。
+let bonusHTML = '';
+
+async function renderBonus() {
+  const host = $('#bonus');
+  if (!host) return;
+  bonusHTML = '';
+  if (!state.civ) { host.innerHTML = ''; return; }
+  const civ = state.civ;
+  const lg = lang();
+  let db;
+  let L;
+  try {
+    ({ db, L } = await loadCivInfo(lg));
+  } catch {
+    host.innerHTML = '';
+    return;
+  }
+  if (state.civ !== civ || lang() !== lg) return;   // 途中で切り替わったので捨てる
+  if (!L || !db.civs[civ]) { host.innerHTML = ''; return; }
+  const ui = (k, dflt) => (L.ui && L.ui[k]) || dflt;
+  const n = (db.civs[civ].techs || []).length;
+  const link = `civs.html?civ=${civ}${lg === 'ja' ? '' : `&lang=${lg}`}`;
+  bonusHTML = `<section class="sec"><h2>${esc(ui('traits', 'Civilization Bonuses'))}</h2>
+    ${traitGrid(civ, db, L, ui('enOnly', ''))}
+    <p class="note"><a class="more" href="${link}">${
+      esc(ui('techsOf', 'Unique Technologies ({n})').replaceAll('{n}', n))} →</a></p></section>`;
+  host.innerHTML = bonusHTML;
 }
 
 function go(patch, push = true) {
@@ -203,9 +239,11 @@ function reportURL() {
 function preparePrint() {
   if (state.civ && state.view === 'matrix') {
     const units = unitsOfCiv();
+    // マトリクスの印刷は #main-wrap ごと差し替えるので、文明特性もこちらに載せる
     $('#print-area').innerHTML = renderPrintMatrix(units, META, civName(state.civ),
       { blds: activeBlds(units), bases: activeBases(units),
-        techs: state.tech ? TECHS : [], civ: state.civ }) + legendHTML();
+        techs: state.tech ? TECHS : [], civ: state.civ }) + legendHTML()
+      + (bonusHTML ? `<div class="bsec">${bonusHTML}</div>` : '');
     document.body.classList.add('pm');
   } else {
     $('#print-area').innerHTML = '';
