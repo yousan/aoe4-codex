@@ -183,6 +183,8 @@ table.mx tbody tr:nth-child(odd) td{background:#171411}
  .card .ft{padding:3px 8px}
  table.mx td{padding:5px}
  .lgsec{break-before:page;zoom:.9}
+ .bsec{break-before:page;zoom:.9}
+ .bsec .tcard{break-inside:avoid;page-break-inside:avoid}
  .alt{font-size:9px;margin:2px 0 0 2px}
 }
 
@@ -354,7 +356,11 @@ select#langs:hover{color:var(--fg);border-color:var(--gold)}
 .civhead img{width:54px;height:54px;object-fit:contain;flex:none}
 .civh{font-size:16px;color:#f0d49a;margin:0;letter-spacing:.04em}
 .civdesc{margin:5px 0 0;color:var(--dim);font-size:11.5px;line-height:1.65;max-width:70ch}
-#main .sec{padding:0 18px}
+#main .sec,#bonus .sec{padding:0 18px}
+/* ユニット一覧の下に出す文明特性 */
+#bonus .sec{margin-top:30px;padding-top:20px;border-top:1px solid var(--line)}
+#bonus h2{font-size:13px;color:var(--gold2,#f0d49a);letter-spacing:.1em;margin:0 0 12px}
+#bonus .more{color:var(--gold);font-weight:600}
 .ageh{font-size:11px;color:var(--dim);letter-spacing:.12em;font-weight:600;
  margin:14px 0 9px;padding-left:8px;border-left:3px solid var(--line)}
 .ageh.a1{border-color:var(--a1)}.ageh.a2{border-color:var(--a2)}
