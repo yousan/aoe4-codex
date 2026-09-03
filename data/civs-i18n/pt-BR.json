@@ -1636,7 +1636,7 @@
    "t": "Estaleiros"
   },
   "ab-7": {
-   "d": "Construa para chegar à Era de Ouro, melhorando economia e tecnologia.\nEdificações dentro da influência da Casa da Sabedoria recebem +5 de armadura contra fogo e contribuem com um ponto para a Era de Ouro. Os limites para desbloqueio são de 10, 30 e 60 edificações.\n• Nível 1: +15% de taxa de coleta de Aldeão\n• Nível 2: +20% de velocidade de pesquisa\n• Nível 3: +20% de taxa de coleta de Aldeão para todos os recursos. +20% de velocidade de pesquisa. +20% de velocidade de produção.",
+   "d": "Nível 1 (10 Construções) +15% na taxa de coleta de Aldeões para todos os recursos.\nNível 2 (20 Construções) Aldeões têm +20% de taxa de criação em construções.\nNível 3 (30 Construções) Cameleiros infligem +15% de dano.\nNível 4 (50 Construções) Mercadores geram +20% de Ouro.\nNível 5 (75 Construções) Infantaria corpo a corpo ganha +10% de dano.",
    "t": "Era de Ouro"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Estaleiros"
   },
   "ay-7": {
-   "d": "Construa para chegar à Era de Ouro, melhorando economia, tecnologia e exército.\nConstruções dentro da influência da Casa da Sabedoria recebem +5 de armadura de fogo e contribuem com um ponto para a Era de Ouro. Os limites para desbloqueios são de 10, 20, 30, 50 e 75 construções.\n• Nível 1: Taxa de coleta de Aldeões +10%\n• Nível 2: Velocidade de pesquisa +25%\n• Nível 3: Velocidade de produção +20%\n• Nível 4: Unidades de cerco custam 20% menos recursos para produzir\n• Nível 5: Unidades a camelo atacam 20% mais rápido.",
+   "d": "Nível 1 (10 Construções) +10% na taxa de coleta de Aldeões para todos os recursos.\nNível 2 (20 Construções) Velocidades de pesquisa +25%\nNível 3 (30 Construções) Velocidade de produção +20%\nNível 4 (50 Construções) Unidades de cerco custam 20% menos recursos para serem produzidas.\nNível 5 (75 Construções) Unidades de camelo atacam 20% mais rápido.",
    "t": "Era de Ouro"
   },
   "ay-8": {

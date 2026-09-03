@@ -1636,7 +1636,7 @@
    "t": "Stocznie"
   },
   "ab-7": {
-   "d": "Rozwijaj się w kierunku Złotego Wieku, usprawniając gospodarkę i technologię.\nBudynki w zasięgu Domu Mądrości zyskują +5 pkt. pancerza przeciwko obrażeniom od ognia i dodają 1 pkt postępu do Złotego Wieku. Progi do odblokowania kolejnych poziomów to odpowiednio 10, 30 i 60 budynków.\n• Poziom I: mieszkańcy zbierają o +15% szybciej\n• Poziom II: o +20% szybsze badania\n• Poziom III: mieszkańcy zbierają wszystkie surowce o +20% szybciej, o +20% szybsze badania, o +20% szybsza produkcja.",
+   "d": "Poziom 1 (10 Budynki) Tempo pozyskiwania wszystkich surowców przez mieszkańców +15%.\nPoziom 2 (20 Budynki) Mieszkańcy budują o 20% szybciej.\nPoziom 3 (30 Budynki) Jeźdźcy na wielbłądach zadają o 15% więcej obrażeń.\nPoziom 4 (50 Budynki) Kupcy generują o 20% więcej złota.\nPoziom 5 (75 Budynki) Piechota walcząca w zwarciu zadaje o 10% więcej obrażeń.",
    "t": "Złoty Wiek"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Stocznie"
   },
   "ay-7": {
-   "d": "Rozwijaj się w kierunku Złotego Wieku, poprawiając gospodarkę, technologię i wojsko.\nBudynki w zasięgu Domu Mądrości zyskują +5 pkt. pancerza przeciwko obrażeniom od ognia i dodają 1 pkt. postępu w kierunku Złotego Wieku. Progi odblokowywanych poziomów to odpowiednio 10, 20, 30, 50 i 75 budynków.\n• Poziom I: tempo pozyskiwania surowców przez mieszkańców +10%\n• Poziom 2: tempo badań +25%\n• Poziom 3: tempo produkcji +20%\n• Poziom 4: jednostki oblężnicze kosztują o 20% mniej surowców\n• Poziom 5: jednostki na wielbłądach atakują o 20% szybciej.",
+   "d": "Poziom 1 (10 Budynki) Tempo pozyskiwania wszystkich surowców przez mieszkańców +10%.\nPoziom 2 (20 Budynki) Szybkość badań +25%\nPoziom 3 (30 Budynki) Szybkość produkcji +20%\nPoziom 4 (50 Budynki) Wytworzenie jednostek oblężniczych kosztuje o 20% mniej surowców.\nPoziom 5 (75 Budynki) Jednostki wielbłądów atakują o 20% szybciej.",
    "t": "Złoty Wiek"
   },
   "ay-8": {

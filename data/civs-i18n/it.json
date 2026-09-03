@@ -1636,7 +1636,7 @@
    "t": "Cantieri navali"
   },
   "ab-7": {
-   "d": "Fatti strada verso la tua età d'oro: migliora economia ed esercito.\nLe costruzioni nell'area d'influenza della casa della sapienza ricevono +5 protezione dal fuoco e contribuiscono con un punto all'avanzamento verso l'età dell'oro. Le soglie per sbloccare il livello successivo sono di 10, 30, e 60 costruzioni.\n• Livello 1 – Velocità di raccolta degli abitanti del villaggio: +15%\n• Livello 2 – Velocità di sviluppo: +20%\n• Livello 3 – Velocità di raccolta degli abitanti del villaggio: +20% per tutte le risorse. Velocità di sviluppo: 20%. Velocità di produzione: +20%.",
+   "d": "Livello 1 (10 Costruzioni) +15% velocità di raccolta degli abitanti del villaggio per tutte le risorse.\nLivello 2 (20 Costruzioni) Velocità di costruzione di edifici degli abitanti del villaggio: +20%.\nLivello 3 (30 Costruzioni) Cammellieri: +15% danni.\nLivello 4 (50 Costruzioni) I mercanti generano +20% oro.\nLivello 5 (75 Costruzioni) Unità di fanteria corpo a corpo: +10% danni.",
    "t": "Età d'oro"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Cantieri navali"
   },
   "ay-7": {
-   "d": "Fatti strada verso la tua età d'oro: migliora economia, tecnologia ed esercito.\nLe costruzioni all'interno dell'area di influenza della casa della sapienza ricevono +5 protezione dal fuoco e contribuiscono con un punto all'avanzamento verso l'età d'oro. La soglia per sbloccare il livello successivo è di 10, 20, 30, 50 e 75 costruzioni.\n• Livello 1 - Velocità di raccolta degli abitanti del villaggio: +10%\n• Livello 2 - Velocità di sviluppo: +25%\n• Livello 3 - Velocità di produzione: +20%\n• Livello 4 - Costo di produzione di unità d'assedio: -20%\n• Livello 5 - Velocità di attacco delle unità su cammello: +20%.",
+   "d": "Livello 1 (10 Costruzioni) +10% velocità di raccolta degli abitanti del villaggio per tutte le risorse.\nLivello 2 (20 Costruzioni) Velocità di sviluppo: +25%\nLivello 3 (30 Costruzioni) Velocità di produzione: +20%\nLivello 4 (50 Costruzioni) La produzione di unità d'assedio costa il 20% di risorse in meno.\nLivello 5 (75 Costruzioni) Le unità su cammello attaccano il 20% più velocemente.",
    "t": "Età d'oro"
   },
   "ay-8": {

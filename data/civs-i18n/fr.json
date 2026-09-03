@@ -1636,7 +1636,7 @@
    "t": "Chantiers navals"
   },
   "ab-7": {
-   "d": "Tentez d'atteindre l'âge d'or de votre civilisation en améliorant l'économie et la technologie.\nLes bâtiments dans la zone d'influence de la Maison de la sagesse obtiennent +5 en armure de feu et contribuent à atteindre l'âge d'or. Les seuils de déverrouillage sont de 10, 30 et 60 bâtiments.\n• Rang 1 : +15 % de taux de collecte des villageois\n• Rang 2 : +20 % de vitesse de développement\n• Rang 3 : +20 % de taux de collecte des villageois pour toutes les ressources. +20 % de vitesse de développement. +20 % de vitesse de production.",
+   "d": "Niveau 1 (10 Bâtiments) +15 % de taux de collecte des villageois pour toutes les ressources.\nNiveau 2 (20 Bâtiments) +20 % à la vitesse de construction des bâtiments pour les villageois.\nNiveau 3 (30 Bâtiments) +15 % de dégâts pour les chameliers.\nNiveau 4 (50 Bâtiments) Les marchands génèrent +20 % d'or.\nNiveau 5 (75 Bâtiments) +10 % de dégâts pour l'infanterie de corps-à-corps.",
    "t": "Âge d'or"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Chantiers navals"
   },
   "ay-7": {
-   "d": "Bâtissez la voie vers l'âge d'or en améliorant votre économie, votre technologie et votre armée.\nLa résistance au feu des bâtiments construits dans la zone d'influence de la Maison de la sagesse augmente de +5 et contribue de 1 point à l'âge d'or. Les seuils de déblocage sont de 10, 20, 30, 50 et 75 bâtiments.\n• Niveau 1 : taux de collecte des villageois +10 %\n• Niveau 2 : vitesse de développement +25 %\n• Niveau 3 : vitesse de production +20 %\n• Niveau 4 : les unités de siège coûtent 20 % de ressources en moins à produire\n• Niveau 5 : les unités à chameaux attaquent 20 % plus vite.",
+   "d": "Niveau 1 (10 Bâtiments) +10 % de taux de collecte des villageois pour toutes les ressources.\nNiveau 2 (20 Bâtiments) Vitesse de développement +25 %\nNiveau 3 (30 Bâtiments) Vitesse de production +20 %\nNiveau 4 (50 Bâtiments) La production des unités de siège coûte 20 % de ressources en moins.\nNiveau 5 (75 Bâtiments) Les unités à chameaux attaquent 20 % plus rapidement.",
    "t": "Âge d'or"
   },
   "ay-8": {

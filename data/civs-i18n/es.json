@@ -1636,7 +1636,7 @@
    "t": "Astilleros"
   },
   "ab-7": {
-   "d": "Construye para acercarte a la Edad de Oro, lo que mejorará la economía y la tecnología.\nLos edificios que estén bajo la influencia de la Casa de la sabiduría reciben +5 de armadura contra el fuego y aportan un punto hacia la Edad de Oro. El umbral para los desbloqueos es de 10, 30 y 60 edificios.\n• Nivel 1: la velocidad de recolección de recursos de los aldeanos aumenta un 15 %\n• Nivel 2: aumenta la de velocidad de investigación un 20 %\n• Nivel 3: aumenta la velocidad de recolección de todos los recursos un 20 %. Aumenta la de velocidad de investigación un 20 %. Aumenta la velocidad de producción un 20 %.",
+   "d": "Nivel 1 (10 Edificios) La velocidad de recolección de los aldeanos aumenta un 15 % para todos los recursos.\nNivel 2 (20 Edificios) Villagers +20% construction rate of buildings.\nNivel 3 (30 Edificios) Camel Riders +15% damage.\nNivel 4 (50 Edificios) Traders generates +20% gold.\nNivel 5 (75 Edificios) Melee Infantry +10% damage.",
    "t": "Edad de oro"
   },
   "ab-8": {
@@ -1668,7 +1668,7 @@
    "t": "Astilleros"
   },
   "ay-7": {
-   "d": "Construye para acercarte a la Edad de Oro, lo que mejorará la economía, la tecnología y el ejército.\nLos edificios que estén bajo la influencia de la Casa de la sabiduría reciben +5 de armadura contra el fuego y aportan un punto hacia la Edad de Oro. El umbral para los desbloqueos es de 10, 20, 30, 50 y 75 edificios.\n• Nivel 1: la velocidad de recolección de recursos de los aldeanos aumenta un 10 %\n• Nivel 2: la velocidad de investigación aumenta un 25 %\n• Nivel 3: la velocidad de producción aumenta un 20 %\n• Nivel 4: producir unidades de asedio cuesta un 20 % menos de recursos\n• Nivel 5: las unidades de camellos atacan un 20 % más rápido.",
+   "d": "Nivel 1 (10 Edificios) La velocidad de recolección de los aldeanos aumenta un +10 % para todos los recursos.\nNivel 2 (20 Edificios) Velocidad de investigación +25 %\nNivel 3 (30 Edificios) Velocidad de producción +20 %\nNivel 4 (50 Edificios) Producir unidades de asedio cuesta un 20 % menos de recursos.\nNivel 5 (75 Edificios) Las unidades de camellos atacan un 20 % más rápido.",
    "t": "Edad de oro"
   },
   "ay-8": {
