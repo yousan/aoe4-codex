@@ -14,9 +14,9 @@ civ_jp, civ_en = CIV_JP.get(CIV, (CIV, CIV))
 COLS = [('barracks', '戦士育成所'), ('archery-range', '弓兵育成所'),
         ('stable', '騎兵育成所'), ('town-center', '町の中心')]
 COL_SLUGS = [c for c, _ in COLS]
-LANDMARK_JP = {'burgrave-palace': '城伯の宮殿', 'palace-of-swabia': 'シュヴァーベン宮殿',
+LANDMARK_JP = {'burgrave-palace': '城伯の宮殿', 'palace-of-swabia': 'シュヴァーベン宮',
                'regnitz-cathedral': 'レグニッツ大聖堂'}
-TIERS = ('黎明', '初期', '熟練', 'ベテラン', '精鋭')
+TIERS = ('黎明', '初期', '熟練', '古参', '精鋭')
 
 
 def primary(u):

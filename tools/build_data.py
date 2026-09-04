@@ -52,20 +52,20 @@ TERM_FALLBACK = {
 BUILDING_JP = {
     'town-center': '町の中心', 'capital-town-center': '町の中心（首都）',
     'barracks': '戦士育成所', 'archery-range': '弓兵育成所', 'stable': '騎兵育成所',
-    'siege-workshop': '攻囲兵器工房', 'dock': '港', 'monastery': '修道所',
-    'mosque': 'モスク', 'market': '市場', 'keep': '要塞', 'outpost': '前哨基地',
-    'military-school': '軍事学校', 'prayer-tent': '祈祷テント', 'ger': 'ゲル',
-    'pasture': '牧草地', 'farm': '農場', 'mill': '製粉所', 'blacksmith': '鍛冶場',
+    'siege-workshop': '攻城兵器工房', 'dock': '港', 'monastery': '修道所',
+    'mosque': 'モスク', 'market': '市場', 'keep': '砦', 'outpost': '前哨地',
+    'military-school': '軍学校', 'prayer-tent': '祈りのテント', 'ger': 'ゲル',
+    'pasture': '牧場', 'farm': '畑', 'mill': '粉ひき所', 'blacksmith': '鍛冶場',
     'university': '大学', 'madrasa': 'マドラサ', 'house-of-wisdom': '知恵の館',
     'castle': '城', 'wonder': '驚異',
 }
 # 歴史的建造物など（列にはしないが「＋」で併記する）
 LANDMARK_JP = {
-    'burgrave-palace': '城伯の宮殿', 'palace-of-swabia': 'シュヴァーベン宮殿',
-    'regnitz-cathedral': 'レグニッツ大聖堂', 'berkshire-palace': 'バークシャー宮殿',
-    'the-white-tower': 'ホワイトタワー', 'council-hall': '参事議事堂',
+    'burgrave-palace': '城伯の宮殿', 'palace-of-swabia': 'シュヴァーベン宮',
+    'regnitz-cathedral': 'レグニッツ大聖堂', 'berkshire-palace': 'バークシャー宮',
+    'the-white-tower': 'ホワイト タワー', 'council-hall': '参事会堂',
     'school-of-cavalry': '騎兵学校', 'red-palace': '赤の宮殿',
-    'the-royal-institute': '王立研究所', 'chamber-of-commerce': '商工会議所',
+    'royal-institute': '王立協会', 'chamber-of-commerce': '商工会議所',
 }
 
 # 列に出す施設の順番（右端に町の中心）
