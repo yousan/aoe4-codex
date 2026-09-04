@@ -12,9 +12,10 @@ CIV_JP = {'od': ('ドラゴン騎士団', 'Order of the Dragon')}
 name_jp, name_en = CIV_JP.get(CIV, (CIV, CIV))
 
 FAM_ORDER = ['a-inf', 'a-cav', 'a-camel', 'a-eleph', 'a-siege', 'a-ship', 'a-relig', 'a-worker']
-FAM_JP = {'a-inf': '歩兵', 'a-cav': '騎兵', 'a-camel': 'ラクダ', 'a-eleph': '象',
-          'a-siege': '攻城兵器', 'a-ship': '艦船', 'a-relig': '宗教', 'a-worker': '労働者',
-          '': 'その他'}
+# 属性名は aoe4lib.ATTR_JP（＝ゲーム本体のロケール）だけを出典にする。
+# ここに書き写していた頃は 攻囲→「攻城兵器」、らくだ→「ラクダ」と表示していた。
+FAM_JP = {k: L.ATTR_JP[k] for k in FAM_ORDER}
+FAM_JP[''] = 'その他'
 
 
 def family(u):

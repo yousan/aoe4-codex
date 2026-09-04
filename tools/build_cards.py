@@ -52,9 +52,9 @@ def jp_name(en):
 
 # ---------------------------------------------------------------- 属性
 ATTR_JP = {
-    'a-heavy': '重装', 'a-light': '軽装', 'a-melee': '近接', 'a-ranged': '遠隔',
-    'a-inf': '歩兵', 'a-cav': '騎兵', 'a-camel': 'ラクダ', 'a-eleph': '象',
-    'a-siege': '攻城兵器', 'a-ship': '艦船', 'a-worker': '労働者', 'a-relig': '宗教',
+    'a-heavy': '重', 'a-light': '軽', 'a-melee': '近接', 'a-ranged': '射撃',
+    'a-inf': '歩兵', 'a-cav': '騎兵', 'a-camel': 'らくだ', 'a-eleph': '象',
+    'a-siege': '攻囲', 'a-ship': '艦船', 'a-worker': '労働者', 'a-relig': '宗教',
     'a-gun': '火薬', 'a-massive': '巨大', 'a-scout': '斥候', 'a-spear': '槍兵',
     'a-xbow': '弩兵', 'a-bow': '弓兵',
 }
