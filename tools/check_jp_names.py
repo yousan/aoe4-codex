@@ -60,6 +60,32 @@ def check_tiers(problems):
                 f'tools/build_matrix.py:TIERS {t!r} で始まるユニットが1つも無い（誤訳？）')
 
 
+def check_aoe4lib(problems):
+    """aoe4lib はユニット名・属性名の第二の辞書を持っている（issue #40）。
+
+    jp_name() はロケールを先に引くようになったので表示には出ないが、辞書が
+    ズレたままだと「ロケールに無いユニット」が現れた瞬間に誤った名前が出る。
+    """
+    raw = json.loads((ROOT / 'data/locale-raw/ja.json').read_text())
+    for dict_name, section in [('BASE_JP', 'units'), ('ATTR_JP', 'terms')]:
+        for key, jp in load_dict('tools/aoe4lib.py', dict_name).items():
+            official = raw[section].get(key)
+            if official and official != jp:
+                problems.append(
+                    f'tools/aoe4lib.py:{dict_name} {key!r} = {jp!r} → 正: {official!r}')
+
+    # 接頭辞はロケールが一対一でない（Veteran=古参/古参の 等）ので、
+    # 「その日本語接頭辞が実際に使われているか」だけ見る。
+    src = (ROOT / 'tools/aoe4lib.py').read_text()
+    m = re.search(r'PREFIX_JP\s*=\s*(\[.*?\])', src, re.S)
+    for en, jp in ast.literal_eval(m.group(1)):
+        pairs = [(k, v) for k, v in raw['units'].items() if k.startswith(en)]
+        if pairs and not any(v.startswith(jp) for _, v in pairs):
+            problems.append(
+                f'tools/aoe4lib.py:PREFIX_JP {en.strip()!r} → {jp!r} で始まる'
+                f'ユニットが1つも無い（例: {pairs[0][1]}）')
+
+
 def main():
     problems = []
     locale = load_locale()
@@ -67,6 +93,7 @@ def main():
     check(locale, 'tools/build_data.py', 'LANDMARK_JP', problems)
     check(locale, 'tools/build_matrix.py', 'LANDMARK_JP', problems)
     check_tiers(problems)
+    check_aoe4lib(problems)
 
     if problems:
         print(f'ゲーム内表記とズレている箇所が {len(problems)} 件:\n')

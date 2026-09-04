@@ -39,34 +39,48 @@ IMG = 'https://data.aoe4world.com/images/units/'   # 元データ側のURL（接
 IMG_BASE = 'assets/units/'                          # 表示はリポジトリ内のミラーを使う
 
 # ---------------------------------------------------------------- 日本語名
-# 出典: AoE4攻略Wiki(AoE Haul) の日本語ユニット名 + ゲーム内表記
+# 一次情報はゲーム本体のロケール（data/locale-raw/ja.json）。jp_name() はまずこれを引き、
+# 載っていないものだけ下の手書きテーブルに落ちる。
+#
+# 手書き側を優先していた頃は、Veteran を「ベテラン」（正: 古参）、Prelate を
+# 「高位聖職者」（正: 司教）と表示していた。接頭辞の合成も、ロケールが
+# Veteran=古参/古参の、Elite=精鋭/エリート、Vanguard=黎明/前衛 のように
+# 一対一でないため原理的に当てられない。辞書を先に引かないこと。
+LOCALE_PATH = os.path.join(ROOT, 'data', 'locale-raw', 'ja.json')
+LOCALE_JP = {}
+if os.path.exists(LOCALE_PATH):
+    LOCALE_JP = json.load(open(LOCALE_PATH, encoding='utf-8')).get('units') or {}
+
+# ロケールに載っていないユニット用のフォールバック（出典: AoE4攻略Wiki(AoE Haul)）
 BASE_JP = {
-    'Villager': '農民', 'Imperial Official': '役人', 'Trader': '商人', 'Scout': '斥候',
+    'Villager': '町の人', 'Imperial Official': '官僚', 'Trader': '商人', 'Scout': '斥候',
     'Spearman': '槍兵', 'Man-at-Arms': '軍兵', 'Archer': '弓兵', 'Crossbowman': '弩兵',
     'Longbowman': 'ロングボウ兵', 'Handcannoneer': '砲撃手', 'Streltsy': 'ストレリツィ',
     'Horseman': '騎乗兵', 'Knight': '騎士', 'Lancer': '槍騎兵', 'Royal Knight': '近衛騎士',
-    'Camel Rider': 'らくだ騎兵', 'Camel Archer': 'らくだ弓兵', 'War Elephant': '戦象',
-    'Monk': '修道士', 'Prelate': '高位聖職者', 'Mangonel': '投石機',
-    'Springald': 'スプリンガルド', 'Battering Ram': '破城槌', 'Siege Tower': '攻城塔',
-    'Trebuchet': 'トレビュシェット', 'Counterweight Trebuchet': '平衡錘投石機',
+    'Camel Rider': 'らくだ騎兵', 'Camel Archer': 'らくだ弓騎兵', 'War Elephant': 'エレファント',
+    'Monk': '聖職者', 'Prelate': '司教', 'Mangonel': '投石機',
+    'Springald': '弩砲', 'Battering Ram': '破城槌', 'Siege Tower': '攻城塔',
+    'Trebuchet': 'トレビュシェット', 'Counterweight Trebuchet': '遠投投石機',
     'Culverin': 'カルバリン砲', 'Bombard': '射石砲',
     'Landsknecht': 'ランツクネヒト', 'Zhuge Nu': '諸葛弩兵', 'Palace Guard': '近衛兵',
-    'Sofa': 'ソファ', 'Donso': 'ドンソ', 'Javelin Thrower': '投槍兵', 'Sipahi': 'シパーヒー',
-    'Fire Lancer': '火炎槍騎兵', 'Galleass': 'ガレアス船', 'Fishing Boat': '漁船',
-    'Transport Ship': '輸送船', 'Trade Ship': '交易船', 'Arbalétrier': 'アーバトリエ',
-    'Musofadi Warrior': 'ムソファディ戦士', 'Mehter': 'メフテル', 'Samurai': '侍',
-    'Galley': 'ガレー船', 'Hulk': 'ハルク船', 'Demolition Ship': '爆破船',
-    'Carrack': 'カラック船', 'Baghlah': 'バグラ船', 'Dhow': 'ダウ船',
+    'Sofa': 'ソファ', 'Donso': 'ドンソ', 'Javelin Thrower': '槍投兵', 'Sipahi': 'シパーヒー',
+    'Fire Lancer': '火槍騎兵', 'Galleass': 'ガレアス船', 'Fishing Boat': '漁船',
+    'Transport Ship': '輸送船', 'Trade Ship': '交易船', 'Arbalétrier': 'アーバレトリエ',
+    'Musofadi Warrior': 'ムソファディ戦士', 'Mehter': 'メフテル', 'Samurai': '武士',
+    'Galley': 'ガレー船', 'Hulk': 'ハルク船', 'Demolition Ship': '爆破工作船',
+    'Carrack': 'キャラック船', 'Baghlah': 'バグラー船', 'Dhow': 'ダウ船',
 }
 # 公式日本語名を確認できなかったもの（仮訳）
-PROV = {'Carrack', 'Counterweight Trebuchet', 'Bombard'}
+PROV = set()   # ロケールから引けるようになったので仮訳は無し
 PROV_PREFIX = set()
 PREFIX_JP = [('Vanguard ', '黎明'), ('Early ', '初期'), ('Hardened ', '熟練'),
-             ('Veteran ', 'ベテラン'), ('Elite ', '精鋭'), ('Gilded ', '竜')]
+             ('Veteran ', '古参'), ('Elite ', '精鋭'), ('Gilded ', '竜')]
 
 
 def jp_name(en):
     """(日本語名 or None, 仮訳かどうか)"""
+    if en in LOCALE_JP:
+        return LOCALE_JP[en], False
     if en in BASE_JP:
         return BASE_JP[en], en in PROV
     for pre, jp in PREFIX_JP:
@@ -79,13 +93,19 @@ def jp_name(en):
 
 
 # ---------------------------------------------------------------- 属性
+# ユニット名と同じく、一次情報はロケールの terms。辞書はロケールに無い分だけ埋める。
+# 手書きのままだった頃は 射撃→「遠隔」、攻囲→「攻城兵器」、らくだ→「ラクダ」、
+# 軽/重→「軽装/重装」と、ゲーム内と違う属性名を出していた。
 ATTR_JP = {
-    'a-heavy': '重装', 'a-light': '軽装', 'a-melee': '近接', 'a-ranged': '遠隔',
-    'a-inf': '歩兵', 'a-cav': '騎兵', 'a-camel': 'ラクダ', 'a-eleph': '象',
-    'a-siege': '攻城兵器', 'a-ship': '艦船', 'a-worker': '労働者', 'a-relig': '宗教',
+    'a-heavy': '重', 'a-light': '軽', 'a-melee': '近接', 'a-ranged': '射撃',
+    'a-inf': '歩兵', 'a-cav': '騎兵', 'a-camel': 'らくだ', 'a-eleph': '象',
+    'a-siege': '攻囲', 'a-ship': '艦船', 'a-worker': '労働者', 'a-relig': '宗教',
     'a-gun': '火薬', 'a-massive': '巨大', 'a-scout': '斥候', 'a-spear': '槍兵',
     'a-xbow': '弩兵', 'a-bow': '弓兵',
 }
+if os.path.exists(LOCALE_PATH):
+    _terms = json.load(open(LOCALE_PATH, encoding='utf-8')).get('terms') or {}
+    ATTR_JP.update({k: v for k, v in _terms.items() if k in ATTR_JP})
 LIGHT_TOKENS = ('light', 'infantry_light', 'cavalry_light',
                 'light_melee_infantry', 'light_gunpowder_infantry')
 
